@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664198830029,
+  "lastUpdate": 1664203619886,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -323,6 +323,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 32924587,
             "range": "± 393231",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61c1ab8c649c06979e91bbb34cced0643ed09d1e",
+          "message": "feat: minimum rspack builder implementation (#780)\n\n* chore: split command\r\n\r\n* chore: split dev-middleware\r\n\r\n* chore: add missigin api for rspack-builder\r\n\r\n* chore: fix compile problem\r\n\r\n* chore: add dev command",
+          "timestamp": "2022-09-26T22:39:54+08:00",
+          "tree_id": "194357d37813b9a161d8eb603591ace9d0229349",
+          "url": "https://github.com/speedy-js/rspack/commit/61c1ab8c649c06979e91bbb34cced0643ed09d1e"
+        },
+        "date": 1664203616998,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61530426,
+            "range": "± 2076423",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 32935287,
+            "range": "± 433554",
             "unit": "ns/iter"
           }
         ]
