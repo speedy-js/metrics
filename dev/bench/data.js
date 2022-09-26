@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664188750343,
+  "lastUpdate": 1664189166193,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -179,6 +179,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 33697061,
             "range": "± 419056",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b8b458b2ec4a03f0e79a8d65c16c9f06f326280",
+          "message": "feat: swc packages version sync (#772)\n\n* feat: swc packages version sync\r\n\r\n* test: add rust dependency check when ci\r\n\r\n* feat: use node18 native fetch\r\n\r\n* doc: format CONTRIBUTING.md\r\n\r\n* feat: add check_rust_dependency & update_swc_version to command",
+          "timestamp": "2022-09-26T18:38:24+08:00",
+          "tree_id": "e04925f7973d879d0c8c28d6f96e4f5e67d23d57",
+          "url": "https://github.com/speedy-js/rspack/commit/3b8b458b2ec4a03f0e79a8d65c16c9f06f326280"
+        },
+        "date": 1664189163498,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61665394,
+            "range": "± 1762040",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 32392100,
+            "range": "± 456365",
             "unit": "ns/iter"
           }
         ]
