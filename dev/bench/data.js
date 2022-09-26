@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664180343682,
+  "lastUpdate": 1664182268827,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -107,6 +107,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 33781431,
             "range": "± 417631",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "14626c2d1a84a552d3a8b0d1a977e0b26872a25f",
+          "message": "feat: add source map for css and sass file (#763)\n\n* feat: add source map for css file\r\n\r\n* fix lint\r\n\r\n* remove sass source map test\r\n\r\n* remove unused dep\r\n\r\n* fix: createSource by buffer from loader result\r\n\r\n* css codegen swith to Vec<u8>\r\n\r\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2022-09-26T16:39:52+08:00",
+          "tree_id": "2cd9827de33b44892509963fe5713f2b81bf321f",
+          "url": "https://github.com/speedy-js/rspack/commit/14626c2d1a84a552d3a8b0d1a977e0b26872a25f"
+        },
+        "date": 1664182266490,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60939766,
+            "range": "± 1790579",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 33748215,
+            "range": "± 379868",
             "unit": "ns/iter"
           }
         ]
