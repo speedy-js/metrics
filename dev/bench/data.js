@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664195067538,
+  "lastUpdate": 1664198830029,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -287,6 +287,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 32712630,
             "range": "± 437417",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8615b45a238f60e9edb0df716205a2f9ac119f39",
+          "message": "chore: Add bench script to compare our performance against to esbuild  (#782)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 copy of three git repo\r\n\r\n* chore: 🤖 remove ten copy\r\n\r\n* chore: 🤖 rename three to .three avoid test\r\n\r\n* chore: 🤖 remove redundant file\r\n\r\n* chore: 🤖 remove .d.tsx\r\n\r\n* chore: 🤖 remove d.ts\r\n\r\n* chore: 🤖 finish bench script\r\n\r\n* chore: 🤖 recover lto\r\n\r\n* chore: 🤖 add webpack benchmark\r\n\r\n* chore: 🤖 use better allocator in benchmark",
+          "timestamp": "2022-09-26T21:18:41+08:00",
+          "tree_id": "9c150096e6c02ec9ef970a31c51fac4e40d624da",
+          "url": "https://github.com/speedy-js/rspack/commit/8615b45a238f60e9edb0df716205a2f9ac119f39"
+        },
+        "date": 1664198827537,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62076643,
+            "range": "± 1635937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 32924587,
+            "range": "± 393231",
             "unit": "ns/iter"
           }
         ]
