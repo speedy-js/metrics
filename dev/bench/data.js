@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664172806746,
+  "lastUpdate": 1664180343682,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -71,6 +71,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 34356846,
             "range": "± 620646",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4fd8d96291c1971885b11234c126090dfea94d5",
+          "message": "Chore/bench script (#774)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 copy of three git repo\r\n\r\n* chore: 🤖 remove ten copy\r\n\r\n* chore: 🤖 fix ci\r\n\r\n* chore: 🤖 rename script\r\n\r\n* chore: 🤖 rename three to .three avoid test\r\n\r\n* chore: 🤖 remove redundant file\r\n\r\n* chore: 🤖 remove .d.tsx\r\n\r\n* chore: 🤖 remove d.ts",
+          "timestamp": "2022-09-26T16:11:26+08:00",
+          "tree_id": "9800469923babb7a9a9cf48284e06b86354cc2e4",
+          "url": "https://github.com/speedy-js/rspack/commit/a4fd8d96291c1971885b11234c126090dfea94d5"
+        },
+        "date": 1664180341133,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62067272,
+            "range": "± 1773272",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 33781431,
+            "range": "± 417631",
             "unit": "ns/iter"
           }
         ]
