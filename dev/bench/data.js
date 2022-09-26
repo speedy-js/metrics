@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664170238853,
+  "lastUpdate": 1664172806746,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35,6 +35,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 34332340,
             "range": "± 335177",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "889b5d4ddd7dbc10a8900013142a29bd1d942e37",
+          "message": "perf: uri parser (#769)\n\n* chore: 🤖 try\r\n\r\n* chore: 🤖 revert cargo.toml\r\n\r\n* chore: 🤖 lint",
+          "timestamp": "2022-09-26T14:05:50+08:00",
+          "tree_id": "3b0fd8a6b418b51ea1053f3e0328651e0f17610f",
+          "url": "https://github.com/speedy-js/rspack/commit/889b5d4ddd7dbc10a8900013142a29bd1d942e37"
+        },
+        "date": 1664172805323,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62461483,
+            "range": "± 1847459",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 34356846,
+            "range": "± 620646",
             "unit": "ns/iter"
           }
         ]
