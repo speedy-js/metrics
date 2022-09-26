@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664192230275,
+  "lastUpdate": 1664195067538,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -251,6 +251,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 32743235,
             "range": "± 364092",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "18245019206@163.com",
+            "name": "dadadadida",
+            "username": "liuliudada-w"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa0ad1667272250d6dadb99c9c8dd4b7eb67c96e",
+          "message": "Feat/dynamic multiple (#781)\n\n* feat: dynamic import multiple chunks\r\n\r\n* chore: update fixture",
+          "timestamp": "2022-09-26T20:15:56+08:00",
+          "tree_id": "888cc20ae44f3e074cdc91a8961afec83c49660d",
+          "url": "https://github.com/speedy-js/rspack/commit/aa0ad1667272250d6dadb99c9c8dd4b7eb67c96e"
+        },
+        "date": 1664195065682,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62209189,
+            "range": "± 1960810",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 32712630,
+            "range": "± 437417",
             "unit": "ns/iter"
           }
         ]
