@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664182268827,
+  "lastUpdate": 1664188750343,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -143,6 +143,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 33748215,
             "range": "± 379868",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6080088cbe2a54b4d92bc3d07096d3b9806f5c81",
+          "message": "fix: sourcemap for minify (#777)\n\n* fix: sourcemap for minify\r\n\r\n* clean",
+          "timestamp": "2022-09-26T18:31:27+08:00",
+          "tree_id": "ef7102362ec4ec2a2b610474c1eea9a9569ce943",
+          "url": "https://github.com/speedy-js/rspack/commit/6080088cbe2a54b4d92bc3d07096d3b9806f5c81"
+        },
+        "date": 1664188749507,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61731568,
+            "range": "± 1604629",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 33697061,
+            "range": "± 419056",
             "unit": "ns/iter"
           }
         ]
