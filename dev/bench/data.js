@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664189166193,
+  "lastUpdate": 1664192230275,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -215,6 +215,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 32392100,
             "range": "± 456365",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f6aad4ae1dc3982a761c0e571499fbac6b82d37",
+          "message": "ci: 🎡 fix ci broken (#783)\n\n* ci: 🎡 fix ci broken\r\n\r\nBREAKING CHANGE: 🧨 [\r\n\r\n* chore: 🤖 update path error",
+          "timestamp": "2022-09-26T19:30:08+08:00",
+          "tree_id": "a4133a48eccb3664eae8321faf36c0a8833a4927",
+          "url": "https://github.com/speedy-js/rspack/commit/9f6aad4ae1dc3982a761c0e571499fbac6b82d37"
+        },
+        "date": 1664192228486,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62353588,
+            "range": "± 1722903",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 32743235,
+            "range": "± 364092",
             "unit": "ns/iter"
           }
         ]
