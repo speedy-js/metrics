@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664251049040,
+  "lastUpdate": 1664262108954,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -395,6 +395,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 33199657,
             "range": "± 568445",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99665b952fa2ba0f65dc4b02376024904fc97531",
+          "message": "chore: fix bench error when in debug mode (#790)\n\nchore: fix bench in debug mode",
+          "timestamp": "2022-09-27T14:54:35+08:00",
+          "tree_id": "36872b81f5d12d820e1a28b70b1322f159322c19",
+          "url": "https://github.com/speedy-js/rspack/commit/99665b952fa2ba0f65dc4b02376024904fc97531"
+        },
+        "date": 1664262107895,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62963423,
+            "range": "± 1999651",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 33300582,
+            "range": "± 482347",
             "unit": "ns/iter"
           }
         ]
