@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664271125077,
+  "lastUpdate": 1664276084812,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -467,6 +467,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 33473842,
             "range": "± 471330",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9c46096f167c56d525345dce87ab658bf1a2b86",
+          "message": "chore: add tracing for bench (#791)\n\n* chore: add tracing for bench\r\n\r\n* chore: replace runtime env with compile env\r\n\r\n* chore: enable tracing by tracing feature\r\n\r\n* chore: add bench readme\r\n\r\n* chore: fix napi binding\r\n\r\n* chore: disable event tracing",
+          "timestamp": "2022-09-27T18:47:25+08:00",
+          "tree_id": "b98d1c1c2127f4b0b532095a2d64d13ca8498bf1",
+          "url": "https://github.com/speedy-js/rspack/commit/c9c46096f167c56d525345dce87ab658bf1a2b86"
+        },
+        "date": 1664276082511,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63622254,
+            "range": "± 3060906",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 34540075,
+            "range": "± 484079",
             "unit": "ns/iter"
           }
         ]
