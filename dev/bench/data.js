@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664203619886,
+  "lastUpdate": 1664251049040,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -359,6 +359,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 32935287,
             "range": "± 433554",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "889dffe93a1908043e840db8c6f265788e4f80c3",
+          "message": "chore: fix bench ci (#786)\n\n* chore: fix bench ci\r\n\r\n* chore: add flamegraph\r\n\r\n* chore: fix makefile",
+          "timestamp": "2022-09-27T11:50:13+08:00",
+          "tree_id": "314d466373e93b7d7e873acb7a1a1d678583c26d",
+          "url": "https://github.com/speedy-js/rspack/commit/889dffe93a1908043e840db8c6f265788e4f80c3"
+        },
+        "date": 1664251047828,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62766052,
+            "range": "± 1923455",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 33199657,
+            "range": "± 568445",
             "unit": "ns/iter"
           }
         ]
