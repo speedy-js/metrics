@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664348514410,
+  "lastUpdate": 1664378191072,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -611,6 +611,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 35464345,
             "range": "± 516008",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "3f2d440fc4cf5fa1047807795c7fa4edef6f7361",
+          "message": "feat(rspack_core): add `ResolverFactory` in `CompilerContext`",
+          "timestamp": "2022-09-28T23:09:12+08:00",
+          "tree_id": "318b120dfb96665b325d8b114617d3ed09fbddc3",
+          "url": "https://github.com/speedy-js/rspack/commit/3f2d440fc4cf5fa1047807795c7fa4edef6f7361"
+        },
+        "date": 1664378189916,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66031452,
+            "range": "± 2624890",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 35563101,
+            "range": "± 997046",
             "unit": "ns/iter"
           }
         ]
