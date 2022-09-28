@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664378191072,
+  "lastUpdate": 1664382813950,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -647,6 +647,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 35563101,
             "range": "± 997046",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e3f1cc817954d5d540b1023db1e34e11c0bc69e0",
+          "message": "refactor: align module with normal module (#787)",
+          "timestamp": "2022-09-29T00:25:54+08:00",
+          "tree_id": "b73ffe8935f2377ea67bb34d5fe62aa5dcafdb7d",
+          "url": "https://github.com/speedy-js/rspack/commit/e3f1cc817954d5d540b1023db1e34e11c0bc69e0"
+        },
+        "date": 1664382811046,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64487775,
+            "range": "± 5492016",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 35578592,
+            "range": "± 762007",
             "unit": "ns/iter"
           }
         ]
