@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664422699336,
+  "lastUpdate": 1664428717356,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -755,6 +755,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 37620456,
             "range": "± 504599",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f4c19ead33f64a88aa68c6c4f44e24b79cb058d",
+          "message": "refactor(crates): replace `Arc<PluginDriver>` with `Arc<RwLock<PluginDriver>>` (#770)\n\n* refactor(crates): using Arc<RwLock<PluginDriver>> to replace Arc<PluginDriver>\r\n\r\n* Fix bindding\r\n\r\n* Fix test\r\n\r\n* Fix test",
+          "timestamp": "2022-09-29T13:01:46+08:00",
+          "tree_id": "cf1f95d476b99506d2fa4181569fef8dbc147566",
+          "url": "https://github.com/speedy-js/rspack/commit/1f4c19ead33f64a88aa68c6c4f44e24b79cb058d"
+        },
+        "date": 1664428715969,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67718361,
+            "range": "± 1929524",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 38141993,
+            "range": "± 488620",
             "unit": "ns/iter"
           }
         ]
