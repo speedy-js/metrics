@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664382813950,
+  "lastUpdate": 1664417409977,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -683,6 +683,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 35578592,
             "range": "± 762007",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04f18c10aa22b85e08557a49e451728cbcd1fb28",
+          "message": "feat: more devtool options (#784)\n\n* init options\r\n\r\n* lots of options\r\n\r\n* fix test\r\n\r\n* make map paralla\r\n\r\n* fix cr\r\n\r\n* fix confict",
+          "timestamp": "2022-09-29T10:02:43+08:00",
+          "tree_id": "650d950ea694a306a21a3d7cc10fb01bce27a449",
+          "url": "https://github.com/speedy-js/rspack/commit/04f18c10aa22b85e08557a49e451728cbcd1fb28"
+        },
+        "date": 1664417408372,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67691294,
+            "range": "± 1905222",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 38531290,
+            "range": "± 737731",
             "unit": "ns/iter"
           }
         ]
