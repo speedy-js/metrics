@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664417409977,
+  "lastUpdate": 1664422699336,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -719,6 +719,42 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 38531290,
             "range": "± 737731",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca5380c20b27ed195a57d68e210409225f191613",
+          "message": "chore: on-demand compile tokio, reduce compile time. (#796)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 revert parking_lot",
+          "timestamp": "2022-09-29T11:29:28+08:00",
+          "tree_id": "32aa98dc2b131597f6808857dfd0c5cdaec7f282",
+          "url": "https://github.com/speedy-js/rspack/commit/ca5380c20b27ed195a57d68e210409225f191613"
+        },
+        "date": 1664422697422,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66316265,
+            "range": "± 1968565",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 37620456,
+            "range": "± 504599",
             "unit": "ns/iter"
           }
         ]
