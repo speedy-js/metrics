@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664458949739,
+  "lastUpdate": 1664524628309,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -875,6 +875,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 1219111,
             "range": "± 987023",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2044a09d83e528bf93c68f60f8779b1826e250de",
+          "message": "refactor: move module creation to compilation level (#801)",
+          "timestamp": "2022-09-30T15:35:53+08:00",
+          "tree_id": "660b2e3923b23cf9e29e08e1b6dce5233c940796",
+          "url": "https://github.com/speedy-js/rspack/commit/2044a09d83e528bf93c68f60f8779b1826e250de"
+        },
+        "date": 1664524627986,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64981554,
+            "range": "± 1894897",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 36601152,
+            "range": "± 606380",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 1286156,
+            "range": "± 359373",
             "unit": "ns/iter"
           }
         ]
