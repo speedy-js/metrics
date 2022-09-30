@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664524628309,
+  "lastUpdate": 1664526718619,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -917,6 +917,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 1286156,
             "range": "± 359373",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "553c5fa4339f5d91875da9a0d9119640e34e638f",
+          "message": "chore: 🤖 revert wrong make file (#807)",
+          "timestamp": "2022-09-30T16:22:07+08:00",
+          "tree_id": "6760003ddea7bf821c1c01802d65768be3b900db",
+          "url": "https://github.com/speedy-js/rspack/commit/553c5fa4339f5d91875da9a0d9119640e34e638f"
+        },
+        "date": 1664526718373,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64290406,
+            "range": "± 1893444",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 36739713,
+            "range": "± 662306",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 1358623197,
+            "range": "± 68556834",
             "unit": "ns/iter"
           }
         ]
