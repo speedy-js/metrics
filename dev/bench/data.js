@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665235777778,
+  "lastUpdate": 1665238443539,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1085,6 +1085,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 1335098391,
             "range": "± 29673808",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "053099a6db43d6b8d264ed0e5a9976a5bb872809",
+          "message": "refactor(rspack-core): rebuild api in rspack compiler",
+          "timestamp": "2022-10-08T22:00:34+08:00",
+          "tree_id": "987732cf8d84b91758ad43038b5a97d981902de6",
+          "url": "https://github.com/speedy-js/rspack/commit/053099a6db43d6b8d264ed0e5a9976a5bb872809"
+        },
+        "date": 1665238440824,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 100450028,
+            "range": "± 5322884",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 68105615,
+            "range": "± 6314104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 1323774586,
+            "range": "± 25906259",
             "unit": "ns/iter"
           }
         ]
