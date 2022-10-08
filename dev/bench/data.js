@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665214068236,
+  "lastUpdate": 1665234991267,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1001,6 +1001,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 2691547572,
             "range": "± 226087227",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b013fdb8173215079324081bf06f444c1087980",
+          "message": "Split tracing (#818)\n\n* chore: add tracing\r\n\r\n* chore: split tracing package\r\n\r\n* chore: fix tracing",
+          "timestamp": "2022-10-08T21:02:52+08:00",
+          "tree_id": "70cf98f865d87c9cb562258499f7ac660c2de01b",
+          "url": "https://github.com/speedy-js/rspack/commit/2b013fdb8173215079324081bf06f444c1087980"
+        },
+        "date": 1665234988736,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 104236833,
+            "range": "± 6755937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 68499023,
+            "range": "± 6068276",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 1308718025,
+            "range": "± 24419642",
             "unit": "ns/iter"
           }
         ]
