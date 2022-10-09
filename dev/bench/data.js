@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665302360385,
+  "lastUpdate": 1665310500215,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1169,6 +1169,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 1247972737,
             "range": "± 50180785",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3d68c5d21e66b821c0d49c1242e962d1b51f746d",
+          "message": "Fix: 🤖 fix bash escape issue on mac (#824)\n\nchore: 🤖 fix escape issue on mac",
+          "timestamp": "2022-10-09T18:01:30+08:00",
+          "tree_id": "67f1bce7af07a1adee6fec8560a397ecd5834f47",
+          "url": "https://github.com/speedy-js/rspack/commit/3d68c5d21e66b821c0d49c1242e962d1b51f746d"
+        },
+        "date": 1665310497567,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 95572961,
+            "range": "± 5551360",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71201760,
+            "range": "± 6761418",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 1235185676,
+            "range": "± 80343211",
             "unit": "ns/iter"
           }
         ]
