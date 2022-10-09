@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665238443539,
+  "lastUpdate": 1665302360385,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1127,6 +1127,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 1323774586,
             "range": "± 25906259",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "881550c6d83f5692cdda1260997b46915c92df2f",
+          "message": "bench: change allocator (#822)\n\nchore: 🤖 init",
+          "timestamp": "2022-10-09T15:46:10+08:00",
+          "tree_id": "008af0c955fb89e2fdd98f27897866ae4b6af6b9",
+          "url": "https://github.com/speedy-js/rspack/commit/881550c6d83f5692cdda1260997b46915c92df2f"
+        },
+        "date": 1665302357808,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 97650055,
+            "range": "± 7771511",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69345566,
+            "range": "± 4412577",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 1247972737,
+            "range": "± 50180785",
             "unit": "ns/iter"
           }
         ]
