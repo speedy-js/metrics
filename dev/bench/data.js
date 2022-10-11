@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665310500215,
+  "lastUpdate": 1665457891928,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1211,6 +1211,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 1235185676,
             "range": "± 80343211",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47ef717494b2be76e529c0262b0e72a99d47261b",
+          "message": "feat: add size of normal module (#826)",
+          "timestamp": "2022-10-11T09:57:05+08:00",
+          "tree_id": "6c921e9177cdf7af284f16d7be5f63f90428ed14",
+          "url": "https://github.com/speedy-js/rspack/commit/47ef717494b2be76e529c0262b0e72a99d47261b"
+        },
+        "date": 1665457889655,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 114323690,
+            "range": "± 12382931",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 72208255,
+            "range": "± 5626746",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 1291915744,
+            "range": "± 106206287",
             "unit": "ns/iter"
           }
         ]
