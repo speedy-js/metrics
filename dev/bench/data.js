@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665475198832,
+  "lastUpdate": 1665497662036,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1295,6 +1295,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 927102298,
             "range": "± 20794592",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "73d3236170a76d6eaf1a5446636264231e6b8c90",
+          "message": "Chore/format toml and enable CI checking (#832)\n\n* chore: 🤖 format toml\r\n\r\n* chore: 🤖 add ci format toml checking\r\n\r\n* chore: 🤖 vscode extension",
+          "timestamp": "2022-10-11T22:01:27+08:00",
+          "tree_id": "26721970a4101a312a737232befbece6b12a339b",
+          "url": "https://github.com/speedy-js/rspack/commit/73d3236170a76d6eaf1a5446636264231e6b8c90"
+        },
+        "date": 1665497659404,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 88021819,
+            "range": "± 7594952",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 58645827,
+            "range": "± 3196083",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 933124542,
+            "range": "± 17037723",
             "unit": "ns/iter"
           }
         ]
