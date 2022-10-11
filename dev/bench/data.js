@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665457891928,
+  "lastUpdate": 1665475198832,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1253,6 +1253,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 1291915744,
             "range": "± 106206287",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "22881060ebed6fdf02b2329687625f3c444bfc57",
+          "message": "perf: reduce lock contention (#809)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 recover parking_lot\r\n\r\n* chore: 🤖 recover lto\r\n\r\n* chore: 🤖 clippy\r\n\r\n* chore: 🤖 revert anyhow features\r\n\r\n* chore: 🤖 revert tokio fs\r\n\r\n* chore: 🤖 cr issues\r\n\r\n* chore: 🤖 clippy",
+          "timestamp": "2022-10-11T15:47:31+08:00",
+          "tree_id": "532b52c2784cc46e137a47c8eadfe8febd61d4e6",
+          "url": "https://github.com/speedy-js/rspack/commit/22881060ebed6fdf02b2329687625f3c444bfc57"
+        },
+        "date": 1665475196357,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 68242609,
+            "range": "± 1905974",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 60675827,
+            "range": "± 1827107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 927102298,
+            "range": "± 20794592",
             "unit": "ns/iter"
           }
         ]
