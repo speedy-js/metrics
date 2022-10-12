@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665582103673,
+  "lastUpdate": 1665583518732,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1379,6 +1379,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 760898735,
             "range": "± 9128362",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4d735276ec242c50b9372ab176406923d1fe6d5b",
+          "message": "feat: add `eval-*` source map (#806)",
+          "timestamp": "2022-10-12T21:57:09+08:00",
+          "tree_id": "a59abbc581eedc134becfecf26ce9d48145ed672",
+          "url": "https://github.com/speedy-js/rspack/commit/4d735276ec242c50b9372ab176406923d1fe6d5b"
+        },
+        "date": 1665583516881,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 53996579,
+            "range": "± 1203585",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83316132,
+            "range": "± 1332643",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 744969762,
+            "range": "± 9034611",
             "unit": "ns/iter"
           }
         ]
