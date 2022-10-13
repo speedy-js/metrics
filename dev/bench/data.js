@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665647770054,
+  "lastUpdate": 1665653862880,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1589,6 +1589,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 739443000,
             "range": "± 9636469",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f411a3ada44f322ce8330e5a5c43b2fa0e3e4f4e",
+          "message": "chore: lint staged toml (#844)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 init\r\n\r\n* chore: 🤖 revert",
+          "timestamp": "2022-10-13T17:32:18+08:00",
+          "tree_id": "ac098b70244c02561ecea234857f853e74c3afb0",
+          "url": "https://github.com/speedy-js/rspack/commit/f411a3ada44f322ce8330e5a5c43b2fa0e3e4f4e"
+        },
+        "date": 1665653860904,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 56118928,
+            "range": "± 1390092",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83788230,
+            "range": "± 919958",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 775728579,
+            "range": "± 10805154",
             "unit": "ns/iter"
           }
         ]
