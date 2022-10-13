@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665645524136,
+  "lastUpdate": 1665647770054,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1547,6 +1547,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 779092822,
             "range": "± 9684526",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfc7da1676bd963d3896f7c7073caffeb39af7e2",
+          "message": "refactor: split compiler & compilation & rspack (#839)\n\n* refactor: split compiler & compilation & rspack\r\n\r\n* chore: alias webpack\r\n\r\n* chore: fix test\r\n\r\n* chore: swich node version to 16",
+          "timestamp": "2022-10-13T15:50:50+08:00",
+          "tree_id": "05b472d457dbb5bd307efada7eb16897500854a9",
+          "url": "https://github.com/speedy-js/rspack/commit/bfc7da1676bd963d3896f7c7073caffeb39af7e2"
+        },
+        "date": 1665647768248,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 53666807,
+            "range": "± 1655514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82200343,
+            "range": "± 1026088",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 739443000,
+            "range": "± 9636469",
             "unit": "ns/iter"
           }
         ]
