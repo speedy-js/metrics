@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665642497976,
+  "lastUpdate": 1665645524136,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1505,6 +1505,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 756198367,
             "range": "± 10090568",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04d3b0b32171d5c254f48854a6905dc371e956ae",
+          "message": "chore: 🤖 disable lto (#843)",
+          "timestamp": "2022-10-13T15:13:24+08:00",
+          "tree_id": "f6ce1e4e087734123f97cde32bf989e21943769a",
+          "url": "https://github.com/speedy-js/rspack/commit/04d3b0b32171d5c254f48854a6905dc371e956ae"
+        },
+        "date": 1665645522339,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 56068026,
+            "range": "± 1849471",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 84037444,
+            "range": "± 1127377",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 779092822,
+            "range": "± 9684526",
             "unit": "ns/iter"
           }
         ]
