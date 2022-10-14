@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665728905530,
+  "lastUpdate": 1665731463587,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1673,6 +1673,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 789198529,
             "range": "± 11377894",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2636bffa0664cb96ef85f09aaec36bbde2a33fc3",
+          "message": "chore: 🤖 swicth default branch to main (#849)",
+          "timestamp": "2022-10-14T15:05:55+08:00",
+          "tree_id": "40a387320a72556c590070266fd682e5fdcbb862",
+          "url": "https://github.com/speedy-js/rspack/commit/2636bffa0664cb96ef85f09aaec36bbde2a33fc3"
+        },
+        "date": 1665731461721,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 53844110,
+            "range": "± 1845072",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 81949573,
+            "range": "± 1103993",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 738384257,
+            "range": "± 9767507",
             "unit": "ns/iter"
           }
         ]
