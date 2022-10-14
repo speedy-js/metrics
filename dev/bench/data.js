@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665732682818,
+  "lastUpdate": 1665737002299,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1757,6 +1757,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 774202685,
             "range": "± 11509600",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "3c54bbaf53fb37d02896edecdd1085b8d0be4829",
+          "message": "feat(rspack-core): rebuild return diff modules",
+          "timestamp": "2022-10-14T16:38:07+08:00",
+          "tree_id": "c80e178e56e85b73b99ed4ca749552feed60652a",
+          "url": "https://github.com/speedy-js/rspack/commit/3c54bbaf53fb37d02896edecdd1085b8d0be4829"
+        },
+        "date": 1665737000469,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 53435534,
+            "range": "± 1482193",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82023401,
+            "range": "± 897204",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 742648972,
+            "range": "± 9386463",
             "unit": "ns/iter"
           }
         ]
