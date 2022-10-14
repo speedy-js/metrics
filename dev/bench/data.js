@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665731463587,
+  "lastUpdate": 1665732682818,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1715,6 +1715,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 738384257,
             "range": "± 9767507",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "26fbf151ada4cb997a1a46989bc154f2557d0947",
+          "message": "Migrate config test (#851)\n\n* chore: add test for default config\r\n\r\n* chore: migrate default config test",
+          "timestamp": "2022-10-14T15:26:07+08:00",
+          "tree_id": "3afd6e9bfff4178b669faba820b6aa1a4cebf9b0",
+          "url": "https://github.com/speedy-js/rspack/commit/26fbf151ada4cb997a1a46989bc154f2557d0947"
+        },
+        "date": 1665732680974,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 55928381,
+            "range": "± 1203496",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83705365,
+            "range": "± 994024",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 774202685,
+            "range": "± 11509600",
             "unit": "ns/iter"
           }
         ]
