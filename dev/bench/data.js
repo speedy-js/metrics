@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665737002299,
+  "lastUpdate": 1665987222157,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1799,6 +1799,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 742648972,
             "range": "± 9386463",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "174b19f33512e11f21325038e4d4daf86f032be7",
+          "message": "feat: return error when resolve encount alias",
+          "timestamp": "2022-10-17T14:08:37+08:00",
+          "tree_id": "7a82e3246dbce5235427fda658f676cd5d35b5be",
+          "url": "https://github.com/speedy-js/rspack/commit/174b19f33512e11f21325038e4d4daf86f032be7"
+        },
+        "date": 1665987220288,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 54062676,
+            "range": "± 1581748",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 81843803,
+            "range": "± 942827",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 739810215,
+            "range": "± 9551802",
             "unit": "ns/iter"
           }
         ]
