@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666090508662,
+  "lastUpdate": 1666096125814,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1967,6 +1967,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 782335155,
             "range": "± 8202122",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3a6ba1167494f75f60805db96289f0680fb03e87",
+          "message": "feat: add AssetInfo on CompilationAsset (#853)",
+          "timestamp": "2022-10-18T20:23:26+08:00",
+          "tree_id": "e1eabc6880ccf49bf8aa612cb2892adc1f75dd6c",
+          "url": "https://github.com/speedy-js/rspack/commit/3a6ba1167494f75f60805db96289f0680fb03e87"
+        },
+        "date": 1666096123806,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61182489,
+            "range": "± 1142113",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 81984649,
+            "range": "± 1106375",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 745007357,
+            "range": "± 7823778",
             "unit": "ns/iter"
           }
         ]
