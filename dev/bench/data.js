@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666022132317,
+  "lastUpdate": 1666090185313,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1883,6 +1883,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 741688918,
             "range": "± 9411647",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "137c67f675bfff5016bd491d17662d0a8e43f03d",
+          "message": "fix: port compiler test (#854)\n\n* chore: port compiler test\r\n\r\n* chore: remove unnecessary logs\r\n\r\n* chore: fix test",
+          "timestamp": "2022-10-18T18:44:27+08:00",
+          "tree_id": "2b382ca85da720bcfa62e995c710a370dbeb641c",
+          "url": "https://github.com/speedy-js/rspack/commit/137c67f675bfff5016bd491d17662d0a8e43f03d"
+        },
+        "date": 1666090183476,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 56089616,
+            "range": "± 1234083",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82987508,
+            "range": "± 1316278",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 777902873,
+            "range": "± 10678071",
             "unit": "ns/iter"
           }
         ]
