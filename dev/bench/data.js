@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666097338656,
+  "lastUpdate": 1666150967937,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2051,6 +2051,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 756752192,
             "range": "± 7454472",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44df1b4a860d09a481ab330aa53ab475a7b8cfb4",
+          "message": "feat(rspack_plugin_javascript): use swc low-level visitor (#847)",
+          "timestamp": "2022-10-19T11:37:34+08:00",
+          "tree_id": "15f479e102ad3d0cf40f315f65057929b79ea226",
+          "url": "https://github.com/speedy-js/rspack/commit/44df1b4a860d09a481ab330aa53ab475a7b8cfb4"
+        },
+        "date": 1666150965674,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57205341,
+            "range": "± 1163345",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83195723,
+            "range": "± 1114076",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 771276357,
+            "range": "± 8701784",
             "unit": "ns/iter"
           }
         ]
