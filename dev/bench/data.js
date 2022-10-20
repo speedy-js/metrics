@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666264610201,
+  "lastUpdate": 1666265577814,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2429,6 +2429,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 793451048,
             "range": "± 9517449",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e249fac867b28bcab4cca09a456ba938c5de66f",
+          "message": "refactor(node-binding): class representation (#876)\n\n* refactor(node-binding): init\r\n\r\n* feat: migrate build and rebuild\r\n\r\n* feat: apply changes to packages\r\n\r\n* chore: rearrange and cleanup",
+          "timestamp": "2022-10-20T19:27:35+08:00",
+          "tree_id": "70868675d88a56c03e173d3dae0c00b297e9348b",
+          "url": "https://github.com/speedy-js/rspack/commit/4e249fac867b28bcab4cca09a456ba938c5de66f"
+        },
+        "date": 1666265575981,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60269945,
+            "range": "± 975508",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83808766,
+            "range": "± 1174438",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 800913888,
+            "range": "± 9052092",
             "unit": "ns/iter"
           }
         ]
