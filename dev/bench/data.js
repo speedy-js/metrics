@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666265577814,
+  "lastUpdate": 1666267748125,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2471,6 +2471,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 800913888,
             "range": "± 9052092",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "81b618b5d54be7daa989f1bc278b63820645c233",
+          "message": "fix: add applyOptionsDefault logic (#871)\n\n* fix: add applyOptionsDefault logic\r\n\r\n* chore: fix bin path\r\n\r\n* chore: fix logger\r\n\r\n* chore: fix ci",
+          "timestamp": "2022-10-20T20:03:45+08:00",
+          "tree_id": "562157fe9e4e73603721aa7dc75533721b3866da",
+          "url": "https://github.com/speedy-js/rspack/commit/81b618b5d54be7daa989f1bc278b63820645c233"
+        },
+        "date": 1666267746066,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60299370,
+            "range": "± 1678104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 86273475,
+            "range": "± 1309565",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 804557661,
+            "range": "± 9130790",
             "unit": "ns/iter"
           }
         ]
