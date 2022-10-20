@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666235915873,
+  "lastUpdate": 1666240932104,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2261,6 +2261,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 764261591,
             "range": "± 7402637",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1233460d9844381eaa05ef433172abedb1c3c54b",
+          "message": "feat(error): support napi (#873)",
+          "timestamp": "2022-10-20T12:36:57+08:00",
+          "tree_id": "32cfc038dff516e352a43294b2e4436d85ac8423",
+          "url": "https://github.com/speedy-js/rspack/commit/1233460d9844381eaa05ef433172abedb1c3c54b"
+        },
+        "date": 1666240930261,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57473652,
+            "range": "± 1272249",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83003825,
+            "range": "± 1157105",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 768788487,
+            "range": "± 7953989",
             "unit": "ns/iter"
           }
         ]
