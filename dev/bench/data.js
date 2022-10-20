@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666233669201,
+  "lastUpdate": 1666234445733,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2177,6 +2177,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 761015082,
             "range": "± 8101961",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "efacc0c49313ab2c25043a7154173e67f48fa31a",
+          "message": "refactor(node-binding): sweeten binding DX (#864)\n\n* refactor: init\r\n\r\n* feat: impl async\r\n\r\n* feat: done hook\r\n\r\n* feat: process asset hook\r\n\r\n* chore: cleanup\r\n\r\n* feat: loaders\r\n\r\n* chore: cleanup\r\n\r\n* chore: cleanup more\r\n\r\n* feat: unref as external data are not dropped\r\n\r\n* chore: add comment\r\n\r\n* feat: tsfn\r\n\r\n* feat: impl tsfn sugar\r\n\r\n* feat: simplify more apis\r\n\r\n* chore: cleanup\r\n\r\n* chore: cleanup more\r\n\r\n* chore: comment",
+          "timestamp": "2022-10-20T10:48:47+08:00",
+          "tree_id": "01ee76f21ebe7005e6b548df033c8a72880d6852",
+          "url": "https://github.com/speedy-js/rspack/commit/efacc0c49313ab2c25043a7154173e67f48fa31a"
+        },
+        "date": 1666234443551,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59476224,
+            "range": "± 1368145",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82925106,
+            "range": "± 1202937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 781677569,
+            "range": "± 8094478",
             "unit": "ns/iter"
           }
         ]
