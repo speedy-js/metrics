@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666234445733,
+  "lastUpdate": 1666235915873,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2219,6 +2219,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 781677569,
             "range": "± 8094478",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65cfdbb456840df8dca89e0601c138dcec13326a",
+          "message": "feat: add sourcemap for less plugin and postcss plugin (#859)\n\n* feat: add sourcemap for less and postcss plugin\r\n\r\n* add type\r\n\r\n* cleanup\r\n\r\n* fix cr\r\n\r\n* fix",
+          "timestamp": "2022-10-20T11:13:24+08:00",
+          "tree_id": "8ff0ac635c606876f1475dcdafde34ffa028f125",
+          "url": "https://github.com/speedy-js/rspack/commit/65cfdbb456840df8dca89e0601c138dcec13326a"
+        },
+        "date": 1666235914085,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57044116,
+            "range": "± 1066337",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82182785,
+            "range": "± 1104715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 764261591,
+            "range": "± 7402637",
             "unit": "ns/iter"
           }
         ]
