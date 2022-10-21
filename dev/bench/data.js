@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666325093422,
+  "lastUpdate": 1666343830598,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2597,6 +2597,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 758669215,
             "range": "± 9262154",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f55ee5ffa445ecfccadfd368cf12c2f2a473cc3d",
+          "message": "chore: add tracing for rust binding (#884)",
+          "timestamp": "2022-10-21T17:11:56+08:00",
+          "tree_id": "c87c108a181d375a9efa6c9fe82c4b3b06e8d51c",
+          "url": "https://github.com/speedy-js/rspack/commit/f55ee5ffa445ecfccadfd368cf12c2f2a473cc3d"
+        },
+        "date": 1666343828760,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60378109,
+            "range": "± 1265609",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82751570,
+            "range": "± 1212289",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 794261844,
+            "range": "± 9956014",
             "unit": "ns/iter"
           }
         ]
