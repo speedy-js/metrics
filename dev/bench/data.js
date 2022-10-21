@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666270925697,
+  "lastUpdate": 1666325093422,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2555,6 +2555,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 759523586,
             "range": "± 8945073",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12d1719696ae26b7f1a44ab55ecf55f23002ef79",
+          "message": "feat(sass-loader): resolve options inherit from user resolve options (#866)\n\n* add it\r\n\r\n* delete todo\r\n\r\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2022-10-21T11:59:48+08:00",
+          "tree_id": "4bcd2885ac192d64ad87c5105b1072c37585f48b",
+          "url": "https://github.com/speedy-js/rspack/commit/12d1719696ae26b7f1a44ab55ecf55f23002ef79"
+        },
+        "date": 1666325091562,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57487991,
+            "range": "± 1249379",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 81511656,
+            "range": "± 958177",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 758669215,
+            "range": "± 9262154",
             "unit": "ns/iter"
           }
         ]
