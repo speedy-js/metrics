@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666600908547,
+  "lastUpdate": 1666605911022,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2765,6 +2765,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 804101429,
             "range": "± 8955788",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d398501fdbe41b3086e3d2b7a59e139575dbcb40",
+          "message": "fix: broken ci caused by #886 (#890)\n\n* fix: broken ci caused by #886\r\n\r\n* update snapshot\r\n\r\n* fix rebased",
+          "timestamp": "2022-10-24T17:59:58+08:00",
+          "tree_id": "bccee31a6c7b2b04c5337c675935657502d553ed",
+          "url": "https://github.com/speedy-js/rspack/commit/d398501fdbe41b3086e3d2b7a59e139575dbcb40"
+        },
+        "date": 1666605908896,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61079920,
+            "range": "± 1618896",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82744632,
+            "range": "± 1257023",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 766939781,
+            "range": "± 9201401",
             "unit": "ns/iter"
           }
         ]
