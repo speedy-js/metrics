@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666584223724,
+  "lastUpdate": 1666596706078,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2681,6 +2681,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 768121390,
             "range": "± 8727309",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "292f79a27d0c3e539000094b6b388504e1501f74",
+          "message": "feat: stats fields for bundle-analyzer (#886)\n\n* feat: stats fields for bundle-analyzer\r\n\r\n* rebase test snapshot path\r\n\r\n* delete slate comments",
+          "timestamp": "2022-10-24T15:26:37+08:00",
+          "tree_id": "f83f94de00a9c6d48a37cdd471104e3c3d9c1aae",
+          "url": "https://github.com/speedy-js/rspack/commit/292f79a27d0c3e539000094b6b388504e1501f74"
+        },
+        "date": 1666596704194,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57529846,
+            "range": "± 1199771",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82511737,
+            "range": "± 1015347",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 764248292,
+            "range": "± 7643571",
             "unit": "ns/iter"
           }
         ]
