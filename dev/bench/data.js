@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666596706078,
+  "lastUpdate": 1666600908547,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2723,6 +2723,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 764248292,
             "range": "± 7643571",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "75ae6f6a45af30c459124d00447ec4d89b3c0349",
+          "message": "feat: esm interop helper to runtime (#887)\n\n* feat: esm interop helper to runtime\r\n\r\n* fix: inject runtime cache logic bug",
+          "timestamp": "2022-10-24T16:36:28+08:00",
+          "tree_id": "ea1b8aba07dfc3bbf9f050ad58fe5bfd46b9f7ea",
+          "url": "https://github.com/speedy-js/rspack/commit/75ae6f6a45af30c459124d00447ec4d89b3c0349"
+        },
+        "date": 1666600906712,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63360718,
+            "range": "± 1194892",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83822234,
+            "range": "± 970521",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 804101429,
+            "range": "± 8955788",
             "unit": "ns/iter"
           }
         ]
