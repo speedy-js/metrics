@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666605911022,
+  "lastUpdate": 1666678910735,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2807,6 +2807,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 766939781,
             "range": "± 9201401",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "4d4bab5d63782bc0dba34869f058955f3d73fb7c",
+          "message": "feat(core): support ignore module",
+          "timestamp": "2022-10-25T14:16:43+08:00",
+          "tree_id": "d7c00aca1ce92d694ff7f67e7942a6dc117d6944",
+          "url": "https://github.com/speedy-js/rspack/commit/4d4bab5d63782bc0dba34869f058955f3d73fb7c"
+        },
+        "date": 1666678908846,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61347519,
+            "range": "± 1223957",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82398221,
+            "range": "± 1230467",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 761642324,
+            "range": "± 8854898",
             "unit": "ns/iter"
           }
         ]
