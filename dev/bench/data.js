@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666678910735,
+  "lastUpdate": 1666680844446,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2849,6 +2849,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 761642324,
             "range": "± 8854898",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "68c408dbdb994b47942fc9bed51fbdf532638bd1",
+          "message": "feat: add more hooks to compiler (#880)\n\n* refactor: add more compilation hooks\r\n\r\n* chore: fix compiler\r\n\r\n* chore: change to callback\r\n\r\n* chore: callbackify\r\n\r\n* chore: add more test\r\n\r\n* chore: remove dbg\r\n\r\n* chore: fix error",
+          "timestamp": "2022-10-25T14:48:54+08:00",
+          "tree_id": "65477e74f529b1a9e1410972de95476f642c0ce7",
+          "url": "https://github.com/speedy-js/rspack/commit/68c408dbdb994b47942fc9bed51fbdf532638bd1"
+        },
+        "date": 1666680842498,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61274714,
+            "range": "± 1589016",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82388357,
+            "range": "± 942471",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 764906218,
+            "range": "± 7735814",
             "unit": "ns/iter"
           }
         ]
