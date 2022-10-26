@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666771691715,
+  "lastUpdate": 1666797995149,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3017,6 +3017,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 800394422,
             "range": "± 8219810",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0e5c76bec149a2028ede54bd42623691632608e",
+          "message": "Support polyfill builtins (#905)\n\n* fix: fix watch broken\r\n\r\n* feat: support auto external node builtins\r\n\r\n* chore: update snapshot\r\n\r\n* chore: fix polyfillBuiltins test\r\n\r\n* chore: fix node-externals\r\n\r\n* chore: remove debugger\r\n\r\nCo-authored-by: underfin <likui6666666@gmail.com>\r\n\r\nCo-authored-by: underfin <likui6666666@gmail.com>",
+          "timestamp": "2022-10-26T23:21:27+08:00",
+          "tree_id": "ab01f3c248f98ba4a3d1eeeab51b6f772ef46682",
+          "url": "https://github.com/speedy-js/rspack/commit/d0e5c76bec149a2028ede54bd42623691632608e"
+        },
+        "date": 1666797993254,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61268027,
+            "range": "± 1305219",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82712597,
+            "range": "± 1120884",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 770259674,
+            "range": "± 9351646",
             "unit": "ns/iter"
           }
         ]
