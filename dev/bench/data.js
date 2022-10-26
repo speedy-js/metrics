@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666756515777,
+  "lastUpdate": 1666771691715,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2975,6 +2975,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 767219054,
             "range": "± 9067613",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d79bef981481e44b852f60ce9f8197c91ff35378",
+          "message": "feat: implement basic bundle splitting (#821)\n\n* save\r\n\r\n* Add options\r\n\r\n* Save\r\n\r\n* Save\r\n\r\n* Add options\r\n\r\n* Save\r\n\r\n* Fix error\r\n\r\n* Add test\r\n\r\n* Remove comments\r\n\r\n* Fix clippy\r\n\r\n* Improve\r\n\r\n* Shims\r\n\r\n* Add js test\r\n\r\n* Fix test\r\n\r\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2022-10-26T16:02:50+08:00",
+          "tree_id": "a9de5d8a431d360ccac37fe3d9b749387895e2bf",
+          "url": "https://github.com/speedy-js/rspack/commit/d79bef981481e44b852f60ce9f8197c91ff35378"
+        },
+        "date": 1666771688827,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63330723,
+            "range": "± 1297225",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 84534107,
+            "range": "± 1078967",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 800394422,
+            "range": "± 8219810",
             "unit": "ns/iter"
           }
         ]
