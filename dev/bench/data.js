@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666680844446,
+  "lastUpdate": 1666755703110,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2891,6 +2891,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 764906218,
             "range": "± 7735814",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9507b515d5925f4a731d6f66937f2dda0f633ec8",
+          "message": "fix: fix problems when try to publish rspack-cli (#899)\n\n* chore: simplify release flow\r\n\r\n* chore: modify basic example",
+          "timestamp": "2022-10-26T11:36:28+08:00",
+          "tree_id": "2e7f4b71487cb4164b200bd870bf489417f43f26",
+          "url": "https://github.com/speedy-js/rspack/commit/9507b515d5925f4a731d6f66937f2dda0f633ec8"
+        },
+        "date": 1666755701249,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61152905,
+            "range": "± 1375201",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83352383,
+            "range": "± 1181703",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 768823276,
+            "range": "± 7844876",
             "unit": "ns/iter"
           }
         ]
