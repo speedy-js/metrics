@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666755703110,
+  "lastUpdate": 1666756515777,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2933,6 +2933,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 768823276,
             "range": "± 7844876",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffb70137414381804471c2d44e55296cb4b15e1f",
+          "message": "fix(sass-loader): options with additional data (#895)",
+          "timestamp": "2022-10-26T11:50:02+08:00",
+          "tree_id": "cf9ad6a23c391d542bc8318fc0f8e2c6e94c93c3",
+          "url": "https://github.com/speedy-js/rspack/commit/ffb70137414381804471c2d44e55296cb4b15e1f"
+        },
+        "date": 1666756513667,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61256577,
+            "range": "± 1272556",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 82638883,
+            "range": "± 1351547",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 767219054,
+            "range": "± 9067613",
             "unit": "ns/iter"
           }
         ]
