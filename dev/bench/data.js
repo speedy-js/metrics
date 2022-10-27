@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666849937886,
+  "lastUpdate": 1666851146970,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3143,6 +3143,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 790313437,
             "range": "± 7740413",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "69ace814bbd08e02b17297940970adcf88d56d74",
+          "message": "feat: add progress plugin (#888)",
+          "timestamp": "2022-10-27T14:07:16+08:00",
+          "tree_id": "ad24356ca64dac50e80723ce89f105b104f1f834",
+          "url": "https://github.com/speedy-js/rspack/commit/69ace814bbd08e02b17297940970adcf88d56d74"
+        },
+        "date": 1666851145073,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61230675,
+            "range": "± 1279876",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 83530949,
+            "range": "± 1029653",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 768533517,
+            "range": "± 8047122",
             "unit": "ns/iter"
           }
         ]
