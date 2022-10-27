@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666862310829,
+  "lastUpdate": 1666868536169,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3353,6 +3353,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 804409004,
             "range": "± 9573138",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4fdbf9e3705f84d5b948fbd18ebf749552a247e",
+          "message": "refactor(node-binding): make binding safer and easier to use (#907)\n\n* refactor: init binding ref\r\n\r\n* feat: support compilation\r\n\r\n* feat: add emit asset\r\n\r\n* chore: cleanup\r\n\r\n* chore: make compilation safer\r\n\r\n* chore: restore napi mark up\r\n\r\n* chore: polish wordings\r\n\r\n* refactor: use dashmap to for worker thread\r\n\r\n* chore: add comment for dashmap\r\n\r\n* chore: fmt",
+          "timestamp": "2022-10-27T18:56:50+08:00",
+          "tree_id": "d44356fb7e8412cc6f31bb6380977eeeb1e81b5d",
+          "url": "https://github.com/speedy-js/rspack/commit/d4fdbf9e3705f84d5b948fbd18ebf749552a247e"
+        },
+        "date": 1666868534307,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63535162,
+            "range": "± 1475359",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79006881,
+            "range": "± 1022398",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 798373102,
+            "range": "± 8417998",
             "unit": "ns/iter"
           }
         ]
