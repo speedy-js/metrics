@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666842957262,
+  "lastUpdate": 1666849937886,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3101,6 +3101,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 787461651,
             "range": "± 8765742",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e87d0d8f56f33090fb4d406c4cdb77e84842f53",
+          "message": "feat: integrate bundle-analyzer in cli (#896)\n\n* feat: integrate bundle-analyzer in cli\r\n\r\n* cleaup\r\n\r\n* fix conflict",
+          "timestamp": "2022-10-27T13:46:56+08:00",
+          "tree_id": "2bd9b50e3f23a7ebeb6e6c3418b055afee6e9353",
+          "url": "https://github.com/speedy-js/rspack/commit/1e87d0d8f56f33090fb4d406c4cdb77e84842f53"
+        },
+        "date": 1666849936012,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61976162,
+            "range": "± 1195224",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 84939201,
+            "range": "± 1095592",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 790313437,
+            "range": "± 7740413",
             "unit": "ns/iter"
           }
         ]
