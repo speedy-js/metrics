@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666861980827,
+  "lastUpdate": 1666862310829,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3311,6 +3311,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 766672004,
             "range": "± 7154422",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "737c28a55f91dc0e0e4beba39906e0aef5b4a5ac",
+          "message": "fix: fix minify not working in build (#925)",
+          "timestamp": "2022-10-27T17:11:23+08:00",
+          "tree_id": "d2e104993f1db37a5b1ba16cdea03a932f3cffba",
+          "url": "https://github.com/speedy-js/rspack/commit/737c28a55f91dc0e0e4beba39906e0aef5b4a5ac"
+        },
+        "date": 1666862308723,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63623943,
+            "range": "± 1421496",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 78257077,
+            "range": "± 1159114",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 804409004,
+            "range": "± 9573138",
             "unit": "ns/iter"
           }
         ]
