@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666797995149,
+  "lastUpdate": 1666842957262,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3059,6 +3059,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 770259674,
             "range": "± 9351646",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0506e929c43846a9e26c1fc1c3f5746fe66ed73",
+          "message": "fix: export star helper bug (#908)\n\n* fix: export star helper bug\r\n\r\n* fix: ci\r\n\r\n* fix: cr\r\n\r\nCo-authored-by: h-a-n-a <andywangsy@gmail.com>",
+          "timestamp": "2022-10-27T11:50:39+08:00",
+          "tree_id": "618489516531c568d6c744080b4e2dbbee8ae140",
+          "url": "https://github.com/speedy-js/rspack/commit/e0506e929c43846a9e26c1fc1c3f5746fe66ed73"
+        },
+        "date": 1666842955349,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61789549,
+            "range": "± 1023417",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 85145719,
+            "range": "± 1176964",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 787461651,
+            "range": "± 8765742",
             "unit": "ns/iter"
           }
         ]
