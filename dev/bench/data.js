@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666883293161,
+  "lastUpdate": 1666887253417,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3521,6 +3521,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 798216086,
             "range": "± 8395011",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db9345ded08a0abd1454dd99d5489baeb8432695",
+          "message": "feat: constant folding for make (#933)\n\n* feat: add dead branch remover for build\r\n\r\n* feat: update configs\r\n\r\n* test: add constant folding test\r\n\r\n* chore: comment",
+          "timestamp": "2022-10-28T00:09:00+08:00",
+          "tree_id": "e4cf9669880de17819f4add15fdd340ec973f6d3",
+          "url": "https://github.com/speedy-js/rspack/commit/db9345ded08a0abd1454dd99d5489baeb8432695"
+        },
+        "date": 1666887251528,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61124794,
+            "range": "± 1239630",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77531788,
+            "range": "± 1193921",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 758707329,
+            "range": "± 6025639",
             "unit": "ns/iter"
           }
         ]
