@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666851146970,
+  "lastUpdate": 1666852008173,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3185,6 +3185,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 768533517,
             "range": "± 8047122",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0111b7cb34622116d2c7e537e9a8dd03e44bf6db",
+          "message": "feat: tree shaking (#882)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 basic resolve\r\n\r\n* chore: 🤖 resolve export named\r\n\r\n* chore: 🤖 export\r\n\r\n* chore: 🤖 checkpoint\r\n\r\n* chore: 🤖 export function and class\r\n\r\n* chore: 🤖 rebase main\r\n\r\n* chore: 🤖 remove some unused code\r\n\r\n* chore: 🤖 add import map\r\n\r\n* chore: 🤖 add current region\r\n\r\n* chore: 🤖 rebase main\r\n\r\n* chore: 🤖 visit_decl\r\n\r\n* chore: 🤖 save global to access ctxt.outer_mark\r\n\r\n* chore: 🤖 add reference map\r\n\r\n* chore: 🤖 better id\r\n\r\n* chore: 🤖 record reference relation\r\n\r\n* chore: 🤖 record local var\r\n\r\n* chore: 🤖 import map use betterid as key\r\n\r\n* chore: 🤖 finish reachable_import_of_export\r\n\r\n* chore: 🤖 tweak for bench\r\n\r\n* chore: 🤖 revert emit_error\r\n\r\n* chore: 🤖 remove unused dbg\r\n\r\n* chore: 🤖 finish collect analyze result\r\n\r\n* chore: 🤖 basic finish\r\n\r\n* chore: 🤖 recover main branch\r\n\r\n* chore: 🤖 used symbol\r\n\r\n* chore: 🤖 make test pass\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 add tree_shaking options\r\n\r\n* chore: 🤖 used import or reachable import start from used symbol\r\n\r\n* fix: 🐛 export decl dvar\r\n\r\n* chore: 🤖 finish basic test case\r\n\r\n* test: 💍 add export default tree-shaking\r\n\r\n* fix: 🐛 export_default_expr unwrap\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 fix bench compie\r\n\r\n* refactor: 💡 refacotr\r\n\r\n* refactor: 💡 refactor\r\n\r\n* chore: 🤖 refactor\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 fix unpossible branch\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 remove debug\r\n\r\n* chore: 🤖 code clean up\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 naming convention\r\n\r\n* chore: 🤖 fix node binding test",
+          "timestamp": "2022-10-27T14:21:37+08:00",
+          "tree_id": "ce9de94e508013f9a2cd87f7c58517a5ad55861a",
+          "url": "https://github.com/speedy-js/rspack/commit/0111b7cb34622116d2c7e537e9a8dd03e44bf6db"
+        },
+        "date": 1666852006359,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61130711,
+            "range": "± 1274341",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76841836,
+            "range": "± 1088818",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 767183674,
+            "range": "± 8003279",
             "unit": "ns/iter"
           }
         ]
