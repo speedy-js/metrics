@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666945453885,
+  "lastUpdate": 1666947678009,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3773,6 +3773,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 761330229,
             "range": "± 7383588",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb1f68fe48c5cb12bf81154707cd7a7f0dfd18f0",
+          "message": "feat: add title/meta/favicon for html(close: #927) (#951)",
+          "timestamp": "2022-10-28T16:55:57+08:00",
+          "tree_id": "c244ada70726c4737c6cb8e3332ba91664faaf38",
+          "url": "https://github.com/speedy-js/rspack/commit/eb1f68fe48c5cb12bf81154707cd7a7f0dfd18f0"
+        },
+        "date": 1666947675876,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61029683,
+            "range": "± 1153757",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76951676,
+            "range": "± 1132952",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 760086757,
+            "range": "± 7260534",
             "unit": "ns/iter"
           }
         ]
