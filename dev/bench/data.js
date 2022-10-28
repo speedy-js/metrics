@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666937589528,
+  "lastUpdate": 1666945453885,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3731,6 +3731,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 763455053,
             "range": "± 6933009",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4245a78058fd3f9547fafb10f200664324d6c9e3",
+          "message": "feat: shorten stats module.name (#948)\n\n* feat: shorten stats module.name\r\n\r\n* clean\r\n\r\n* Update crates/rspack_core/src/normal_module_factory.rs\r\n\r\nCo-authored-by: Hana <andywangsy@gmail.com>\r\n\r\n* lint\r\n\r\nCo-authored-by: Hana <andywangsy@gmail.com>",
+          "timestamp": "2022-10-28T16:18:44+08:00",
+          "tree_id": "19355207e2247d6c129ee1bc69ade12cf42e8cb5",
+          "url": "https://github.com/speedy-js/rspack/commit/4245a78058fd3f9547fafb10f200664324d6c9e3"
+        },
+        "date": 1666945451838,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61260180,
+            "range": "± 1398360",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77174982,
+            "range": "± 1116882",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 761330229,
+            "range": "± 7383588",
             "unit": "ns/iter"
           }
         ]
