@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666887253417,
+  "lastUpdate": 1666919143075,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3563,6 +3563,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 758707329,
             "range": "± 6025639",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd25e9e3596f5f4412b168c75223629dbaa610e6",
+          "message": "chore: skip husky prepare in ci (#940)\n\nchore: fix husky prepare problem",
+          "timestamp": "2022-10-28T09:00:28+08:00",
+          "tree_id": "db07145be42a7bec5feb76d113b5d52b2d28ec94",
+          "url": "https://github.com/speedy-js/rspack/commit/cd25e9e3596f5f4412b168c75223629dbaa610e6"
+        },
+        "date": 1666919141144,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62213560,
+            "range": "± 1264082",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77610359,
+            "range": "± 1078720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 778519075,
+            "range": "± 6713782",
             "unit": "ns/iter"
           }
         ]
