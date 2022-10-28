@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666928066098,
+  "lastUpdate": 1666937589528,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3689,6 +3689,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 761240216,
             "range": "± 6555240",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74c0249efb42b6774f678275d99aed245bb81c0a",
+          "message": "fix: lock rebuild to avoid undefined behaviors (#942)\n\n* fix: rebuilding should be locked\r\n\r\n* chore: mark as unsafe\r\n\r\n* chore: type\r\n\r\n* chore: polish comment\r\n\r\n* fix: timer",
+          "timestamp": "2022-10-28T14:07:35+08:00",
+          "tree_id": "27483b4b6df4e4e5be1bf6fc0c4dd91c2abba490",
+          "url": "https://github.com/speedy-js/rspack/commit/74c0249efb42b6774f678275d99aed245bb81c0a"
+        },
+        "date": 1666937571584,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61003744,
+            "range": "± 1186851",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76941023,
+            "range": "± 1028538",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 763455053,
+            "range": "± 6933009",
             "unit": "ns/iter"
           }
         ]
