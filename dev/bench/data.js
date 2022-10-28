@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666951755722,
+  "lastUpdate": 1666952118211,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3899,6 +3899,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 782450866,
             "range": "± 7460595",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "8f20a8bcf85afb37ddcb73a5ab84216474f03870",
+          "message": "fix(rspack): only add pending files when build not finished",
+          "timestamp": "2022-10-28T18:09:49+08:00",
+          "tree_id": "93bb9dab9c54a3dbcb27069f408d7e779a0af267",
+          "url": "https://github.com/speedy-js/rspack/commit/8f20a8bcf85afb37ddcb73a5ab84216474f03870"
+        },
+        "date": 1666952115745,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61754264,
+            "range": "± 1269926",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 78052158,
+            "range": "± 1286137",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 779688169,
+            "range": "± 7010395",
             "unit": "ns/iter"
           }
         ]
