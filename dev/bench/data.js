@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666952118211,
+  "lastUpdate": 1666957063795,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3941,6 +3941,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 779688169,
             "range": "± 7010395",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "865637578e91ed694e15a85629540d497efe4b8a",
+          "message": "Fix protoc (#960)\n\n* chore: fix binding\r\n\r\n* chore: fix protoc",
+          "timestamp": "2022-10-28T19:32:22+08:00",
+          "tree_id": "397a00936c5daeb804c6ba1d29978df6fc1dd511",
+          "url": "https://github.com/speedy-js/rspack/commit/865637578e91ed694e15a85629540d497efe4b8a"
+        },
+        "date": 1666957061919,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61728262,
+            "range": "± 1064287",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77935428,
+            "range": "± 907571",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 778548073,
+            "range": "± 8136759",
             "unit": "ns/iter"
           }
         ]
