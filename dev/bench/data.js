@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667009455096,
+  "lastUpdate": 1667020825638,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4067,6 +4067,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 762060952,
             "range": "± 6854099",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6ec12c61d9c892ec1cab6ef413d9b66af85ceab",
+          "message": "feat: add stats fields for bundle-stats (#956)\n\n* feat: add stats fields for bundle-stats\r\n\r\n* fmt",
+          "timestamp": "2022-10-29T13:14:58+08:00",
+          "tree_id": "6196884fd36094defd8ee842f801c1471d05ee53",
+          "url": "https://github.com/speedy-js/rspack/commit/a6ec12c61d9c892ec1cab6ef413d9b66af85ceab"
+        },
+        "date": 1667020823673,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 62676785,
+            "range": "± 1453453",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 78185739,
+            "range": "± 1124206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 794203523,
+            "range": "± 7748872",
             "unit": "ns/iter"
           }
         ]
