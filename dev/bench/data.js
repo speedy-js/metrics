@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667187860856,
+  "lastUpdate": 1667197205803,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4151,6 +4151,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 759035697,
             "range": "± 6754739",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c1f84c0e4bd3dc479c49f3c6ad13ef8df83c6eb",
+          "message": "feat: additional data for less-loader (#964)",
+          "timestamp": "2022-10-31T14:14:50+08:00",
+          "tree_id": "84c2e07dce1e5ed6aab6e7efca284f95bd52affd",
+          "url": "https://github.com/speedy-js/rspack/commit/8c1f84c0e4bd3dc479c49f3c6ad13ef8df83c6eb"
+        },
+        "date": 1667197203887,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60608524,
+            "range": "± 1567479",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76965433,
+            "range": "± 1055115",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 756585659,
+            "range": "± 5723268",
             "unit": "ns/iter"
           }
         ]
