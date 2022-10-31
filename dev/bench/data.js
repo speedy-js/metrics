@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667197205803,
+  "lastUpdate": 1667206058717,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4193,6 +4193,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 756585659,
             "range": "± 5723268",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49b542d50b9b53688b3ab324d4d7c7186f8de6cd",
+          "message": "refactor(crates): Remove `Chunk#kind` field (#930)\n\n* refactor(crates): Remove `Chunk#kind` field\r\n\r\n* Fix and remove duplicate runtime snaptshot tests\r\n\r\n* Fix tests\r\n\r\n* Skip js test",
+          "timestamp": "2022-10-31T16:42:20+08:00",
+          "tree_id": "6d73be36773ffb9dd1060d51259072945722c78f",
+          "url": "https://github.com/speedy-js/rspack/commit/49b542d50b9b53688b3ab324d4d7c7186f8de6cd"
+        },
+        "date": 1667206056810,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60714870,
+            "range": "± 1114509",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77356074,
+            "range": "± 1210488",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 761929871,
+            "range": "± 5942338",
             "unit": "ns/iter"
           }
         ]
