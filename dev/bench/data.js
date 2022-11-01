@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667273713462,
+  "lastUpdate": 1667280624906,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4319,6 +4319,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 784693893,
             "range": "± 6200179",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "25d8bc1a727bade2dff366136e86b5b9ee785d5e",
+          "message": "fix: schedule error (#952)\n\n* fix: fix gracefully shutdown\r\n\r\n* chore: early bail out\r\n\r\n* chore: handle more cases\r\n\r\n* chore: allow needless return\r\n\r\n* chore: debug assertion\r\n\r\n* chore: more assertions\r\n\r\n* chore: use seqcst\r\n\r\n* chore: better tracing\r\n\r\n* chore: assert\r\n\r\n* chore: stage\r\n\r\n* fix: schedule\r\n\r\n* feat: block in place\r\n\r\n* chore: remove debug assertion\r\n\r\n* chore: order\r\n\r\n* chore: cleanup\r\n\r\n* chore: fmt\r\n\r\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2022-11-01T13:25:10+08:00",
+          "tree_id": "deea960bbb408bb16de92981a18dc5e15decbbfc",
+          "url": "https://github.com/speedy-js/rspack/commit/25d8bc1a727bade2dff366136e86b5b9ee785d5e"
+        },
+        "date": 1667280623001,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60357837,
+            "range": "± 1230564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74746587,
+            "range": "± 1408837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 754406547,
+            "range": "± 11031820",
             "unit": "ns/iter"
           }
         ]
