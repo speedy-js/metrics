@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667291176807,
+  "lastUpdate": 1667295329959,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4487,6 +4487,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 758952781,
             "range": "± 11196986",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0985f40a33aaccd9c2f259217714c688407dfda4",
+          "message": "fix: support html meta object (#970)",
+          "timestamp": "2022-11-01T17:30:06+08:00",
+          "tree_id": "81e5fb50ff6a131bddf81b3ae8fe38df879b12de",
+          "url": "https://github.com/speedy-js/rspack/commit/0985f40a33aaccd9c2f259217714c688407dfda4"
+        },
+        "date": 1667295328058,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61451461,
+            "range": "± 1067577",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76395610,
+            "range": "± 1042169",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 779622078,
+            "range": "± 11838962",
             "unit": "ns/iter"
           }
         ]
