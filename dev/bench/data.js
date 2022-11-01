@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667280624906,
+  "lastUpdate": 1667280944618,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4361,6 +4361,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 754406547,
             "range": "± 11031820",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49a2b83b608778545461d1afbf432e7022a7926c",
+          "message": "feat(node-binding): callbackify (#974)\n\n* feat: init callbackify\r\n\r\n* feat: finish build\r\n\r\n* feat: finish rebuild\r\n\r\n* chore: typo\r\n\r\n* chore: cleanup\r\n\r\n* feat: tweak type",
+          "timestamp": "2022-11-01T13:27:57+08:00",
+          "tree_id": "1f02165016823070dc1124c0e2fe1176f403ffd4",
+          "url": "https://github.com/speedy-js/rspack/commit/49a2b83b608778545461d1afbf432e7022a7926c"
+        },
+        "date": 1667280942654,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61435417,
+            "range": "± 984503",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74820379,
+            "range": "± 1422150",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 772180952,
+            "range": "± 10369781",
             "unit": "ns/iter"
           }
         ]
