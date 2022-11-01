@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667283754525,
+  "lastUpdate": 1667291176807,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4445,6 +4445,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 767249143,
             "range": "± 11531311",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4613686657656d7b4cfc37051ec09307972fff99",
+          "message": "chore: fix watch swallen error info (#980)",
+          "timestamp": "2022-11-01T16:21:01+08:00",
+          "tree_id": "1de0c0d842db63b55f0856de15ccaaae33eea306",
+          "url": "https://github.com/speedy-js/rspack/commit/4613686657656d7b4cfc37051ec09307972fff99"
+        },
+        "date": 1667291174857,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60706275,
+            "range": "± 1373699",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75665822,
+            "range": "± 1178747",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 758952781,
+            "range": "± 11196986",
             "unit": "ns/iter"
           }
         ]
