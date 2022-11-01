@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667295329959,
+  "lastUpdate": 1667306766100,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4529,6 +4529,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 779622078,
             "range": "± 11838962",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5591db2a11d28ce38b8ed21260a61d3f361c76b0",
+          "message": "fix: print stats error for rust test(close: #955) (#986)",
+          "timestamp": "2022-11-01T20:40:49+08:00",
+          "tree_id": "e96d61272e78219347dc6ba641acb728050d9f83",
+          "url": "https://github.com/speedy-js/rspack/commit/5591db2a11d28ce38b8ed21260a61d3f361c76b0"
+        },
+        "date": 1667306764093,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60284568,
+            "range": "± 1523568",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74243255,
+            "range": "± 1242391",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 748877200,
+            "range": "± 10912716",
             "unit": "ns/iter"
           }
         ]
