@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667311981943,
+  "lastUpdate": 1667316727499,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4613,6 +4613,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 772317444,
             "range": "± 10614923",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "18245019206@163.com",
+            "name": "dadadadida",
+            "username": "liuliudada-w"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e58806770a3d795197a3548b392c7131b0de05cd",
+          "message": "chore: change test target to node (#971)\n\n* chore: change test target to node\r\n\r\n* chore: change test target to node\r\n\r\n* chore: change test target to node\r\n\r\n* Update packages/rspack/tests/case.template.ts\r\n\r\nCo-authored-by: hardfist <yangjianzju@gmail.com>",
+          "timestamp": "2022-11-01T23:26:42+08:00",
+          "tree_id": "c6f6a315288d109fd7ab225bc16c49544359791e",
+          "url": "https://github.com/speedy-js/rspack/commit/e58806770a3d795197a3548b392c7131b0de05cd"
+        },
+        "date": 1667316725364,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61620168,
+            "range": "± 1055215",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75296638,
+            "range": "± 1353664",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 774917172,
+            "range": "± 9314476",
             "unit": "ns/iter"
           }
         ]
