@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667316727499,
+  "lastUpdate": 1667367212219,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4655,6 +4655,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 774917172,
             "range": "± 9314476",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1562502418@qq.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "1562502418@qq.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "5db9f89e41331396b357d3cea95299d3b9d3b916",
+          "message": "chore: fix snapshot release not trigger in PR branch",
+          "timestamp": "2022-11-02T13:20:30+08:00",
+          "tree_id": "552ab45413125e7c77322a1b98f06e3105e180d6",
+          "url": "https://github.com/speedy-js/rspack/commit/5db9f89e41331396b357d3cea95299d3b9d3b916"
+        },
+        "date": 1667367210238,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59622772,
+            "range": "± 1210969",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74455995,
+            "range": "± 1158998",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 750112283,
+            "range": "± 10025649",
             "unit": "ns/iter"
           }
         ]
