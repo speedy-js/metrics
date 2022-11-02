@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667374842338,
+  "lastUpdate": 1667377587190,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4823,6 +4823,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 746060342,
             "range": "± 11657091",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4bfed822228c3bc6560a7653490dd016d6d489a",
+          "message": "chore: bump swc version (prerequesite of tree-shaking codegen) (#997)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 update snapshot",
+          "timestamp": "2022-11-02T16:21:08+08:00",
+          "tree_id": "b80a4879d4d0447c64f459ac6c585b5697caf9c3",
+          "url": "https://github.com/speedy-js/rspack/commit/e4bfed822228c3bc6560a7653490dd016d6d489a"
+        },
+        "date": 1667377585209,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60015393,
+            "range": "± 1280328",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 68801459,
+            "range": "± 1772571",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 760345549,
+            "range": "± 7238163",
             "unit": "ns/iter"
           }
         ]
