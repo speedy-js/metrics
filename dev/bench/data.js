@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667377587190,
+  "lastUpdate": 1667378490356,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4865,6 +4865,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 760345549,
             "range": "± 7238163",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "599579f38f9aa908036a99ad1713fb94201a1de2",
+          "message": "fix: remove hmr runtime in production build(close: #991) (#994)",
+          "timestamp": "2022-11-02T16:36:25+08:00",
+          "tree_id": "f7d7ee609c8c1f518e7ff0fd27e2a351816f40a6",
+          "url": "https://github.com/speedy-js/rspack/commit/599579f38f9aa908036a99ad1713fb94201a1de2"
+        },
+        "date": 1667378488392,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60094289,
+            "range": "± 1138253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 68920665,
+            "range": "± 1696710",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 759659526,
+            "range": "± 8216474",
             "unit": "ns/iter"
           }
         ]
