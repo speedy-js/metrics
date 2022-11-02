@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667378490356,
+  "lastUpdate": 1667390653619,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4907,6 +4907,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 759659526,
             "range": "± 8216474",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa82c662c08050e6a30181f2a83f31fb0ba5f90b",
+          "message": "fix: fix some alias error (#1002)",
+          "timestamp": "2022-11-02T19:58:43+08:00",
+          "tree_id": "dcab7c592ed869686a88a0f9b5c60a01d72a404d",
+          "url": "https://github.com/speedy-js/rspack/commit/aa82c662c08050e6a30181f2a83f31fb0ba5f90b"
+        },
+        "date": 1667390651119,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61401519,
+            "range": "± 1110900",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70389418,
+            "range": "± 1657275",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 783335495,
+            "range": "± 8047877",
             "unit": "ns/iter"
           }
         ]
