@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667482407997,
+  "lastUpdate": 1667483342015,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5327,6 +5327,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 764738675,
             "range": "± 6019264",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "969445ca66cb67ad3c431e4721c66ac27f8207b8",
+          "message": "feat: tree shaking codegen (#965)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 basic finish\r\n\r\n* chore: 🤖 unused_called_import\r\n\r\n* test: 💍 rollup_unused_default_exports\r\n\r\n* chore: 🤖 disable inline\r\n\r\n* feat: 🎸 unused_called_import\r\n\r\n* chore: 🤖 unused_inner_functions_and_classes\r\n\r\n* chore: 🤖 fix some todo\r\n\r\n* test: 💍 add unused-var\r\n\r\n* chore: 🤖 renamed\r\n\r\n* chore: 🤖 ignore one case\r\n\r\n* chore: 🤖 more rollup test case\r\n\r\n* chore: 🤖 update lock\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 rebase main\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 fix node binding test\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 clippy\r\n\r\n* chore: 🤖 refactor\r\n\r\n* chore: 🤖 update dep\r\n\r\n* chore: 🤖 update dep and codegen\r\n\r\n* fix: 🐛 postcss plugin error\r\n\r\n* chore: 🤖 update dep\r\n\r\n* chore: 🤖 revert lock\r\n\r\n* chore: 🤖 revert snapshot\r\n\r\n* chore: 🤖 fix cr issues\r\n\r\n* chore: 🤖 lock\r\n\r\n* chore: 🤖 revert node lock file\r\n\r\n* chore: 🤖 rebase main\r\n\r\n* chore: 🤖 lint",
+          "timestamp": "2022-11-03T21:43:47+08:00",
+          "tree_id": "8c819cc168d7f635a45567f49df1b405baed4105",
+          "url": "https://github.com/speedy-js/rspack/commit/969445ca66cb67ad3c431e4721c66ac27f8207b8"
+        },
+        "date": 1667483339920,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 58808450,
+            "range": "± 1632666",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 68039753,
+            "range": "± 1813002",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 760740325,
+            "range": "± 7809126",
             "unit": "ns/iter"
           }
         ]
