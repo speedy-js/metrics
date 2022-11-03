@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667482067632,
+  "lastUpdate": 1667482407997,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5285,6 +5285,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 779136539,
             "range": "± 6551464",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "81c2f67d59f30d368b117ffd46bf399ad12d612a",
+          "message": "chore: fix mode not set when NODE_ENV set (#1019)",
+          "timestamp": "2022-11-03T21:23:08+08:00",
+          "tree_id": "b037f897391d7972a8a86270524e320b7def1596",
+          "url": "https://github.com/speedy-js/rspack/commit/81c2f67d59f30d368b117ffd46bf399ad12d612a"
+        },
+        "date": 1667482406046,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59459732,
+            "range": "± 2032224",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70425743,
+            "range": "± 1895659",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 764738675,
+            "range": "± 6019264",
             "unit": "ns/iter"
           }
         ]
