@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667466436015,
+  "lastUpdate": 1667469306824,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5117,6 +5117,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 764789116,
             "range": "± 6587602",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2a5212ff5b3d78bf64f041b8e794dc9a281a9da",
+          "message": "feat: stats options with colors (#1001)",
+          "timestamp": "2022-11-03T17:49:49+08:00",
+          "tree_id": "1270566369086d8dcfa294653c3d051dce4871de",
+          "url": "https://github.com/speedy-js/rspack/commit/c2a5212ff5b3d78bf64f041b8e794dc9a281a9da"
+        },
+        "date": 1667469304437,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59040766,
+            "range": "± 1183005",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69501369,
+            "range": "± 1607914",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 750715742,
+            "range": "± 7084110",
             "unit": "ns/iter"
           }
         ]
