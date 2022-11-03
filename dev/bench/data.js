@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667445120780,
+  "lastUpdate": 1667455225165,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4991,6 +4991,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 786097088,
             "range": "± 6209005",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55923a1e2d0d6c9046c03f0ff660f34290270037",
+          "message": "fix: 🐛 define plugin (#1003)",
+          "timestamp": "2022-11-03T13:55:04+08:00",
+          "tree_id": "6ff2e299dedfb022948f723440907d11e45e80c5",
+          "url": "https://github.com/speedy-js/rspack/commit/55923a1e2d0d6c9046c03f0ff660f34290270037"
+        },
+        "date": 1667455223212,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61234779,
+            "range": "± 1243701",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70246660,
+            "range": "± 1661435",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 785561434,
+            "range": "± 7643242",
             "unit": "ns/iter"
           }
         ]
