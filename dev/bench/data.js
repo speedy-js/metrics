@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667530726791,
+  "lastUpdate": 1667531046247,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5453,6 +5453,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 756211282,
             "range": "± 6989219",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "510cdf05ae92ff034c174f621c438cc8aa4bd2f1",
+          "message": "feat(core):support tsconfig paths alias",
+          "timestamp": "2022-11-04T10:58:34+08:00",
+          "tree_id": "0cc7c5a86c002fb65fbfc3149ff10c4c38adff8b",
+          "url": "https://github.com/speedy-js/rspack/commit/510cdf05ae92ff034c174f621c438cc8aa4bd2f1"
+        },
+        "date": 1667531044316,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60721260,
+            "range": "± 1465208",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70772060,
+            "range": "± 2039689",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 775984342,
+            "range": "± 6872519",
             "unit": "ns/iter"
           }
         ]
