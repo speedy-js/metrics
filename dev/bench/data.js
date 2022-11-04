@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667535010021,
+  "lastUpdate": 1667538374516,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5537,6 +5537,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 759599956,
             "range": "± 7221266",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3f1666223926ae2f319dcd364e1098112047df7",
+          "message": "fix: no duplicate errors (#1007)\n\n* fix: duplicate errors\r\n\r\n* fix cr\r\n\r\n* fix snapshot\r\n\r\n* fix fix\r\n\r\n* ..\r\n\r\n* fix snap\r\n\r\n* add back slice modules in stats string",
+          "timestamp": "2022-11-04T13:01:07+08:00",
+          "tree_id": "63ac5aaaecb8a885582821aba597e1231eac3900",
+          "url": "https://github.com/speedy-js/rspack/commit/f3f1666223926ae2f319dcd364e1098112047df7"
+        },
+        "date": 1667538372457,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 58814521,
+            "range": "± 1866096",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 68553539,
+            "range": "± 1415570",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 756507770,
+            "range": "± 6491485",
             "unit": "ns/iter"
           }
         ]
