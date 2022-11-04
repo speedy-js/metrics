@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667483342015,
+  "lastUpdate": 1667529077219,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5369,6 +5369,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 760740325,
             "range": "± 7809126",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74a53c39f11c42d32f3dcc60685e2a5ccc67dccb",
+          "message": "fix: too many modules in stats string (#1016)",
+          "timestamp": "2022-11-04T10:26:04+08:00",
+          "tree_id": "f31ecd0c4de408313e84117bf82357f8a3dc5530",
+          "url": "https://github.com/speedy-js/rspack/commit/74a53c39f11c42d32f3dcc60685e2a5ccc67dccb"
+        },
+        "date": 1667529075202,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59497764,
+            "range": "± 1296179",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70920142,
+            "range": "± 1481916",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 775241477,
+            "range": "± 7479246",
             "unit": "ns/iter"
           }
         ]
