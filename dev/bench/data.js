@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667531046247,
+  "lastUpdate": 1667535010021,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5495,6 +5495,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 775984342,
             "range": "± 6872519",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1ab9bc331cc5d3a2d9ff63193edee389ed30880b",
+          "message": "fix: add feature to support single test (#1027)",
+          "timestamp": "2022-11-04T12:05:00+08:00",
+          "tree_id": "84e8dd3fe71872b1758e5e710e5507acf4c8f38f",
+          "url": "https://github.com/speedy-js/rspack/commit/1ab9bc331cc5d3a2d9ff63193edee389ed30880b"
+        },
+        "date": 1667535008033,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59403777,
+            "range": "± 1809837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69762921,
+            "range": "± 1659666",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 759599956,
+            "range": "± 7221266",
             "unit": "ns/iter"
           }
         ]
