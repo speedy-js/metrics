@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667529077219,
+  "lastUpdate": 1667530726791,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5411,6 +5411,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 775241477,
             "range": "± 7479246",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "46dcce57413bc86e6c3bfe7d615bf6a5737abb51",
+          "message": "fix(rspack-cli): fix mode not set when run rspack serve (#1023)",
+          "timestamp": "2022-11-04T10:53:26+08:00",
+          "tree_id": "c39aae86e85296321d7ca41ce790e9a73e496876",
+          "url": "https://github.com/speedy-js/rspack/commit/46dcce57413bc86e6c3bfe7d615bf6a5737abb51"
+        },
+        "date": 1667530724817,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59311405,
+            "range": "± 1370910",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 68991923,
+            "range": "± 1616236",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 756211282,
+            "range": "± 6989219",
             "unit": "ns/iter"
           }
         ]
