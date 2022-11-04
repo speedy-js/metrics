@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667541140678,
+  "lastUpdate": 1667558384021,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5621,6 +5621,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 758851370,
             "range": "± 7334552",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "a6f16d9910ee26ee692afb0c1101f6a613063b83",
+          "message": "test: some test cases about dep-scan",
+          "timestamp": "2022-11-04T18:34:24+08:00",
+          "tree_id": "4a60b26a843df7694711dd11ce03f14c08ca317c",
+          "url": "https://github.com/speedy-js/rspack/commit/a6f16d9910ee26ee692afb0c1101f6a613063b83"
+        },
+        "date": 1667558382036,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60933467,
+            "range": "± 1023718",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71114301,
+            "range": "± 1704258",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 780884902,
+            "range": "± 7762240",
             "unit": "ns/iter"
           }
         ]
