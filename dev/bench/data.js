@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667812269643,
+  "lastUpdate": 1667864197925,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5915,6 +5915,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 761068637,
             "range": "± 7100373",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "1fa63b1a47c3367c6515e64fc0d980ecb28c4e82",
+          "message": "fix: remove `inProgress` to make sure not block loadScript(close: #1051)",
+          "timestamp": "2022-11-08T07:31:34+08:00",
+          "tree_id": "e5d2e400c932470033f8bbec82fd557db6b7cefc",
+          "url": "https://github.com/speedy-js/rspack/commit/1fa63b1a47c3367c6515e64fc0d980ecb28c4e82"
+        },
+        "date": 1667864195931,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59176141,
+            "range": "± 1272198",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69372485,
+            "range": "± 1344789",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 762940371,
+            "range": "± 6357045",
             "unit": "ns/iter"
           }
         ]
