@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667570207756,
+  "lastUpdate": 1667809317002,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5789,6 +5789,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 752253433,
             "range": "± 9200972",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2758561050ce2f3b933c1b562df5da644db05e86",
+          "message": "chore: update PR template (#1047)\n\n* chore: update PR template\r\n\r\n* Update PULL_REQUEST_TEMPLATE.md\r\n\r\n* Update PULL_REQUEST_TEMPLATE.md\r\n\r\n* Update PULL_REQUEST_TEMPLATE.md",
+          "timestamp": "2022-11-07T16:16:40+08:00",
+          "tree_id": "cec6f9d2826909eb37bca374acc5dc3dd154d78b",
+          "url": "https://github.com/speedy-js/rspack/commit/2758561050ce2f3b933c1b562df5da644db05e86"
+        },
+        "date": 1667809314983,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60897978,
+            "range": "± 1272669",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70930503,
+            "range": "± 1452066",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 782573010,
+            "range": "± 7924013",
             "unit": "ns/iter"
           }
         ]
