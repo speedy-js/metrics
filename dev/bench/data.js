@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667810900387,
+  "lastUpdate": 1667812269643,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5873,6 +5873,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 779384554,
             "range": "± 7388509",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "990b014c7a351cfaa824aad0092b718d22766c3a",
+          "message": "chore: update the snapshot when test failed if `UPDATE` is set (#1046)\n\n* chore: 🤖 auto update the snapshot if env is set\r\n\r\n* chore: 🤖 fix diff\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 update doc",
+          "timestamp": "2022-11-07T17:05:55+08:00",
+          "tree_id": "69ca3c966d45cd08c6d8a547aa5bf281c27d2b08",
+          "url": "https://github.com/speedy-js/rspack/commit/990b014c7a351cfaa824aad0092b718d22766c3a"
+        },
+        "date": 1667812267405,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59168535,
+            "range": "± 1112064",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70224871,
+            "range": "± 1394788",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 761068637,
+            "range": "± 7100373",
             "unit": "ns/iter"
           }
         ]
