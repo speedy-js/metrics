@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667901250434,
+  "lastUpdate": 1667911432599,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6167,6 +6167,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 758879073,
             "range": "± 6610753",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "674451c2b7d7b55bc6bc94c21a2225ad4b99c8ba",
+          "message": "fix: fix emit asset error for emit runtime twice (#1061)\n\n* fix: fix update asset error for emit runtime twice\r\n\r\n* chore: cleanup\r\n\r\n* feat: add dirty workaround",
+          "timestamp": "2022-11-08T20:38:30+08:00",
+          "tree_id": "d4674a15c802ce469f4823ea50aa46153aaa3c57",
+          "url": "https://github.com/speedy-js/rspack/commit/674451c2b7d7b55bc6bc94c21a2225ad4b99c8ba"
+        },
+        "date": 1667911430199,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60850186,
+            "range": "± 1713225",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71204602,
+            "range": "± 1606980",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 779716370,
+            "range": "± 6416924",
             "unit": "ns/iter"
           }
         ]
