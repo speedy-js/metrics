@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667915790855,
+  "lastUpdate": 1667916993320,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6293,6 +6293,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 771212791,
             "range": "± 5829696",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50d89b79647d3a21f0f25c264d463e4206405c0f",
+          "message": "chore: add sha version to snapshot version (#1065)",
+          "timestamp": "2022-11-08T22:11:23+08:00",
+          "tree_id": "ebb9e2705fcfc1e9c12476f7561915a4264af239",
+          "url": "https://github.com/speedy-js/rspack/commit/50d89b79647d3a21f0f25c264d463e4206405c0f"
+        },
+        "date": 1667916988403,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59005426,
+            "range": "± 1088063",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70143231,
+            "range": "± 1549802",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 759544066,
+            "range": "± 6518293",
             "unit": "ns/iter"
           }
         ]
