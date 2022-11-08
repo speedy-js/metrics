@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667914278944,
+  "lastUpdate": 1667915790855,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6251,6 +6251,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 784963612,
             "range": "± 7151807",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "148ca9cb0e8920ac39599e94ce44f90a0273ef4d",
+          "message": "Revert \"chore: snapshot with debuginfo\" (#1066)\n\nRevert \"chore: snapshot with debuginfo (#1059)\"\r\n\r\nThis reverts commit cfcc8edce537ddd06746977a3a3d19b70d897bfe.",
+          "timestamp": "2022-11-08T21:51:20+08:00",
+          "tree_id": "d4674a15c802ce469f4823ea50aa46153aaa3c57",
+          "url": "https://github.com/speedy-js/rspack/commit/148ca9cb0e8920ac39599e94ce44f90a0273ef4d"
+        },
+        "date": 1667915788803,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59200454,
+            "range": "± 1493660",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69910660,
+            "range": "± 1784255",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 771212791,
+            "range": "± 5829696",
             "unit": "ns/iter"
           }
         ]
