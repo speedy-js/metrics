@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667864197925,
+  "lastUpdate": 1667877601578,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5957,6 +5957,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 762940371,
             "range": "± 6357045",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e64f5f3e2093d66aef4d16aaf0e1cef8a18583e",
+          "message": "feat(rspack/core): assets API (#989)\n\n* feat: init binding compilation\r\n\r\n* feat(core): add compilation and this compilation\r\n\r\n* feat: impl binding\r\n\r\n* feat: impl core\r\n\r\n* chore: comment\r\n\r\n* feat: add explanation for tsfn ordering\r\n\r\n* chore: polish comment\r\n\r\n* feat: impl webpack-source interop\r\n\r\n* feat: wip\r\n\r\n* feat: impl binding macros\r\n\r\n* feat: use update asset in place where emit asset is not valid\r\n\r\n* chore: cleanup\r\n\r\n* chore: rename to js source\r\n\r\n* feat: impl processAssets\r\n\r\n* feat: align with core js api\r\n\r\n* test: update test\r\n\r\n* test: add test for compilation\r\n\r\n* chore: add back more tests\r\n\r\n* refactor: use utf-8 lossy for any sources",
+          "timestamp": "2022-11-08T11:14:55+08:00",
+          "tree_id": "3230833702490d3fed3b9ec7f94e6639d2476555",
+          "url": "https://github.com/speedy-js/rspack/commit/1e64f5f3e2093d66aef4d16aaf0e1cef8a18583e"
+        },
+        "date": 1667877599533,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59052054,
+            "range": "± 1121569",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71860593,
+            "range": "± 1410069",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 764688855,
+            "range": "± 6514399",
             "unit": "ns/iter"
           }
         ]
