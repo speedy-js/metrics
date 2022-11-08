@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667878510351,
+  "lastUpdate": 1667899851279,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6083,6 +6083,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 779492077,
             "range": "± 6672514",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "479c718bb886fa101c9032aa8d8915587e375574",
+          "message": "chore: support arco-pro (#1038)\n\n* chore: support arco pro\r\n\r\n* chore: fix snapshot\r\n\r\n* chore: fix lint rs\r\n\r\n* chore: fix lock\r\n\r\n* chore: fix conflict\r\n\r\n* chore: fix cargo test",
+          "timestamp": "2022-11-08T17:25:35+08:00",
+          "tree_id": "59ff498e808a49f61fcc7efcd74631817e0db5b5",
+          "url": "https://github.com/speedy-js/rspack/commit/479c718bb886fa101c9032aa8d8915587e375574"
+        },
+        "date": 1667899849205,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59697974,
+            "range": "± 1304381",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 72087805,
+            "range": "± 1894440",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 783304447,
+            "range": "± 5119463",
             "unit": "ns/iter"
           }
         ]
