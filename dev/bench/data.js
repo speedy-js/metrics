@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667877920817,
+  "lastUpdate": 1667878510351,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6041,6 +6041,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 784733905,
             "range": "± 5928134",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "25299f791b9304e25e0edad925e52aa20ad23051",
+          "message": "fix: module error recovery (#1031)\n\n* fix: entry module code error leads to minify failed\r\n\r\n* fix: module parse error\r\n\r\n* fix snap\r\n\r\n* fix snap\r\n\r\n* fix: build error\r\n\r\n* add test",
+          "timestamp": "2022-11-08T11:29:53+08:00",
+          "tree_id": "070bc7c5068fdcfdf5265e25474782b69098ea66",
+          "url": "https://github.com/speedy-js/rspack/commit/25299f791b9304e25e0edad925e52aa20ad23051"
+        },
+        "date": 1667878507837,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61087114,
+            "range": "± 1418001",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 72298831,
+            "range": "± 1670452",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 779492077,
+            "range": "± 6672514",
             "unit": "ns/iter"
           }
         ]
