@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667877601578,
+  "lastUpdate": 1667877920817,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5999,6 +5999,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 764688855,
             "range": "± 6514399",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9a798f28cff15f45917addb7e4892fb7b10bbfa",
+          "message": " feat: tree-shaking namespace access (#1039)\n\n* chore: 🤖 namespace access\r\n\r\n* chore: 🤖 update the snapshot\r\n\r\n* fix: 🐛 testing\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 test ignore",
+          "timestamp": "2022-11-08T11:17:27+08:00",
+          "tree_id": "afc20a8bac919cf46063bd6e457341973411bda4",
+          "url": "https://github.com/speedy-js/rspack/commit/c9a798f28cff15f45917addb7e4892fb7b10bbfa"
+        },
+        "date": 1667877918830,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61515019,
+            "range": "± 1480174",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 72967326,
+            "range": "± 1690566",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 784733905,
+            "range": "± 5928134",
             "unit": "ns/iter"
           }
         ]
