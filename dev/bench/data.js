@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667899851279,
+  "lastUpdate": 1667901250434,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6125,6 +6125,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 783304447,
             "range": "± 5119463",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a978b85703c706f2c064a44742217a3652b6db6",
+          "message": "chore: better diagnostic for rst (#1058)\n\nchore: 🤖 init",
+          "timestamp": "2022-11-08T17:48:59+08:00",
+          "tree_id": "351678dc481bb874bb44ed1a3ad11862f22fb388",
+          "url": "https://github.com/speedy-js/rspack/commit/1a978b85703c706f2c064a44742217a3652b6db6"
+        },
+        "date": 1667901248462,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 58896196,
+            "range": "± 1245359",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69666535,
+            "range": "± 1447621",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 758879073,
+            "range": "± 6610753",
             "unit": "ns/iter"
           }
         ]
