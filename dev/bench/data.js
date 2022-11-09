@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667982943874,
+  "lastUpdate": 1667991415820,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6587,6 +6587,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 757692579,
             "range": "± 5754688",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "828711ff6b1ad660e37114f65cd6cb812d450289",
+          "message": "fix(plugin-javascript): _export_star undefined when use export all and import at same time (#1068)",
+          "timestamp": "2022-11-09T18:51:40+08:00",
+          "tree_id": "b86554cdf061b9f1488251bc29e5e41207c61bf9",
+          "url": "https://github.com/speedy-js/rspack/commit/828711ff6b1ad660e37114f65cd6cb812d450289"
+        },
+        "date": 1667991413334,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59184363,
+            "range": "± 1314496",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70503215,
+            "range": "± 1813942",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 755716222,
+            "range": "± 6797500",
             "unit": "ns/iter"
           }
         ]
