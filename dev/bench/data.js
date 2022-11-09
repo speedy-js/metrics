@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667963102945,
+  "lastUpdate": 1667977444621,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6377,6 +6377,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 757764934,
             "range": "± 5866238",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dd788b2867ed601f91e017933c901bebd38e78ce",
+          "message": "fix: html plugin should respect output.publicPath (#1056)\n\n* fix: html plugin should respect output.publichPath\r\n\r\n* fix: update snapshot",
+          "timestamp": "2022-11-09T14:58:54+08:00",
+          "tree_id": "50a6614ae2405cb08003f090b25e1d14f545d5a0",
+          "url": "https://github.com/speedy-js/rspack/commit/dd788b2867ed601f91e017933c901bebd38e78ce"
+        },
+        "date": 1667977442539,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59441858,
+            "range": "± 1184288",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71595743,
+            "range": "± 1582252",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 764608369,
+            "range": "± 5957593",
             "unit": "ns/iter"
           }
         ]
