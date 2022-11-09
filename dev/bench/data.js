@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667991415820,
+  "lastUpdate": 1667993389005,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6629,6 +6629,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 755716222,
             "range": "± 6797500",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1239e2525c5ca8065ccca298e8bd627cabe1e97",
+          "message": "refactor(core): remove `module_uri` in favor of `module_identifier` (#1079)\n\n* refactor(core): use module_identifier instead of module_uri\r\n\r\n* refactor: remove importer in dependency\r\n\r\n* chore: cleanup\r\n\r\n* refactor: optimize\r\n\r\n* chore: cleanup",
+          "timestamp": "2022-11-09T19:24:28+08:00",
+          "tree_id": "205435c53f48cde2f14b9bf987e6c8ac88820114",
+          "url": "https://github.com/speedy-js/rspack/commit/e1239e2525c5ca8065ccca298e8bd627cabe1e97"
+        },
+        "date": 1667993386388,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60611522,
+            "range": "± 1454724",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71985129,
+            "range": "± 1457978",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 797586001,
+            "range": "± 6791529",
             "unit": "ns/iter"
           }
         ]
