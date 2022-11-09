@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667982625851,
+  "lastUpdate": 1667982943874,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6545,6 +6545,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 783697318,
             "range": "± 6721960",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9dc6cc012ce6e95645b4d9cf2a159162c5bfa833",
+          "message": "feat: add stats entrypoints (#1075)\n\n* feat: add stats entrypoints\r\n\r\n* rm indexmap\r\n\r\n* fmt js",
+          "timestamp": "2022-11-09T16:27:22+08:00",
+          "tree_id": "87452cdda7d2d0747320bd68657d23cdd17f8af7",
+          "url": "https://github.com/speedy-js/rspack/commit/9dc6cc012ce6e95645b4d9cf2a159162c5bfa833"
+        },
+        "date": 1667982941600,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59137248,
+            "range": "± 1223110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70650373,
+            "range": "± 1621621",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 757692579,
+            "range": "± 5754688",
             "unit": "ns/iter"
           }
         ]
