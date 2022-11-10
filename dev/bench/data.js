@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668071244852,
+  "lastUpdate": 1668075241321,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6881,6 +6881,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 785327809,
             "range": "± 5649318",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "09fdb45532bed80e323e982e010604676e2c9390",
+          "message": "feat: allow config decorator (#1088)\n\n* feat: allow config decorator\r\n\r\n* fix: cr",
+          "timestamp": "2022-11-10T18:08:52+08:00",
+          "tree_id": "2216d735cb831866c79fcf38d4a59d2e8b623527",
+          "url": "https://github.com/speedy-js/rspack/commit/09fdb45532bed80e323e982e010604676e2c9390"
+        },
+        "date": 1668075239013,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57804794,
+            "range": "± 1833812",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69020736,
+            "range": "± 1320364",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 760479318,
+            "range": "± 5838791",
             "unit": "ns/iter"
           }
         ]
