@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667993389005,
+  "lastUpdate": 1668044416304,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6671,6 +6671,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 797586001,
             "range": "± 6791529",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "44f7a421c97c8fe63fa17b9748ae8ecb04290829",
+          "message": "fix: add `react.refresh` in acro-pro(close: #1070)",
+          "timestamp": "2022-11-10T09:35:06+08:00",
+          "tree_id": "e5d438e2efd4c27beb2aefe6a2cdf1287def63f8",
+          "url": "https://github.com/speedy-js/rspack/commit/44f7a421c97c8fe63fa17b9748ae8ecb04290829"
+        },
+        "date": 1668044413878,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59473264,
+            "range": "± 1079183",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70501244,
+            "range": "± 1482428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 775527547,
+            "range": "± 6347249",
             "unit": "ns/iter"
           }
         ]
