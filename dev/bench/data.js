@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668044416304,
+  "lastUpdate": 1668060563299,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6713,6 +6713,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 775527547,
             "range": "± 6347249",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "164ec95895c8fe0a77f7fb37f7895e47a5032f8f",
+          "message": "feat: 🎸 finish export all tree-shaking analyze (#917)\n\n* feat: 🎸 finish export all tree-shaking analyze\r\n\r\n* chore: 🤖 finish export star\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 revert bench/main\r\n\r\n* chore: 🤖 add some comment and refacotr\r\n\r\n* chore: 🤖 filter default\r\n\r\n* chore: 🤖 update test case\r\n\r\n* chore: 🤖 error test case\r\n\r\n* chore: 🤖 more conflict test case\r\n\r\n* chore: 🤖 Explicit named export has higher priority 1\r\n\r\n* test: 💍 Explicit named export has higher priority 2\r\n\r\n* chore: 🤖 finish last piece\r\n\r\n* chore: 🤖 rename\r\n\r\n* chore: 🤖 fix ci",
+          "timestamp": "2022-11-10T14:04:13+08:00",
+          "tree_id": "507b1c78be95af01ea439df6de7c8c02474f1b5e",
+          "url": "https://github.com/speedy-js/rspack/commit/164ec95895c8fe0a77f7fb37f7895e47a5032f8f"
+        },
+        "date": 1668060560597,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57343456,
+            "range": "± 1316514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70294327,
+            "range": "± 1709485",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 757438773,
+            "range": "± 6334059",
             "unit": "ns/iter"
           }
         ]
