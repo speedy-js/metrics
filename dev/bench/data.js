@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668085321517,
+  "lastUpdate": 1668090764708,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7007,6 +7007,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 760222797,
             "range": "± 6121113",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c232763b6e694ae889e778f38c8df2eb195f1ebb",
+          "message": "chore: add more comments to module graph impl (#1096)\n\nchore: add more comments",
+          "timestamp": "2022-11-10T22:27:25+08:00",
+          "tree_id": "39b1b490361feec0a2959f42905bb55fded32786",
+          "url": "https://github.com/speedy-js/rspack/commit/c232763b6e694ae889e778f38c8df2eb195f1ebb"
+        },
+        "date": 1668090762749,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 58817685,
+            "range": "± 1022158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 78182285,
+            "range": "± 2029884",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 786598729,
+            "range": "± 5551677",
             "unit": "ns/iter"
           }
         ]
