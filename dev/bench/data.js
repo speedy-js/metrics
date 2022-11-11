@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668160614910,
+  "lastUpdate": 1668162050255,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7427,6 +7427,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 753129773,
             "range": "± 6580328",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "ahabhgk",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "ahabhgk@gmail.com",
+            "name": "ahabhgk",
+            "username": "ahabhgk"
+          },
+          "distinct": true,
+          "id": "d0b70c2a66deb63c80f49bfbab954c405aef9e2b",
+          "message": "fix: bundle-stats ci pnpm install",
+          "timestamp": "2022-11-11T18:15:23+08:00",
+          "tree_id": "a2a6b0413fffc40d072de71cbde71c7044359b17",
+          "url": "https://github.com/speedy-js/rspack/commit/d0b70c2a66deb63c80f49bfbab954c405aef9e2b"
+        },
+        "date": 1668162047532,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 58792910,
+            "range": "± 1204572",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77112996,
+            "range": "± 1927444",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 776501799,
+            "range": "± 6279966",
             "unit": "ns/iter"
           }
         ]
