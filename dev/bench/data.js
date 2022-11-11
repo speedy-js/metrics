@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668128667429,
+  "lastUpdate": 1668133802463,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7133,6 +7133,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 769934191,
             "range": "± 6438711",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "406aa4590782b66c50428253f28c924b7ef62b89",
+          "message": "fix: runtime.js and favicon in html should respect output.publicPath (#1085)\n\n* fix: runtime url in html should respect publicPath\r\n\r\n* fix: favicon should respect output.publicPath\r\n\r\n* lint",
+          "timestamp": "2022-11-11T10:24:55+08:00",
+          "tree_id": "e795a1178bfb6dcec60a518503361bfd34a7a9e9",
+          "url": "https://github.com/speedy-js/rspack/commit/406aa4590782b66c50428253f28c924b7ef62b89"
+        },
+        "date": 1668133800418,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57035241,
+            "range": "± 1221030",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76319256,
+            "range": "± 2210899",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 764245739,
+            "range": "± 6580968",
             "unit": "ns/iter"
           }
         ]
