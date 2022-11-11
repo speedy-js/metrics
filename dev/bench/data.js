@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668133802463,
+  "lastUpdate": 1668134122662,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7175,6 +7175,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 764245739,
             "range": "± 6580968",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6393b4ca60cbbc9759e82133f8ac7e7b8a34a41",
+          "message": "fix: original_source panic when ignored is true (#1089)\n\n* fix: original_source panic when ignored is true\r\n\r\n* update rspack_sources\r\n\r\n* update lock",
+          "timestamp": "2022-11-11T10:25:12+08:00",
+          "tree_id": "b9ef832d6132afa1b7b735f0416d2f93ef37cd14",
+          "url": "https://github.com/speedy-js/rspack/commit/c6393b4ca60cbbc9759e82133f8ac7e7b8a34a41"
+        },
+        "date": 1668134120707,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 58581831,
+            "range": "± 1226241",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77904567,
+            "range": "± 1819976",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 784135477,
+            "range": "± 6573279",
             "unit": "ns/iter"
           }
         ]
