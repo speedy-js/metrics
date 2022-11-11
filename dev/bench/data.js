@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668144591350,
+  "lastUpdate": 1668152368278,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7259,6 +7259,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 752543571,
             "range": "± 6461890",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "062e692df4fdc710bdd39bc497e15dcf5ef8ffa9",
+          "message": "chore: add changeset to enable snapshot release (#1106)\n\nchore: add changeset to enable snapshot",
+          "timestamp": "2022-11-11T15:34:10+08:00",
+          "tree_id": "07124051fba80035e76994142e561184a33f3017",
+          "url": "https://github.com/speedy-js/rspack/commit/062e692df4fdc710bdd39bc497e15dcf5ef8ffa9"
+        },
+        "date": 1668152366231,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59094287,
+            "range": "± 1099958",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77242154,
+            "range": "± 1869097",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 784203717,
+            "range": "± 6588945",
             "unit": "ns/iter"
           }
         ]
