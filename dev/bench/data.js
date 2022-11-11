@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668159485124,
+  "lastUpdate": 1668160614910,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7385,6 +7385,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 772614064,
             "range": "± 6370161",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "ahabhgk",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "ahabhgk@gmail.com",
+            "name": "ahabhgk",
+            "username": "ahabhgk"
+          },
+          "distinct": true,
+          "id": "5d83988bb253497d76bd5e8662d1933936587df8",
+          "message": "fix: bundle-stats ci runs-on",
+          "timestamp": "2022-11-11T17:51:37+08:00",
+          "tree_id": "3fb52171276df868a0715a21c90e28f168687404",
+          "url": "https://github.com/speedy-js/rspack/commit/5d83988bb253497d76bd5e8662d1933936587df8"
+        },
+        "date": 1668160612737,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 56993529,
+            "range": "± 931379",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75105113,
+            "range": "± 1854158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 753129773,
+            "range": "± 6580328",
             "unit": "ns/iter"
           }
         ]
