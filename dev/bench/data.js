@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668092695989,
+  "lastUpdate": 1668128667429,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7091,6 +7091,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 789617513,
             "range": "± 6608979",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e95d3470dc7736dbb584fe2b3979102b3821c8f",
+          "message": "Release 0.0.9 (#1102)\n\n* chore: add script for linux support\r\n\r\n* chore: linux use release binary\r\n\r\n* chore: release 0.0.9\r\n\r\n* chore: add create-rspack to bnpm_sync",
+          "timestamp": "2022-11-11T08:59:20+08:00",
+          "tree_id": "8f936ad140bb54cdbb4ebe49deb17f24b98ea7ee",
+          "url": "https://github.com/speedy-js/rspack/commit/7e95d3470dc7736dbb584fe2b3979102b3821c8f"
+        },
+        "date": 1668128665409,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 57247825,
+            "range": "± 1090009",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77012530,
+            "range": "± 2030475",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 769934191,
+            "range": "± 6438711",
             "unit": "ns/iter"
           }
         ]
