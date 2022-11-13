@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668308866761,
+  "lastUpdate": 1668309791808,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7595,6 +7595,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 771453872,
             "range": "± 6748411",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cc83f6141ca0d9f0c233f37ea8b3ac14fd7399e1",
+          "message": "feat: add some runtime glossary implemention (#1094)",
+          "timestamp": "2022-11-13T11:17:59+08:00",
+          "tree_id": "2abea9526c9d5a8c32453c5a586b18875ddddb4a",
+          "url": "https://github.com/speedy-js/rspack/commit/cc83f6141ca0d9f0c233f37ea8b3ac14fd7399e1"
+        },
+        "date": 1668309789549,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61065014,
+            "range": "± 1220169",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76712378,
+            "range": "± 1941530",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 783993720,
+            "range": "± 7563754",
             "unit": "ns/iter"
           }
         ]
