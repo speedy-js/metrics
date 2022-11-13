@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668271501618,
+  "lastUpdate": 1668308866761,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7553,6 +7553,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 768478537,
             "range": "± 6768117",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohanzh",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "97678ee49c3a4534c31af81498812c73d55822bc",
+          "message": "feat(core/runtime): add `chunkId` in web-runtime",
+          "timestamp": "2022-11-13T11:02:38+08:00",
+          "tree_id": "5760a6e600e4bc4301fc265271c416f5b22811ae",
+          "url": "https://github.com/speedy-js/rspack/commit/97678ee49c3a4534c31af81498812c73d55822bc"
+        },
+        "date": 1668308864773,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59888320,
+            "range": "± 2072680",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76383439,
+            "range": "± 2025099",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 771453872,
+            "range": "± 6748411",
             "unit": "ns/iter"
           }
         ]
