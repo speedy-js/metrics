@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668321975076,
+  "lastUpdate": 1668337896301,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7721,6 +7721,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 769367670,
             "range": "± 7580222",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83575061b02cec4a599c4c9dddaeb9ad463c4f2a",
+          "message": "feat(crates/core): supports add_named_chunk (#1105)\n\n* feat:(crates/core) supports add_named_chunk\r\n\r\n* Fix typo\r\n\r\n* Fix",
+          "timestamp": "2022-11-13T19:06:28+08:00",
+          "tree_id": "8518f430be515e44fc5852a116e8a3a0760fb0b8",
+          "url": "https://github.com/speedy-js/rspack/commit/83575061b02cec4a599c4c9dddaeb9ad463c4f2a"
+        },
+        "date": 1668337894269,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59568754,
+            "range": "± 1333760",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75648166,
+            "range": "± 2002710",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 770013525,
+            "range": "± 7504100",
             "unit": "ns/iter"
           }
         ]
