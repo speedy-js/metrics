@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668405896181,
+  "lastUpdate": 1668407177236,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7805,6 +7805,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 775884299,
             "range": "± 6518773",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "42e032aca34214e3765ae23cc96839cf2d932fe8",
+          "message": "chore: 🤖 update dce visitor (#1117)\n\n* chore: 🤖 update dce visitor\r\n\r\n* chore: 🤖 lint",
+          "timestamp": "2022-11-14T14:20:47+08:00",
+          "tree_id": "6fc99996b630505c81bd910f5d43f978a5b87052",
+          "url": "https://github.com/speedy-js/rspack/commit/42e032aca34214e3765ae23cc96839cf2d932fe8"
+        },
+        "date": 1668407173904,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59841396,
+            "range": "± 1258564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69293615,
+            "range": "± 1730958",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 767115025,
+            "range": "± 13093307",
             "unit": "ns/iter"
           }
         ]
