@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668434429821,
+  "lastUpdate": 1668435337495,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7973,6 +7973,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 770313871,
             "range": "± 11808099",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc2535fa4940ecff93f7fd1dcf3744afc8e4c66a",
+          "message": "chore: 🤖 wrong ci runs-on (#1133)",
+          "timestamp": "2022-11-14T22:09:57+08:00",
+          "tree_id": "e5c0f0d07a7b503dd44dbb595dee98d6d31dbf39",
+          "url": "https://github.com/speedy-js/rspack/commit/fc2535fa4940ecff93f7fd1dcf3744afc8e4c66a"
+        },
+        "date": 1668435334332,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 61118355,
+            "range": "± 1074881",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70722424,
+            "range": "± 1932470",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 780933094,
+            "range": "± 11404164",
             "unit": "ns/iter"
           }
         ]
