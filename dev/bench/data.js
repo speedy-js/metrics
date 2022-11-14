@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668411162247,
+  "lastUpdate": 1668430899286,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7889,6 +7889,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 764131073,
             "range": "± 13028829",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ff71c72b9fc614bcb7c8ab986da2af8bac9ffab",
+          "message": "chore: 🤖 reduce ci workload (#1131)",
+          "timestamp": "2022-11-14T20:55:40+08:00",
+          "tree_id": "c58f2f9ac041fd2d495e93a2cdd32dd491d1096d",
+          "url": "https://github.com/speedy-js/rspack/commit/2ff71c72b9fc614bcb7c8ab986da2af8bac9ffab"
+        },
+        "date": 1668430896423,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 60979626,
+            "range": "± 1273530",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71369432,
+            "range": "± 2389931",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 776797950,
+            "range": "± 12474959",
             "unit": "ns/iter"
           }
         ]
