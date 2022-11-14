@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668435337495,
+  "lastUpdate": 1668437837440,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8015,6 +8015,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 780933094,
             "range": "± 11404164",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "094ce648786766207490f6b95d9e641770ba1725",
+          "message": "chore: 🤖 rust testing do not need arm64 (#1135)",
+          "timestamp": "2022-11-14T22:51:22+08:00",
+          "tree_id": "86a691fedd24c59ff13131849da2e5e635c4e21a",
+          "url": "https://github.com/speedy-js/rspack/commit/094ce648786766207490f6b95d9e641770ba1725"
+        },
+        "date": 1668437834546,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59542606,
+            "range": "± 1099887",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70185441,
+            "range": "± 1763647",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 770095250,
+            "range": "± 10024611",
             "unit": "ns/iter"
           }
         ]
