@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668337896301,
+  "lastUpdate": 1668405896181,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7763,6 +7763,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 770013525,
             "range": "± 7504100",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8f70a91bff1705f2971809161afd625eb2290b37",
+          "message": "chore: add rspack-plugin-node-polyfill plugin (#999)\n\nchore: move node-polyfill to plugin",
+          "timestamp": "2022-11-14T13:59:45+08:00",
+          "tree_id": "30066e7f3a341ecf65776fec24c79d2137628cde",
+          "url": "https://github.com/speedy-js/rspack/commit/8f70a91bff1705f2971809161afd625eb2290b37"
+        },
+        "date": 1668405894167,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59874243,
+            "range": "± 1448755",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76639940,
+            "range": "± 2041041",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 775884299,
+            "range": "± 6518773",
             "unit": "ns/iter"
           }
         ]
