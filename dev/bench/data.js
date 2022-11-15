@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668500294304,
+  "lastUpdate": 1668501338808,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8561,6 +8561,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 816334821,
             "range": "± 9764921",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f37ad1da710cb9401b7d9d54b3a2eee6afa9a9ca",
+          "message": "chore: better Node error interop for async callbacks (#1139)\n\n* test: add error test for JS hooks\r\n\r\n* chore: optimize error experience\r\n\r\n* chore: cleanup\r\n\r\n* chore: use stack\r\n\r\n* test: add more test",
+          "timestamp": "2022-11-15T16:29:52+08:00",
+          "tree_id": "023b2dd9eefcc04be876f78d93d6acb8d96108db",
+          "url": "https://github.com/speedy-js/rspack/commit/f37ad1da710cb9401b7d9d54b3a2eee6afa9a9ca"
+        },
+        "date": 1668501336729,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 68316153,
+            "range": "± 1405167",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 78378997,
+            "range": "± 2183247",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 840153324,
+            "range": "± 9554892",
             "unit": "ns/iter"
           }
         ]
