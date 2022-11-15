@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668498162842,
+  "lastUpdate": 1668500294304,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8519,6 +8519,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 811921686,
             "range": "± 9376907",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d08478846350f73a3864fdfc5f14cd50fadd8c1",
+          "message": "refactor: move tree shaking test cases to tree-shaking dir (#1129)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 lint\r\n\r\n* test: 💍 snpahsot",
+          "timestamp": "2022-11-15T16:11:47+08:00",
+          "tree_id": "0cffec95118059a2934abda5f6473620540eb6fb",
+          "url": "https://github.com/speedy-js/rspack/commit/5d08478846350f73a3864fdfc5f14cd50fadd8c1"
+        },
+        "date": 1668500292226,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66820668,
+            "range": "± 1303292",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75148282,
+            "range": "± 2021253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 816334821,
+            "range": "± 9764921",
             "unit": "ns/iter"
           }
         ]
