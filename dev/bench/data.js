@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668509710339,
+  "lastUpdate": 1668522480540,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8687,6 +8687,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 815376025,
             "range": "± 8858698",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae1ea213f4cb288a34f0c4a3c7a154b693c33d35",
+          "message": "chore: add support for x86_64 (#1157)",
+          "timestamp": "2022-11-15T22:19:33+08:00",
+          "tree_id": "6a850e7a5979b18ea94ae7fb1e96e5a6e617830f",
+          "url": "https://github.com/speedy-js/rspack/commit/ae1ea213f4cb288a34f0c4a3c7a154b693c33d35"
+        },
+        "date": 1668522478534,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65298507,
+            "range": "± 1616751",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76835821,
+            "range": "± 1947781",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 804320844,
+            "range": "± 9242286",
             "unit": "ns/iter"
           }
         ]
