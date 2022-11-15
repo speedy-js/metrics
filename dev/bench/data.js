@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668501661966,
+  "lastUpdate": 1668509710339,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8645,6 +8645,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 799591105,
             "range": "± 9224569",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1fd6cd122cd5f5d04c1fcdcaa2f81d896e8575ad",
+          "message": "feat: emit warnings to stats for sass-loader (#1152)\n\n* feat: logger for sass-loader\r\n\r\n* fix: don't know how to deal with logging",
+          "timestamp": "2022-11-15T18:49:43+08:00",
+          "tree_id": "d27271bf460ee9d6d4f72d15d5ed250cd9451309",
+          "url": "https://github.com/speedy-js/rspack/commit/1fd6cd122cd5f5d04c1fcdcaa2f81d896e8575ad"
+        },
+        "date": 1668509707303,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66492714,
+            "range": "± 1495263",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76272359,
+            "range": "± 2056694",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 815376025,
+            "range": "± 8858698",
             "unit": "ns/iter"
           }
         ]
