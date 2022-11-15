@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668492954854,
+  "lastUpdate": 1668494050057,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8267,6 +8267,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 775729966,
             "range": "± 11527072",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e142beafc5bdc2679f245c0747e0a03581d050e",
+          "message": "refactor: the runtime generate logic (#1127)",
+          "timestamp": "2022-11-15T14:22:16+08:00",
+          "tree_id": "41ef775d60427ea9016421a4311886e1df28c41a",
+          "url": "https://github.com/speedy-js/rspack/commit/7e142beafc5bdc2679f245c0747e0a03581d050e"
+        },
+        "date": 1668494047947,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67608774,
+            "range": "± 1509534",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75286700,
+            "range": "± 1757656",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 822426585,
+            "range": "± 9667020",
             "unit": "ns/iter"
           }
         ]
