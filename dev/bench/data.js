@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668437837440,
+  "lastUpdate": 1668480543913,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8057,6 +8057,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 770095250,
             "range": "± 10024611",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e3eb590b75401604d500120a587e1608af8d357",
+          "message": "test: sass '~' should resolve to node_modules (#1116)",
+          "timestamp": "2022-11-15T10:43:58+08:00",
+          "tree_id": "7d17201061c39fd9aa033446d70b1910afd3a99e",
+          "url": "https://github.com/speedy-js/rspack/commit/0e3eb590b75401604d500120a587e1608af8d357"
+        },
+        "date": 1668480541896,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 59266486,
+            "range": "± 1309921",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 68354992,
+            "range": "± 1854619",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 759170809,
+            "range": "± 11843873",
             "unit": "ns/iter"
           }
         ]
