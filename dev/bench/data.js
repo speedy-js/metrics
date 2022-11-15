@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668501338808,
+  "lastUpdate": 1668501661966,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8603,6 +8603,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 840153324,
             "range": "± 9554892",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dacf192b8b246268fb59d813462825a0d10fd0e5",
+          "message": "fix: emit build info in hook build_module (#1149)",
+          "timestamp": "2022-11-15T16:30:03+08:00",
+          "tree_id": "9b1f8edee4c1ef836fa0b26eb1287262cc524de7",
+          "url": "https://github.com/speedy-js/rspack/commit/dacf192b8b246268fb59d813462825a0d10fd0e5"
+        },
+        "date": 1668501659876,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65263053,
+            "range": "± 1365621",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74152465,
+            "range": "± 1870700",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 799591105,
+            "range": "± 9224569",
             "unit": "ns/iter"
           }
         ]
