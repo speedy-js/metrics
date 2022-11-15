@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668496505536,
+  "lastUpdate": 1668496826539,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8393,6 +8393,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 801594319,
             "range": "± 9588628",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "482cdf66a0ab0259a6a2a63d03c5010beeed0707",
+          "message": "chore: 🤖 reduce rust check scope (#1145)\n\n* chore: 🤖 reduce rust check scope\r\n\r\n* chore: 🤖 revert bundle-stats\r\n\r\n* fix: 🐛 syntax",
+          "timestamp": "2022-11-15T15:07:43+08:00",
+          "tree_id": "7a6c6fbe498f41576711ded756a66aa5f7af0d69",
+          "url": "https://github.com/speedy-js/rspack/commit/482cdf66a0ab0259a6a2a63d03c5010beeed0707"
+        },
+        "date": 1668496824424,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66550657,
+            "range": "± 1350891",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75065075,
+            "range": "± 1967109",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 816792478,
+            "range": "± 8959246",
             "unit": "ns/iter"
           }
         ]
