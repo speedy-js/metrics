@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668497297528,
+  "lastUpdate": 1668498162842,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8477,6 +8477,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 819515545,
             "range": "± 10049040",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87cc3ccca26beeee49afdfeb86c1f64dc63a28a0",
+          "message": "fix: 🤖 update snapshot (#1148)\n\nchore: 🤖 update snapshot",
+          "timestamp": "2022-11-15T15:36:18+08:00",
+          "tree_id": "5c9cd147f4296e694a5940026917b3bd8a682a32",
+          "url": "https://github.com/speedy-js/rspack/commit/87cc3ccca26beeee49afdfeb86c1f64dc63a28a0"
+        },
+        "date": 1668498160891,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65413656,
+            "range": "± 1416189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77832867,
+            "range": "± 2142936",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 811921686,
+            "range": "± 9376907",
             "unit": "ns/iter"
           }
         ]
