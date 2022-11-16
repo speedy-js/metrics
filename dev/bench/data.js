@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668581406688,
+  "lastUpdate": 1668581737259,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8939,6 +8939,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 799640344,
             "range": "± 8572484",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16fff33f600fbde8f5396e14e20cbe173b5e8690",
+          "message": "test: Adding option to keep only necessary runtime code. (#1158)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 make it to review simplier\r\n\r\n* chore: 🤖 update snpahost\r\n\r\n* chore: 🤖 remove dbg\r\n\r\n* chore: 🤖 update runtime\r\n\r\n* chore: 🤖 revert code\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 revert",
+          "timestamp": "2022-11-16T14:45:25+08:00",
+          "tree_id": "766e5ac1d3faca0a1df2c60069f22f0854cd1d48",
+          "url": "https://github.com/speedy-js/rspack/commit/16fff33f600fbde8f5396e14e20cbe173b5e8690"
+        },
+        "date": 1668581735194,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65269534,
+            "range": "± 1306510",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75377349,
+            "range": "± 2182079",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 802412730,
+            "range": "± 8765753",
             "unit": "ns/iter"
           }
         ]
