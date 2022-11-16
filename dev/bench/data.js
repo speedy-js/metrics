@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668581737259,
+  "lastUpdate": 1668586250692,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8981,6 +8981,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 802412730,
             "range": "± 8765753",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a7f8310903fa72bafc5d3c2b318c02c8a44fb371",
+          "message": "feat: init trait module (#1165)\n\n* feat: init trait module\r\n\r\n* feat: add code generation",
+          "timestamp": "2022-11-16T16:05:35+08:00",
+          "tree_id": "02354909b974a538cd4f6d4bff7a7817c6f04871",
+          "url": "https://github.com/speedy-js/rspack/commit/a7f8310903fa72bafc5d3c2b318c02c8a44fb371"
+        },
+        "date": 1668586247838,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65103982,
+            "range": "± 1543495",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74833094,
+            "range": "± 1911327",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 798472740,
+            "range": "± 8027294",
             "unit": "ns/iter"
           }
         ]
