@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668589938441,
+  "lastUpdate": 1668590264646,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9107,6 +9107,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 807815063,
             "range": "± 11018701",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37c658794c9eeea302130273e387cdf302028506",
+          "message": "fix: sass warning mixed to error when warning is too lots (#1167)\n\n* fix: throw error and warning when module build failed\r\n\r\n* fix sass warning\r\n\r\n* fix",
+          "timestamp": "2022-11-16T17:06:52+08:00",
+          "tree_id": "b0a0c46cf9c5c88e03bf395b9753fdaac57c08d8",
+          "url": "https://github.com/speedy-js/rspack/commit/37c658794c9eeea302130273e387cdf302028506"
+        },
+        "date": 1668590262556,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66495602,
+            "range": "± 1645581",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76233795,
+            "range": "± 2097088",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 813746500,
+            "range": "± 7757536",
             "unit": "ns/iter"
           }
         ]
