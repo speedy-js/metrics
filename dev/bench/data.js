@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668606146755,
+  "lastUpdate": 1668608141495,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9233,6 +9233,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 793671259,
             "range": "± 7819216",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dcde013cd802b0822b6ca0890e0b67e5c6e44430",
+          "message": "refactor: use `dyn Module` (#1174)\n\n* refactor: use module trait\r\n\r\n* refactor: use dyn module for nearly everything\r\n\r\n* chore: cleanup\r\n\r\n* refactor: refactor more\r\n\r\n* chore: cleanup\r\n\r\n* chore: cleanup\r\n\r\n* chore: typo\r\n\r\n* chore: comment",
+          "timestamp": "2022-11-16T22:10:05+08:00",
+          "tree_id": "3a864895004a113d6546985a8b922b20a13b392b",
+          "url": "https://github.com/speedy-js/rspack/commit/dcde013cd802b0822b6ca0890e0b67e5c6e44430"
+        },
+        "date": 1668608138588,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67700638,
+            "range": "± 1452283",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79351592,
+            "range": "± 2343842",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 824662690,
+            "range": "± 8861684",
             "unit": "ns/iter"
           }
         ]
