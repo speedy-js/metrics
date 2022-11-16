@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668600256441,
+  "lastUpdate": 1668606146755,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9191,6 +9191,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 816230685,
             "range": "± 8460209",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "761dc20cbf70e675fa541f398ffc2765d25a7e37",
+          "message": "feat: support arco-pro  (#1084)\n\n* chore: 🤖 init\r\n\r\n* fix: 🐛 expr inside export default export\r\n\r\n* fix: 🐛 reexport default as\r\n\r\n* chore: 🤖 checkpoint\r\n\r\n* chore: 🤖 bail out require and import\r\n\r\n* chore: 🤖 interop\r\n\r\n* chore: 🤖 replace minify dec with dec visitor\r\n\r\n* chore: 🤖 bailout inject helper\r\n\r\n* fix: 🐛 add bailout reason\r\n\r\n* chore: 🤖 finish arco-pro tree-shaking\r\n\r\n* chore: 🤖 rebase the main\r\n\r\n* chore: 🤖 add cli release\r\n\r\n* chore: 🤖 conflict resolve\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 revert and cleanup\r\n\r\n* chore: 🤖 cleanup",
+          "timestamp": "2022-11-16T21:36:01+08:00",
+          "tree_id": "4920ba56dca2bd931c1a294f8baa5aa8853f6284",
+          "url": "https://github.com/speedy-js/rspack/commit/761dc20cbf70e675fa541f398ffc2765d25a7e37"
+        },
+        "date": 1668606144718,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64945871,
+            "range": "± 1472661",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75682164,
+            "range": "± 2034606",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 793671259,
+            "range": "± 7819216",
             "unit": "ns/iter"
           }
         ]
