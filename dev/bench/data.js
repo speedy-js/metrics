@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668531290143,
+  "lastUpdate": 1668568345638,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8813,6 +8813,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 837171823,
             "range": "± 8170566",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0998a049aaca4706ea37aa632f334bd9f3279089",
+          "message": "fix: performance issue of scanner (#1160)\n\nfix: scanner",
+          "timestamp": "2022-11-16T11:04:32+08:00",
+          "tree_id": "8a7a18b5c73b69edec48b4b7ac9eb1a7a6860f26",
+          "url": "https://github.com/speedy-js/rspack/commit/0998a049aaca4706ea37aa632f334bd9f3279089"
+        },
+        "date": 1668568343497,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64845975,
+            "range": "± 1403912",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74356569,
+            "range": "± 1692321",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 792714538,
+            "range": "± 7241269",
             "unit": "ns/iter"
           }
         ]
