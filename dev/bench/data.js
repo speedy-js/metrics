@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668589473295,
+  "lastUpdate": 1668589938441,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9065,6 +9065,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 816988952,
             "range": "± 9953527",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a8ae2f1f7a09a0728faf450e056e049406380fc3",
+          "message": "feat: resolve swc-helpers to internal path (#1166)",
+          "timestamp": "2022-11-16T17:05:56+08:00",
+          "tree_id": "ad9d83b776f21fa278516a5c711910c7e0b91885",
+          "url": "https://github.com/speedy-js/rspack/commit/a8ae2f1f7a09a0728faf450e056e049406380fc3"
+        },
+        "date": 1668589936397,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65757232,
+            "range": "± 1742362",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76275927,
+            "range": "± 2205209",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 807815063,
+            "range": "± 11018701",
             "unit": "ns/iter"
           }
         ]
