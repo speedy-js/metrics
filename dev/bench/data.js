@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668590264646,
+  "lastUpdate": 1668600256441,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9149,6 +9149,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 813746500,
             "range": "± 7757536",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04ce6ce27aa7bd9a178be3bb774848b69dd1a7b0",
+          "message": "fix: packages/rspack transform undefined in builtins.define (#1170)",
+          "timestamp": "2022-11-16T19:58:54+08:00",
+          "tree_id": "adaae478b0342122650ee8436478970383137f02",
+          "url": "https://github.com/speedy-js/rspack/commit/04ce6ce27aa7bd9a178be3bb774848b69dd1a7b0"
+        },
+        "date": 1668600254194,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67429551,
+            "range": "± 1356119",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77174008,
+            "range": "± 1854853",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 816230685,
+            "range": "± 8460209",
             "unit": "ns/iter"
           }
         ]
