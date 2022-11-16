@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668570520573,
+  "lastUpdate": 1668581406688,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8897,6 +8897,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 791575802,
             "range": "± 7635461",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb601f6e8f6a24848f351fdb1b1bbcdc833415a9",
+          "message": "chore: 🤖 install pnpm before testing (#1163)",
+          "timestamp": "2022-11-16T14:44:31+08:00",
+          "tree_id": "383f5e2f634be1ca338ec478ca822546932aa61b",
+          "url": "https://github.com/speedy-js/rspack/commit/cb601f6e8f6a24848f351fdb1b1bbcdc833415a9"
+        },
+        "date": 1668581404493,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64890080,
+            "range": "± 1461421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75253908,
+            "range": "± 1920503",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 799640344,
+            "range": "± 8572484",
             "unit": "ns/iter"
           }
         ]
