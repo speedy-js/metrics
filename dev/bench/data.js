@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668674491235,
+  "lastUpdate": 1668685695440,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9485,6 +9485,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 805822910,
             "range": "± 10126538",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfac3780a25bb6140696b7de1e71066dc313b0e7",
+          "message": "refactor(crates/core): impl `RawModule` (#1185)\n\n* feat: init raw module\r\n\r\n* chore: use `Cow<str>` for module identifiers\r\n\r\n* refactor: impl ignored module\r\n\r\n* chore: cleanup\r\n\r\n* fix: fix module identifier\r\n\r\n* feat: impl downcast helper for raw module\r\n\r\n* chore: cleanup\r\n\r\n* test: fix test\r\n\r\n* chore: fmt",
+          "timestamp": "2022-11-17T19:39:27+08:00",
+          "tree_id": "768fc61fbdfc40e8722590e9890e78b51ed387a9",
+          "url": "https://github.com/speedy-js/rspack/commit/bfac3780a25bb6140696b7de1e71066dc313b0e7"
+        },
+        "date": 1668685693061,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67042707,
+            "range": "± 1533700",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77184456,
+            "range": "± 2262074",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 821823744,
+            "range": "± 11516918",
             "unit": "ns/iter"
           }
         ]
