@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668666806085,
+  "lastUpdate": 1668667136208,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9359,6 +9359,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 802865407,
             "range": "± 9923406",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "69237651f5db16a99ea27eefa9e1501a1bd1e1b4",
+          "message": "chore: ensure resolve node builtins to internal package (#1181)",
+          "timestamp": "2022-11-17T14:28:39+08:00",
+          "tree_id": "c20e291eb47bf0532a5a07d72b6167bd441dfbe3",
+          "url": "https://github.com/speedy-js/rspack/commit/69237651f5db16a99ea27eefa9e1501a1bd1e1b4"
+        },
+        "date": 1668667133373,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65106216,
+            "range": "± 1383608",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75404464,
+            "range": "± 1886654",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 801788343,
+            "range": "± 8824403",
             "unit": "ns/iter"
           }
         ]
