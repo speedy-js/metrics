@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668667136208,
+  "lastUpdate": 1668670540678,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9401,6 +9401,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 801788343,
             "range": "± 8824403",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7269e66864278084b1718f53356255693d83577b",
+          "message": "refactor(crates/core): remove normal module related logic (#1178)\n\n* refactor: remove normal module related logic\r\n\r\n* refactor: use downcast macro helper\r\n\r\n* test: use helper test\r\n\r\n* refactor: refactor more",
+          "timestamp": "2022-11-17T15:29:58+08:00",
+          "tree_id": "757ef9c8fde3b7cc47a8323590c4a1eb7228e59c",
+          "url": "https://github.com/speedy-js/rspack/commit/7269e66864278084b1718f53356255693d83577b"
+        },
+        "date": 1668670538444,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64982636,
+            "range": "± 1409898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74888171,
+            "range": "± 1957058",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 800482392,
+            "range": "± 8870389",
             "unit": "ns/iter"
           }
         ]
