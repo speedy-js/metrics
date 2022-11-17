@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668643389299,
+  "lastUpdate": 1668666806085,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9317,6 +9317,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 799463347,
             "range": "± 9284230",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2d255588cef84e355b3728dcf92deae8f7ba246",
+          "message": "feat: more postcss modules options for postcss-loader (#1171)\n\n* feat: more postcss modules options for postcss-loader\r\n\r\n* add tests",
+          "timestamp": "2022-11-17T14:27:51+08:00",
+          "tree_id": "d9e6c01b82dd3d043783ab1c533229b9624a9155",
+          "url": "https://github.com/speedy-js/rspack/commit/d2d255588cef84e355b3728dcf92deae8f7ba246"
+        },
+        "date": 1668666803914,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65460164,
+            "range": "± 1452605",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76790332,
+            "range": "± 2519232",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 802865407,
+            "range": "± 9923406",
             "unit": "ns/iter"
           }
         ]
