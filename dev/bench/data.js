@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668743517316,
+  "lastUpdate": 1668743833812,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9653,6 +9653,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 857281100,
             "range": "± 9879979",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c1cad4693d36e24f31d9a9425227a99be1ee832",
+          "message": "refactor(crates/node_binding): ergonomic raw binding APIs (#1192)\n\n* refactor(crates/node_binding): normalize node api\r\n\r\n* refactor: node api",
+          "timestamp": "2022-11-18T11:47:21+08:00",
+          "tree_id": "3487452dd220dbca8e769a2d30bd8d85eec10213",
+          "url": "https://github.com/speedy-js/rspack/commit/8c1cad4693d36e24f31d9a9425227a99be1ee832"
+        },
+        "date": 1668743831664,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65188620,
+            "range": "± 1456516",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75517980,
+            "range": "± 2292279",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 799975634,
+            "range": "± 9013667",
             "unit": "ns/iter"
           }
         ]
