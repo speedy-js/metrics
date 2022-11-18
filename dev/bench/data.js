@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668760718537,
+  "lastUpdate": 1668769443190,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9905,6 +9905,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 819259247,
             "range": "± 9075369",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa43479367a5d5ae6de820f52ce1d209e05202d5",
+          "message": "feat(crates/core): `DynHash` and `DynEq`  for trait Module (#1199)\n\n* feat: hash for trait Module\r\n\r\n* test: add more test",
+          "timestamp": "2022-11-18T18:57:45+08:00",
+          "tree_id": "f7ab408b3331bafc496de516fc64e60d563beab7",
+          "url": "https://github.com/speedy-js/rspack/commit/aa43479367a5d5ae6de820f52ce1d209e05202d5"
+        },
+        "date": 1668769440854,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64969558,
+            "range": "± 1541701",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76411713,
+            "range": "± 2189390",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 798792605,
+            "range": "± 9099180",
             "unit": "ns/iter"
           }
         ]
