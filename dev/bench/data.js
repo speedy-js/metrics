@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668743833812,
+  "lastUpdate": 1668753823095,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9695,6 +9695,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 799975634,
             "range": "± 9013667",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "331e2d04f3bf07de477fa2148e21752cb4b96f76",
+          "message": "fix(packages/rspack): fix node api (#1197)",
+          "timestamp": "2022-11-18T14:38:10+08:00",
+          "tree_id": "884eb563ee4b4667d7fdf6733b12f19d4ae66eb4",
+          "url": "https://github.com/speedy-js/rspack/commit/331e2d04f3bf07de477fa2148e21752cb4b96f76"
+        },
+        "date": 1668753820890,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64752870,
+            "range": "± 1216523",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74247150,
+            "range": "± 1801182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 796867416,
+            "range": "± 10303693",
             "unit": "ns/iter"
           }
         ]
