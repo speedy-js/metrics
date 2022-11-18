@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668732902008,
+  "lastUpdate": 1668743517316,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9611,6 +9611,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 808187393,
             "range": "± 9490550",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f8b3dc215e657dc9366543de93c29932578025a",
+          "message": "refactor(crates/core): external module (#1189)\n\n* refactor: refactor external module\r\n\r\n* refactor: refactor external module\r\n\r\n* chore: cleanup old workarounds\r\n\r\n* chore: cleanup\r\n\r\n* chore: display\r\n\r\n* chore: use &ModuleType",
+          "timestamp": "2022-11-18T11:46:31+08:00",
+          "tree_id": "7ab9b668369226271b5179e2485658cdc400cfcd",
+          "url": "https://github.com/speedy-js/rspack/commit/9f8b3dc215e657dc9366543de93c29932578025a"
+        },
+        "date": 1668743515147,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 69126383,
+            "range": "± 1558685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 80430087,
+            "range": "± 1962423",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 857281100,
+            "range": "± 9879979",
             "unit": "ns/iter"
           }
         ]
