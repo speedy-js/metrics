@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668946934924,
+  "lastUpdate": 1668955170417,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10157,6 +10157,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 819659459,
             "range": "± 10404683",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2eca9adeda15f48890281d152e9f4e84e523467a",
+          "message": "chore: support ~  in less-loader (#1213)\n\n* chore: support ~  in less-loader\r\n\r\n* chore: fix less error\r\n\r\n* chore: add changeset",
+          "timestamp": "2022-11-20T22:33:06+08:00",
+          "tree_id": "87acb90583b6d81c1287bed3f0016b94f1636643",
+          "url": "https://github.com/speedy-js/rspack/commit/2eca9adeda15f48890281d152e9f4e84e523467a"
+        },
+        "date": 1668955168234,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66351862,
+            "range": "± 1754288",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76892810,
+            "range": "± 2021862",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 819130165,
+            "range": "± 10250347",
             "unit": "ns/iter"
           }
         ]
