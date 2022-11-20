@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668926039414,
+  "lastUpdate": 1668929190259,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10031,6 +10031,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 829543914,
             "range": "± 8684823",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "82f751e515ea785033361c2753117a878a4f830e",
+          "message": "refactor: use webapck runtime (#1207)",
+          "timestamp": "2022-11-20T15:18:59+08:00",
+          "tree_id": "0ea117c8cdf09c87c95baf47ed08fbf39c96a888",
+          "url": "https://github.com/speedy-js/rspack/commit/82f751e515ea785033361c2753117a878a4f830e"
+        },
+        "date": 1668929188160,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66542974,
+            "range": "± 1279886",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79585910,
+            "range": "± 2323792",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 831049625,
+            "range": "± 9734985",
             "unit": "ns/iter"
           }
         ]
