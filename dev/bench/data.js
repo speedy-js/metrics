@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668935831950,
+  "lastUpdate": 1668946934924,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10115,6 +10115,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 795521364,
             "range": "± 9180162",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab8986d7ad3c82ba841ba56021628d3f171e057c",
+          "message": "fix: examples/arco-pro less config (#1215)\n\nfix-arco-pro",
+          "timestamp": "2022-11-20T20:16:15+08:00",
+          "tree_id": "529884673505c4e238014e6f50713c17c738df22",
+          "url": "https://github.com/speedy-js/rspack/commit/ab8986d7ad3c82ba841ba56021628d3f171e057c"
+        },
+        "date": 1668946932823,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66173731,
+            "range": "± 1519909",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77281845,
+            "range": "± 1914518",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 819659459,
+            "range": "± 10404683",
             "unit": "ns/iter"
           }
         ]
