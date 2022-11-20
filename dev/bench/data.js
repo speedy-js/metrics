@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668929190259,
+  "lastUpdate": 1668935831950,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10073,6 +10073,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 831049625,
             "range": "± 9734985",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55364b3862f35ec20be80852b9e00e6e59f8f2d8",
+          "message": "fix: place postcss in plugin-postcss dependencies (#1209)\n\n* fix: fixed postcss version\r\n\r\n* lock",
+          "timestamp": "2022-11-20T17:12:02+08:00",
+          "tree_id": "7d322e2e919465ae44d3b8be1caff41393df82c5",
+          "url": "https://github.com/speedy-js/rspack/commit/55364b3862f35ec20be80852b9e00e6e59f8f2d8"
+        },
+        "date": 1668935829810,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63769023,
+            "range": "± 1350401",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75363548,
+            "range": "± 1896256",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 795521364,
+            "range": "± 9180162",
             "unit": "ns/iter"
           }
         ]
