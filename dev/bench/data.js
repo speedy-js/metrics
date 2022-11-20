@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668774615174,
+  "lastUpdate": 1668926039414,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9989,6 +9989,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 822871126,
             "range": "± 8817260",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9595d422b477be2d3cba3a310d6b6ecf1c9efc46",
+          "message": "feat(crates/core): add name_for_condition to Module trait (#1182)\n\n* feat(crates/core): add name_for_condition to Module trait\r\n\r\n* Save\r\n\r\n* Use Cow\r\n\r\n* Fix clippy\r\n\r\n* Fix format",
+          "timestamp": "2022-11-20T14:27:35+08:00",
+          "tree_id": "9b935e2f98409238b10276e5ba88b10a78d4037d",
+          "url": "https://github.com/speedy-js/rspack/commit/9595d422b477be2d3cba3a310d6b6ecf1c9efc46"
+        },
+        "date": 1668926037310,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67734440,
+            "range": "± 1243871",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 80680368,
+            "range": "± 1982475",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 829543914,
+            "range": "± 8684823",
             "unit": "ns/iter"
           }
         ]
