@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669026508005,
+  "lastUpdate": 1669031249240,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10577,6 +10577,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 793809927,
             "range": "± 9311518",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d477aa3cd6420eeee8dc0000faa3f3752a2daceb",
+          "message": "feat: js version html-rspack-plugin (#1205)\n\n* rich html plugin\r\n\r\n* fix test\r\n\r\n* update snap\r\n\r\n* pass templateContent test\r\n\r\n* passed tests\r\n\r\n* open ci test\r\n\r\n* rm unused crate\r\n\r\n* fix ci test\r\n\r\n* fix cr\r\n\r\n* fix snap",
+          "timestamp": "2022-11-21T19:39:32+08:00",
+          "tree_id": "ee60a6337ed9d123eddbd00b92e5ddeaef7954b0",
+          "url": "https://github.com/speedy-js/rspack/commit/d477aa3cd6420eeee8dc0000faa3f3752a2daceb"
+        },
+        "date": 1669031247027,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63781511,
+            "range": "± 1608437",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75875943,
+            "range": "± 2073552",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 792638974,
+            "range": "± 9195316",
             "unit": "ns/iter"
           }
         ]
