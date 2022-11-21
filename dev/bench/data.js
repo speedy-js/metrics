@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669024579961,
+  "lastUpdate": 1669026508005,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10535,6 +10535,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 838657693,
             "range": "± 8915256",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c65fcb0d3eab5531c820ebb250b320f9d5e28b0a",
+          "message": "feat: supports default strategy for bundle splitting (#1161)\n\n* Refactor options\r\n\r\n* Save\r\n\r\n* Fix a lot of errors\r\n\r\n* Save\r\n\r\n* Port logic of webpack css plugin\r\n\r\n* Remove changed\r\n\r\n* Fix clippy\r\n\r\n* Fix test\r\n\r\n* Fix test",
+          "timestamp": "2022-11-21T18:14:46+08:00",
+          "tree_id": "5f9a2c7b2835dcb5df12d6b184326c8f78c70937",
+          "url": "https://github.com/speedy-js/rspack/commit/c65fcb0d3eab5531c820ebb250b320f9d5e28b0a"
+        },
+        "date": 1669026505428,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63460249,
+            "range": "± 1821486",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 74673294,
+            "range": "± 2141499",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 793809927,
+            "range": "± 9311518",
             "unit": "ns/iter"
           }
         ]
