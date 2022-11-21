@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669021986214,
+  "lastUpdate": 1669023422022,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10451,6 +10451,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 809978875,
             "range": "± 9356910",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9ef1569ba0244ea3a2c4bf0d542291c064524956",
+          "message": "feat: css minify in production mode (#1227)\n\n* feat: css minify in production mode\r\n\r\n* del dbg info",
+          "timestamp": "2022-11-21T17:31:14+08:00",
+          "tree_id": "9bab7858722ba9ce5720d1db5a23890c8ceb7771",
+          "url": "https://github.com/speedy-js/rspack/commit/9ef1569ba0244ea3a2c4bf0d542291c064524956"
+        },
+        "date": 1669023419338,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67532119,
+            "range": "± 1391716",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79347781,
+            "range": "± 2106149",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 844252584,
+            "range": "± 8947676",
             "unit": "ns/iter"
           }
         ]
