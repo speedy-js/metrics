@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669008890513,
+  "lastUpdate": 1669010369745,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10325,6 +10325,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 796579342,
             "range": "± 8495754",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b84ae32ed173e9e8f5f4f95c8dc49aa0aef3892e",
+          "message": "fix: remove __webpack_require__.O.j at jsonp runtime (#1223)",
+          "timestamp": "2022-11-21T13:53:53+08:00",
+          "tree_id": "924536d98d377c9e6d6f4b20ec6ef42af4e0c7f9",
+          "url": "https://github.com/speedy-js/rspack/commit/b84ae32ed173e9e8f5f4f95c8dc49aa0aef3892e"
+        },
+        "date": 1669010367466,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66009419,
+            "range": "± 1720568",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76246867,
+            "range": "± 1970177",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 815298984,
+            "range": "± 9310451",
             "unit": "ns/iter"
           }
         ]
