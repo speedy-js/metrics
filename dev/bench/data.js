@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669010369745,
+  "lastUpdate": 1669018194294,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10367,6 +10367,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 815298984,
             "range": "± 9310451",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a21e2be3d2f71df00152ab3a249187836f8e5437",
+          "message": "fix: support use export in d.ts (#1226)\n\nfix: support d.ts use export",
+          "timestamp": "2022-11-21T16:04:03+08:00",
+          "tree_id": "afac135878ad28ecb5f3c66ab42c4690b9bc6a3e",
+          "url": "https://github.com/speedy-js/rspack/commit/a21e2be3d2f71df00152ab3a249187836f8e5437"
+        },
+        "date": 1669018192172,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66309935,
+            "range": "± 1499731",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77448870,
+            "range": "± 1775823",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 825169496,
+            "range": "± 8136183",
             "unit": "ns/iter"
           }
         ]
