@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669023422022,
+  "lastUpdate": 1669024579961,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10493,6 +10493,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 844252584,
             "range": "± 8947676",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "289bbab2e13e7a852f00296c299465bfa8d096b4",
+          "message": "fix(crates/rspack_core): only includes dependencies directly introduced by non-customized runtimes (#1225)\n\n* fix: stage require scanning\r\n\r\n* fix(crates/rspack_core): only includes dependencies directly introduced by runtime\r\n\r\n* chore: comment\r\n\r\n* test: fix\r\n\r\n* chore: use ctxt",
+          "timestamp": "2022-11-21T17:49:37+08:00",
+          "tree_id": "5afd7a539165d3a8963c1e005fa099092ab288b0",
+          "url": "https://github.com/speedy-js/rspack/commit/289bbab2e13e7a852f00296c299465bfa8d096b4"
+        },
+        "date": 1669024577154,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67411708,
+            "range": "± 1477117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 78931103,
+            "range": "± 1900614",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 838657693,
+            "range": "± 8915256",
             "unit": "ns/iter"
           }
         ]
