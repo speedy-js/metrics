@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669004596922,
+  "lastUpdate": 1669008890513,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10283,6 +10283,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 816379113,
             "range": "± 9588392",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f0a90ce35dfccfd9ecaf3202f8a8455068f2dbe",
+          "message": "fix: __webpack_require__.O.j is not defined (#1221)",
+          "timestamp": "2022-11-21T13:29:20+08:00",
+          "tree_id": "f3e0c201daa75967c9b12c0a748e1faa752aae26",
+          "url": "https://github.com/speedy-js/rspack/commit/3f0a90ce35dfccfd9ecaf3202f8a8455068f2dbe"
+        },
+        "date": 1669008888403,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64033148,
+            "range": "± 1425285",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 75222185,
+            "range": "± 2103766",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 796579342,
+            "range": "± 8495754",
             "unit": "ns/iter"
           }
         ]
