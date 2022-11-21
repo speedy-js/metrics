@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669031249240,
+  "lastUpdate": 1669035360778,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10619,6 +10619,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 792638974,
             "range": "± 9195316",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "72cf3b36a6aa4fc8e01d31c19336a275a363b573",
+          "message": "feat: use warning for css recoverable errors. (#1230)\n\n* css-error-tolerate\r\n\r\n* fix\r\n\r\n* update snap\r\n\r\n* fix: snap error",
+          "timestamp": "2022-11-21T20:49:27+08:00",
+          "tree_id": "44ed547e809297a287b004a27b2d8cb7029d65f3",
+          "url": "https://github.com/speedy-js/rspack/commit/72cf3b36a6aa4fc8e01d31c19336a275a363b573"
+        },
+        "date": 1669035358491,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65020725,
+            "range": "± 1315691",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77469203,
+            "range": "± 1997563",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 813852571,
+            "range": "± 8485943",
             "unit": "ns/iter"
           }
         ]
