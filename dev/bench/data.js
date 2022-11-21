@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669018194294,
+  "lastUpdate": 1669021986214,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10409,6 +10409,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 825169496,
             "range": "± 8136183",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4aef5168568d5695e7c310cba3c06bd45144744b",
+          "message": "feat: deleteAsset for InlineChunkHtmlPlugin (#1228)\n\ndelete asset",
+          "timestamp": "2022-11-21T17:06:41+08:00",
+          "tree_id": "20f5258e50ea5d4ebd40984f636f14953253e16d",
+          "url": "https://github.com/speedy-js/rspack/commit/4aef5168568d5695e7c310cba3c06bd45144744b"
+        },
+        "date": 1669021983599,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64368170,
+            "range": "± 1360969",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76708982,
+            "range": "± 2235855",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 809978875,
+            "range": "± 9356910",
             "unit": "ns/iter"
           }
         ]
