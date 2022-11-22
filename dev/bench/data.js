@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669085952326,
+  "lastUpdate": 1669096125912,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10745,6 +10745,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 797584647,
             "range": "± 7992985",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "8241ab0fe1250847714ff8f389f0069772e9f47f",
+          "message": "refactor(dev-server): use hooks.done to align to webpack",
+          "timestamp": "2022-11-22T13:42:19+08:00",
+          "tree_id": "8a7f6f84f83b1addd739a95725c0b32997533a08",
+          "url": "https://github.com/speedy-js/rspack/commit/8241ab0fe1250847714ff8f389f0069772e9f47f"
+        },
+        "date": 1669096123811,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66480703,
+            "range": "± 1356880",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79065841,
+            "range": "± 1707823",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 824579899,
+            "range": "± 8821480",
             "unit": "ns/iter"
           }
         ]
