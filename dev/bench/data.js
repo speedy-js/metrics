@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669035360778,
+  "lastUpdate": 1669083405418,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10661,6 +10661,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 813852571,
             "range": "± 8485943",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "de7f9bd2639e8b5ce4ac7917878064168bf90f29",
+          "message": "fix(resolve): fix bug when self had included in node_modules",
+          "timestamp": "2022-11-22T10:11:08+08:00",
+          "tree_id": "10f08e123263794bcb745d198b84ef4ff3dd8aa5",
+          "url": "https://github.com/speedy-js/rspack/commit/de7f9bd2639e8b5ce4ac7917878064168bf90f29"
+        },
+        "date": 1669083403271,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67170562,
+            "range": "± 1441810",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 78748300,
+            "range": "± 2118604",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 831620352,
+            "range": "± 8580446",
             "unit": "ns/iter"
           }
         ]
