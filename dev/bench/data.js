@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669112040196,
+  "lastUpdate": 1669115495694,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11039,6 +11039,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 810529997,
             "range": "± 10768164",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db1bcfe5a1b5487e1abe82c46a699bb896d81169",
+          "message": "fix(crate/{core,plugin_asset}): use hash value as filename in plugin_asset (#1243)\n\n* fix(crate/{core,plugin_asset}): use hash value as filename in plugin_asset\r\n\r\n* Fix clippy",
+          "timestamp": "2022-11-22T19:05:45+08:00",
+          "tree_id": "5ef3fde08b72088b931f50787004e143f2dab299",
+          "url": "https://github.com/speedy-js/rspack/commit/db1bcfe5a1b5487e1abe82c46a699bb896d81169"
+        },
+        "date": 1669115492614,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64102882,
+            "range": "± 1165756",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69549165,
+            "range": "± 2275562",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 789893758,
+            "range": "± 12488979",
             "unit": "ns/iter"
           }
         ]
