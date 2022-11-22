@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669101866305,
+  "lastUpdate": 1669102184918,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10913,6 +10913,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 789785502,
             "range": "± 12160662",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f74c74129b04ca06cd720d2f40d82affa75fe41c",
+          "message": "test: loader should emit errors to be included in the bundle (#1239)\n\n* test: loader should emit errors to be included in the bundle\r\n\r\n* test: ensure errored",
+          "timestamp": "2022-11-22T15:19:16+08:00",
+          "tree_id": "e90681c75a721c6d20169c3550fa59346e622aac",
+          "url": "https://github.com/speedy-js/rspack/commit/f74c74129b04ca06cd720d2f40d82affa75fe41c"
+        },
+        "date": 1669102182471,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65016701,
+            "range": "± 1525869",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70618498,
+            "range": "± 1694159",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 794299808,
+            "range": "± 10861326",
             "unit": "ns/iter"
           }
         ]
