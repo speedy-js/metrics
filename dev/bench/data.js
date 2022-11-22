@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669100953854,
+  "lastUpdate": 1669101866305,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10871,6 +10871,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 805403525,
             "range": "± 11653859",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "72287585dad4b2459da087669843f85943f4e7fd",
+          "message": "feat: add emitted for asset stats. (#1238)\n\n* add emitted\r\n\r\n* fix lint",
+          "timestamp": "2022-11-22T15:18:04+08:00",
+          "tree_id": "7be20cc19b02673e357564465f3b4bb6e3bf95a8",
+          "url": "https://github.com/speedy-js/rspack/commit/72287585dad4b2459da087669843f85943f4e7fd"
+        },
+        "date": 1669101864202,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64349676,
+            "range": "± 1329718",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70806925,
+            "range": "± 2134250",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 789785502,
+            "range": "± 12160662",
             "unit": "ns/iter"
           }
         ]
