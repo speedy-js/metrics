@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669083405418,
+  "lastUpdate": 1669085952326,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10703,6 +10703,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 831620352,
             "range": "± 8580446",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "afece83b17487b26c0464a6bcd210975f48e57c9",
+          "message": "feat: add hash for runtime modules (#1229)",
+          "timestamp": "2022-11-22T10:54:00+08:00",
+          "tree_id": "d589303ddc042dfdc47191ea717d3ef48f07630c",
+          "url": "https://github.com/speedy-js/rspack/commit/afece83b17487b26c0464a6bcd210975f48e57c9"
+        },
+        "date": 1669085949938,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63789478,
+            "range": "± 1439722",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77420884,
+            "range": "± 2252870",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 797584647,
+            "range": "± 7992985",
             "unit": "ns/iter"
           }
         ]
