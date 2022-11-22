@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669099514663,
+  "lastUpdate": 1669100953854,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10829,6 +10829,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 807777075,
             "range": "± 8642586",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c6780f70d47ed4c0b3339500ade68ecd4d570f6",
+          "message": "chore(crates): remove logs which are too long and add logging for render_manifest (#1236)\n\n* Disable useless and very long logs\r\n\r\n* logging for render_manifest\r\n\r\n* Fix clippy",
+          "timestamp": "2022-11-22T15:02:46+08:00",
+          "tree_id": "1b7c3f8d1b8c7dc2514563c6f8994c8c3380742d",
+          "url": "https://github.com/speedy-js/rspack/commit/1c6780f70d47ed4c0b3339500ade68ecd4d570f6"
+        },
+        "date": 1669100951596,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66750445,
+            "range": "± 1418192",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70584868,
+            "range": "± 1650535",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 805403525,
+            "range": "± 11653859",
             "unit": "ns/iter"
           }
         ]
