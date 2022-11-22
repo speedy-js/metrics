@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669109691798,
+  "lastUpdate": 1669112040196,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10997,6 +10997,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 788915849,
             "range": "± 12959676",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51fc423a5ef35417bd695596d624d7ae01079d6d",
+          "message": "test(packages/rspack): should capture loader syntax error (#1244)\n\ntest: should capture loader syntax error",
+          "timestamp": "2022-11-22T18:08:07+08:00",
+          "tree_id": "ee8d1d851c12f8a65dfbe591203f36baab73a80e",
+          "url": "https://github.com/speedy-js/rspack/commit/51fc423a5ef35417bd695596d624d7ae01079d6d"
+        },
+        "date": 1669112038077,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66357810,
+            "range": "± 1379432",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70769716,
+            "range": "± 2028514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 810529997,
+            "range": "± 10768164",
             "unit": "ns/iter"
           }
         ]
