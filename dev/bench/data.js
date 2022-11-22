@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669096125912,
+  "lastUpdate": 1669099514663,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10787,6 +10787,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 824579899,
             "range": "± 8821480",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8de18245f6166bd4047ffca1d167eb148ff9e003",
+          "message": "fix: loading dynamic css chunk(close: #1053) (#1237)",
+          "timestamp": "2022-11-22T14:39:28+08:00",
+          "tree_id": "bd9463f6df2470a0596419bab4c6d7e9eb34db3f",
+          "url": "https://github.com/speedy-js/rspack/commit/8de18245f6166bd4047ffca1d167eb148ff9e003"
+        },
+        "date": 1669099511420,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65414583,
+            "range": "± 1346117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76419169,
+            "range": "± 2050745",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 807777075,
+            "range": "± 8642586",
             "unit": "ns/iter"
           }
         ]
