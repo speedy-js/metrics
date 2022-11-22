@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669102184918,
+  "lastUpdate": 1669109691798,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10955,6 +10955,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 794299808,
             "range": "± 10861326",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2418bec52520daa9ab5846fafb6405eae416aaad",
+          "message": "test(crates/plugin_asset): should throw if asset module failed to build (#1242)\n\ntest(crates/rspack_core): should throw if asset module failed to build",
+          "timestamp": "2022-11-22T17:28:20+08:00",
+          "tree_id": "5d128d9124dfd582935500324230d98edab8a7a2",
+          "url": "https://github.com/speedy-js/rspack/commit/2418bec52520daa9ab5846fafb6405eae416aaad"
+        },
+        "date": 1669109688889,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64066811,
+            "range": "± 1148680",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70689229,
+            "range": "± 1875705",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 788915849,
+            "range": "± 12959676",
             "unit": "ns/iter"
           }
         ]
