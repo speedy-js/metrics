@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669275176333,
+  "lastUpdate": 1669275846158,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11375,6 +11375,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 792147756,
             "range": "± 12687857",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "152bd89726ac903bd1063aef6593ea3fe5caff30",
+          "message": "fix: asset public path(close: #1255) (#1260)",
+          "timestamp": "2022-11-24T15:37:38+08:00",
+          "tree_id": "a0a7dad827febcb6db9184ed02e446cceaa58509",
+          "url": "https://github.com/speedy-js/rspack/commit/152bd89726ac903bd1063aef6593ea3fe5caff30"
+        },
+        "date": 1669275843691,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 64264650,
+            "range": "± 1188894",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71133488,
+            "range": "± 1763362",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 795747703,
+            "range": "± 10795056",
             "unit": "ns/iter"
           }
         ]
