@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669282783496,
+  "lastUpdate": 1669300581035,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11501,6 +11501,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 799551756,
             "range": "± 12679204",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb3d8982f5744c4573242c94e4f0df434fba80da",
+          "message": "fix(examples): fix broken arco-pro (#1266)",
+          "timestamp": "2022-11-24T22:27:02+08:00",
+          "tree_id": "0b61c758541f01e5b25e81504acc72da0af6153d",
+          "url": "https://github.com/speedy-js/rspack/commit/bb3d8982f5744c4573242c94e4f0df434fba80da"
+        },
+        "date": 1669300573602,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66140272,
+            "range": "± 1596673",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 72796349,
+            "range": "± 2156401",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 818130201,
+            "range": "± 11288670",
             "unit": "ns/iter"
           }
         ]
