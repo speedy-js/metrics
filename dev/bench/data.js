@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669277674747,
+  "lastUpdate": 1669282783496,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11459,6 +11459,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 782151466,
             "range": "± 12926258",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6dcd7a2f9647f582a20409ef2e926d193df82394",
+          "message": "test(packages/rspack): add tests for asset (#1263)\n\n* test(packages/rspack): add tests for asset\r\n\r\n* chore: polish\r\n\r\n* chore: typo",
+          "timestamp": "2022-11-24T17:33:56+08:00",
+          "tree_id": "66ba0ad9534dbca329920e99cb4fb6755206eaa3",
+          "url": "https://github.com/speedy-js/rspack/commit/6dcd7a2f9647f582a20409ef2e926d193df82394"
+        },
+        "date": 1669282780366,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65776405,
+            "range": "± 1377854",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70273472,
+            "range": "± 2265470",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 799551756,
+            "range": "± 12679204",
             "unit": "ns/iter"
           }
         ]
