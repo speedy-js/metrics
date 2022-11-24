@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669300581035,
+  "lastUpdate": 1669304134440,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11543,6 +11543,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 818130201,
             "range": "± 11288670",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "512c91bdcae9be27165a894570d680bd18ce6a5d",
+          "message": "feat(create/core|plugin_javascript): Supports output.chunkFilename (#1261)\n\n* feat(create/core|plugin_javascript): Supports output.chunkFilename\r\n\r\n* Fix #1206\r\n\r\n* Supports AssetFilename\r\n\r\n* Fix test",
+          "timestamp": "2022-11-24T23:29:43+08:00",
+          "tree_id": "bc60e2bc5f6a60c336f497540dd03923ff3a7080",
+          "url": "https://github.com/speedy-js/rspack/commit/512c91bdcae9be27165a894570d680bd18ce6a5d"
+        },
+        "date": 1669304131352,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63528289,
+            "range": "± 1201169",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70657148,
+            "range": "± 1792761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 793060941,
+            "range": "± 9260589",
             "unit": "ns/iter"
           }
         ]
