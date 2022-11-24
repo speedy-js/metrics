@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669275846158,
+  "lastUpdate": 1669277674747,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11417,6 +11417,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 795747703,
             "range": "± 10795056",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2468d7a448308f49b2131829a1b04ba9538cba1f",
+          "message": "refactor(crates/rspack_core): align module rule `test` and `resource` with webpack (#1254)\n\n* refactor: rule matcher\r\n\r\n* refactor: impl object\r\n\r\n* test: use regex\r\n\r\n* test: add resource and test\r\n\r\n* test: update rust test\r\n\r\n* chore: safe test\r\n\r\n* chore: remove debug\r\n\r\n* test: more tests\r\n\r\n* test: polish test\r\n\r\n* test: add more tests\r\n\r\n* test: better testing\r\n\r\n* test: fix test\r\n\r\n* chore: remove dirty hack",
+          "timestamp": "2022-11-24T16:08:55+08:00",
+          "tree_id": "e2c3f5f0b8c893caa9e128d53508a5c29b7285cc",
+          "url": "https://github.com/speedy-js/rspack/commit/2468d7a448308f49b2131829a1b04ba9538cba1f"
+        },
+        "date": 1669277672456,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63603930,
+            "range": "± 1824542",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69589998,
+            "range": "± 2127567",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 782151466,
+            "range": "± 12926258",
             "unit": "ns/iter"
           }
         ]
