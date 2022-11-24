@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669205877888,
+  "lastUpdate": 1669271945120,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11207,6 +11207,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 810757964,
             "range": "± 10331897",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05832d1095d82681005624ff32d6834589ea6a67",
+          "message": "fix: should transform require indent (#1258)",
+          "timestamp": "2022-11-24T14:32:22+08:00",
+          "tree_id": "680b90f69a9e5334c504f1dd4cdd855fceae2371",
+          "url": "https://github.com/speedy-js/rspack/commit/05832d1095d82681005624ff32d6834589ea6a67"
+        },
+        "date": 1669271942091,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67144854,
+            "range": "± 1327026",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71636795,
+            "range": "± 2008946",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 822726163,
+            "range": "± 12080063",
             "unit": "ns/iter"
           }
         ]
