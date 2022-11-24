@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669272834500,
+  "lastUpdate": 1669275176333,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11333,6 +11333,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 822377643,
             "range": "± 10324837",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49584b31e69a84bda2fae1976bd6db04701d7cbc",
+          "message": "chore: 🤖 remove eprintln trace (#1259)",
+          "timestamp": "2022-11-24T15:27:38+08:00",
+          "tree_id": "897f7d551f816f5d2a219adb244d5d443476528d",
+          "url": "https://github.com/speedy-js/rspack/commit/49584b31e69a84bda2fae1976bd6db04701d7cbc"
+        },
+        "date": 1669275173837,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63694372,
+            "range": "± 1400402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71394808,
+            "range": "± 2078097",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 792147756,
+            "range": "± 12687857",
             "unit": "ns/iter"
           }
         ]
