@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669271945120,
+  "lastUpdate": 1669272271494,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11249,6 +11249,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 822726163,
             "range": "± 12080063",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "c2c827709af531a80f42e910bbe66f6139dc89e5",
+          "message": "test(hmr-runtime): status test",
+          "timestamp": "2022-11-24T14:35:01+08:00",
+          "tree_id": "1c520358d3b85e86369af6aec55a0145fca74b5f",
+          "url": "https://github.com/speedy-js/rspack/commit/c2c827709af531a80f42e910bbe66f6139dc89e5"
+        },
+        "date": 1669272269134,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65749078,
+            "range": "± 1285085",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 71299628,
+            "range": "± 1723460",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 808655866,
+            "range": "± 11806053",
             "unit": "ns/iter"
           }
         ]
