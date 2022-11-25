@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669347751700,
+  "lastUpdate": 1669351979968,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11669,6 +11669,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 813907377,
             "range": "± 11262759",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "distinct": true,
+          "id": "6c8017b053253970ab764c3f1e0d1a103cfd2b34",
+          "message": "chore: use loader SourceMap",
+          "timestamp": "2022-11-25T12:47:20+08:00",
+          "tree_id": "1267ed1f7e3712968bace22c2f34016ea45bdf0f",
+          "url": "https://github.com/speedy-js/rspack/commit/6c8017b053253970ab764c3f1e0d1a103cfd2b34"
+        },
+        "date": 1669351977754,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63501212,
+            "range": "± 1359148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69831794,
+            "range": "± 1896636",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 783946368,
+            "range": "± 10811941",
             "unit": "ns/iter"
           }
         ]
