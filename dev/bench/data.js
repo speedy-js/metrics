@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669369145429,
+  "lastUpdate": 1669376794765,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11837,6 +11837,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 832476510,
             "range": "± 10330149",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "747fbabb80fe7d47840fd281deb3c43125f5f10e",
+          "message": "test(packages/rspack): module type override (#1277)\n\ntest: should work well with jsx-in-js",
+          "timestamp": "2022-11-25T19:38:22+08:00",
+          "tree_id": "b6e1d15593d5735127632aa209e075e1c9a5377b",
+          "url": "https://github.com/speedy-js/rspack/commit/747fbabb80fe7d47840fd281deb3c43125f5f10e"
+        },
+        "date": 1669376792501,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66541870,
+            "range": "± 1566705",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 72134102,
+            "range": "± 1702816",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 825045858,
+            "range": "± 11744184",
             "unit": "ns/iter"
           }
         ]
