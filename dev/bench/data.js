@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669352296833,
+  "lastUpdate": 1669362930153,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11753,6 +11753,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 792592198,
             "range": "± 11006442",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3d4f48ebe26167eb5fe019b48d6747c479722384",
+          "message": "chore: add preview script && fix nodejs compat problem (#1272)\n\n* chore: add preview script && fix compat problem\r\n\r\n* chore: node compat\r\n\r\nCo-authored-by: h-a-n-a <andywangsy@gmail.com>",
+          "timestamp": "2022-11-25T15:49:00+08:00",
+          "tree_id": "6c868c831216f32d76715196723265c3fa69eb78",
+          "url": "https://github.com/speedy-js/rspack/commit/3d4f48ebe26167eb5fe019b48d6747c479722384"
+        },
+        "date": 1669362928090,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63637237,
+            "range": "± 1338733",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69902287,
+            "range": "± 1890888",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 785488239,
+            "range": "± 11269528",
             "unit": "ns/iter"
           }
         ]
