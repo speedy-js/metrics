@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669351979968,
+  "lastUpdate": 1669352296833,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11711,6 +11711,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 783946368,
             "range": "± 10811941",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "distinct": true,
+          "id": "25ff1ec3729214d183b2369ed3bd1d2f56d03638",
+          "message": "refactor(packages/rspack): webpack compat loader (#1268)\n\n* refactor: align options with webpack\n\n* refactor: align API with webpack\n\n* refactor: webpack compat\n\n* test: add more tests for loader\n\n* chore: i hate prettier\n\n* chore: default value of additional data\n\n* chore: align with sourceMap",
+          "timestamp": "2022-11-25T12:48:55+08:00",
+          "tree_id": "1267ed1f7e3712968bace22c2f34016ea45bdf0f",
+          "url": "https://github.com/speedy-js/rspack/commit/25ff1ec3729214d183b2369ed3bd1d2f56d03638"
+        },
+        "date": 1669352294658,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63811567,
+            "range": "± 1350348",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 69411003,
+            "range": "± 2357000",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 792592198,
+            "range": "± 11006442",
             "unit": "ns/iter"
           }
         ]
