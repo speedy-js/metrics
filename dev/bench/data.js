@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669362930153,
+  "lastUpdate": 1669369145429,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11795,6 +11795,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 785488239,
             "range": "± 11269528",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "adc053f7a4aed4979949bfd2bd0334777274fbd0",
+          "message": "fix: 🐛 fallback to internal error when path is not found (#1275)",
+          "timestamp": "2022-11-25T17:31:18+08:00",
+          "tree_id": "6bc78e061e80f475d88ce57d37708b54802ddb82",
+          "url": "https://github.com/speedy-js/rspack/commit/adc053f7a4aed4979949bfd2bd0334777274fbd0"
+        },
+        "date": 1669369143218,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 67250979,
+            "range": "± 1305465",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 73170194,
+            "range": "± 2061343",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 832476510,
+            "range": "± 10330149",
             "unit": "ns/iter"
           }
         ]
