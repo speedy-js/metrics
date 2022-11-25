@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669376794765,
+  "lastUpdate": 1669379873058,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11879,6 +11879,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 825045858,
             "range": "± 11744184",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "302d443f7ecb0acb6f78c4b6c67894d184182469",
+          "message": "test(packages/rspack): add loader async error tests (#1278)",
+          "timestamp": "2022-11-25T20:31:54+08:00",
+          "tree_id": "fd90ea970ad7f1a1d812ae68e763afa308a41913",
+          "url": "https://github.com/speedy-js/rspack/commit/302d443f7ecb0acb6f78c4b6c67894d184182469"
+        },
+        "date": 1669379870594,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66771826,
+            "range": "± 1790062",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 70396217,
+            "range": "± 2184375",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 814971258,
+            "range": "± 10133931",
             "unit": "ns/iter"
           }
         ]
