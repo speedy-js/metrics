@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669389084370,
+  "lastUpdate": 1669708397668,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11963,6 +11963,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 807010954,
             "range": "± 9295586",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12e08e647404b7fdc809262062496b88806964f6",
+          "message": "fix: bench ci bug (#1296)",
+          "timestamp": "2022-11-29T15:44:52+08:00",
+          "tree_id": "09a2d012e0e28af3f925a2eee058453b9a3affee",
+          "url": "https://github.com/speedy-js/rspack/commit/12e08e647404b7fdc809262062496b88806964f6"
+        },
+        "date": 1669708395241,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 156022857,
+            "range": "± 11559245",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 173509127,
+            "range": "± 10948367",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 882054544,
+            "range": "± 13156554",
             "unit": "ns/iter"
           }
         ]
