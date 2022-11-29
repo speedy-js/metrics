@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669708397668,
+  "lastUpdate": 1669712618689,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12005,6 +12005,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 882054544,
             "range": "± 13156554",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff3c0d955aa4a98de454381c1580f801e767ee74",
+          "message": "chore: 🤖 fix benchmark history (#1302)",
+          "timestamp": "2022-11-29T16:54:14+08:00",
+          "tree_id": "9b7b6d5f9479eab32616de51d89be2eb4d7d2b05",
+          "url": "https://github.com/speedy-js/rspack/commit/ff3c0d955aa4a98de454381c1580f801e767ee74"
+        },
+        "date": 1669712616094,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63751224,
+            "range": "± 1317631",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76704809,
+            "range": "± 1843976",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 793487785,
+            "range": "± 9570539",
             "unit": "ns/iter"
           }
         ]
