@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669713519069,
+  "lastUpdate": 1669727529338,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12089,6 +12089,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 798968352,
             "range": "± 10918999",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2a78e659f4c540f11618ce51eb2455191bf431a",
+          "message": "fix: add html-rspack-plugin name for types (#1301)\n\nfix: html-plugin name for types",
+          "timestamp": "2022-11-29T21:06:13+08:00",
+          "tree_id": "abc7ca785bac373eb28d81a07cf78dea69dbe66e",
+          "url": "https://github.com/speedy-js/rspack/commit/b2a78e659f4c540f11618ce51eb2455191bf431a"
+        },
+        "date": 1669727526033,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63752935,
+            "range": "± 1208112",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79407041,
+            "range": "± 2119383",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 798954395,
+            "range": "± 8707530",
             "unit": "ns/iter"
           }
         ]
