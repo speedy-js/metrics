@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669727529338,
+  "lastUpdate": 1669738723107,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12131,6 +12131,42 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 798954395,
             "range": "± 8707530",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "e365a1335ec786cf45405d909b15c38c34d9e6b5",
+          "message": "test(hmr): multi chunk should work",
+          "timestamp": "2022-11-30T00:12:24+08:00",
+          "tree_id": "2645a7b19c51e84a430e6357e3750958065b6878",
+          "url": "https://github.com/speedy-js/rspack/commit/e365a1335ec786cf45405d909b15c38c34d9e6b5"
+        },
+        "date": 1669738720410,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63635177,
+            "range": "± 1421182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77965766,
+            "range": "± 1987954",
             "unit": "ns/iter"
           }
         ]
