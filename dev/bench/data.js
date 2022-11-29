@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669712618689,
+  "lastUpdate": 1669713519069,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12047,6 +12047,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 793487785,
             "range": "± 9570539",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1dfdcd7aa1f3aa2397d843f57e119f27d511d85d",
+          "message": "fix: avoid runtime modules overwrite(close: #1284) (#1297)",
+          "timestamp": "2022-11-29T17:11:00+08:00",
+          "tree_id": "593c2b1e1dac99db2e9b4f32e126b49f363f1f45",
+          "url": "https://github.com/speedy-js/rspack/commit/1dfdcd7aa1f3aa2397d843f57e119f27d511d85d"
+        },
+        "date": 1669713516747,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63648468,
+            "range": "± 1784169",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77532880,
+            "range": "± 1778274",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 798968352,
+            "range": "± 10918999",
             "unit": "ns/iter"
           }
         ]
