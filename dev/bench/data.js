@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669801402075,
+  "lastUpdate": 1669823036373,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12251,6 +12251,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 814052220,
             "range": "± 9298500",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f797fd14b9cdf6b4170f90133f2b107d5cfe3c54",
+          "message": "fix: panic when loader return nothing and source-map is enabled (#1305)\n\nfix: panic",
+          "timestamp": "2022-11-30T23:36:11+08:00",
+          "tree_id": "eb712a3cdd2129683c4f9cb4d8686ffc8c23bc72",
+          "url": "https://github.com/speedy-js/rspack/commit/f797fd14b9cdf6b4170f90133f2b107d5cfe3c54"
+        },
+        "date": 1669823033905,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63812814,
+            "range": "± 1707541",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77045928,
+            "range": "± 1752181",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 789734299,
+            "range": "± 8500511",
             "unit": "ns/iter"
           }
         ]
