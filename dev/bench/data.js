@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669738723107,
+  "lastUpdate": 1669777257537,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12167,6 +12167,48 @@ window.BENCHMARK_DATA = {
             "name": "css_heavy",
             "value": 77965766,
             "range": "± 1987954",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51f600eaa5ed207dd93f51d5e94e899076dbaae8",
+          "message": "chore: 🤖 move all swc depdencies in workspace dep (#1303)\n\nchore: 🤖 move all swc depdency in workspace dep",
+          "timestamp": "2022-11-30T10:55:14+08:00",
+          "tree_id": "33153c8596f9f47ab595a2e0df2428f47f2674b4",
+          "url": "https://github.com/speedy-js/rspack/commit/51f600eaa5ed207dd93f51d5e94e899076dbaae8"
+        },
+        "date": 1669777255242,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66131835,
+            "range": "± 1255409",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79556905,
+            "range": "± 2018540",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 819268209,
+            "range": "± 9587734",
             "unit": "ns/iter"
           }
         ]
