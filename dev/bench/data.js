@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669777257537,
+  "lastUpdate": 1669801402075,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12209,6 +12209,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 819268209,
             "range": "± 9587734",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "088a166d24e24855813865ffd6d7f25f47c1600e",
+          "message": "feat: support commonjs entry runtime (#1306)",
+          "timestamp": "2022-11-30T17:36:45+08:00",
+          "tree_id": "d720a57465c78ad5be7412a24c90ab1c52f94b9e",
+          "url": "https://github.com/speedy-js/rspack/commit/088a166d24e24855813865ffd6d7f25f47c1600e"
+        },
+        "date": 1669801399645,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65585149,
+            "range": "± 1531445",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79955431,
+            "range": "± 1794296",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 814052220,
+            "range": "± 9298500",
             "unit": "ns/iter"
           }
         ]
