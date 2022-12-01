@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669902267354,
+  "lastUpdate": 1669905481672,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12671,6 +12671,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 811655296,
             "range": "± 9527981",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9520de07d7b3a58bb078fd0e84dab41151688dc3",
+          "message": "feat: side-effects (#1285)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 update some error case\r\n\r\n* chore: 🤖 assignment visit\r\n\r\n* chore: 🤖 fmt\r\n\r\n* chore: 🤖 only export when symbol is used in other module\r\n\r\n* chore: 🤖 get first ident\r\n\r\n* fix: 🐛 side effects\r\n\r\n* chore: 🤖 resolve\r\n\r\n* chore: 🤖 finish array side effects\r\n\r\n* chore: 🤖 finish module elimination\r\n\r\n* chore: 🤖 finish tree-shaking arco-pro sideeffects\r\n\r\n* fix: 🐛 lint\r\n\r\n* chore: 🤖 clippy\r\n\r\n* chore: 🤖 fix test\r\n\r\n* chore: 🤖 update testing\r\n\r\n* chore: 🤖 add side_effects options\r\n\r\n* chore: 🤖 remove dbg!\r\n\r\n* chore: 🤖 update side effects test.config.js\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 cleanup\r\n\r\n* chore: 🤖 update lock file\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 all-chain unused\r\n\r\n* chore: 🤖 add more webpack test case\r\n\r\n* fix: 🐛 side effects bug\r\n\r\n* chore: 🤖 remove dbgr\r\n\r\n* chore: 🤖 fix ci and t est\r\n\r\n* test: 💍 rebase\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 recover arco-pro",
+          "timestamp": "2022-12-01T22:30:22+08:00",
+          "tree_id": "86fd99bdb6aa996dfe9d9167548b8b0e6be10aee",
+          "url": "https://github.com/speedy-js/rspack/commit/9520de07d7b3a58bb078fd0e84dab41151688dc3"
+        },
+        "date": 1669905479342,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63796910,
+            "range": "± 1307374",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77797278,
+            "range": "± 1892844",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 801815757,
+            "range": "± 10477658",
             "unit": "ns/iter"
           }
         ]
