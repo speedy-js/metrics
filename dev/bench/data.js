@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669872820646,
+  "lastUpdate": 1669881115061,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12419,6 +12419,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 814121887,
             "range": "± 8865356",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5bad53c5f70b1e51eba7c6cfa04ef3df4c860a8d",
+          "message": "fix: tree-shaking lazy import  (#1312)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 revertt\r\n\r\n* chore: 🤖 recore\r\n\r\n* chore: 🤖 more comment",
+          "timestamp": "2022-12-01T15:42:22+08:00",
+          "tree_id": "361c32ddc3b315d2d8de4622888faf7cdb05c410",
+          "url": "https://github.com/speedy-js/rspack/commit/5bad53c5f70b1e51eba7c6cfa04ef3df4c860a8d"
+        },
+        "date": 1669881111710,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 65133860,
+            "range": "± 1467813",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77437291,
+            "range": "± 2007289",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 808608940,
+            "range": "± 8916584",
             "unit": "ns/iter"
           }
         ]
