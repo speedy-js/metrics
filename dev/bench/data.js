@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669864190543,
+  "lastUpdate": 1669868118785,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12335,6 +12335,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 797851750,
             "range": "± 9058789",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cc226af07ef65e54a88332986e4bda0cd7b642f1",
+          "message": "chore: 🤖 add ci package path (#1311)",
+          "timestamp": "2022-12-01T12:08:40+08:00",
+          "tree_id": "2a28fac62739fe4457f5551041faa5688052bfa8",
+          "url": "https://github.com/speedy-js/rspack/commit/cc226af07ef65e54a88332986e4bda0cd7b642f1"
+        },
+        "date": 1669868115775,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66701361,
+            "range": "± 1362939",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 80134457,
+            "range": "± 2170491",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 826002595,
+            "range": "± 9540822",
             "unit": "ns/iter"
           }
         ]
