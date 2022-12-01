@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669897484771,
+  "lastUpdate": 1669902267354,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12629,6 +12629,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 825519888,
             "range": "± 8980263",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e43edc8afc77e76cb9268fff0234fa42e497aef3",
+          "message": "chore(xtask): migrate copy_three from makefile to xtask script (#1319)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 migrate bench to xtask\r\n\r\n* chore: 🤖 lint",
+          "timestamp": "2022-12-01T21:38:48+08:00",
+          "tree_id": "0fcc544edf57f79f1778fd18e8ce9946b3d6f62d",
+          "url": "https://github.com/speedy-js/rspack/commit/e43edc8afc77e76cb9268fff0234fa42e497aef3"
+        },
+        "date": 1669902264550,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66080531,
+            "range": "± 1147867",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 78785088,
+            "range": "± 2059522",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 811655296,
+            "range": "± 9527981",
             "unit": "ns/iter"
           }
         ]
