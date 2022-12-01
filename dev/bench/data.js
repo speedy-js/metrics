@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669882601819,
+  "lastUpdate": 1669896236971,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12503,6 +12503,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 798246441,
             "range": "± 9905986",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "edc6858a94c202b8cf361a8b01454181525c2c57",
+          "message": "chore: add ts-node to simple debug outer project (#1313)",
+          "timestamp": "2022-12-01T19:58:38+08:00",
+          "tree_id": "cda0443a39367530b91257d4a8e0c8652891e9fd",
+          "url": "https://github.com/speedy-js/rspack/commit/edc6858a94c202b8cf361a8b01454181525c2c57"
+        },
+        "date": 1669896234198,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63524920,
+            "range": "± 1653523",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77125574,
+            "range": "± 2005851",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 796901890,
+            "range": "± 9010243",
             "unit": "ns/iter"
           }
         ]
