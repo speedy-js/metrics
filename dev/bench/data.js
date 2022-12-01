@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669881115061,
+  "lastUpdate": 1669882601819,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12461,6 +12461,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 808608940,
             "range": "± 8916584",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5459a49c43e542f202dd4d0e28a554311626aa4",
+          "message": "fix: sass error span (#1309)\n\n* fix: sass error span\r\n\r\n* lint",
+          "timestamp": "2022-12-01T16:11:21+08:00",
+          "tree_id": "cc05fbe9fd61854a59edcf05cb7755596be9b2bc",
+          "url": "https://github.com/speedy-js/rspack/commit/a5459a49c43e542f202dd4d0e28a554311626aa4"
+        },
+        "date": 1669882598784,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63826755,
+            "range": "± 2330147",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76773002,
+            "range": "± 1769585",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 798246441,
+            "range": "± 9905986",
             "unit": "ns/iter"
           }
         ]
