@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669896236971,
+  "lastUpdate": 1669897138922,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12545,6 +12545,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 796901890,
             "range": "± 9010243",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bae8e10dd0f3a96aa95932020699f6824ab67885",
+          "message": "fix(packages/rspack-cli): fix define override (#1314)\n\nfix: fix env",
+          "timestamp": "2022-12-01T20:11:11+08:00",
+          "tree_id": "5982abc1800bbf6839d49dcef0e1468c95ff8efe",
+          "url": "https://github.com/speedy-js/rspack/commit/bae8e10dd0f3a96aa95932020699f6824ab67885"
+        },
+        "date": 1669897136336,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66146698,
+            "range": "± 1229009",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 79366905,
+            "range": "± 1943767",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 825053427,
+            "range": "± 8852204",
             "unit": "ns/iter"
           }
         ]
