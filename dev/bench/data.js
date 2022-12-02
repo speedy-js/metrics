@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669972331336,
+  "lastUpdate": 1669981082867,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12755,6 +12755,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 796797514,
             "range": "± 9264932",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe927bf9eb210902fad07f2083afd962877d1a01",
+          "message": "chore: add esbuild cpuprofile (#1325)",
+          "timestamp": "2022-12-02T19:31:19+08:00",
+          "tree_id": "32d752423e2fe57b83ee806fd9d7716655887462",
+          "url": "https://github.com/speedy-js/rspack/commit/fe927bf9eb210902fad07f2083afd962877d1a01"
+        },
+        "date": 1669981078630,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66337801,
+            "range": "± 1472656",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 77877408,
+            "range": "± 1851738",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 811068221,
+            "range": "± 10009956",
             "unit": "ns/iter"
           }
         ]
