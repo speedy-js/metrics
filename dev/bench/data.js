@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669905481672,
+  "lastUpdate": 1669972331336,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12713,6 +12713,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 801815757,
             "range": "± 10477658",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2628c4c0551de30da47ddc8474738cccbdd6428c",
+          "message": "fix: cjs transformed as esm bug (#1323)",
+          "timestamp": "2022-12-02T17:05:40+08:00",
+          "tree_id": "0a7a94ade019060cab91e644c7f4965708abf2e6",
+          "url": "https://github.com/speedy-js/rspack/commit/2628c4c0551de30da47ddc8474738cccbdd6428c"
+        },
+        "date": 1669972328454,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63939222,
+            "range": "± 1355913",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 76535535,
+            "range": "± 2188226",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 796797514,
+            "range": "± 9264932",
             "unit": "ns/iter"
           }
         ]
