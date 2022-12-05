@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670237462039,
+  "lastUpdate": 1670237813715,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13049,6 +13049,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 801606750,
             "range": "± 8063389",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97ee932cf5b21c5e522c505c50e3a10e262f1f1b",
+          "message": "chore: 🤖 enable bundle-stats ci (#1334)\n\n* chore: 🤖 enable\r\n\r\n* chore: 🤖 init\r\n\r\n* chore: 🤖 disable stats in check-js",
+          "timestamp": "2022-12-05T18:45:40+08:00",
+          "tree_id": "998722d1ccb797683101217216f1442b5607a1f0",
+          "url": "https://github.com/speedy-js/rspack/commit/97ee932cf5b21c5e522c505c50e3a10e262f1f1b"
+        },
+        "date": 1670237810250,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66135274,
+            "range": "± 1427167",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 62364648,
+            "range": "± 2447808",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 824581035,
+            "range": "± 8825825",
             "unit": "ns/iter"
           }
         ]
