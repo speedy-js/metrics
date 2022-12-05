@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669984786219,
+  "lastUpdate": 1670207482869,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12839,6 +12839,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 803984030,
             "range": "± 8004789",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31a18fd612862c5a6a172226cd4f8dd27c07627e",
+          "message": "Fix sourcemap minify  (#1328)\n\n* chore: 🤖 iint\r\n\r\n* chore: 🤖 fix minifier\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 update snap",
+          "timestamp": "2022-12-05T10:25:56+08:00",
+          "tree_id": "0214a6d29505ea072989d3b5b36ed75a14a013fe",
+          "url": "https://github.com/speedy-js/rspack/commit/31a18fd612862c5a6a172226cd4f8dd27c07627e"
+        },
+        "date": 1670207480730,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63553002,
+            "range": "± 1315279",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 59119443,
+            "range": "± 2189462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 792695199,
+            "range": "± 9007628",
             "unit": "ns/iter"
           }
         ]
