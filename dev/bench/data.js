@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670220673877,
+  "lastUpdate": 1670226998840,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12965,6 +12965,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 800162620,
             "range": "± 9164899",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "24116eb0f033c7a9911ccbc1dddcbac19d6115aa",
+          "message": "chore: 🤖 finish refactor to swc_core (#1336)\n\n* chore: 🤖 finish refactor\r\n\r\n* chore: 🤖 bump swc_core\r\n\r\n* chore: 🤖 lint",
+          "timestamp": "2022-12-05T15:50:50+08:00",
+          "tree_id": "dc76ecc8dd0e5cfccc8e428db69c73deffdd97de",
+          "url": "https://github.com/speedy-js/rspack/commit/24116eb0f033c7a9911ccbc1dddcbac19d6115aa"
+        },
+        "date": 1670226995475,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 66791543,
+            "range": "± 1453778",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 63027163,
+            "range": "± 2270341",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 828995062,
+            "range": "± 8643398",
             "unit": "ns/iter"
           }
         ]
