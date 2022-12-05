@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670207806618,
+  "lastUpdate": 1670220673877,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12923,6 +12923,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 794906769,
             "range": "± 8782738",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0c4b0561cd67e07679556ac24e421ae90f9c2f91",
+          "message": "feat: initial support for native css modules (#1321)\n\n* feat: initial support for native css modules\r\n\r\n* rm workspace swc_css_prefixer\r\n\r\n* fix version\r\n\r\n* update snap\r\n\r\n* lint",
+          "timestamp": "2022-12-05T14:05:07+08:00",
+          "tree_id": "52e6579e1f0841839b1da91cea2279e2568a0e04",
+          "url": "https://github.com/speedy-js/rspack/commit/0c4b0561cd67e07679556ac24e421ae90f9c2f91"
+        },
+        "date": 1670220671404,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63968476,
+            "range": "± 1178829",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 59375821,
+            "range": "± 2309629",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 800162620,
+            "range": "± 9164899",
             "unit": "ns/iter"
           }
         ]
