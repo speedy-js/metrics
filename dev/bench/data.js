@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670237813715,
+  "lastUpdate": 1670238647280,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13091,6 +13091,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 824581035,
             "range": "± 8825825",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65147b5bee387ee2c191c911b1f0168721a2c152",
+          "message": "bench: bundle three benchcase in production mode with sourcemap and minify (#1333)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 bench mark\r\n\r\n* chore: 🤖 keep three benchmark dev",
+          "timestamp": "2022-12-05T18:51:54+08:00",
+          "tree_id": "c556eb8d087f476913c8ade24ec801cd7151d386",
+          "url": "https://github.com/speedy-js/rspack/commit/65147b5bee387ee2c191c911b1f0168721a2c152"
+        },
+        "date": 1670238643836,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 60663945,
+            "range": "± 2586768",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 819239688,
+            "range": "± 9222780",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68200946,
+            "range": "± 1330683",
             "unit": "ns/iter"
           }
         ]
