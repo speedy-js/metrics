@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670207482869,
+  "lastUpdate": 1670207806618,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12881,6 +12881,48 @@ window.BENCHMARK_DATA = {
             "name": "ten_copy_of_threejs",
             "value": 792695199,
             "range": "± 9007628",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53b55ada89a6c49b4bd09b27ea99fe4a68507049",
+          "message": "chore: remove unnecessary logs (#1330)",
+          "timestamp": "2022-12-05T10:28:16+08:00",
+          "tree_id": "16c0fcbb504aa6cb108ad340395db777c10bb7ab",
+          "url": "https://github.com/speedy-js/rspack/commit/53b55ada89a6c49b4bd09b27ea99fe4a68507049"
+        },
+        "date": 1670207804501,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "lodash",
+            "value": 63760231,
+            "range": "± 1318617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "css_heavy",
+            "value": 59910337,
+            "range": "± 2380670",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ten_copy_of_threejs",
+            "value": 794906769,
+            "range": "± 8782738",
             "unit": "ns/iter"
           }
         ]
