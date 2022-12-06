@@ -26,13 +26,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63121179,
             "range": "± 1768059",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 34332340,
             "range": "± 335177",
             "unit": "ns/iter"
@@ -62,13 +62,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62461483,
             "range": "± 1847459",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 34356846,
             "range": "± 620646",
             "unit": "ns/iter"
@@ -98,13 +98,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62067272,
             "range": "± 1773272",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 33781431,
             "range": "± 417631",
             "unit": "ns/iter"
@@ -134,13 +134,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60939766,
             "range": "± 1790579",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 33748215,
             "range": "± 379868",
             "unit": "ns/iter"
@@ -170,13 +170,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61731568,
             "range": "± 1604629",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 33697061,
             "range": "± 419056",
             "unit": "ns/iter"
@@ -206,13 +206,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61665394,
             "range": "± 1762040",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 32392100,
             "range": "± 456365",
             "unit": "ns/iter"
@@ -242,13 +242,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62353588,
             "range": "± 1722903",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 32743235,
             "range": "± 364092",
             "unit": "ns/iter"
@@ -278,13 +278,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62209189,
             "range": "± 1960810",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 32712630,
             "range": "± 437417",
             "unit": "ns/iter"
@@ -314,13 +314,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62076643,
             "range": "± 1635937",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 32924587,
             "range": "± 393231",
             "unit": "ns/iter"
@@ -350,13 +350,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61530426,
             "range": "± 2076423",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 32935287,
             "range": "± 433554",
             "unit": "ns/iter"
@@ -386,13 +386,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62766052,
             "range": "± 1923455",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 33199657,
             "range": "± 568445",
             "unit": "ns/iter"
@@ -422,13 +422,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62963423,
             "range": "± 1999651",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 33300582,
             "range": "± 482347",
             "unit": "ns/iter"
@@ -458,13 +458,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62719679,
             "range": "± 2035312",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 33473842,
             "range": "± 471330",
             "unit": "ns/iter"
@@ -494,13 +494,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63622254,
             "range": "± 3060906",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 34540075,
             "range": "± 484079",
             "unit": "ns/iter"
@@ -530,13 +530,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64597291,
             "range": "± 1915452",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 35040496,
             "range": "± 635032",
             "unit": "ns/iter"
@@ -566,13 +566,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62750675,
             "range": "± 2153806",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 34797371,
             "range": "± 584258",
             "unit": "ns/iter"
@@ -602,13 +602,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64563952,
             "range": "± 2024656",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 35464345,
             "range": "± 516008",
             "unit": "ns/iter"
@@ -638,13 +638,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66031452,
             "range": "± 2624890",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 35563101,
             "range": "± 997046",
             "unit": "ns/iter"
@@ -674,13 +674,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64487775,
             "range": "± 5492016",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 35578592,
             "range": "± 762007",
             "unit": "ns/iter"
@@ -710,13 +710,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67691294,
             "range": "± 1905222",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 38531290,
             "range": "± 737731",
             "unit": "ns/iter"
@@ -746,13 +746,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66316265,
             "range": "± 1968565",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 37620456,
             "range": "± 504599",
             "unit": "ns/iter"
@@ -782,13 +782,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67718361,
             "range": "± 1929524",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 38141993,
             "range": "± 488620",
             "unit": "ns/iter"
@@ -818,19 +818,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67082178,
             "range": "± 1972096",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 38064670,
             "range": "± 555229",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1370821461,
             "range": "± 72185915",
             "unit": "ns/iter"
@@ -860,19 +860,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63647236,
             "range": "± 1826297",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 36256981,
             "range": "± 493336",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1219111,
             "range": "± 987023",
             "unit": "ns/iter"
@@ -902,19 +902,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64981554,
             "range": "± 1894897",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 36601152,
             "range": "± 606380",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1286156,
             "range": "± 359373",
             "unit": "ns/iter"
@@ -944,19 +944,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64290406,
             "range": "± 1893444",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 36739713,
             "range": "± 662306",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1358623197,
             "range": "± 68556834",
             "unit": "ns/iter"
@@ -986,19 +986,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 134194779,
             "range": "± 8281270",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83594300,
             "range": "± 6093831",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 2691547572,
             "range": "± 226087227",
             "unit": "ns/iter"
@@ -1028,19 +1028,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 104236833,
             "range": "± 6755937",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68499023,
             "range": "± 6068276",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1308718025,
             "range": "± 24419642",
             "unit": "ns/iter"
@@ -1070,19 +1070,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 105049191,
             "range": "± 5430553",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75455779,
             "range": "± 7895277",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1335098391,
             "range": "± 29673808",
             "unit": "ns/iter"
@@ -1112,19 +1112,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 100450028,
             "range": "± 5322884",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68105615,
             "range": "± 6314104",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1323774586,
             "range": "± 25906259",
             "unit": "ns/iter"
@@ -1154,19 +1154,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 97650055,
             "range": "± 7771511",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69345566,
             "range": "± 4412577",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1247972737,
             "range": "± 50180785",
             "unit": "ns/iter"
@@ -1196,19 +1196,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 95572961,
             "range": "± 5551360",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71201760,
             "range": "± 6761418",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1235185676,
             "range": "± 80343211",
             "unit": "ns/iter"
@@ -1238,19 +1238,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 114323690,
             "range": "± 12382931",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72208255,
             "range": "± 5626746",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1291915744,
             "range": "± 106206287",
             "unit": "ns/iter"
@@ -1280,19 +1280,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 68242609,
             "range": "± 1905974",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 60675827,
             "range": "± 1827107",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 927102298,
             "range": "± 20794592",
             "unit": "ns/iter"
@@ -1322,19 +1322,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 88021819,
             "range": "± 7594952",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 58645827,
             "range": "± 3196083",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 933124542,
             "range": "± 17037723",
             "unit": "ns/iter"
@@ -1364,19 +1364,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 55384379,
             "range": "± 1216846",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 81770944,
             "range": "± 1231979",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 760898735,
             "range": "± 9128362",
             "unit": "ns/iter"
@@ -1406,19 +1406,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 53996579,
             "range": "± 1203585",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83316132,
             "range": "± 1332643",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 744969762,
             "range": "± 9034611",
             "unit": "ns/iter"
@@ -1448,19 +1448,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 55818039,
             "range": "± 1352060",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 84001380,
             "range": "± 1143694",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 758060561,
             "range": "± 9623171",
             "unit": "ns/iter"
@@ -1490,19 +1490,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 55649546,
             "range": "± 1549179",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83895852,
             "range": "± 961864",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 756198367,
             "range": "± 10090568",
             "unit": "ns/iter"
@@ -1532,19 +1532,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 56068026,
             "range": "± 1849471",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 84037444,
             "range": "± 1127377",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 779092822,
             "range": "± 9684526",
             "unit": "ns/iter"
@@ -1574,19 +1574,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 53666807,
             "range": "± 1655514",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82200343,
             "range": "± 1026088",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 739443000,
             "range": "± 9636469",
             "unit": "ns/iter"
@@ -1616,19 +1616,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 56118928,
             "range": "± 1390092",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83788230,
             "range": "± 919958",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 775728579,
             "range": "± 10805154",
             "unit": "ns/iter"
@@ -1658,19 +1658,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 56206742,
             "range": "± 1229068",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 85289253,
             "range": "± 1185346",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 789198529,
             "range": "± 11377894",
             "unit": "ns/iter"
@@ -1700,19 +1700,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 53844110,
             "range": "± 1845072",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 81949573,
             "range": "± 1103993",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 738384257,
             "range": "± 9767507",
             "unit": "ns/iter"
@@ -1742,19 +1742,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 55928381,
             "range": "± 1203496",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83705365,
             "range": "± 994024",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 774202685,
             "range": "± 11509600",
             "unit": "ns/iter"
@@ -1784,19 +1784,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 53435534,
             "range": "± 1482193",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82023401,
             "range": "± 897204",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 742648972,
             "range": "± 9386463",
             "unit": "ns/iter"
@@ -1826,19 +1826,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 54062676,
             "range": "± 1581748",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 81843803,
             "range": "± 942827",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 739810215,
             "range": "± 9551802",
             "unit": "ns/iter"
@@ -1868,19 +1868,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 54485848,
             "range": "± 1936407",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83378287,
             "range": "± 953523",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 741688918,
             "range": "± 9411647",
             "unit": "ns/iter"
@@ -1910,19 +1910,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 56089616,
             "range": "± 1234083",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82987508,
             "range": "± 1316278",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 777902873,
             "range": "± 10678071",
             "unit": "ns/iter"
@@ -1952,19 +1952,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64125246,
             "range": "± 1059001",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82485291,
             "range": "± 1079853",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 782335155,
             "range": "± 8202122",
             "unit": "ns/iter"
@@ -1994,19 +1994,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61182489,
             "range": "± 1142113",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 81984649,
             "range": "± 1106375",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 745007357,
             "range": "± 7823778",
             "unit": "ns/iter"
@@ -2036,19 +2036,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61278437,
             "range": "± 1921680",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83266915,
             "range": "± 1069204",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 756752192,
             "range": "± 7454472",
             "unit": "ns/iter"
@@ -2078,19 +2078,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57205341,
             "range": "± 1163345",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83195723,
             "range": "± 1114076",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 771276357,
             "range": "± 8701784",
             "unit": "ns/iter"
@@ -2120,19 +2120,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57460913,
             "range": "± 1165776",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82639845,
             "range": "± 1052024",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764980527,
             "range": "± 8438466",
             "unit": "ns/iter"
@@ -2162,19 +2162,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57268981,
             "range": "± 1191950",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82475178,
             "range": "± 1074660",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 761015082,
             "range": "± 8101961",
             "unit": "ns/iter"
@@ -2204,19 +2204,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59476224,
             "range": "± 1368145",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82925106,
             "range": "± 1202937",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 781677569,
             "range": "± 8094478",
             "unit": "ns/iter"
@@ -2246,19 +2246,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57044116,
             "range": "± 1066337",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82182785,
             "range": "± 1104715",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764261591,
             "range": "± 7402637",
             "unit": "ns/iter"
@@ -2288,19 +2288,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57473652,
             "range": "± 1272249",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83003825,
             "range": "± 1157105",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 768788487,
             "range": "± 7953989",
             "unit": "ns/iter"
@@ -2330,19 +2330,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57622672,
             "range": "± 1084325",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83834726,
             "range": "± 1172711",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 780964007,
             "range": "± 7774701",
             "unit": "ns/iter"
@@ -2372,19 +2372,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59112421,
             "range": "± 1168790",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83327227,
             "range": "± 1033821",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 784145763,
             "range": "± 8650125",
             "unit": "ns/iter"
@@ -2414,19 +2414,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59134158,
             "range": "± 1040872",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83242924,
             "range": "± 1238836",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 793451048,
             "range": "± 9517449",
             "unit": "ns/iter"
@@ -2456,19 +2456,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60269945,
             "range": "± 975508",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83808766,
             "range": "± 1174438",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 800913888,
             "range": "± 9052092",
             "unit": "ns/iter"
@@ -2498,19 +2498,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60299370,
             "range": "± 1678104",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 86273475,
             "range": "± 1309565",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 804557661,
             "range": "± 9130790",
             "unit": "ns/iter"
@@ -2540,19 +2540,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57164956,
             "range": "± 1147810",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 81873340,
             "range": "± 1195568",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 759523586,
             "range": "± 8945073",
             "unit": "ns/iter"
@@ -2582,19 +2582,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57487991,
             "range": "± 1249379",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 81511656,
             "range": "± 958177",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 758669215,
             "range": "± 9262154",
             "unit": "ns/iter"
@@ -2624,19 +2624,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60378109,
             "range": "± 1265609",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82751570,
             "range": "± 1212289",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 794261844,
             "range": "± 9956014",
             "unit": "ns/iter"
@@ -2666,19 +2666,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57359191,
             "range": "± 1207421",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83536305,
             "range": "± 1199302",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 768121390,
             "range": "± 8727309",
             "unit": "ns/iter"
@@ -2708,19 +2708,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57529846,
             "range": "± 1199771",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82511737,
             "range": "± 1015347",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764248292,
             "range": "± 7643571",
             "unit": "ns/iter"
@@ -2750,19 +2750,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63360718,
             "range": "± 1194892",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83822234,
             "range": "± 970521",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 804101429,
             "range": "± 8955788",
             "unit": "ns/iter"
@@ -2792,19 +2792,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61079920,
             "range": "± 1618896",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82744632,
             "range": "± 1257023",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 766939781,
             "range": "± 9201401",
             "unit": "ns/iter"
@@ -2834,19 +2834,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61347519,
             "range": "± 1223957",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82398221,
             "range": "± 1230467",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 761642324,
             "range": "± 8854898",
             "unit": "ns/iter"
@@ -2876,19 +2876,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61274714,
             "range": "± 1589016",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82388357,
             "range": "± 942471",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764906218,
             "range": "± 7735814",
             "unit": "ns/iter"
@@ -2918,19 +2918,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61152905,
             "range": "± 1375201",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83352383,
             "range": "± 1181703",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 768823276,
             "range": "± 7844876",
             "unit": "ns/iter"
@@ -2960,19 +2960,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61256577,
             "range": "± 1272556",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82638883,
             "range": "± 1351547",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 767219054,
             "range": "± 9067613",
             "unit": "ns/iter"
@@ -3002,19 +3002,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63330723,
             "range": "± 1297225",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 84534107,
             "range": "± 1078967",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 800394422,
             "range": "± 8219810",
             "unit": "ns/iter"
@@ -3044,19 +3044,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61268027,
             "range": "± 1305219",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 82712597,
             "range": "± 1120884",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 770259674,
             "range": "± 9351646",
             "unit": "ns/iter"
@@ -3086,19 +3086,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61789549,
             "range": "± 1023417",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 85145719,
             "range": "± 1176964",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 787461651,
             "range": "± 8765742",
             "unit": "ns/iter"
@@ -3128,19 +3128,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61976162,
             "range": "± 1195224",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 84939201,
             "range": "± 1095592",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 790313437,
             "range": "± 7740413",
             "unit": "ns/iter"
@@ -3170,19 +3170,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61230675,
             "range": "± 1279876",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 83530949,
             "range": "± 1029653",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 768533517,
             "range": "± 8047122",
             "unit": "ns/iter"
@@ -3212,19 +3212,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61130711,
             "range": "± 1274341",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76841836,
             "range": "± 1088818",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 767183674,
             "range": "± 8003279",
             "unit": "ns/iter"
@@ -3254,19 +3254,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61282207,
             "range": "± 1363148",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77476801,
             "range": "± 1302895",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 773750170,
             "range": "± 7452453",
             "unit": "ns/iter"
@@ -3296,19 +3296,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61086377,
             "range": "± 1162110",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78015676,
             "range": "± 995631",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 766672004,
             "range": "± 7154422",
             "unit": "ns/iter"
@@ -3338,19 +3338,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63623943,
             "range": "± 1421496",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78257077,
             "range": "± 1159114",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 804409004,
             "range": "± 9573138",
             "unit": "ns/iter"
@@ -3380,19 +3380,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63535162,
             "range": "± 1475359",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79006881,
             "range": "± 1022398",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 798373102,
             "range": "± 8417998",
             "unit": "ns/iter"
@@ -3422,19 +3422,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62275622,
             "range": "± 1416845",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79903304,
             "range": "± 1161788",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 786989246,
             "range": "± 7446609",
             "unit": "ns/iter"
@@ -3464,19 +3464,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61314056,
             "range": "± 1168228",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79338430,
             "range": "± 7761356",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764164157,
             "range": "± 7339075",
             "unit": "ns/iter"
@@ -3506,19 +3506,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62933834,
             "range": "± 1355209",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 80917246,
             "range": "± 1257791",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 798216086,
             "range": "± 8395011",
             "unit": "ns/iter"
@@ -3548,19 +3548,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61124794,
             "range": "± 1239630",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77531788,
             "range": "± 1193921",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 758707329,
             "range": "± 6025639",
             "unit": "ns/iter"
@@ -3590,19 +3590,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62213560,
             "range": "± 1264082",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77610359,
             "range": "± 1078720",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 778519075,
             "range": "± 6713782",
             "unit": "ns/iter"
@@ -3632,19 +3632,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61219684,
             "range": "± 1270011",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79381506,
             "range": "± 1243449",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 766270104,
             "range": "± 6972476",
             "unit": "ns/iter"
@@ -3674,19 +3674,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61333466,
             "range": "± 1359531",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77060625,
             "range": "± 1062842",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 761240216,
             "range": "± 6555240",
             "unit": "ns/iter"
@@ -3716,19 +3716,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61003744,
             "range": "± 1186851",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76941023,
             "range": "± 1028538",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 763455053,
             "range": "± 6933009",
             "unit": "ns/iter"
@@ -3758,19 +3758,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61260180,
             "range": "± 1398360",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77174982,
             "range": "± 1116882",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 761330229,
             "range": "± 7383588",
             "unit": "ns/iter"
@@ -3800,19 +3800,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61029683,
             "range": "± 1153757",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76951676,
             "range": "± 1132952",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 760086757,
             "range": "± 7260534",
             "unit": "ns/iter"
@@ -3842,19 +3842,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62157298,
             "range": "± 1238330",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78477098,
             "range": "± 1081249",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 782565975,
             "range": "± 6855750",
             "unit": "ns/iter"
@@ -3884,19 +3884,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62083068,
             "range": "± 1022678",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78259796,
             "range": "± 893770",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 782450866,
             "range": "± 7460595",
             "unit": "ns/iter"
@@ -3926,19 +3926,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61754264,
             "range": "± 1269926",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78052158,
             "range": "± 1286137",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 779688169,
             "range": "± 7010395",
             "unit": "ns/iter"
@@ -3968,19 +3968,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61728262,
             "range": "± 1064287",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77935428,
             "range": "± 907571",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 778548073,
             "range": "± 8136759",
             "unit": "ns/iter"
@@ -4010,19 +4010,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62172665,
             "range": "± 1199190",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77874335,
             "range": "± 1251551",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 781998588,
             "range": "± 7668639",
             "unit": "ns/iter"
@@ -4052,19 +4052,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61388563,
             "range": "± 1461183",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77369545,
             "range": "± 1198372",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 762060952,
             "range": "± 6854099",
             "unit": "ns/iter"
@@ -4094,19 +4094,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 62676785,
             "range": "± 1453453",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78185739,
             "range": "± 1124206",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 794203523,
             "range": "± 7748872",
             "unit": "ns/iter"
@@ -4136,19 +4136,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61055395,
             "range": "± 1695724",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77500156,
             "range": "± 1051634",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 759035697,
             "range": "± 6754739",
             "unit": "ns/iter"
@@ -4178,19 +4178,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60608524,
             "range": "± 1567479",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76965433,
             "range": "± 1055115",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 756585659,
             "range": "± 5723268",
             "unit": "ns/iter"
@@ -4220,19 +4220,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60714870,
             "range": "± 1114509",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77356074,
             "range": "± 1210488",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 761929871,
             "range": "± 5942338",
             "unit": "ns/iter"
@@ -4262,19 +4262,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60726574,
             "range": "± 1154318",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78691903,
             "range": "± 1101604",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 765714408,
             "range": "± 5691447",
             "unit": "ns/iter"
@@ -4304,19 +4304,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61506994,
             "range": "± 954080",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78396586,
             "range": "± 1081832",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 784693893,
             "range": "± 6200179",
             "unit": "ns/iter"
@@ -4346,19 +4346,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60357837,
             "range": "± 1230564",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74746587,
             "range": "± 1408837",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 754406547,
             "range": "± 11031820",
             "unit": "ns/iter"
@@ -4388,19 +4388,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61435417,
             "range": "± 984503",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74820379,
             "range": "± 1422150",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 772180952,
             "range": "± 10369781",
             "unit": "ns/iter"
@@ -4430,19 +4430,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61294830,
             "range": "± 1077792",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74802923,
             "range": "± 1218348",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 767249143,
             "range": "± 11531311",
             "unit": "ns/iter"
@@ -4472,19 +4472,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60706275,
             "range": "± 1373699",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75665822,
             "range": "± 1178747",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 758952781,
             "range": "± 11196986",
             "unit": "ns/iter"
@@ -4514,19 +4514,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61451461,
             "range": "± 1067577",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76395610,
             "range": "± 1042169",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 779622078,
             "range": "± 11838962",
             "unit": "ns/iter"
@@ -4556,19 +4556,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60284568,
             "range": "± 1523568",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74243255,
             "range": "± 1242391",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 748877200,
             "range": "± 10912716",
             "unit": "ns/iter"
@@ -4598,19 +4598,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61404980,
             "range": "± 1175338",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75387186,
             "range": "± 1316992",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 772317444,
             "range": "± 10614923",
             "unit": "ns/iter"
@@ -4640,19 +4640,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61620168,
             "range": "± 1055215",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75296638,
             "range": "± 1353664",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 774917172,
             "range": "± 9314476",
             "unit": "ns/iter"
@@ -4682,19 +4682,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59622772,
             "range": "± 1210969",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74455995,
             "range": "± 1158998",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 750112283,
             "range": "± 10025649",
             "unit": "ns/iter"
@@ -4724,19 +4724,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60190351,
             "range": "± 1356901",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75922042,
             "range": "± 1155578",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 762129772,
             "range": "± 11164159",
             "unit": "ns/iter"
@@ -4766,19 +4766,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60174719,
             "range": "± 1216547",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74937470,
             "range": "± 1150266",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 757316624,
             "range": "± 10947823",
             "unit": "ns/iter"
@@ -4808,19 +4808,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59973516,
             "range": "± 1077256",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74086589,
             "range": "± 1011439",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 746060342,
             "range": "± 11657091",
             "unit": "ns/iter"
@@ -4850,19 +4850,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60015393,
             "range": "± 1280328",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68801459,
             "range": "± 1772571",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 760345549,
             "range": "± 7238163",
             "unit": "ns/iter"
@@ -4892,19 +4892,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60094289,
             "range": "± 1138253",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68920665,
             "range": "± 1696710",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 759659526,
             "range": "± 8216474",
             "unit": "ns/iter"
@@ -4934,19 +4934,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61401519,
             "range": "± 1110900",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70389418,
             "range": "± 1657275",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 783335495,
             "range": "± 8047877",
             "unit": "ns/iter"
@@ -4976,19 +4976,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61351275,
             "range": "± 1001912",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70761968,
             "range": "± 1633452",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 786097088,
             "range": "± 6209005",
             "unit": "ns/iter"
@@ -5018,19 +5018,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61234779,
             "range": "± 1243701",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70246660,
             "range": "± 1661435",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 785561434,
             "range": "± 7643242",
             "unit": "ns/iter"
@@ -5060,19 +5060,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61407013,
             "range": "± 1281759",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69602304,
             "range": "± 1663015",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 781747457,
             "range": "± 8545929",
             "unit": "ns/iter"
@@ -5102,19 +5102,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61081928,
             "range": "± 1133334",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70838481,
             "range": "± 1554008",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764789116,
             "range": "± 6587602",
             "unit": "ns/iter"
@@ -5144,19 +5144,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59040766,
             "range": "± 1183005",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69501369,
             "range": "± 1607914",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 750715742,
             "range": "± 7084110",
             "unit": "ns/iter"
@@ -5186,19 +5186,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59109986,
             "range": "± 1346270",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70575447,
             "range": "± 1558759",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 757726584,
             "range": "± 5870658",
             "unit": "ns/iter"
@@ -5228,19 +5228,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61281504,
             "range": "± 1056379",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70595721,
             "range": "± 1963033",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 776484165,
             "range": "± 6865048",
             "unit": "ns/iter"
@@ -5270,19 +5270,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61126269,
             "range": "± 1255176",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71225634,
             "range": "± 1653337",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 779136539,
             "range": "± 6551464",
             "unit": "ns/iter"
@@ -5312,19 +5312,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59459732,
             "range": "± 2032224",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70425743,
             "range": "± 1895659",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764738675,
             "range": "± 6019264",
             "unit": "ns/iter"
@@ -5354,19 +5354,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58808450,
             "range": "± 1632666",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68039753,
             "range": "± 1813002",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 760740325,
             "range": "± 7809126",
             "unit": "ns/iter"
@@ -5396,19 +5396,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59497764,
             "range": "± 1296179",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70920142,
             "range": "± 1481916",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 775241477,
             "range": "± 7479246",
             "unit": "ns/iter"
@@ -5438,19 +5438,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59311405,
             "range": "± 1370910",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68991923,
             "range": "± 1616236",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 756211282,
             "range": "± 6989219",
             "unit": "ns/iter"
@@ -5480,19 +5480,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60721260,
             "range": "± 1465208",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70772060,
             "range": "± 2039689",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 775984342,
             "range": "± 6872519",
             "unit": "ns/iter"
@@ -5522,19 +5522,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59403777,
             "range": "± 1809837",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69762921,
             "range": "± 1659666",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 759599956,
             "range": "± 7221266",
             "unit": "ns/iter"
@@ -5564,19 +5564,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58814521,
             "range": "± 1866096",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68553539,
             "range": "± 1415570",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 756507770,
             "range": "± 6491485",
             "unit": "ns/iter"
@@ -5606,19 +5606,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59004566,
             "range": "± 1221138",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68937771,
             "range": "± 1593294",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 758851370,
             "range": "± 7334552",
             "unit": "ns/iter"
@@ -5648,19 +5648,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60933467,
             "range": "± 1023718",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71114301,
             "range": "± 1704258",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 780884902,
             "range": "± 7762240",
             "unit": "ns/iter"
@@ -5690,19 +5690,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61287604,
             "range": "± 1559630",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71919856,
             "range": "± 1554811",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 787701742,
             "range": "± 7195961",
             "unit": "ns/iter"
@@ -5732,19 +5732,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61076127,
             "range": "± 1183215",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70199427,
             "range": "± 1427726",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 780484256,
             "range": "± 7415684",
             "unit": "ns/iter"
@@ -5774,19 +5774,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58826266,
             "range": "± 1229280",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68232650,
             "range": "± 1396731",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 752253433,
             "range": "± 9200972",
             "unit": "ns/iter"
@@ -5816,19 +5816,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60897978,
             "range": "± 1272669",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70930503,
             "range": "± 1452066",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 782573010,
             "range": "± 7924013",
             "unit": "ns/iter"
@@ -5858,19 +5858,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60826566,
             "range": "± 1214651",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70595836,
             "range": "± 1499049",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 779384554,
             "range": "± 7388509",
             "unit": "ns/iter"
@@ -5900,19 +5900,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59168535,
             "range": "± 1112064",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70224871,
             "range": "± 1394788",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 761068637,
             "range": "± 7100373",
             "unit": "ns/iter"
@@ -5942,19 +5942,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59176141,
             "range": "± 1272198",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69372485,
             "range": "± 1344789",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 762940371,
             "range": "± 6357045",
             "unit": "ns/iter"
@@ -5984,19 +5984,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59052054,
             "range": "± 1121569",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71860593,
             "range": "± 1410069",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764688855,
             "range": "± 6514399",
             "unit": "ns/iter"
@@ -6026,19 +6026,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61515019,
             "range": "± 1480174",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72967326,
             "range": "± 1690566",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 784733905,
             "range": "± 5928134",
             "unit": "ns/iter"
@@ -6068,19 +6068,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61087114,
             "range": "± 1418001",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72298831,
             "range": "± 1670452",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 779492077,
             "range": "± 6672514",
             "unit": "ns/iter"
@@ -6110,19 +6110,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59697974,
             "range": "± 1304381",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72087805,
             "range": "± 1894440",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 783304447,
             "range": "± 5119463",
             "unit": "ns/iter"
@@ -6152,19 +6152,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58896196,
             "range": "± 1245359",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69666535,
             "range": "± 1447621",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 758879073,
             "range": "± 6610753",
             "unit": "ns/iter"
@@ -6194,19 +6194,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60850186,
             "range": "± 1713225",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71204602,
             "range": "± 1606980",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 779716370,
             "range": "± 6416924",
             "unit": "ns/iter"
@@ -6236,19 +6236,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61152284,
             "range": "± 1138678",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72263421,
             "range": "± 1324057",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 784963612,
             "range": "± 7151807",
             "unit": "ns/iter"
@@ -6278,19 +6278,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59200454,
             "range": "± 1493660",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69910660,
             "range": "± 1784255",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 771212791,
             "range": "± 5829696",
             "unit": "ns/iter"
@@ -6320,19 +6320,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59005426,
             "range": "± 1088063",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70143231,
             "range": "± 1549802",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 759544066,
             "range": "± 6518293",
             "unit": "ns/iter"
@@ -6362,19 +6362,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58841003,
             "range": "± 1274803",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69570878,
             "range": "± 1673005",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 757764934,
             "range": "± 5866238",
             "unit": "ns/iter"
@@ -6404,19 +6404,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59441858,
             "range": "± 1184288",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71595743,
             "range": "± 1582252",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764608369,
             "range": "± 5957593",
             "unit": "ns/iter"
@@ -6446,19 +6446,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61249257,
             "range": "± 1333989",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72632993,
             "range": "± 1400990",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 788128507,
             "range": "± 5672733",
             "unit": "ns/iter"
@@ -6488,19 +6488,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59228872,
             "range": "± 1238469",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71562093,
             "range": "± 1559251",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 763394140,
             "range": "± 5584153",
             "unit": "ns/iter"
@@ -6530,19 +6530,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61448221,
             "range": "± 948721",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72597759,
             "range": "± 1747931",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 783697318,
             "range": "± 6721960",
             "unit": "ns/iter"
@@ -6572,19 +6572,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59137248,
             "range": "± 1223110",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70650373,
             "range": "± 1621621",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 757692579,
             "range": "± 5754688",
             "unit": "ns/iter"
@@ -6614,19 +6614,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59184363,
             "range": "± 1314496",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70503215,
             "range": "± 1813942",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 755716222,
             "range": "± 6797500",
             "unit": "ns/iter"
@@ -6656,19 +6656,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60611522,
             "range": "± 1454724",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71985129,
             "range": "± 1457978",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 797586001,
             "range": "± 6791529",
             "unit": "ns/iter"
@@ -6698,19 +6698,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59473264,
             "range": "± 1079183",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70501244,
             "range": "± 1482428",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 775527547,
             "range": "± 6347249",
             "unit": "ns/iter"
@@ -6740,19 +6740,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57343456,
             "range": "± 1316514",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70294327,
             "range": "± 1709485",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 757438773,
             "range": "± 6334059",
             "unit": "ns/iter"
@@ -6782,19 +6782,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57520631,
             "range": "± 1349220",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69177497,
             "range": "± 1548857",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 758178193,
             "range": "± 6469402",
             "unit": "ns/iter"
@@ -6824,19 +6824,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59577217,
             "range": "± 1307300",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71450071,
             "range": "± 1600651",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 775720480,
             "range": "± 7289932",
             "unit": "ns/iter"
@@ -6866,19 +6866,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59799530,
             "range": "± 1241946",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72869777,
             "range": "± 1611728",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 785327809,
             "range": "± 5649318",
             "unit": "ns/iter"
@@ -6908,19 +6908,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57804794,
             "range": "± 1833812",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69020736,
             "range": "± 1320364",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 760479318,
             "range": "± 5838791",
             "unit": "ns/iter"
@@ -6950,19 +6950,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57793186,
             "range": "± 1332832",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69857276,
             "range": "± 1492917",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 762328552,
             "range": "± 6889220",
             "unit": "ns/iter"
@@ -6992,19 +6992,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57132110,
             "range": "± 1317337",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75019840,
             "range": "± 2198387",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 760222797,
             "range": "± 6121113",
             "unit": "ns/iter"
@@ -7034,19 +7034,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58817685,
             "range": "± 1022158",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78182285,
             "range": "± 2029884",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 786598729,
             "range": "± 5551677",
             "unit": "ns/iter"
@@ -7076,19 +7076,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59154712,
             "range": "± 1316653",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77736268,
             "range": "± 1850437",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 789617513,
             "range": "± 6608979",
             "unit": "ns/iter"
@@ -7118,19 +7118,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57247825,
             "range": "± 1090009",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77012530,
             "range": "± 2030475",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 769934191,
             "range": "± 6438711",
             "unit": "ns/iter"
@@ -7160,19 +7160,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57035241,
             "range": "± 1221030",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76319256,
             "range": "± 2210899",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764245739,
             "range": "± 6580968",
             "unit": "ns/iter"
@@ -7202,19 +7202,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58581831,
             "range": "± 1226241",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77904567,
             "range": "± 1819976",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 784135477,
             "range": "± 6573279",
             "unit": "ns/iter"
@@ -7244,19 +7244,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 56991380,
             "range": "± 1107802",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75126155,
             "range": "± 1806489",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 752543571,
             "range": "± 6461890",
             "unit": "ns/iter"
@@ -7286,19 +7286,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59094287,
             "range": "± 1099958",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77242154,
             "range": "± 1869097",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 784203717,
             "range": "± 6588945",
             "unit": "ns/iter"
@@ -7328,19 +7328,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57118447,
             "range": "± 1285249",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76109843,
             "range": "± 1884808",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 762180846,
             "range": "± 6500914",
             "unit": "ns/iter"
@@ -7370,19 +7370,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58245657,
             "range": "± 1135864",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77157277,
             "range": "± 2234411",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 772614064,
             "range": "± 6370161",
             "unit": "ns/iter"
@@ -7412,19 +7412,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 56993529,
             "range": "± 931379",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75105113,
             "range": "± 1854158",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 753129773,
             "range": "± 6580328",
             "unit": "ns/iter"
@@ -7454,19 +7454,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 58792910,
             "range": "± 1204572",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77112996,
             "range": "± 1927444",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 776501799,
             "range": "± 6279966",
             "unit": "ns/iter"
@@ -7496,19 +7496,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57017869,
             "range": "± 1388244",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75111322,
             "range": "± 2120860",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 757363579,
             "range": "± 6508247",
             "unit": "ns/iter"
@@ -7538,19 +7538,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 57690304,
             "range": "± 1427117",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76686396,
             "range": "± 1983432",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 768478537,
             "range": "± 6768117",
             "unit": "ns/iter"
@@ -7580,19 +7580,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59888320,
             "range": "± 2072680",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76383439,
             "range": "± 2025099",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 771453872,
             "range": "± 6748411",
             "unit": "ns/iter"
@@ -7622,19 +7622,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61065014,
             "range": "± 1220169",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76712378,
             "range": "± 1941530",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 783993720,
             "range": "± 7563754",
             "unit": "ns/iter"
@@ -7664,19 +7664,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59668853,
             "range": "± 1277730",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75309420,
             "range": "± 1887874",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 775040185,
             "range": "± 8687069",
             "unit": "ns/iter"
@@ -7706,19 +7706,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60095939,
             "range": "± 1270824",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76794513,
             "range": "± 1953861",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 769367670,
             "range": "± 7580222",
             "unit": "ns/iter"
@@ -7748,19 +7748,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59568754,
             "range": "± 1333760",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75648166,
             "range": "± 2002710",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 770013525,
             "range": "± 7504100",
             "unit": "ns/iter"
@@ -7790,19 +7790,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59874243,
             "range": "± 1448755",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76639940,
             "range": "± 2041041",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 775884299,
             "range": "± 6518773",
             "unit": "ns/iter"
@@ -7832,19 +7832,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59841396,
             "range": "± 1258564",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69293615,
             "range": "± 1730958",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 767115025,
             "range": "± 13093307",
             "unit": "ns/iter"
@@ -7874,19 +7874,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59459552,
             "range": "± 1169736",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69805856,
             "range": "± 2045974",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 764131073,
             "range": "± 13028829",
             "unit": "ns/iter"
@@ -7916,19 +7916,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60979626,
             "range": "± 1273530",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71369432,
             "range": "± 2389931",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 776797950,
             "range": "± 12474959",
             "unit": "ns/iter"
@@ -7958,19 +7958,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 60427835,
             "range": "± 1260690",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69689222,
             "range": "± 2239289",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 770313871,
             "range": "± 11808099",
             "unit": "ns/iter"
@@ -8000,19 +8000,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61118355,
             "range": "± 1074881",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70722424,
             "range": "± 1932470",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 780933094,
             "range": "± 11404164",
             "unit": "ns/iter"
@@ -8042,19 +8042,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59542606,
             "range": "± 1099887",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70185441,
             "range": "± 1763647",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 770095250,
             "range": "± 10024611",
             "unit": "ns/iter"
@@ -8084,19 +8084,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59266486,
             "range": "± 1309921",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68354992,
             "range": "± 1854619",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 759170809,
             "range": "± 11843873",
             "unit": "ns/iter"
@@ -8126,19 +8126,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61134716,
             "range": "± 1181841",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70592399,
             "range": "± 2356917",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 776602845,
             "range": "± 10967217",
             "unit": "ns/iter"
@@ -8168,19 +8168,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61443612,
             "range": "± 1489975",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71237116,
             "range": "± 2107390",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 783788330,
             "range": "± 11276709",
             "unit": "ns/iter"
@@ -8210,19 +8210,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 59305457,
             "range": "± 2172105",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 68385860,
             "range": "± 1656256",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 756696143,
             "range": "± 11094976",
             "unit": "ns/iter"
@@ -8252,19 +8252,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 61118842,
             "range": "± 1064979",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69515637,
             "range": "± 2004390",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 775729966,
             "range": "± 11527072",
             "unit": "ns/iter"
@@ -8294,19 +8294,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67608774,
             "range": "± 1509534",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75286700,
             "range": "± 1757656",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 822426585,
             "range": "± 9667020",
             "unit": "ns/iter"
@@ -8336,19 +8336,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 68462967,
             "range": "± 1659453",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76121707,
             "range": "± 1895171",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 836089475,
             "range": "± 10462135",
             "unit": "ns/iter"
@@ -8378,19 +8378,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64903325,
             "range": "± 1662993",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 73993649,
             "range": "± 2257151",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 801594319,
             "range": "± 9588628",
             "unit": "ns/iter"
@@ -8420,19 +8420,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66550657,
             "range": "± 1350891",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75065075,
             "range": "± 1967109",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 816792478,
             "range": "± 8959246",
             "unit": "ns/iter"
@@ -8462,19 +8462,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67418301,
             "range": "± 1616002",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76022443,
             "range": "± 2011700",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 819515545,
             "range": "± 10049040",
             "unit": "ns/iter"
@@ -8504,19 +8504,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65413656,
             "range": "± 1416189",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77832867,
             "range": "± 2142936",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 811921686,
             "range": "± 9376907",
             "unit": "ns/iter"
@@ -8546,19 +8546,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66820668,
             "range": "± 1303292",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75148282,
             "range": "± 2021253",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 816334821,
             "range": "± 9764921",
             "unit": "ns/iter"
@@ -8588,19 +8588,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 68316153,
             "range": "± 1405167",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78378997,
             "range": "± 2183247",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 840153324,
             "range": "± 9554892",
             "unit": "ns/iter"
@@ -8630,19 +8630,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65263053,
             "range": "± 1365621",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74152465,
             "range": "± 1870700",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 799591105,
             "range": "± 9224569",
             "unit": "ns/iter"
@@ -8672,19 +8672,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66492714,
             "range": "± 1495263",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76272359,
             "range": "± 2056694",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 815376025,
             "range": "± 8858698",
             "unit": "ns/iter"
@@ -8714,19 +8714,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65298507,
             "range": "± 1616751",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76835821,
             "range": "± 1947781",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 804320844,
             "range": "± 9242286",
             "unit": "ns/iter"
@@ -8756,19 +8756,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 121009625,
             "range": "± 2214352",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 80447971,
             "range": "± 2146929",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 1187334385,
             "range": "± 12199370",
             "unit": "ns/iter"
@@ -8798,19 +8798,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 69132395,
             "range": "± 1576812",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78620640,
             "range": "± 2177287",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 837171823,
             "range": "± 8170566",
             "unit": "ns/iter"
@@ -8840,19 +8840,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64845975,
             "range": "± 1403912",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74356569,
             "range": "± 1692321",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 792714538,
             "range": "± 7241269",
             "unit": "ns/iter"
@@ -8882,19 +8882,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64722679,
             "range": "± 1407786",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75553596,
             "range": "± 2035822",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 791575802,
             "range": "± 7635461",
             "unit": "ns/iter"
@@ -8924,19 +8924,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64890080,
             "range": "± 1461421",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75253908,
             "range": "± 1920503",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 799640344,
             "range": "± 8572484",
             "unit": "ns/iter"
@@ -8966,19 +8966,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65269534,
             "range": "± 1306510",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75377349,
             "range": "± 2182079",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 802412730,
             "range": "± 8765753",
             "unit": "ns/iter"
@@ -9008,19 +9008,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65103982,
             "range": "± 1543495",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74833094,
             "range": "± 1911327",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 798472740,
             "range": "± 8027294",
             "unit": "ns/iter"
@@ -9050,19 +9050,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66972254,
             "range": "± 1621329",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76096138,
             "range": "± 2172866",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 816988952,
             "range": "± 9953527",
             "unit": "ns/iter"
@@ -9092,19 +9092,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65757232,
             "range": "± 1742362",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76275927,
             "range": "± 2205209",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 807815063,
             "range": "± 11018701",
             "unit": "ns/iter"
@@ -9134,19 +9134,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66495602,
             "range": "± 1645581",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76233795,
             "range": "± 2097088",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 813746500,
             "range": "± 7757536",
             "unit": "ns/iter"
@@ -9176,19 +9176,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67429551,
             "range": "± 1356119",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77174008,
             "range": "± 1854853",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 816230685,
             "range": "± 8460209",
             "unit": "ns/iter"
@@ -9218,19 +9218,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64945871,
             "range": "± 1472661",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75682164,
             "range": "± 2034606",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 793671259,
             "range": "± 7819216",
             "unit": "ns/iter"
@@ -9260,19 +9260,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67700638,
             "range": "± 1452283",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79351592,
             "range": "± 2343842",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 824662690,
             "range": "± 8861684",
             "unit": "ns/iter"
@@ -9302,19 +9302,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64998482,
             "range": "± 1316521",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76605915,
             "range": "± 2146662",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 799463347,
             "range": "± 9284230",
             "unit": "ns/iter"
@@ -9344,19 +9344,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65460164,
             "range": "± 1452605",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76790332,
             "range": "± 2519232",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 802865407,
             "range": "± 9923406",
             "unit": "ns/iter"
@@ -9386,19 +9386,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65106216,
             "range": "± 1383608",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75404464,
             "range": "± 1886654",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 801788343,
             "range": "± 8824403",
             "unit": "ns/iter"
@@ -9428,19 +9428,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64982636,
             "range": "± 1409898",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74888171,
             "range": "± 1957058",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 800482392,
             "range": "± 8870389",
             "unit": "ns/iter"
@@ -9470,19 +9470,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64844921,
             "range": "± 1479014",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76528704,
             "range": "± 1870326",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 805822910,
             "range": "± 10126538",
             "unit": "ns/iter"
@@ -9512,19 +9512,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67042707,
             "range": "± 1533700",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77184456,
             "range": "± 2262074",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 821823744,
             "range": "± 11516918",
             "unit": "ns/iter"
@@ -9554,19 +9554,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65411567,
             "range": "± 1417483",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76009345,
             "range": "± 1978706",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 800026324,
             "range": "± 10474656",
             "unit": "ns/iter"
@@ -9596,19 +9596,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65653244,
             "range": "± 1306510",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76152581,
             "range": "± 1971954",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 808187393,
             "range": "± 9490550",
             "unit": "ns/iter"
@@ -9638,19 +9638,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 69126383,
             "range": "± 1558685",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 80430087,
             "range": "± 1962423",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 857281100,
             "range": "± 9879979",
             "unit": "ns/iter"
@@ -9680,19 +9680,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65188620,
             "range": "± 1456516",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75517980,
             "range": "± 2292279",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 799975634,
             "range": "± 9013667",
             "unit": "ns/iter"
@@ -9722,19 +9722,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64752870,
             "range": "± 1216523",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74247150,
             "range": "± 1801182",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 796867416,
             "range": "± 10303693",
             "unit": "ns/iter"
@@ -9764,19 +9764,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65455391,
             "range": "± 1851611",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77052016,
             "range": "± 1941859",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 812850658,
             "range": "± 9199709",
             "unit": "ns/iter"
@@ -9806,19 +9806,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67657848,
             "range": "± 1307159",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78484469,
             "range": "± 1929416",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 826773742,
             "range": "± 9824059",
             "unit": "ns/iter"
@@ -9848,19 +9848,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65627325,
             "range": "± 1229920",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76094790,
             "range": "± 2023138",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 803299322,
             "range": "± 9250213",
             "unit": "ns/iter"
@@ -9890,19 +9890,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67313773,
             "range": "± 1180891",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76755448,
             "range": "± 2200328",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 819259247,
             "range": "± 9075369",
             "unit": "ns/iter"
@@ -9932,19 +9932,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64969558,
             "range": "± 1541701",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76411713,
             "range": "± 2189390",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 798792605,
             "range": "± 9099180",
             "unit": "ns/iter"
@@ -9974,19 +9974,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67465856,
             "range": "± 1374053",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79672450,
             "range": "± 2107387",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 822871126,
             "range": "± 8817260",
             "unit": "ns/iter"
@@ -10016,19 +10016,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67734440,
             "range": "± 1243871",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 80680368,
             "range": "± 1982475",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 829543914,
             "range": "± 8684823",
             "unit": "ns/iter"
@@ -10058,19 +10058,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66542974,
             "range": "± 1279886",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79585910,
             "range": "± 2323792",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 831049625,
             "range": "± 9734985",
             "unit": "ns/iter"
@@ -10100,19 +10100,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63769023,
             "range": "± 1350401",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75363548,
             "range": "± 1896256",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 795521364,
             "range": "± 9180162",
             "unit": "ns/iter"
@@ -10142,19 +10142,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66173731,
             "range": "± 1519909",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77281845,
             "range": "± 1914518",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 819659459,
             "range": "± 10404683",
             "unit": "ns/iter"
@@ -10184,19 +10184,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66351862,
             "range": "± 1754288",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76892810,
             "range": "± 2021862",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 819130165,
             "range": "± 10250347",
             "unit": "ns/iter"
@@ -10226,19 +10226,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66354483,
             "range": "± 1545495",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76026095,
             "range": "± 1828513",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 816160830,
             "range": "± 9389001",
             "unit": "ns/iter"
@@ -10268,19 +10268,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66250240,
             "range": "± 1219275",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77415215,
             "range": "± 1833102",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 816379113,
             "range": "± 9588392",
             "unit": "ns/iter"
@@ -10310,19 +10310,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64033148,
             "range": "± 1425285",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75222185,
             "range": "± 2103766",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 796579342,
             "range": "± 8495754",
             "unit": "ns/iter"
@@ -10352,19 +10352,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66009419,
             "range": "± 1720568",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76246867,
             "range": "± 1970177",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 815298984,
             "range": "± 9310451",
             "unit": "ns/iter"
@@ -10394,19 +10394,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66309935,
             "range": "± 1499731",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77448870,
             "range": "± 1775823",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 825169496,
             "range": "± 8136183",
             "unit": "ns/iter"
@@ -10436,19 +10436,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64368170,
             "range": "± 1360969",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76708982,
             "range": "± 2235855",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 809978875,
             "range": "± 9356910",
             "unit": "ns/iter"
@@ -10478,19 +10478,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67532119,
             "range": "± 1391716",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79347781,
             "range": "± 2106149",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 844252584,
             "range": "± 8947676",
             "unit": "ns/iter"
@@ -10520,19 +10520,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67411708,
             "range": "± 1477117",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78931103,
             "range": "± 1900614",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 838657693,
             "range": "± 8915256",
             "unit": "ns/iter"
@@ -10562,19 +10562,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63460249,
             "range": "± 1821486",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 74673294,
             "range": "± 2141499",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 793809927,
             "range": "± 9311518",
             "unit": "ns/iter"
@@ -10604,19 +10604,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63781511,
             "range": "± 1608437",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 75875943,
             "range": "± 2073552",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 792638974,
             "range": "± 9195316",
             "unit": "ns/iter"
@@ -10646,19 +10646,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65020725,
             "range": "± 1315691",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77469203,
             "range": "± 1997563",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 813852571,
             "range": "± 8485943",
             "unit": "ns/iter"
@@ -10688,19 +10688,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67170562,
             "range": "± 1441810",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78748300,
             "range": "± 2118604",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 831620352,
             "range": "± 8580446",
             "unit": "ns/iter"
@@ -10730,19 +10730,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63789478,
             "range": "± 1439722",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77420884,
             "range": "± 2252870",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 797584647,
             "range": "± 7992985",
             "unit": "ns/iter"
@@ -10772,19 +10772,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66480703,
             "range": "± 1356880",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79065841,
             "range": "± 1707823",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 824579899,
             "range": "± 8821480",
             "unit": "ns/iter"
@@ -10814,19 +10814,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65414583,
             "range": "± 1346117",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76419169,
             "range": "± 2050745",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 807777075,
             "range": "± 8642586",
             "unit": "ns/iter"
@@ -10856,19 +10856,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66750445,
             "range": "± 1418192",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70584868,
             "range": "± 1650535",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 805403525,
             "range": "± 11653859",
             "unit": "ns/iter"
@@ -10898,19 +10898,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64349676,
             "range": "± 1329718",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70806925,
             "range": "± 2134250",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 789785502,
             "range": "± 12160662",
             "unit": "ns/iter"
@@ -10940,19 +10940,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65016701,
             "range": "± 1525869",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70618498,
             "range": "± 1694159",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 794299808,
             "range": "± 10861326",
             "unit": "ns/iter"
@@ -10982,19 +10982,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64066811,
             "range": "± 1148680",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70689229,
             "range": "± 1875705",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 788915849,
             "range": "± 12959676",
             "unit": "ns/iter"
@@ -11024,19 +11024,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66357810,
             "range": "± 1379432",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70769716,
             "range": "± 2028514",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 810529997,
             "range": "± 10768164",
             "unit": "ns/iter"
@@ -11066,19 +11066,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64102882,
             "range": "± 1165756",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69549165,
             "range": "± 2275562",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 789893758,
             "range": "± 12488979",
             "unit": "ns/iter"
@@ -11108,19 +11108,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63985800,
             "range": "± 1269224",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70077657,
             "range": "± 1846419",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 785955654,
             "range": "± 12379247",
             "unit": "ns/iter"
@@ -11150,19 +11150,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64164261,
             "range": "± 1507036",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69592471,
             "range": "± 1779504",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 794459375,
             "range": "± 11541544",
             "unit": "ns/iter"
@@ -11192,19 +11192,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66546732,
             "range": "± 1176406",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71508893,
             "range": "± 1694631",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 810757964,
             "range": "± 10331897",
             "unit": "ns/iter"
@@ -11234,19 +11234,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67144854,
             "range": "± 1327026",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71636795,
             "range": "± 2008946",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 822726163,
             "range": "± 12080063",
             "unit": "ns/iter"
@@ -11276,19 +11276,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65749078,
             "range": "± 1285085",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71299628,
             "range": "± 1723460",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 808655866,
             "range": "± 11806053",
             "unit": "ns/iter"
@@ -11318,19 +11318,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66386390,
             "range": "± 1384832",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72769543,
             "range": "± 1922313",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 822377643,
             "range": "± 10324837",
             "unit": "ns/iter"
@@ -11360,19 +11360,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63694372,
             "range": "± 1400402",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71394808,
             "range": "± 2078097",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 792147756,
             "range": "± 12687857",
             "unit": "ns/iter"
@@ -11402,19 +11402,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64264650,
             "range": "± 1188894",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71133488,
             "range": "± 1763362",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 795747703,
             "range": "± 10795056",
             "unit": "ns/iter"
@@ -11444,19 +11444,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63603930,
             "range": "± 1824542",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69589998,
             "range": "± 2127567",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 782151466,
             "range": "± 12926258",
             "unit": "ns/iter"
@@ -11486,19 +11486,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65776405,
             "range": "± 1377854",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70273472,
             "range": "± 2265470",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 799551756,
             "range": "± 12679204",
             "unit": "ns/iter"
@@ -11528,19 +11528,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66140272,
             "range": "± 1596673",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72796349,
             "range": "± 2156401",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 818130201,
             "range": "± 11288670",
             "unit": "ns/iter"
@@ -11570,19 +11570,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63528289,
             "range": "± 1201169",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70657148,
             "range": "± 1792761",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 793060941,
             "range": "± 9260589",
             "unit": "ns/iter"
@@ -11612,19 +11612,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65833569,
             "range": "± 1301744",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70765895,
             "range": "± 1755900",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 807046934,
             "range": "± 10330898",
             "unit": "ns/iter"
@@ -11654,19 +11654,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65934470,
             "range": "± 1758419",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 71145110,
             "range": "± 2246792",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 813907377,
             "range": "± 11262759",
             "unit": "ns/iter"
@@ -11696,19 +11696,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63501212,
             "range": "± 1359148",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69831794,
             "range": "± 1896636",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 783946368,
             "range": "± 10811941",
             "unit": "ns/iter"
@@ -11738,19 +11738,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63811567,
             "range": "± 1350348",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69411003,
             "range": "± 2357000",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 792592198,
             "range": "± 11006442",
             "unit": "ns/iter"
@@ -11780,19 +11780,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63637237,
             "range": "± 1338733",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 69902287,
             "range": "± 1890888",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 785488239,
             "range": "± 11269528",
             "unit": "ns/iter"
@@ -11822,19 +11822,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 67250979,
             "range": "± 1305465",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 73170194,
             "range": "± 2061343",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 832476510,
             "range": "± 10330149",
             "unit": "ns/iter"
@@ -11864,19 +11864,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66541870,
             "range": "± 1566705",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 72134102,
             "range": "± 1702816",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 825045858,
             "range": "± 11744184",
             "unit": "ns/iter"
@@ -11906,19 +11906,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66771826,
             "range": "± 1790062",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70396217,
             "range": "± 2184375",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 814971258,
             "range": "± 10133931",
             "unit": "ns/iter"
@@ -11948,19 +11948,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66076033,
             "range": "± 1304688",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 70259585,
             "range": "± 2146532",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 807010954,
             "range": "± 9295586",
             "unit": "ns/iter"
@@ -11990,19 +11990,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 156022857,
             "range": "± 11559245",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 173509127,
             "range": "± 10948367",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 882054544,
             "range": "± 13156554",
             "unit": "ns/iter"
@@ -12032,19 +12032,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63751224,
             "range": "± 1317631",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76704809,
             "range": "± 1843976",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 793487785,
             "range": "± 9570539",
             "unit": "ns/iter"
@@ -12074,19 +12074,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63648468,
             "range": "± 1784169",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77532880,
             "range": "± 1778274",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 798968352,
             "range": "± 10918999",
             "unit": "ns/iter"
@@ -12116,19 +12116,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63752935,
             "range": "± 1208112",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79407041,
             "range": "± 2119383",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 798954395,
             "range": "± 8707530",
             "unit": "ns/iter"
@@ -12158,13 +12158,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63635177,
             "range": "± 1421182",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77965766,
             "range": "± 1987954",
             "unit": "ns/iter"
@@ -12194,19 +12194,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66131835,
             "range": "± 1255409",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79556905,
             "range": "± 2018540",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 819268209,
             "range": "± 9587734",
             "unit": "ns/iter"
@@ -12236,19 +12236,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65585149,
             "range": "± 1531445",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79955431,
             "range": "± 1794296",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 814052220,
             "range": "± 9298500",
             "unit": "ns/iter"
@@ -12278,19 +12278,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63812814,
             "range": "± 1707541",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77045928,
             "range": "± 1752181",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 789734299,
             "range": "± 8500511",
             "unit": "ns/iter"
@@ -12320,19 +12320,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63939252,
             "range": "± 2023013",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77557030,
             "range": "± 1974521",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 797851750,
             "range": "± 9058789",
             "unit": "ns/iter"
@@ -12362,19 +12362,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66701361,
             "range": "± 1362939",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 80134457,
             "range": "± 2170491",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 826002595,
             "range": "± 9540822",
             "unit": "ns/iter"
@@ -12404,19 +12404,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 64878344,
             "range": "± 1465691",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78412755,
             "range": "± 1747273",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 814121887,
             "range": "± 8865356",
             "unit": "ns/iter"
@@ -12446,19 +12446,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 65133860,
             "range": "± 1467813",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77437291,
             "range": "± 2007289",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 808608940,
             "range": "± 8916584",
             "unit": "ns/iter"
@@ -12488,19 +12488,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63826755,
             "range": "± 2330147",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76773002,
             "range": "± 1769585",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 798246441,
             "range": "± 9905986",
             "unit": "ns/iter"
@@ -12530,19 +12530,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63524920,
             "range": "± 1653523",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77125574,
             "range": "± 2005851",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 796901890,
             "range": "± 9010243",
             "unit": "ns/iter"
@@ -12572,19 +12572,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66146698,
             "range": "± 1229009",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 79366905,
             "range": "± 1943767",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 825053427,
             "range": "± 8852204",
             "unit": "ns/iter"
@@ -12614,19 +12614,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66239327,
             "range": "± 1238918",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78442080,
             "range": "± 2075214",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 825519888,
             "range": "± 8980263",
             "unit": "ns/iter"
@@ -12656,19 +12656,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66080531,
             "range": "± 1147867",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78785088,
             "range": "± 2059522",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 811655296,
             "range": "± 9527981",
             "unit": "ns/iter"
@@ -12698,19 +12698,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63796910,
             "range": "± 1307374",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77797278,
             "range": "± 1892844",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 801815757,
             "range": "± 10477658",
             "unit": "ns/iter"
@@ -12740,19 +12740,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63939222,
             "range": "± 1355913",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 76535535,
             "range": "± 2188226",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 796797514,
             "range": "± 9264932",
             "unit": "ns/iter"
@@ -12782,19 +12782,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66337801,
             "range": "± 1472656",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 77877408,
             "range": "± 1851738",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 811068221,
             "range": "± 10009956",
             "unit": "ns/iter"
@@ -12824,19 +12824,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63741375,
             "range": "± 1263884",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 78066788,
             "range": "± 2130276",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 803984030,
             "range": "± 8004789",
             "unit": "ns/iter"
@@ -12866,19 +12866,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63553002,
             "range": "± 1315279",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 59119443,
             "range": "± 2189462",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 792695199,
             "range": "± 9007628",
             "unit": "ns/iter"
@@ -12908,19 +12908,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63760231,
             "range": "± 1318617",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 59910337,
             "range": "± 2380670",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 794906769,
             "range": "± 8782738",
             "unit": "ns/iter"
@@ -12950,19 +12950,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63968476,
             "range": "± 1178829",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 59375821,
             "range": "± 2309629",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 800162620,
             "range": "± 9164899",
             "unit": "ns/iter"
@@ -12992,19 +12992,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66791543,
             "range": "± 1453778",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 63027163,
             "range": "± 2270341",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 828995062,
             "range": "± 8643398",
             "unit": "ns/iter"
@@ -13034,19 +13034,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 63620010,
             "range": "± 1812546",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 59764444,
             "range": "± 2055170",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 801606750,
             "range": "± 8063389",
             "unit": "ns/iter"
@@ -13076,19 +13076,19 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "lodash",
+            "name": "criterion_benchmark/lodash",
             "value": 66135274,
             "range": "± 1427167",
             "unit": "ns/iter"
           },
           {
-            "name": "css_heavy",
+            "name": "criterion_benchmark/css_heavy",
             "value": 62364648,
             "range": "± 2447808",
             "unit": "ns/iter"
           },
           {
-            "name": "ten_copy_of_threejs",
+            "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 824581035,
             "range": "± 8825825",
             "unit": "ns/iter"
