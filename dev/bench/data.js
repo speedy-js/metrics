@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670295517809,
+  "lastUpdate": 1670302595484,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13181,6 +13181,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 8804543225,
             "range": "± 31396886",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "deb88b155449b005a34944d2f87921fa37ecf616",
+          "message": "docs: ✏️ adding release contributing doc (#1352)\n\n* docs: ✏️ adding release contributing doc\r\n\r\n* chore: 🤖 update\r\n\r\n* Update CONTRIBUTING.md\r\n\r\nCo-authored-by: hardfist <yangjianzju@gmail.com>\r\n\r\nCo-authored-by: hardfist <yangjianzju@gmail.com>",
+          "timestamp": "2022-12-06T12:45:53+08:00",
+          "tree_id": "1586f9926d6e07254e13dfa603c498257d28fa9e",
+          "url": "https://github.com/speedy-js/rspack/commit/deb88b155449b005a34944d2f87921fa37ecf616"
+        },
+        "date": 1670302592011,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58922408,
+            "range": "± 2692936",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 810436657,
+            "range": "± 8806583",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 66107897,
+            "range": "± 1339060",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8810532577,
+            "range": "± 32413331",
             "unit": "ns/iter"
           }
         ]
