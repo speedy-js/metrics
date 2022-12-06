@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670318586805,
+  "lastUpdate": 1670327965188,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13373,6 +13373,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 8816906907,
             "range": "± 26051898",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5335af46f78425dd8129c7487b47b277be8e965e",
+          "message": "refactor(crates): use trait `Identifiable` (#1356)\n\n* refactor(crates): use trait `Identifiable`\r\n\r\n* chore: make clippy happy again\r\n\r\n* chore: yes im stupid",
+          "timestamp": "2022-12-06T19:43:34+08:00",
+          "tree_id": "492753735d4ef4359abace010bdd4f013b8b7da4",
+          "url": "https://github.com/speedy-js/rspack/commit/5335af46f78425dd8129c7487b47b277be8e965e"
+        },
+        "date": 1670327961630,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58217609,
+            "range": "± 2262085",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 772863883,
+            "range": "± 8912256",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 61363377,
+            "range": "± 979193",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8794356798,
+            "range": "± 29786926",
             "unit": "ns/iter"
           }
         ]
