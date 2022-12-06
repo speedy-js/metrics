@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670313847811,
+  "lastUpdate": 1670318586805,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13325,6 +13325,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 9340357145,
             "range": "± 28676737",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f16712dfdfe185ab0d864ebf2ac68972d40ef1a9",
+          "message": "feat: add module rule include + exclude (#1353)",
+          "timestamp": "2022-12-06T17:11:46+08:00",
+          "tree_id": "608a572b61e55639ab01a9e5fdb90f309f25493f",
+          "url": "https://github.com/speedy-js/rspack/commit/f16712dfdfe185ab0d864ebf2ac68972d40ef1a9"
+        },
+        "date": 1670318582681,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58965554,
+            "range": "± 2349295",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 792894088,
+            "range": "± 10115698",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 65890440,
+            "range": "± 1607645",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8816906907,
+            "range": "± 26051898",
             "unit": "ns/iter"
           }
         ]
