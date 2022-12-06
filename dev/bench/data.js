@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670302595484,
+  "lastUpdate": 1670312471982,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13229,6 +13229,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 8810532577,
             "range": "± 32413331",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "29055905127d0987a3295d670b15be26524d2a66",
+          "message": "support memory cache(stage 1) (#1287)\n\n* feat: cache & snapshot support config\r\n\r\n* feat: define occasion\r\n\r\n* feat: resolve use cache\r\n\r\n* fix: CI\r\n\r\n* feat: use cache idle\r\n\r\n* feat: add code_generate & build_module cache\r\n\r\n* feat: allow loader set normal cacheable\r\n\r\n* perf: improve code_generate speed",
+          "timestamp": "2022-12-06T15:29:07+08:00",
+          "tree_id": "7e9e4545745c01bf13e3b5ffe457b017a3ce8082",
+          "url": "https://github.com/speedy-js/rspack/commit/29055905127d0987a3295d670b15be26524d2a66"
+        },
+        "date": 1670312458789,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57872249,
+            "range": "± 2485113",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 793509109,
+            "range": "± 9185635",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 65822543,
+            "range": "± 1414818",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8818199974,
+            "range": "± 27133045",
             "unit": "ns/iter"
           }
         ]
