@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670312471982,
+  "lastUpdate": 1670313847811,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13277,6 +13277,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 8818199974,
             "range": "± 27133045",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1552906b3a0bc6fdbe8b4d1fc6846c9831808b62",
+          "message": "chore: support devServer.proxy (#1329)\n\n* chore: add simple proxy support\r\n\r\n* chore: support function config\r\n\r\n* chore: remove log\r\n\r\n* chore: fix type\r\n\r\n* chore: proxy support object",
+          "timestamp": "2022-12-06T15:48:39+08:00",
+          "tree_id": "1e5dd5da903e6591fc3a2ef55e15271c5c9267e2",
+          "url": "https://github.com/speedy-js/rspack/commit/1552906b3a0bc6fdbe8b4d1fc6846c9831808b62"
+        },
+        "date": 1670313843653,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 60350301,
+            "range": "± 2308168",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 819938189,
+            "range": "± 10010101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68420076,
+            "range": "± 1328769",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 9340357145,
+            "range": "± 28676737",
             "unit": "ns/iter"
           }
         ]
