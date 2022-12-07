@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670419050833,
+  "lastUpdate": 1670419683104,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13661,6 +13661,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5803780975,
             "range": "± 32138352",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e04ad78d52ab668af2312c16ff1768f06b13c068",
+          "message": "chore: temporarily disable error tests (#1372)",
+          "timestamp": "2022-12-07T21:15:24+08:00",
+          "tree_id": "6178097036151137176422cd678614947283c92e",
+          "url": "https://github.com/speedy-js/rspack/commit/e04ad78d52ab668af2312c16ff1768f06b13c068"
+        },
+        "date": 1670419669939,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57121299,
+            "range": "± 2554749",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 763921776,
+            "range": "± 11820222",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 61458109,
+            "range": "± 1058268",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5802249801,
+            "range": "± 26610543",
             "unit": "ns/iter"
           }
         ]
