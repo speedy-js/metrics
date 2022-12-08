@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670481363592,
+  "lastUpdate": 1670492488822,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13805,6 +13805,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5784061202,
             "range": "± 23629188",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3701a8bf58a132cf06ee9123b501b192336394a2",
+          "message": "fix: fix less-loader resolve problem (#1375)\n\n* fix: fix less-loader resolve problem\r\n\r\n* chore: fix less recursive call\r\n\r\n* chore: add less resolve test",
+          "timestamp": "2022-12-08T17:31:41+08:00",
+          "tree_id": "0cf0bc23d27a3ec8ee1efe0e40508e8ddffd77e6",
+          "url": "https://github.com/speedy-js/rspack/commit/3701a8bf58a132cf06ee9123b501b192336394a2"
+        },
+        "date": 1670492483771,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 60450480,
+            "range": "± 2677124",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 809749371,
+            "range": "± 11313679",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 64085399,
+            "range": "± 1233744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6246997756,
+            "range": "± 23385107",
             "unit": "ns/iter"
           }
         ]
