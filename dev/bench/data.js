@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670587991758,
+  "lastUpdate": 1670590102630,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14141,6 +14141,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5777915954,
             "range": "± 25959613",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "716ddfbea432c1ba7db8eeb3e93ace43b7f62434",
+          "message": "fix(rspack-error): 🤖 warning tree-shaking diagnostic (#1387)\n\n* chore: 🤖 warning tree-shaking diagnostic\r\n\r\n* chore: 🤖 fix ci\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 fix testing\r\n\r\n* chore: 🤖 update snapshot",
+          "timestamp": "2022-12-09T20:38:44+08:00",
+          "tree_id": "1f9a61fe98770899b190c6d891eb8c0651a8bb46",
+          "url": "https://github.com/speedy-js/rspack/commit/716ddfbea432c1ba7db8eeb3e93ace43b7f62434"
+        },
+        "date": 1670590099130,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 61044153,
+            "range": "± 2818232",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 799984092,
+            "range": "± 9916358",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 65306272,
+            "range": "± 1657090",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6062258601,
+            "range": "± 31543076",
             "unit": "ns/iter"
           }
         ]
