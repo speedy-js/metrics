@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670590607296,
+  "lastUpdate": 1670596876645,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14237,6 +14237,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5787024276,
             "range": "± 33164865",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3a25341d6304752ba4f2ca0eaa5503c89f1b14b",
+          "message": "chore: 🤖 fix ci (#1389)",
+          "timestamp": "2022-12-09T22:33:00+08:00",
+          "tree_id": "410c0a313c5bde0ea8b0e2e214875715a4730988",
+          "url": "https://github.com/speedy-js/rspack/commit/c3a25341d6304752ba4f2ca0eaa5503c89f1b14b"
+        },
+        "date": 1670596873614,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58974207,
+            "range": "± 2243734",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 783951196,
+            "range": "± 9450822",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 63372632,
+            "range": "± 1328482",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5759247664,
+            "range": "± 21519640",
             "unit": "ns/iter"
           }
         ]
