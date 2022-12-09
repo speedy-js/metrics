@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670492488822,
+  "lastUpdate": 1670553290093,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13853,6 +13853,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6246997756,
             "range": "± 23385107",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9abf33192567b66f45c8ca64e3419ca686a1826d",
+          "message": "feat: supports moduleIds (#1381)\n\n* feat: supports moduleIds\r\n\r\n* Update rust snapshots\r\n\r\n* Update js snapshots\r\n\r\n* Fix clippy\r\n\r\n* Solve conflicts\r\n\r\n* Fix bug",
+          "timestamp": "2022-12-09T10:12:36+08:00",
+          "tree_id": "24075ac1cc84972d51a5ea2082d151f2ef1beab5",
+          "url": "https://github.com/speedy-js/rspack/commit/9abf33192567b66f45c8ca64e3419ca686a1826d"
+        },
+        "date": 1670553287884,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58042179,
+            "range": "± 2695339",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 787081585,
+            "range": "± 9615645",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 62961902,
+            "range": "± 1524740",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5797269135,
+            "range": "± 30709853",
             "unit": "ns/iter"
           }
         ]
