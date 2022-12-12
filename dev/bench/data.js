@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670676386888,
+  "lastUpdate": 1670817714569,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14381,6 +14381,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6088874684,
             "range": "± 26818078",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5241a7e8acdb68d0b9136ca74f72356bea6aeb4",
+          "message": "cache performance optimization (#1404)\n\n* feat: create chunk assets use cache\r\n\r\n* perf: use DashMap",
+          "timestamp": "2022-12-12T11:52:25+08:00",
+          "tree_id": "e9ef3d2e89f308023da60dc92341945d2ba08231",
+          "url": "https://github.com/speedy-js/rspack/commit/e5241a7e8acdb68d0b9136ca74f72356bea6aeb4"
+        },
+        "date": 1670817712295,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58098882,
+            "range": "± 2221605",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 791049075,
+            "range": "± 10177836",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 63737608,
+            "range": "± 1414170",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5785601911,
+            "range": "± 17885501",
             "unit": "ns/iter"
           }
         ]
