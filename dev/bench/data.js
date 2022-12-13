@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670853773252,
+  "lastUpdate": 1670901085093,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14573,6 +14573,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5783976252,
             "range": "± 26456592",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0c391758c55382e5103c1ce9a6f042ab28b8e76a",
+          "message": "refactor: lazy process assets (#1412)\n\n* refactor: init lazy\r\n\r\n* feat: impl lazy process assets\r\n\r\n* test: more tests\r\n\r\n* test: more test\r\n\r\n* chore: simplify",
+          "timestamp": "2022-12-13T11:02:49+08:00",
+          "tree_id": "cbf94a90f1a940acd766758e40a5cd2bbeb5267a",
+          "url": "https://github.com/speedy-js/rspack/commit/0c391758c55382e5103c1ce9a6f042ab28b8e76a"
+        },
+        "date": 1670901082873,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58160479,
+            "range": "± 2617744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 799537727,
+            "range": "± 10907950",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 64045678,
+            "range": "± 1454229",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5797625498,
+            "range": "± 25804469",
             "unit": "ns/iter"
           }
         ]
