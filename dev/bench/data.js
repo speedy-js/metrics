@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670901085093,
+  "lastUpdate": 1670902135401,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14621,6 +14621,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5797625498,
             "range": "± 25804469",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba2959d82cf09303cac84e6b1e44a5ea44d1ff70",
+          "message": "Test/more tree shaking test (#1394)\n\n* chore: 🤖 more tree-shaking test\r\n\r\n* chore: 🤖 inner graph side-effects\r\n\r\n* test: 💍 try globals\r\n\r\n* chore: 🤖 lint",
+          "timestamp": "2022-12-13T11:18:05+08:00",
+          "tree_id": "58fffffcc17c9b867f4309fdd911680c6cc66bed",
+          "url": "https://github.com/speedy-js/rspack/commit/ba2959d82cf09303cac84e6b1e44a5ea44d1ff70"
+        },
+        "date": 1670902132589,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 61024208,
+            "range": "± 2350208",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 820246895,
+            "range": "± 8953985",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 66283177,
+            "range": "± 1690782",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6074008814,
+            "range": "± 21259103",
             "unit": "ns/iter"
           }
         ]
