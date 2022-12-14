@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670991579943,
+  "lastUpdate": 1671004233422,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15005,6 +15005,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5802115093,
             "range": "± 30602170",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c328bc2da9d163eda2279cb19ecc25476723cb34",
+          "message": "chore: disable dbg macro in CI (#1428)\n\nchore: 🤖 init",
+          "timestamp": "2022-12-14T15:40:09+08:00",
+          "tree_id": "15e6222ac73ef183db1f2030d7470a86c6f046cd",
+          "url": "https://github.com/speedy-js/rspack/commit/c328bc2da9d163eda2279cb19ecc25476723cb34"
+        },
+        "date": 1671004231165,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57282167,
+            "range": "± 2776573",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 793791630,
+            "range": "± 9985281",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 65398285,
+            "range": "± 1561559",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5796746405,
+            "range": "± 23412664",
             "unit": "ns/iter"
           }
         ]
