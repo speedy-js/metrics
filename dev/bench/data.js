@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671007963602,
+  "lastUpdate": 1671013407615,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15101,6 +15101,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6075460402,
             "range": "± 28650347",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "879f765a49162abd578b9ebbec8c9fb895c06548",
+          "message": "HMR tracing support in three bench case (#1415)\n\n* fix: remove useless box::pin\r\n\r\n* fix: rust raw cache option change `cache_type` to `type`\r\n\r\n* feat: bench add hmr support",
+          "timestamp": "2022-12-14T18:14:43+08:00",
+          "tree_id": "b7923d949db78e3f7157e63d3ba679d140fb78af",
+          "url": "https://github.com/speedy-js/rspack/commit/879f765a49162abd578b9ebbec8c9fb895c06548"
+        },
+        "date": 1671013403883,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58110710,
+            "range": "± 2640717",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 789556528,
+            "range": "± 11360803",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 65213365,
+            "range": "± 1556553",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5790115916,
+            "range": "± 28047092",
             "unit": "ns/iter"
           }
         ]
