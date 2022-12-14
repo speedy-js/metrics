@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671022302397,
+  "lastUpdate": 1671025122454,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15245,6 +15245,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5792518383,
             "range": "± 23691215",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "79ed68a05c945356416ae66dbc750b921f65ce7c",
+          "message": "chore: enable tracing in js side (#1431)",
+          "timestamp": "2022-12-14T21:29:09+08:00",
+          "tree_id": "3f297c17f416bcd4c939e48d740cf5cfefbe1b7c",
+          "url": "https://github.com/speedy-js/rspack/commit/79ed68a05c945356416ae66dbc750b921f65ce7c"
+        },
+        "date": 1671025120037,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57776416,
+            "range": "± 2709607",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 797265248,
+            "range": "± 10824193",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 66077319,
+            "range": "± 1381980",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5788576291,
+            "range": "± 22868494",
             "unit": "ns/iter"
           }
         ]
