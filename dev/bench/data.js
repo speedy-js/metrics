@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670986493123,
+  "lastUpdate": 1670991579943,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14957,6 +14957,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6106956709,
             "range": "± 24654846",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5de4f8cccb6f32c8ddf8909b92b6d9b7f95894a5",
+          "message": "fix: bp tree shaking (#1406)\n\n* chore: 🤖 fix ci\r\n\r\n* chore: 🤖 ck point\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 fix side effects\r\n\r\n* chore: 🤖 moretest case\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 rename\r\n\r\n* chore: 🤖 rename\r\n\r\n* chore: 🤖 remove debug list\r\n\r\n* chore: 🤖 remove dbg!\r\n\r\n* chore: 🤖 liont",
+          "timestamp": "2022-12-14T12:11:22+08:00",
+          "tree_id": "14d5f0573c368570fff07a1c3545da5dc7dbfe49",
+          "url": "https://github.com/speedy-js/rspack/commit/5de4f8cccb6f32c8ddf8909b92b6d9b7f95894a5"
+        },
+        "date": 1670991576290,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 58053835,
+            "range": "± 3053364",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 804631438,
+            "range": "± 9397282",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 65874253,
+            "range": "± 1508020",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5802115093,
+            "range": "± 30602170",
             "unit": "ns/iter"
           }
         ]
