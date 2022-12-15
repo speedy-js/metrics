@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671085257697,
+  "lastUpdate": 1671090022412,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15389,6 +15389,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5831631688,
             "range": "± 20800199",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1b84bf1c7d288a99cddddb14fac599ee721286e",
+          "message": "feat(crates/rspack_core): support dynamic and esm module types (#1433)\n\n* feat: support dynamic and esm module types\r\n\r\n* chore: lint",
+          "timestamp": "2022-12-15T15:29:23+08:00",
+          "tree_id": "230612ea73ae9f9616807d72b1b9c5c149de1c12",
+          "url": "https://github.com/speedy-js/rspack/commit/c1b84bf1c7d288a99cddddb14fac599ee721286e"
+        },
+        "date": 1671090018663,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 59804941,
+            "range": "± 2780029",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 816114762,
+            "range": "± 9967024",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67954648,
+            "range": "± 1267741",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6105442824,
+            "range": "± 30662520",
             "unit": "ns/iter"
           }
         ]
