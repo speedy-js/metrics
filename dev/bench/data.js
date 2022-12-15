@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671025122454,
+  "lastUpdate": 1671069112731,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15293,6 +15293,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5788576291,
             "range": "± 22868494",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55a3301b54bf6472058c3d61f73633ba8d885624",
+          "message": "feat: compiler new compilation use fast_set (#1429)",
+          "timestamp": "2022-12-15T09:43:19+08:00",
+          "tree_id": "45ce9fb02602ac24085e45e61d36c67a40dcdbcf",
+          "url": "https://github.com/speedy-js/rspack/commit/55a3301b54bf6472058c3d61f73633ba8d885624"
+        },
+        "date": 1671069110421,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57604759,
+            "range": "± 2384853",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 796192734,
+            "range": "± 10242144",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 66001878,
+            "range": "± 1483429",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5812902729,
+            "range": "± 22148755",
             "unit": "ns/iter"
           }
         ]
