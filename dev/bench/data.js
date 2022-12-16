@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671173614513,
+  "lastUpdate": 1671175918924,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15629,6 +15629,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5825830117,
             "range": "± 27041800",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7d0a9ececb5ad02c3f4ca2ed0071c01d9a9742f",
+          "message": "chore: binding migrate to optional dependency (#1439)\n\n* chore: 🤖 optional-dep\r\n\r\n* chore: 🤖 moire\r\n\r\n* chore: 🤖 update dep\r\n\r\n* chore: 🤖 update move binding optiongs\r\n\r\n* chore: 🤖 bump version\r\n\r\n* chore: 🤖 remove test file\r\n\r\n* chore: 🤖 reverty\r\n\r\n* chore: 🤖 bump version\r\n\r\n* chore: 🤖 modify\r\n\r\n* chore: 🤖 rename\r\n\r\n* chore: 🤖 binding bump",
+          "timestamp": "2022-12-16T15:23:39+08:00",
+          "tree_id": "5a13c4654bad1ca93beaaf9b96073b42655bc10e",
+          "url": "https://github.com/speedy-js/rspack/commit/b7d0a9ececb5ad02c3f4ca2ed0071c01d9a9742f"
+        },
+        "date": 1671175916605,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57718257,
+            "range": "± 2652995",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 816711781,
+            "range": "± 11561744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67694794,
+            "range": "± 1433641",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5820920010,
+            "range": "± 21281697",
             "unit": "ns/iter"
           }
         ]
