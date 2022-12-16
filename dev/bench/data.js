@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671188234903,
+  "lastUpdate": 1671203113688,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15773,6 +15773,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6135051024,
             "range": "± 28381803",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d1c10e1d39abf82bcb3672e6e1eeafd09f825c1",
+          "message": "fix: only add eval map cache (#1452)",
+          "timestamp": "2022-12-16T22:56:27+08:00",
+          "tree_id": "37c854d6808fb1a97de7c4bd0f501d539e137ecb",
+          "url": "https://github.com/speedy-js/rspack/commit/1d1c10e1d39abf82bcb3672e6e1eeafd09f825c1"
+        },
+        "date": 1671203110869,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 60151848,
+            "range": "± 2891941",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 846272949,
+            "range": "± 9551533",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71632122,
+            "range": "± 1393599",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6262599745,
+            "range": "± 30948172",
             "unit": "ns/iter"
           }
         ]
