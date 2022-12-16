@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671178278064,
+  "lastUpdate": 1671188234903,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15725,6 +15725,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5828998293,
             "range": "± 25626524",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de92838cc383ee9373120bd70db66c34fc1862b5",
+          "message": "feat: add module render cache (#1450)",
+          "timestamp": "2022-12-16T18:48:41+08:00",
+          "tree_id": "57b3fad75e65298e3243671eadb75b36bbf86673",
+          "url": "https://github.com/speedy-js/rspack/commit/de92838cc383ee9373120bd70db66c34fc1862b5"
+        },
+        "date": 1671188232642,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 59283900,
+            "range": "± 2346806",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 843085496,
+            "range": "± 9204239",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72417526,
+            "range": "± 1245277",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6135051024,
+            "range": "± 28381803",
             "unit": "ns/iter"
           }
         ]
