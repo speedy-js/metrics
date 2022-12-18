@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671360165640,
+  "lastUpdate": 1671371061662,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15965,6 +15965,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5976643198,
             "range": "± 26031643",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7fa31b485fbbb8f75d1c602e819da5cf773d3044",
+          "message": "compat loader api for commonly used normal loader (#1378)\n\n* wip\r\n\r\n* more api\r\n\r\n* build dependencies and tests\r\n\r\n* fix\r\n\r\n* fix type\r\n\r\n* fix gitignore",
+          "timestamp": "2022-12-18T21:35:38+08:00",
+          "tree_id": "c9e751a0fede67911eb60ba5e5dc3881e9aa2ce9",
+          "url": "https://github.com/speedy-js/rspack/commit/7fa31b485fbbb8f75d1c602e819da5cf773d3044"
+        },
+        "date": 1671371059319,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57268099,
+            "range": "± 2651010",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 822159466,
+            "range": "± 9652127",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69268140,
+            "range": "± 1460005",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5985026734,
+            "range": "± 30521595",
             "unit": "ns/iter"
           }
         ]
