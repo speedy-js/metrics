@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671450964341,
+  "lastUpdate": 1671461609182,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16109,6 +16109,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5897943731,
             "range": "± 21661385",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5be9d5d2947979eaa94dc8d1754fefb1f7b8e3df",
+          "message": "fix: fix null exception when not set devServer (#1458)\n\nfix: fix null exception",
+          "timestamp": "2022-12-19T19:45:09+08:00",
+          "tree_id": "dd1a6e6e88831b7fc4f59c3be25ca9ab10d0cc75",
+          "url": "https://github.com/speedy-js/rspack/commit/5be9d5d2947979eaa94dc8d1754fefb1f7b8e3df"
+        },
+        "date": 1671461606286,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57929079,
+            "range": "± 2676713",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 772746521,
+            "range": "± 6929596",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69269619,
+            "range": "± 1623373",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5908289896,
+            "range": "± 19834357",
             "unit": "ns/iter"
           }
         ]
