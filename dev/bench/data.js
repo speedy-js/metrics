@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671434869226,
+  "lastUpdate": 1671450964341,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16061,6 +16061,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5989047273,
             "range": "± 22096334",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e61f44644c69af576533cb2a7c53f3d411f851f",
+          "message": "refactor: not to reuse CM (#1460)\n\n## Summary\r\n\r\n- use a new CM when parse module.\r\n- the `PATH_START_BYTE_POS_MAP` now can be deleted since we don't have a global CM anymore.\r\n- add `$crate::InternalError` for `internal_error!`, now we don't need to `use rspack_error::InternalError` when everytime use the macro.\r\n\r\n## Test Plan\r\n\r\n<!-- Demonstrate the code is solid. Example: The exact commands you ran and their output. -->\r\n\r\n## Related issue (if exists)\r\n\r\nfixes #1179",
+          "timestamp": "2022-12-19T19:44:30+08:00",
+          "tree_id": "2b1168d89b8225972b7a1a605821936d401d8159",
+          "url": "https://github.com/speedy-js/rspack/commit/7e61f44644c69af576533cb2a7c53f3d411f851f"
+        },
+        "date": 1671450962060,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57804699,
+            "range": "± 2873037",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 777922014,
+            "range": "± 8749712",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69424682,
+            "range": "± 1859929",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5897943731,
+            "range": "± 21661385",
             "unit": "ns/iter"
           }
         ]
