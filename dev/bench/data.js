@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671536279691,
+  "lastUpdate": 1671546787879,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16253,6 +16253,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6354459640,
             "range": "± 21240325",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8bc711bfadb61fa4a89202f588cabaf46589c551",
+          "message": "feat: css url dependencies rewrite (#1467)\n\n## Summary\r\n\r\n- css url() scan.\r\n- css url() rewrite.\r\n- warning and replace for '~'.\r\n\r\n## Related issue (if exists)\r\n\r\ncloses #1155 \r\n\r\n## How does Webpack handle this? (if exists)\r\n\r\nfor css url's target filename, webpack introduced [`code_generation_dependencies`](https://github.com/webpack/webpack/blob/4b4ca3bb53f36a5b8fc6bc1bd976ed7af161bd80/lib/css/CssParser.js#L327), and [make sure the dependency module (asset) already generated when generating css module in codeGeneration](https://github.com/webpack/webpack/blob/4b4ca3bb53f36a5b8fc6bc1bd976ed7af161bd80/lib/Compilation.js#L3215), so when generating css module we can get the asset's filename by `codeGenerationResult.data.get('filename')` and replace the url with it.",
+          "timestamp": "2022-12-20T22:24:22+08:00",
+          "tree_id": "44011557f27fc59dda4a12cdab04705bb6847597",
+          "url": "https://github.com/speedy-js/rspack/commit/8bc711bfadb61fa4a89202f588cabaf46589c551"
+        },
+        "date": 1671546784933,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 68339406,
+            "range": "± 3335782",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 786389848,
+            "range": "± 6877179",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70797941,
+            "range": "± 1670043",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5904433865,
+            "range": "± 20494324",
             "unit": "ns/iter"
           }
         ]
