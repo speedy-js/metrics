@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671508258918,
+  "lastUpdate": 1671536279691,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16205,6 +16205,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5879258003,
             "range": "± 21976972",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0c263b7f735a52844316e1df7326bb3cba10a818",
+          "message": " fix:add more panic info about dependency resolve (#1466)\n\nchore: 🤖 Fix:add more panic info about dependency resolve",
+          "timestamp": "2022-12-20T19:28:03+08:00",
+          "tree_id": "aaf4a893eb24d287192a0d8c7deb94d9243de6d8",
+          "url": "https://github.com/speedy-js/rspack/commit/0c263b7f735a52844316e1df7326bb3cba10a818"
+        },
+        "date": 1671536277283,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 61743900,
+            "range": "± 2508049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 825475289,
+            "range": "± 9295301",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72879595,
+            "range": "± 1720759",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6354459640,
+            "range": "± 21240325",
             "unit": "ns/iter"
           }
         ]
