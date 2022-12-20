@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671461609182,
+  "lastUpdate": 1671508258918,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16157,6 +16157,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5908289896,
             "range": "± 19834357",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87c5a6b1dd3ed1138f62006afbce1a2d7718f49e",
+          "message": "feat:side effects prune (#1459)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 finish prune\r\n\r\n* chore: 🤖 side effects prune",
+          "timestamp": "2022-12-20T11:41:51+08:00",
+          "tree_id": "51f34c2a295f66736539ee3a421b06a1a352c9d8",
+          "url": "https://github.com/speedy-js/rspack/commit/87c5a6b1dd3ed1138f62006afbce1a2d7718f49e"
+        },
+        "date": 1671508256676,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 57837436,
+            "range": "± 2186051",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 781628553,
+            "range": "± 7854732",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69726242,
+            "range": "± 1780310",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5879258003,
+            "range": "± 21976972",
             "unit": "ns/iter"
           }
         ]
