@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671600337591,
+  "lastUpdate": 1671617208424,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16349,6 +16349,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6190797336,
             "range": "± 17268898",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "distinct": true,
+          "id": "ed282e83b34bf6ffd54efc2fc5189afa209d2432",
+          "message": "chore: 🤖 bump version",
+          "timestamp": "2022-12-21T17:55:10+08:00",
+          "tree_id": "d994fecd1a73cef28d31c15963a141df5ddb8621",
+          "url": "https://github.com/speedy-js/rspack/commit/ed282e83b34bf6ffd54efc2fc5189afa209d2432"
+        },
+        "date": 1671617205903,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 62677893,
+            "range": "± 4115680",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 773827680,
+            "range": "± 7964866",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69952566,
+            "range": "± 1833816",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5864220178,
+            "range": "± 24536298",
             "unit": "ns/iter"
           }
         ]
