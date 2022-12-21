@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671546787879,
+  "lastUpdate": 1671600337591,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16301,6 +16301,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5904433865,
             "range": "± 20494324",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e8f883f192fa1af276c5a69781af1dfb82a8c90",
+          "message": "fix: tree-shaking crash when import css  modules (#1447)\n\n* chore: css crash\r\n\r\n* chore: 🤖 more warning\r\n\r\n* chore: 🤖 lint\r\n\r\n* test: 💍 add test case for css modules with tree-shaking\r\n\r\n* chore: 🤖 test case\r\n\r\nCo-authored-by: hardfist <1562502418@qq.com>",
+          "timestamp": "2022-12-21T13:15:56+08:00",
+          "tree_id": "3fd7e781c8517c8e1fdfd9b56545e40ad0e80e76",
+          "url": "https://github.com/speedy-js/rspack/commit/1e8f883f192fa1af276c5a69781af1dfb82a8c90"
+        },
+        "date": 1671600334924,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 70524075,
+            "range": "± 3289290",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 792316069,
+            "range": "± 6642054",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71908524,
+            "range": "± 1871752",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6190797336,
+            "range": "± 17268898",
             "unit": "ns/iter"
           }
         ]
