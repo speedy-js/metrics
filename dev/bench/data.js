@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671634647325,
+  "lastUpdate": 1671690466616,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16589,6 +16589,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5900701842,
             "range": "± 21522238",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "be6610753307e08bd0462f1a3d180cedf3823bcb",
+          "message": "feat: add hash as return value of stats.toJson (#1478)\n\n* feat: add hash as return value of stats.toJson",
+          "timestamp": "2022-12-22T14:17:51+08:00",
+          "tree_id": "9141aa0bf962f3ba7027f9b46be120e1942eb98e",
+          "url": "https://github.com/speedy-js/rspack/commit/be6610753307e08bd0462f1a3d180cedf3823bcb"
+        },
+        "date": 1671690463529,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 73279448,
+            "range": "± 3921468",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 807408003,
+            "range": "± 8734850",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73090555,
+            "range": "± 1677132",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6364097161,
+            "range": "± 19662392",
             "unit": "ns/iter"
           }
         ]
