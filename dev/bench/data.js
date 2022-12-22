@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671713527532,
+  "lastUpdate": 1671726116315,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16829,6 +16829,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6042027753,
             "range": "± 28337138",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab6070b53d4be3d10505ffa77f92ecf2368ae1a7",
+          "message": "feat: module.resolve (#1487)",
+          "timestamp": "2022-12-23T00:12:08+08:00",
+          "tree_id": "6079640aa29cc4ed47c1f21b941cf9fa32216747",
+          "url": "https://github.com/speedy-js/rspack/commit/ab6070b53d4be3d10505ffa77f92ecf2368ae1a7"
+        },
+        "date": 1671726113350,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 67311703,
+            "range": "± 3521758",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 790794612,
+            "range": "± 7319417",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71828633,
+            "range": "± 1766249",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6180819506,
+            "range": "± 24882051",
             "unit": "ns/iter"
           }
         ]
