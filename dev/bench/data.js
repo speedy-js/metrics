@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672068539430,
+  "lastUpdate": 1672069092195,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17309,6 +17309,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5842995942,
             "range": "± 21234809",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "80e3b582f274da6ebf67eb7876b9317d5c4bb7f5",
+          "message": "fix: avoid extra strict mode(close: #1463) (#1504)\n\n* fix: remove strict mode\r\n\r\n* fix: avoid extra strict mode(close: #1463)\r\n\r\nCo-authored-by: likui <likui.underfin@bytedance.com>",
+          "timestamp": "2022-12-26T23:26:35+08:00",
+          "tree_id": "b95c70e73b5f3ff81eeecb9663bdcb8cb7510911",
+          "url": "https://github.com/speedy-js/rspack/commit/80e3b582f274da6ebf67eb7876b9317d5c4bb7f5"
+        },
+        "date": 1672069088390,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 67397164,
+            "range": "± 3587573",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 801302962,
+            "range": "± 8070760",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72626726,
+            "range": "± 1691086",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6365534015,
+            "range": "± 22730617",
             "unit": "ns/iter"
           }
         ]
