@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671787959291,
+  "lastUpdate": 1672024033928,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17117,6 +17117,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5888043089,
             "range": "± 24030589",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3787505b2f8724ae186c8be4c882ecbb3e2d338f",
+          "message": "chore: support pass env to load function (#1496)\n\n* chore: add release\r\n\r\n* chore: support passing env to load function\r\n\r\n* chore: put normalizeEnv to middleware",
+          "timestamp": "2022-12-26T10:58:37+08:00",
+          "tree_id": "f1db3013bd77d654b105194956ef602f5a7b3e15",
+          "url": "https://github.com/speedy-js/rspack/commit/3787505b2f8724ae186c8be4c882ecbb3e2d338f"
+        },
+        "date": 1672024031626,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 61911262,
+            "range": "± 3577696",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 780198249,
+            "range": "± 8845197",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70497855,
+            "range": "± 1624422",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5880385830,
+            "range": "± 22225289",
             "unit": "ns/iter"
           }
         ]
