@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672024033928,
+  "lastUpdate": 1672037812656,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17165,6 +17165,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5880385830,
             "range": "± 22225289",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49aa054a904ac09c0cd06b6da98882b9140e4852",
+          "message": "fix: avoid load not exit css chunk(close:#1462) (#1498)",
+          "timestamp": "2022-12-26T14:47:57+08:00",
+          "tree_id": "540fd1419e42b33d2aef8a245667bc38f3a26f51",
+          "url": "https://github.com/speedy-js/rspack/commit/49aa054a904ac09c0cd06b6da98882b9140e4852"
+        },
+        "date": 1672037810150,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 65994346,
+            "range": "± 3834698",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 788719879,
+            "range": "± 6107699",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71766481,
+            "range": "± 1793300",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6157399569,
+            "range": "± 22743383",
             "unit": "ns/iter"
           }
         ]
