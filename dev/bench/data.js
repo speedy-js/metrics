@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672135234411,
+  "lastUpdate": 1672142284305,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17549,6 +17549,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5818194993,
             "range": "± 28289476",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "59aa4dc809400cc47ea9e17a65234f12f7502f85",
+          "message": "feature(dev-server): tips when react are not enabled",
+          "timestamp": "2022-12-27T19:48:22+08:00",
+          "tree_id": "ab7dbfccce2a6d1279f67a85b0d78e5a3bb719e9",
+          "url": "https://github.com/speedy-js/rspack/commit/59aa4dc809400cc47ea9e17a65234f12f7502f85"
+        },
+        "date": 1672142281323,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 64695543,
+            "range": "± 3370927",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 788721841,
+            "range": "± 7357878",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70653274,
+            "range": "± 1790774",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5952897317,
+            "range": "± 23374563",
             "unit": "ns/iter"
           }
         ]
