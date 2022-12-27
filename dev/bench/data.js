@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672148011067,
+  "lastUpdate": 1672148807655,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17645,6 +17645,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6077817123,
             "range": "± 21838400",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7b344a9547af4ec97a31f94c74353f165016d2e3",
+          "message": "feat: add stats module reasons and issuerPath for statoscope (#1513)\n\n* feat: add stats module reasons and issuerPath for statoscope\r\n\r\n* lint",
+          "timestamp": "2022-12-27T21:36:13+08:00",
+          "tree_id": "045edaf75c0f9783edb3b47670e6bd2929106941",
+          "url": "https://github.com/speedy-js/rspack/commit/7b344a9547af4ec97a31f94c74353f165016d2e3"
+        },
+        "date": 1672148805263,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63213682,
+            "range": "± 3715572",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 780078174,
+            "range": "± 6890906",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69372462,
+            "range": "± 1855980",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5818534229,
+            "range": "± 22253723",
             "unit": "ns/iter"
           }
         ]
