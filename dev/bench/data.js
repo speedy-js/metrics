@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672148807655,
+  "lastUpdate": 1672149316220,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17693,6 +17693,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5818534229,
             "range": "± 22253723",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7a3302ae8acd9e19083db01a76a6f2ae81e5a7b",
+          "message": "chore: fix missing watchOptions (#1514)",
+          "timestamp": "2022-12-27T21:41:28+08:00",
+          "tree_id": "b00f3766fd3442252bc05db1449513e62a4db4fe",
+          "url": "https://github.com/speedy-js/rspack/commit/e7a3302ae8acd9e19083db01a76a6f2ae81e5a7b"
+        },
+        "date": 1672149313367,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 62516824,
+            "range": "± 3209127",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 771288361,
+            "range": "± 7459834",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69072830,
+            "range": "± 1967191",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5820042783,
+            "range": "± 15899996",
             "unit": "ns/iter"
           }
         ]
