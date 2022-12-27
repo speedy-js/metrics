@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672125679006,
+  "lastUpdate": 1672135234411,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17501,6 +17501,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6251302458,
             "range": "± 25026138",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "78d99d457cc3195434a5e033586dcb68308f20e3",
+          "message": "test(dev-server): workground for e2e test in ci",
+          "timestamp": "2022-12-27T17:52:23+08:00",
+          "tree_id": "ff4bdff7a8717d21de143d3dfe3e80708a984ffd",
+          "url": "https://github.com/speedy-js/rspack/commit/78d99d457cc3195434a5e033586dcb68308f20e3"
+        },
+        "date": 1672135231800,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 62758927,
+            "range": "± 3352344",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 774629450,
+            "range": "± 7339148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68743805,
+            "range": "± 1837139",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5818194993,
+            "range": "± 28289476",
             "unit": "ns/iter"
           }
         ]
