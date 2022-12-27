@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672112281969,
+  "lastUpdate": 1672125679006,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17453,6 +17453,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6092432225,
             "range": "± 23639286",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e55ae15d75e2edb48ea5c91aa5a955d8caa484d5",
+          "message": "chore: workaround build hang caused by watcher (#1508)",
+          "timestamp": "2022-12-27T15:10:12+08:00",
+          "tree_id": "b1de52df4fc5f652178ffc1c89df414d09da7062",
+          "url": "https://github.com/speedy-js/rspack/commit/e55ae15d75e2edb48ea5c91aa5a955d8caa484d5"
+        },
+        "date": 1672125676374,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 68274827,
+            "range": "± 3674080",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 804403308,
+            "range": "± 7332752",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71956695,
+            "range": "± 1448451",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6251302458,
+            "range": "± 25026138",
             "unit": "ns/iter"
           }
         ]
