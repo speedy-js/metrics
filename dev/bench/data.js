@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672142284305,
+  "lastUpdate": 1672148011067,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17597,6 +17597,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5952897317,
             "range": "± 23374563",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d4d047fe75f1726f7ab183b9f1f0827d874065d",
+          "message": "chore: remove bundle-analyzer hack for old runtime.js (#1510)\n\n* chore: remove bundle-analyzer hack for old runtime.js\r\n\r\n* lint",
+          "timestamp": "2022-12-27T21:24:43+08:00",
+          "tree_id": "d9f3c5fec25ca4b7012c3c4b6b420f0bb6ae3c3e",
+          "url": "https://github.com/speedy-js/rspack/commit/8d4d047fe75f1726f7ab183b9f1f0827d874065d"
+        },
+        "date": 1672148008683,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 65085270,
+            "range": "± 3978445",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 794295205,
+            "range": "± 7635566",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70997049,
+            "range": "± 1472000",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6077817123,
+            "range": "± 21838400",
             "unit": "ns/iter"
           }
         ]
