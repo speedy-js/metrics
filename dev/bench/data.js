@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672213510551,
+  "lastUpdate": 1672232062648,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17981,6 +17981,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6018617588,
             "range": "± 22779282",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "57a646f0b046237b7da8693eea1af8cc30991a13",
+          "message": "feat: cli serve do not write dist file (#1443)\n\nfeat: development do not write dist file",
+          "timestamp": "2022-12-28T20:44:25+08:00",
+          "tree_id": "f7002f1601f976b7c4a36277673d0e9a560cb9e0",
+          "url": "https://github.com/speedy-js/rspack/commit/57a646f0b046237b7da8693eea1af8cc30991a13"
+        },
+        "date": 1672232058452,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 62773826,
+            "range": "± 3548492",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 783950813,
+            "range": "± 7874219",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69838873,
+            "range": "± 1794226",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5815555153,
+            "range": "± 24366701",
             "unit": "ns/iter"
           }
         ]
