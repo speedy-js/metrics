@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672212149537,
+  "lastUpdate": 1672213510551,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17933,6 +17933,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5795098652,
             "range": "± 24704130",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c99ed7fce0ed445af39ceb7408a1652d69ca346",
+          "message": "chore: prefer expect than unwrap (#1518)\n\n* chore: prefer expect than unwrap\r\n\r\n* Add clippy.toml to check-rs.yaml\r\n\r\n* Fix config\r\n\r\n* Fix some",
+          "timestamp": "2022-12-28T15:36:10+08:00",
+          "tree_id": "8553933cf45bff6304d5534432364fba6826573f",
+          "url": "https://github.com/speedy-js/rspack/commit/9c99ed7fce0ed445af39ceb7408a1652d69ca346"
+        },
+        "date": 1672213507830,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63944918,
+            "range": "± 4049706",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 791659749,
+            "range": "± 7660230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71539437,
+            "range": "± 1396771",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6018617588,
+            "range": "± 22779282",
             "unit": "ns/iter"
           }
         ]
