@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672194416777,
+  "lastUpdate": 1672207193851,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17837,6 +17837,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6267775404,
             "range": "± 23711349",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "22317242f18599d6b0601b3aa9b55c5b237d55dc",
+          "message": "test(core): do not use global compiler in watch test (#1517)\n\ntest(core): skip watch error test",
+          "timestamp": "2022-12-28T13:50:21+08:00",
+          "tree_id": "4049f92b8389e461b3a428e2d4e3525dbdfb7c67",
+          "url": "https://github.com/speedy-js/rspack/commit/22317242f18599d6b0601b3aa9b55c5b237d55dc"
+        },
+        "date": 1672207188646,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63851901,
+            "range": "± 3383157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 777390262,
+            "range": "± 6962520",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69548457,
+            "range": "± 1673837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5820294770,
+            "range": "± 22694571",
             "unit": "ns/iter"
           }
         ]
