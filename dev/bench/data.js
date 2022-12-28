@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672207193851,
+  "lastUpdate": 1672212149537,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17885,6 +17885,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5820294770,
             "range": "± 22694571",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e091a1aba7138ddbfb229802fcf675ef4aeb0f7",
+          "message": "feat: support chunk content hash (#1511)",
+          "timestamp": "2022-12-28T15:13:42+08:00",
+          "tree_id": "471c617ecf1896733c3008881b688edc9cf1044e",
+          "url": "https://github.com/speedy-js/rspack/commit/7e091a1aba7138ddbfb229802fcf675ef4aeb0f7"
+        },
+        "date": 1672212146353,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63237613,
+            "range": "± 3391453",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 772036233,
+            "range": "± 5695954",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69105054,
+            "range": "± 1663754",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5795098652,
+            "range": "± 24704130",
             "unit": "ns/iter"
           }
         ]
