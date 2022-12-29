@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672311377136,
+  "lastUpdate": 1672311885738,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18269,6 +18269,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6070632588,
             "range": "± 37291630",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d5a5d022d7ce60173322e5b909aa6bd36dac521f",
+          "message": "fix: watching loader fileDependencies (#1519)\n\n- fix watch loader fileDependencies broken by #1482\r\n- fix create_chunk_assets cache validation\r\n- add watch build and watchCases tests",
+          "timestamp": "2022-12-29T18:48:45+08:00",
+          "tree_id": "2bcd85bea2c6e552278a21f1b1fde1b699c43f98",
+          "url": "https://github.com/speedy-js/rspack/commit/d5a5d022d7ce60173322e5b909aa6bd36dac521f"
+        },
+        "date": 1672311883338,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63523590,
+            "range": "± 3671449",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 805859824,
+            "range": "± 13228988",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 75543411,
+            "range": "± 1688707",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5846754318,
+            "range": "± 21551980",
             "unit": "ns/iter"
           }
         ]
