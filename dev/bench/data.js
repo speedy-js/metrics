@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672290268439,
+  "lastUpdate": 1672296470246,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18077,6 +18077,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5972089375,
             "range": "± 28774969",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2bbdb3ab8402ef899f6b0a13d0eb27b2d7697b0c",
+          "message": "feat: supports `chunkIds: 'named'` (#1520)\n\n* feat: supports `chunkIds: 'named'`\r\n\r\n* Fix clippy",
+          "timestamp": "2022-12-29T14:36:18+08:00",
+          "tree_id": "484e00b2cc2103a07483138e42204e753466bfe5",
+          "url": "https://github.com/speedy-js/rspack/commit/2bbdb3ab8402ef899f6b0a13d0eb27b2d7697b0c"
+        },
+        "date": 1672296467368,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 67661746,
+            "range": "± 3573218",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 831005217,
+            "range": "± 14442737",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 78041712,
+            "range": "± 1756219",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6261259090,
+            "range": "± 27030267",
             "unit": "ns/iter"
           }
         ]
