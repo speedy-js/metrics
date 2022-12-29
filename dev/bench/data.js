@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672297992617,
+  "lastUpdate": 1672298838455,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18173,6 +18173,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6316428133,
             "range": "± 25470271",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c813a922c6be9ea1071867c997ed6c7f955a289",
+          "message": "fix: fix minify default value (#1523)\n\nchore: let minify respect mode",
+          "timestamp": "2022-12-29T15:17:40+08:00",
+          "tree_id": "ad9f8d05d898b72d389bdf0c1a9ea1a066aa0c52",
+          "url": "https://github.com/speedy-js/rspack/commit/4c813a922c6be9ea1071867c997ed6c7f955a289"
+        },
+        "date": 1672298835556,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63487297,
+            "range": "± 3319748",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 807353913,
+            "range": "± 13294669",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 75062283,
+            "range": "± 1915476",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5873501611,
+            "range": "± 39432983",
             "unit": "ns/iter"
           }
         ]
