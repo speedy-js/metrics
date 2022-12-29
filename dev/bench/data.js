@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672296470246,
+  "lastUpdate": 1672297992617,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18125,6 +18125,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6261259090,
             "range": "± 27030267",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af6c9dc23f61b45716c23860ebe46c860636ab52",
+          "message": "chore: control tracing layer by env (#1522)",
+          "timestamp": "2022-12-29T14:43:59+08:00",
+          "tree_id": "a179594c66e02ab3ec004a11afa70b2e69125f43",
+          "url": "https://github.com/speedy-js/rspack/commit/af6c9dc23f61b45716c23860ebe46c860636ab52"
+        },
+        "date": 1672297990228,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 68179412,
+            "range": "± 3863012",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 827849496,
+            "range": "± 12049376",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 78178152,
+            "range": "± 1706846",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6316428133,
+            "range": "± 25470271",
             "unit": "ns/iter"
           }
         ]
