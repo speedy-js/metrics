@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672313316288,
+  "lastUpdate": 1672315794627,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18365,6 +18365,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5856135837,
             "range": "± 27600135",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce0742ebeec668c210f178e4c5c9e67ce60f40f9",
+          "message": "fix: async chunk hmr (#1525)",
+          "timestamp": "2022-12-29T20:01:35+08:00",
+          "tree_id": "02bbd4ab39c4bc8e1e6fedc9fc6134200445cec2",
+          "url": "https://github.com/speedy-js/rspack/commit/ce0742ebeec668c210f178e4c5c9e67ce60f40f9"
+        },
+        "date": 1672315791553,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63469656,
+            "range": "± 3674309",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 799756846,
+            "range": "± 15127221",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 76125710,
+            "range": "± 1559926",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5857592182,
+            "range": "± 30423443",
             "unit": "ns/iter"
           }
         ]
