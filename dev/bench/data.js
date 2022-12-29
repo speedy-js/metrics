@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672311885738,
+  "lastUpdate": 1672313316288,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18317,6 +18317,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5846754318,
             "range": "± 21551980",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5aa5638cbae38565eda47091d551032abe07485b",
+          "message": "chore: fix jsx not transform in node_modules (#1526)",
+          "timestamp": "2022-12-29T19:19:03+08:00",
+          "tree_id": "cae9881c3f7500c6fbcfeb2194c311e0670b26ec",
+          "url": "https://github.com/speedy-js/rspack/commit/5aa5638cbae38565eda47091d551032abe07485b"
+        },
+        "date": 1672313313795,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 62051574,
+            "range": "± 3186054",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 801725467,
+            "range": "± 13375623",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 75426825,
+            "range": "± 1438338",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5856135837,
+            "range": "± 27600135",
             "unit": "ns/iter"
           }
         ]
