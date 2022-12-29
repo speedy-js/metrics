@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672298838455,
+  "lastUpdate": 1672311377136,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18221,6 +18221,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5873501611,
             "range": "± 39432983",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee2addc578d3b33d36347b4c1f02a331e21ae688",
+          "message": "fix: use defined fields in class (#1524)",
+          "timestamp": "2022-12-29T18:47:46+08:00",
+          "tree_id": "7850a3805625517e892dda8b0e7bb47e210c2e11",
+          "url": "https://github.com/speedy-js/rspack/commit/ee2addc578d3b33d36347b4c1f02a331e21ae688"
+        },
+        "date": 1672311374754,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 65271392,
+            "range": "± 3223957",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 819060473,
+            "range": "± 12853088",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 77457494,
+            "range": "± 1598592",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6070632588,
+            "range": "± 37291630",
             "unit": "ns/iter"
           }
         ]
