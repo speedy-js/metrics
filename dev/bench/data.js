@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672315794627,
+  "lastUpdate": 1672387852402,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18413,6 +18413,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5857592182,
             "range": "± 30423443",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "41f828f4798d96b657c49eca807d29de9264902f",
+          "message": "feat: fileDependencies, contextDependencies, and missingDependencies (#1527)\n\n- add fileDependencies, contextDependencies, and missingDependencies\r\n- change resource_data.resource_path type from String to PathBuf",
+          "timestamp": "2022-12-30T16:02:13+08:00",
+          "tree_id": "6fb1f58ab7dc0e115327da72e24f2cc90824ef39",
+          "url": "https://github.com/speedy-js/rspack/commit/41f828f4798d96b657c49eca807d29de9264902f"
+        },
+        "date": 1672387849539,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 65030878,
+            "range": "± 4061961",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 790462727,
+            "range": "± 13013038",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 76301868,
+            "range": "± 1540129",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5862221672,
+            "range": "± 41098303",
             "unit": "ns/iter"
           }
         ]
