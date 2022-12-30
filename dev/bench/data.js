@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672387852402,
+  "lastUpdate": 1672391542981,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18461,6 +18461,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5862221672,
             "range": "± 41098303",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ahab",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af44ebfe5bc1bf45358c92d88e457179a4971b25",
+          "message": "fix(options): optimization.moduleIds failed when pass 'named' (#1530)",
+          "timestamp": "2022-12-30T17:02:56+08:00",
+          "tree_id": "5a676d4c0035f7d41c15459be6f579a948c627e4",
+          "url": "https://github.com/speedy-js/rspack/commit/af44ebfe5bc1bf45358c92d88e457179a4971b25"
+        },
+        "date": 1672391539455,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 62518391,
+            "range": "± 3131279",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 797404322,
+            "range": "± 11057309",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 76449452,
+            "range": "± 1862530",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5849313991,
+            "range": "± 24192208",
             "unit": "ns/iter"
           }
         ]
