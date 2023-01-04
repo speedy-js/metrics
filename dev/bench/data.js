@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672391542981,
+  "lastUpdate": 1672801011846,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18509,6 +18509,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5849313991,
             "range": "± 24192208",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9729ce30ad4e3b060b2d58fe4f84b39b920ec74a",
+          "message": "fix: rspack memory assets middleware not work (#1533)",
+          "timestamp": "2023-01-04T10:47:53+08:00",
+          "tree_id": "e262eab6086df7fd4505e0c2306e831658a7d33f",
+          "url": "https://github.com/speedy-js/rspack/commit/9729ce30ad4e3b060b2d58fe4f84b39b920ec74a"
+        },
+        "date": 1672801008630,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 66404416,
+            "range": "± 3420701",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 818050589,
+            "range": "± 9996720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 79006938,
+            "range": "± 1506815",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6157280199,
+            "range": "± 26323222",
             "unit": "ns/iter"
           }
         ]
