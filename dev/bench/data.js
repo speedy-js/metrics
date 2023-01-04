@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672824991439,
+  "lastUpdate": 1672827238112,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18689,6 +18689,48 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5875225990,
             "range": "± 26161948",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3bc6759fa90b6336f3ab2a341fa6c3bde21e0676",
+          "message": "chore: add defalut value for cacheable api (#1541)\n\nchore: add defalut value for cacheable api",
+          "timestamp": "2023-01-04T18:05:08+08:00",
+          "tree_id": "441b4447ad1c5a5db9aca897e3588312a857a9f7",
+          "url": "https://github.com/speedy-js/rspack/commit/3bc6759fa90b6336f3ab2a341fa6c3bde21e0676"
+        },
+        "date": 1672827235097,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63357213,
+            "range": "± 3461881",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 801691963,
+            "range": "± 8976294",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5864270039,
+            "range": "± 25245111",
             "unit": "ns/iter"
           }
         ]
