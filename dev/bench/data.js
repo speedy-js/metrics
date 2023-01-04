@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672801699136,
+  "lastUpdate": 1672807446149,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18605,6 +18605,48 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6161890456,
             "range": "± 30482377",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "48273594d2dd2533e1e1e9bdd6b5c2e4382d1ac5",
+          "message": "fix: should render chunk filename correctly (#1538)\n\n* fix: should render chunk filename correctly\r\n\r\n* Fix clippy\r\n\r\n* Fix test",
+          "timestamp": "2023-01-04T12:32:28+08:00",
+          "tree_id": "fbf674afd7f3ae336939a2f93dc9c6b4a22d53e7",
+          "url": "https://github.com/speedy-js/rspack/commit/48273594d2dd2533e1e1e9bdd6b5c2e4382d1ac5"
+        },
+        "date": 1672807443211,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 68862740,
+            "range": "± 3506615",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 836234324,
+            "range": "± 10052609",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6293339000,
+            "range": "± 19530090",
             "unit": "ns/iter"
           }
         ]
