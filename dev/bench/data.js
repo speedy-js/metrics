@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672801011846,
+  "lastUpdate": 1672801699136,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18557,6 +18557,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6157280199,
             "range": "± 26323222",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e068249a7fd220844bfa9149e0d4a5106c32684",
+          "message": "feat: switch watcher from chokidar to watchpack (#1539)",
+          "timestamp": "2023-01-04T10:59:45+08:00",
+          "tree_id": "df31fdca460d0b5c6d748a3eab724427f4c84991",
+          "url": "https://github.com/speedy-js/rspack/commit/1e068249a7fd220844bfa9149e0d4a5106c32684"
+        },
+        "date": 1672801696654,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 65572318,
+            "range": "± 3377668",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 817575020,
+            "range": "± 12499419",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 79280428,
+            "range": "± 1677191",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6161890456,
+            "range": "± 30482377",
             "unit": "ns/iter"
           }
         ]
