@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672905234922,
+  "lastUpdate": 1672909770796,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18959,6 +18959,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5851870543,
             "range": "± 24367427",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16fe743508f658a77f115a2b3574d03184162710",
+          "message": "feat: support runtime module stage (#1550)",
+          "timestamp": "2023-01-05T16:57:08+08:00",
+          "tree_id": "ca5b4fea02ea91d9a11f64a2dcf96dc91f23adbe",
+          "url": "https://github.com/speedy-js/rspack/commit/16fe743508f658a77f115a2b3574d03184162710"
+        },
+        "date": 1672909768413,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63767962,
+            "range": "± 3807029",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 792336331,
+            "range": "± 9826201",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 76402451,
+            "range": "± 1570644",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5844000119,
+            "range": "± 33168058",
             "unit": "ns/iter"
           }
         ]
