@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672886347411,
+  "lastUpdate": 1672887441655,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18815,6 +18815,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6133110618,
             "range": "± 25564102",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6da3fba46f4307859af6c92341a4fb34d03c83ec",
+          "message": "refactor: use SharedReference to send stats to js (#1542)\n\nSend `SharedReference` to js instead of the entire stats object.\r\n\r\nThe communication occurred in two places:\r\n1. return value of build and rebuild --> replaced by the new `compilation.getStats`\r\n2. done hook on JsHookAdapter --> already unused, deleted in this PR\r\n\r\nfor 80mb stats data:\r\nget stats old: 1.961s\r\nget stats new: 0.116ms\r\n\r\nso normally this PR will improve ~4s in build and hmr rebuild for 80mb stats data.",
+          "timestamp": "2023-01-05T10:47:26+08:00",
+          "tree_id": "5d7f50a07665949a2804886d0e86d7b0c022104f",
+          "url": "https://github.com/speedy-js/rspack/commit/6da3fba46f4307859af6c92341a4fb34d03c83ec"
+        },
+        "date": 1672887438862,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 64261894,
+            "range": "± 4058090",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 791282844,
+            "range": "± 11654973",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 76613789,
+            "range": "± 1306638",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5828415915,
+            "range": "± 31960916",
             "unit": "ns/iter"
           }
         ]
