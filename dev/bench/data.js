@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672830613547,
+  "lastUpdate": 1672886347411,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18773,6 +18773,48 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5859713722,
             "range": "± 28863805",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "4ec841b35921fbfd3ee01ea08c9c172db872a48a",
+          "message": "fix: use attch fn in `PublicPathRuntimeModule`",
+          "timestamp": "2023-01-05T10:30:14+08:00",
+          "tree_id": "a93aaf462371aade1b99b146fe2426318909aaf4",
+          "url": "https://github.com/speedy-js/rspack/commit/4ec841b35921fbfd3ee01ea08c9c172db872a48a"
+        },
+        "date": 1672886345021,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 66793522,
+            "range": "± 3624015",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 808600333,
+            "range": "± 11123880",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6133110618,
+            "range": "± 25564102",
             "unit": "ns/iter"
           }
         ]
