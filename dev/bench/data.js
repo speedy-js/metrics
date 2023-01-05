@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672913143223,
+  "lastUpdate": 1672920794239,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19055,6 +19055,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5841634670,
             "range": "± 28764282",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b9b56e06b7bdbac7ff98000e4fef059859f4ee7d",
+          "message": "feat: Improve bundle splitting (#1552)\n\n* feat: support runtime module stage\r\n\r\n* feat: test\r\n\r\n* feat: test\r\n\r\n* feat: test\r\n\r\n* feat: Improve bundle splitting\r\n\r\n* Fix clippy\r\n\r\n* Fix test\r\n\r\n* Style\r\n\r\n* Fix test\r\n\r\n* Style\r\n\r\nCo-authored-by: likui <likui.underfin@bytedance.com>",
+          "timestamp": "2023-01-05T20:04:56+08:00",
+          "tree_id": "3bccad265d4fe860c15897fea973918acb699f46",
+          "url": "https://github.com/speedy-js/rspack/commit/b9b56e06b7bdbac7ff98000e4fef059859f4ee7d"
+        },
+        "date": 1672920790810,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 63463465,
+            "range": "± 3623107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 791033905,
+            "range": "± 11546113",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 77125575,
+            "range": "± 1856095",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5835992748,
+            "range": "± 33454950",
             "unit": "ns/iter"
           }
         ]
