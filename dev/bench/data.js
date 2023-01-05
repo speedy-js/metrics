@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672924160105,
+  "lastUpdate": 1672928910797,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19151,6 +19151,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6141852077,
             "range": "± 26785876",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "151970b3cc5d91a1ffa6533c92010db4a729d411",
+          "message": "chore: fix windows compat (#1554)",
+          "timestamp": "2023-01-05T22:16:58+08:00",
+          "tree_id": "a9a63acb2476dd81128de49b186b04befb91bd36",
+          "url": "https://github.com/speedy-js/rspack/commit/151970b3cc5d91a1ffa6533c92010db4a729d411"
+        },
+        "date": 1672928907933,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 66091548,
+            "range": "± 3444518",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 805987387,
+            "range": "± 12421758",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 78616814,
+            "range": "± 1892441",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6138811366,
+            "range": "± 29175801",
             "unit": "ns/iter"
           }
         ]
