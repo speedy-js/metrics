@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672920794239,
+  "lastUpdate": 1672924160105,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19103,6 +19103,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5835992748,
             "range": "± 33454950",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "ebdbc2bfacd3d8674e29a0b157d83ce169f55418",
+          "message": "fix: default conditions align to webpack normal resolveFactory",
+          "timestamp": "2023-01-05T21:00:50+08:00",
+          "tree_id": "4bdd832dd3f6cf6bb1a8e5d2f467350c9bd8fafb",
+          "url": "https://github.com/speedy-js/rspack/commit/ebdbc2bfacd3d8674e29a0b157d83ce169f55418"
+        },
+        "date": 1672924157199,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 65824283,
+            "range": "± 3852063",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 801468236,
+            "range": "± 13408571",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 78571892,
+            "range": "± 1621375",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6141852077,
+            "range": "± 26785876",
             "unit": "ns/iter"
           }
         ]
