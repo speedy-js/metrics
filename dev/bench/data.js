@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672998178083,
+  "lastUpdate": 1673005848524,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19487,6 +19487,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5587637936,
             "range": "± 23225314",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "distinct": true,
+          "id": "43b8eee955af371bf50c511144a39e67590f7c6e",
+          "message": "chore: fix clippy warnings",
+          "timestamp": "2023-01-06T19:42:50+08:00",
+          "tree_id": "2f907a9862d1b81b3a5f0e6ed2cedf87ae06b15a",
+          "url": "https://github.com/speedy-js/rspack/commit/43b8eee955af371bf50c511144a39e67590f7c6e"
+        },
+        "date": 1673005845639,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 56051160,
+            "range": "± 3643554",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 802262303,
+            "range": "± 8376572",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 78502059,
+            "range": "± 1837249",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5950531362,
+            "range": "± 23294541",
             "unit": "ns/iter"
           }
         ]
