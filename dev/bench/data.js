@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672994703065,
+  "lastUpdate": 1672997669454,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19391,6 +19391,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5814043646,
             "range": "± 21973106",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fa8d0e2bfbce3b60a9f6a53dae915c8d7227b2c",
+          "message": "chore: bump rspack-sources (#1385)\n\n* chore: 🤖 try sourcemap\r\n\r\n* chore: 🤖 bump\r\n\r\n* chore: 🤖 update lock\r\n\r\n* chore: 🤖 bump\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 bump version",
+          "timestamp": "2023-01-06T17:22:52+08:00",
+          "tree_id": "c609fbd76822502a021eecb04238bcd9710c9ce8",
+          "url": "https://github.com/speedy-js/rspack/commit/3fa8d0e2bfbce3b60a9f6a53dae915c8d7227b2c"
+        },
+        "date": 1672997666799,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 55819209,
+            "range": "± 3961615",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 791233611,
+            "range": "± 11323946",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 76584214,
+            "range": "± 1761159",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5589340296,
+            "range": "± 28152893",
             "unit": "ns/iter"
           }
         ]
