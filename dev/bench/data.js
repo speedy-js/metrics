@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672994031466,
+  "lastUpdate": 1672994703065,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19343,6 +19343,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6302184328,
             "range": "± 29802408",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb06ff63acaea2a173f86575b9ad4efd579854d8",
+          "message": "feat: code generatable dependency (#1545)\n\n* refactor: init dependency\r\n\r\n* feat: add dep\r\n\r\n* feat: dyn clone\r\n\r\n* feat: code generatable\r\n\r\n* feat: almost there\r\n\r\n* fix: fix every type issues\r\n\r\n* feat: use box rather than dyn reference\r\n\r\n* chore: switch swc_css to swc_core css\r\n\r\n* feat: analyze css module imports with path\r\n\r\n* chore: save more\r\n\r\n* feat: visitor\r\n\r\n* feat: use legacy first\r\n\r\n* feat: leave to another pr\r\n\r\n* chore: resolve type mismatching\r\n\r\n* chore: clippy's satisfaction\r\n\r\n* chore: you are happy and i'm hurt\r\n\r\n* fix: fix swc css breaking changes",
+          "timestamp": "2023-01-06T16:25:26+08:00",
+          "tree_id": "ebc1924abd057093ba66a30c0e01357998e70f19",
+          "url": "https://github.com/speedy-js/rspack/commit/bb06ff63acaea2a173f86575b9ad4efd579854d8"
+        },
+        "date": 1672994699866,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 54965331,
+            "range": "± 4300852",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 795708060,
+            "range": "± 11981179",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 76492423,
+            "range": "± 1355008",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5814043646,
+            "range": "± 21973106",
             "unit": "ns/iter"
           }
         ]
