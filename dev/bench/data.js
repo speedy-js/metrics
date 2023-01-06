@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672991674357,
+  "lastUpdate": 1672994031466,
   "repoUrl": "https://github.com/speedy-js/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19295,6 +19295,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6129001331,
             "range": "± 27021802",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db7e9e6adfdeab6d59f1f35be12da6759fbcfc43",
+          "message": "perf: use short name for interop funtion (#1560)",
+          "timestamp": "2023-01-06T16:25:10+08:00",
+          "tree_id": "6f03bca415a03b44abf0d4cb000a21b7651b6c4d",
+          "url": "https://github.com/speedy-js/rspack/commit/db7e9e6adfdeab6d59f1f35be12da6759fbcfc43"
+        },
+        "date": 1672994028922,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 69499336,
+            "range": "± 4316306",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 816594642,
+            "range": "± 11609284",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 78993840,
+            "range": "± 1782095",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6302184328,
+            "range": "± 29802408",
             "unit": "ns/iter"
           }
         ]
