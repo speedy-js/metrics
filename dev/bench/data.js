@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673248343157,
+  "lastUpdate": 1673254233255,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19727,6 +19727,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5655319650,
             "range": "± 31244744",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "549796acc33b2970b7ef9b32b0c13009d8b2d4ed",
+          "message": "test: 🤖 more tree-shaking test case (#1534)\n\n* chore: 🤖 more tree-shaking test case\r\n\r\n* chore: 🤖 more test case\r\n\r\n* chore: 🤖 finish skip eval alias in export default\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 update arco-pro config for better debug DX\r\n\r\n* chore: 🤖 switch\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 init\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 update lock\r\n\r\n* chore: 🤖 bench main.rs\r\n\r\n* chore: 🤖 remove static example\r\n\r\n* chore: 🤖 update changeset",
+          "timestamp": "2023-01-09T16:39:33+08:00",
+          "tree_id": "23e21d600ce67dbf77bfb54357c481c2663b3610",
+          "url": "https://github.com/modern-js-dev/rspack/commit/549796acc33b2970b7ef9b32b0c13009d8b2d4ed"
+        },
+        "date": 1673254230178,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 53931973,
+            "range": "± 3697654",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 814262097,
+            "range": "± 10654633",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 78100567,
+            "range": "± 1556590",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5934055628,
+            "range": "± 25119601",
             "unit": "ns/iter"
           }
         ]
