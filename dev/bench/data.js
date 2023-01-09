@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673261348638,
+  "lastUpdate": 1673285808172,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19919,6 +19919,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5932700909,
             "range": "± 26432772",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "602184b6b4b43fbc7b7a6f3242db3bcf4f487633",
+          "message": "fix: add dependency_type to key of resolve_cache to prevent unexpected cache hit",
+          "timestamp": "2023-01-10T01:28:18+08:00",
+          "tree_id": "6ebd0a235f3da1c89bd4024fc9029f81eff44ef7",
+          "url": "https://github.com/modern-js-dev/rspack/commit/602184b6b4b43fbc7b7a6f3242db3bcf4f487633"
+        },
+        "date": 1673285805097,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 55017534,
+            "range": "± 2981088",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 800967443,
+            "range": "± 11759747",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 76069094,
+            "range": "± 1667422",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5929156633,
+            "range": "± 20352228",
             "unit": "ns/iter"
           }
         ]
