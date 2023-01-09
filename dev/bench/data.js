@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673232839761,
-  "repoUrl": "https://github.com/speedy-js/rspack",
+  "lastUpdate": 1673238824430,
+  "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
       {
@@ -19631,6 +19631,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5922433054,
             "range": "± 29973605",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "28ebce7e801e99c5dd190827b438f158a78f6778",
+          "message": "chore: fix cargo.lock (#1570)",
+          "timestamp": "2023-01-09T12:26:00+08:00",
+          "tree_id": "8a71128704c7bda4ddde4ef162345b20ef4bdb9c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/28ebce7e801e99c5dd190827b438f158a78f6778"
+        },
+        "date": 1673238821679,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 51544774,
+            "range": "± 3391070",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 782545708,
+            "range": "± 11935532",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 75358303,
+            "range": "± 1386368",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5632190256,
+            "range": "± 28194615",
             "unit": "ns/iter"
           }
         ]
