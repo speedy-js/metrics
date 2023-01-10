@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673334519432,
+  "lastUpdate": 1673342669758,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20111,6 +20111,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4673154546,
             "range": "± 17316964",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "distinct": true,
+          "id": "1adac6fee2d7b2a8d38625e1b8ce8784e28c0990",
+          "message": "chore(.cargo/config): remove --verbase from lint",
+          "timestamp": "2023-01-10T17:11:36+08:00",
+          "tree_id": "5d9d24d39c1f5220de28172c690f4680de176b0c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/1adac6fee2d7b2a8d38625e1b8ce8784e28c0990"
+        },
+        "date": 1673342667078,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47590938,
+            "range": "± 2482402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 767520388,
+            "range": "± 10012143",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71886314,
+            "range": "± 887373",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4679007009,
+            "range": "± 11986341",
             "unit": "ns/iter"
           }
         ]
