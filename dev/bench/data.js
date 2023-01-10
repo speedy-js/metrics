@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673352338588,
+  "lastUpdate": 1673353182648,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20351,6 +20351,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5027338026,
             "range": "± 15541841",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51773f19564bf3ba871f331d4a18ffd6a3c85b1a",
+          "message": "fix: module.used should be true by default if tree-shaking= false (#1596)\n\n* chore: 🤖 fix module.used options\r\n\r\n* chore: 🤖 test case",
+          "timestamp": "2023-01-10T20:09:30+08:00",
+          "tree_id": "cc3a9735b8eebe5f8b317dc89bf4ae9b13bf23a2",
+          "url": "https://github.com/modern-js-dev/rspack/commit/51773f19564bf3ba871f331d4a18ffd6a3c85b1a"
+        },
+        "date": 1673353180150,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47004796,
+            "range": "± 2658654",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 780553654,
+            "range": "± 9875285",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72363596,
+            "range": "± 1015886",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4801639469,
+            "range": "± 16878226",
             "unit": "ns/iter"
           }
         ]
