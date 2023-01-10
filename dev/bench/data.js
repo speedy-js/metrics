@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673331861001,
+  "lastUpdate": 1673334519432,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20063,6 +20063,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4690254161,
             "range": "± 19117897",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "81620ad87896417e9700ca3dcd92ab5ad87cfe1a",
+          "message": "fix: Fixing something scenario that should not panic when tree-shaking. (#1581)\n\nchore: 🤖 panic",
+          "timestamp": "2023-01-10T14:35:50+08:00",
+          "tree_id": "b5b20283e8d347ad2b128e31967e63ef065ae0dc",
+          "url": "https://github.com/modern-js-dev/rspack/commit/81620ad87896417e9700ca3dcd92ab5ad87cfe1a"
+        },
+        "date": 1673334513471,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 55418729,
+            "range": "± 3318786",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 767886338,
+            "range": "± 9308813",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71685940,
+            "range": "± 1095656",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4673154546,
+            "range": "± 17316964",
             "unit": "ns/iter"
           }
         ]
