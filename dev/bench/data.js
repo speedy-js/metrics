@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673342669758,
+  "lastUpdate": 1673348991559,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20159,6 +20159,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4679007009,
             "range": "± 11986341",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "distinct": true,
+          "id": "99ee52369750a8a120d767d79d53aae445eda257",
+          "message": "perf(rspack_core): use FxHasher in DashMap",
+          "timestamp": "2023-01-10T18:59:05+08:00",
+          "tree_id": "073ac413aecacc5958255018b17e1bcc1dc01d2d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/99ee52369750a8a120d767d79d53aae445eda257"
+        },
+        "date": 1673348988534,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 49017266,
+            "range": "± 3167662",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 796536775,
+            "range": "± 9778249",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 74724955,
+            "range": "± 912276",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5009931391,
+            "range": "± 16984497",
             "unit": "ns/iter"
           }
         ]
