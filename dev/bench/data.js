@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673350345869,
+  "lastUpdate": 1673351230321,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20255,6 +20255,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4661404197,
             "range": "± 13810962",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cedc89a10e59fd3b3788981b60da3a3c09a2421",
+          "message": "chore: 🤖 disable toml lint in ci (#1598)\n\nchore: 🤖 ci lint",
+          "timestamp": "2023-01-10T19:30:16+08:00",
+          "tree_id": "d00e1227a77a76236e34af483b6571ca7753a435",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6cedc89a10e59fd3b3788981b60da3a3c09a2421"
+        },
+        "date": 1673351227650,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48902002,
+            "range": "± 2375291",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 782625392,
+            "range": "± 9694401",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73037021,
+            "range": "± 1152527",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4868535829,
+            "range": "± 10527355",
             "unit": "ns/iter"
           }
         ]
