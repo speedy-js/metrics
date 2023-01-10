@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673321335771,
+  "lastUpdate": 1673331861001,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20015,6 +20015,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5378148769,
             "range": "± 31853080",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b080b106fad075f9c78c655878522178e48a1fe0",
+          "message": "perf: remove redundant CachedSource (#1579)\n\n* remove redundant CachedSource\r\n\r\n* add CachedSource for NormalModule generate result\r\n\r\n* add for emit\r\n\r\n* add js render cache",
+          "timestamp": "2023-01-10T14:04:16+08:00",
+          "tree_id": "946b987fc8208b75179eae27d05c78de9e7b59a1",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b080b106fad075f9c78c655878522178e48a1fe0"
+        },
+        "date": 1673331857717,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 53220709,
+            "range": "± 3158292",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 777625405,
+            "range": "± 10618771",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72392165,
+            "range": "± 1432360",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4690254161,
+            "range": "± 19117897",
             "unit": "ns/iter"
           }
         ]
