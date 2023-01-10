@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673348991559,
+  "lastUpdate": 1673350345869,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20207,6 +20207,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5009931391,
             "range": "± 16984497",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5e722adf10cdacc88b1e4687dc2c3982db9100a5",
+          "message": "feat: add emit and afterEmit hook (#1593)",
+          "timestamp": "2023-01-10T19:19:39+08:00",
+          "tree_id": "dd2ecf392bba69be400913f406f9a311d857612d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/5e722adf10cdacc88b1e4687dc2c3982db9100a5"
+        },
+        "date": 1673350342948,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47053044,
+            "range": "± 2493935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 764129906,
+            "range": "± 9254106",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71516736,
+            "range": "± 890754",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4661404197,
+            "range": "± 13810962",
             "unit": "ns/iter"
           }
         ]
