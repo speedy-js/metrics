@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673364300247,
+  "lastUpdate": 1673366508564,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20591,6 +20591,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4822945608,
             "range": "± 15447941",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "792304dd917ea1a61b6db148178f202950975337",
+          "message": "feat: support rule specific `parser.dataUrlCondition.maxSize` and `generator.filename` (#1600)\n\n* feat: init\r\n\r\n* feat: apply changes to plugin\r\n\r\n* chore: add todo\r\n\r\n* chore: make clippy happy\r\n\r\n* test: add test cases\r\n\r\n* Create khaki-crews-shout.md",
+          "timestamp": "2023-01-10T23:48:34+08:00",
+          "tree_id": "21f71d635821410d8eefe53c4f5ca7dea51a0585",
+          "url": "https://github.com/modern-js-dev/rspack/commit/792304dd917ea1a61b6db148178f202950975337"
+        },
+        "date": 1673366505742,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46945200,
+            "range": "± 2236754",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 761629990,
+            "range": "± 10362799",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71647060,
+            "range": "± 985617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4657796390,
+            "range": "± 13783076",
             "unit": "ns/iter"
           }
         ]
