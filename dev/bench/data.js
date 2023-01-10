@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673351230321,
+  "lastUpdate": 1673352338588,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20303,6 +20303,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4868535829,
             "range": "± 10527355",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "29c3a01194766551ec75b064bd1d41332e2d877a",
+          "message": "feat: support harmony import module.accpet auto import (#1591)",
+          "timestamp": "2023-01-10T19:55:02+08:00",
+          "tree_id": "cfd56c2b257b16a4c745e0b76cca0c14c8865afd",
+          "url": "https://github.com/modern-js-dev/rspack/commit/29c3a01194766551ec75b064bd1d41332e2d877a"
+        },
+        "date": 1673352335971,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48925898,
+            "range": "± 2418271",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 798340781,
+            "range": "± 10585900",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 74570981,
+            "range": "± 1106661",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5027338026,
+            "range": "± 15541841",
             "unit": "ns/iter"
           }
         ]
