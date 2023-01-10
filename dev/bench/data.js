@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673357718680,
+  "lastUpdate": 1673362008678,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20495,6 +20495,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4910066277,
             "range": "± 13514161",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3dcb26c38bb31e9d4cf8afcddd5e79c02a539b8f",
+          "message": "chore: fix watch test on ci (#1603)",
+          "timestamp": "2023-01-10T22:31:37+08:00",
+          "tree_id": "466011b5f83fa624742364d60deb92853418ab53",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3dcb26c38bb31e9d4cf8afcddd5e79c02a539b8f"
+        },
+        "date": 1673361999039,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46602329,
+            "range": "± 2893589",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 760164898,
+            "range": "± 9374807",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71623135,
+            "range": "± 869446",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4681827244,
+            "range": "± 12531383",
             "unit": "ns/iter"
           }
         ]
