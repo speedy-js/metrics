@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673421100461,
+  "lastUpdate": 1673425777364,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20783,6 +20783,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4690278307,
             "range": "± 14586191",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3161764802bf50b58634db2ba314a1a17cd57b41",
+          "message": " feat: module rule side effects (#1551)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 more test case\r\n\r\n* chore: 🤖 remove examples\r\n\r\n* chore: 🤖 recov er\r\n\r\n* chore: 🤖 lint\r\n\r\n* perf: replace hashbrown::HashMap with rustc_hash::FxHashMap\r\n\r\n* chore: 🤖 init\r\n\r\n* chore: 🤖 more test case\r\n\r\n* chore: 🤖 remove compile error\r\n\r\n* chore: 🤖 resolve compile error\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 recover\r\n\r\nCo-authored-by: Boshen <boshenc@gmail.com>",
+          "timestamp": "2023-01-11T16:19:06+08:00",
+          "tree_id": "e6cad5e35f8c57697599ab602ffe6fe6a7e5382b",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3161764802bf50b58634db2ba314a1a17cd57b41"
+        },
+        "date": 1673425774867,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 51293366,
+            "range": "± 3336809",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 790170538,
+            "range": "± 9122609",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 74480120,
+            "range": "± 1019373",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5060319713,
+            "range": "± 15603695",
             "unit": "ns/iter"
           }
         ]
