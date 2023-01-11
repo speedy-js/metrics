@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673413674125,
+  "lastUpdate": 1673419114975,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20687,6 +20687,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4661466881,
             "range": "± 16124689",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd7736377060f82049aa188f8f5b5918454f1af1",
+          "message": "chore: bump swc (#1587)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 changeset\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 upgrade dep\r\n\r\n* chore: 🤖 fix\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* Bump SWC version\r\n\r\n* Fix napi\r\n\r\n* Fix test\r\n\r\nCo-authored-by: YunfeiHe <i.heyunfei@gmail.com>",
+          "timestamp": "2023-01-11T14:27:56+08:00",
+          "tree_id": "1c359294c355bccd3a0411de9c9939a74b345722",
+          "url": "https://github.com/modern-js-dev/rspack/commit/cd7736377060f82049aa188f8f5b5918454f1af1"
+        },
+        "date": 1673419112548,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 49147217,
+            "range": "± 2818978",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 776844917,
+            "range": "± 10030080",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73013334,
+            "range": "± 1117043",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4939047925,
+            "range": "± 17707027",
             "unit": "ns/iter"
           }
         ]
