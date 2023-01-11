@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673455254150,
+  "lastUpdate": 1673456294591,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21023,6 +21023,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4712656331,
             "range": "± 14729369",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3847e66c19d38e0bb6b488037fe8a2870f207c21",
+          "message": "fix: json parse errors should be recoverable (#1611)\n\nfeat: exit on severe error encountered",
+          "timestamp": "2023-01-12T00:46:52+08:00",
+          "tree_id": "3e47d5236d14abc3fad9557dac3d9de110c9bb76",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3847e66c19d38e0bb6b488037fe8a2870f207c21"
+        },
+        "date": 1673456291417,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48376841,
+            "range": "± 2486443",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 768099198,
+            "range": "± 10496051",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71763501,
+            "range": "± 940371",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4705310053,
+            "range": "± 14130518",
             "unit": "ns/iter"
           }
         ]
