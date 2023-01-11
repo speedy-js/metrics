@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673454554584,
+  "lastUpdate": 1673455254150,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20975,6 +20975,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4711067695,
             "range": "± 22145884",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6d4f3e627742bba9d080df749fe7b2ba49a725ad",
+          "message": "feat: missing module (#1616)\n\n* feat: missing module\r\n\r\n* chore: clippy\r\n\r\n* chore: snapshot\r\n\r\n* chore: remove buggy dependency list\r\n\r\n* create changeset\r\n\r\n* feat: use relative\r\n\r\n* fix: snapshot",
+          "timestamp": "2023-01-12T00:30:45+08:00",
+          "tree_id": "12fd928c8f02993ecb0594a32c3d9daae246464d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6d4f3e627742bba9d080df749fe7b2ba49a725ad"
+        },
+        "date": 1673455251106,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48371052,
+            "range": "± 2652101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 769802693,
+            "range": "± 9528030",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71786804,
+            "range": "± 987696",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4712656331,
+            "range": "± 14729369",
             "unit": "ns/iter"
           }
         ]
