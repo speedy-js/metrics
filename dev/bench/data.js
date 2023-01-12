@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673495868163,
+  "lastUpdate": 1673496476289,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21119,6 +21119,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5046355110,
             "range": "± 16973144",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "distinct": true,
+          "id": "b8fccd97a8d16db6333729e700626470bcd4f8a4",
+          "message": "perf(rspack_plugin_javascript): remove extra `source.clone()`\n\nThe source text passed here can be huge for large projects (e.g. 10M+).\nMaking an extra clone here introduces a huge memory allocation,\nremoving this clone should reduce a few milliseconds for large repos\nwhen minification is turned on.",
+          "timestamp": "2023-01-12T11:46:45+08:00",
+          "tree_id": "736af2d14d43c0d9645843a05295a75c82aad250",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b8fccd97a8d16db6333729e700626470bcd4f8a4"
+        },
+        "date": 1673496473801,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47620906,
+            "range": "± 2588869",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 764627503,
+            "range": "± 11959595",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71692713,
+            "range": "± 912573",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4736951835,
+            "range": "± 13309650",
             "unit": "ns/iter"
           }
         ]
