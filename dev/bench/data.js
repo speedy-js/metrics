@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673456294591,
+  "lastUpdate": 1673495868163,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21071,6 +21071,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4705310053,
             "range": "± 14130518",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5343d3f4386fc926f1e0ddf6fd4381278a101ea",
+          "message": "chore: remove top line breaks in css (#1621)\n\n* chore: remove top line breaks in css\r\n\r\n* add changeset",
+          "timestamp": "2023-01-12T11:46:08+08:00",
+          "tree_id": "3ac3a897017b7a89938f168a477797db09126d7a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b5343d3f4386fc926f1e0ddf6fd4381278a101ea"
+        },
+        "date": 1673495864718,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 53052916,
+            "range": "± 2988656",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 796183964,
+            "range": "± 10666224",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 74850867,
+            "range": "± 962626",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5046355110,
+            "range": "± 16973144",
             "unit": "ns/iter"
           }
         ]
