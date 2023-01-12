@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673525018219,
+  "lastUpdate": 1673561518186,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21359,6 +21359,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4970719450,
             "range": "± 18434542",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e878bff5f74c672a0426fd2d94370b5450cf291",
+          "message": "chore: convert napi panic to js error to support error monitor (#1630)",
+          "timestamp": "2023-01-13T06:00:34+08:00",
+          "tree_id": "09c165da55a0cf99c7e5e9e7e0d5481063fb5952",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6e878bff5f74c672a0426fd2d94370b5450cf291"
+        },
+        "date": 1673561513543,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48263723,
+            "range": "± 2358141",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 767655208,
+            "range": "± 11035283",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71963130,
+            "range": "± 887589",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4741620061,
+            "range": "± 19165825",
             "unit": "ns/iter"
           }
         ]
