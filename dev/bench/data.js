@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673506013134,
+  "lastUpdate": 1673525018219,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21311,6 +21311,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4739314111,
             "range": "± 13877145",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d62613d35f649bead1ad171c4238e5f7e1fb4312",
+          "message": "fix: 🐛 tree-shaking dev with concurrent minifier (#1627)",
+          "timestamp": "2023-01-12T19:53:07+08:00",
+          "tree_id": "f8953dbf94418ccc8e17b00d267331602b7022a0",
+          "url": "https://github.com/modern-js-dev/rspack/commit/d62613d35f649bead1ad171c4238e5f7e1fb4312"
+        },
+        "date": 1673525015736,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 49559181,
+            "range": "± 2629253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 786264741,
+            "range": "± 11302535",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73775392,
+            "range": "± 1032126",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4970719450,
+            "range": "± 18434542",
             "unit": "ns/iter"
           }
         ]
