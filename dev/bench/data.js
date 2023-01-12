@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673497098111,
+  "lastUpdate": 1673505394268,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21215,6 +21215,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4732055618,
             "range": "± 17526417",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb93bb421218d0d2fcf5f84d434b7c281f242563",
+          "message": "fix: not show module reasons for default stats toString (#1625)",
+          "timestamp": "2023-01-12T13:51:30+08:00",
+          "tree_id": "350f4bdc44a34914e89af35f5eb86fe31e13cbf1",
+          "url": "https://github.com/modern-js-dev/rspack/commit/cb93bb421218d0d2fcf5f84d434b7c281f242563"
+        },
+        "date": 1673505391795,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 49991799,
+            "range": "± 2348557",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 784596098,
+            "range": "± 9938341",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73571319,
+            "range": "± 991723",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4955529228,
+            "range": "± 17131832",
             "unit": "ns/iter"
           }
         ]
