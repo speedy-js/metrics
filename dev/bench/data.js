@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673568096717,
+  "lastUpdate": 1673591142238,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21455,6 +21455,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4740510047,
             "range": "± 16159591",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc3bedd89ff3fe3e1fd584a625eaf895c8ec1b14",
+          "message": "chore: add debugging section in contributing.md (#1632)",
+          "timestamp": "2023-01-13T14:14:31+08:00",
+          "tree_id": "571f1ecebaf629d9fd366624d5c82d9d11997d1c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/dc3bedd89ff3fe3e1fd584a625eaf895c8ec1b14"
+        },
+        "date": 1673591139553,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47783188,
+            "range": "± 2611278",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 768641985,
+            "range": "± 10092003",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71613883,
+            "range": "± 854553",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4740042330,
+            "range": "± 18062692",
             "unit": "ns/iter"
           }
         ]
