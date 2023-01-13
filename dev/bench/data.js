@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673591142238,
+  "lastUpdate": 1673603281847,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21503,6 +21503,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4740042330,
             "range": "± 18062692",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "distinct": true,
+          "id": "67a3520a20fabaa124eb4ecf02266d20d53ece4e",
+          "message": "perf(rspack_core): cache module identifier for NormalModule\n\nModuleIdentifier::from currently runs Ustr::from,\nwhich has a performance overhead by a hash + (conditional) mutex lock.",
+          "timestamp": "2023-01-13T17:35:50+08:00",
+          "tree_id": "f76d7fb144e328f7bcce057954cb1e9c8df3b61e",
+          "url": "https://github.com/modern-js-dev/rspack/commit/67a3520a20fabaa124eb4ecf02266d20d53ece4e"
+        },
+        "date": 1673603279006,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48107595,
+            "range": "± 2400513",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 759428158,
+            "range": "± 11398619",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71393233,
+            "range": "± 1061694",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4743619523,
+            "range": "± 15214962",
             "unit": "ns/iter"
           }
         ]
