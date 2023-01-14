@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673700844912,
+  "lastUpdate": 1673709618103,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21647,6 +21647,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4730238754,
             "range": "± 14641024",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7cbbead3f0fd93a832cc0da1ca67f8ad34b7ea86",
+          "message": "chore: add solid-js example (#1643)",
+          "timestamp": "2023-01-14T23:05:37+08:00",
+          "tree_id": "31c51b7d955dd4b33a9b343d9e17497f15ccb63a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/7cbbead3f0fd93a832cc0da1ca67f8ad34b7ea86"
+        },
+        "date": 1673709614272,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 50485726,
+            "range": "± 2296844",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 776627025,
+            "range": "± 9770412",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72858048,
+            "range": "± 904037",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4910520394,
+            "range": "± 14720814",
             "unit": "ns/iter"
           }
         ]
