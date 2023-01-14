@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673603281847,
+  "lastUpdate": 1673691746869,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21551,6 +21551,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4743619523,
             "range": "± 15214962",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4a08f9c792c638099711f58ed24e8d8d4dc113f",
+          "message": "chore: bump napi-derive (#1638)\n\n* chore: bump napi-derive\r\n\r\n* chore: update binding",
+          "timestamp": "2023-01-14T18:11:51+08:00",
+          "tree_id": "49d11c9938eb5f3ed52baa66678522db0da03cac",
+          "url": "https://github.com/modern-js-dev/rspack/commit/e4a08f9c792c638099711f58ed24e8d8d4dc113f"
+        },
+        "date": 1673691743840,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 50554830,
+            "range": "± 2792786",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 781529780,
+            "range": "± 8838460",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73471609,
+            "range": "± 1026797",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5003810273,
+            "range": "± 16039818",
             "unit": "ns/iter"
           }
         ]
