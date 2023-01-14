@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673691746869,
+  "lastUpdate": 1673700844912,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21599,6 +21599,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5003810273,
             "range": "± 16039818",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "3c88c8236a33c99077dbc4135f7f8ca20bb5a527",
+          "message": "refactor: update pnpm to solve permission error of bin file",
+          "timestamp": "2023-01-14T20:43:47+08:00",
+          "tree_id": "c8c3701708ea95d8592dca9b6f8468bcf5462792",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3c88c8236a33c99077dbc4135f7f8ca20bb5a527"
+        },
+        "date": 1673700842363,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47480421,
+            "range": "± 2586133",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 765300184,
+            "range": "± 12175818",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71566388,
+            "range": "± 918756",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4730238754,
+            "range": "± 14641024",
             "unit": "ns/iter"
           }
         ]
