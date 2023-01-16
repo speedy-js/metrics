@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673858575917,
+  "lastUpdate": 1673877609437,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22127,6 +22127,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4769183763,
             "range": "± 14784599",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "278e89cc1dfc35cb8f9352d0894effe726d9c5a3",
+          "message": "fix: string type side-effects (#1649)\n\n- string type sideEffects, reference to [`SideEffectsFlagPlugin.moduleHasSideEffects`](https://github.com/webpack/webpack/blob/4b4ca3bb53f36a5b8fc6bc1bd976ed7af161bd80/lib/optimize/SideEffectsFlagPlugin.js#L322-L335)\r\n- update nodejs_resolver to 0.0.61 (fixes https://github.com/modern-js-dev/rspack/issues/1500)",
+          "timestamp": "2023-01-16T21:45:35+08:00",
+          "tree_id": "8975499b14ed6b50c58dc6b4798f138c3ac2047c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/278e89cc1dfc35cb8f9352d0894effe726d9c5a3"
+        },
+        "date": 1673877606648,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 50235125,
+            "range": "± 2968805",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 786904642,
+            "range": "± 9071564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72661846,
+            "range": "± 948514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4948113802,
+            "range": "± 14242630",
             "unit": "ns/iter"
           }
         ]
