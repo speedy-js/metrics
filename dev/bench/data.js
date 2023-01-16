@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673848038454,
+  "lastUpdate": 1673850340276,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21887,6 +21887,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5026018651,
             "range": "± 13664230",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f88de8aeef4cc0068a8369f6697264e00daf0e58",
+          "message": "refactor: avoid declaring napi struct twice (#1642)\n\n* chore: add solid-js example (#1643)\r\n\r\n* refactor: update binding dependencies\r\n\r\n* refactor: adapt napi-derive changes to binding (#1644)\r\n\r\n* chore: fix type\r\n\r\n* fix: fix a stupid mistake\r\n\r\n* feat: ship it\r\n\r\n* chore: remove napi-sys\r\n\r\nCo-authored-by: hardfist <yangjianzju@gmail.com>",
+          "timestamp": "2023-01-16T14:15:13+08:00",
+          "tree_id": "800b7e87f829b160a08df7f9deefe75c66ed6784",
+          "url": "https://github.com/modern-js-dev/rspack/commit/f88de8aeef4cc0068a8369f6697264e00daf0e58"
+        },
+        "date": 1673850337790,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 52039030,
+            "range": "± 2756500",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 789484741,
+            "range": "± 11967525",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 74490339,
+            "range": "± 1127351",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5088240252,
+            "range": "± 18184641",
             "unit": "ns/iter"
           }
         ]
