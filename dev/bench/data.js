@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673836526262,
+  "lastUpdate": 1673842738721,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21743,6 +21743,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4740239333,
             "range": "± 14968711",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "8084974363d3c25ea0f59f4a38a277413b516990",
+          "message": "refactor(dev-server): use webpackDevServer and support sockjs",
+          "timestamp": "2023-01-16T11:52:08+08:00",
+          "tree_id": "34ab36a9b39faa924a6859677ef5635a213fcb08",
+          "url": "https://github.com/modern-js-dev/rspack/commit/8084974363d3c25ea0f59f4a38a277413b516990"
+        },
+        "date": 1673842736253,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 49282096,
+            "range": "± 2374871",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 776258167,
+            "range": "± 11185418",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72988785,
+            "range": "± 878299",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4956858190,
+            "range": "± 12778042",
             "unit": "ns/iter"
           }
         ]
