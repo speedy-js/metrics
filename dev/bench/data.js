@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673854699683,
+  "lastUpdate": 1673857312812,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21983,6 +21983,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4725922393,
             "range": "± 12969168",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dbf19b3a18148d9c4121cd1cf51c4d24fd5c3988",
+          "message": "fix: dynamic import bundle splitting runtime (#1634)",
+          "timestamp": "2023-01-16T16:10:19+08:00",
+          "tree_id": "adcc061ef1756ea14a15c6c30feeaf38a3288e4d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/dbf19b3a18148d9c4121cd1cf51c4d24fd5c3988"
+        },
+        "date": 1673857308181,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48521754,
+            "range": "± 2746897",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 762178486,
+            "range": "± 10761608",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71491877,
+            "range": "± 1148897",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4739760236,
+            "range": "± 14383861",
             "unit": "ns/iter"
           }
         ]
