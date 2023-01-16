@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673857312812,
+  "lastUpdate": 1673857954549,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22031,6 +22031,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4739760236,
             "range": "± 14383861",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3aeb192e343bf0d9c319b35fe6ed865f85e2158f",
+          "message": "perf: use static runtime globals (#1650)\n\n## Summary\n\n<!-- Explain the **motivation** for making this change. What existing problem does the pull request solve? -->\n\n## Test Plan\n\n<!-- Demonstrate the code is solid. Example: The exact commands you ran and their output. -->\n\n## Related issue (if exists)\n\n## How does Webpack handle this? (if exists)\n\n**Is this a workaround for the Webpack's implementation?** \n\n> Check if Webpack has the same feature and but we're taking a workaround for it.\n\n- [ ] Yes. Issue for resolving the workaround:  <!-- Please create an issue for the workaround you made. You issue should also be tracked here: https://github.com/speedy-js/rspack/issues/794 -->\n- [ ] No\n\n<!-- How does webpack handle this feature? If webpack has its original implementation, the implementor should paste the related information abount the implementation(permanent link should be preferred). E.g [NormalModule](https://github.com/webpack/webpack/blob/9fcaa243573005d6fdece9a3f8d89a0e8b399613/lib/NormalModule.js#L220) -->\n\n## Further reading\n\n<!-- Reference that may help understand this pull request -->",
+          "timestamp": "2023-01-16T16:13:32+08:00",
+          "tree_id": "7203db96d52eba8ba00e33dc87088e1aa725fe95",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3aeb192e343bf0d9c319b35fe6ed865f85e2158f"
+        },
+        "date": 1673857952061,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 50577685,
+            "range": "± 2919679",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 796917338,
+            "range": "± 10859281",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73925645,
+            "range": "± 993248",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5090028311,
+            "range": "± 14861857",
             "unit": "ns/iter"
           }
         ]
