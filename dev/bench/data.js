@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673925313524,
+  "lastUpdate": 1673930945390,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22223,6 +22223,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4731244604,
             "range": "± 10993901",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98fd871851e100f374303e3cabf2c094ae617cbf",
+          "message": "perf: make create hash parallel (#1626)",
+          "timestamp": "2023-01-17T12:37:09+08:00",
+          "tree_id": "de8921d704bb8d1bdf054ebae0c7bb91c8885820",
+          "url": "https://github.com/modern-js-dev/rspack/commit/98fd871851e100f374303e3cabf2c094ae617cbf"
+        },
+        "date": 1673930942901,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48809935,
+            "range": "± 2641683",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 771031146,
+            "range": "± 8262356",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72395639,
+            "range": "± 943053",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4949674162,
+            "range": "± 16106745",
             "unit": "ns/iter"
           }
         ]
