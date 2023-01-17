@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673947133390,
+  "lastUpdate": 1673953533776,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22319,6 +22319,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4730817684,
             "range": "± 15004369",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86ed121843e571b587cc71bda0d1c7d065a77049",
+          "message": "fix: readonly type for compilation.assets|entrypoints (#1658)",
+          "timestamp": "2023-01-17T18:54:20+08:00",
+          "tree_id": "1ecac86458d2699aaaba779379d3be4c77a1651d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/86ed121843e571b587cc71bda0d1c7d065a77049"
+        },
+        "date": 1673953529174,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48481151,
+            "range": "± 2808924",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 750875946,
+            "range": "± 8850043",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71183692,
+            "range": "± 934248",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4719263422,
+            "range": "± 14352059",
             "unit": "ns/iter"
           }
         ]
