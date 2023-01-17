@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673953533776,
+  "lastUpdate": 1673954674714,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22367,6 +22367,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4719263422,
             "range": "± 14352059",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a103afea4abb4fd721c14f05c45d2a7eb5d9fbf7",
+          "message": "feat: make stage support changed HMR (#1629)\n\n* feat: make support changed HMR\r\n\r\n* feat: support experiments.changedHmr",
+          "timestamp": "2023-01-17T19:10:35+08:00",
+          "tree_id": "d3230d760931275f365609de255411f6c2a746e6",
+          "url": "https://github.com/modern-js-dev/rspack/commit/a103afea4abb4fd721c14f05c45d2a7eb5d9fbf7"
+        },
+        "date": 1673954671755,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47642487,
+            "range": "± 2473594",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 749686650,
+            "range": "± 9355074",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71538141,
+            "range": "± 780762",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4727283996,
+            "range": "± 12655355",
             "unit": "ns/iter"
           }
         ]
