@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673930945390,
+  "lastUpdate": 1673947133390,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22271,6 +22271,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4949674162,
             "range": "± 16106745",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "faef6fc00654d1d049f44b22708b871bf519c4ca",
+          "message": "fix: should normalize SplitChunks options correctly (#1660)\n\n* fix: should normalize SplitChunks options correctly\r\n\r\n* Clippy",
+          "timestamp": "2023-01-17T17:08:27+08:00",
+          "tree_id": "dfeed8712d18df78359843ab943269d9c992b212",
+          "url": "https://github.com/modern-js-dev/rspack/commit/faef6fc00654d1d049f44b22708b871bf519c4ca"
+        },
+        "date": 1673947130978,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48220967,
+            "range": "± 2579716",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 762655322,
+            "range": "± 8710008",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71537921,
+            "range": "± 934905",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4730817684,
+            "range": "± 15004369",
             "unit": "ns/iter"
           }
         ]
