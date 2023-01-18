@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674036994869,
+  "lastUpdate": 1674039607510,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22751,6 +22751,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4721495370,
             "range": "± 13790669",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c65ca69eb28d192b5c332af98b6e76d5ef4e72f3",
+          "message": "feat: add environment, afterEnvironment, afterPlugins, and afterResolvers compiler hooks (#1663)",
+          "timestamp": "2023-01-18T18:49:36+08:00",
+          "tree_id": "4161b84baf40c74664a05df1bb6094046059119f",
+          "url": "https://github.com/modern-js-dev/rspack/commit/c65ca69eb28d192b5c332af98b6e76d5ef4e72f3"
+        },
+        "date": 1674039605139,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46952299,
+            "range": "± 2573497",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 770100986,
+            "range": "± 10087783",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72368543,
+            "range": "± 855244",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4920447009,
+            "range": "± 13381671",
             "unit": "ns/iter"
           }
         ]
