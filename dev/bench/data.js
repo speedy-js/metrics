@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674015017173,
+  "lastUpdate": 1674019566052,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22463,6 +22463,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4728376048,
             "range": "± 17828497",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b77074dfab4a98f9d101a9f0d54c42f6957db581",
+          "message": "feat: support multiCompiler (#1659)\n\n* feat: support multiCompiler\r\n\r\n* chore: add changeset and correct code lint\r\n\r\n* chore: change License description\r\n\r\n* fix: remove useless options and hooks\r\n\r\n* fix: make stats.toString and toJson compatible with webpack",
+          "timestamp": "2023-01-18T13:15:28+08:00",
+          "tree_id": "18bbc25a15a6dc700003f6dfe8cad5ab4a26c788",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b77074dfab4a98f9d101a9f0d54c42f6957db581"
+        },
+        "date": 1674019563687,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 50790907,
+            "range": "± 2814049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 782951987,
+            "range": "± 9642924",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 74608760,
+            "range": "± 981781",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5069951846,
+            "range": "± 12591847",
             "unit": "ns/iter"
           }
         ]
