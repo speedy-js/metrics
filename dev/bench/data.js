@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673954674714,
+  "lastUpdate": 1674015017173,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22415,6 +22415,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4727283996,
             "range": "± 12655355",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8dc513ac3d30e88c51b665e1f97d42aba9b667d2",
+          "message": "fix: make module type recoverable (#1665)\n\n* fix: make module type recoverable\r\n\r\n* changeset",
+          "timestamp": "2023-01-18T11:57:45+08:00",
+          "tree_id": "487c0b5a9db484cc728bf905ca700b26b16b3663",
+          "url": "https://github.com/modern-js-dev/rspack/commit/8dc513ac3d30e88c51b665e1f97d42aba9b667d2"
+        },
+        "date": 1674015014563,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46137993,
+            "range": "± 2419319",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 757495155,
+            "range": "± 9293212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71574168,
+            "range": "± 763296",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4728376048,
+            "range": "± 17828497",
             "unit": "ns/iter"
           }
         ]
