@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674019566052,
+  "lastUpdate": 1674029714461,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22511,6 +22511,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5069951846,
             "range": "± 12591847",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8799b8af4d12fe33e58641b7064d6c65ffe17cc",
+          "message": "chore: move create module hash to make phase (#1668)",
+          "timestamp": "2023-01-18T16:03:47+08:00",
+          "tree_id": "0c3fddb637405219ac1dc0da9b1cdfa5c0a43b07",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b8799b8af4d12fe33e58641b7064d6c65ffe17cc"
+        },
+        "date": 1674029710558,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47152299,
+            "range": "± 2569688",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 766555306,
+            "range": "± 10193885",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71843497,
+            "range": "± 978995",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4831237256,
+            "range": "± 15980426",
             "unit": "ns/iter"
           }
         ]
