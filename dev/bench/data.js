@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674035735936,
+  "lastUpdate": 1674036372990,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22655,6 +22655,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4732705609,
             "range": "± 17321223",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e2445a6b3d5d191d87f760a398e4220258e3b13",
+          "message": "perf: remove_duplicated_modules use parallel (#1669)",
+          "timestamp": "2023-01-18T17:15:05+08:00",
+          "tree_id": "48c925a9ad340d6953b0f497c82ee1a904211ed8",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6e2445a6b3d5d191d87f760a398e4220258e3b13"
+        },
+        "date": 1674036369423,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47241663,
+            "range": "± 2405771",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 764880794,
+            "range": "± 8622291",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71940372,
+            "range": "± 968941",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4901648422,
+            "range": "± 13633392",
             "unit": "ns/iter"
           }
         ]
