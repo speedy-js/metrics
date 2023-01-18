@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674029714461,
+  "lastUpdate": 1674035115038,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22559,6 +22559,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4831237256,
             "range": "± 15980426",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b8df9daea6fb3e301d4ae8c171de2c723333fd0",
+          "message": "fix(close: #1661): avoid additional entry depend on __webpack_require__.m (#1667)",
+          "timestamp": "2023-01-18T16:44:08+08:00",
+          "tree_id": "2cb6775a0128325f10487fb45c898387c9dad1f2",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3b8df9daea6fb3e301d4ae8c171de2c723333fd0"
+        },
+        "date": 1674035112662,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46820097,
+            "range": "± 2511434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 756937846,
+            "range": "± 8751953",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71382205,
+            "range": "± 908022",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4798094396,
+            "range": "± 20820342",
             "unit": "ns/iter"
           }
         ]
