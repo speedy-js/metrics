@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674127221290,
+  "lastUpdate": 1674133983280,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23039,6 +23039,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5072758465,
             "range": "± 21778312",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9910bbb041b82515d5b7adbed2eb68ee77d09d8",
+          "message": "refactor: add module factory trait (#1680)",
+          "timestamp": "2023-01-19T21:02:52+08:00",
+          "tree_id": "48000820caaf3a635e99a378e49298bdbf77d956",
+          "url": "https://github.com/modern-js-dev/rspack/commit/a9910bbb041b82515d5b7adbed2eb68ee77d09d8"
+        },
+        "date": 1674133980723,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 49039984,
+            "range": "± 3048060",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 771269989,
+            "range": "± 9051291",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73578756,
+            "range": "± 1036845",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4933201850,
+            "range": "± 13286721",
             "unit": "ns/iter"
           }
         ]
