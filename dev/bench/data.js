@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674120880142,
+  "lastUpdate": 1674127221290,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22991,6 +22991,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4999882835,
             "range": "± 15637558",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "58bef147b1962bacdd791a270e8892ceacc2f744",
+          "message": "fix(crates/rspack_core): should expect shutdown on some occasions (#1677)\n\n* fix: should expect shutdown on some occasions\r\n\r\n* add changeset",
+          "timestamp": "2023-01-19T19:01:15+08:00",
+          "tree_id": "135b230b17f2a5b307571130332926b28edc4c0e",
+          "url": "https://github.com/modern-js-dev/rspack/commit/58bef147b1962bacdd791a270e8892ceacc2f744"
+        },
+        "date": 1674127218155,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48775950,
+            "range": "± 2704313",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 792514669,
+            "range": "± 8943229",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 75274441,
+            "range": "± 905259",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5072758465,
+            "range": "± 21778312",
             "unit": "ns/iter"
           }
         ]
