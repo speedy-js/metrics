@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674041024340,
+  "lastUpdate": 1674114621549,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22847,6 +22847,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4945965413,
             "range": "± 15843489",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "iheyunfei"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e845df7da12bb93fb9100508af671212d707007b",
+          "message": "feat: port RemoveEmptyChunksPlugin of Webpack (#1675)\n\n* feat: port RemoveEmptyChunksPlugin of Webpack\r\n\r\n* Changeset\r\n\r\n* Tests",
+          "timestamp": "2023-01-19T15:39:14+08:00",
+          "tree_id": "f2bfe6b9f5372058b3259a888e1d7f493d95e8d3",
+          "url": "https://github.com/modern-js-dev/rspack/commit/e845df7da12bb93fb9100508af671212d707007b"
+        },
+        "date": 1674114618952,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46179196,
+            "range": "± 2479713",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 748563990,
+            "range": "± 8333196",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70926438,
+            "range": "± 845797",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4707194901,
+            "range": "± 11504112",
             "unit": "ns/iter"
           }
         ]
