@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674889935007,
+  "lastUpdate": 1674910373910,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23183,6 +23183,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4729169815,
             "range": "± 12617312",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3454d195bf731ea967728000f64ec87bf2041e61",
+          "message": "chore: remove redundant file .yarn/releases/yarn-3.2.0.cjs (#1687)",
+          "timestamp": "2023-01-28T20:41:58+08:00",
+          "tree_id": "97cde85d53d8d08d6edda38aa2d71d6e2a66c66b",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3454d195bf731ea967728000f64ec87bf2041e61"
+        },
+        "date": 1674910369247,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47927619,
+            "range": "± 2618099",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 770687727,
+            "range": "± 9533894",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 74509587,
+            "range": "± 1086224",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5076128217,
+            "range": "± 16082278",
             "unit": "ns/iter"
           }
         ]
