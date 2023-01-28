@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674910373910,
+  "lastUpdate": 1674911677012,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23231,6 +23231,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5076128217,
             "range": "± 16082278",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "290bf7fb52c85e2c40f86075b3d1c9aec5bedde1",
+          "message": "feat: add devServer.historyApiFallback options (#1686)",
+          "timestamp": "2023-01-28T21:03:24+08:00",
+          "tree_id": "8f528b0b041919d1c2740e0f1e7cfa43c717db26",
+          "url": "https://github.com/modern-js-dev/rspack/commit/290bf7fb52c85e2c40f86075b3d1c9aec5bedde1"
+        },
+        "date": 1674911673911,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44906538,
+            "range": "± 2679277",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 749128541,
+            "range": "± 8991528",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71512011,
+            "range": "± 894273",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4715787545,
+            "range": "± 15390952",
             "unit": "ns/iter"
           }
         ]
