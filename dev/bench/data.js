@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674911677012,
+  "lastUpdate": 1674969073372,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23279,6 +23279,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4715787545,
             "range": "± 15390952",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jait.chen@foxmail.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce0b9a4b942a1a2a9de8b9cb975c03d70f022be8",
+          "message": "chore: unify license and add referenced projects (#1690)",
+          "timestamp": "2023-01-29T13:00:50+08:00",
+          "tree_id": "492f4ac4ecee676cf8b2347f3882717ad984d8c4",
+          "url": "https://github.com/modern-js-dev/rspack/commit/ce0b9a4b942a1a2a9de8b9cb975c03d70f022be8"
+        },
+        "date": 1674969070839,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45257862,
+            "range": "± 2660123",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 744045445,
+            "range": "± 7876585",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71623896,
+            "range": "± 844379",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4721362833,
+            "range": "± 12933888",
             "unit": "ns/iter"
           }
         ]
