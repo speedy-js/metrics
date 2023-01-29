@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674969073372,
+  "lastUpdate": 1674975313080,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23327,6 +23327,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4721362833,
             "range": "± 12933888",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5881907a460064a669f5c967b7f4c74b6512cb54",
+          "message": "chore: re-organize code of SplitChunksPlugin (#1689)",
+          "timestamp": "2023-01-29T14:44:02+08:00",
+          "tree_id": "8978f95462d70db5bb6cdcd9ab977880f63a41fa",
+          "url": "https://github.com/modern-js-dev/rspack/commit/5881907a460064a669f5c967b7f4c74b6512cb54"
+        },
+        "date": 1674975310652,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45502199,
+            "range": "± 2532645",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 744244952,
+            "range": "± 8482889",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71772858,
+            "range": "± 908700",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4724884754,
+            "range": "± 14412797",
             "unit": "ns/iter"
           }
         ]
