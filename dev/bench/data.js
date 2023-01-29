@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675002534588,
+  "lastUpdate": 1675004796950,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23471,6 +23471,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4950956279,
             "range": "± 14475898",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b80c8e42eb831b132cacbd95e74c23264ab306a3",
+          "message": "chore: change slogan (#1697)",
+          "timestamp": "2023-01-29T22:54:55+08:00",
+          "tree_id": "dc387ab3fbb1464cbb164ea912ef8aa4911dc82a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b80c8e42eb831b132cacbd95e74c23264ab306a3"
+        },
+        "date": 1675004791960,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47346362,
+            "range": "± 2398996",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 783420385,
+            "range": "± 9620574",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 73992635,
+            "range": "± 1013779",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4954335160,
+            "range": "± 16343433",
             "unit": "ns/iter"
           }
         ]
