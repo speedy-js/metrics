@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675087264935,
+  "lastUpdate": 1675089580208,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23999,6 +23999,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4987523663,
             "range": "± 16443873",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1bb7288bf8090ba0f2f299698b484050538896c",
+          "message": "chore: fix svelte example (#1705)",
+          "timestamp": "2023-01-30T22:25:06+08:00",
+          "tree_id": "ea9f995b5e280531caa2188b024c40d7c6fe8105",
+          "url": "https://github.com/modern-js-dev/rspack/commit/c1bb7288bf8090ba0f2f299698b484050538896c"
+        },
+        "date": 1675089575283,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45597869,
+            "range": "± 2425645",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 748613494,
+            "range": "± 9607725",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71513447,
+            "range": "± 802137",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4747042689,
+            "range": "± 14356507",
             "unit": "ns/iter"
           }
         ]
