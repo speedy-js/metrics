@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675056509366,
+  "lastUpdate": 1675057866420,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23663,6 +23663,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4953690045,
             "range": "± 11842260",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7eece3e99ebf766eb3361a5467fa3d057fde7a83",
+          "message": "feat: Bump SWC version (#1698)\n\n* feat: Bump SWC\r\n\r\n* chore: fix compiler error\r\n\r\n* Using top_level_mark in hygine\r\n\r\n* chore: fix lock\r\n\r\n---------\r\n\r\nCo-authored-by: hardfist <1562502418@qq.com>",
+          "timestamp": "2023-01-30T13:39:56+08:00",
+          "tree_id": "41e3ddf4cc981dc154ea9e3fafeeb2faedc3d6fd",
+          "url": "https://github.com/modern-js-dev/rspack/commit/7eece3e99ebf766eb3361a5467fa3d057fde7a83"
+        },
+        "date": 1675057863576,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46060567,
+            "range": "± 2738071",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 746199256,
+            "range": "± 9329590",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71499333,
+            "range": "± 824104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4732736494,
+            "range": "± 14087204",
             "unit": "ns/iter"
           }
         ]
