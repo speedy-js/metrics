@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675089580208,
+  "lastUpdate": 1675090231559,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24047,6 +24047,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4747042689,
             "range": "± 14356507",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "111c00237309cc458987e1057ed8249f8406b00e",
+          "message": "chore: add vue example (#1709)",
+          "timestamp": "2023-01-30T22:35:37+08:00",
+          "tree_id": "314fefacb96175de0dbcda215aff385ea41a1e32",
+          "url": "https://github.com/modern-js-dev/rspack/commit/111c00237309cc458987e1057ed8249f8406b00e"
+        },
+        "date": 1675090227962,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47198415,
+            "range": "± 2156038",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 761420683,
+            "range": "± 7760353",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72914979,
+            "range": "± 1114613",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4935092805,
+            "range": "± 13023813",
             "unit": "ns/iter"
           }
         ]
