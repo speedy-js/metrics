@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675081915017,
+  "lastUpdate": 1675087264935,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23951,6 +23951,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4738192101,
             "range": "± 14933691",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e1a42d46d11b26dff0daba54a3a0b5c1194a7d9",
+          "message": "fix: missing query symbol in contextify for requests with query (#1664)\n\n* chore: 🤖 init\r\n\r\n* fix: contextify missing query symbol\r\n\r\n* chore: snapshot\r\n\r\n* changset\r\n\r\n* chore: update snapshot\r\n\r\n---------\r\n\r\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2023-01-30T21:47:39+08:00",
+          "tree_id": "8deb8705a73ae7df935211f8504d1725fef26850",
+          "url": "https://github.com/modern-js-dev/rspack/commit/0e1a42d46d11b26dff0daba54a3a0b5c1194a7d9"
+        },
+        "date": 1675087262319,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46476305,
+            "range": "± 2489806",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 766848584,
+            "range": "± 8357230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 72952308,
+            "range": "± 999941",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4987523663,
+            "range": "± 16443873",
             "unit": "ns/iter"
           }
         ]
