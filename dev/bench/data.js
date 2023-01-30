@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675090231559,
+  "lastUpdate": 1675091811121,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24095,6 +24095,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4935092805,
             "range": "± 13023813",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce31cd0294397fbf5440cd69d25db5e9c0a5cce4",
+          "message": "fix: getRspackMemoryAssets middleware response charset (#1710)",
+          "timestamp": "2023-01-30T23:05:49+08:00",
+          "tree_id": "cd6adb3a2be0b9b9683210aa1eb85456e67c79f4",
+          "url": "https://github.com/modern-js-dev/rspack/commit/ce31cd0294397fbf5440cd69d25db5e9c0a5cce4"
+        },
+        "date": 1675091806029,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45814800,
+            "range": "± 2601987",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 755326553,
+            "range": "± 9426610",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71883563,
+            "range": "± 844233",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4825367025,
+            "range": "± 13768279",
             "unit": "ns/iter"
           }
         ]
