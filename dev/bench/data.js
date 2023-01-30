@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675062716743,
+  "lastUpdate": 1675065149612,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23759,6 +23759,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4952621969,
             "range": "± 12055073",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdb8e63afb74bb5c3b482163e311ceea2e1eb706",
+          "message": "chore: remove napi from depedencies in rspack_error (#1703)\n\n* chore: remove napi from depedencies in rspack_error\r\n\r\n* Clippy",
+          "timestamp": "2023-01-30T15:38:07+08:00",
+          "tree_id": "1e33fa2df4870922768b01b86c7bd9b52cbcf98d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/fdb8e63afb74bb5c3b482163e311ceea2e1eb706"
+        },
+        "date": 1675065146700,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47323529,
+            "range": "± 2409179",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 774933908,
+            "range": "± 8030897",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 74218802,
+            "range": "± 899371",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5092579634,
+            "range": "± 17499571",
             "unit": "ns/iter"
           }
         ]
