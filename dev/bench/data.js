@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675167213492,
+  "lastUpdate": 1675167667350,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24335,6 +24335,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 697636,
             "range": "± 3653",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7cc7dce6ccab02f9a216b23b152d6498ededc877",
+          "message": "chore: improve the annotation of referenced codes (#1714)",
+          "timestamp": "2023-01-31T20:06:37+08:00",
+          "tree_id": "fcda39a2738912e8f1b13a0208ed1ccd0ecdab67",
+          "url": "https://github.com/modern-js-dev/rspack/commit/7cc7dce6ccab02f9a216b23b152d6498ededc877"
+        },
+        "date": 1675167664550,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 42719277,
+            "range": "± 2130543",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 703129,
+            "range": "± 21145",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 701772,
+            "range": "± 18022",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 696864,
+            "range": "± 3711",
             "unit": "ns/iter"
           }
         ]
