@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675161521441,
+  "lastUpdate": 1675167213492,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24287,6 +24287,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 697087,
             "range": "± 2003",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b1da0a28ba470b4204b9b31426ae9f225d86e436",
+          "message": "fix: use inline_globals2 flod for module vaiables (#1713)\n\nassgin left expr should be replaced.",
+          "timestamp": "2023-01-31T20:05:07+08:00",
+          "tree_id": "e1ea4d467983017a24b8e99d4035009d24666fb5",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b1da0a28ba470b4204b9b31426ae9f225d86e436"
+        },
+        "date": 1675167210432,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 42347264,
+            "range": "± 1983321",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 703320,
+            "range": "± 15660",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 702774,
+            "range": "± 26708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 697636,
+            "range": "± 3653",
             "unit": "ns/iter"
           }
         ]
