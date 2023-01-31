@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675139354386,
+  "lastUpdate": 1675161521441,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24239,6 +24239,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4748530655,
             "range": "± 13537899",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "115e43098baf1c75763beca505ca6e834463eb3e",
+          "message": "refactor: Native test config in rust side (#1711)\n\n* refactor: Native test config in rust side\r\n\r\n* Fix export-star-chain test\r\n\r\n* Fix webpack-innergraph-circular\r\n\r\n* Fix again\r\n\r\n* Update webpack-inner-graph-export-default-named",
+          "timestamp": "2023-01-31T18:31:02+08:00",
+          "tree_id": "5d239bec87a389643f053059134731ba2a419aed",
+          "url": "https://github.com/modern-js-dev/rspack/commit/115e43098baf1c75763beca505ca6e834463eb3e"
+        },
+        "date": 1675161516415,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 42410985,
+            "range": "± 2436906",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 701322,
+            "range": "± 19668",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 704012,
+            "range": "± 15048",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 697087,
+            "range": "± 2003",
             "unit": "ns/iter"
           }
         ]
