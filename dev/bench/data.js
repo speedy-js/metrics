@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675167667350,
+  "lastUpdate": 1675177105383,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24383,6 +24383,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 696864,
             "range": "± 3711",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "66d4f4ccfe10591d497d98443f82b46202e6ef00",
+          "message": "feat: support resolve modules (#1718)",
+          "timestamp": "2023-01-31T22:43:05+08:00",
+          "tree_id": "ccd0f43af6990970104ebb083aa2aa3bba098426",
+          "url": "https://github.com/modern-js-dev/rspack/commit/66d4f4ccfe10591d497d98443f82b46202e6ef00"
+        },
+        "date": 1675177092193,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44474080,
+            "range": "± 2400219",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 689654,
+            "range": "± 13984",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 689255,
+            "range": "± 24341",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 686077,
+            "range": "± 3049",
             "unit": "ns/iter"
           }
         ]
