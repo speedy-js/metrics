@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675226874986,
+  "lastUpdate": 1675229912889,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24575,6 +24575,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4749055051,
             "range": "± 13161090",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "126b2160e070a2de5de3834542089a8d4363f24f",
+          "message": "fix: failed to apply loader when loader is esModule (#1721)",
+          "timestamp": "2023-02-01T13:27:47+08:00",
+          "tree_id": "bf269751d6bc0961a8b04f84dd7a251f2edc2fd2",
+          "url": "https://github.com/modern-js-dev/rspack/commit/126b2160e070a2de5de3834542089a8d4363f24f"
+        },
+        "date": 1675229907591,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46867174,
+            "range": "± 2483069",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 761988474,
+            "range": "± 4916392",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71793253,
+            "range": "± 809346",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4959558051,
+            "range": "± 15097936",
             "unit": "ns/iter"
           }
         ]
