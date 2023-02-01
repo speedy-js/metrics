@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675177105383,
+  "lastUpdate": 1675220878630,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24431,6 +24431,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 686077,
             "range": "± 3049",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a6efa8cbd0be1a2868f18d131f4c94fc754f7fb",
+          "message": "perf: computing chunk ids in parallel (#1708)",
+          "timestamp": "2023-02-01T10:53:10+08:00",
+          "tree_id": "491422b84e68759d3f51dff77a58bbeb64220046",
+          "url": "https://github.com/modern-js-dev/rspack/commit/4a6efa8cbd0be1a2868f18d131f4c94fc754f7fb"
+        },
+        "date": 1675220875910,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 43653598,
+            "range": "± 2346968",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 877512,
+            "range": "± 42102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 873137,
+            "range": "± 36139",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 863662,
+            "range": "± 8591",
             "unit": "ns/iter"
           }
         ]
