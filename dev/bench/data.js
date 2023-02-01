@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675223112806,
+  "lastUpdate": 1675226874986,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24527,6 +24527,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5100469489,
             "range": "± 11683415",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac02a096ea1c2e0243bfbfe62d3e4c6626334c09",
+          "message": "fix: extends webpack-dev-server (#1662)\n\n- extends webpack-dev-server\r\n- fix getRspackMemoryAssets get index.html when request path is /\r\n\r\nThe performance problem is caused by watchpack watcher.close (much probability)",
+          "timestamp": "2023-02-01T12:34:50+08:00",
+          "tree_id": "cbefc17ae7075af805f79d2adf7f02928db437a7",
+          "url": "https://github.com/modern-js-dev/rspack/commit/ac02a096ea1c2e0243bfbfe62d3e4c6626334c09"
+        },
+        "date": 1675226872317,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45715037,
+            "range": "± 2428614",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 738457256,
+            "range": "± 5359191",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70182621,
+            "range": "± 951810",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4749055051,
+            "range": "± 13161090",
             "unit": "ns/iter"
           }
         ]
