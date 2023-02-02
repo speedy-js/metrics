@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675322506472,
+  "lastUpdate": 1675333614705,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24863,6 +24863,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5080063364,
             "range": "± 12363727",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6fe0ca3d3c76c9eb648f4e915a05f1adea036264",
+          "message": "Fix hmr (#1728)\n\n* chore: fix rebuild crash\r\n\r\n* chore: fix hmr\r\n\r\n* fix: disable noEmitAssets by default",
+          "timestamp": "2023-02-02T18:13:47+08:00",
+          "tree_id": "b76ef08d101f64b3a5ccbaf183fa9a2126862ddc",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6fe0ca3d3c76c9eb648f4e915a05f1adea036264"
+        },
+        "date": 1675333611193,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45188942,
+            "range": "± 2487304",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 735937680,
+            "range": "± 4972505",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70370440,
+            "range": "± 1047512",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4733786140,
+            "range": "± 12327017",
             "unit": "ns/iter"
           }
         ]
