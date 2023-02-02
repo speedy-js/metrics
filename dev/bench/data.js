@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675333614705,
+  "lastUpdate": 1675340020352,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24911,6 +24911,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4733786140,
             "range": "± 12327017",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "11f8513445b1e64e1886d2785c3171af4b426bad",
+          "message": "feat: side effects analyze (#1733)\n\n* chore: 🤖 init\r\n\r\n* feat: 🎸 ckpoint\r\n\r\n* chore: 🤖 finish analyze\r\n\r\n* chore: 🤖 more precise analyze\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 opt\r\n\r\n* chore: 🤖 add test case\r\n\r\n* chore: 🤖 cargo lint\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 remove todo\r\n\r\n* chore: 🤖 recover",
+          "timestamp": "2023-02-02T19:59:27+08:00",
+          "tree_id": "3e5c1542d0005383b24237e93afc38e0def5cb60",
+          "url": "https://github.com/modern-js-dev/rspack/commit/11f8513445b1e64e1886d2785c3171af4b426bad"
+        },
+        "date": 1675340010977,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46221763,
+            "range": "± 2712890",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 730097813,
+            "range": "± 4700719",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69581227,
+            "range": "± 943501",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4736210653,
+            "range": "± 17081493",
             "unit": "ns/iter"
           }
         ]
