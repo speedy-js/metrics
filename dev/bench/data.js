@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675300003960,
+  "lastUpdate": 1675313366987,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24671,6 +24671,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4751374755,
             "range": "± 15596686",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "f3dcad35f93d219bc812751d15fd62828003efca",
+          "message": "feat: support resolve fallback",
+          "timestamp": "2023-02-02T12:37:49+08:00",
+          "tree_id": "ce73935f6da98498dea4f77eed97c32a72176eb0",
+          "url": "https://github.com/modern-js-dev/rspack/commit/f3dcad35f93d219bc812751d15fd62828003efca"
+        },
+        "date": 1675313364548,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47819217,
+            "range": "± 2409257",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 754564302,
+            "range": "± 5533105",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71809881,
+            "range": "± 903689",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4963440469,
+            "range": "± 14525960",
             "unit": "ns/iter"
           }
         ]
