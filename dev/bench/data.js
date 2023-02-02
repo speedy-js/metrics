@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675229912889,
+  "lastUpdate": 1675300003960,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24623,6 +24623,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4959558051,
             "range": "± 15097936",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "22af40a333ebdd2363dc61fa3a4f6947fcdabbb0",
+          "message": "docs: add more credits and Chinese README (#1724)\n\n* docs: add more credits and Chinese README\r\n\r\n* docs: adjust project name and author orders\r\n\r\n* docs: fix esbuild link\r\n\r\n* docs: capitalize NAPI-RS",
+          "timestamp": "2023-02-02T08:56:23+08:00",
+          "tree_id": "25a29b7ae01e52ff6e4d67dcec32aadaf5425b22",
+          "url": "https://github.com/modern-js-dev/rspack/commit/22af40a333ebdd2363dc61fa3a4f6947fcdabbb0"
+        },
+        "date": 1675300001361,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45362862,
+            "range": "± 2351043",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 735924835,
+            "range": "± 5277135",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70370734,
+            "range": "± 888116",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4751374755,
+            "range": "± 15596686",
             "unit": "ns/iter"
           }
         ]
