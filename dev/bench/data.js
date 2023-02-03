@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675409409783,
+  "lastUpdate": 1675412885527,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25151,6 +25151,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4962237296,
             "range": "± 48250678",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "95437fdefb3cd96e1aa9bc9b6b29b4014a64fa31",
+          "message": "refactor: add dependency id (#1738)",
+          "timestamp": "2023-02-03T16:03:26+08:00",
+          "tree_id": "a621dedd58ddb4a33516c75cff91c69263b17953",
+          "url": "https://github.com/modern-js-dev/rspack/commit/95437fdefb3cd96e1aa9bc9b6b29b4014a64fa31"
+        },
+        "date": 1675412882608,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46206259,
+            "range": "± 2293739",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 531899510,
+            "range": "± 6037039",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68851788,
+            "range": "± 875685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4536885218,
+            "range": "± 13348666",
             "unit": "ns/iter"
           }
         ]
