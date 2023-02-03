@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675412885527,
+  "lastUpdate": 1675423499378,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25199,6 +25199,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4536885218,
             "range": "± 13348666",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "207b6145cc2be88096d419afd89f27e252075afe",
+          "message": "chore: add License for all crates (#1742)",
+          "timestamp": "2023-02-03T19:07:06+08:00",
+          "tree_id": "1f75deb645a78a08490f3d16e6827a1186c16d40",
+          "url": "https://github.com/modern-js-dev/rspack/commit/207b6145cc2be88096d419afd89f27e252075afe"
+        },
+        "date": 1675423496840,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47490214,
+            "range": "± 2359093",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 551610130,
+            "range": "± 4880586",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70600630,
+            "range": "± 964987",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4776601557,
+            "range": "± 15996091",
             "unit": "ns/iter"
           }
         ]
