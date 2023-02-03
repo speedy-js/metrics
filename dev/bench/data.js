@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675401920722,
+  "lastUpdate": 1675409409783,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25103,6 +25103,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4728991789,
             "range": "± 11948673",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fac99639a287461222c0498c30167815586109e",
+          "message": "feat: introduce `Database` (#1722)\n\n* feat: introduce `Database`\r\n\r\n* impl for Chunk\r\n\r\n* Clippy\r\n\r\n* Using TypeId as the key",
+          "timestamp": "2023-02-03T15:15:12+08:00",
+          "tree_id": "860674be3c32c0b6031f4ea96c82020ae500010f",
+          "url": "https://github.com/modern-js-dev/rspack/commit/8fac99639a287461222c0498c30167815586109e"
+        },
+        "date": 1675409404767,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47116225,
+            "range": "± 2170073",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 760447673,
+            "range": "± 5131081",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 71671503,
+            "range": "± 731057",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4962237296,
+            "range": "± 48250678",
             "unit": "ns/iter"
           }
         ]
