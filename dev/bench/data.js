@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675426213217,
+  "lastUpdate": 1675441707544,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25295,6 +25295,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4530515825,
             "range": "± 17006071",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "075b33b7028e2cbbf64e9d78fa4dd5aeeb3fb00f",
+          "message": "chore: enable increment hmr for arco pro (#1745)",
+          "timestamp": "2023-02-04T00:18:39+08:00",
+          "tree_id": "bd477e7b6815bdb0bb4e0a58e45916b24f96b15d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/075b33b7028e2cbbf64e9d78fa4dd5aeeb3fb00f"
+        },
+        "date": 1675441697708,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44815809,
+            "range": "± 2431410",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 534409084,
+            "range": "± 4945282",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69124514,
+            "range": "± 847917",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4534971771,
+            "range": "± 12451771",
             "unit": "ns/iter"
           }
         ]
