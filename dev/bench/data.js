@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675441707544,
+  "lastUpdate": 1675444578485,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25343,6 +25343,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4534971771,
             "range": "± 12451771",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "3af3ebf481aa35b7e86e010896f14243972fff59",
+          "message": "chore: enable cache for arco pro",
+          "timestamp": "2023-02-04T01:02:02+08:00",
+          "tree_id": "f8743143773e718bfabdf7e1221b3dc7ab9842ab",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3af3ebf481aa35b7e86e010896f14243972fff59"
+        },
+        "date": 1675444575849,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47056176,
+            "range": "± 2381237",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 537004694,
+            "range": "± 5864497",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69889104,
+            "range": "± 951183",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4746233459,
+            "range": "± 14498721",
             "unit": "ns/iter"
           }
         ]
