@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675397005765,
+  "lastUpdate": 1675401920722,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25055,6 +25055,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4960426042,
             "range": "± 14119220",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "distinct": true,
+          "id": "283e36e48a1b47a7f8c9b9ada77a1111c58339f1",
+          "message": "perf(rspack_plugin_javascript): remove memory allocation inside hot path of `is_hmr_api_call`",
+          "timestamp": "2023-02-03T13:14:05+08:00",
+          "tree_id": "bddabad064d09cb6310f41b24f733eee55d81551",
+          "url": "https://github.com/modern-js-dev/rspack/commit/283e36e48a1b47a7f8c9b9ada77a1111c58339f1"
+        },
+        "date": 1675401918123,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46249510,
+            "range": "± 2393629",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 732730090,
+            "range": "± 5409622",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69940041,
+            "range": "± 880625",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4728991789,
+            "range": "± 11948673",
             "unit": "ns/iter"
           }
         ]
