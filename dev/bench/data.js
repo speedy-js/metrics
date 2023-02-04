@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675476964186,
+  "lastUpdate": 1675515579962,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25439,6 +25439,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4533777167,
             "range": "± 15500811",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cae1ad88fa628f8e74f3c1ba5e79b771604787bb",
+          "message": "Add make hook (#1748)\n\n* chore: add make hooks\r\n\r\n* feat: call make tsfn\r\n\r\n* chore: type name\r\n\r\n* chore: do not expose compilation from make\r\n\r\n---------\r\n\r\nCo-authored-by: h-a-n-a <andywangsy@gmail.com>",
+          "timestamp": "2023-02-04T20:46:20+08:00",
+          "tree_id": "01b1dab4cb7a9ba11b2e563659d48fde0934a032",
+          "url": "https://github.com/modern-js-dev/rspack/commit/cae1ad88fa628f8e74f3c1ba5e79b771604787bb"
+        },
+        "date": 1675515577529,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46280940,
+            "range": "± 2293206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 527749268,
+            "range": "± 5344290",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68428608,
+            "range": "± 945125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4550156434,
+            "range": "± 11984940",
             "unit": "ns/iter"
           }
         ]
