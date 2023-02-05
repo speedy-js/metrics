@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675582548221,
+  "lastUpdate": 1675584418287,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25535,6 +25535,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4542182583,
             "range": "± 15726606",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "6ea6dfd4a68cfff4d10a96e15f502dd835e443e3",
+          "message": "chore: remove deprecated workflow",
+          "timestamp": "2023-02-05T15:56:47+08:00",
+          "tree_id": "5469a787c40496718a8a6e72860ea61c26d01710",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6ea6dfd4a68cfff4d10a96e15f502dd835e443e3"
+        },
+        "date": 1675584415330,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46255995,
+            "range": "± 2306976",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 551074095,
+            "range": "± 6018243",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70781954,
+            "range": "± 989400",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4733241790,
+            "range": "± 12105763",
             "unit": "ns/iter"
           }
         ]
