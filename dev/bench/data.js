@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675586122136,
+  "lastUpdate": 1675600603499,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25631,6 +25631,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4756836716,
             "range": "± 13033381",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b6e9a1b5ecb2a4bd595078867f0bdbf95069c3db",
+          "message": "feat: supports `optimization.removeAvailableModules` (#1756)\n\n* implement logic\r\n\r\n* Add options\r\n\r\n* Changeset\r\n\r\n* Clippy\r\n\r\n* Ignore cycle-dynamic-entry\r\n\r\n* Lint\r\n\r\n* Test",
+          "timestamp": "2023-02-05T20:23:23+08:00",
+          "tree_id": "ff9bf1c10044a39a67b1ebb9682c6108ecf7a2b3",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b6e9a1b5ecb2a4bd595078867f0bdbf95069c3db"
+        },
+        "date": 1675600601004,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46006323,
+            "range": "± 2592457",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 526837167,
+            "range": "± 6038768",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68424028,
+            "range": "± 933290",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4547881263,
+            "range": "± 17145184",
             "unit": "ns/iter"
           }
         ]
