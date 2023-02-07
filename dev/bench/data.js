@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675773231465,
+  "lastUpdate": 1675776325571,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26639,6 +26639,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4523286993,
             "range": "± 15980430",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "68417e0be99ae37e6f37ae693acf8fe169fe4ad3",
+          "message": "fix: remove default empty array for browserslist (#1788)",
+          "timestamp": "2023-02-07T21:15:15+08:00",
+          "tree_id": "6f2f199c5a1c5b3dd265dd529cdb40b92e23455a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/68417e0be99ae37e6f37ae693acf8fe169fe4ad3"
+        },
+        "date": 1675776321090,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 48038237,
+            "range": "± 2170772",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 548983363,
+            "range": "± 4667657",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70212474,
+            "range": "± 938917",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4872374563,
+            "range": "± 11647648",
             "unit": "ns/iter"
           }
         ]
