@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675748798709,
+  "lastUpdate": 1675750783408,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26111,6 +26111,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4538022242,
             "range": "± 14210546",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "fengyu",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "7692b8bbe8e47d41f3e77e2c8d9c10fac9bc9fc7",
+          "message": "feat: emotion",
+          "timestamp": "2023-02-07T14:05:40+08:00",
+          "tree_id": "5e1a00be4ab04c8246318ed5875003d4f46d0ad4",
+          "url": "https://github.com/modern-js-dev/rspack/commit/7692b8bbe8e47d41f3e77e2c8d9c10fac9bc9fc7"
+        },
+        "date": 1675750780642,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44979831,
+            "range": "± 2364012",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 525284165,
+            "range": "± 5145469",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68819366,
+            "range": "± 947688",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4529960729,
+            "range": "± 15615252",
             "unit": "ns/iter"
           }
         ]
