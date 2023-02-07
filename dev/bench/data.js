@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675738060467,
+  "lastUpdate": 1675747695110,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26015,6 +26015,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4538196524,
             "range": "± 11105747",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6c134e59af143d87753bc2936fa53e184cb933c",
+          "message": "chore: remove useless trace::instrument (#1774)",
+          "timestamp": "2023-02-07T13:10:04+08:00",
+          "tree_id": "d2d564ca62a24b3c2231be386faa63ac5a460deb",
+          "url": "https://github.com/modern-js-dev/rspack/commit/c6c134e59af143d87753bc2936fa53e184cb933c"
+        },
+        "date": 1675747692130,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46425756,
+            "range": "± 2579664",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 529942300,
+            "range": "± 5015017",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68412729,
+            "range": "± 869298",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4546413842,
+            "range": "± 12756035",
             "unit": "ns/iter"
           }
         ]
