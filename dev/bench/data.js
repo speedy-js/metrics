@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675758131070,
+  "lastUpdate": 1675758964527,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26447,6 +26447,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4537482531,
             "range": "± 16103749",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "120dcb7179ff9b9745df51295907a15f55f53b1c",
+          "message": "fix: postcssloader modules.auto not work (#1780)",
+          "timestamp": "2023-02-07T16:14:20+08:00",
+          "tree_id": "12c213a788d345632ed651f9faff92f8600ae005",
+          "url": "https://github.com/modern-js-dev/rspack/commit/120dcb7179ff9b9745df51295907a15f55f53b1c"
+        },
+        "date": 1675758959364,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44917271,
+            "range": "± 2494834",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 529408460,
+            "range": "± 5309314",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68651359,
+            "range": "± 901378",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4526952526,
+            "range": "± 12719420",
             "unit": "ns/iter"
           }
         ]
