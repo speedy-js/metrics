@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675754652810,
+  "lastUpdate": 1675756009185,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26255,6 +26255,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4752624730,
             "range": "± 16776057",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6d7a6875439d3ea4fded0bff669e197ea0f77000",
+          "message": "feat: dependency replacement (#1576)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 create symbol graph\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 rebase\r\n\r\n* chore: 🤖 symbol graph ref\r\n\r\n* chore: 🤖 add some debug info\r\n\r\n* chore: 🤖 more test case\r\n\r\n* chore: 🤖 more test case\r\n\r\n* chore: 🤖 don't insert used symbol when side-effects is true\r\n\r\n* chore: 🤖 upgrade test\r\n\r\n* chore: 🤖 remove export something\r\n\r\n* chore: 🤖 inherit export map lookup order\r\n\r\n* chore: 🤖 update symbol graph update\r\n\r\n* test: 💍 chore\r\n\r\nmake indirect symbol more identical\r\n\r\n* chore: 🤖 refactor tree-shaking\r\n\r\n* chore: 🤖 reduce log\r\n\r\n* chore: 🤖 finish part 1 refactor tree-shaking and symbol_graph\r\n\r\n* chore: 🤖 more symbol graph visit path\r\n\r\n* chore: 🤖 add star symbol\r\n\r\n* chore: 🤖 optimize symbol graph\r\n\r\n* chore: 🤖 little refactor\r\n\r\n* chore: 🤖 more restrict eprintln\r\n\r\n* chore: 🤖 more test case\r\n\r\n* chore: 🤖 update recursivevisited\r\n\r\n* chore: 🤖 finish basic dependency replacement\r\n\r\n* chore: 🤖 finish some wrong graph connection\r\n\r\n* chore: 🤖 remove dbg\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 recover indirect eliminate\r\n\r\n* chore: 🤖 rebase\r\n\r\n* chore: 🤖 fix indirect symbol issue\r\n\r\n* chore: 🤖 validate udpate path\r\n\r\n* chore: 🤖 little refactor\r\n\r\n* chore: 🤖 test\r\n\r\nsnapshot\r\n\r\n* chore: 🤖 add more concrete symbol type\r\n\r\n* chore: 🤖 tweak symbol graph\r\n\r\n* chore: 🤖 fix error\r\n\r\n* chore: 🤖 ckpoint\r\n\r\n* chore: 🤖 import specifiers\r\n\r\n* chore: 🤖 rebase\r\n\r\n* chore: 🤖 basic finish replacement\r\n\r\n* chore: 🤖 reduce size\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 make it compile\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 update snaphsot\r\n\r\n* chore: 🤖 update snap\r\n\r\n* chore: 🤖 update snap\r\n\r\n* chore: 🤖 update snap\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 fix react transform bug\r\n\r\n* chore: 🤖 fix esm module elimination\r\n\r\n* chore: 🤖 fix compile error\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 clippy\r\n\r\n* chore: 🤖 rebase main\r\n\r\n* chore: 🤖 remove ab path\r\n\r\n* chore: 🤖 remove unused comment\r\n\r\n* chore: 🤖 remove comment\r\n\r\n* chore: 🤖 remove comment\r\n\r\n* chore: 🤖 remove unused comment\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 perf a bit",
+          "timestamp": "2023-02-07T15:04:49+08:00",
+          "tree_id": "a6474801152ef8342cb8140c65a234ab4a99e704",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6d7a6875439d3ea4fded0bff669e197ea0f77000"
+        },
+        "date": 1675756005183,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47248157,
+            "range": "± 2400237",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 541380781,
+            "range": "± 4752098",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70125332,
+            "range": "± 940988",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4758786743,
+            "range": "± 14551995",
             "unit": "ns/iter"
           }
         ]
