@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675752678449,
+  "lastUpdate": 1675754652810,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26207,6 +26207,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4764220153,
             "range": "± 20894336",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "347dd0d55c9cade8686db031ffd0065f9c99b268",
+          "message": "feat(crates/rspack_core): uniquely identify a module (#1770)\n\n* feat(crates/rspack_core): uniquely identify a module\r\n\r\n* feat: apply changes to parsers and generators\r\n\r\n* fix: we dont have to double ensure everywhere\r\n\r\n* test: add conditional exports test cases\r\n\r\n* test: update snapshot\r\n\r\n* chore: cr\r\n\r\n* chore: snapshot",
+          "timestamp": "2023-02-07T15:01:48+08:00",
+          "tree_id": "f9a0cd0c4f16d1676eab587053011444095f3e4e",
+          "url": "https://github.com/modern-js-dev/rspack/commit/347dd0d55c9cade8686db031ffd0065f9c99b268"
+        },
+        "date": 1675754650131,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46118613,
+            "range": "± 2768278",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 545445492,
+            "range": "± 5424342",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70458015,
+            "range": "± 968301",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4752624730,
+            "range": "± 16776057",
             "unit": "ns/iter"
           }
         ]
