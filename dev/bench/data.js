@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675756009185,
+  "lastUpdate": 1675756595560,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26303,6 +26303,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4758786743,
             "range": "± 14551995",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "89625b89f4fe7abfa89d84b492f18e6bf194f6ae",
+          "message": "chore(CI): add CI to check changeset type (#1778)\n\n* chore(CI): add CI to check changeset type\r\n\r\n* chore: fix module type\r\n\r\n* chore: fix root dir\r\n\r\n* chore: fix branch\r\n\r\n* chore: add a bad changeset to test the CI\r\n\r\n* chore: remove the bad changeset",
+          "timestamp": "2023-02-07T15:10:21+08:00",
+          "tree_id": "630b132695fa8b32a212f3bb074e4d040a79ee44",
+          "url": "https://github.com/modern-js-dev/rspack/commit/89625b89f4fe7abfa89d84b492f18e6bf194f6ae"
+        },
+        "date": 1675756590194,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45500405,
+            "range": "± 2720741",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 529210938,
+            "range": "± 5109885",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70357398,
+            "range": "± 1609660",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4532326130,
+            "range": "± 20001745",
             "unit": "ns/iter"
           }
         ]
