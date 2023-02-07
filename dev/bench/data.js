@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675747695110,
+  "lastUpdate": 1675748798709,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26063,6 +26063,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4546413842,
             "range": "± 12756035",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b67f937f6506314f490f8d5037907669a683cb9b",
+          "message": "refactor(progress): use wide_msg instead of msg (#1775)\n\nchore: use wide_msg instead of msg",
+          "timestamp": "2023-02-07T13:18:27+08:00",
+          "tree_id": "a60a62a02d1dee5fc6bd4d80a0ea1f62dea018f6",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b67f937f6506314f490f8d5037907669a683cb9b"
+        },
+        "date": 1675748796027,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45952277,
+            "range": "± 2470928",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 531154287,
+            "range": "± 5335285",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68871732,
+            "range": "± 800512",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4538022242,
+            "range": "± 14210546",
             "unit": "ns/iter"
           }
         ]
