@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675843866234,
+  "lastUpdate": 1675858108646,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26879,6 +26879,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4739927247,
             "range": "± 16031257",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9abc50627685e52f903d445b9e5c66b21aaa7fc2",
+          "message": "fix: experiments.changed_hmr rename to experiments.incremental_rebuild (#1798)\n\n* fix: experiments.changed_hmr rename to experiments.incremental_rebuild\r\n\r\n* chore: remove sass loader trace\r\n\r\n* fix: ci",
+          "timestamp": "2023-02-08T19:58:15+08:00",
+          "tree_id": "9bcbe09fffea9ffd0ad9024dcc25c78212389c00",
+          "url": "https://github.com/modern-js-dev/rspack/commit/9abc50627685e52f903d445b9e5c66b21aaa7fc2"
+        },
+        "date": 1675858105272,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46516304,
+            "range": "± 2410238",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 540756748,
+            "range": "± 5399919",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69239179,
+            "range": "± 880582",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4749167609,
+            "range": "± 11451906",
             "unit": "ns/iter"
           }
         ]
