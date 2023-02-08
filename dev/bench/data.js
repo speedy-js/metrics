@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675840545681,
+  "lastUpdate": 1675843247827,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26783,6 +26783,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4695891636,
             "range": "± 14541931",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d395d6b0fbe5575e91cac7da6c439dfbc90a946",
+          "message": "fix: rspack postcss loader options.postcssOptions.plugin (#1795)",
+          "timestamp": "2023-02-08T15:47:30+08:00",
+          "tree_id": "62d65544381fa4013fcccf26b0da35ca6a738d9a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/2d395d6b0fbe5575e91cac7da6c439dfbc90a946"
+        },
+        "date": 1675843244293,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45981538,
+            "range": "± 2354737",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 540613644,
+            "range": "± 5544764",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69479527,
+            "range": "± 970758",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4748476641,
+            "range": "± 15253696",
             "unit": "ns/iter"
           }
         ]
