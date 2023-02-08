@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675776325571,
+  "lastUpdate": 1675836431920,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26687,6 +26687,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4872374563,
             "range": "± 11647648",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6d639fa5f28966890891ca56e87b8f21df1806c1",
+          "message": "chore: refactor tree shaking (#1783)\n\n* chore: 🤖 refactor\r\n\r\n* chore: 🤖 refactor\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 rebase main\r\n\r\n* chore: 🤖 refactor\r\n\r\n* chore: 🤖 remove comments",
+          "timestamp": "2023-02-08T13:56:58+08:00",
+          "tree_id": "64fc6cf0a35ea67eb106883adc135021ef9ee19f",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6d639fa5f28966890891ca56e87b8f21df1806c1"
+        },
+        "date": 1675836428396,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45675077,
+            "range": "± 2272303",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 537578625,
+            "range": "± 5780911",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69534829,
+            "range": "± 909338",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4755734155,
+            "range": "± 12497709",
             "unit": "ns/iter"
           }
         ]
