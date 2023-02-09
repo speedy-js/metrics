@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675924176308,
+  "lastUpdate": 1675927477437,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27119,6 +27119,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4515971569,
             "range": "± 16458442",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3a5e91045bb466b8257539c62cc554a978c27824",
+          "message": "fix: 🐛 fix wrong ts type (#1808)\n\n* fix: 🐛 fix wrong type\r\n\r\n* chore: 🤖 lint",
+          "timestamp": "2023-02-09T15:10:30+08:00",
+          "tree_id": "f8a10fd809c1d09b316a9861bd13cfa5c8446187",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3a5e91045bb466b8257539c62cc554a978c27824"
+        },
+        "date": 1675927474522,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45431927,
+            "range": "± 2491898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 526652629,
+            "range": "± 5891004",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67809604,
+            "range": "± 984686",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4512934504,
+            "range": "± 12980602",
             "unit": "ns/iter"
           }
         ]
