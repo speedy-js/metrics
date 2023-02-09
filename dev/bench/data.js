@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675930001266,
+  "lastUpdate": 1675937068020,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27263,6 +27263,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4516518331,
             "range": "± 14201652",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7122b2b4afb6d33a3f966a79e1b5f8cbdf5f8083",
+          "message": "fix: clear snapshot useless config field (#1812)\n\n* fix: clear snapshot useless config field\r\n\r\n* fix: ci",
+          "timestamp": "2023-02-09T17:50:42+08:00",
+          "tree_id": "1dc3fa2ed95f592b4433e6855796177234ff673a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/7122b2b4afb6d33a3f966a79e1b5f8cbdf5f8083"
+        },
+        "date": 1675937063771,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45461445,
+            "range": "± 2215039",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 526122818,
+            "range": "± 6162439",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67632202,
+            "range": "± 838253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4518404989,
+            "range": "± 15502120",
             "unit": "ns/iter"
           }
         ]
