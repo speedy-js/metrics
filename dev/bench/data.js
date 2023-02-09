@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675862189581,
+  "lastUpdate": 1675916489543,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26975,6 +26975,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4813294431,
             "range": "± 17403589",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "39f8a9c42d49769eb36a26b3d0aabd4ddea9b1f7",
+          "message": "fix: wrong line number by CachedSource (#1800)",
+          "timestamp": "2023-02-09T12:02:47+08:00",
+          "tree_id": "9afe85dc6c87d1137c094f40d7896de372d98686",
+          "url": "https://github.com/modern-js-dev/rspack/commit/39f8a9c42d49769eb36a26b3d0aabd4ddea9b1f7"
+        },
+        "date": 1675916486841,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44661849,
+            "range": "± 2846428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 523270147,
+            "range": "± 4621689",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67630534,
+            "range": "± 1093111",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4526620381,
+            "range": "± 14601012",
             "unit": "ns/iter"
           }
         ]
