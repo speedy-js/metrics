@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675928075810,
+  "lastUpdate": 1675930001266,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27215,6 +27215,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4525222143,
             "range": "± 15520065",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60fb4c5bff374bb4421dc0f4edbad331bb3ec01a",
+          "message": "Make peer optional (#1811)\n\nfix(react-dev-client): make react-refresh optional",
+          "timestamp": "2023-02-09T15:52:56+08:00",
+          "tree_id": "8d5b0331efc7a3f418eecb551ad2bd3ed89e9387",
+          "url": "https://github.com/modern-js-dev/rspack/commit/60fb4c5bff374bb4421dc0f4edbad331bb3ec01a"
+        },
+        "date": 1675929994994,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45796359,
+            "range": "± 2615732",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 526583396,
+            "range": "± 5900742",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67744923,
+            "range": "± 856265",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4516518331,
+            "range": "± 14201652",
             "unit": "ns/iter"
           }
         ]
