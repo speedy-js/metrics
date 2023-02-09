@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675941060142,
+  "lastUpdate": 1675953902022,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27359,6 +27359,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4522017013,
             "range": "± 15099230",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "501ffd45e0095f77ba5f22f0b835d90b00b7a3d3",
+          "message": "chore: bump napi (#1817)",
+          "timestamp": "2023-02-09T22:34:14+08:00",
+          "tree_id": "a7cde3451777cc28837ffe42698254515a961afc",
+          "url": "https://github.com/modern-js-dev/rspack/commit/501ffd45e0095f77ba5f22f0b835d90b00b7a3d3"
+        },
+        "date": 1675953883787,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44947479,
+            "range": "± 2424624",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 527853845,
+            "range": "± 6647198",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67579876,
+            "range": "± 810069",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4506451910,
+            "range": "± 12581185",
             "unit": "ns/iter"
           }
         ]
