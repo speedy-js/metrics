@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675927477437,
+  "lastUpdate": 1675928075810,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27167,6 +27167,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4512934504,
             "range": "± 12980602",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "10529dbd02476f19decb43e24054d87e3664466f",
+          "message": "chore: add bundle splitting & historyapifallback for arco-pro",
+          "timestamp": "2023-02-09T15:18:40+08:00",
+          "tree_id": "03cce4487fe40f6309fe38f839eb592fafd5dd48",
+          "url": "https://github.com/modern-js-dev/rspack/commit/10529dbd02476f19decb43e24054d87e3664466f"
+        },
+        "date": 1675928072726,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45998427,
+            "range": "± 2386571",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 527533847,
+            "range": "± 5441761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67656977,
+            "range": "± 996493",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4525222143,
+            "range": "± 15520065",
             "unit": "ns/iter"
           }
         ]
