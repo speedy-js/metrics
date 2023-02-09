@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675921670624,
+  "lastUpdate": 1675924176308,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27071,6 +27071,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4743494314,
             "range": "± 14780380",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e64506a51ab481da5632f7e9945d8e9ec9cffa87",
+          "message": "fix: wrong side-effects pattern match (#1806)\n\n* chore: 🤖 fix: wrong side-effects pattern match\r\n\r\n* chore: 🤖 change set\r\n\r\n* chore: 🤖 lint",
+          "timestamp": "2023-02-09T14:19:45+08:00",
+          "tree_id": "aa4cba1269424fd46e512da8c6f8c9018c0220c5",
+          "url": "https://github.com/modern-js-dev/rspack/commit/e64506a51ab481da5632f7e9945d8e9ec9cffa87"
+        },
+        "date": 1675924173558,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44747311,
+            "range": "± 2665019",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 529139858,
+            "range": "± 5745388",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67710445,
+            "range": "± 986079",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4515971569,
+            "range": "± 16458442",
             "unit": "ns/iter"
           }
         ]
