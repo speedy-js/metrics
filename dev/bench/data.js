@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675953902022,
+  "lastUpdate": 1675990523892,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27407,6 +27407,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4506451910,
             "range": "± 12581185",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenhaoli@bytedance.com",
+            "name": "chenhaoli",
+            "username": "ulivz"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "dd18f95ebaf912919c4e61e5fa5447a8ad501e25",
+          "message": "chore(examples): integrate `solid-refresh` into solid example",
+          "timestamp": "2023-02-10T08:42:58+08:00",
+          "tree_id": "f4a94576e0d1a291ad6a6e6df4d48e9975a4df71",
+          "url": "https://github.com/modern-js-dev/rspack/commit/dd18f95ebaf912919c4e61e5fa5447a8ad501e25"
+        },
+        "date": 1675990521303,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46241334,
+            "range": "± 2501786",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 540782157,
+            "range": "± 6969776",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69348422,
+            "range": "± 942377",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4739332184,
+            "range": "± 14868224",
             "unit": "ns/iter"
           }
         ]
