@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675999600545,
+  "lastUpdate": 1676002448023,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27551,6 +27551,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4526822255,
             "range": "± 9022382",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "6b5b8fbbf61b5dab6bcadeef41524f68a9f4e2ff",
+          "message": "fix(rspack): fix synatx error when external contains @xx/yy",
+          "timestamp": "2023-02-10T12:00:16+08:00",
+          "tree_id": "50eb43b3fa07ec7da6c6cee737dac1d7cd503367",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6b5b8fbbf61b5dab6bcadeef41524f68a9f4e2ff"
+        },
+        "date": 1676002442659,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45342609,
+            "range": "± 2543286",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 540322184,
+            "range": "± 5716368",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69482311,
+            "range": "± 908511",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4703924697,
+            "range": "± 14812861",
             "unit": "ns/iter"
           }
         ]
