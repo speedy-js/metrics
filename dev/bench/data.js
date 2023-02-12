@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676191486339,
+  "lastUpdate": 1676192323982,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27839,6 +27839,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4881984625,
             "range": "± 15384594",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "035c159534b903ba570a695e59ecdcdcbe2a0fb9",
+          "message": "feat: optimizeChunkModules hooks (#1827)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 refactor clean code\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 changeset\r\n\r\n* chore: 🤖 refacotor\r\n\r\n* chore: 🤖 cr issue",
+          "timestamp": "2023-02-12T16:34:55+08:00",
+          "tree_id": "9fc0dd10f0ca7afad57d3d85c85efce9c608c831",
+          "url": "https://github.com/modern-js-dev/rspack/commit/035c159534b903ba570a695e59ecdcdcbe2a0fb9"
+        },
+        "date": 1676192321559,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45900361,
+            "range": "± 2614907",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 528004653,
+            "range": "± 5164001",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67969469,
+            "range": "± 874688",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4523381452,
+            "range": "± 12002154",
             "unit": "ns/iter"
           }
         ]
