@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676022263925,
+  "lastUpdate": 1676164707999,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27695,6 +27695,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4525314596,
             "range": "± 11962400",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "8e53b01b177a9c63d0e1e5e7fd41cfd1bed7f118",
+          "message": "refactor(example): remove react in solid",
+          "timestamp": "2023-02-12T09:07:39+08:00",
+          "tree_id": "4e454ae35f063f278f1e9df9ad4b0583e43c1184",
+          "url": "https://github.com/modern-js-dev/rspack/commit/8e53b01b177a9c63d0e1e5e7fd41cfd1bed7f118"
+        },
+        "date": 1676164705346,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45640281,
+            "range": "± 2457432",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 543671916,
+            "range": "± 5996514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 69660949,
+            "range": "± 841649",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4748111643,
+            "range": "± 14101041",
             "unit": "ns/iter"
           }
         ]
