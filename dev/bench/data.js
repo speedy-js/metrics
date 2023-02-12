@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676164707999,
+  "lastUpdate": 1676179304938,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27743,6 +27743,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4748111643,
             "range": "± 14101041",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "407664d110fd57304d55e54e51527ebdda028979",
+          "message": "chore: add more comments to make the architecture easier to understand (#1824)\n\n* chore: add more comments for contributors\r\n\r\n* chore: more prudent\r\n\r\n* chore: more\r\n\r\n* chore: polish",
+          "timestamp": "2023-02-12T13:12:26+08:00",
+          "tree_id": "fa470e5d927b6142085d3167f43f6a9349e4019b",
+          "url": "https://github.com/modern-js-dev/rspack/commit/407664d110fd57304d55e54e51527ebdda028979"
+        },
+        "date": 1676179299990,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 43961332,
+            "range": "± 2358320",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 525676173,
+            "range": "± 5812112",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67728495,
+            "range": "± 890071",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4516044299,
+            "range": "± 15167564",
             "unit": "ns/iter"
           }
         ]
