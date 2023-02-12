@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676179304938,
+  "lastUpdate": 1676191486339,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27791,6 +27791,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4516044299,
             "range": "± 15167564",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17bf167f66fa915f29623aa24ab8578ed6151ef0",
+          "message": "fix: `ChunkGroup#get_files` should return `Vec` (#1829)\n\n* fix: `ChunkGroup#get_files` should return `Vec`\r\n\r\n* Changeset",
+          "timestamp": "2023-02-12T16:32:00+08:00",
+          "tree_id": "9ca80f6ab285bc9f373c023bdd5a1af27fba66bf",
+          "url": "https://github.com/modern-js-dev/rspack/commit/17bf167f66fa915f29623aa24ab8578ed6151ef0"
+        },
+        "date": 1676191482450,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 47542284,
+            "range": "± 2439341",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 556318200,
+            "range": "± 5161321",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 70581239,
+            "range": "± 798305",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4881984625,
+            "range": "± 15384594",
             "unit": "ns/iter"
           }
         ]
