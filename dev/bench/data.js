@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676259135482,
+  "lastUpdate": 1676267832572,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27983,6 +27983,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4747787875,
             "range": "± 14156977",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa67d8869a6d515dfa143aac0e49e28e60c416de",
+          "message": "feat: add type definition for emotionOptions (#1825)\n\nCo-authored-by: fengyu.shelby <fengyu.shelby@bytedance.com>",
+          "timestamp": "2023-02-13T13:44:44+08:00",
+          "tree_id": "5a4505791635384bb99df6a3a7ef0eada78ad6f6",
+          "url": "https://github.com/modern-js-dev/rspack/commit/fa67d8869a6d515dfa143aac0e49e28e60c416de"
+        },
+        "date": 1676267830032,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45106611,
+            "range": "± 2569177",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 528649025,
+            "range": "± 5940432",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67750127,
+            "range": "± 955717",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4526623252,
+            "range": "± 15068666",
             "unit": "ns/iter"
           }
         ]
