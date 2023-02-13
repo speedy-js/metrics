@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676299456298,
+  "lastUpdate": 1676304024497,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28127,6 +28127,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4524932883,
             "range": "± 13120937",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "436ce708ac0ae5fb3cab7a9511607a25a38829c1",
+          "message": "chore: add svgr example",
+          "timestamp": "2023-02-13T23:46:22+08:00",
+          "tree_id": "4fbd77fcbd26487ae37ce4301b678f801bb1f083",
+          "url": "https://github.com/modern-js-dev/rspack/commit/436ce708ac0ae5fb3cab7a9511607a25a38829c1"
+        },
+        "date": 1676304002822,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44625599,
+            "range": "± 2458005",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 527413083,
+            "range": "± 5513476",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67340255,
+            "range": "± 795274",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4516080428,
+            "range": "± 14763083",
             "unit": "ns/iter"
           }
         ]
