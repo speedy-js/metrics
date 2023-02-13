@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676267832572,
+  "lastUpdate": 1676274600919,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28031,6 +28031,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4526623252,
             "range": "± 15068666",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "cf18238d3619eecc9d744e16dde2152f0f6c37d1",
+          "message": "fix: clear entires before hmr rebuild",
+          "timestamp": "2023-02-13T15:39:21+08:00",
+          "tree_id": "ba87d1ff37189b255ea7f65876c72806f08debcb",
+          "url": "https://github.com/modern-js-dev/rspack/commit/cf18238d3619eecc9d744e16dde2152f0f6c37d1"
+        },
+        "date": 1676274598401,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44098315,
+            "range": "± 2248961",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 523474846,
+            "range": "± 5245945",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67710122,
+            "range": "± 863174",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4532246320,
+            "range": "± 16231100",
             "unit": "ns/iter"
           }
         ]
