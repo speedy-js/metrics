@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676357699312,
+  "lastUpdate": 1676360876894,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28415,6 +28415,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4761956911,
             "range": "± 12324198",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "23663bd7545185d01fa5ea68a79aa40e072971aa",
+          "message": "chore: upgrade nodejs-resovler",
+          "timestamp": "2023-02-14T15:24:22+08:00",
+          "tree_id": "f44371ae669591725c24398438d6a9cff84c8166",
+          "url": "https://github.com/modern-js-dev/rspack/commit/23663bd7545185d01fa5ea68a79aa40e072971aa"
+        },
+        "date": 1676360871578,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44807009,
+            "range": "± 2303685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 526692552,
+            "range": "± 5666416",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67628096,
+            "range": "± 884149",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4517858618,
+            "range": "± 14306693",
             "unit": "ns/iter"
           }
         ]
