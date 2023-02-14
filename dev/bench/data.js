@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676375139803,
+  "lastUpdate": 1676376295121,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28751,6 +28751,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4518998924,
             "range": "± 11598503",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7dc09b658d1deede704f19006bacfc43652c0fd9",
+          "message": "fix: increment rebuild delete file bug (#1855)",
+          "timestamp": "2023-02-14T19:55:09+08:00",
+          "tree_id": "3d00ed666946f0ba6982b3b7ef86bd766eea36af",
+          "url": "https://github.com/modern-js-dev/rspack/commit/7dc09b658d1deede704f19006bacfc43652c0fd9"
+        },
+        "date": 1676376291856,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44029327,
+            "range": "± 2172257",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 520451191,
+            "range": "± 5054069",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67026575,
+            "range": "± 709166",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4522160504,
+            "range": "± 10258909",
             "unit": "ns/iter"
           }
         ]
