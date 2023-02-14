@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676376295121,
+  "lastUpdate": 1676380386665,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28799,6 +28799,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4522160504,
             "range": "± 10258909",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "283c815dad38f22a7d21cbbeab9700406f4c9dbe",
+          "message": "chore: update bundle-splitting example",
+          "timestamp": "2023-02-14T21:03:35+08:00",
+          "tree_id": "f5682d7ad23c01aa324e42a51779ceefd1e83cf4",
+          "url": "https://github.com/modern-js-dev/rspack/commit/283c815dad38f22a7d21cbbeab9700406f4c9dbe"
+        },
+        "date": 1676380383063,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45271862,
+            "range": "± 2512467",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 527879805,
+            "range": "± 4851915",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67296774,
+            "range": "± 843012",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4521490373,
+            "range": "± 14494295",
             "unit": "ns/iter"
           }
         ]
