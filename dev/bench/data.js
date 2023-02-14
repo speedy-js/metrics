@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676356840653,
+  "lastUpdate": 1676357699312,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28367,6 +28367,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4763239069,
             "range": "± 15937331",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c7ab6dfd56facc8fd898e3ade888ae52eda9158",
+          "message": "feat: rspack-cli and devServer support multiCompiler (#1816)\n\nCo-authored-by: fengyu.shelby <fengyu.shelby@bytedance.com>",
+          "timestamp": "2023-02-14T14:44:15+08:00",
+          "tree_id": "a8c334a09c833a8e9c08a117d4986f2a4bdb3b66",
+          "url": "https://github.com/modern-js-dev/rspack/commit/1c7ab6dfd56facc8fd898e3ade888ae52eda9158"
+        },
+        "date": 1676357694873,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44410297,
+            "range": "± 2351343",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 539109711,
+            "range": "± 5678407",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68702791,
+            "range": "± 823319",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4761956911,
+            "range": "± 12324198",
             "unit": "ns/iter"
           }
         ]
