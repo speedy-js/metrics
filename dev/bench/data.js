@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676343622194,
+  "lastUpdate": 1676351550864,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28223,6 +28223,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4523668193,
             "range": "± 13825225",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "distinct": true,
+          "id": "7ad188a14f312b4af6d05f53f8660f98464b2ae6",
+          "message": "chore: bump rspack_sources to 0.1.19\n\nThis PR removes an extra clone for each chunk source,\nwhich should reduce memory usage and increase performance.\n\nSee https://github.com/modern-js-dev/rspack-sources/pull/43",
+          "timestamp": "2023-02-13T21:02:48-08:00",
+          "tree_id": "ad67b0bc5c9b5c03da7ae3c82e294b929d7dae78",
+          "url": "https://github.com/modern-js-dev/rspack/commit/7ad188a14f312b4af6d05f53f8660f98464b2ae6"
+        },
+        "date": 1676351548168,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 43169805,
+            "range": "± 1923247",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 526230946,
+            "range": "± 6062677",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67279334,
+            "range": "± 737349",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4528876104,
+            "range": "± 14874769",
             "unit": "ns/iter"
           }
         ]
