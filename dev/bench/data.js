@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676351550864,
+  "lastUpdate": 1676355856146,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28271,6 +28271,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4528876104,
             "range": "± 14874769",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0de0fab3316b052493bcf865e6d2fe825e8ebbd",
+          "message": "refactor: loader directly change context fields on rust side (#1837)\n\n* refactor: loader directly change context fields on rust side\r\n\r\n* refactor: move loader diagnostic info to context",
+          "timestamp": "2023-02-14T14:14:03+08:00",
+          "tree_id": "3040983c64a552087d582699249dd875b18c2690",
+          "url": "https://github.com/modern-js-dev/rspack/commit/e0de0fab3316b052493bcf865e6d2fe825e8ebbd"
+        },
+        "date": 1676355853250,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 45444514,
+            "range": "± 2504333",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 538310478,
+            "range": "± 5327226",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68756213,
+            "range": "± 940065",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4737373121,
+            "range": "± 15053829",
             "unit": "ns/iter"
           }
         ]
