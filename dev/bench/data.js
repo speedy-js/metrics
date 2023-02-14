@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676367308728,
+  "lastUpdate": 1676372291938,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28655,6 +28655,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4529253152,
             "range": "± 14960451",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b67418968e9202bea0a749859f4425a58d375808",
+          "message": "chore: 🤖 use module path instead of module id in diagnositc (#1851)\n\n* chore: 🤖 use module path instead of module id\r\n\r\n* chore: 🤖 changeset\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 skip todo",
+          "timestamp": "2023-02-14T18:44:02+08:00",
+          "tree_id": "f41266022ff2d3a7fa9115b0bb3186e5dcbd360c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b67418968e9202bea0a749859f4425a58d375808"
+        },
+        "date": 1676372289217,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 43011682,
+            "range": "± 2445407",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 526556084,
+            "range": "± 6739107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67303380,
+            "range": "± 758952",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4520886185,
+            "range": "± 13930932",
             "unit": "ns/iter"
           }
         ]
