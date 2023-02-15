@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676445265137,
+  "lastUpdate": 1676452605809,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28991,6 +28991,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4528745943,
             "range": "± 15143724",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d78bb60c7c5ff8b4df2ab69adadd9a466d173b10",
+          "message": "chore(examples/arco-pro): use @svgr/webpack (#1860)",
+          "timestamp": "2023-02-15T17:03:52+08:00",
+          "tree_id": "3c9fab455b10039e7a33883be93409962d37cc0d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/d78bb60c7c5ff8b4df2ab69adadd9a466d173b10"
+        },
+        "date": 1676452600209,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 46332799,
+            "range": "± 2654362",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 532946613,
+            "range": "± 5080183",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 68069896,
+            "range": "± 847078",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4667450972,
+            "range": "± 17402053",
             "unit": "ns/iter"
           }
         ]
