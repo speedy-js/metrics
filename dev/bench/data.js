@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676454093567,
+  "lastUpdate": 1676455115917,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29087,6 +29087,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4576203636,
             "range": "± 14625898",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f999ee229abfcd20de1d45761ee60612991bc91a",
+          "message": "feat: introduce `DevFriendlySplitChunksPlugin` (#1853)\n\n* Revert \"Revert \"feat: introduce `DevFriendlySplitChunksPlugin`\"\"\r\n\r\nThis reverts commit f7320e807d65f647e3406d6fccf6f196c36b266c.\r\n\r\n* Fix options\r\n\r\n* Make options\r\n\r\n* Update license",
+          "timestamp": "2023-02-15T17:39:41+08:00",
+          "tree_id": "e1f39cc6b3864df7928913b58ba822140d7ca0ca",
+          "url": "https://github.com/modern-js-dev/rspack/commit/f999ee229abfcd20de1d45761ee60612991bc91a"
+        },
+        "date": 1676455113218,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44447800,
+            "range": "± 2605611",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 526988467,
+            "range": "± 5263049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67514851,
+            "range": "± 834800",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4506748562,
+            "range": "± 15625978",
             "unit": "ns/iter"
           }
         ]
