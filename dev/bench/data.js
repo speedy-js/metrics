@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676442842230,
+  "lastUpdate": 1676445265137,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28943,6 +28943,54 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4517564957,
             "range": "± 12967121",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6893edde27c3bd9990872b3e0ab0959dad92191",
+          "message": "refactor: use `Database<ChunkGroup>` instead of `HashMap<Ukey, ChunkGroup>` (#1857)\n\nrefactor: use `Database\\<ChunkGroup\\>` instead of `HashMap\\<Ukey, ChunkGroup\\>`",
+          "timestamp": "2023-02-15T15:04:28+08:00",
+          "tree_id": "75214d4a30ae277854b1f23bc1b063e3172773d7",
+          "url": "https://github.com/modern-js-dev/rspack/commit/a6893edde27c3bd9990872b3e0ab0959dad92191"
+        },
+        "date": 1676445260762,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/css_heavy",
+            "value": 44048960,
+            "range": "± 2178696",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 527026325,
+            "range": "± 5214824",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "criterion_benchmark/lodash",
+            "value": 67163349,
+            "range": "± 731865",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4528745943,
+            "range": "± 15143724",
             "unit": "ns/iter"
           }
         ]
