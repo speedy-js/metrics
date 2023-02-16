@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676545573680,
+  "lastUpdate": 1676554106332,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -107,6 +107,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4514327754,
             "range": "± 12955930",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "794835c979366c821b739b14bc7fab92b1d17a46",
+          "message": "feat: database with rayon powered (#1875)",
+          "timestamp": "2023-02-16T21:18:18+08:00",
+          "tree_id": "361b8c346034b1f13558ee7b63e6353aa9545a86",
+          "url": "https://github.com/modern-js-dev/rspack/commit/794835c979366c821b739b14bc7fab92b1d17a46"
+        },
+        "date": 1676554094200,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 523684074,
+            "range": "± 5823612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4524726445,
+            "range": "± 13506028",
             "unit": "ns/iter"
           }
         ]
