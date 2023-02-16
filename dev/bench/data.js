@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676539093931,
+  "lastUpdate": 1676545573680,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -71,6 +71,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4792938020,
             "range": "± 14590634",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0a0fd3cd48c454bbfecd5fac5680feca14d6ce7",
+          "message": "fix: load dynamic import module at hmr (#1862)",
+          "timestamp": "2023-02-16T18:56:59+08:00",
+          "tree_id": "c6df7d50fc1a28bdbe41ccb0b2f171dd4c88c974",
+          "url": "https://github.com/modern-js-dev/rspack/commit/e0a0fd3cd48c454bbfecd5fac5680feca14d6ce7"
+        },
+        "date": 1676545570868,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 528257278,
+            "range": "± 6427125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4514327754,
+            "range": "± 12955930",
             "unit": "ns/iter"
           }
         ]
