@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676617862978,
+  "lastUpdate": 1676622846407,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -215,6 +215,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4746563529,
             "range": "± 14593700",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a7721f7552afc6a94e105ae52f5e4685b4671f59",
+          "message": "chore: 🤖 using module path instead module identifier in debug symbol graph (#1882)\n\nchore: 🤖 using module path instead module identifier",
+          "timestamp": "2023-02-17T15:56:56+08:00",
+          "tree_id": "ac8a3adad80782efd2bf37d68a1e26c9d72795c0",
+          "url": "https://github.com/modern-js-dev/rspack/commit/a7721f7552afc6a94e105ae52f5e4685b4671f59"
+        },
+        "date": 1676622840919,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 524029174,
+            "range": "± 5909787",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4503728686,
+            "range": "± 17873054",
             "unit": "ns/iter"
           }
         ]
