@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676622846407,
+  "lastUpdate": 1676624415403,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -251,6 +251,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4503728686,
             "range": "± 17873054",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c0dd8f89cee4c409cb877842045f310eadea7927",
+          "message": "test: 💍 Adding sideEffects flag test (#1885)\n\n* test: 💍 Adding sideEffects flag test\r\n\r\n* chore: 🤖 update snapshot",
+          "timestamp": "2023-02-17T16:47:55+08:00",
+          "tree_id": "a154b44ed79429407980788cf192231c109d7a1a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/c0dd8f89cee4c409cb877842045f310eadea7927"
+        },
+        "date": 1676624410259,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 529040579,
+            "range": "± 4944574",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4512802811,
+            "range": "± 18443756",
             "unit": "ns/iter"
           }
         ]
