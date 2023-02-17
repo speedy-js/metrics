@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676625949784,
+  "lastUpdate": 1676628478215,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -359,6 +359,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4332768396,
             "range": "± 13506473",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "31436aea3f55cc6aa6336963c3a6ade022d37972",
+          "message": "pref: use shared fs entires along resolvers",
+          "timestamp": "2023-02-17T17:46:41+08:00",
+          "tree_id": "6e844605895031c78b98d77be6cef99dc6117b71",
+          "url": "https://github.com/modern-js-dev/rspack/commit/31436aea3f55cc6aa6336963c3a6ade022d37972"
+        },
+        "date": 1676628472854,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 297552297,
+            "range": "± 4084162",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4329197751,
+            "range": "± 15398257",
             "unit": "ns/iter"
           }
         ]
