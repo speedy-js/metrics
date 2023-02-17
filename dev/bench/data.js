@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676554106332,
+  "lastUpdate": 1676596326711,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -143,6 +143,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4524726445,
             "range": "± 13506028",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0c63c33c0f8b6b471c92de791d8de6f909c963b9",
+          "message": "fix: incremental rebuild mgm.issuer incorrect bug (#1874)",
+          "timestamp": "2023-02-17T09:02:13+08:00",
+          "tree_id": "a6c149aadf9d914034d38aac92184169fb039df2",
+          "url": "https://github.com/modern-js-dev/rspack/commit/0c63c33c0f8b6b471c92de791d8de6f909c963b9"
+        },
+        "date": 1676596324206,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 532183158,
+            "range": "± 5586564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4521831642,
+            "range": "± 11887743",
             "unit": "ns/iter"
           }
         ]
