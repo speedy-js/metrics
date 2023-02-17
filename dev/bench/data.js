@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676624415403,
+  "lastUpdate": 1676625135823,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -287,6 +287,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4512802811,
             "range": "± 18443756",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "006a3473bac4b0da47b006d0ee557953164af244",
+          "message": "fix: 🐛 reset fg_color after emit a diagnostic (#1886)",
+          "timestamp": "2023-02-17T17:01:57+08:00",
+          "tree_id": "c1d80ba5bdd7cf12502f4ee88516ffd84f239cc3",
+          "url": "https://github.com/modern-js-dev/rspack/commit/006a3473bac4b0da47b006d0ee557953164af244"
+        },
+        "date": 1676625130645,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 539084768,
+            "range": "± 5429872",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4730823144,
+            "range": "± 16481223",
             "unit": "ns/iter"
           }
         ]
