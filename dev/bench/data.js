@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676628478215,
+  "lastUpdate": 1676701419903,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -395,6 +395,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4329197751,
             "range": "± 15398257",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b39abe074db6203aa410a327891865c96acc889c",
+          "message": "perf: create chunk assets (#1889)\n\n* perf: create chunk assets\r\n\r\n* chore: clippy\r\n\r\n* chore: redundant",
+          "timestamp": "2023-02-18T14:13:31+08:00",
+          "tree_id": "949b576408a4c702a7a6a187c63148c9b1f03531",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b39abe074db6203aa410a327891865c96acc889c"
+        },
+        "date": 1676701417258,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 329682303,
+            "range": "± 2972423",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4674925246,
+            "range": "± 10034537",
             "unit": "ns/iter"
           }
         ]
