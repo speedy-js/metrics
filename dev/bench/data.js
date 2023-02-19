@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676797466998,
+  "lastUpdate": 1676799159977,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -611,6 +611,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4324431359,
             "range": "± 13870202",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cc0da4905510f04504cd75c0c389e57c17102f43",
+          "message": "fix: progress support boolean (#1897)",
+          "timestamp": "2023-02-19T17:22:52+08:00",
+          "tree_id": "be2bcb7d969f22758150b0eeda4b510e97fde361",
+          "url": "https://github.com/modern-js-dev/rspack/commit/cc0da4905510f04504cd75c0c389e57c17102f43"
+        },
+        "date": 1676799154794,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 316932462,
+            "range": "± 2705268",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4538231076,
+            "range": "± 14378752",
             "unit": "ns/iter"
           }
         ]
