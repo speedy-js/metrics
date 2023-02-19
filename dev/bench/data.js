@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676786825304,
+  "lastUpdate": 1676787333284,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -503,6 +503,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4661168450,
             "range": "± 14297109",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zackary.l.jackson@gmail.com",
+            "name": "Zack Jackson",
+            "username": "ScriptedAlchemy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1868c04be27101462bcfd3f3fdd9f7eff67722d7",
+          "message": "chore: update language used regarding webpack interoperability (#1877)",
+          "timestamp": "2023-02-19T13:58:50+08:00",
+          "tree_id": "247e1bfa67789421d58266eabd8db82d8bc9b6d1",
+          "url": "https://github.com/modern-js-dev/rspack/commit/1868c04be27101462bcfd3f3fdd9f7eff67722d7"
+        },
+        "date": 1676787330747,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 298088249,
+            "range": "± 2816775",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4323189190,
+            "range": "± 12988681",
             "unit": "ns/iter"
           }
         ]
