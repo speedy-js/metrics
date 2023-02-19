@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676800345479,
+  "lastUpdate": 1676808982765,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -683,6 +683,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4598634879,
             "range": "± 15701015",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "69a016b69e896105505445bfe761087d018227f8",
+          "message": "fix: remove unnecessary for loop in split chunks (#1895)\n\n* fix: remove unnecessary for loop in split chunks\r\n\r\n* More fix",
+          "timestamp": "2023-02-19T20:04:05+08:00",
+          "tree_id": "736412b76ce339ec4c0c5dfbce2a21fb55b2a28f",
+          "url": "https://github.com/modern-js-dev/rspack/commit/69a016b69e896105505445bfe761087d018227f8"
+        },
+        "date": 1676808980142,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 298275018,
+            "range": "± 4967303",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4324061894,
+            "range": "± 16097014",
             "unit": "ns/iter"
           }
         ]
