@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676810372079,
+  "lastUpdate": 1676813130273,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -791,6 +791,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4320401789,
             "range": "± 14100099",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "30a96f1646a6dfd38575940249a955722462e018",
+          "message": "perf: optimize rebuild diffing (#1884)",
+          "timestamp": "2023-02-19T21:08:59+08:00",
+          "tree_id": "6d73ad4e2a597b3b61b93a193dcfeaf39968310c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/30a96f1646a6dfd38575940249a955722462e018"
+        },
+        "date": 1676813127648,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 295494563,
+            "range": "± 2860451",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4313979610,
+            "range": "± 16121103",
             "unit": "ns/iter"
           }
         ]
