@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676880076960,
+  "lastUpdate": 1676882888464,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -971,6 +971,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4399236975,
             "range": "± 15903197",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2315cad48ecec058f1dc9a014f1b5abf6e87b3e2",
+          "message": "fix: lost chunk loading runtime when target is browserlist (#1905)",
+          "timestamp": "2023-02-20T16:11:20+08:00",
+          "tree_id": "afc90905ba29360296bce2c287d952be07cc02ca",
+          "url": "https://github.com/modern-js-dev/rspack/commit/2315cad48ecec058f1dc9a014f1b5abf6e87b3e2"
+        },
+        "date": 1676882884780,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 296413709,
+            "range": "± 3179322",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4190880878,
+            "range": "± 20376683",
             "unit": "ns/iter"
           }
         ]
