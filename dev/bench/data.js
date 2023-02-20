@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676868684755,
+  "lastUpdate": 1676880076960,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -935,6 +935,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4185461824,
             "range": "± 22355242",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da01e4ea6338a8f7faf8d18c927d83fd4010106a",
+          "message": "perf: import meta expr match (#1904)",
+          "timestamp": "2023-02-20T15:48:39+08:00",
+          "tree_id": "205be5be13a6897c60dc414a42685768b8a8085a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/da01e4ea6338a8f7faf8d18c927d83fd4010106a"
+        },
+        "date": 1676880073340,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 315554303,
+            "range": "± 3421952",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4399236975,
+            "range": "± 15903197",
             "unit": "ns/iter"
           }
         ]
