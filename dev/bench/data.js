@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676891257355,
+  "lastUpdate": 1676897393100,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1187,6 +1187,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4127911464,
             "range": "± 25465343",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8bda8efcb0b799cb59cc9a9be404955798662f09",
+          "message": "feat: add rspack-fs base (#1910)\n\n* feat: init rspack-fs\r\n\r\n* chore: add license\r\n\r\n* chore: clippy\r\n\r\n* chore: simplify\r\n\r\n* chore: type",
+          "timestamp": "2023-02-20T20:41:41+08:00",
+          "tree_id": "459874b456cc25a194710e73d6461364454a0779",
+          "url": "https://github.com/modern-js-dev/rspack/commit/8bda8efcb0b799cb59cc9a9be404955798662f09"
+        },
+        "date": 1676897389783,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 280265189,
+            "range": "± 3319246",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4133716442,
+            "range": "± 16306495",
             "unit": "ns/iter"
           }
         ]
