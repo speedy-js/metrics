@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676882888464,
+  "lastUpdate": 1676886281391,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1007,6 +1007,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4190880878,
             "range": "± 20376683",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0dcb5e8f8a72976f92237f43a4b727c12ffafd3a",
+          "message": "perf: use arc source instead of box source (#1801)",
+          "timestamp": "2023-02-20T17:35:57+08:00",
+          "tree_id": "fe656ff388da2137d277a711c6b16b03a2c115b7",
+          "url": "https://github.com/modern-js-dev/rspack/commit/0dcb5e8f8a72976f92237f43a4b727c12ffafd3a"
+        },
+        "date": 1676886275757,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 296779789,
+            "range": "± 3240944",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4336195264,
+            "range": "± 18066084",
             "unit": "ns/iter"
           }
         ]
