@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676886281391,
+  "lastUpdate": 1676887146662,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1043,6 +1043,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4336195264,
             "range": "± 18066084",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4bdf94a88ccee45141db730fab8d23039d347a1d",
+          "message": "refacotr: tree shaking visitor refactor (#1887)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 rename\r\n\r\n* chore: 🤖 recover\r\n\r\n* refactor: 💡 refacotr",
+          "timestamp": "2023-02-20T17:38:01+08:00",
+          "tree_id": "7c04b7b980066fa79fdae22779470421f4eb4f27",
+          "url": "https://github.com/modern-js-dev/rspack/commit/4bdf94a88ccee45141db730fab8d23039d347a1d"
+        },
+        "date": 1676887141410,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 280207325,
+            "range": "± 3506597",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4128814516,
+            "range": "± 15274176",
             "unit": "ns/iter"
           }
         ]
