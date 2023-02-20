@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676887653162,
+  "lastUpdate": 1676889163123,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1115,6 +1115,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4123388129,
             "range": "± 19686153",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb56161b7385f759df0476632239b5b5c8de8f70",
+          "message": "chore: add default config snapshot (#1907)",
+          "timestamp": "2023-02-20T18:24:14+08:00",
+          "tree_id": "91d94eb636ba5a53be92dd27f4277c5f4242303a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/bb56161b7385f759df0476632239b5b5c8de8f70"
+        },
+        "date": 1676889159019,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 301385584,
+            "range": "± 3147789",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4387934070,
+            "range": "± 22266461",
             "unit": "ns/iter"
           }
         ]
