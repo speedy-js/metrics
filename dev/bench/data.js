@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676983333857,
+  "lastUpdate": 1676995574145,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1643,6 +1643,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 280401251,
             "range": "± 3109763",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "4fba1460362762a1ef3ba738defa4d9d1c449eed",
+          "message": "chore: remove panic hook",
+          "timestamp": "2023-02-22T00:00:01+08:00",
+          "tree_id": "940f89fea9d8c64d3aa2bbfda740995c91e2605b",
+          "url": "https://github.com/modern-js-dev/rspack/commit/4fba1460362762a1ef3ba738defa4d9d1c449eed"
+        },
+        "date": 1676995568485,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 278604627,
+            "range": "± 3108778",
             "unit": "ns/iter"
           }
         ]
