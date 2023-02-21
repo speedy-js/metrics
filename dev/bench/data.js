@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676898164744,
+  "lastUpdate": 1676948778632,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1259,6 +1259,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4124534431,
             "range": "± 21616170",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b925fb80329a46e3ef7589d9e58c4800441b0060",
+          "message": "refactor: support builtins.preset_env (#1906)\n\n* refactor: support builtins.preset_env\r\n\r\n* fix: ci",
+          "timestamp": "2023-02-21T10:57:55+08:00",
+          "tree_id": "32972379dab96002a76f5a5fdfc8fc75e818cfd6",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b925fb80329a46e3ef7589d9e58c4800441b0060"
+        },
+        "date": 1676948775905,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 307757891,
+            "range": "± 3233938",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4492608147,
+            "range": "± 19152915",
             "unit": "ns/iter"
           }
         ]
