@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676971822354,
+  "lastUpdate": 1676974286213,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1547,6 +1547,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4383404853,
             "range": "± 17718810",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "367fd87ff454a93ae03d9465de85ca28a22aa389",
+          "message": "docs: fix banner background color in dark mode (#1924)\n\n* docs: fix banner background color in dark mode\r\n\r\n* docs: fit dark mode",
+          "timestamp": "2023-02-21T17:44:47+08:00",
+          "tree_id": "662998680df47fde113719f62560958efe6ae4f8",
+          "url": "https://github.com/modern-js-dev/rspack/commit/367fd87ff454a93ae03d9465de85ca28a22aa389"
+        },
+        "date": 1676974279607,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 281833155,
+            "range": "± 3343297",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4167038161,
+            "range": "± 21958991",
             "unit": "ns/iter"
           }
         ]
