@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676963341590,
+  "lastUpdate": 1676964083139,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1367,6 +1367,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4163455676,
             "range": "± 14763862",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "947e06e8c8eebd824be4be6b40d45d3c29a194a7",
+          "message": "docs: add banner to README (#1913)\n\n* docs: add rspack banner to README\r\n\r\n* docs: update badge style\r\n\r\n* docs: remove dot",
+          "timestamp": "2023-02-21T14:50:50+08:00",
+          "tree_id": "949c881700b7512edb7510abc165c61fe4d63704",
+          "url": "https://github.com/modern-js-dev/rspack/commit/947e06e8c8eebd824be4be6b40d45d3c29a194a7"
+        },
+        "date": 1676964078065,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 297250487,
+            "range": "± 3251781",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4380401616,
+            "range": "± 23825616",
             "unit": "ns/iter"
           }
         ]
