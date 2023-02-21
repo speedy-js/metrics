@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676974286213,
+  "lastUpdate": 1676974540712,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1583,6 +1583,36 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4167038161,
             "range": "± 21958991",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9427da2084c4b6f37568bdb56489823803d2be09",
+          "message": "refactor: builtins.minify to builtins.minifyOptions (#1923)",
+          "timestamp": "2023-02-21T17:45:38+08:00",
+          "tree_id": "092506b2c8bd8d591cc1a793cbcaaa148bfe3425",
+          "url": "https://github.com/modern-js-dev/rspack/commit/9427da2084c4b6f37568bdb56489823803d2be09"
+        },
+        "date": 1676974537991,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293581835,
+            "range": "± 3144420",
             "unit": "ns/iter"
           }
         ]
