@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676964083139,
+  "lastUpdate": 1676964628849,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1403,6 +1403,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4380401616,
             "range": "± 23825616",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36bcb66857e2cf18ab30f81a1acd3ebb94b17cdc",
+          "message": "chore: add some basic fields of package.json (#1916)\n\n* chore: complete basic fields of every package\r\n\r\n* chore: adjust fields order",
+          "timestamp": "2023-02-21T14:53:27+08:00",
+          "tree_id": "29a02e54427e39b6ebbc707a2b45fb22bceb7ca2",
+          "url": "https://github.com/modern-js-dev/rspack/commit/36bcb66857e2cf18ab30f81a1acd3ebb94b17cdc"
+        },
+        "date": 1676964626287,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 296243564,
+            "range": "± 3306930",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4380320080,
+            "range": "± 17174008",
             "unit": "ns/iter"
           }
         ]
