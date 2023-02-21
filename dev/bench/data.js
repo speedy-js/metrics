@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676948778632,
+  "lastUpdate": 1676958734447,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1295,6 +1295,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4492608147,
             "range": "± 19152915",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "57ce48c43fa412f6b52a21e5d6df969ee53096e4",
+          "message": "fix: css modules local-ident-name hash replace (#1911)",
+          "timestamp": "2023-02-21T13:41:08+08:00",
+          "tree_id": "ff437c3e3c571e5f90058d034742919ecbc40e28",
+          "url": "https://github.com/modern-js-dev/rspack/commit/57ce48c43fa412f6b52a21e5d6df969ee53096e4"
+        },
+        "date": 1676958731555,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 301617360,
+            "range": "± 3326035",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4436172846,
+            "range": "± 15167385",
             "unit": "ns/iter"
           }
         ]
