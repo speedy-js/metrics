@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676970802183,
+  "lastUpdate": 1676971822354,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1511,6 +1511,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4440923854,
             "range": "± 22221740",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5defd1711235743e711a76da091642e1fc0e56dc",
+          "message": "fix: context module replace context (#1917)",
+          "timestamp": "2023-02-21T17:16:13+08:00",
+          "tree_id": "67a5771458c226d60349bc67e536d7d69b20e3c7",
+          "url": "https://github.com/modern-js-dev/rspack/commit/5defd1711235743e711a76da091642e1fc0e56dc"
+        },
+        "date": 1676971818930,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 297875355,
+            "range": "± 3091269",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4383404853,
+            "range": "± 17718810",
             "unit": "ns/iter"
           }
         ]
