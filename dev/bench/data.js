@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676974540712,
+  "lastUpdate": 1676983333857,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1613,6 +1613,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 293581835,
             "range": "± 3144420",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4d5ca651a9c9b69bb0102a03bbf9fd6eb5ce94c8",
+          "message": "chore: 🤖 bump rspack-sources (#1928)\n\n* chore: 🤖 bump rspack-sources\r\n\r\n* chore: 🤖 update lock",
+          "timestamp": "2023-02-21T20:36:10+08:00",
+          "tree_id": "8707b449b0df6c7111915e8c1c79a0103bce1e65",
+          "url": "https://github.com/modern-js-dev/rspack/commit/4d5ca651a9c9b69bb0102a03bbf9fd6eb5ce94c8"
+        },
+        "date": 1676983328495,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 280401251,
+            "range": "± 3109763",
             "unit": "ns/iter"
           }
         ]
