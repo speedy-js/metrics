@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677065586832,
+  "lastUpdate": 1677067238370,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1943,6 +1943,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 293171017,
             "range": "± 4690915",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "064cf1fa7946aef6ac5dc51e1403246c533e0110",
+          "message": "fix: avoid css loading href error (#1939)",
+          "timestamp": "2023-02-22T19:56:45+08:00",
+          "tree_id": "6b7a4e148d25a6fb71ba0a418a3499fa8fec29b6",
+          "url": "https://github.com/modern-js-dev/rspack/commit/064cf1fa7946aef6ac5dc51e1403246c533e0110"
+        },
+        "date": 1677067235506,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 294624284,
+            "range": "± 5394357",
             "unit": "ns/iter"
           }
         ]
