@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677064216241,
+  "lastUpdate": 1677065586832,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1913,6 +1913,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 292423220,
             "range": "± 5244619",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a5439bcd7c9636a9b95be02b625ea2309c20d7d",
+          "message": "chore: add examples/basic/test.config.json (#1940)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 remove minize",
+          "timestamp": "2023-02-22T19:28:45+08:00",
+          "tree_id": "8d1fd8ea0b77d2822150a5947b7129a270c937c5",
+          "url": "https://github.com/modern-js-dev/rspack/commit/1a5439bcd7c9636a9b95be02b625ea2309c20d7d"
+        },
+        "date": 1677065583094,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293171017,
+            "range": "± 4690915",
             "unit": "ns/iter"
           }
         ]
