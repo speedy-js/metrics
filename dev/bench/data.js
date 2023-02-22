@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676995574145,
+  "lastUpdate": 1677029057882,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1673,6 +1673,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 278604627,
             "range": "± 3108778",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5945cd53e333dd7fe41d62b3f776562cdabf7140",
+          "message": "feat: add async version of node fs (#1929)\n\n* feat: add async version of node fs\r\n\r\n* chore: remove dep\r\n\r\n* chore: tweak",
+          "timestamp": "2023-02-22T09:19:30+08:00",
+          "tree_id": "784996a43c879e3519931c6a1530ef47e930a80c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/5945cd53e333dd7fe41d62b3f776562cdabf7140"
+        },
+        "date": 1677029055113,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 278569398,
+            "range": "± 3446690",
             "unit": "ns/iter"
           }
         ]
