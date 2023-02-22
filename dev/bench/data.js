@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677056952560,
+  "lastUpdate": 1677064216241,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1883,6 +1883,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 293177935,
             "range": "± 5225516",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44493396f656447c32f6b804b3a8a384f8abee20",
+          "message": "chore: 🤖 getSideEffectFromConfig early return if match a rule (#1941)",
+          "timestamp": "2023-02-22T19:06:16+08:00",
+          "tree_id": "d5459ded48e37ddf7eb48adb8d7b82ab7a39041d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/44493396f656447c32f6b804b3a8a384f8abee20"
+        },
+        "date": 1677064210868,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 292423220,
+            "range": "± 5244619",
             "unit": "ns/iter"
           }
         ]
