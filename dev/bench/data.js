@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677035617365,
+  "lastUpdate": 1677036138096,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1733,6 +1733,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 281350952,
             "range": "± 2935639",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "82aa28d6bcf4daed52704dc56daab76e64a8cd8b",
+          "message": "feat: add copy plugin (#1912)\n\nCo-authored-by: fengyu.shelby <fengyu.shelby@bytedance.com>",
+          "timestamp": "2023-02-22T11:08:19+08:00",
+          "tree_id": "ec03f82fb991aa555203a033d280b2e71fcc360c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/82aa28d6bcf4daed52704dc56daab76e64a8cd8b"
+        },
+        "date": 1677036133575,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 281302353,
+            "range": "± 3277729",
             "unit": "ns/iter"
           }
         ]
