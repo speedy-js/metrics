@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677041480875,
+  "lastUpdate": 1677044281614,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1823,6 +1823,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 305431750,
             "range": "± 3213832",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "fd6d5d9edefd8cdfec99fe309b4be5486003cfe9",
+          "message": "fix(core): fix config colors not working",
+          "timestamp": "2023-02-22T13:29:44+08:00",
+          "tree_id": "24af29701a51e72c5f4888d543efe29c8d3bd9eb",
+          "url": "https://github.com/modern-js-dev/rspack/commit/fd6d5d9edefd8cdfec99fe309b4be5486003cfe9"
+        },
+        "date": 1677044278216,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 280708666,
+            "range": "± 3774313",
             "unit": "ns/iter"
           }
         ]
