@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677044281614,
+  "lastUpdate": 1677056952560,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1853,6 +1853,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 280708666,
             "range": "± 3774313",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a1975f725ff803176487a08baa02fd407f5c8f0f",
+          "message": "feat: output filesystem (#1936)\n\n* feat: init output filesystem\r\n\r\n* feat: use async native fs\r\n\r\n* chore: typing\r\n\r\n* chore: fix typing\r\n\r\n* chore: not send\r\n\r\n* test: add test\r\n\r\n* feat: use par\r\n\r\n* chore: tweak",
+          "timestamp": "2023-02-22T17:04:56+08:00",
+          "tree_id": "f5cbda27f624ef2ee4c5bfc20ce22db6eabbbd0a",
+          "url": "https://github.com/modern-js-dev/rspack/commit/a1975f725ff803176487a08baa02fd407f5c8f0f"
+        },
+        "date": 1677056949242,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293177935,
+            "range": "± 5225516",
             "unit": "ns/iter"
           }
         ]
