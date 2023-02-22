@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677040475919,
+  "lastUpdate": 1677041480875,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1793,6 +1793,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 280243311,
             "range": "± 3593114",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3b395ff18986e4108446f53f8c5ae33cd05fac2",
+          "message": "feat: add catch_unwind panic handling strategy (#1933)",
+          "timestamp": "2023-02-22T12:42:59+08:00",
+          "tree_id": "b2e6e0392a1dc3ea0b8f97ac6e5654d4b59f7206",
+          "url": "https://github.com/modern-js-dev/rspack/commit/c3b395ff18986e4108446f53f8c5ae33cd05fac2"
+        },
+        "date": 1677041478246,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 305431750,
+            "range": "± 3213832",
             "unit": "ns/iter"
           }
         ]
