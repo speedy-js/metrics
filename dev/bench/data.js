@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677036138096,
+  "lastUpdate": 1677040475919,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1763,6 +1763,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 281302353,
             "range": "± 3277729",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b5555ee1ea80de9c7c588d9c54db0fd82b5e72c",
+          "message": "refactor: refactor builtins.preset_env option (#1919)\n\nrefactor: refactor preset-env option\r\n\r\nCo-authored-by: fengyu.shelby <fengyu.shelby@bytedance.com>",
+          "timestamp": "2023-02-22T12:29:35+08:00",
+          "tree_id": "7623b84bd604db6adce7870449a6384ff6d97b57",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6b5555ee1ea80de9c7c588d9c54db0fd82b5e72c"
+        },
+        "date": 1677040472510,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 280243311,
+            "range": "± 3593114",
             "unit": "ns/iter"
           }
         ]
