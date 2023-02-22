@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677067238370,
+  "lastUpdate": 1677070237194,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -1973,6 +1973,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 294624284,
             "range": "± 5394357",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6131bb8c520a6527adde615cff5af2f12f23ee9",
+          "message": "chore: add rspack_fs feature (#1943)\n\nchore: 🤖 iniit",
+          "timestamp": "2023-02-22T20:45:23+08:00",
+          "tree_id": "6c558e74b13e5064e3c641f7f9217fefa3b0ee4d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/a6131bb8c520a6527adde615cff5af2f12f23ee9"
+        },
+        "date": 1677070232050,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 294229904,
+            "range": "± 5314554",
             "unit": "ns/iter"
           }
         ]
