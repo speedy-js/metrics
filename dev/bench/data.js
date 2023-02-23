@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677130181949,
+  "lastUpdate": 1677131168501,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2123,6 +2123,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 293213339,
             "range": "± 5341132",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a22149e98a9abb36bd90b939a89dc12520d534d2",
+          "message": "fix: css modules hash leading digits (#1946)",
+          "timestamp": "2023-02-23T13:41:48+08:00",
+          "tree_id": "d5f50b104457b662b58323e6e0e407aa74f896c9",
+          "url": "https://github.com/modern-js-dev/rspack/commit/a22149e98a9abb36bd90b939a89dc12520d534d2"
+        },
+        "date": 1677131165596,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 323969616,
+            "range": "± 4930207",
             "unit": "ns/iter"
           }
         ]
