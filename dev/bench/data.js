@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677119654330,
+  "lastUpdate": 1677123729543,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2033,6 +2033,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 292998599,
             "range": "± 5435675",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c22915b71d791bed63579646e520aa7636c79c5",
+          "message": "feat: context module shouldn't do tree shaking (#1937)",
+          "timestamp": "2023-02-23T11:38:16+08:00",
+          "tree_id": "548ec17f8513fbf1dc4ac8291f7bfec712259ec8",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6c22915b71d791bed63579646e520aa7636c79c5"
+        },
+        "date": 1677123724423,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 312400314,
+            "range": "± 5615535",
             "unit": "ns/iter"
           }
         ]
