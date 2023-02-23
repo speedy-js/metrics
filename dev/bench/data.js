@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677142158002,
+  "lastUpdate": 1677145202326,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2243,6 +2243,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 325159495,
             "range": "± 5146682",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "537b447fa288dd2c6e50aa96985bddbf24974199",
+          "message": "chore: add comments, improve readability and remove clone in treeShaking (#1950)\n\n* chore: Add comments and remove clone in treeShaking\r\n\r\n* stress string literal\r\n\r\n* Fix comment",
+          "timestamp": "2023-02-23T17:35:30+08:00",
+          "tree_id": "d09b0c03ea12503e6fca4fdb727862b34badac5e",
+          "url": "https://github.com/modern-js-dev/rspack/commit/537b447fa288dd2c6e50aa96985bddbf24974199"
+        },
+        "date": 1677145198099,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 311859360,
+            "range": "± 4875131",
             "unit": "ns/iter"
           }
         ]
