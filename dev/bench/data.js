@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677156010163,
+  "lastUpdate": 1677156267868,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2303,6 +2303,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 293109583,
             "range": "± 4923087",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7e9214ea9aee7e9cf091eddbbb490886dfa235e",
+          "message": "fix: potential toplevel mark (#1959)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 cr issue",
+          "timestamp": "2023-02-23T20:31:11+08:00",
+          "tree_id": "015476e5c948d861eb5e255fef18996529e1febe",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b7e9214ea9aee7e9cf091eddbbb490886dfa235e"
+        },
+        "date": 1677156259519,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 295471630,
+            "range": "± 4466322",
             "unit": "ns/iter"
           }
         ]
