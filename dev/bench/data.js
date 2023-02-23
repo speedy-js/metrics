@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677131168501,
+  "lastUpdate": 1677131830938,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2153,6 +2153,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 323969616,
             "range": "± 4930207",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dea500c8363cf8efd9cc5537556898fb2e56035a",
+          "message": "fix: align output.path with webpack (#1949)\n\n* chore: do not initialize output dir ahead\r\n\r\n* fix: align output.path with webpack\r\n\r\n* test: make test as expected\r\n\r\n* chore: clippy",
+          "timestamp": "2023-02-23T13:48:47+08:00",
+          "tree_id": "699845aa7db2dda7121f75e914bb093ee770bc20",
+          "url": "https://github.com/modern-js-dev/rspack/commit/dea500c8363cf8efd9cc5537556898fb2e56035a"
+        },
+        "date": 1677131827301,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293759753,
+            "range": "± 4867111",
             "unit": "ns/iter"
           }
         ]
