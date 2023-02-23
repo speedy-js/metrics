@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677161005745,
+  "lastUpdate": 1677170908346,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2393,6 +2393,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 295621672,
             "range": "± 5491577",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e74edbb8a68c35412499ea305baf261b222aa34",
+          "message": "chore: move tsfn to napi shared (#1955)\n\n* chore: move tsfn to napi shared\r\n\r\n* fix: resolver",
+          "timestamp": "2023-02-24T00:38:32+08:00",
+          "tree_id": "a4cedfc10864c21df522cb49eabd79ec2737c857",
+          "url": "https://github.com/modern-js-dev/rspack/commit/1e74edbb8a68c35412499ea305baf261b222aa34"
+        },
+        "date": 1677170888990,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 313534162,
+            "range": "± 4586220",
             "unit": "ns/iter"
           }
         ]
