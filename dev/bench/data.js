@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677156267868,
+  "lastUpdate": 1677158453664,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2333,6 +2333,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 295471630,
             "range": "± 4466322",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a32fb1d1215ada5af0e03d7dcd65c296d08b8deb",
+          "message": "fix: 🐛 don't override process.env.NODE_ENV if it is set already. (#1962)\n\nfix: 🐛 env",
+          "timestamp": "2023-02-23T21:16:16+08:00",
+          "tree_id": "35a46fbf910fbc8c280cd2fd7bc8e5b88d172ec6",
+          "url": "https://github.com/modern-js-dev/rspack/commit/a32fb1d1215ada5af0e03d7dcd65c296d08b8deb"
+        },
+        "date": 1677158440927,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 294634787,
+            "range": "± 5126751",
             "unit": "ns/iter"
           }
         ]
