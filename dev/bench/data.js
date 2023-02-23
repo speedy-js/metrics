@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677145202326,
+  "lastUpdate": 1677156010163,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2273,6 +2273,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 311859360,
             "range": "± 4875131",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d21876a53eed49f7f8762b521d099b8ff4d836dc",
+          "message": "chore: 🤖 move basic threejs to benchcases dir (#1961)\n\nchore: 🤖 move basic threejs",
+          "timestamp": "2023-02-23T20:30:54+08:00",
+          "tree_id": "e5b3c9050527c443d8a9263b4e3a28f56633d8e3",
+          "url": "https://github.com/modern-js-dev/rspack/commit/d21876a53eed49f7f8762b521d099b8ff4d836dc"
+        },
+        "date": 1677156006723,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293109583,
+            "range": "± 4923087",
             "unit": "ns/iter"
           }
         ]
