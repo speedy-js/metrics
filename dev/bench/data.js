@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677070237194,
+  "lastUpdate": 1677119654330,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2003,6 +2003,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 294229904,
             "range": "± 5314554",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Ah",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "209d879b80711419654a7df7dd727415e3feffbe",
+          "message": "feat: minify error recovery (#1935)",
+          "timestamp": "2023-02-23T10:29:23+08:00",
+          "tree_id": "8f1c1b03090211042b9d50a8eb70d37b3329dbcc",
+          "url": "https://github.com/modern-js-dev/rspack/commit/209d879b80711419654a7df7dd727415e3feffbe"
+        },
+        "date": 1677119651722,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 292998599,
+            "range": "± 5435675",
             "unit": "ns/iter"
           }
         ]
