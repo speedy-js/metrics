@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677133282157,
+  "lastUpdate": 1677142158002,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2213,6 +2213,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 294345411,
             "range": "± 5845843",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3cc27e32ac492eeb2113ce045349143f7c0b0ef3",
+          "message": "feat: add publicPath on stats (#1953)",
+          "timestamp": "2023-02-23T16:42:33+08:00",
+          "tree_id": "15a7b58977bb4db1a08c9ac1db53b72d3af45ccf",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3cc27e32ac492eeb2113ce045349143f7c0b0ef3"
+        },
+        "date": 1677142152775,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 325159495,
+            "range": "± 5146682",
             "unit": "ns/iter"
           }
         ]
