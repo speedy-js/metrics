@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677158453664,
+  "lastUpdate": 1677161005745,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2363,6 +2363,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 294634787,
             "range": "± 5126751",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c456aed7e50c8af395b11ed7d2b67163e3c2ef10",
+          "message": "fix: use poll default for watching (#1960)",
+          "timestamp": "2023-02-23T21:59:04+08:00",
+          "tree_id": "9b891a22b21c0f9040a8ebee4b1185904fa16b63",
+          "url": "https://github.com/modern-js-dev/rspack/commit/c456aed7e50c8af395b11ed7d2b67163e3c2ef10"
+        },
+        "date": 1677160985256,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 295621672,
+            "range": "± 5491577",
             "unit": "ns/iter"
           }
         ]
