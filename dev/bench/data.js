@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677123729543,
+  "lastUpdate": 1677128694509,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2063,6 +2063,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 312400314,
             "range": "± 5615535",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdd1e9e2d4cfe77056db1cccfa6c060b0ca6c2fa",
+          "message": "docs: add README for every package (#1947)\n\n* docs: add README for every packages\r\n\r\n* docs: add more links to README\r\n\r\n* docs: update table",
+          "timestamp": "2023-02-23T13:00:48+08:00",
+          "tree_id": "46bf35deb6defda156f5b6c49544d3568dd152ae",
+          "url": "https://github.com/modern-js-dev/rspack/commit/fdd1e9e2d4cfe77056db1cccfa6c060b0ca6c2fa"
+        },
+        "date": 1677128691514,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 312949647,
+            "range": "± 4696122",
             "unit": "ns/iter"
           }
         ]
