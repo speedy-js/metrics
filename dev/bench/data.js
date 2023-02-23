@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677128694509,
+  "lastUpdate": 1677130181949,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2093,6 +2093,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 312949647,
             "range": "± 4696122",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0762c140a4e6824314442a4a8656552896ce681",
+          "message": "fix: multiply compiler watching (#1942)",
+          "timestamp": "2023-02-23T13:25:57+08:00",
+          "tree_id": "7bd7623d67bc9772a5986f57cad5f0de18ac2bc7",
+          "url": "https://github.com/modern-js-dev/rspack/commit/e0762c140a4e6824314442a4a8656552896ce681"
+        },
+        "date": 1677130179182,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293213339,
+            "range": "± 5341132",
             "unit": "ns/iter"
           }
         ]
