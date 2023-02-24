@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677170908346,
+  "lastUpdate": 1677205820791,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2423,6 +2423,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 313534162,
             "range": "± 4586220",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jingkai.zhao@foxmail.com",
+            "name": "zjk",
+            "username": "jkzing"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b061b7438a3d9c534f1bf374066b46be559dd7bb",
+          "message": "feat: remove unnecessary webpack and webpack-dev-server deps (#1954)\n\n* feat: remove unnecessary webpack and webpack-dev-server deps\r\n\r\n* chore: add changeset\r\n\r\n* chore: update lockfile",
+          "timestamp": "2023-02-24T10:26:32+08:00",
+          "tree_id": "77df68563e84612807e14b9a1b736c33d2081264",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b061b7438a3d9c534f1bf374066b46be559dd7bb"
+        },
+        "date": 1677205818095,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 308591870,
+            "range": "± 4963000",
             "unit": "ns/iter"
           }
         ]
