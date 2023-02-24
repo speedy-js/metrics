@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677214249744,
+  "lastUpdate": 1677221014667,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2483,6 +2483,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 309972214,
             "range": "± 5527011",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4d3f948ae785e289878defce19570ceebb938bbb",
+          "message": "feat: use memfs in rspack dev middleware (#1944)",
+          "timestamp": "2023-02-24T14:39:12+08:00",
+          "tree_id": "52710406f8c0facf936673416d6226a4cf44a1ce",
+          "url": "https://github.com/modern-js-dev/rspack/commit/4d3f948ae785e289878defce19570ceebb938bbb"
+        },
+        "date": 1677221009455,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293647541,
+            "range": "± 4885395",
             "unit": "ns/iter"
           }
         ]
