@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677221014667,
+  "lastUpdate": 1677223691233,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2513,6 +2513,42 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 293647541,
             "range": "± 4885395",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e20fc07e6c6c2228af0318fd9fed01a8f0d43e56",
+          "message": "ci: 🎡 fix ci tee reset exit code (#1965)",
+          "timestamp": "2023-02-24T15:16:01+08:00",
+          "tree_id": "c844d623d9a73d698079185691cd506696f63015",
+          "url": "https://github.com/modern-js-dev/rspack/commit/e20fc07e6c6c2228af0318fd9fed01a8f0d43e56"
+        },
+        "date": 1677223680960,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291880437,
+            "range": "± 5344325",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4124094641,
+            "range": "± 18485955",
             "unit": "ns/iter"
           }
         ]
