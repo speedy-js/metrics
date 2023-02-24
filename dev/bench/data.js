@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677205820791,
+  "lastUpdate": 1677214249744,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2453,6 +2453,36 @@ window.BENCHMARK_DATA = {
             "name": "criterion_benchmark/ten_copy_of_threejs",
             "value": 308591870,
             "range": "± 4963000",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "58b77bafcb2cb63f96b07d38e892c33599146880",
+          "message": "feat: add plugin import (#1957)\n\n* feat: add plugin import\r\n\r\n* feat: add plugin-import case test",
+          "timestamp": "2023-02-24T12:45:55+08:00",
+          "tree_id": "90b4050f98e852ae2a671cdcf09079a8a459e4c0",
+          "url": "https://github.com/modern-js-dev/rspack/commit/58b77bafcb2cb63f96b07d38e892c33599146880"
+        },
+        "date": 1677214247191,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 309972214,
+            "range": "± 5527011",
             "unit": "ns/iter"
           }
         ]
