@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677427243263,
+  "lastUpdate": 1677429271417,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2801,6 +2801,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4390265404,
             "range": "± 15520323",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjian.fe@bytedance.com",
+            "name": "yangjian.fe",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "bb21c62a27c2d73a8a162ea42baa3c610a0a85e3",
+          "message": "chore: fix html index fallback",
+          "timestamp": "2023-02-27T00:19:32+08:00",
+          "tree_id": "41b8911c875dd71a8567badbac8d35dbc2520647",
+          "url": "https://github.com/modern-js-dev/rspack/commit/bb21c62a27c2d73a8a162ea42baa3c610a0a85e3"
+        },
+        "date": 1677429248743,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 294224618,
+            "range": "± 5917561",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4183123812,
+            "range": "± 25937337",
             "unit": "ns/iter"
           }
         ]
