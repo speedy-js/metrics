@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677412658414,
+  "lastUpdate": 1677413162111,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2693,6 +2693,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4517215123,
             "range": "± 25578715",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "090bac7b8cb6b14fae2a1d69847f44e4e43d1ba0",
+          "message": "fix: hmr changed_files missing (#1972)",
+          "timestamp": "2023-02-26T19:46:52+08:00",
+          "tree_id": "92586c26b90785d8b53a3c8a5231111e067658d1",
+          "url": "https://github.com/modern-js-dev/rspack/commit/090bac7b8cb6b14fae2a1d69847f44e4e43d1ba0"
+        },
+        "date": 1677413159412,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 296802655,
+            "range": "± 6388846",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4184177542,
+            "range": "± 25481853",
             "unit": "ns/iter"
           }
         ]
