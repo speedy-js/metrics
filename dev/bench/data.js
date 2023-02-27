@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677511196019,
+  "lastUpdate": 1677511814672,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3341,6 +3341,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4180338029,
             "range": "± 24391970",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zoolsher@gmail.com",
+            "name": "zoolsher",
+            "username": "zoolsher"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "d010600984567e632209712212f3b7c40183f28d",
+          "message": "chore: add code of conduct to chinese readme",
+          "timestamp": "2023-02-27T23:11:00+08:00",
+          "tree_id": "a1d5476022f2a922cc9ab790abc301245c28b87c",
+          "url": "https://github.com/modern-js-dev/rspack/commit/d010600984567e632209712212f3b7c40183f28d"
+        },
+        "date": 1677511811894,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 296693816,
+            "range": "± 5653754",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4180014366,
+            "range": "± 27970139",
             "unit": "ns/iter"
           }
         ]
