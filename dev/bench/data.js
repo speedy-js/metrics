@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677488567531,
+  "lastUpdate": 1677490610850,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3125,6 +3125,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4515517751,
             "range": "± 26628461",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3495d3d7267c67dd0e5e9cdee81442ecde182af0",
+          "message": "feat: add stats.namedChunkGroups (#1984)",
+          "timestamp": "2023-02-27T17:27:09+08:00",
+          "tree_id": "3f52572e52ad51d68feff3279ed4d14dae9b1dc1",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3495d3d7267c67dd0e5e9cdee81442ecde182af0"
+        },
+        "date": 1677490605636,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 305313404,
+            "range": "± 5920934",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4303622737,
+            "range": "± 24636889",
             "unit": "ns/iter"
           }
         ]
