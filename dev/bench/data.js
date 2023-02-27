@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677507671983,
+  "lastUpdate": 1677509264903,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3269,6 +3269,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4411688874,
             "range": "± 27207552",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f42456856ddbcd7fab1ef98236d43761ffc8fef",
+          "message": "refactor: use Result instead of panic in ast-viewer (#1988)",
+          "timestamp": "2023-02-27T22:38:13+08:00",
+          "tree_id": "356ad68f89c0d720e288265b55a773c822c97482",
+          "url": "https://github.com/modern-js-dev/rspack/commit/1f42456856ddbcd7fab1ef98236d43761ffc8fef"
+        },
+        "date": 1677509261848,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 297567148,
+            "range": "± 6300750",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4185780027,
+            "range": "± 28888081",
             "unit": "ns/iter"
           }
         ]
