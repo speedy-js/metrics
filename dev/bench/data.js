@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677464283042,
+  "lastUpdate": 1677466228266,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2873,6 +2873,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4177944861,
             "range": "± 30490782",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "83ba717303c42dc2047721aaecda049be471434b",
+          "message": "fix: rename rspack_require to webpack_require in external",
+          "timestamp": "2023-02-27T10:41:48+08:00",
+          "tree_id": "2c568b3a8c000468b260f29f74491de89610a48d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/83ba717303c42dc2047721aaecda049be471434b"
+        },
+        "date": 1677466225161,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319143743,
+            "range": "± 6045398",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4459660845,
+            "range": "± 24783393",
             "unit": "ns/iter"
           }
         ]
