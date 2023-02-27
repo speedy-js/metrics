@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677503158051,
+  "lastUpdate": 1677507671983,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3233,6 +3233,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4176976336,
             "range": "± 29223200",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lynweklm@gmail.com",
+            "name": "LongYinan",
+            "username": "Brooooooklyn"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "412415947e43d5e7bc322d530689922c67e0b605",
+          "message": "chore(binding): minor cleanup (#1989)",
+          "timestamp": "2023-02-27T21:59:12+08:00",
+          "tree_id": "f29f1e12a33d53369f23bbfd928e7e6d95441014",
+          "url": "https://github.com/modern-js-dev/rspack/commit/412415947e43d5e7bc322d530689922c67e0b605"
+        },
+        "date": 1677507666738,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 313458198,
+            "range": "± 6380991",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4411688874,
+            "range": "± 27207552",
             "unit": "ns/iter"
           }
         ]
