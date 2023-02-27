@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677477657243,
+  "lastUpdate": 1677479744485,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -2945,6 +2945,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4167631485,
             "range": "± 26233659",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c757270c61fe6b14fc53b45aa8fafcd4b08d108",
+          "message": "feat: enable removeAvailableModules by default (#1979)",
+          "timestamp": "2023-02-27T14:25:08+08:00",
+          "tree_id": "877d86e44506bb04e8abf4ee09c8c0cbcb76a667",
+          "url": "https://github.com/modern-js-dev/rspack/commit/9c757270c61fe6b14fc53b45aa8fafcd4b08d108"
+        },
+        "date": 1677479741735,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 296038684,
+            "range": "± 5941965",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4171978114,
+            "range": "± 26315332",
             "unit": "ns/iter"
           }
         ]
