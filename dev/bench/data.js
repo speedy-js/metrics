@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677584861628,
+  "lastUpdate": 1677587626201,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3701,6 +3701,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4190119963,
             "range": "± 29791773",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6316c28e7b07dd3a309e455844e2d2c61624b3e3",
+          "message": "feat: add swc relay plugin (#1997)",
+          "timestamp": "2023-02-28T20:21:00+08:00",
+          "tree_id": "18ef0c4b81e228872a1e05625be705459d96079d",
+          "url": "https://github.com/modern-js-dev/rspack/commit/6316c28e7b07dd3a309e455844e2d2c61624b3e3"
+        },
+        "date": 1677587623236,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 292121703,
+            "range": "± 6307543",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4189585711,
+            "range": "± 28100441",
             "unit": "ns/iter"
           }
         ]
