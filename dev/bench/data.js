@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677515469362,
+  "lastUpdate": 1677561721136,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3413,6 +3413,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4184627704,
             "range": "± 24025463",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "24fdca2ae39fe5278b56412220ed44be3b9a3fcb",
+          "message": "refactor: use const dependency for module api replacement (#1986)",
+          "timestamp": "2023-02-28T13:11:59+08:00",
+          "tree_id": "64da20294a69967bf1421e896e6b4e8b944d85ab",
+          "url": "https://github.com/modern-js-dev/rspack/commit/24fdca2ae39fe5278b56412220ed44be3b9a3fcb"
+        },
+        "date": 1677561718732,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319195963,
+            "range": "± 7015413",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4494487458,
+            "range": "± 25029163",
             "unit": "ns/iter"
           }
         ]
