@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677583170907,
+  "lastUpdate": 1677583691274,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3593,6 +3593,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4402262464,
             "range": "± 26556293",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "d7302df18817d45af5a4ece7a85f8030a240823d",
+          "message": "fix: use `require` in node external",
+          "timestamp": "2023-02-28T19:06:37+08:00",
+          "tree_id": "9dd3b4b998e4dd0a39ef34b3a4dbc2d71a50745f",
+          "url": "https://github.com/modern-js-dev/rspack/commit/d7302df18817d45af5a4ece7a85f8030a240823d"
+        },
+        "date": 1677583688659,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 310680476,
+            "range": "± 5477708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4394645845,
+            "range": "± 31341416",
             "unit": "ns/iter"
           }
         ]
