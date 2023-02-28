@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677561721136,
+  "lastUpdate": 1677566552840,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3449,6 +3449,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4494487458,
             "range": "± 25029163",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "41c69b42fca049781d4b00483a8a908903b79e51",
+          "message": "perf: create hash parallel (#1993)",
+          "timestamp": "2023-02-28T14:20:34+08:00",
+          "tree_id": "56cc078e7b8104f9bfef368c9543c87eb9b46035",
+          "url": "https://github.com/modern-js-dev/rspack/commit/41c69b42fca049781d4b00483a8a908903b79e51"
+        },
+        "date": 1677566550154,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293919450,
+            "range": "± 5616721",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4198800103,
+            "range": "± 21024593",
             "unit": "ns/iter"
           }
         ]
