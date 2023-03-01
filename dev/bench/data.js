@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677680878633,
+  "lastUpdate": 1677684226017,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4277,6 +4277,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4131436569,
             "range": "± 18229891",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zackarychapple30@gmail.com",
+            "name": "zackarychapple",
+            "username": "zackarychapple"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "4abf940b567c1c424a9cfc0d7d30a2708b022f65",
+          "message": "fix: removing missed webpack items in package.json",
+          "timestamp": "2023-03-01T23:05:31+08:00",
+          "tree_id": "849dfac2aa3bbcc5e7ca6e414bdb198df358d54f",
+          "url": "https://github.com/modern-js-dev/rspack/commit/4abf940b567c1c424a9cfc0d7d30a2708b022f65"
+        },
+        "date": 1677684222936,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319894561,
+            "range": "± 4876577",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4460361630,
+            "range": "± 20921735",
             "unit": "ns/iter"
           }
         ]
