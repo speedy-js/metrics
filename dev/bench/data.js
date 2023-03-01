@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677672334309,
+  "lastUpdate": 1677673798280,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4133,6 +4133,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4136781005,
             "range": "± 19012187",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "d705017ec8059769c75d60c56a91419ca76b92fa",
+          "message": "docs: fix typo",
+          "timestamp": "2023-03-01T20:15:49+08:00",
+          "tree_id": "25bbd7224e227015898ba96357c45d46dbf82b33",
+          "url": "https://github.com/modern-js-dev/rspack/commit/d705017ec8059769c75d60c56a91419ca76b92fa"
+        },
+        "date": 1677673795786,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 290548555,
+            "range": "± 4934401",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4129853739,
+            "range": "± 18504166",
             "unit": "ns/iter"
           }
         ]
