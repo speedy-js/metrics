@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677673798280,
+  "lastUpdate": 1677674681618,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4169,6 +4169,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4129853739,
             "range": "± 18504166",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8231abd38677276576e45042f01c23e72b24a23",
+          "message": "perf: optimizeChunkModules auto skip (#2013)",
+          "timestamp": "2023-03-01T20:35:34+08:00",
+          "tree_id": "59b55f739e46c27955cda709d8487853f8c77275",
+          "url": "https://github.com/modern-js-dev/rspack/commit/b8231abd38677276576e45042f01c23e72b24a23"
+        },
+        "date": 1677674678818,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 289410962,
+            "range": "± 4015433",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4131105858,
+            "range": "± 17460342",
             "unit": "ns/iter"
           }
         ]
