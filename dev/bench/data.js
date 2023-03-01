@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677666277239,
+  "lastUpdate": 1677669499611,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4025,6 +4025,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4459504047,
             "range": "± 14569318",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3431411186746651a60c3f77da6b5b8d9861800c",
+          "message": "chore: fix bundle-stats ci (#2011)",
+          "timestamp": "2023-03-01T19:04:56+08:00",
+          "tree_id": "bb0868ddacd41b3cdb33a6a8af54ffdc665b3e8e",
+          "url": "https://github.com/modern-js-dev/rspack/commit/3431411186746651a60c3f77da6b5b8d9861800c"
+        },
+        "date": 1677669497005,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 308540408,
+            "range": "± 4690247",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4344192886,
+            "range": "± 18783387",
             "unit": "ns/iter"
           }
         ]
