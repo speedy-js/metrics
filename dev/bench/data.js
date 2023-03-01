@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677632141472,
+  "lastUpdate": 1677640211717,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3773,6 +3773,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4192098244,
             "range": "± 27871575",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "39261479+sanyuan0704@users.noreply.github.com",
+            "name": "yangxingyuan",
+            "username": "sanyuan0704"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50abd9d6b74b81ae2784b16a353f784b8e6c97d2",
+          "message": "chore: optimize readme (#2004)",
+          "timestamp": "2023-03-01T10:57:09+08:00",
+          "tree_id": "d3e3bfc0dc35a0acf58aff5218e1a3550a7f1af8",
+          "url": "https://github.com/modern-js-dev/rspack/commit/50abd9d6b74b81ae2784b16a353f784b8e6c97d2"
+        },
+        "date": 1677640208234,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291322798,
+            "range": "± 5189324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4175273371,
+            "range": "± 23583820",
             "unit": "ns/iter"
           }
         ]
