@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677640211717,
+  "lastUpdate": 1677640712718,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3809,6 +3809,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4175273371,
             "range": "± 23583820",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "39261479+sanyuan0704@users.noreply.github.com",
+            "name": "yangxingyuan",
+            "username": "sanyuan0704"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c823c8a6b40c31950cb36f06d8ff5afed693d39",
+          "message": "chore: production optimization description (#2005)\n\n* chore: optimize readme\r\n\r\n* chore: production optimization description",
+          "timestamp": "2023-03-01T11:03:12+08:00",
+          "tree_id": "5b79a8c50eb6cae932d64e186607f5e674986883",
+          "url": "https://github.com/modern-js-dev/rspack/commit/1c823c8a6b40c31950cb36f06d8ff5afed693d39"
+        },
+        "date": 1677640709655,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 292918937,
+            "range": "± 10099213",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4183356262,
+            "range": "± 26781132",
             "unit": "ns/iter"
           }
         ]
