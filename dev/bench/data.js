@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677662195624,
+  "lastUpdate": 1677662753105,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -3917,6 +3917,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4471728100,
             "range": "± 20411519",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "200a44a6c7ceaf3f86b1a97e3332f25efbbd11ce",
+          "message": "fix: remove module_type assertion by ext (#1999)",
+          "timestamp": "2023-03-01T17:02:59+08:00",
+          "tree_id": "d6ee0d51fe17d75e60a726a7e7bf99a6db7d30d4",
+          "url": "https://github.com/modern-js-dev/rspack/commit/200a44a6c7ceaf3f86b1a97e3332f25efbbd11ce"
+        },
+        "date": 1677662750334,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291056660,
+            "range": "± 4618360",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4130903534,
+            "range": "± 15619326",
             "unit": "ns/iter"
           }
         ]
