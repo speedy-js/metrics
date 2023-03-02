@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677756170971,
+  "lastUpdate": 1677763524154,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4673,6 +4673,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4135673871,
             "range": "± 21085938",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "723da3b17261dfc89a5e00649179602ccddc2324",
+          "message": "perf: auto skip js hooks (#2031)\n\n* perf: auto skip js hooks\r\n\r\n* fix: ci release all platform snapshot\r\n\r\n* fix: update disabled hooks after call hooks",
+          "timestamp": "2023-03-02T21:14:15+08:00",
+          "tree_id": "ee9381a2845ac03fe60206b71bb88fa19e3f7816",
+          "url": "https://github.com/modern-js-dev/rspack/commit/723da3b17261dfc89a5e00649179602ccddc2324"
+        },
+        "date": 1677763517617,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291337871,
+            "range": "± 4706509",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4149384173,
+            "range": "± 16246996",
             "unit": "ns/iter"
           }
         ]
