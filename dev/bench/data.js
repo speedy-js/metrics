@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677747402142,
+  "lastUpdate": 1677754056413,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4601,6 +4601,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4149008606,
             "range": "± 20510069",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74574850a9ffb4d1bead52091c2e20facc69a1d5",
+          "message": "feat: assign library plugin (#2028)",
+          "timestamp": "2023-03-02T18:39:00+08:00",
+          "tree_id": "81c38d22c8b5acaba41e3bccedbe6f176ed1a630",
+          "url": "https://github.com/modern-js-dev/rspack/commit/74574850a9ffb4d1bead52091c2e20facc69a1d5"
+        },
+        "date": 1677754053830,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 310020070,
+            "range": "± 4698221",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4356882629,
+            "range": "± 16483155",
             "unit": "ns/iter"
           }
         ]
