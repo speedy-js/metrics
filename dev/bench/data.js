@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677734417551,
+  "lastUpdate": 1677736654465,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4457,6 +4457,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4138355597,
             "range": "± 16822157",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caohuilin9588@foxmail.com",
+            "name": "Belinda Cao",
+            "username": "caohuilin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d581d1c240294af22bf4326b738bbb1c2570e272",
+          "message": "feat: create release pull request and release action (#2024)\n\n* feat: release action\r\n\r\n* feat: build\r\n\r\n* fix: version name\r\n\r\n* feat: write comment\r\n\r\n* feat: update release contributing",
+          "timestamp": "2023-03-02T13:49:20+08:00",
+          "tree_id": "cd46852c2f60bcc7b642b5470b772b64b0a747b2",
+          "url": "https://github.com/modern-js-dev/rspack/commit/d581d1c240294af22bf4326b738bbb1c2570e272"
+        },
+        "date": 1677736651418,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 307532370,
+            "range": "± 4968656",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4336544903,
+            "range": "± 20031898",
             "unit": "ns/iter"
           }
         ]
