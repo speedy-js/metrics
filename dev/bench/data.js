@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677723660286,
+  "lastUpdate": 1677734417551,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4421,6 +4421,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4471594530,
             "range": "± 20691950",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ldh71777@gmail.com",
+            "name": "kyli",
+            "username": "KyrieLii"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "06d406cf63acc9a179020b640070328e46797ead",
+          "message": "docs: update contributing guide (#2026)\n\n* docs: update contributing\r\n\r\n* docs: update node package test",
+          "timestamp": "2023-03-02T13:11:07+08:00",
+          "tree_id": "27285688ce856e177ec123275035f1f158c97402",
+          "url": "https://github.com/modern-js-dev/rspack/commit/06d406cf63acc9a179020b640070328e46797ead"
+        },
+        "date": 1677734414658,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 289305634,
+            "range": "± 4417853",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4138355597,
+            "range": "± 16822157",
             "unit": "ns/iter"
           }
         ]
