@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677737799924,
+  "lastUpdate": 1677742901675,
   "repoUrl": "https://github.com/modern-js-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4529,6 +4529,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4140427001,
             "range": "± 21068625",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "64d3c423cc9295a3677e522afc42b21cc17beb98",
+          "message": "feat: support overlay (#2016)\n\n* feat: support overlay\r\n\r\n* refacotr: clean dev-server\r\n\r\n* refactor: use webpack/hot/devServer",
+          "timestamp": "2023-03-02T15:28:53+08:00",
+          "tree_id": "5c514dfe8d61be2db89be7edfd6047cf1979ccdd",
+          "url": "https://github.com/modern-js-dev/rspack/commit/64d3c423cc9295a3677e522afc42b21cc17beb98"
+        },
+        "date": 1677742896162,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 289719902,
+            "range": "± 4336878",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4126554404,
+            "range": "± 19898481",
             "unit": "ns/iter"
           }
         ]
