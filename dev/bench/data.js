@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677858313616,
+  "lastUpdate": 1677861769940,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5069,6 +5069,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4131965071,
             "range": "± 20502814",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "629e10b4f10d91e65a29a7db4e3507690377f8fb",
+          "message": "fix: show codeframe for minify error (#2046)",
+          "timestamp": "2023-03-04T00:33:13+08:00",
+          "tree_id": "34e8d91131495164cc8b6176ea0dcea699c35c90",
+          "url": "https://github.com/web-infra-dev/rspack/commit/629e10b4f10d91e65a29a7db4e3507690377f8fb"
+        },
+        "date": 1677861751057,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321252759,
+            "range": "± 5103681",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4467195358,
+            "range": "± 33553945",
             "unit": "ns/iter"
           }
         ]
