@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677763524154,
-  "repoUrl": "https://github.com/modern-js-dev/rspack",
+  "lastUpdate": 1677810087877,
+  "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
       {
@@ -4709,6 +4709,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4149384173,
             "range": "± 16246996",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "94b75709adb7ec2494ae93816e3dbe534dbc1b05",
+          "message": "fix: make `overlay: false` work",
+          "timestamp": "2023-03-03T10:06:37+08:00",
+          "tree_id": "be6817085a8fc071eb982bf39a5b1f861fa6557f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/94b75709adb7ec2494ae93816e3dbe534dbc1b05"
+        },
+        "date": 1677810084559,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291948571,
+            "range": "± 4553860",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4154112362,
+            "range": "± 18466425",
             "unit": "ns/iter"
           }
         ]
