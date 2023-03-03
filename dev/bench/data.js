@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677827095959,
+  "lastUpdate": 1677830714108,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4889,6 +4889,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4489033991,
             "range": "± 21608991",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "b59c1d4690af97eb44b7f6761962517bd6700bc3",
+          "message": "fix: set overlay.warning is false when use cli server",
+          "timestamp": "2023-03-03T15:57:07+08:00",
+          "tree_id": "32c321c2d237ddb2a8397d0dca26e95ebbe4d1d4",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b59c1d4690af97eb44b7f6761962517bd6700bc3"
+        },
+        "date": 1677830711056,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 290987400,
+            "range": "± 5390495",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4142555549,
+            "range": "± 19605046",
             "unit": "ns/iter"
           }
         ]
