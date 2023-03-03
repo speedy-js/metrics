@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677810087877,
+  "lastUpdate": 1677810602637,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -4745,6 +4745,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4154112362,
             "range": "± 18466425",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "6d29a2014e239dc34b736f926de749d779a141c0",
+          "message": "ci: use the concurrency feature for canceling jobs",
+          "timestamp": "2023-03-03T10:08:24+08:00",
+          "tree_id": "8b43caf865f291994f520247ae19a4cbba0fde59",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6d29a2014e239dc34b736f926de749d779a141c0"
+        },
+        "date": 1677810600162,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 309414672,
+            "range": "± 5234570",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4363539207,
+            "range": "± 19128362",
             "unit": "ns/iter"
           }
         ]
