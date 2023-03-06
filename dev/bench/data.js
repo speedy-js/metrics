@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678069713387,
+  "lastUpdate": 1678071591337,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5141,6 +5141,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4357694867,
             "range": "± 21449363",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "610376039@qq.com",
+            "name": "bvanjoi",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "e3f24cddf3cb031ff82d4b23f15f3e12dcb07df4",
+          "message": "fix: fix the sass example",
+          "timestamp": "2023-03-06T10:52:02+08:00",
+          "tree_id": "01234950e47a5f03fec0267bd3ab7e932f7d5b92",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e3f24cddf3cb031ff82d4b23f15f3e12dcb07df4"
+        },
+        "date": 1678071588763,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 289804945,
+            "range": "± 5188434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4159401664,
+            "range": "± 22531082",
             "unit": "ns/iter"
           }
         ]
