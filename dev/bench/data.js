@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678085140608,
+  "lastUpdate": 1678088977414,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5321,6 +5321,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4349496612,
             "range": "± 16268540",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d9e4bfb637de53d641c185097a15548ab95d5cba",
+          "message": "chore: increase sample size (#2059)\n\n* chore: increase sample size\r\n\r\n* chore: 🤖 comment\r\n\r\n* fix: 🐛 lint",
+          "timestamp": "2023-03-06T15:41:47+08:00",
+          "tree_id": "9ddd19ddef0596d657f910cb66150df109a9aec4",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d9e4bfb637de53d641c185097a15548ab95d5cba"
+        },
+        "date": 1678088974899,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 317085469,
+            "range": "± 6499605",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4424709905,
+            "range": "± 27598633",
             "unit": "ns/iter"
           }
         ]
