@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678090469584,
+  "lastUpdate": 1678096271406,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5393,6 +5393,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4478394056,
             "range": "± 30342365",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4deeb6a1c23180a9882efd0afa1a042d9c4112c0",
+          "message": "refactor: remove unnecessary mutex (#2020)\n\nrefactor: remove some unnecessary locks",
+          "timestamp": "2023-03-06T17:43:54+08:00",
+          "tree_id": "b34d526d32b3093d37fddf680feeee55f0f1d394",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4deeb6a1c23180a9882efd0afa1a042d9c4112c0"
+        },
+        "date": 1678096268430,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 289940486,
+            "range": "± 4481324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4126658796,
+            "range": "± 26649096",
             "unit": "ns/iter"
           }
         ]
