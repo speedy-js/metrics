@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677861769940,
+  "lastUpdate": 1678069713387,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5105,6 +5105,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4467195358,
             "range": "± 33553945",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37b257b6a638cc8960fd4625877ee904ad43a963",
+          "message": "ci: run cargo check and deny warnings for check-rs (#2030)\n\nsee https://rust-unofficial.github.io/patterns/anti_patterns/deny-warnings.html#alternatives",
+          "timestamp": "2023-03-06T10:20:22+08:00",
+          "tree_id": "27ba6ca23faa4070daa838c4af9920dc2d291e0d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/37b257b6a638cc8960fd4625877ee904ad43a963"
+        },
+        "date": 1678069710800,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 309114214,
+            "range": "± 5040901",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4357694867,
+            "range": "± 21449363",
             "unit": "ns/iter"
           }
         ]
