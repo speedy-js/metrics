@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678075855181,
+  "lastUpdate": 1678084455195,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5249,6 +5249,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4152538960,
             "range": "± 14999885",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ldh71777@gmail.com",
+            "name": "kyli",
+            "username": "KyrieLii"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20f0fd9ea5daa9f99c4743dae50e1c565d754b4b",
+          "message": "docs: readme npm link (#2057)\n\n* docs: readme npm link\r\n\r\n* feat: modern-js-dev to web-infra-dev",
+          "timestamp": "2023-03-06T14:07:53+08:00",
+          "tree_id": "179b3014229a56d4884d018ccf9bea9722c157ce",
+          "url": "https://github.com/web-infra-dev/rspack/commit/20f0fd9ea5daa9f99c4743dae50e1c565d754b4b"
+        },
+        "date": 1678084452516,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 308771841,
+            "range": "± 4592315",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4362528595,
+            "range": "± 19097847",
             "unit": "ns/iter"
           }
         ]
