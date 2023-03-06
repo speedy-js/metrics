@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678088977414,
+  "lastUpdate": 1678090469584,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5357,6 +5357,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4424709905,
             "range": "± 27598633",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d1dd28b30e6071e4921ece947d99848c4cb867c",
+          "message": "feat: umd library plugin (#2047)",
+          "timestamp": "2023-03-06T16:06:42+08:00",
+          "tree_id": "9260f1ef49cda3304734cd372798e25d80d271d3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0d1dd28b30e6071e4921ece947d99848c4cb867c"
+        },
+        "date": 1678090467087,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321426157,
+            "range": "± 6285559",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4478394056,
+            "range": "± 30342365",
             "unit": "ns/iter"
           }
         ]
