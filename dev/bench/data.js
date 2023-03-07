@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678163556819,
+  "lastUpdate": 1678166247580,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5465,6 +5465,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4130625250,
             "range": "± 26452806",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "215ad454aeef8fcfdd554c8ba06f683ebd3666c9",
+          "message": "chore: poor kids' ship without test",
+          "timestamp": "2023-03-07T13:09:10+08:00",
+          "tree_id": "6d5e24d47194beca98b96b3515678c898b1f063f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/215ad454aeef8fcfdd554c8ba06f683ebd3666c9"
+        },
+        "date": 1678166242373,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320151023,
+            "range": "± 4401351",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4458498231,
+            "range": "± 25740378",
             "unit": "ns/iter"
           }
         ]
