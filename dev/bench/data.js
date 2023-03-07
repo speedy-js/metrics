@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678184722604,
+  "lastUpdate": 1678185764288,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5897,6 +5897,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4341739436,
             "range": "± 27935818",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "distinct": true,
+          "id": "c715c0d9705c66384d59764ac5140bd23aaa79d4",
+          "message": "chore: update auto package release license",
+          "timestamp": "2023-03-07T18:34:41+08:00",
+          "tree_id": "9e96695fae75ad6430c430d596d524fb2d117f0b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c715c0d9705c66384d59764ac5140bd23aaa79d4"
+        },
+        "date": 1678185761544,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 289128884,
+            "range": "± 4158421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4130413843,
+            "range": "± 22910287",
             "unit": "ns/iter"
           }
         ]
