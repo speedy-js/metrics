@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678167930414,
+  "lastUpdate": 1678168390138,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5609,6 +5609,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4335853441,
             "range": "± 30438288",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "distinct": true,
+          "id": "73048f180d4db45fc93f8ab68922f99de4678773",
+          "message": "chore: release setup",
+          "timestamp": "2023-03-07T13:31:49+08:00",
+          "tree_id": "f20ba563051dce1741a5acda672fdca9bfd49f56",
+          "url": "https://github.com/web-infra-dev/rspack/commit/73048f180d4db45fc93f8ab68922f99de4678773"
+        },
+        "date": 1678168387565,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 290062701,
+            "range": "± 4928133",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4133529631,
+            "range": "± 25878782",
             "unit": "ns/iter"
           }
         ]
