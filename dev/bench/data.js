@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678173311021,
+  "lastUpdate": 1678174168600,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5681,6 +5681,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4349173917,
             "range": "± 28676037",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "distinct": true,
+          "id": "e8c897a1e19682f669e260b6c151d03cf99aba54",
+          "message": "chore: disable release workflow on issue comment",
+          "timestamp": "2023-03-07T15:20:32+08:00",
+          "tree_id": "c9e35e071730c62869314bb709969747c8abae26",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e8c897a1e19682f669e260b6c151d03cf99aba54"
+        },
+        "date": 1678174164532,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 307557268,
+            "range": "± 4909001",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4357123572,
+            "range": "± 28594219",
             "unit": "ns/iter"
           }
         ]
