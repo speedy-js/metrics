@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678096271406,
+  "lastUpdate": 1678163556819,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5429,6 +5429,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4126658796,
             "range": "± 26649096",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "72c1f0c9099110563397f24b66526000e16d9972",
+          "message": "feat: use raw options in testing (#2034)",
+          "timestamp": "2023-03-07T12:24:54+08:00",
+          "tree_id": "b627866bb619f39620396903fa91db2fce541f5c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/72c1f0c9099110563397f24b66526000e16d9972"
+        },
+        "date": 1678163554447,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 289818671,
+            "range": "± 4705707",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4130625250,
+            "range": "± 26452806",
             "unit": "ns/iter"
           }
         ]
