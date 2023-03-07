@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678166247580,
+  "lastUpdate": 1678166978439,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5501,6 +5501,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4458498231,
             "range": "± 25740378",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "andywangsy@gmail.com",
+            "name": "h-a-n-a",
+            "username": "h-a-n-a"
+          },
+          "distinct": true,
+          "id": "94b5bd39055e476ff97c2372b0d9e999cc2346a5",
+          "message": "chore: use ubuntu for creating release pr",
+          "timestamp": "2023-03-07T13:21:48+08:00",
+          "tree_id": "2836a9e3b1d5c748af0936967a462fe7ccb3ffc7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/94b5bd39055e476ff97c2372b0d9e999cc2346a5"
+        },
+        "date": 1678166975359,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 290275639,
+            "range": "± 4732122",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4121312836,
+            "range": "± 25518970",
             "unit": "ns/iter"
           }
         ]
