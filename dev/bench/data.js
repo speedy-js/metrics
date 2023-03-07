@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678188068587,
+  "lastUpdate": 1678188533264,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5969,6 +5969,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4222104950,
             "range": "± 24825119",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2230500ad00dcf21c3c8ce7c5cd347e325673278",
+          "message": "fix: rspack function api (#2068)\n\n* fix: rspack function api\r\n\r\n* Update packages/rspack/src/rspack.ts\r\n\r\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>\r\n\r\n* fmt\r\n\r\n---------\r\n\r\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2023-03-07T19:18:51+08:00",
+          "tree_id": "098756060925a4a97deaf99d535c0eafe46e6a4c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2230500ad00dcf21c3c8ce7c5cd347e325673278"
+        },
+        "date": 1678188530634,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 288820345,
+            "range": "± 5090233",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4132296786,
+            "range": "± 24644531",
             "unit": "ns/iter"
           }
         ]
