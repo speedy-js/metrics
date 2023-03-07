@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678166978439,
+  "lastUpdate": 1678167456740,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -5537,6 +5537,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4121312836,
             "range": "± 25518970",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "768a4f414bdbd8d8c5d8117fbc9dd2dd5374e6db",
+          "message": "chore: rename org to web-infra-dev (#2039)",
+          "timestamp": "2023-03-07T13:26:14+08:00",
+          "tree_id": "fe2bf69338153d122023a0c332181f93f87f3d11",
+          "url": "https://github.com/web-infra-dev/rspack/commit/768a4f414bdbd8d8c5d8117fbc9dd2dd5374e6db"
+        },
+        "date": 1678167451423,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 307101686,
+            "range": "± 4844244",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4337311176,
+            "range": "± 33600870",
             "unit": "ns/iter"
           }
         ]
