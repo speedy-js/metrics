@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678256977945,
+  "lastUpdate": 1678257627502,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6293,6 +6293,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4403756814,
             "range": "± 24728308",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "733e909ac4ec100a3fe56520e1cc7e4455552a24",
+          "message": "feat: loose schema check for easier migrate from webpack (#2076)",
+          "timestamp": "2023-03-08T14:25:33+08:00",
+          "tree_id": "b91daccccab271a879ec21b2e1b06c06cc61a921",
+          "url": "https://github.com/web-infra-dev/rspack/commit/733e909ac4ec100a3fe56520e1cc7e4455552a24"
+        },
+        "date": 1678257613659,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291084970,
+            "range": "± 3941734",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4132054662,
+            "range": "± 23209916",
             "unit": "ns/iter"
           }
         ]
