@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678252004577,
+  "lastUpdate": 1678255890825,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6221,6 +6221,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4446663379,
             "range": "± 24748633",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a3642cdf994aec8be90460dbc022a742a9017e0",
+          "message": "chore(examples): add vue3-jsx example (#2075)\n\n* chore(examples): add vue-jsx example\r\n\r\n* chore: rename to vue3-jsx",
+          "timestamp": "2023-03-08T14:01:01+08:00",
+          "tree_id": "ed5f68de2b7a803eac32d96cadc7c6a494514307",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1a3642cdf994aec8be90460dbc022a742a9017e0"
+        },
+        "date": 1678255888053,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291095452,
+            "range": "± 5098789",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4132968402,
+            "range": "± 26951130",
             "unit": "ns/iter"
           }
         ]
