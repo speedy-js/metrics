@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678266787142,
+  "lastUpdate": 1678267713613,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6401,6 +6401,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4126769475,
             "range": "± 27944989",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fa5bc55b304eecf3784b9e3f01fdbc9adfd54ce",
+          "message": "fix: progress in dev should enabled by cli (#2077)\n\n* fix: progress in dev should enable by cli\r\n\r\n* update snap",
+          "timestamp": "2023-03-08T17:17:47+08:00",
+          "tree_id": "fa9393e54472f809e05c656050307f57c453ac03",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8fa5bc55b304eecf3784b9e3f01fdbc9adfd54ce"
+        },
+        "date": 1678267708012,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291783519,
+            "range": "± 4609077",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4127743908,
+            "range": "± 28158300",
             "unit": "ns/iter"
           }
         ]
