@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678257627502,
+  "lastUpdate": 1678260905447,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6329,6 +6329,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4132054662,
             "range": "± 23209916",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "769233b09db8d353284562788938315f587eaf79",
+          "message": "feat: support array value in resolve.alias (#2050)\n\n* feat: support array value in resolve.alias\r\n\r\n* update\r\n\r\n---------\r\n\r\nCo-authored-by: ahabhgk <ahabhgk@gmail.com>",
+          "timestamp": "2023-03-08T15:24:27+08:00",
+          "tree_id": "0d376917bde94094fca8c723221906d752e5de3d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/769233b09db8d353284562788938315f587eaf79"
+        },
+        "date": 1678260902892,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 290698659,
+            "range": "± 4389094",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4141209728,
+            "range": "± 26137085",
             "unit": "ns/iter"
           }
         ]
