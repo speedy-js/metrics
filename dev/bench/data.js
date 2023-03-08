@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678208726264,
+  "lastUpdate": 1678252004577,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6185,6 +6185,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4132278880,
             "range": "± 28654696",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "95c3593b64d4009da2f541b6efedbe4d3ad84595",
+          "message": "fix: fix postinstall issue on being installed as a dependency (#2074)\n\n* fix: fix an postinstall issue when installed as a dependency\r\n\r\n* chore: changeset",
+          "timestamp": "2023-03-08T12:55:43+08:00",
+          "tree_id": "4e0ae59e0562535e73c46b2e73b77e69847a24c6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/95c3593b64d4009da2f541b6efedbe4d3ad84595"
+        },
+        "date": 1678252002113,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 322543182,
+            "range": "± 5089711",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4446663379,
+            "range": "± 24748633",
             "unit": "ns/iter"
           }
         ]
