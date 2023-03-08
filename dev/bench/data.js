@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678255890825,
+  "lastUpdate": 1678256977945,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6257,6 +6257,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4132968402,
             "range": "± 26951130",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e65359d625bae5a973859a71c6516f380dd1ad0d",
+          "message": "chore: replace builtin:sass-loader with sass-loader in tests (#2071)",
+          "timestamp": "2023-03-08T14:17:24+08:00",
+          "tree_id": "07d5b944461fafa32fe90cdc68d3c7ea6732199f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e65359d625bae5a973859a71c6516f380dd1ad0d"
+        },
+        "date": 1678256971716,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 314632640,
+            "range": "± 4527070",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4403756814,
+            "range": "± 24728308",
             "unit": "ns/iter"
           }
         ]
