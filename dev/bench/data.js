@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678347345157,
+  "lastUpdate": 1678348690203,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6581,6 +6581,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4330355555,
             "range": "± 24496705",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e90dc0d55926f5593183655923c86cef2d50edf2",
+          "message": " feat: correct safety comment for unsafe behaviors (#2089)\n\nfeat: improve comment in stringify function in rspack_plugin_javascript (crates/rspack_plugin_javascript/src/ast/stringify.rs)",
+          "timestamp": "2023-03-09T15:43:08+08:00",
+          "tree_id": "d5de6780eafd4edf2f13725361650a9193c63922",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e90dc0d55926f5593183655923c86cef2d50edf2"
+        },
+        "date": 1678348687689,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 309184527,
+            "range": "± 4983712",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4348414638,
+            "range": "± 28001660",
             "unit": "ns/iter"
           }
         ]
