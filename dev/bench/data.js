@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678331873680,
+  "lastUpdate": 1678335006738,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6509,6 +6509,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4124001913,
             "range": "± 25105716",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "742aa0afbba29632f12cfbd2e3f5180b7f9bc35d",
+          "message": "fix: invalid module id on windows (#2079)\n\n* chore: fix windows build\r\n\r\n* fix: fix module id on windows\r\n\r\n* chore: optimize windows expr",
+          "timestamp": "2023-03-09T11:59:13+08:00",
+          "tree_id": "1bef76457a3bb7218881c0ac039aed328e00b27e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/742aa0afbba29632f12cfbd2e3f5180b7f9bc35d"
+        },
+        "date": 1678335004228,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 310266290,
+            "range": "± 4710973",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4336890186,
+            "range": "± 30806896",
             "unit": "ns/iter"
           }
         ]
