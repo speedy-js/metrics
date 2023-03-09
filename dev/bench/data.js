@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678349356358,
+  "lastUpdate": 1678350025726,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6653,6 +6653,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4465320352,
             "range": "± 27749919",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caohuilin@bytedance.com",
+            "name": "Belinda Cao",
+            "username": "caohuilin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d609bd24cefbfc0a1c0f2983a827b6409cff989",
+          "message": "[SKIP CHANGESET] feat: update contributing doc and pull request template (#2088)\n\n* feat: update contributing\r\n\r\n* feat: update pull request template",
+          "timestamp": "2023-03-09T15:53:50+08:00",
+          "tree_id": "df6de8c1e29d0c5da6d1e46cba454b452e60d963",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9d609bd24cefbfc0a1c0f2983a827b6409cff989"
+        },
+        "date": 1678350022404,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 316699420,
+            "range": "± 4505921",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4434861034,
+            "range": "± 29118668",
             "unit": "ns/iter"
           }
         ]
