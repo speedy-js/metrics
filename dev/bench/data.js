@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678335006738,
+  "lastUpdate": 1678347345157,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6545,6 +6545,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4336890186,
             "range": "± 30806896",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0096aae38981ed3f324810ad777ded92d4ef984b",
+          "message": "fix: hmr emit asset for memory middleware (#2087)",
+          "timestamp": "2023-03-09T15:24:47+08:00",
+          "tree_id": "da948a1c4820d32ff395c4d6731f776fdfd86802",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0096aae38981ed3f324810ad777ded92d4ef984b"
+        },
+        "date": 1678347339724,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 308427364,
+            "range": "± 4197973",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4330355555,
+            "range": "± 24496705",
             "unit": "ns/iter"
           }
         ]
