@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678359784191,
+  "lastUpdate": 1678362062447,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6797,6 +6797,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4126228085,
             "range": "± 26064749",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2072dd4832903e86013511c0741037be9c14cdd",
+          "message": "fix: commonjs loading with extra output dir (#2092)",
+          "timestamp": "2023-03-09T19:23:45+08:00",
+          "tree_id": "8ece3f1bfdd1bb9d89070fbd84549503c78c555a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d2072dd4832903e86013511c0741037be9c14cdd"
+        },
+        "date": 1678362053945,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 290102342,
+            "range": "± 4715137",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4146731424,
+            "range": "± 24612820",
             "unit": "ns/iter"
           }
         ]
