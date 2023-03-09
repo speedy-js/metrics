@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678294447713,
+  "lastUpdate": 1678331873680,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6473,6 +6473,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4341878201,
             "range": "± 28909657",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caohuilin@bytedance.com",
+            "name": "Belinda Cao",
+            "username": "caohuilin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33eb5f56ec34a5d7428ad5801f0e99d9717e05d8",
+          "message": "feat: release action add comment env (#2085)",
+          "timestamp": "2023-03-09T11:07:22+08:00",
+          "tree_id": "16dbbb5a3e6bd4d781d25bfb3472f08f8f2a2223",
+          "url": "https://github.com/web-infra-dev/rspack/commit/33eb5f56ec34a5d7428ad5801f0e99d9717e05d8"
+        },
+        "date": 1678331870009,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 289066034,
+            "range": "± 4708320",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4124001913,
+            "range": "± 25105716",
             "unit": "ns/iter"
           }
         ]
