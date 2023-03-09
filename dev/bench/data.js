@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678359155834,
+  "lastUpdate": 1678359784191,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6761,6 +6761,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4477314485,
             "range": "± 27208531",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a655d9fb29ae6278395141cb17706db14fb5a6bc",
+          "message": "chore: upgrade pnpm version (#2084)",
+          "timestamp": "2023-03-09T18:43:34+08:00",
+          "tree_id": "23ef793085bf5e6c1c804a811c685e4ed4fdfe1b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a655d9fb29ae6278395141cb17706db14fb5a6bc"
+        },
+        "date": 1678359781549,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 290542804,
+            "range": "± 4699327",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4126228085,
+            "range": "± 26064749",
             "unit": "ns/iter"
           }
         ]
