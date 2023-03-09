@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678362062447,
+  "lastUpdate": 1678369855382,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6833,6 +6833,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4146731424,
             "range": "± 24612820",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44dc1e8ba98eb21e9b412b59a551fd08c8747c35",
+          "message": "fix: fix fast refresh on windows (#2095)\n\n* fix: fix fast refresh on windows\r\n\r\n* chore: changeset",
+          "timestamp": "2023-03-09T21:40:18+08:00",
+          "tree_id": "11ae72bd4f5a9482432e2ec245ff3ad0fab91630",
+          "url": "https://github.com/web-infra-dev/rspack/commit/44dc1e8ba98eb21e9b412b59a551fd08c8747c35"
+        },
+        "date": 1678369849967,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291918201,
+            "range": "± 4523189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4120412716,
+            "range": "± 24321968",
             "unit": "ns/iter"
           }
         ]
