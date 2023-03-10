@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678423528651,
+  "lastUpdate": 1678424269579,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7121,6 +7121,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4305020975,
             "range": "± 28466664",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chaolinjin@gmail.com",
+            "name": "ycjcl868",
+            "username": "ycjcl868"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ec016859b0e067bdb76e8e2ca1f1c4b34b24834c",
+          "message": "docs: update rolldown team link (#2098)\n\n* docs: rolldown url link\r\n\r\n* Update README.md",
+          "timestamp": "2023-03-10T12:47:23+08:00",
+          "tree_id": "cda6a9ae1824e6925b9214ca5910418be3a647e8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ec016859b0e067bdb76e8e2ca1f1c4b34b24834c"
+        },
+        "date": 1678424266164,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 292482824,
+            "range": "± 4870652",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4121972751,
+            "range": "± 28082038",
             "unit": "ns/iter"
           }
         ]
