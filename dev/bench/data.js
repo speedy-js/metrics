@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678416440605,
+  "lastUpdate": 1678417626250,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6905,6 +6905,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4123984038,
             "range": "± 29294430",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cxin1314@gmail.com",
+            "name": "lencx",
+            "username": "lencx"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "698056858f694b791f1fb5ede422c863b56a8945",
+          "message": "chore: add rust-analyzer (#2102)\n\nchore: add ra",
+          "timestamp": "2023-03-10T10:56:29+08:00",
+          "tree_id": "6673aff85443175d662fed5cd0dfe24dfe874e6b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/698056858f694b791f1fb5ede422c863b56a8945"
+        },
+        "date": 1678417621401,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291645969,
+            "range": "± 4963358",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4121472809,
+            "range": "± 29397562",
             "unit": "ns/iter"
           }
         ]
