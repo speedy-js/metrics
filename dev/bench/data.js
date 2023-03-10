@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678422779550,
+  "lastUpdate": 1678423528651,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7085,6 +7085,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4121672637,
             "range": "± 24780789",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de5c8329e499d5013daeaac77e518c86839e6ee1",
+          "message": "chore(ci): fix install protoc limit (#2117)",
+          "timestamp": "2023-03-10T12:34:17+08:00",
+          "tree_id": "ab45da7a486dcc3c8e76aa9db31251f7f19f75c2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/de5c8329e499d5013daeaac77e518c86839e6ee1"
+        },
+        "date": 1678423526379,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 305074018,
+            "range": "± 4147170",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4305020975,
+            "range": "± 28466664",
             "unit": "ns/iter"
           }
         ]
