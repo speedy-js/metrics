@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678369855382,
+  "lastUpdate": 1678416440605,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6869,6 +6869,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4120412716,
             "range": "± 24321968",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c636ff0772df2ee705aaab8c9371836ad025a51c",
+          "message": "fix: examples/react resolve failed (#2108)",
+          "timestamp": "2023-03-10T10:36:52+08:00",
+          "tree_id": "c6e2108e4eb138a06543eb89e9b59b1735182520",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c636ff0772df2ee705aaab8c9371836ad025a51c"
+        },
+        "date": 1678416438154,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 290486621,
+            "range": "± 4374510",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4123984038,
+            "range": "± 29294430",
             "unit": "ns/iter"
           }
         ]
