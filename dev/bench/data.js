@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678420642095,
+  "lastUpdate": 1678421752149,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7013,6 +7013,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4460656227,
             "range": "± 32376493",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "946815480@qq.com",
+            "name": "monster1935",
+            "username": "monster1935"
+          },
+          "committer": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "distinct": true,
+          "id": "fec23eab7ae4b77daeaa8ec189a1049ae7e98bd0",
+          "message": "chore: update docs for some format error",
+          "timestamp": "2023-03-10T12:05:05+08:00",
+          "tree_id": "173303a86fa171627d5ebb30780ccc58a49a5869",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fec23eab7ae4b77daeaa8ec189a1049ae7e98bd0"
+        },
+        "date": 1678421748716,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 291425363,
+            "range": "± 4881576",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4133715122,
+            "range": "± 29831835",
             "unit": "ns/iter"
           }
         ]
