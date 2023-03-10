@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678424269579,
+  "lastUpdate": 1678425385655,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7157,6 +7157,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4121972751,
             "range": "± 28082038",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f7ffb57066b536d187e9d555c1ac4813fed7081",
+          "message": "feat: support guided panic info with backtrace (#2097)\n\n* feat: support guided panic info with backtrace\r\n\r\n* chore: changeset\r\n\r\n* feat: wording\r\n\r\n* chore: clippy\r\n\r\n* chore: lint",
+          "timestamp": "2023-03-10T13:05:21+08:00",
+          "tree_id": "8d3d9e1d4f4801fc2fb64a409a2b4179c37a10fe",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2f7ffb57066b536d187e9d555c1ac4813fed7081"
+        },
+        "date": 1678425383143,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 310067908,
+            "range": "± 4994662",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4348859075,
+            "range": "± 24337864",
             "unit": "ns/iter"
           }
         ]
