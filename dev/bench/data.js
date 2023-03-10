@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678417626250,
+  "lastUpdate": 1678418801457,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -6941,6 +6941,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4121472809,
             "range": "± 29397562",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f38da25bdc2bd05b4880994ed97a5b2696d22869",
+          "message": "chore: migrate CI to public runner (#2100)",
+          "timestamp": "2023-03-10T11:14:01+08:00",
+          "tree_id": "bb08327ba8556327cd7cb88700185c730af3dfae",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f38da25bdc2bd05b4880994ed97a5b2696d22869"
+        },
+        "date": 1678418797590,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 296935426,
+            "range": "± 4843802",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4200993193,
+            "range": "± 26172406",
             "unit": "ns/iter"
           }
         ]
