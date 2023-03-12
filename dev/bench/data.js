@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678602664062,
+  "lastUpdate": 1678625560116,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7229,6 +7229,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 8651415665,
             "range": "± 279928303",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chaolinjin@gmail.com",
+            "name": "ycjcl868",
+            "username": "ycjcl868"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9e0331b68667c1a104c50939bd6c4a26dc01526",
+          "message": "chore(scripts): remove unused export module (#2182)",
+          "timestamp": "2023-03-12T19:58:11+08:00",
+          "tree_id": "20ab751ac2952ecc36021e4c8528133a2f3963a3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c9e0331b68667c1a104c50939bd6c4a26dc01526"
+        },
+        "date": 1678625558578,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2199505427,
+            "range": "± 104486262",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 9227712427,
+            "range": "± 354177751",
             "unit": "ns/iter"
           }
         ]
