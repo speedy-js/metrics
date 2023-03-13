@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678726263960,
+  "lastUpdate": 1678730532166,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7841,6 +7841,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 7991449888,
             "range": "± 128390759",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4c20d66f9494f7e3ab357218231cedb3afca240",
+          "message": "feat: support configuration file written in TypeScript (#2227)\n\n* chore: add editorconfig to the project\r\n\r\nThis unifies all editors configuration\r\n\r\n* refactor: move loadConfig out of rspack-cli\r\n\r\n* feat: support using ts as configuration file\r\n\r\n* test: add test for typescript config file\r\n\r\nfix #2188\r\n\r\n* feat: report ts-node require error",
+          "timestamp": "2023-03-14T01:16:48+08:00",
+          "tree_id": "d3dc5b49b9159161d9d97029bb7b57f98243cc45",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c4c20d66f9494f7e3ab357218231cedb3afca240"
+        },
+        "date": 1678730531124,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1886177598,
+            "range": "± 90021333",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8162128032,
+            "range": "± 185318561",
             "unit": "ns/iter"
           }
         ]
