@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678693158086,
+  "lastUpdate": 1678694596501,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7481,6 +7481,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 7416796803,
             "range": "± 98438241",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "codingzx@gmail.com",
+            "name": "Zhou xiao",
+            "username": "zhoushaw"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2c17a98b391ee4c9ff91826a412c95c9f6529c1",
+          "message": "docs: fix  README.md logo (#2210)\n\n* Update README.md\r\n\r\n* docs: fix readme logo",
+          "timestamp": "2023-03-13T15:19:55+08:00",
+          "tree_id": "e20e9003c81185321e7ed78e7b85609ae47c83e5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e2c17a98b391ee4c9ff91826a412c95c9f6529c1"
+        },
+        "date": 1678694595371,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1768789111,
+            "range": "± 79723476",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6796116679,
+            "range": "± 133641881",
             "unit": "ns/iter"
           }
         ]
