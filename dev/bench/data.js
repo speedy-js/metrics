@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678710722347,
+  "lastUpdate": 1678713649395,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7589,6 +7589,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 8970412481,
             "range": "± 285466470",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37a8581563970ebde74d577d1c147ad35701624e",
+          "message": "chore: add discord channel to README (#2197)",
+          "timestamp": "2023-03-13T20:33:08+08:00",
+          "tree_id": "70531aaefc30664750da68f3b3397afd70ca9881",
+          "url": "https://github.com/web-infra-dev/rspack/commit/37a8581563970ebde74d577d1c147ad35701624e"
+        },
+        "date": 1678713648004,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1992140778,
+            "range": "± 78527148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8499746442,
+            "range": "± 155683287",
             "unit": "ns/iter"
           }
         ]
