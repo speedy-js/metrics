@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678681259621,
+  "lastUpdate": 1678685902252,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7337,6 +7337,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6845705741,
             "range": "± 152894717",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05aef757e70504d5d8080b44dfbf17fbc2f99d9b",
+          "message": "chore: 🤖 fix benchmark protoc not found (#2200)",
+          "timestamp": "2023-03-13T12:55:14+08:00",
+          "tree_id": "6cab82a22020f1b560826c5feb6f4bc4f1b6583a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/05aef757e70504d5d8080b44dfbf17fbc2f99d9b"
+        },
+        "date": 1678685900658,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1762258267,
+            "range": "± 51418891",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6759833163,
+            "range": "± 118977051",
             "unit": "ns/iter"
           }
         ]
