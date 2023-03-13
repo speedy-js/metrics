@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678730696149,
+  "lastUpdate": 1678738778803,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7913,6 +7913,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 7598852510,
             "range": "± 136415542",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fi3ework@gmail.com",
+            "name": "Wei",
+            "username": "fi3ework"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3d4592618cbd6adcb025a4dd9769787230a3b95f",
+          "message": "fix(cli): make ts-node as an optional peer dependency (#2231)",
+          "timestamp": "2023-03-14T03:33:03+08:00",
+          "tree_id": "1bc2eb88bc98aeecc51988f4c8aa50a7adcd57c5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3d4592618cbd6adcb025a4dd9769787230a3b95f"
+        },
+        "date": 1678738777456,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1960135115,
+            "range": "± 89566800",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8377020887,
+            "range": "± 184428050",
             "unit": "ns/iter"
           }
         ]
