@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678707177889,
+  "lastUpdate": 1678710722347,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7553,6 +7553,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6997056849,
             "range": "± 89254043",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a5f57ac10aa0ab683eedaaf49ee767097a123fa",
+          "message": "chore: add ci workflow for pr (#2215)",
+          "timestamp": "2023-03-13T19:39:06+08:00",
+          "tree_id": "848ec08bb3a832fa07b386964dbeb23dab436d48",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4a5f57ac10aa0ab683eedaaf49ee767097a123fa"
+        },
+        "date": 1678710720886,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2166017340,
+            "range": "± 110984973",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8970412481,
+            "range": "± 285466470",
             "unit": "ns/iter"
           }
         ]
