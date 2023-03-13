@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678685902252,
+  "lastUpdate": 1678687302913,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7373,6 +7373,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6759833163,
             "range": "± 118977051",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f8df69001af0e0211285ba285fa6125f6652898b",
+          "message": "ci: add cache to rust build steps (#2203)",
+          "timestamp": "2023-03-13T13:09:18+08:00",
+          "tree_id": "b00852305fcf4ec5d425d9f677e6c14e95b2f091",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f8df69001af0e0211285ba285fa6125f6652898b"
+        },
+        "date": 1678687301709,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2175089223,
+            "range": "± 94423438",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 8778630639,
+            "range": "± 128311537",
             "unit": "ns/iter"
           }
         ]
