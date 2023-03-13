@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678625560116,
+  "lastUpdate": 1678679965315,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7265,6 +7265,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 9227712427,
             "range": "± 354177751",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6c37871ee1e60d5aeb8bb13bd4f14408b323b09",
+          "message": "ci: fix clippy warnings not being raised as errors (#2198)",
+          "timestamp": "2023-03-13T11:04:21+08:00",
+          "tree_id": "8c287e2c24e0413b07ddc8c5e0475c8b3a03e27e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a6c37871ee1e60d5aeb8bb13bd4f14408b323b09"
+        },
+        "date": 1678679964154,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2318252125,
+            "range": "± 109061626",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 9533257894,
+            "range": "± 509257417",
             "unit": "ns/iter"
           }
         ]
