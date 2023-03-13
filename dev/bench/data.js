@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678694596501,
+  "lastUpdate": 1678707177889,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7517,6 +7517,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 6796116679,
             "range": "± 133641881",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23048514ed610c91af776db3e0df5533c9a08ada",
+          "message": "fix: incremental rebuild not work (#2214)",
+          "timestamp": "2023-03-13T18:48:13+08:00",
+          "tree_id": "06ad9f08b14c3081e1e2da20ac3a895e6dff2b47",
+          "url": "https://github.com/web-infra-dev/rspack/commit/23048514ed610c91af776db3e0df5533c9a08ada"
+        },
+        "date": 1678707176740,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1783348467,
+            "range": "± 79099071",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6997056849,
+            "range": "± 89254043",
             "unit": "ns/iter"
           }
         ]
