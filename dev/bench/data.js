@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678679965315,
+  "lastUpdate": 1678681259621,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -7301,6 +7301,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 9533257894,
             "range": "± 509257417",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1778fe9a9149ff328c8f649aa472ac29d91cb49a",
+          "message": "chore: fix typos (#2199)\n\n* chore: add .typos.toml for the crate-ci/typos tool\r\n\r\n* chore: fix typos\r\n\r\n* ci: add spell check\r\n\r\n* chore: s/rpsakc_test/rspack_testing",
+          "timestamp": "2023-03-13T11:37:37+08:00",
+          "tree_id": "674a0569f4d5eaec4756baade4abe81df8802fef",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1778fe9a9149ff328c8f649aa472ac29d91cb49a"
+        },
+        "date": 1678681258510,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1772476777,
+            "range": "± 59330328",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 6845705741,
+            "range": "± 152894717",
             "unit": "ns/iter"
           }
         ]
