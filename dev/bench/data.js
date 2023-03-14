@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678780999312,
+  "lastUpdate": 1678782699904,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8129,6 +8129,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 8521955161,
             "range": "± 424382197",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cdf6a52a39f37a8ce2975692b7c46abc729169b6",
+          "message": "fix: normalize identifier for externalsType umd (#2233)",
+          "timestamp": "2023-03-14T15:41:18+08:00",
+          "tree_id": "a5ea479e9d7695584d252ab084d7a8516bf2015d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/cdf6a52a39f37a8ce2975692b7c46abc729169b6"
+        },
+        "date": 1678782698853,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1858563573,
+            "range": "± 75267514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 7629267906,
+            "range": "± 130888341",
             "unit": "ns/iter"
           }
         ]
