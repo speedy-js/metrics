@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678782699904,
+  "lastUpdate": 1678783166461,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8165,6 +8165,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 7629267906,
             "range": "± 130888341",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "24775733+tuchg@users.noreply.github.com",
+            "name": "tuchg",
+            "username": "tuchg"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3cf1ff90ad4518027b955b012fa78db1187261b",
+          "message": "fix(testing): resolve context for fixtures controlled by `test.config.js` (#2234)\n\n* fix(testing): resolve context for `js` fixtures\r\n\r\n* Update crates/rspack_testing/src/eval_raw.rs\r\n\r\nCo-authored-by: Gengkun <ahabhgk@gmail.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Gengkun <ahabhgk@gmail.com>",
+          "timestamp": "2023-03-14T15:32:37+08:00",
+          "tree_id": "02d3f87020e967fe9a8ba572d8b9cef6aa4d0499",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f3cf1ff90ad4518027b955b012fa78db1187261b"
+        },
+        "date": 1678783164966,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2378899226,
+            "range": "± 93600009",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 9855083996,
+            "range": "± 211180378",
             "unit": "ns/iter"
           }
         ]
