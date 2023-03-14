@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678792945793,
+  "lastUpdate": 1678794076445,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8273,6 +8273,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 8062041801,
             "range": "± 145194521",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f8706f0cb1a66993033a21c644728db3ea76742",
+          "message": "fix: postcss modules warning when using postcss-loader (#2243)",
+          "timestamp": "2023-03-14T18:37:00+08:00",
+          "tree_id": "c65a266a762ded65693184d3a6593edbd1ee6863",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6f8706f0cb1a66993033a21c644728db3ea76742"
+        },
+        "date": 1678794074798,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1775296848,
+            "range": "± 69400528",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 7002266046,
+            "range": "± 97286746",
             "unit": "ns/iter"
           }
         ]
