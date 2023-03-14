@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678783166461,
+  "lastUpdate": 1678786702898,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8201,6 +8201,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 9855083996,
             "range": "± 211180378",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bf8b6f63286a76e36458c7fad2a752cf7494e639",
+          "message": "chore: 🤖 remove concurrency cancel in main (#2242)\n\n* chore: 🤖 remove concurrency cancel in main\r\n\r\n* chore: 🤖 remove comments",
+          "timestamp": "2023-03-14T16:11:49+08:00",
+          "tree_id": "ce69310de1d6ff102a3f5d53a7f36a3b4e247903",
+          "url": "https://github.com/web-infra-dev/rspack/commit/bf8b6f63286a76e36458c7fad2a752cf7494e639"
+        },
+        "date": 1678786701843,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 1829165012,
+            "range": "± 76113160",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 7530989516,
+            "range": "± 106512696",
             "unit": "ns/iter"
           }
         ]
