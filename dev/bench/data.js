@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678767378929,
+  "lastUpdate": 1678772408761,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8021,6 +8021,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 9891027206,
             "range": "± 228951724",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a004765a3098a418d6db38251a25406b6820e340",
+          "message": "fix: Avoid reporting warning the export when src module format is none esm (#2172)\n\n* fix: 🐛 2111\r\n\r\n* chore: 🤖 finish\r\n\r\n* chore: 🤖 update comment\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 update snap\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 remove comments\r\n\r\n* chore: 🤖 rename\r\n\r\n* chore: 🤖 add more test\r\n\r\n* chore: 🤖 remove unncessary file\r\n\r\n* chore: 🤖 test.json\r\n\r\n* chore: 🤖 changeset",
+          "timestamp": "2023-03-14T12:47:04+08:00",
+          "tree_id": "e2802b94008dd7f44948edd4d8442c1b9903d63e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a004765a3098a418d6db38251a25406b6820e340"
+        },
+        "date": 1678772407191,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2184240334,
+            "range": "± 98266749",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 9009573553,
+            "range": "± 346223736",
             "unit": "ns/iter"
           }
         ]
