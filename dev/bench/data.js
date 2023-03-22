@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679400664546,
+  "lastUpdate": 1679460275926,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8345,6 +8345,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4330708978,
             "range": "± 28160679",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nieyuyao0826@hotmail.com",
+            "name": "Yuyao Nie",
+            "username": "nieyuyao"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1aebd6de438b7d476f7cbe3602fb8f72672e10e6",
+          "message": "fix(examples): set context of basic example to __dirname (#2345)",
+          "timestamp": "2023-03-22T12:33:38+08:00",
+          "tree_id": "5daf0cb7ecf14e116a93ccd2038e4c0bd186fb06",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1aebd6de438b7d476f7cbe3602fb8f72672e10e6"
+        },
+        "date": 1679460271076,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320441764,
+            "range": "± 5011675",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4107329645,
+            "range": "± 28416945",
             "unit": "ns/iter"
           }
         ]
