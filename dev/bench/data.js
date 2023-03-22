@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679460275926,
+  "lastUpdate": 1679470249076,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8381,6 +8381,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4107329645,
             "range": "± 28416945",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98165eb245722798cea94e118503e91a81976fc4",
+          "message": "fix: remove several ts-expect-error (#2409)",
+          "timestamp": "2023-03-22T15:18:26+08:00",
+          "tree_id": "87e411bddc091adb746a0c168a07d62dee83d295",
+          "url": "https://github.com/web-infra-dev/rspack/commit/98165eb245722798cea94e118503e91a81976fc4"
+        },
+        "date": 1679470246228,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321359070,
+            "range": "± 4782117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4117245520,
+            "range": "± 33793912",
             "unit": "ns/iter"
           }
         ]
