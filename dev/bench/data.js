@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679471127420,
+  "lastUpdate": 1679471797699,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8453,6 +8453,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4099776564,
             "range": "± 27673355",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "57180744+PengBoUESTC@users.noreply.github.com",
+            "name": "pengbo",
+            "username": "PengBoUESTC"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4c20a31c48ee37f7b2fc7756261f23645048c8c",
+          "message": "chore: node binding cross env (#2327)\n\n* chore: add cross-env\r\n\r\n* chore: chageset\r\n\r\n* fix: cross_env to cross-env",
+          "timestamp": "2023-03-22T15:41:31+08:00",
+          "tree_id": "c47326195c6407abb02a64a9ddbc6641c079754b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c4c20a31c48ee37f7b2fc7756261f23645048c8c"
+        },
+        "date": 1679471785728,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 322334081,
+            "range": "± 4486846",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4095619625,
+            "range": "± 24349020",
             "unit": "ns/iter"
           }
         ]
