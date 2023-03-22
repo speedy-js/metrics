@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679471797699,
+  "lastUpdate": 1679473431828,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8489,6 +8489,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4095619625,
             "range": "± 24349020",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2e5d9226bc500d3dbf97bc6caf1bb6465f30a71",
+          "message": "feat(rspack-cli): support mjs config (#2168)",
+          "timestamp": "2023-03-22T16:12:14+08:00",
+          "tree_id": "306e1a9857ed44cb87465534fac31676975f2269",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f2e5d9226bc500d3dbf97bc6caf1bb6465f30a71"
+        },
+        "date": 1679473426364,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 342786343,
+            "range": "± 5038032",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4336640928,
+            "range": "± 24974671",
             "unit": "ns/iter"
           }
         ]
