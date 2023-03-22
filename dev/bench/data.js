@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679470249076,
+  "lastUpdate": 1679471127420,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8417,6 +8417,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4117245520,
             "range": "± 33793912",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2486b2ab04c5f636a204d9ece722f75096e9e94a",
+          "message": "fix: returning exports from runtime for libraries (#2415)",
+          "timestamp": "2023-03-22T15:34:15+08:00",
+          "tree_id": "18814cc591d55146e7c4e9ab6b8208de532f35e9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2486b2ab04c5f636a204d9ece722f75096e9e94a"
+        },
+        "date": 1679471120852,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321667259,
+            "range": "± 4448736",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4099776564,
+            "range": "± 27673355",
             "unit": "ns/iter"
           }
         ]
