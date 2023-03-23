@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679564523027,
+  "lastUpdate": 1679568265843,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8777,6 +8777,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4125171581,
             "range": "± 37796259",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i@mk1.io",
+            "name": "ʀᴀʏ",
+            "username": "so1ve"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3380893f9d43a011b3f216331cf48d7f3ed387e4",
+          "message": "feat: definePlugin helper (#2302)\n\n* feat: add definePlugin\r\n\r\n* chore: changeset\r\n\r\n* fix: export helper",
+          "timestamp": "2023-03-23T18:33:19+08:00",
+          "tree_id": "acedc1eedb0ef1785685a3ce7544b3dc956b9f5e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3380893f9d43a011b3f216331cf48d7f3ed387e4"
+        },
+        "date": 1679568263184,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 338104139,
+            "range": "± 4956611",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4302458232,
+            "range": "± 33396572",
             "unit": "ns/iter"
           }
         ]
