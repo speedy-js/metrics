@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679569602575,
+  "lastUpdate": 1679573970335,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8885,6 +8885,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4352736266,
             "range": "± 26420668",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "95893242395a19a8923f15c049c19040f9a2e03c",
+          "message": "refactor(rust): remove unnecessary usage of crossbeam (#2439)\n\nThis removes a large dependency which should improve our build speed a bit.\r\n\r\nNote: mpsc::channel is now a port of crossbeam, they have no difference.\r\n\r\nSee: `https://github.com/rust-lang/rust/pull/93563`",
+          "timestamp": "2023-03-23T05:07:30-07:00",
+          "tree_id": "8d26b03c4d2a439d0ad4ff74059ddd879b6a50ac",
+          "url": "https://github.com/web-infra-dev/rspack/commit/95893242395a19a8923f15c049c19040f9a2e03c"
+        },
+        "date": 1679573897417,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321767022,
+            "range": "± 4617102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4129185310,
+            "range": "± 30112792",
             "unit": "ns/iter"
           }
         ]
