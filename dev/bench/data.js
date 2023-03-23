@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679568265843,
+  "lastUpdate": 1679568937876,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8813,6 +8813,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4302458232,
             "range": "± 33396572",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zscumt123@163.com",
+            "name": "zs",
+            "username": "zscumt123"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "08337f273c27707688fb81a5132ecbd60801fd9f",
+          "message": "chore: fix some ts types (#2142)",
+          "timestamp": "2023-03-23T18:35:33+08:00",
+          "tree_id": "8bb87b2ebd94c54446530eeaccfe575133b4f5e3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/08337f273c27707688fb81a5132ecbd60801fd9f"
+        },
+        "date": 1679568935230,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357306485,
+            "range": "± 4732852",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4443164093,
+            "range": "± 31060914",
             "unit": "ns/iter"
           }
         ]
