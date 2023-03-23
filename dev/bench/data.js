@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679575516776,
+  "lastUpdate": 1679581873928,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8993,6 +8993,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4126167334,
             "range": "± 28314973",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sooniter@gmail.com",
+            "name": "SoonIter",
+            "username": "SoonIter"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d80430c80825fe1b5797a4ed6c67f4df0034a59b",
+          "message": "fix(cli): mode default config by process.env.NODE_ENV (#2343)\n\nchore(cli): mode default config by process.env.NODE_ENV",
+          "timestamp": "2023-03-23T22:18:07+08:00",
+          "tree_id": "7aaf64755c5abed25c6f4260b3a6ef4df7941141",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d80430c80825fe1b5797a4ed6c67f4df0034a59b"
+        },
+        "date": 1679581868212,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 345673078,
+            "range": "± 4031754",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4373287450,
+            "range": "± 30793931",
             "unit": "ns/iter"
           }
         ]
