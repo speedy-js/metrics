@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679574777006,
+  "lastUpdate": 1679575516776,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8957,6 +8957,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4448180899,
             "range": "± 34453608",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c52180d0bad4dedbef447418d754af7b2ff1f01d",
+          "message": "chore(rust): remove cargo warnings around napi (#2436)\n\nchore(rust): remove warnings around napi\r\n\r\nwarning: rspack/crates/rspack_binding_options/Cargo.toml: unused manifest key: dependencies.napi-derive.version\r\nwarning: rspack/crates/rspack_napi_shared/Cargo.toml: `default-features` is ignored for napi, since `default-features` was not specified for `workspace.dependencies.napi`, this could become a hard error in the future\r\nwarning: rspack/crates/rspack_binding_macros/Cargo.toml: `default-features` is ignored for napi, since `default-features` was not specified for `workspace.dependencies.napi`, this could become a hard error in the future",
+          "timestamp": "2023-03-23T05:28:35-07:00",
+          "tree_id": "b4701a8a4dae33681ee823a6692f8a512161c61d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c52180d0bad4dedbef447418d754af7b2ff1f01d"
+        },
+        "date": 1679575511396,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321014427,
+            "range": "± 4643176",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4126167334,
+            "range": "± 28314973",
             "unit": "ns/iter"
           }
         ]
