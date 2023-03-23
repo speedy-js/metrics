@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679568937876,
+  "lastUpdate": 1679569602575,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -8849,6 +8849,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4443164093,
             "range": "± 31060914",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "akari.ccino@gmail.com",
+            "name": "magic-akari",
+            "username": "magic-akari"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1aadf052fbc1d5d9c0ef16141325da315531375c",
+          "message": "feat: Support `new URL(\"./foo\", import.meta.url)` (#2340)",
+          "timestamp": "2023-03-23T18:39:16+08:00",
+          "tree_id": "325ecaeb7ed39d21ddc110a7b17a590e92158142",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1aadf052fbc1d5d9c0ef16141325da315531375c"
+        },
+        "date": 1679569599323,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 343916399,
+            "range": "± 4914264",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4352736266,
+            "range": "± 26420668",
             "unit": "ns/iter"
           }
         ]
