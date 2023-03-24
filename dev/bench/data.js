@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679581873928,
+  "lastUpdate": 1679619483659,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9029,6 +9029,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4373287450,
             "range": "± 30793931",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "karthuslorin@gmail.com",
+            "name": "格子熊",
+            "username": "KarthusLorin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "960745666b10c333c866d1a1e10e2baf86e74b35",
+          "message": "docs: add some tips about corepack enable (#2447)",
+          "timestamp": "2023-03-24T08:47:08+08:00",
+          "tree_id": "506abf7bd2fbd0a4435ef27e82ac3b67244b3dd3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/960745666b10c333c866d1a1e10e2baf86e74b35"
+        },
+        "date": 1679619481133,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 338206671,
+            "range": "± 9449204",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4306611701,
+            "range": "± 33158278",
             "unit": "ns/iter"
           }
         ]
