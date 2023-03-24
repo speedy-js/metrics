@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679619483659,
+  "lastUpdate": 1679632399240,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9065,6 +9065,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4306611701,
             "range": "± 33158278",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ed89a823b7efc1c3005131f1ad1543f0213e948e",
+          "message": "chore(rust): Rust v1.68.0 (nightly-2023-03-09) (#2435)\n\n* chore(rust): Rust v1.68.0 (nightly-2023-03-09)\r\n\r\n* chore(rust): fix clippy warnings",
+          "timestamp": "2023-03-24T12:21:50+08:00",
+          "tree_id": "76d746125ecda29f37b2e12756ed4a61773a742e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ed89a823b7efc1c3005131f1ad1543f0213e948e"
+        },
+        "date": 1679632396503,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321408942,
+            "range": "± 4678654",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4134751064,
+            "range": "± 30187578",
             "unit": "ns/iter"
           }
         ]
