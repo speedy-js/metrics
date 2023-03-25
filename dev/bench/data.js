@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679748854367,
+  "lastUpdate": 1679749971919,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9173,6 +9173,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4134500510,
             "range": "± 27611627",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a103f5a20c937020547468fb592782d0b35928d",
+          "message": "fix: skip some tests in watch suspend (#2465)",
+          "timestamp": "2023-03-25T21:01:25+08:00",
+          "tree_id": "4505dcff86acd03b97b94b52bda624aba4950023",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2a103f5a20c937020547468fb592782d0b35928d"
+        },
+        "date": 1679749958322,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319367217,
+            "range": "± 4482392",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4136099746,
+            "range": "± 31867564",
             "unit": "ns/iter"
           }
         ]
