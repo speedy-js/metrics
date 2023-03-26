@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679806723346,
+  "lastUpdate": 1679809823720,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9245,6 +9245,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4191788643,
             "range": "± 31131789",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b6ab7b7ba85a9a41cd78de569362d442a937082a",
+          "message": "fix(relay): :bug: apply unresolved_mark to require (#2454)\n\nCo-authored-by: Gengkun <ahabhgk@gmail.com>",
+          "timestamp": "2023-03-26T13:39:05+08:00",
+          "tree_id": "8da73c9e0eda61f88c755e368bd10e6eff42f9b0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b6ab7b7ba85a9a41cd78de569362d442a937082a"
+        },
+        "date": 1679809821146,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320547074,
+            "range": "± 5300402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4138573433,
+            "range": "± 35962227",
             "unit": "ns/iter"
           }
         ]
