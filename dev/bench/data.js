@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679749971919,
+  "lastUpdate": 1679806723346,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9209,6 +9209,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4136099746,
             "range": "± 31867564",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ituchg@qq.com",
+            "name": "tuchg",
+            "username": "tuchg"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b32322055ae31133f61b9b69d0b12eab4480959e",
+          "message": "feat(plugin-wasm): add async-wasm support (#2229)\n\n* chore: add wasm tests (#2158)\r\n\r\n* feat: add async-wasm support\r\n\r\n* fix:  module hash `to_string`\r\n\r\n* feat(plugin:javascript): add async-module\r\n\r\n* refactor: rebase onto main branch\r\n\r\n* feat: imports-multiple\r\n\r\n* fix: interop problems\r\n\r\n* refactor: attach async_module to `finish_modules` hook\r\n\r\n* fix: merged code",
+          "timestamp": "2023-03-26T12:47:50+08:00",
+          "tree_id": "fc918f21d7a073295e94fa6514a3d88b56243461",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b32322055ae31133f61b9b69d0b12eab4480959e"
+        },
+        "date": 1679806720868,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 325891815,
+            "range": "± 4758887",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4191788643,
+            "range": "± 31131789",
             "unit": "ns/iter"
           }
         ]
