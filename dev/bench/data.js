@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679905960927,
+  "lastUpdate": 1679908851951,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9461,6 +9461,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4447714347,
             "range": "± 36707313",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4630c88c15104f69f0d28afead29f6f876989fbc",
+          "message": "ci: cache pnpm dependencies in check-rs workflow (#2470)",
+          "timestamp": "2023-03-27T17:08:45+08:00",
+          "tree_id": "f3d71bf5403e131c6b44a1dd340dcb6dee0642ad",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4630c88c15104f69f0d28afead29f6f876989fbc"
+        },
+        "date": 1679908847040,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320520817,
+            "range": "± 4450303",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4138536981,
+            "range": "± 32818622",
             "unit": "ns/iter"
           }
         ]
