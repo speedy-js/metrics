@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679900437600,
+  "lastUpdate": 1679905960927,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9425,6 +9425,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4126863323,
             "range": "± 31652982",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3e3c1d42b81c4510d68cc574c80d5b675376c255",
+          "message": "fix: should not remove empty initial chunk (#2458)\n\nfix: should not remove empty inital chunk",
+          "timestamp": "2023-03-27T16:21:15+08:00",
+          "tree_id": "ef6979699aa1f5d8c5ad0dcb8c7759b7cac7915e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3e3c1d42b81c4510d68cc574c80d5b675376c255"
+        },
+        "date": 1679905956900,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 355495935,
+            "range": "± 4166870",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4447714347,
+            "range": "± 36707313",
             "unit": "ns/iter"
           }
         ]
