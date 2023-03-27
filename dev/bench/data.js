@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679809823720,
+  "lastUpdate": 1679888664160,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9281,6 +9281,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4138573433,
             "range": "± 35962227",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54cb3fac3ce63a026bc524fd54c210c6c1a30068",
+          "message": "fix: use babel mode for mjs (#2455)",
+          "timestamp": "2023-03-27T11:33:23+08:00",
+          "tree_id": "08fb01a3ba4ab2ff713f2fdd7058aa314a4762f1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/54cb3fac3ce63a026bc524fd54c210c6c1a30068"
+        },
+        "date": 1679888661410,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 342204192,
+            "range": "± 6404145",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4339644869,
+            "range": "± 33072979",
             "unit": "ns/iter"
           }
         ]
