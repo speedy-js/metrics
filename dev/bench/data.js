@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679909584335,
+  "lastUpdate": 1679911198201,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9533,6 +9533,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4128906125,
             "range": "± 27316114",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "257663ded360975bd88f6000d836da618c8138e9",
+          "message": "refactor: change runtime globals from HashSet<str> to bitflags (#2461)",
+          "timestamp": "2023-03-27T17:36:33+08:00",
+          "tree_id": "3742e9913000d62f2bf6efd9a847c87681bf8459",
+          "url": "https://github.com/web-infra-dev/rspack/commit/257663ded360975bd88f6000d836da618c8138e9"
+        },
+        "date": 1679911195646,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320876962,
+            "range": "± 5047018",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4141380544,
+            "range": "± 28246750",
             "unit": "ns/iter"
           }
         ]
