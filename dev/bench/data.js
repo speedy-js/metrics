@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680001425068,
+  "lastUpdate": 1680002061951,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9785,6 +9785,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4348393498,
             "range": "± 29604759",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zelmarou@gmaiL.com",
+            "name": "Zakuru San",
+            "username": "zakuru"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a75cb28e7b39f52a3392dc593a52ca372ac79ce6",
+          "message": "[Bug Fix]: ERR_UNSUPPORTED_ESM_URL_SCHEME since version 0.1.2 on Windows OS  (WIP) (#2450)",
+          "timestamp": "2023-03-28T19:00:24+08:00",
+          "tree_id": "a47e76d5967599b12251f9db5b373ae4085ed081",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a75cb28e7b39f52a3392dc593a52ca372ac79ce6"
+        },
+        "date": 1680002059499,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321196891,
+            "range": "± 4640219",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4124203565,
+            "range": "± 32017169",
             "unit": "ns/iter"
           }
         ]
