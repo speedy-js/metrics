@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679978221773,
+  "lastUpdate": 1679986915147,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9677,6 +9677,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4136947100,
             "range": "± 31185039",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b0e29c13a27d863b24cefffe2a36f090fa513f9",
+          "message": "fix(core): change the callback type of compiler.watch to `Callback` (#2494)\n\nfix(core): change the callback type of compiler.watchto `Callback`",
+          "timestamp": "2023-03-28T14:50:56+08:00",
+          "tree_id": "6118719ac9b8afedc36ad1462428e6a5c9b32192",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6b0e29c13a27d863b24cefffe2a36f090fa513f9"
+        },
+        "date": 1679986907904,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331907249,
+            "range": "± 4479370",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4265213475,
+            "range": "± 33528125",
             "unit": "ns/iter"
           }
         ]
