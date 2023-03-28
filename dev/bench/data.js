@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679915212261,
+  "lastUpdate": 1679972130643,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9605,6 +9605,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4121645181,
             "range": "± 25046334",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "929e0a1786feb191109c054f4e6aa531fcd7932b",
+          "message": "fix: remove unnecessary @ts-ignore (#2491)\n\n* fix: add a new overload to rspack function call\r\n\r\nThis overload handles call when input is a union type of compiler/multicompiler.\r\nThe actual runtime type is determined dynamically upon actual value passed.\r\n\r\n* fix: remove unnecessary ts-ignore\r\n\r\n* fix: remove more ts-ignore",
+          "timestamp": "2023-03-28T10:44:39+08:00",
+          "tree_id": "7f3b1e76446239ead0e847dab7ba8c24a6b0157b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/929e0a1786feb191109c054f4e6aa531fcd7932b"
+        },
+        "date": 1679972127978,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 338297474,
+            "range": "± 4705570",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4307978356,
+            "range": "± 25632480",
             "unit": "ns/iter"
           }
         ]
