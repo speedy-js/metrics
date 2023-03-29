@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680061021655,
+  "lastUpdate": 1680062053141,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -9929,6 +9929,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4137827307,
             "range": "± 35461295",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "30c4fa99cae876cd9c04ca8e579120aa36dfffd7",
+          "message": "CI: use regex to trigger issue labeler (#2518)\n\n* ci: 🎡 use regex to trigger issue-labeler\r\n\r\n* chore: 🤖 rm test.js",
+          "timestamp": "2023-03-29T11:43:17+08:00",
+          "tree_id": "b33440a1be5bc2add8f0e150c7a1c9f7ed8f22f2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/30c4fa99cae876cd9c04ca8e579120aa36dfffd7"
+        },
+        "date": 1680062050603,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 342242115,
+            "range": "± 4744684",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4340750629,
+            "range": "± 29950480",
             "unit": "ns/iter"
           }
         ]
