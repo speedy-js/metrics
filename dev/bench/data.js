@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680078450187,
+  "lastUpdate": 1680090042395,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10073,6 +10073,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4138192888,
             "range": "± 35931716",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2892ab11d9895169cf3d08f7d2c1f5080138ec7d",
+          "message": "Revert \"fix(cli): mode default config by process.env.NODE_ENV (#2343)\" (#2528)\n\nThis reverts commit d80430c80825fe1b5797a4ed6c67f4df0034a59b.",
+          "timestamp": "2023-03-29T19:29:58+08:00",
+          "tree_id": "3fa60f3de2a900e5b98ef3fd82238e03bdd39518",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2892ab11d9895169cf3d08f7d2c1f5080138ec7d"
+        },
+        "date": 1680090038522,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320726339,
+            "range": "± 4336414",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4139775206,
+            "range": "± 32460435",
             "unit": "ns/iter"
           }
         ]
