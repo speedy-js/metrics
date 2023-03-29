@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680067089912,
+  "lastUpdate": 1680078450187,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10037,6 +10037,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4129819215,
             "range": "± 31756932",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d27dd237cd1e5f019105fe0d408bde5a0c9dd079",
+          "message": "chore: expose error data , part of angular (#2499)\n\n* feat: 🎸 expose stats errors data\r\n\r\n* chore: 🤖 compilationk\r\n\r\n* chore: 🤖 compilation\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 add snapshot\r\n\r\n* chore: 🤖 format",
+          "timestamp": "2023-03-29T16:15:44+08:00",
+          "tree_id": "72f0d425ab3b0629a00ad7492b4987d4a4ba08a1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d27dd237cd1e5f019105fe0d408bde5a0c9dd079"
+        },
+        "date": 1680078446777,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321721778,
+            "range": "± 4505430",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4138192888,
+            "range": "± 35931716",
             "unit": "ns/iter"
           }
         ]
