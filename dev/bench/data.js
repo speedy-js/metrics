@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680090042395,
+  "lastUpdate": 1680101550024,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10109,6 +10109,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4139775206,
             "range": "± 32460435",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21feb858cc3871743ce1166f3a8e4d2ba59be964",
+          "message": "fix: fix hmr not working (#2543)",
+          "timestamp": "2023-03-29T22:35:56+08:00",
+          "tree_id": "77db618be431385d1e6e7a1fa30b30852b6e8fc4",
+          "url": "https://github.com/web-infra-dev/rspack/commit/21feb858cc3871743ce1166f3a8e4d2ba59be964"
+        },
+        "date": 1680101547447,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326326777,
+            "range": "± 4682950",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4199180734,
+            "range": "± 29825444",
             "unit": "ns/iter"
           }
         ]
