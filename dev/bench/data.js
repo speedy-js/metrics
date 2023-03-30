@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680170822342,
+  "lastUpdate": 1680191425272,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10757,6 +10757,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4186453513,
             "range": "± 25108809",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e40eec12a2c74012fcda63258f347ddd8a3eb617",
+          "message": "test: add e2e test in linux (#2561)",
+          "timestamp": "2023-03-30T15:33:45Z",
+          "tree_id": "512d5d63c59ac1cb408eaf7875ada7343eb86819",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e40eec12a2c74012fcda63258f347ddd8a3eb617"
+        },
+        "date": 1680191421288,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 329663241,
+            "range": "± 4407739",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4082512630,
+            "range": "± 33545362",
             "unit": "ns/iter"
           }
         ]
