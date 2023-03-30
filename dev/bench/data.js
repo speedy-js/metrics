@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680147637087,
+  "lastUpdate": 1680148268846,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10289,6 +10289,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4136531488,
             "range": "± 32822455",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5d3200b6d346863d40dfd6f2d4238e944a8a0f5",
+          "message": "fix: bump version (#2500)\n\n* chore: 🤖 chore: bump version\r\n\r\n* chore: 🤖 fix two test case bug\r\n\r\n* chore: 🤖 more related file\r\n\r\n* chore: 🤖 settings.json\r\n\r\n* chore: 🤖 basic fix\r\n\r\n* chore: 🤖 the test case is passed\r\n\r\n* chore: 🤖 bump version\r\n\r\n* chore: 🤖 revert some changes\r\n\r\n* chore: 🤖 revert\r\n\r\n* chore: 🤖 bump version\r\n\r\n* chore: 🤖 pass more test case\r\n\r\n* chore: 🤖 update snap\r\n\r\n* chore: 🤖 recover case\r\n\r\n* chore: 🤖 revert",
+          "timestamp": "2023-03-30T11:31:02+08:00",
+          "tree_id": "6d058dcd72ba46489009f8fdd003a106e4a15be8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a5d3200b6d346863d40dfd6f2d4238e944a8a0f5"
+        },
+        "date": 1680148266304,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 306609963,
+            "range": "± 4802657",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3927214776,
+            "range": "± 21749627",
             "unit": "ns/iter"
           }
         ]
