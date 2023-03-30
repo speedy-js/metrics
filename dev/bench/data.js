@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680150974115,
+  "lastUpdate": 1680153575168,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10397,6 +10397,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3932998692,
             "range": "± 24446131",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "125bb9478ea540484e96b82c2e338b20beadc2c5",
+          "message": "chore: expose `util` for compiler.webpack (#2548)\n\n* chore: 🤖 more webpack-util-function\r\n\r\n* chore: 🤖 update expose util\r\n\r\n* chore: 🤖 update createHash\r\n\r\n* chore: 🤖 changeset",
+          "timestamp": "2023-03-30T13:09:24+08:00",
+          "tree_id": "7fedf95dff40b62c7bc978f08d2599086e177e34",
+          "url": "https://github.com/web-infra-dev/rspack/commit/125bb9478ea540484e96b82c2e338b20beadc2c5"
+        },
+        "date": 1680153572709,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 307762451,
+            "range": "± 4699212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3923309447,
+            "range": "± 28868842",
             "unit": "ns/iter"
           }
         ]
