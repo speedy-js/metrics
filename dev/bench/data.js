@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680159602379,
+  "lastUpdate": 1680160512571,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10541,6 +10541,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4097524739,
             "range": "± 27592403",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d02abc78d14215e7b747fdc09c944d7a970f9a2",
+          "message": "chore: git attributes ignore test related files (#2554)\n\n* chore: 🤖 git attributes\r\n\r\n* chore: 🤖 make the inrelevalt file undetectable\r\n\r\n* chore: 🤖 make test related files undetectable",
+          "timestamp": "2023-03-30T15:04:16+08:00",
+          "tree_id": "2b9133acad0316b01010aeee6eead3b972ccbb35",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9d02abc78d14215e7b747fdc09c944d7a970f9a2"
+        },
+        "date": 1680160510024,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340950535,
+            "range": "± 4483697",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4187752932,
+            "range": "± 28589383",
             "unit": "ns/iter"
           }
         ]
