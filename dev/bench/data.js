@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680191425272,
+  "lastUpdate": 1680192126321,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10793,6 +10793,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4082512630,
             "range": "± 33545362",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa9d7409a4dc6a28180cec04777b8d505f3dabdf",
+          "message": "chore: 🤖 webpack test case (#2544)\n\n* chore: 🤖 test case\n\n* chore: 🤖 make config case run\n\n* chore: 🤖 format\n\n* chore: 🤖 update lcok\n\n* chore: 🤖 remove test code\n\n* chore: 🤖 update prettierignore\n\n* chore: 🤖 tweak config testcase\n\n* chore: 🤖 remove generate\n\n* chore: 🤖 remove temp file\n\n* chore: 🤖 recover snapshot\n\n* chore: 🤖 filter all file\n\n* chore: 🤖 filter all\n\n* chore: 🤖 rename to bak\n\n* chore: 🤖 ignore test/js\n\n* chore: 🤖 only run one test case\n\n* chore: 🤖 update test case\n\n* chore: 🤖 let -> const",
+          "timestamp": "2023-03-30T15:38:18Z",
+          "tree_id": "371698332b3b4e8a1cfec682ce7acc233fabae3d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/aa9d7409a4dc6a28180cec04777b8d505f3dabdf"
+        },
+        "date": 1680192123520,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 323433787,
+            "range": "± 4671715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4057185981,
+            "range": "± 24212196",
             "unit": "ns/iter"
           }
         ]
