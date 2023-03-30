@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680130344718,
+  "lastUpdate": 1680147637087,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10253,6 +10253,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4348083542,
             "range": "± 25429684",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "994d32a257551097328ac575df7280a45f427a9e",
+          "message": "fix(rspack_testing): document on how to run the Rust core (#2547)\n\ncloses #2140",
+          "timestamp": "2023-03-30T11:29:55+08:00",
+          "tree_id": "695cc970e977434fa1b10d5f3e9ccebb97087608",
+          "url": "https://github.com/web-infra-dev/rspack/commit/994d32a257551097328ac575df7280a45f427a9e"
+        },
+        "date": 1680147633409,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 322207299,
+            "range": "± 4945820",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4136531488,
+            "range": "± 32822455",
             "unit": "ns/iter"
           }
         ]
