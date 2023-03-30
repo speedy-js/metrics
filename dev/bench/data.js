@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680163096682,
+  "lastUpdate": 1680166329932,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10649,6 +10649,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3916398074,
             "range": "± 29033669",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "158983297@qq.com",
+            "name": "Song Gao",
+            "username": "ShuiRuTian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ea689d4f8057937c616b33dbc801d882dd1f2ecc",
+          "message": "chore: unify line endings for all files for any new clone (#2541)\n\n* set \"* text=auto\" in .gitattributes to unify line endings\r\n\r\n* force to use LF in .editorconfig",
+          "timestamp": "2023-03-30T16:41:42+08:00",
+          "tree_id": "82bc0f0548ca8b6abd16b1c01bb105c3f0d7b475",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ea689d4f8057937c616b33dbc801d882dd1f2ecc"
+        },
+        "date": 1680166324460,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 307575694,
+            "range": "± 4830296",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3924999469,
+            "range": "± 27039188",
             "unit": "ns/iter"
           }
         ]
