@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680149471009,
+  "lastUpdate": 1680150974115,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10361,6 +10361,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4187273831,
             "range": "± 30642644",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "92ee3c12d9d95e3efc94436a97a7e947a30d8969",
+          "message": "fix: library amd returning (#2532)",
+          "timestamp": "2023-03-30T12:26:00+08:00",
+          "tree_id": "ddeb9734bbc4eb8021c3fb0a1948010fd0093689",
+          "url": "https://github.com/web-infra-dev/rspack/commit/92ee3c12d9d95e3efc94436a97a7e947a30d8969"
+        },
+        "date": 1680150970891,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 308301378,
+            "range": "± 4896607",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3932998692,
+            "range": "± 24446131",
             "unit": "ns/iter"
           }
         ]
