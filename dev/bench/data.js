@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680148268846,
+  "lastUpdate": 1680149471009,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10325,6 +10325,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3927214776,
             "range": "± 21749627",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dhruvrk2000@gmail.com",
+            "name": "Dhruv Kelawala",
+            "username": "dhruvkelawala"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33e916e89be7e677153745d6fae96e2696cb24c9",
+          "message": "feat: built-in support for ProvidePlugin (#2492)",
+          "timestamp": "2023-03-30T12:00:36+08:00",
+          "tree_id": "de6b70c1091e9dac793dfe80d5806bd774b99aac",
+          "url": "https://github.com/web-infra-dev/rspack/commit/33e916e89be7e677153745d6fae96e2696cb24c9"
+        },
+        "date": 1680149468440,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339984726,
+            "range": "± 4436313",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4187273831,
+            "range": "± 30642644",
             "unit": "ns/iter"
           }
         ]
