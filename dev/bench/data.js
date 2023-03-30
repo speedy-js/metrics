@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680162491667,
+  "lastUpdate": 1680163096682,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10613,6 +10613,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3915046480,
             "range": "± 25549058",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "050e4fb731e0097c9ccf29be706d0ce85cff5047",
+          "message": "feat: wasm loading types (#2533)",
+          "timestamp": "2023-03-30T15:40:55+08:00",
+          "tree_id": "2266394617d83a8522937375ff25445dbd2613b8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/050e4fb731e0097c9ccf29be706d0ce85cff5047"
+        },
+        "date": 1680163094124,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 309208982,
+            "range": "± 4435198",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3916398074,
+            "range": "± 29033669",
             "unit": "ns/iter"
           }
         ]
