@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680170182627,
+  "lastUpdate": 1680170822342,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10721,6 +10721,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3917426375,
             "range": "± 27420584",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "18ba95904e6abaa8ec0d0512cbb25dbee64e2b6a",
+          "message": "fix: should generate correct output when running `rspack build --json stats.json` (#2557)\n\n* fix: fix json not generated when set --json\r\n\r\n* chore: recover all js test\r\n\r\n* chore: add changeset\r\n\r\n* chore: fix comment\r\n\r\n* chore: fix cr\r\n\r\n* chore: skip playground",
+          "timestamp": "2023-03-30T17:55:36+08:00",
+          "tree_id": "5e0876b363e2aaa5a6e89668e4aa00a4b8b8fb0d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/18ba95904e6abaa8ec0d0512cbb25dbee64e2b6a"
+        },
+        "date": 1680170817896,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340916310,
+            "range": "± 4407469",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4186453513,
+            "range": "± 25108809",
             "unit": "ns/iter"
           }
         ]
