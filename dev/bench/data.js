@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680154575189,
+  "lastUpdate": 1680158222767,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10469,6 +10469,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3917823911,
             "range": "± 30867997",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "241fdc8482109ae0d46ff25eb79fb122e31f3fef",
+          "message": "chore: remove unnecessary std::mem::take (#2549)",
+          "timestamp": "2023-03-30T14:26:45+08:00",
+          "tree_id": "88e942c7e54b1428f272cf447ccc2272d1d435d3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/241fdc8482109ae0d46ff25eb79fb122e31f3fef"
+        },
+        "date": 1680158220319,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 306202484,
+            "range": "± 4668811",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3935571017,
+            "range": "± 22724152",
             "unit": "ns/iter"
           }
         ]
