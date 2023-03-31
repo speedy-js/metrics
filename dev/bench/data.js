@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680232903990,
+  "lastUpdate": 1680238177677,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10865,6 +10865,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3911888005,
             "range": "± 26619075",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "158983297@qq.com",
+            "name": "Song Gao",
+            "username": "ShuiRuTian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "837aefa29d5e523b74cd1419c82b1bb03ae047c1",
+          "message": "chore: add devcontainer files (#2542)\n\nadd devcontainer files",
+          "timestamp": "2023-03-31T04:38:57Z",
+          "tree_id": "eca049ef3e63746e0e1fef82e363d3d4f8c1c30a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/837aefa29d5e523b74cd1419c82b1bb03ae047c1"
+        },
+        "date": 1680238175105,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 328356642,
+            "range": "± 6720926",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4094238860,
+            "range": "± 26600595",
             "unit": "ns/iter"
           }
         ]
