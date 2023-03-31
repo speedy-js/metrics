@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680252603371,
+  "lastUpdate": 1680265347664,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10937,6 +10937,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3915902980,
             "range": "± 29363480",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7bfcc7bea1aa37a7074fc2d74b30f93128bbd0cd",
+          "message": "fix: :bug: windows absolute should not be considered as scheme (#2571)",
+          "timestamp": "2023-03-31T12:11:11Z",
+          "tree_id": "7d6da5a1d25067159541de50613363fedada5722",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7bfcc7bea1aa37a7074fc2d74b30f93128bbd0cd"
+        },
+        "date": 1680265345234,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339502771,
+            "range": "± 4558844",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4183706096,
+            "range": "± 29002804",
             "unit": "ns/iter"
           }
         ]
