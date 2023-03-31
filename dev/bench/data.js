@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680238177677,
+  "lastUpdate": 1680252603371,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -10901,6 +10901,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4094238860,
             "range": "± 26600595",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1064827638@qq.com",
+            "name": "faga",
+            "username": "faga295"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60e0aeca3f2c9c985c59b9593db52bed068b9c82",
+          "message": "fix: require.cache undefined (#2468)\n\n* fix: require.cache undefined\n\n* chore: add changeset\n\n* fix: require.cache -> __webpack_require.cache\n\n* chore: change span\n\n* chore: visit child node\n\n* chore: refactor\n\n* chore: refactor to constdependency\n\n* chore: refactor using const_dependency\n\n* refactor: move visit_member_expr -> visit_expr\n\n* chore: remove unnecessary code\n\n* chore: remove unnecessary code\n\n* chore: use RuntimeGlobals\n\n* fix: clippy\n\n---------\n\nCo-authored-by: underfin <likui6666666@gmail.com>",
+          "timestamp": "2023-03-31T08:39:28Z",
+          "tree_id": "d7873017dabbbadfc574700a6c1aab58f5ee4f49",
+          "url": "https://github.com/web-infra-dev/rspack/commit/60e0aeca3f2c9c985c59b9593db52bed068b9c82"
+        },
+        "date": 1680252595775,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 307898272,
+            "range": "± 4486047",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3915902980,
+            "range": "± 29363480",
             "unit": "ns/iter"
           }
         ]
