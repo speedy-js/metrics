@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680281212457,
+  "lastUpdate": 1680367899722,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11009,6 +11009,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4037901326,
             "range": "± 28657265",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dhruvrk2000@gmail.com",
+            "name": "Dhruv Kelawala",
+            "username": "dhruvkelawala"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5170ad300ec8098b4dd638be59a1bdc73cd19f2",
+          "message": "feat(rspack-cli): emit warning if the using nodejs version is not recommended (#2575)\n\n* feat: validate nodejs version\n\n* chore: v12 minimum\n\n* chore: review changes",
+          "timestamp": "2023-04-01T16:38:31Z",
+          "tree_id": "d74f88daf415ddfb73ca1343d58c8694ea1c72ca",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a5170ad300ec8098b4dd638be59a1bdc73cd19f2"
+        },
+        "date": 1680367886346,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319836897,
+            "range": "± 6295196",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4199210830,
+            "range": "± 29576208",
             "unit": "ns/iter"
           }
         ]
