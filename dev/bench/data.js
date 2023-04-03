@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680509932111,
+  "lastUpdate": 1680519301903,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11189,6 +11189,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4191967078,
             "range": "± 40399370",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0c6f444dce63f36a3a5f96c938177d765070eac",
+          "message": "chore: remove copy-plugin from cra example (#2596)",
+          "timestamp": "2023-04-03T10:43:42Z",
+          "tree_id": "8c4b5f6cd756af014a75f655e2af19abe0cd8a24",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b0c6f444dce63f36a3a5f96c938177d765070eac"
+        },
+        "date": 1680519298097,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 318546626,
+            "range": "± 6349887",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4205480106,
+            "range": "± 55596032",
             "unit": "ns/iter"
           }
         ]
