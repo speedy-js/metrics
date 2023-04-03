@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680492744664,
+  "lastUpdate": 1680508591219,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11081,6 +11081,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4210127726,
             "range": "± 39027063",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6ce8cf86ab16b7cdd7187ceb7a349e59b9bccf3",
+          "message": "ci: encore PR titles to follow the conventional-commit rules (#2584)\n\n* ci: validate PR title\n\n* Fi\n\n* Update CONTRIBUTING.md",
+          "timestamp": "2023-04-03T07:44:10Z",
+          "tree_id": "e4d31eb746d6712f38547920c2132a1c54cf6690",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a6ce8cf86ab16b7cdd7187ceb7a349e59b9bccf3"
+        },
+        "date": 1680508588815,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 316509469,
+            "range": "± 6070375",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4215903096,
+            "range": "± 28925491",
             "unit": "ns/iter"
           }
         ]
