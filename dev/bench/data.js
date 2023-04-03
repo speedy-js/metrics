@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680508591219,
+  "lastUpdate": 1680509264078,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11117,6 +11117,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4215903096,
             "range": "± 28925491",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa7910b5b56178b488dde4a0f48c39ced352e5f9",
+          "message": "fix(cli): fix semver missing (#2586)",
+          "timestamp": "2023-04-03T07:48:07Z",
+          "tree_id": "6296ced247148b052af9dae3c15407c85c7300ac",
+          "url": "https://github.com/web-infra-dev/rspack/commit/aa7910b5b56178b488dde4a0f48c39ced352e5f9"
+        },
+        "date": 1680509261280,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 317878277,
+            "range": "± 6068610",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4206489125,
+            "range": "± 35641553",
             "unit": "ns/iter"
           }
         ]
