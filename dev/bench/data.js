@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680509264078,
+  "lastUpdate": 1680509932111,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11153,6 +11153,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4206489125,
             "range": "± 35641553",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c3b70d902e54d202e99d01c80c38666d653dd1d",
+          "message": "chore: fix typo in CONTRIBUTING.md (#2588)",
+          "timestamp": "2023-04-03T07:51:55Z",
+          "tree_id": "29619cf421ece526e3e951cd788e65f02ffc638a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5c3b70d902e54d202e99d01c80c38666d653dd1d"
+        },
+        "date": 1680509914031,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 317417394,
+            "range": "± 5494131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4191967078,
+            "range": "± 40399370",
             "unit": "ns/iter"
           }
         ]
