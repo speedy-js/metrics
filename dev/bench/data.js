@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680519301903,
+  "lastUpdate": 1680523047518,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11225,6 +11225,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4205480106,
             "range": "± 55596032",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cbc234ca30ab1c6294ae7e2c43996957cf3afa0c",
+          "message": "fix: swc css minifier global not set (#2600)\n\nchore: 🤖 init",
+          "timestamp": "2023-04-03T11:46:25Z",
+          "tree_id": "29a364cff88e8eeebef94aaf80f19231bece0fa7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/cbc234ca30ab1c6294ae7e2c43996957cf3afa0c"
+        },
+        "date": 1680523044785,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 318454941,
+            "range": "± 6079767",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4201512190,
+            "range": "± 31867343",
             "unit": "ns/iter"
           }
         ]
