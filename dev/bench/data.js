@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680598895672,
+  "lastUpdate": 1680606763864,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11513,6 +11513,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4199108599,
             "range": "± 32982267",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a99d3e5228a36535bea94ace3d13f675cb9d542",
+          "message": "chore: add tailwind example (#2608)\n\n* chore: add tailwind example\n\n* chore: recover build examples in ci",
+          "timestamp": "2023-04-04T11:01:26Z",
+          "tree_id": "29f91e21f032237b535ac5c49713bf16c5dd15c2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1a99d3e5228a36535bea94ace3d13f675cb9d542"
+        },
+        "date": 1680606756277,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 321887779,
+            "range": "± 7386942",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4199013023,
+            "range": "± 30316425",
             "unit": "ns/iter"
           }
         ]
