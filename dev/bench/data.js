@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680592691778,
+  "lastUpdate": 1680597359429,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11441,6 +11441,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4193417513,
             "range": "± 35330948",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1b5fde449ba8d27ac80f786f3810db8263dbbd44",
+          "message": "fix: bump nodejs-resolver to fix path issue with chinese characaters (#2506)\n\n* refactor: upgrade nodejs_resolver\n\n* feat(resolve): support fullySpecified",
+          "timestamp": "2023-04-04T08:23:40Z",
+          "tree_id": "265197b88caf50f18f4b7bb4daa1821c2a17625a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1b5fde449ba8d27ac80f786f3810db8263dbbd44"
+        },
+        "date": 1680597356932,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 318038421,
+            "range": "± 5425794",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4191345002,
+            "range": "± 37908636",
             "unit": "ns/iter"
           }
         ]
