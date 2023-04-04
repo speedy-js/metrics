@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680581647824,
+  "lastUpdate": 1680591233952,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11333,6 +11333,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4198887689,
             "range": "± 31372528",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f23105c005f43abd612bc46a38dab2e64f0eda7",
+          "message": "feat(html): support templateContent in `builtins.html` (#2589)\n\n* feat(html): support templateContent in `builtins.html`\n\n* fix: ci",
+          "timestamp": "2023-04-04T06:41:51Z",
+          "tree_id": "995aebd70e512656a88350c2f710edbe1ab7206d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6f23105c005f43abd612bc46a38dab2e64f0eda7"
+        },
+        "date": 1680591228242,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 317975784,
+            "range": "± 5016986",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4202346895,
+            "range": "± 34547236",
             "unit": "ns/iter"
           }
         ]
