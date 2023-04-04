@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680591233952,
+  "lastUpdate": 1680591923075,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11369,6 +11369,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4202346895,
             "range": "± 34547236",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fff64ea117da59b5cabaa3c26a6252883e15499d",
+          "message": "fix(hmr): improve detecting of ReactRefreshBoundary and Return value of `React.createContext` is not considered as React component (#2587)\n\n* fix: react refresh with context\n\n* chore: use @pmmmwh/react-refresh-webpack-plugin runtime\n\n* chore: add comment\n\n* chore: fix promise",
+          "timestamp": "2023-04-04T06:42:19Z",
+          "tree_id": "9ae45aae8d947dff3321757f0f68da1a9a2cf0b5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fff64ea117da59b5cabaa3c26a6252883e15499d"
+        },
+        "date": 1680591895292,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319309725,
+            "range": "± 5916598",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4197141424,
+            "range": "± 34507502",
             "unit": "ns/iter"
           }
         ]
