@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680597359429,
+  "lastUpdate": 1680598895672,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11477,6 +11477,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4191345002,
             "range": "± 37908636",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41898282+github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3db7b255261337a252c4483159ab680fc359abac",
+          "message": "chore: Release v0.1.6 (#2607)\n\n* feat(html): support templateContent in `builtins.html` (#2589)\n\n* feat(html): support templateContent in `builtins.html`\n\n* fix: ci\n\n* fix(hmr): improve detecting of ReactRefreshBoundary and Return value of `React.createContext` is not considered as React component (#2587)\n\n* fix: react refresh with context\n\n* chore: use @pmmmwh/react-refresh-webpack-plugin runtime\n\n* chore: add comment\n\n* chore: fix promise\n\n* ci: release pre check (#2606)\n\n* chore: 🤖 release pre check\n\n* chore: 🤖 cacnel release workflow\n\n* fix: draw progress bar to stdout instead of stderr, close #1434 (#2599)\n\n* fix: bump nodejs-resolver to fix path issue with chinese characaters (#2506)\n\n* refactor: upgrade nodejs_resolver\n\n* feat(resolve): support fullySpecified\n\n* Release v0.1.6\n\n---------\n\nCo-authored-by: jinrui <jerrykingxyz@gmail.com>\nCo-authored-by: underfin <likui6666666@gmail.com>\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>\nCo-authored-by: zjk <jingkai.zhao@foxmail.com>\nCo-authored-by: bohan <bohan-zhang@foxmail.com>\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2023-04-04T08:50:27Z",
+          "tree_id": "3f946dd05403fc3e9ff8282e9925fd17ff3827d6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3db7b255261337a252c4483159ab680fc359abac"
+        },
+        "date": 1680598888875,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319375576,
+            "range": "± 6721233",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4199108599,
+            "range": "± 32982267",
             "unit": "ns/iter"
           }
         ]
