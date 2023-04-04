@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680606763864,
+  "lastUpdate": 1680621255192,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11549,6 +11549,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4199013023,
             "range": "± 30316425",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vjpr@users.noreply.github.com",
+            "name": "Vaughan Rouesnel",
+            "username": "vjpr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dea9a1d42cc54e5ca0c57ae4e4a5ecd6505c9892",
+          "message": "chore: Update all package.json#repository fields to include the monorepo-relative directory (#2617)\n\nUpdate all package.json#repository fields to include the monorepo-relative directory",
+          "timestamp": "2023-04-04T14:59:48Z",
+          "tree_id": "a5edc6b3d1280d3e3e7507e3089363381f3633b3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/dea9a1d42cc54e5ca0c57ae4e4a5ecd6505c9892"
+        },
+        "date": 1680621251512,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319982539,
+            "range": "± 5471155",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4202435358,
+            "range": "± 35776376",
             "unit": "ns/iter"
           }
         ]
