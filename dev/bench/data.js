@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680621255192,
+  "lastUpdate": 1680688646663,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11585,6 +11585,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4202435358,
             "range": "± 35776376",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nieyuyao0826@hotmail.com",
+            "name": "Yuyao Nie",
+            "username": "nieyuyao"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8872af542434328789f878872f3ed3412f3fbbab",
+          "message": "fix(css): remove trailing space at classname (#2626)\n\n* fix(css): remove trailing space at classname\n\n* fix(css): remove while loop",
+          "timestamp": "2023-04-05T09:46:04Z",
+          "tree_id": "9ef1ee2da2bda20874c5ccc80b780bad5e039ace",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8872af542434328789f878872f3ed3412f3fbbab"
+        },
+        "date": 1680688641077,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320106806,
+            "range": "± 5439296",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4196721551,
+            "range": "± 31499536",
             "unit": "ns/iter"
           }
         ]
