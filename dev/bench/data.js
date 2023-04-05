@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680688646663,
+  "lastUpdate": 1680699399077,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11621,6 +11621,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4196721551,
             "range": "± 31499536",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83f309a4e61fcfbe2bcfbe55a7b1fa9b086cf827",
+          "message": "fix: initial watching should stale until invalidate happens (#2625)\n\n* fix: initial watching should stale until invalidate happens\n\n* chore: add fail test",
+          "timestamp": "2023-04-05T12:44:54Z",
+          "tree_id": "29d26ebd2e273aeb5638987513604f70c1acd56f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/83f309a4e61fcfbe2bcfbe55a7b1fa9b086cf827"
+        },
+        "date": 1680699396615,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 317988842,
+            "range": "± 5898285",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4195375493,
+            "range": "± 35895994",
             "unit": "ns/iter"
           }
         ]
