@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680761683437,
+  "lastUpdate": 1680763103836,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11873,6 +11873,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4187309076,
             "range": "± 39672426",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d007971ababe395dbaff4dfc5a206ccbbd5c2a59",
+          "message": "feat: add support for output.crossOriginLoading config (#2632)\n\n* feat: add basic support for output.crossOriginLoading\n\n* feat: allow crossOriginLoading to be false value\n\n* chore: update CrossOriginLoading::Disable\n\n* test: add e2e test for crossOriginLoading\n\n* chore: update pnpm-lock.yaml\n\n* Update crates/rspack_plugin_runtime/src/runtime_module/css_loading.rs\n\n* Update crates/rspack_plugin_runtime/src/runtime_module/load_script.rs\n\n* Update crates/rspack_plugin_runtime/src/runtime_module/css_loading.rs\n\n* Update crates/rspack_plugin_runtime/src/runtime_module/load_script.rs\n\n---------\n\nCo-authored-by: underfin <likui6666666@gmail.com>",
+          "timestamp": "2023-04-06T06:26:50Z",
+          "tree_id": "bd09260904f006b7a087e6a8ff2d24c2f3f59be6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d007971ababe395dbaff4dfc5a206ccbbd5c2a59"
+        },
+        "date": 1680763090483,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 318923916,
+            "range": "± 5877069",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4200471497,
+            "range": "± 37739597",
             "unit": "ns/iter"
           }
         ]
