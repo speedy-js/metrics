@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680764483616,
+  "lastUpdate": 1680770651190,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11945,6 +11945,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4209309752,
             "range": "± 37133491",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5081dbfc839c4b26812e0ccbff995f4c0699d853",
+          "message": "fix(hmr): should inject react refresh runtime code correctly (#2641)",
+          "timestamp": "2023-04-06T08:31:33Z",
+          "tree_id": "055b70b4837cdac54d345b00c4406cf71b98ddbd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5081dbfc839c4b26812e0ccbff995f4c0699d853"
+        },
+        "date": 1680770645260,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 319124325,
+            "range": "± 6037676",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4196337515,
+            "range": "± 38750985",
             "unit": "ns/iter"
           }
         ]
