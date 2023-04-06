@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680753024557,
+  "lastUpdate": 1680753695950,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11765,6 +11765,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4213669424,
             "range": "± 36421091",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "999b85359ba6b1470b2bdab35de7fbd365177eac",
+          "message": "ci: add refactor type on lint-pr (#2630)\n\n* ci: add refactor type PR title\n\n* order",
+          "timestamp": "2023-04-06T03:32:50Z",
+          "tree_id": "9b6157ad38b897b8d0d7304de20bd6563d15ed3d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/999b85359ba6b1470b2bdab35de7fbd365177eac"
+        },
+        "date": 1680753693510,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320293017,
+            "range": "± 14306431",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4194197620,
+            "range": "± 35336829",
             "unit": "ns/iter"
           }
         ]
