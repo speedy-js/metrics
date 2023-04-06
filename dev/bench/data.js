@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680763103836,
+  "lastUpdate": 1680764483616,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11909,6 +11909,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4200471497,
             "range": "± 37739597",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2bb73c86e78c109012a8d6d3fa19dafd23d0f64",
+          "message": "fix: fix typing of raw cross origin loading (#2635)\n\n* fix: fix typing of raw cross origin loading\n\n* add cgst",
+          "timestamp": "2023-04-06T06:49:26Z",
+          "tree_id": "a2f313ce3013ab1161615e0d2ca8ef86e411de7e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c2bb73c86e78c109012a8d6d3fa19dafd23d0f64"
+        },
+        "date": 1680764478009,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 320117067,
+            "range": "± 6429955",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4209309752,
+            "range": "± 37133491",
             "unit": "ns/iter"
           }
         ]
