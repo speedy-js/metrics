@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680699399077,
+  "lastUpdate": 1680750638020,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11657,6 +11657,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4195375493,
             "range": "± 35895994",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "860bf43a3ee361d3e7bb1d3a4bd83ecf6aea4a0b",
+          "message": "chore: Upgrade typescript (#2615)\n\n* chore: upgrade typescript to 5.0\n\n* chore: 🤖 update lockfile\n\n* chore: upgrade typescript to 5.0\n\n* chore: 🤖 resolve conflict\n\n* chore: 🤖 recovger svelte ts dep\n\n* chore: 🤖 update lock file\n\n* chore: 🤖 ignore svelte warning\n\n---------\n\nCo-authored-by: yangjian.fe <yangjian.fe@bytedance.com>",
+          "timestamp": "2023-04-06T02:59:34Z",
+          "tree_id": "5de33d3aa2881a9016732d5ec973f78c217bdcb0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/860bf43a3ee361d3e7bb1d3a4bd83ecf6aea4a0b"
+        },
+        "date": 1680750631753,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 318810608,
+            "range": "± 6699901",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4193043889,
+            "range": "± 33381896",
             "unit": "ns/iter"
           }
         ]
