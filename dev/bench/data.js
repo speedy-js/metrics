@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680770651190,
+  "lastUpdate": 1680774177642,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11981,6 +11981,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4196337515,
             "range": "± 38750985",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0cd96776138bea3113b168bdc0f4b76e37a6495",
+          "message": "chore: add a issue template for creating tracking issue (#2644)",
+          "timestamp": "2023-04-06T09:31:18Z",
+          "tree_id": "3f98b47630bb359a3c6ff7f946546ca1d83f988c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a0cd96776138bea3113b168bdc0f4b76e37a6495"
+        },
+        "date": 1680774171635,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 318405297,
+            "range": "± 5896294",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4207798283,
+            "range": "± 37664670",
             "unit": "ns/iter"
           }
         ]
