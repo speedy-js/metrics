@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680750638020,
+  "lastUpdate": 1680752364503,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -11693,6 +11693,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4193043889,
             "range": "± 33381896",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3904447563ac5b76d82214201d754c86f98fc2f2",
+          "message": "perf: remove block_in_place for function type RuleSetCondition (#2574)\n\n* refactor: remove block_in_place for function type RuleSetCondition\n\n* clean up\n\n* fix async_recursion lifetime workaround\n\n* fix cr",
+          "timestamp": "2023-04-06T03:28:10Z",
+          "tree_id": "666602ad535d067dbea2a2812a2fbdc6a7bc640f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3904447563ac5b76d82214201d754c86f98fc2f2"
+        },
+        "date": 1680752352222,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 318962074,
+            "range": "± 5098970",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4194118138,
+            "range": "± 35239555",
             "unit": "ns/iter"
           }
         ]
