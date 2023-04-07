@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680860654580,
+  "lastUpdate": 1680861327345,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12485,6 +12485,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4221363732,
             "range": "± 33674796",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "905cacf5c5941809881196ea6480b7a61236a937",
+          "message": "feat: support module.rule[].descriptionData (#2663)\n\n* feat: support module.rule[].descriptionData\n\n* add sc\n\n* cleaup",
+          "timestamp": "2023-04-07T09:34:26Z",
+          "tree_id": "9bd032dc651c8538abe19fc7a148b3b4a87122f2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/905cacf5c5941809881196ea6480b7a61236a937"
+        },
+        "date": 1680861319320,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 324493602,
+            "range": "± 7995866",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4203463540,
+            "range": "± 32446805",
             "unit": "ns/iter"
           }
         ]
