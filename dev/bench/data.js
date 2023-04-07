@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680854207026,
+  "lastUpdate": 1680855338897,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12413,6 +12413,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4214397325,
             "range": "± 28644127",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c10693936b25597bc4ac51db0efc554a5725ab5e",
+          "message": "refactor: 🤖 remove unnecessary ignore clippy (#2660)\n\nchore: 🤖 remove unnecessary ignore clippy",
+          "timestamp": "2023-04-07T08:03:58Z",
+          "tree_id": "53974f8dfb29a4c8c526f1dc118c2f24820d8129",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c10693936b25597bc4ac51db0efc554a5725ab5e"
+        },
+        "date": 1680855334215,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 323501262,
+            "range": "± 5392572",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4221288128,
+            "range": "± 38052052",
             "unit": "ns/iter"
           }
         ]
