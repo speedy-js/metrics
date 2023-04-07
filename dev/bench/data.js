@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680845243262,
+  "lastUpdate": 1680847987884,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12233,6 +12233,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4217349645,
             "range": "± 36659518",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "771e54dd5c7897c22849057f36b262f28ae0d9e8",
+          "message": "chore: fix ecosystem-ci trigger comment (#2658)\n\nchore: fix ecosystem-ci trigger",
+          "timestamp": "2023-04-07T06:01:55Z",
+          "tree_id": "911a5208fba7633bf0c90407d9bf12e557c1804b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/771e54dd5c7897c22849057f36b262f28ae0d9e8"
+        },
+        "date": 1680847984392,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 323922384,
+            "range": "± 5869291",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4194312339,
+            "range": "± 29764657",
             "unit": "ns/iter"
           }
         ]
