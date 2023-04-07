@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680848648821,
+  "lastUpdate": 1680852833090,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12305,6 +12305,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4218941307,
             "range": "± 27647885",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5de9bc7054ef13fa1a3e39327d16d92f9d42f329",
+          "message": "chore: add nestjs example (#2649)\n\n* chore: add nestjs example\n\n* chore: add READEM.md",
+          "timestamp": "2023-04-07T07:22:08Z",
+          "tree_id": "4edfd79bc22f6089fdc1765bde0a81e4f3106410",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5de9bc7054ef13fa1a3e39327d16d92f9d42f329"
+        },
+        "date": 1680852815832,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 324016546,
+            "range": "± 6317861",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4213751269,
+            "range": "± 41504851",
             "unit": "ns/iter"
           }
         ]
