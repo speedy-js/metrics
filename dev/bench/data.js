@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680833768448,
+  "lastUpdate": 1680844152087,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12161,6 +12161,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4210794664,
             "range": "± 30255618",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c12ed7072f0a23621aed010d707550431a761b6",
+          "message": "fix: fix compile time is NaN in watch (#2656)\n\nfix #2654, we should store last startTime before resetting",
+          "timestamp": "2023-04-07T04:58:06Z",
+          "tree_id": "2bf1e343f9ab14547726f0fa9c75a8f5e9cba78d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4c12ed7072f0a23621aed010d707550431a761b6"
+        },
+        "date": 1680844146488,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 324793188,
+            "range": "± 6141659",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4207877318,
+            "range": "± 26823566",
             "unit": "ns/iter"
           }
         ]
