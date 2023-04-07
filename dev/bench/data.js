@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680855338897,
+  "lastUpdate": 1680860654580,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12449,6 +12449,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4221288128,
             "range": "± 38052052",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55d3ea489b50e2e56b3079e8bf409622ae9e0029",
+          "message": "feat: enable resolve.fullySpecified for defaultRules (#2665)\n\n* add test\n\n* add changsest\n\n* Update packages/rspack/tests/configCases/errors/not-fully-specified/index.js\n\nCo-authored-by: bohan <bohan-zhang@foxmail.com>\n\n---------\n\nCo-authored-by: bohan <bohan-zhang@foxmail.com>",
+          "timestamp": "2023-04-07T09:32:48Z",
+          "tree_id": "2eb2f3a9fa7003ee7884fdc2f101d94c47cddc72",
+          "url": "https://github.com/web-infra-dev/rspack/commit/55d3ea489b50e2e56b3079e8bf409622ae9e0029"
+        },
+        "date": 1680860652030,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326125958,
+            "range": "± 7569303",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4221363732,
+            "range": "± 33674796",
             "unit": "ns/iter"
           }
         ]
