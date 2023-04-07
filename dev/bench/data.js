@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680778135897,
+  "lastUpdate": 1680833116977,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12089,6 +12089,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4215895104,
             "range": "± 32758188",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5bc1f55e307b9e91819e86cd446e7f9ebb1be04b",
+          "message": "fix: 🐛 Module Export Entry does not respect ordering (#2634)\n\n* fix: 🐛 html entry order\n\n* chore: 🤖 fix lint\n\n* chore: 🤖 recover import order\n\n* chore: 🤖 changeset\n\n* fix: 🐛 use entry_order to record original config order\n\n* chore: 🤖 tweak",
+          "timestamp": "2023-04-07T01:54:21Z",
+          "tree_id": "a0af4c33292a398230d64c9940f2be44590bbddd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5bc1f55e307b9e91819e86cd446e7f9ebb1be04b"
+        },
+        "date": 1680833114567,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 324087746,
+            "range": "± 5802403",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4219974251,
+            "range": "± 35004907",
             "unit": "ns/iter"
           }
         ]
