@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680833116977,
+  "lastUpdate": 1680833768448,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12125,6 +12125,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4219974251,
             "range": "± 35004907",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84851dce52dec8b565ed57639613c3a0617a5e15",
+          "message": "fix: detect export destructring in tree-shaking (#2565)\n\n* test: add test case for export destructring\n\n* chore: add a TODO comment for later refactoring\n\n* feat: support export destructring\n\nfix #2521\n\n* test: add new test cases for various destructring\n\n* chore: add changeset\n\n---------\n\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2023-04-07T01:54:54Z",
+          "tree_id": "a720bc92cf61867bddc517f5bc578eaff5df58dd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/84851dce52dec8b565ed57639613c3a0617a5e15"
+        },
+        "date": 1680833765988,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 323409145,
+            "range": "± 6385288",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4210794664,
+            "range": "± 30255618",
             "unit": "ns/iter"
           }
         ]
