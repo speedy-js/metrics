@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680861327345,
+  "lastUpdate": 1680936121368,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12521,6 +12521,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4203463540,
             "range": "± 32446805",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "67bff683254073b4c5a9081ef475cb99cc5d3768",
+          "message": "fix: nested byDependency not merge (#2666)\n\n* fix: nested byDependency not merge\n\n* clup solid example\n\n* test",
+          "timestamp": "2023-04-08T06:30:50Z",
+          "tree_id": "5d874d88e5e948541895bc99ad809da04bba2c44",
+          "url": "https://github.com/web-infra-dev/rspack/commit/67bff683254073b4c5a9081ef475cb99cc5d3768"
+        },
+        "date": 1680936118904,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 324292672,
+            "range": "± 5040207",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4213719877,
+            "range": "± 51223262",
             "unit": "ns/iter"
           }
         ]
