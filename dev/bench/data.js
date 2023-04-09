@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680936121368,
+  "lastUpdate": 1681022599323,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12557,6 +12557,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4213719877,
             "range": "± 51223262",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yishidixiashang@gmail.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e649469546ddceda73b28de0b78f2f875306f1d2",
+          "message": "fix: builtins.html does replace [hash] and [name] in builtins.html.filename (#2673)\n\n* save code\n\n* feat: add html file name render\n\n* chore: clear code\n\n* chore: changset\n\n* refactor: code style\n\n* Update crates/rspack_plugin_html/src/plugin.rs\n\nCo-authored-by: Gengkun <ahabhgk@gmail.com>\n\n* fmt\n\n* lint\n\n---------\n\nCo-authored-by: Gengkun <ahabhgk@gmail.com>",
+          "timestamp": "2023-04-09T06:32:05Z",
+          "tree_id": "3d978443b0e3d08e7acea9e5a0af9041012a683f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e649469546ddceda73b28de0b78f2f875306f1d2"
+        },
+        "date": 1681022596838,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 322840445,
+            "range": "± 6118483",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4207520730,
+            "range": "± 41971462",
             "unit": "ns/iter"
           }
         ]
