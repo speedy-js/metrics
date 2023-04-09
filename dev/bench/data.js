@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681022599323,
+  "lastUpdate": 1681049010945,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12593,6 +12593,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4207520730,
             "range": "± 41971462",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lzc295592@163.com",
+            "name": "faga",
+            "username": "faga295"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "32f822bfc63b6801ab8f0f23b0a6b64fd007c9bf",
+          "message": "feat: stats module reason type and userRequest (#2671)\n\n* chore: init type field\n\n* feat: type field init\n\n* chore: display update\n\n* feat: init user_request field\n\n* chore: changeset\n\n* chore: example name modify\n\n* chore: delete stats example\n\n* test: add stats reason test case\n\n* chore: use matchsnapshot instead of toequal\n\n* chore: update snapshot\n\n---------\n\nCo-authored-by: Gengkun <ahabhgk@gmail.com>",
+          "timestamp": "2023-04-09T13:50:40Z",
+          "tree_id": "2d98155c8c2aefcb052e4c4e68b809808200cdf2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/32f822bfc63b6801ab8f0f23b0a6b64fd007c9bf"
+        },
+        "date": 1681049007836,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 324445479,
+            "range": "± 5889888",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4213514837,
+            "range": "± 38715808",
             "unit": "ns/iter"
           }
         ]
