@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681049010945,
+  "lastUpdate": 1681097434515,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12629,6 +12629,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4213514837,
             "range": "± 38715808",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "45aa2fe30e5824b175cdf1d7f9a2297f5e6055da",
+          "message": "fix: use codegen hash to calculate chunk hashes & fix runtime chunk hash (#2677)\n\n* fix: use codegen hash to calculate chunk hashes & fix runtime chunk hash\n\n* fix: use codegen hash to calculate chunk hashes & fix runtime chunk hash\n\n* fix: test\n\n* fix: test",
+          "timestamp": "2023-04-10T03:19:33Z",
+          "tree_id": "38b2884d61718e240a52ae98b94cc68c9d04da61",
+          "url": "https://github.com/web-infra-dev/rspack/commit/45aa2fe30e5824b175cdf1d7f9a2297f5e6055da"
+        },
+        "date": 1681097431378,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 325841165,
+            "range": "± 6279680",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4197335215,
+            "range": "± 27146507",
             "unit": "ns/iter"
           }
         ]
