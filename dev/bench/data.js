@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681107444851,
+  "lastUpdate": 1681110917320,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12737,6 +12737,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4205621037,
             "range": "± 41140044",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2883231+HerringtonDarkholme@users.noreply.github.com",
+            "name": "Herrington Darkholme",
+            "username": "HerringtonDarkholme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c79bfe1c8382aa538e6bddb9ea524282eeedc1a8",
+          "message": "chore: several style change for more concise code  (#2655)\n\n* fix: use more concise style\n\n* fix: more concise style\n\n* chore: debugging without allocation\n\n* fix: address code review feedback",
+          "timestamp": "2023-04-10T07:03:07Z",
+          "tree_id": "768e9c6d3f4505fd12ec812942096dd207b83bb7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c79bfe1c8382aa538e6bddb9ea524282eeedc1a8"
+        },
+        "date": 1681110913670,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326786857,
+            "range": "± 10859372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4208687746,
+            "range": "± 35622410",
             "unit": "ns/iter"
           }
         ]
