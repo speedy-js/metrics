@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681113601083,
+  "lastUpdate": 1681126873744,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12809,6 +12809,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4214720981,
             "range": "± 46660218",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4eb7c76bcaeec5f44faa8f1beeb531e09992f03",
+          "message": "feat: support output.chunkLoadingGlobal (#2679)\n\n* feat: support chunkLoadingGlobal\n\n* fix: schema\n\n* fix: format str\n\n* fix: rust UT\n\n* fix: update snapshot\n\n* docs: add changeset\n\n* fix: support chunk_loading_global to_identifier in RawOptionsApply",
+          "timestamp": "2023-04-10T11:30:11Z",
+          "tree_id": "02519def28b913849cb0773d390d8d14c0f812c6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f4eb7c76bcaeec5f44faa8f1beeb531e09992f03"
+        },
+        "date": 1681126869310,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326448373,
+            "range": "± 5561743",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4209343988,
+            "range": "± 34962251",
             "unit": "ns/iter"
           }
         ]
