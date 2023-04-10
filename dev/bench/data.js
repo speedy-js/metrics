@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681110917320,
+  "lastUpdate": 1681113601083,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12773,6 +12773,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4208687746,
             "range": "± 35622410",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yishidixiashang@gmail.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b1f9417f27bf43f58b27304b3ba40e6e72cfab5",
+          "message": "feat: Support output.clean (#2659)\n\n* add clear feature\n\n* fix: bug\n\n* fix: cr\n\n* fix: bug\n\n* fix: rename\n\n* chore: update snapshot\n\n* rename: clear -> clean\n\n* fix: rspack_testing clear -> clean",
+          "timestamp": "2023-04-10T07:48:33Z",
+          "tree_id": "a51fff961f8fb816cba3fadeda20d518f81fe86c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8b1f9417f27bf43f58b27304b3ba40e6e72cfab5"
+        },
+        "date": 1681113592757,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326428795,
+            "range": "± 5466342",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4214720981,
+            "range": "± 46660218",
             "unit": "ns/iter"
           }
         ]
