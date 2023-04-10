@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681097434515,
+  "lastUpdate": 1681106782852,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12665,6 +12665,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4197335215,
             "range": "± 27146507",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "504e752b548fa7b20399b3b0a3163c4bf9ca34c5",
+          "message": "chore: add \"pending triage\" to new issue by default (#2681)",
+          "timestamp": "2023-04-10T05:55:00Z",
+          "tree_id": "82ff5c1ee6848659961acf5091602fb67462058f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/504e752b548fa7b20399b3b0a3163c4bf9ca34c5"
+        },
+        "date": 1681106780165,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 324955459,
+            "range": "± 5626942",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4224979483,
+            "range": "± 29566203",
             "unit": "ns/iter"
           }
         ]
