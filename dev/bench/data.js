@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681181304634,
+  "lastUpdate": 1681182801561,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12989,6 +12989,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4212579717,
             "range": "± 42985173",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1b72e9c5f2c78047056dffad40529ad27c749365",
+          "message": "fix: changeset remove not exist package (#2690)",
+          "timestamp": "2023-04-11T03:02:20Z",
+          "tree_id": "47d8d53e798a71bf7555eba9fc2c5576349af355",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1b72e9c5f2c78047056dffad40529ad27c749365"
+        },
+        "date": 1681182798480,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326742262,
+            "range": "± 6782355",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4240141314,
+            "range": "± 56701848",
             "unit": "ns/iter"
           }
         ]
