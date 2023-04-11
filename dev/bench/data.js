@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681138745412,
+  "lastUpdate": 1681181304634,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -12953,6 +12953,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4220376301,
             "range": "± 31549683",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "038aa848c32ba2bd72f7e731d20844fe43ee48f5",
+          "message": "ci: 🎡 fix spell check failed (#2689)",
+          "timestamp": "2023-04-11T02:37:21Z",
+          "tree_id": "66515fc7e6741c122c331da98b102e1abe08d56a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/038aa848c32ba2bd72f7e731d20844fe43ee48f5"
+        },
+        "date": 1681181301968,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326410673,
+            "range": "± 6398929",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4212579717,
+            "range": "± 42985173",
             "unit": "ns/iter"
           }
         ]
