@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681284880659,
+  "lastUpdate": 1681285565750,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13637,6 +13637,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4204942046,
             "range": "± 31226965",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "aa91ce76a5f4e0e6fdd3f6819ee73e6cb5b498c2",
+          "message": "fix(progress): should not display empty progress bar (#2725)",
+          "timestamp": "2023-04-12T07:03:04Z",
+          "tree_id": "c394709ad47f31bf88dcb269de47fdc23e78b0d2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/aa91ce76a5f4e0e6fdd3f6819ee73e6cb5b498c2"
+        },
+        "date": 1681285560639,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332432914,
+            "range": "± 6106617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4216463892,
+            "range": "± 33185891",
             "unit": "ns/iter"
           }
         ]
