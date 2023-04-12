@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681221335933,
+  "lastUpdate": 1681266595552,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13349,6 +13349,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4212776533,
             "range": "± 34476725",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21a4f2bd0e2e0bfc2a9db1610ee9d915c088bcb5",
+          "message": "chore: add datetime to nightly version (#2720)",
+          "timestamp": "2023-04-12T02:18:54Z",
+          "tree_id": "e6b8815ac44248fe6f2c287f695d40eeb8b0eba5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/21a4f2bd0e2e0bfc2a9db1610ee9d915c088bcb5"
+        },
+        "date": 1681266593149,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332544207,
+            "range": "± 5846217",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4209296302,
+            "range": "± 37758289",
             "unit": "ns/iter"
           }
         ]
