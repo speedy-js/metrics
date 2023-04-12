@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681282846802,
+  "lastUpdate": 1681283535132,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13529,6 +13529,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4204243451,
             "range": "± 32927783",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5bbc1f330704f3bb7254a8410759124971e016e6",
+          "message": "test: finish all webpack test migration  (#2709)\n\n* test: 💍 more webpack test\n\n* feat: skip more test case\n\n* finish *.test.js and *.basictest.js\n\n* feat: finish *.longtest.js\n\n* feat: 🎸 finish longtest.js with package.json\n\n* feat: 🎸 finish unittest\n\n* chore: 🤖 update snapshot",
+          "timestamp": "2023-04-12T06:49:39Z",
+          "tree_id": "dc5e8f0245bc5fe59b91799f100453f4c52aebd4",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5bbc1f330704f3bb7254a8410759124971e016e6"
+        },
+        "date": 1681283529345,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333703326,
+            "range": "± 5759664",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4212039215,
+            "range": "± 28851840",
             "unit": "ns/iter"
           }
         ]
