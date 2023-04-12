@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681283535132,
+  "lastUpdate": 1681284209072,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13565,6 +13565,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4212039215,
             "range": "± 28851840",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de32c2d3d11d16d0e1f70848776bde4e8c0331ff",
+          "message": "chore: use copilot in PR template by default (#2729)\n\n* chore: use copilot in PR template\n\n* Update",
+          "timestamp": "2023-04-12T06:51:14Z",
+          "tree_id": "e2b9e5b60c1e59adbf5ea59aa4580a1a9c0b7ab1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/de32c2d3d11d16d0e1f70848776bde4e8c0331ff"
+        },
+        "date": 1681284203324,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333601085,
+            "range": "± 6255036",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4226807261,
+            "range": "± 35758962",
             "unit": "ns/iter"
           }
         ]
