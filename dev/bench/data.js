@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681286237165,
+  "lastUpdate": 1681296554321,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13709,6 +13709,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4212155757,
             "range": "± 33792625",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dbd29d38aee13ed8432559b1866014cac571082e",
+          "message": "chore: add codeowner for crate error (#2736)\n\nchore: add codeowner",
+          "timestamp": "2023-04-12T10:38:02Z",
+          "tree_id": "b6a708d1fc993940b4b5607a8d1ae59bfdc54fa0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/dbd29d38aee13ed8432559b1866014cac571082e"
+        },
+        "date": 1681296550988,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333156939,
+            "range": "± 6172623",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4211266451,
+            "range": "± 29856648",
             "unit": "ns/iter"
           }
         ]
