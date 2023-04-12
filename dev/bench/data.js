@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681298823824,
+  "lastUpdate": 1681300483568,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13781,6 +13781,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4226324490,
             "range": "± 42351762",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "27afffcd027292468f3164d45cb223b663322f78",
+          "message": "fix: panic hook failed to restore after being suppressed (#2734)\n\n* fix: panic hook failed to restore after being suppressed\n\n* chore: add changeset",
+          "timestamp": "2023-04-12T11:43:36Z",
+          "tree_id": "aadbdd046bcab50bf0302f02b048ac89da5f81bb",
+          "url": "https://github.com/web-infra-dev/rspack/commit/27afffcd027292468f3164d45cb223b663322f78"
+        },
+        "date": 1681300481016,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333000087,
+            "range": "± 4619369",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4228059359,
+            "range": "± 37020155",
             "unit": "ns/iter"
           }
         ]
