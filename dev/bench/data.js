@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681284209072,
+  "lastUpdate": 1681284880659,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13601,6 +13601,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4226807261,
             "range": "± 35758962",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b96a1133a0cb26d655792ae2f05b69f48bc0b4ec",
+          "message": "chore: Improve PR template (#2730)",
+          "timestamp": "2023-04-12T07:02:15Z",
+          "tree_id": "d919ba2f4db14fde4797e73820ea06b0ce2fa3ce",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b96a1133a0cb26d655792ae2f05b69f48bc0b4ec"
+        },
+        "date": 1681284874803,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333838722,
+            "range": "± 6326870",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4204942046,
+            "range": "± 31226965",
             "unit": "ns/iter"
           }
         ]
