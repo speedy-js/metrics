@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681269666075,
+  "lastUpdate": 1681271999169,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13421,6 +13421,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4216524228,
             "range": "± 31126877",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef030d45405988bbf6939de83a919e08a7c45c50",
+          "message": "fix: extend chunkGroup name from EsmDynamicImportDependency (#2712)\n\n* fix: extend chunkGroup name from EsmDynamicImportDependency\n\n* tes\n\n* fmt",
+          "timestamp": "2023-04-12T03:48:54Z",
+          "tree_id": "a1c83120cdcec5155d0a98092aab41a2dfa53048",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ef030d45405988bbf6939de83a919e08a7c45c50"
+        },
+        "date": 1681271996057,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333962022,
+            "range": "± 6404003",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4217384639,
+            "range": "± 35811985",
             "unit": "ns/iter"
           }
         ]
