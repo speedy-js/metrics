@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681374924855,
+  "lastUpdate": 1681378636242,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13997,6 +13997,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4218643107,
             "range": "± 44684915",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdc5fd9d8243be41ef6cbdf7cad45b513463826b",
+          "message": "fix: :bug: fix crash in multiCompiler (#2744)\n\n* fix: :bug: fix crash in multiCompiler\n\n* chore: add safety comment and enable test:example",
+          "timestamp": "2023-04-13T09:25:07Z",
+          "tree_id": "f7c0f43aaa39983e63ace388aaca462b89b9769b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fdc5fd9d8243be41ef6cbdf7cad45b513463826b"
+        },
+        "date": 1681378619451,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 336118804,
+            "range": "± 6654542",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4212389447,
+            "range": "± 41541270",
             "unit": "ns/iter"
           }
         ]
