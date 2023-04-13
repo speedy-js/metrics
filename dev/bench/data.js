@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681373602737,
+  "lastUpdate": 1681374924855,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13961,6 +13961,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4229588207,
             "range": "± 42330885",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c483109a1a9331a59e6a732ace1695fdba8f82f",
+          "message": "chore: remove continue-on-error from reusable-build (#2743)\n\nThe current setup is stable, let's fail the build if tests fail",
+          "timestamp": "2023-04-13T08:23:11Z",
+          "tree_id": "5de6964879edcbcf1548643883b353262434a287",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5c483109a1a9331a59e6a732ace1695fdba8f82f"
+        },
+        "date": 1681374917623,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332928836,
+            "range": "± 5937946",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4218643107,
+            "range": "± 44684915",
             "unit": "ns/iter"
           }
         ]
