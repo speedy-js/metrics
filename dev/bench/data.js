@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681378636242,
+  "lastUpdate": 1681382844309,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14033,6 +14033,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4212389447,
             "range": "± 41541270",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "944b25e852834a0023b41414132b211343861a34",
+          "message": "ci: remove invalid \"description\" field from release-canary (#2746)",
+          "timestamp": "2023-04-13T10:36:11Z",
+          "tree_id": "33dffd9acf43f6d0d14783ba522970b65c76fc2f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/944b25e852834a0023b41414132b211343861a34"
+        },
+        "date": 1681382840562,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331950213,
+            "range": "± 6336702",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4234995240,
+            "range": "± 40573587",
             "unit": "ns/iter"
           }
         ]
