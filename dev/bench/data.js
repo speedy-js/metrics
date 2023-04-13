@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681300483568,
+  "lastUpdate": 1681356415288,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13817,6 +13817,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4228059359,
             "range": "± 37020155",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lzc295592@163.com",
+            "name": "faga",
+            "username": "faga295"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9822cef0a1d2678b0502328fcae6c13706313a14",
+          "message": "fix: template literal dynamic import (#2732)\n\n* fix: template_literal_dynamic_import\n\n* chore: lint fix\n\n* chore: lint rs\n\n* chore: changeset\n\n* chore: fix unexpected change\n\n* chore: indent revert\n\n* fix: clippy warning\n\n* fix: scan context module\n\n* fix: test error\n\n* chore: decrease dist file count",
+          "timestamp": "2023-04-13T03:15:50Z",
+          "tree_id": "62967ad285e7a170a08075157cba25b2b5ca0a1c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9822cef0a1d2678b0502328fcae6c13706313a14"
+        },
+        "date": 1681356412747,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332501959,
+            "range": "± 6186850",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4228462398,
+            "range": "± 31463509",
             "unit": "ns/iter"
           }
         ]
