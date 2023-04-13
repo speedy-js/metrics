@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681356415288,
+  "lastUpdate": 1681370472545,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13853,6 +13853,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4228462398,
             "range": "± 31463509",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d28a9d0851f0c09f533257aaad1b31884b608ac6",
+          "message": "fix(react-refresh): lazily access `module.exports` to prevent unexpected/potential TDZ error (#2714)\n\n* fix(react-refresh): lazily access module.exports to prevent unexpected/potential TDZ error\n\n* comment\n\n* Changeset",
+          "timestamp": "2023-04-13T07:08:52Z",
+          "tree_id": "adac93dc3754507141f6cd2aaa8a9b1be8540902",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d28a9d0851f0c09f533257aaad1b31884b608ac6"
+        },
+        "date": 1681370465928,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332597854,
+            "range": "± 6568449",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4232118180,
+            "range": "± 38699311",
             "unit": "ns/iter"
           }
         ]
