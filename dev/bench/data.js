@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681371304918,
+  "lastUpdate": 1681373602737,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -13925,6 +13925,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4218624770,
             "range": "± 33267428",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60bc47ee4543f430e5f2e9a6703434f1e7145376",
+          "message": "ci(release): Refactor release script with reusable workflow (#2597)\n\n* ci: reusable release script for canary, nightly and stable releases\n\n* chore: move triggers back",
+          "timestamp": "2023-04-13T08:01:07Z",
+          "tree_id": "0601d688d223f568d948b7795c3173b30958669a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/60bc47ee4543f430e5f2e9a6703434f1e7145376"
+        },
+        "date": 1681373585317,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332531630,
+            "range": "± 6505559",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4229588207,
+            "range": "± 42330885",
             "unit": "ns/iter"
           }
         ]
