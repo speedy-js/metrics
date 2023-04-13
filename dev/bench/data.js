@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681383527179,
+  "lastUpdate": 1681391393455,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14105,6 +14105,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4240884756,
             "range": "± 43496919",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef1f6d7a79121d2f76b74268e072c540feed9e1c",
+          "message": "revert: \"fix(css): should generate css assets even if the imported css file is empty\" (#2749)\n\nRevert \"fix(css): should generate css assets even if the imported css file is empty (#2747)\"\n\nThis reverts commit 22c9b5bf13099a7a5387ee15832834e792a36608.",
+          "timestamp": "2023-04-13T12:54:12Z",
+          "tree_id": "33dffd9acf43f6d0d14783ba522970b65c76fc2f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ef1f6d7a79121d2f76b74268e072c540feed9e1c"
+        },
+        "date": 1681391388543,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334274023,
+            "range": "± 7513238",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4206510141,
+            "range": "± 28969620",
             "unit": "ns/iter"
           }
         ]
