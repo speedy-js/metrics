@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681461914360,
+  "lastUpdate": 1681464704516,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14177,6 +14177,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4214496361,
             "range": "± 27197197",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60b453307b7b870df3b027dd6e32746be0c631ff",
+          "message": "chore: introduce zx, corepack and setup script (#2754)\n\n* chore: introduce corepack and setup script\n\n* update docs\n\n* Update lock\n\n* Delete catch\n\n* Add readme\n\n* Improve readme\n\n* Improve readme\n\n* Improve readme",
+          "timestamp": "2023-04-14T09:20:08Z",
+          "tree_id": "3630ac9860d54f28f95848d4ef894e37f1d9a86b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/60b453307b7b870df3b027dd6e32746be0c631ff"
+        },
+        "date": 1681464699516,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332584225,
+            "range": "± 6842970",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4214825857,
+            "range": "± 23764077",
             "unit": "ns/iter"
           }
         ]
