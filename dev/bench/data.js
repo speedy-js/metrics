@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681391393455,
+  "lastUpdate": 1681461914360,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14141,6 +14141,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4206510141,
             "range": "± 28969620",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f54621d5bc2ec9ce3d364f9fec10466c8114f345",
+          "message": "chore: bump swc 0.74.6 (#2657)\n\n* chore: bump swc 0.74.6\n\n* fix: clippy\n\n* fix: test\n\n* fix: test\n\n* fix: add warning for low version @swc/helpers",
+          "timestamp": "2023-04-14T08:33:29Z",
+          "tree_id": "237571783c17958f00e3f103a61e278b972ecd46",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f54621d5bc2ec9ce3d364f9fec10466c8114f345"
+        },
+        "date": 1681461907098,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333864742,
+            "range": "± 5289648",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4214496361,
+            "range": "± 27197197",
             "unit": "ns/iter"
           }
         ]
