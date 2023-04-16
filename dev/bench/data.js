@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681468088608,
+  "lastUpdate": 1681612993808,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14285,6 +14285,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4193630920,
             "range": "± 36119424",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "siyou.p@outlook.com",
+            "name": "Si Yang",
+            "username": "siyou"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3da3155139704cb63cf840149751e99cc31875fd",
+          "message": "style: fix clippy warning (#2764)\n\n- useless use of 'vec!'\n- needless borrow\n- redundant closure",
+          "timestamp": "2023-04-16T02:32:01Z",
+          "tree_id": "69e6765b7abc767e0a41b055826de803364fe38b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3da3155139704cb63cf840149751e99cc31875fd"
+        },
+        "date": 1681612991382,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332813128,
+            "range": "± 6462286",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4202889850,
+            "range": "± 35051488",
             "unit": "ns/iter"
           }
         ]
