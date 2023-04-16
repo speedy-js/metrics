@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681656921930,
+  "lastUpdate": 1681657745642,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14537,6 +14537,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4201843448,
             "range": "± 30061509",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5fecaa6c27ea209cfb0e080ba980396e1638f6b5",
+          "message": "chore: improve structrue of PULL_REQUEST_TEMPLATE.md (#2769)",
+          "timestamp": "2023-04-16T14:23:17Z",
+          "tree_id": "2e7eb24fbf7708361229604e9e2e833b8e0b0179",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5fecaa6c27ea209cfb0e080ba980396e1638f6b5"
+        },
+        "date": 1681657697831,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332198169,
+            "range": "± 6014045",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4223845192,
+            "range": "± 29569092",
             "unit": "ns/iter"
           }
         ]
