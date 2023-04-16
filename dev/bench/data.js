@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681638929942,
+  "lastUpdate": 1681641545180,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14357,6 +14357,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4205410416,
             "range": "± 29044741",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1cbc8b08cbcd41c5c72e43d1e061ba765792999e",
+          "message": "chore: Add release.yml (#2765)",
+          "timestamp": "2023-04-16T10:27:45Z",
+          "tree_id": "1ee982fc29bd1bd4ae13c7452d3ce594b4501aa2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1cbc8b08cbcd41c5c72e43d1e061ba765792999e"
+        },
+        "date": 1681641542037,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330952512,
+            "range": "± 6046206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4226683279,
+            "range": "± 39430167",
             "unit": "ns/iter"
           }
         ]
