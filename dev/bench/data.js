@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681641545180,
+  "lastUpdate": 1681648438545,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14393,6 +14393,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4226683279,
             "range": "± 39430167",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yishidixiashang@gmail.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a72daa0db76af2fcab4f5d7841c22e8d89baa741",
+          "message": "fix(builtins.provide): should only replace exactly matched expression (#2721)\n\n* chore: save code\n\n* submit\n\n* done\n\n* feat: support member_exper_provide\n\n* fix: tree shark bug\n\n* chore: update test\n\n* chore: update snap\n\n* fix: bug\n\n* chore: clear style\n\n* chore: fix spell\n\n* chore: change\n\n* Update settings.json\n\n* Update settings.json\n\n* chore: fix settings.json",
+          "timestamp": "2023-04-16T12:22:29Z",
+          "tree_id": "b7ffd0c225ea2c98b91cb43bb14af2e07812be67",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a72daa0db76af2fcab4f5d7841c22e8d89baa741"
+        },
+        "date": 1681648432905,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334894317,
+            "range": "± 5936421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4208132547,
+            "range": "± 37264664",
             "unit": "ns/iter"
           }
         ]
