@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681648438545,
+  "lastUpdate": 1681655344504,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14429,6 +14429,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4208132547,
             "range": "± 37264664",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yishidixiashang@gmail.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "094c3792c16958fa7dde517bab534b3c731718ec",
+          "message": "feat(html): `builtins.html` should inject `<script href=\"xxxx\" />` in `<head />` (#2770)\n\ndone",
+          "timestamp": "2023-04-16T14:16:52Z",
+          "tree_id": "2c5249cae771ac5a021f650b3e0903486dd5cbf8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/094c3792c16958fa7dde517bab534b3c731718ec"
+        },
+        "date": 1681655335249,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334895328,
+            "range": "± 6275097",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4213349111,
+            "range": "± 39529076",
             "unit": "ns/iter"
           }
         ]
