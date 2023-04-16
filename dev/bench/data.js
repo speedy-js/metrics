@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681612993808,
+  "lastUpdate": 1681638929942,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14321,6 +14321,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4202889850,
             "range": "± 35051488",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yishidixiashang@gmail.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6250d66b0193bff21caf9a7e9ffed4edc5964eb9",
+          "message": "fix(css): should generate css assets even if the imported css file is empty (#2759)\n\n* fix: 2670\n\n* test\n\n* chore: add test\n\n* fix: test case\n\n* chore: rm gitpod",
+          "timestamp": "2023-04-16T09:44:14Z",
+          "tree_id": "4f58f32730111798d8caed0271124a428e391c9d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6250d66b0193bff21caf9a7e9ffed4edc5964eb9"
+        },
+        "date": 1681638927327,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332328139,
+            "range": "± 7058138",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4205410416,
+            "range": "± 29044741",
             "unit": "ns/iter"
           }
         ]
