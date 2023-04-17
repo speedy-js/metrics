@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681723105037,
+  "lastUpdate": 1681726391270,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14717,6 +14717,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4215029442,
             "range": "± 40127875",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d0fe8cc829f6a8aa31d05196c2f39979fcd13dc",
+          "message": "chore: Revert \"chore: 🤖 bump napi (#2717)\" (#2783)\n\nRevert \"chore: 🤖 bump napi (#2717)\"\n\nThis reverts commit 59c42ba3f16778abd6ea761adeda6120faae9c38.",
+          "timestamp": "2023-04-17T10:01:33Z",
+          "tree_id": "254234655b626d9a27d6b82fb39b8ea74f4d7449",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2d0fe8cc829f6a8aa31d05196c2f39979fcd13dc"
+        },
+        "date": 1681726384800,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333341505,
+            "range": "± 6498360",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4221053153,
+            "range": "± 39409555",
             "unit": "ns/iter"
           }
         ]
