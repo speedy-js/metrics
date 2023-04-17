@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681726391270,
+  "lastUpdate": 1681730249453,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14753,6 +14753,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4221053153,
             "range": "± 39409555",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zelmarou@gmaiL.com",
+            "name": "Zakuru San",
+            "username": "zakuru"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "55eef36ef2825bd0e165ffeae2f87294776dbf4d",
+          "message": "chore: update and lock pnpm to 7.32.0 (#2780)\n\n* update to 732\n\n* Set to exact version\n\n* Update package.json\n\n* corepack enable\n\n* update   .github/workflows/bench-history.yaml\n\n* update action yml",
+          "timestamp": "2023-04-17T11:05:59Z",
+          "tree_id": "eab09d5ea89e1aa7a29440d88f1c5a02deee7173",
+          "url": "https://github.com/web-infra-dev/rspack/commit/55eef36ef2825bd0e165ffeae2f87294776dbf4d"
+        },
+        "date": 1681730244137,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333281769,
+            "range": "± 6819868",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4221960337,
+            "range": "± 30421207",
             "unit": "ns/iter"
           }
         ]
