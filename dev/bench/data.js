@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681712400136,
+  "lastUpdate": 1681717020862,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14609,6 +14609,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4204698004,
             "range": "± 29694754",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b53d9483841d7f29ff05646d47504838807dd1e4",
+          "message": "perf(core): improve cold startup performance by caching `depended_modules` function in code splitter (#2294)\n\nperf(rspack_core): add cache to depended_modules in code splitter",
+          "timestamp": "2023-04-17T07:24:27Z",
+          "tree_id": "edafa4f02d90aea6ddc5a7ee965310546aa2b938",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b53d9483841d7f29ff05646d47504838807dd1e4"
+        },
+        "date": 1681717014291,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332846164,
+            "range": "± 7241794",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4226184417,
+            "range": "± 35504703",
             "unit": "ns/iter"
           }
         ]
