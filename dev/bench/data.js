@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681657745642,
+  "lastUpdate": 1681712400136,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14573,6 +14573,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4223845192,
             "range": "± 29569092",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "59c42ba3f16778abd6ea761adeda6120faae9c38",
+          "message": "chore: 🤖 bump napi (#2717)\n\n* chore: 🤖 bump napi\n\n* chore: 🤖 update lock\n\n* chore: 🤖 update lock\n\n* chore: 🤖 update lock\n\n* chore: 🤖 update lock\n\n* chore: 🤖 update check_rust_depdency\n\n* chore: 🤖 update comment\n\n* fix: 🐛 cr issue\n\n* chore: 🤖 byPasDepList",
+          "timestamp": "2023-04-17T06:08:40Z",
+          "tree_id": "824e042a7413868b6626bd4914233705a7426d74",
+          "url": "https://github.com/web-infra-dev/rspack/commit/59c42ba3f16778abd6ea761adeda6120faae9c38"
+        },
+        "date": 1681712396629,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332690067,
+            "range": "± 5940262",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4204698004,
+            "range": "± 29694754",
             "unit": "ns/iter"
           }
         ]
