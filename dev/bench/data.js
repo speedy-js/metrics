@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681811349649,
+  "lastUpdate": 1681817623214,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15113,6 +15113,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4239291922,
             "range": "± 33267049",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "473059157437ae028a191964cf7e5e00e7f876e2",
+          "message": "fix: preset env use unresolved_mark (#2807)",
+          "timestamp": "2023-04-18T11:22:10Z",
+          "tree_id": "eadb973b7661f66b5f7472ce38528c68665ad41a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/473059157437ae028a191964cf7e5e00e7f876e2"
+        },
+        "date": 1681817617426,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333000553,
+            "range": "± 6675338",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4227869687,
+            "range": "± 41970805",
             "unit": "ns/iter"
           }
         ]
