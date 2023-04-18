@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681790303780,
+  "lastUpdate": 1681795202939,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14825,6 +14825,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4229197879,
             "range": "± 35419581",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d6e726d2c9b37c0b186a30d6f1811977e4ee0661",
+          "message": "ci: set fail-fast: false for matrix builds (#2796)\n\nBuild and test everything so we can look at all the errors\n\nThis value is defaulted to true",
+          "timestamp": "2023-04-18T05:08:42Z",
+          "tree_id": "5bd534a0ecd5343137f3ed82ef556873668f7c04",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d6e726d2c9b37c0b186a30d6f1811977e4ee0661"
+        },
+        "date": 1681795192318,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332585020,
+            "range": "± 5916765",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4235430145,
+            "range": "± 36300780",
             "unit": "ns/iter"
           }
         ]
