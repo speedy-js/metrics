@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681730249453,
+  "lastUpdate": 1681790303780,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14789,6 +14789,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4221960337,
             "range": "± 30421207",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5af5fe73534c4c7e7124f74458b39036bd89388b",
+          "message": "chore: fine grained lint stage (#2794)\n\n* chore: 🤖 update package.json\n\n* chore: 🤖 more test files\n\n* chore: 🤖 recover\n\n* chore: 🤖 recover\n\n* chore: 🤖 recover",
+          "timestamp": "2023-04-18T03:46:54Z",
+          "tree_id": "6d5138b07162c4a6fd7422d292aa9b8984d45011",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5af5fe73534c4c7e7124f74458b39036bd89388b"
+        },
+        "date": 1681790298122,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332345135,
+            "range": "± 6304519",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4229197879,
+            "range": "± 35419581",
             "unit": "ns/iter"
           }
         ]
