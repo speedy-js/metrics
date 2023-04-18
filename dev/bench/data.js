@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681808254671,
+  "lastUpdate": 1681811349649,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15077,6 +15077,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4236343735,
             "range": "± 42003241",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6468697964e46fd50db339e6e164aec79741450a",
+          "message": "test: webpack compatibility metric (#2745)\n\n* chore: 🤖 copy webpack snapshot\n\n* chore: 🤖 update diff\n\n* chore: 🤖 remove result.json\n\n* chore: 🤖 update diff\n\n* chore: 🤖 update diff\n\n* chore: 🤖 udpate snapshot\n\n* chore: 🤖 update metric\n\n* chore: 🤖 recover\n\n* chore: 🤖 finish node metric\n\n* chore: 🤖 remove result.json\n\n* chore: 🤖 remove redundant script\n\n* chore: 🤖 update snapshot\n\n* chore: 🤖 recover pnpm.lock\n\n* chore: 🤖 update snap\n\n* chore: 🤖 exclude typos",
+          "timestamp": "2023-04-18T09:36:58Z",
+          "tree_id": "d42ab29b5bfdd108121a7dde096aa302a04aa288",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6468697964e46fd50db339e6e164aec79741450a"
+        },
+        "date": 1681811334165,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334369981,
+            "range": "± 6797901",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4239291922,
+            "range": "± 33267049",
             "unit": "ns/iter"
           }
         ]
