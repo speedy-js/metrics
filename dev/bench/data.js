@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681795202939,
+  "lastUpdate": 1681798932773,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14861,6 +14861,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4235430145,
             "range": "± 36300780",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "efe7890b4d695e64183e3dc50683298c231821cb",
+          "message": "feat: add chunkFormat & chunkLoading & enabledChunkLoadingTypes config (#2792)\n\nfix: add chunkFormat & chunkLoading & enabledChunkLoadingTypes config",
+          "timestamp": "2023-04-18T06:10:04Z",
+          "tree_id": "7724208b6fa980dcd946316aedc135a3c4ac07b5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/efe7890b4d695e64183e3dc50683298c231821cb"
+        },
+        "date": 1681798929205,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332084966,
+            "range": "± 8075704",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4222910369,
+            "range": "± 47544632",
             "unit": "ns/iter"
           }
         ]
