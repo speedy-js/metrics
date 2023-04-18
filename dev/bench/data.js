@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681825524189,
+  "lastUpdate": 1681830529559,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15257,6 +15257,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4231401906,
             "range": "± 39412273",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a11ea9793910947f592d9557dd4c1e76fedbb27a",
+          "message": "fix: error snap should be ordered (#2811)\n\n* fix: 🐛 snapshot shoud be ordered\n\n* test: 💍 update snap\n\n* chore: 🤖 recover main",
+          "timestamp": "2023-04-18T14:38:42Z",
+          "tree_id": "2ab7d64cf5a1cc7e5580683b99f83a2f2792a88d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a11ea9793910947f592d9557dd4c1e76fedbb27a"
+        },
+        "date": 1681830526898,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333105785,
+            "range": "± 6644761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4239289286,
+            "range": "± 36718875",
             "unit": "ns/iter"
           }
         ]
