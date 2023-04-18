@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681801687499,
+  "lastUpdate": 1681802452549,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15005,6 +15005,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4226926430,
             "range": "± 35345767",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c951f352ea7716509774e3a19c42366e701d7700",
+          "message": "feat: impl new loader-runner (#2789)\n\n* feat: init loader-runner\n\n* test: test loader\n\n* chore: cleanup\n\n* chore: cleanup more\n\n* chore: clippy\n\n* chore: add changeset\n\n* feat: optimize is_composed\n\n* chore: remove comment",
+          "timestamp": "2023-04-18T06:58:16Z",
+          "tree_id": "10b9cc7aeddb96a8eaf5b07ca5b0fd16bb370163",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c951f352ea7716509774e3a19c42366e701d7700"
+        },
+        "date": 1681802438585,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332633997,
+            "range": "± 5302499",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4240084894,
+            "range": "± 43073747",
             "unit": "ns/iter"
           }
         ]
