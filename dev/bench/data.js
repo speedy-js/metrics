@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681799646989,
+  "lastUpdate": 1681800949375,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -14933,6 +14933,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4238969248,
             "range": "± 37119276",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d235ea4711221359a824aad02b057dd5274a779",
+          "message": "ci: only cache Rust builds on the main branch (#2798)\n\nci: only cache Rust builds on the main branch, and only read cache on other branches\n\nThis should avoid hitting the GitHub 10GB cache limit",
+          "timestamp": "2023-04-18T06:44:08Z",
+          "tree_id": "4765241315ba31edcd789e0f4edb3ffb57806720",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1d235ea4711221359a824aad02b057dd5274a779"
+        },
+        "date": 1681800945780,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332089319,
+            "range": "± 6242655",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4229192427,
+            "range": "± 34783825",
             "unit": "ns/iter"
           }
         ]
