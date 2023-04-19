@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681901018087,
+  "lastUpdate": 1681917363394,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15509,6 +15509,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4222567007,
             "range": "± 25874508",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lzc295592@163.com",
+            "name": "faga",
+            "username": "faga295"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a14278ec82c82352c87d32b80928fcd5b52d87a5",
+          "message": "feat: preview command (#2434)\n\n* chore: init preview command\n\n* refactor: rspack cli options\n\n* refactor: move process of entry to buildConfig\n\n* feat: preview command\n\n* chore: changeset\n\n* chore: lint\n\n* chore: delete log\n\n* chore: add docs\n\n* chore: devServer option defalut value\n\n* chore: rename\n\n* chore: find the possible config\n\n* chore: resolve conflict\n\n* chore: resolve conflicts\n\n* chore: path base on option.context\n\n* chore: fix typo\n\n* chore: change options type to rspackBuildCliOption\n\n* chore: update\n\n---------\n\nCo-authored-by: hardfist <yangjianzju@gmail.com>",
+          "timestamp": "2023-04-19T15:02:52Z",
+          "tree_id": "223c3c2fddc71630f3a35e8ea4b88b6ae347f6dc",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a14278ec82c82352c87d32b80928fcd5b52d87a5"
+        },
+        "date": 1681917357428,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333806424,
+            "range": "± 6353777",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4229850019,
+            "range": "± 34317107",
             "unit": "ns/iter"
           }
         ]
