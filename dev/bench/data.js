@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681897677908,
+  "lastUpdate": 1681898371366,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15437,6 +15437,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4242003623,
             "range": "± 36623594",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "787468718d857f716af8e8bbe038a8e6f80047d4",
+          "message": "feat: support `experiments.outputModule` (#2803)\n\n* feat: output module\n\n* fix: format\n\n* fix: test\n\n* fix: test\n\n* fix: test\n\n* fix: avoid add tree_shaking_result\n\n* fix: test\n\n* fix: test\n\n* fix: test\n\n* fix: test",
+          "timestamp": "2023-04-19T09:37:31Z",
+          "tree_id": "fec1cebe3a1f80076b79bfd54839fe0c68316a42",
+          "url": "https://github.com/web-infra-dev/rspack/commit/787468718d857f716af8e8bbe038a8e6f80047d4"
+        },
+        "date": 1681898367665,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332652298,
+            "range": "± 6599881",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4239837373,
+            "range": "± 33955584",
             "unit": "ns/iter"
           }
         ]
