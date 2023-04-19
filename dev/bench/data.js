@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681887968577,
+  "lastUpdate": 1681897677908,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15401,6 +15401,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4222983372,
             "range": "± 30131766",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "504547beae636afeb0f3b727c4426691396ab4b9",
+          "message": "chore: remove ./x and Makefile and replace them with npm scripts (#2825)",
+          "timestamp": "2023-04-19T09:36:16Z",
+          "tree_id": "ae62f96009f1555fc3bd75dc4c28a6cb4c4455da",
+          "url": "https://github.com/web-infra-dev/rspack/commit/504547beae636afeb0f3b727c4426691396ab4b9"
+        },
+        "date": 1681897666725,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333795463,
+            "range": "± 5539715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4242003623,
+            "range": "± 36623594",
             "unit": "ns/iter"
           }
         ]
