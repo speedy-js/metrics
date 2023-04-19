@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681874469185,
+  "lastUpdate": 1681877934473,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15329,6 +15329,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4251714083,
             "range": "± 31313379",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yishidixiashang@gmail.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c8f632dfb9f52f2a618346c3cac66a0366884b9f",
+          "message": "feat: support complex magical comment `import(/* webpackChunkName: \"/dist/d/js_d\" */ \"./d\")` (#2812)\n\n* done\n\n* done\n\n* chore: code style\n\n* fix: ignore webpack chunk name bug",
+          "timestamp": "2023-04-19T04:07:36Z",
+          "tree_id": "d909391b66f412342903cb1c25a07d72ccf81a01",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c8f632dfb9f52f2a618346c3cac66a0366884b9f"
+        },
+        "date": 1681877931924,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333118168,
+            "range": "± 5858759",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4224338661,
+            "range": "± 27930422",
             "unit": "ns/iter"
           }
         ]
