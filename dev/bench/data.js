@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681830529559,
+  "lastUpdate": 1681874469185,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15293,6 +15293,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4239289286,
             "range": "± 36718875",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "20a09e1329c627748fa358ee34bfbc5a4e98964e",
+          "message": "chore: 🤖 check node binding lock file (#2814)",
+          "timestamp": "2023-04-19T03:09:47Z",
+          "tree_id": "b5868f00a03c7f0d3c9c69d41da75e503155a402",
+          "url": "https://github.com/web-infra-dev/rspack/commit/20a09e1329c627748fa358ee34bfbc5a4e98964e"
+        },
+        "date": 1681874464497,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333152014,
+            "range": "± 5899869",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4251714083,
+            "range": "± 31313379",
             "unit": "ns/iter"
           }
         ]
