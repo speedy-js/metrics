@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681972924174,
+  "lastUpdate": 1681980559128,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15725,6 +15725,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4221807847,
             "range": "± 34837503",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb8cfeb670f2bd32b242c79d17cbcfa09d410b1e",
+          "message": "ci: install pnpm in benchmark CI (#2836)",
+          "timestamp": "2023-04-20T08:36:22Z",
+          "tree_id": "7a68630f2d50f32895a734577635c9f3549f5bde",
+          "url": "https://github.com/web-infra-dev/rspack/commit/cb8cfeb670f2bd32b242c79d17cbcfa09d410b1e"
+        },
+        "date": 1681980555610,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332499302,
+            "range": "± 5993681",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4203198354,
+            "range": "± 37436457",
             "unit": "ns/iter"
           }
         ]
