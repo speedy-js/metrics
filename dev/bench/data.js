@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681966870550,
+  "lastUpdate": 1681971186861,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15653,6 +15653,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4199125886,
             "range": "± 41455780",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f1d3be0027e288c17b2934009399ddb7515fd96",
+          "message": "fix: use webworker instead of web-worker in AvailableTarget type (#2834)\n\n* fix: webworker target\n\n* docs: add changeset",
+          "timestamp": "2023-04-20T06:01:23Z",
+          "tree_id": "24e52fb7820c2b462978af7f9590691fadaf9a3b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0f1d3be0027e288c17b2934009399ddb7515fd96"
+        },
+        "date": 1681971180864,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333721511,
+            "range": "± 5890617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4217710946,
+            "range": "± 32808254",
             "unit": "ns/iter"
           }
         ]
