@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681980559128,
+  "lastUpdate": 1681983033669,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15761,6 +15761,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4203198354,
             "range": "± 37436457",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c162cb663bbf8afbdea1e6fffdbfc8922fd40258",
+          "message": "feat: implement built-in `BannerPlugin` (#2819)\n\n* feat: add banner plugin\n\n* docs: add changeset\n\n* fix: lint\n\n* fix: update UT\n\n* fix: support processAssetsStageAdditions hook in js\n\n* fix: add processAssetsStageAdditions hook test\n\n* fix: support array",
+          "timestamp": "2023-04-20T09:18:37Z",
+          "tree_id": "90121747cf0c63d8dcbaef2f34b231094ebf2914",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c162cb663bbf8afbdea1e6fffdbfc8922fd40258"
+        },
+        "date": 1681983025198,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333043215,
+            "range": "± 5929044",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4223875961,
+            "range": "± 40647555",
             "unit": "ns/iter"
           }
         ]
