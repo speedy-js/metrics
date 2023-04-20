@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681971186861,
+  "lastUpdate": 1681972924174,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15689,6 +15689,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4217710946,
             "range": "± 32808254",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4442377f549d49bf6c1148e42813dad509fad3cf",
+          "message": "chore: scripts should be ESM by default (#2827)\n\nchore: scripts are consider ESM by default",
+          "timestamp": "2023-04-20T06:30:13Z",
+          "tree_id": "992cac11f17da2aaaa0d29a3e6d72e7339317e6f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4442377f549d49bf6c1148e42813dad509fad3cf"
+        },
+        "date": 1681972905801,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332954064,
+            "range": "± 6732380",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4221807847,
+            "range": "± 34837503",
             "unit": "ns/iter"
           }
         ]
