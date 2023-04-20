@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681959061461,
+  "lastUpdate": 1681966128157,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15581,6 +15581,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4220253582,
             "range": "± 31599186",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0197e0986e0b3e979268bc49c6815f40950d413a",
+          "message": "ci: 🐛CI ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  (#2833)\n\nfix: 🐛 pnpm recursive error",
+          "timestamp": "2023-04-20T04:37:24Z",
+          "tree_id": "3546521aea9aa7e7569243b86133bb04721ca14e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0197e0986e0b3e979268bc49c6815f40950d413a"
+        },
+        "date": 1681966124799,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333014065,
+            "range": "± 5300011",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4208321897,
+            "range": "± 36769607",
             "unit": "ns/iter"
           }
         ]
