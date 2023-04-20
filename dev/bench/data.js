@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681990801558,
+  "lastUpdate": 1681991958958,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15941,6 +15941,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4215015630,
             "range": "± 35383629",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b4426cedc1eda1db4b21a4c77383ea037d69c0b4",
+          "message": "chore: use `zx` to replace xtask (#2840)\n\n* chore: use `zx` to replace xtask\n\n* Fix script\n\n* Fix",
+          "timestamp": "2023-04-20T11:46:23Z",
+          "tree_id": "66466665b1692200789fe4ba1df152047821d232",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b4426cedc1eda1db4b21a4c77383ea037d69c0b4"
+        },
+        "date": 1681991954202,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331064823,
+            "range": "± 7519141",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4217583506,
+            "range": "± 34414733",
             "unit": "ns/iter"
           }
         ]
