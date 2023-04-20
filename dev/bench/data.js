@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681966128157,
+  "lastUpdate": 1681966870550,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15617,6 +15617,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4208321897,
             "range": "± 36769607",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "58852732+GiveMe-A-Name@users.noreply.github.com",
+            "name": "qixuan",
+            "username": "GiveMe-A-Name"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "769656b2777aca835636bf0ed6c2cc673a3edaee",
+          "message": "fix: support magic comment `import( /* webpackChunkName: \"/user/[id]/page\" */ './foo')` containing `[id]` (#2835)\n\nfix(plugin_javascript):\nthe webpack_chunk_name_capture can not capture string like\n/user/[id]/page",
+          "timestamp": "2023-04-20T04:49:31Z",
+          "tree_id": "eafd83968aecfa047db0aa091ab672a383a21ea7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/769656b2777aca835636bf0ed6c2cc673a3edaee"
+        },
+        "date": 1681966867963,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332662252,
+            "range": "± 6112412",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4199125886,
+            "range": "± 41455780",
             "unit": "ns/iter"
           }
         ]
