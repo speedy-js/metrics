@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681985486199,
+  "lastUpdate": 1681987300406,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15869,6 +15869,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4224400651,
             "range": "± 36280573",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "25bb2b31cb711b4c01620fe2efb2c7cd5016b539",
+          "message": "chore: bump resolver and fix resolve.alias with resource query (#2817)\n\ncloses #2800",
+          "timestamp": "2023-04-20T10:29:02Z",
+          "tree_id": "07f8707373e39032ad8e2f2c8d8be9850def9e17",
+          "url": "https://github.com/web-infra-dev/rspack/commit/25bb2b31cb711b4c01620fe2efb2c7cd5016b539"
+        },
+        "date": 1681987294501,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332165960,
+            "range": "± 6054324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4222757606,
+            "range": "± 35000732",
             "unit": "ns/iter"
           }
         ]
