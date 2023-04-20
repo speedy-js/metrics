@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681983033669,
+  "lastUpdate": 1681984731051,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15797,6 +15797,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4223875961,
             "range": "± 40647555",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b0b717d5a01cec6337ddcd7394fbc699fbb6e00",
+          "message": "test: webpack examples (#2793)\n\n* test: 💍 migrate webpack examples\n\n* chore: 🤖 disable prettier in webpack-examples\n\n* chore: 🤖 add test.filter.js\n\n* chore: 🤖 remove todo\n\n* test: webpack compatibility metric (#2745)\n\n* chore: 🤖 copy webpack snapshot\n\n* chore: 🤖 update diff\n\n* chore: 🤖 remove result.json\n\n* chore: 🤖 update diff\n\n* chore: 🤖 update diff\n\n* chore: 🤖 udpate snapshot\n\n* chore: 🤖 update metric\n\n* chore: 🤖 recover\n\n* chore: 🤖 finish node metric\n\n* chore: 🤖 remove result.json\n\n* chore: 🤖 remove redundant script\n\n* chore: 🤖 update snapshot\n\n* chore: 🤖 recover pnpm.lock\n\n* chore: 🤖 update snap\n\n* chore: 🤖 exclude typos\n\n* chore: 🤖 add test.filter.js\n\n* chore: 🤖 recover stats.test.js\n\n* chore: 🤖 update snap",
+          "timestamp": "2023-04-20T09:45:33Z",
+          "tree_id": "2e1af178a40dabe66894b5843c144ce2e9c32496",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3b0b717d5a01cec6337ddcd7394fbc699fbb6e00"
+        },
+        "date": 1681984715900,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334089936,
+            "range": "± 5953648",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4216886408,
+            "range": "± 35748642",
             "unit": "ns/iter"
           }
         ]
