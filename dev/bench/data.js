@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681987300406,
+  "lastUpdate": 1681990801558,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -15905,6 +15905,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4222757606,
             "range": "± 35000732",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dcc15454017ea98ad6a58f0145dde380f33dbf53",
+          "message": "chore: 🤖 add common-check.yaml and fix ci (#2847)",
+          "timestamp": "2023-04-20T11:27:28Z",
+          "tree_id": "285eef94ed3fd9f160c53d64a9f6b255d31af453",
+          "url": "https://github.com/web-infra-dev/rspack/commit/dcc15454017ea98ad6a58f0145dde380f33dbf53"
+        },
+        "date": 1681990788078,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332231062,
+            "range": "± 5887760",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4215015630,
+            "range": "± 35383629",
             "unit": "ns/iter"
           }
         ]
