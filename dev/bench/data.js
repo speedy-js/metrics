@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682052947044,
+  "lastUpdate": 1682055033016,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16121,6 +16121,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4224597954,
             "range": "± 37637305",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0fd6d7a6e4c437c1ed23989b80cea99149fe86eb",
+          "message": "feat: support loader-runner and pitching (#2808)\n\n* refactor: init\n\n* refactor: replace with new loader\n\n* chore: rename\n\n* fix: execution order\n\n* chore: lint\n\n* chore: wip testing\n\n* feat: make it compile\n\n* feat: apply loader to rust\n\n* feat: js wip\n\n* feat: impl original content for pitching\n\n* fix: fix typo\n\n* feat: it works!\n\n* feat: update message when last loader returns nothing\n\n* fix: fix control flow\n\n* chore: add more comments\n\n* fix: fix resolving\n\n* chore: remove testing\n\n* feat: add some optimizations\n\n* chore: lint\n\n* chore: cleanup\n\n* fix: hmr\n\n* test: add pitching test\n\n* chore: cleanup\n\n* chore: lint\n\n* add cgst\n\n* chore: lint",
+          "timestamp": "2023-04-21T05:18:32Z",
+          "tree_id": "4986bb1b710e3f047cb81f7bf7eacd1ba2a79dcb",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0fd6d7a6e4c437c1ed23989b80cea99149fe86eb"
+        },
+        "date": 1682055030504,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 329296728,
+            "range": "± 5672207",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4210847761,
+            "range": "± 43589448",
             "unit": "ns/iter"
           }
         ]
