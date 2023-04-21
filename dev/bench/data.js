@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682076360160,
+  "lastUpdate": 1682077097219,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16265,6 +16265,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4193020432,
             "range": "± 36394758",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36764bb4fd06e00cac341d7dc6b4bb3c29e3acdf",
+          "message": "feat: chunk asset hook (#2603)\n\n* chore: 🤖 chunk asset plugin\n\n* chore: 🤖 recover\n\n* chore: 🤖 update chunk asset\n\n* feat: 🎸 rust side chunkAsset\n\n* chore: 🤖 rebase main\n\n* chore: 🤖 add test",
+          "timestamp": "2023-04-21T11:22:11Z",
+          "tree_id": "5bfbb8f4786512b937af02bfbef513402d9777ca",
+          "url": "https://github.com/web-infra-dev/rspack/commit/36764bb4fd06e00cac341d7dc6b4bb3c29e3acdf"
+        },
+        "date": 1682077094670,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 325749273,
+            "range": "± 6715377",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4204536093,
+            "range": "± 32523442",
             "unit": "ns/iter"
           }
         ]
