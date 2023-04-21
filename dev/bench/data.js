@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682071353362,
+  "lastUpdate": 1682076360160,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16229,6 +16229,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4240381975,
             "range": "± 39610373",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a33c102b4bb694638a7c2c1af29e75a404aa55b",
+          "message": "refactor: `crates/rspack_plugin_javascript/src/visitors/dependency/util.rs` (#2865)\n\n* refactor: crates/rspack_plugin_javascript/src/visitors/dependency/util.rs\n\n* Fix test",
+          "timestamp": "2023-04-21T11:13:32Z",
+          "tree_id": "5722be152fa499e881b5dacfe15cca40e5e69aaf",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4a33c102b4bb694638a7c2c1af29e75a404aa55b"
+        },
+        "date": 1682076357424,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 325819635,
+            "range": "± 5715569",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4193020432,
+            "range": "± 36394758",
             "unit": "ns/iter"
           }
         ]
