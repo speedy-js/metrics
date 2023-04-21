@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682056910835,
+  "lastUpdate": 1682071353362,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16193,6 +16193,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4213305468,
             "range": "± 34850686",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f2cf5e92c767d77957b9500a0495bf7ea9ed926",
+          "message": "feat: support `Rule.enforce` (#2862)\n\n* feat: init Rule.enforce\n\n* feat: finish enforce\n\n* chore: add cgst\n\n* chore: lint",
+          "timestamp": "2023-04-21T09:49:38Z",
+          "tree_id": "58bbced31fe01226bef8e2294034600c07a9eeeb",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7f2cf5e92c767d77957b9500a0495bf7ea9ed926"
+        },
+        "date": 1682071347826,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330422958,
+            "range": "± 6489271",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4240381975,
+            "range": "± 39610373",
             "unit": "ns/iter"
           }
         ]
