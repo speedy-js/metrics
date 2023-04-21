@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682044406227,
+  "lastUpdate": 1682048259464,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16049,6 +16049,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4223601941,
             "range": "± 38624925",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef7d3c55ddd448e9ab91990c022f4053fe83e8db",
+          "message": "feat: add ImportScriptsChunkLoadingPlugin (#2839)\n\n* feat: add ImportScriptsChunkLoadingPlugin\n\n* fix: add changeset\n\n---------\n\nCo-authored-by: gaoyuan <9aoyuao@gmail.com>",
+          "timestamp": "2023-04-21T03:25:41Z",
+          "tree_id": "939315254a45b98a759831be3e82d009429841cb",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ef7d3c55ddd448e9ab91990c022f4053fe83e8db"
+        },
+        "date": 1682048253659,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332286211,
+            "range": "± 9021062",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4214233446,
+            "range": "± 29873301",
             "unit": "ns/iter"
           }
         ]
