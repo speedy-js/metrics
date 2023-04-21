@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681992775276,
+  "lastUpdate": 1682044406227,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16013,6 +16013,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4198842150,
             "range": "± 34415510",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nieyuyao0826@hotmail.com",
+            "name": "Yuyao Nie",
+            "username": "nieyuyao"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1720f973a5f3cdd627a761ddf4004d470f7b445",
+          "message": "feat(hook): add optimizeModules hook (#2758)\n\n* feat(hook): add optimizeModules hook\n\n* fix(hook): call updateDisabledHooks method\n\n* fix(hook): add optimizeModules to hookMap",
+          "timestamp": "2023-04-21T02:21:28Z",
+          "tree_id": "733c08c242da0abb23f9f4a386058c7f58ea676e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c1720f973a5f3cdd627a761ddf4004d470f7b445"
+        },
+        "date": 1682044403720,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334511898,
+            "range": "± 5316102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4223601941,
+            "range": "± 38624925",
             "unit": "ns/iter"
           }
         ]
