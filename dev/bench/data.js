@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682055033016,
+  "lastUpdate": 1682056910835,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16157,6 +16157,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4210847761,
             "range": "± 43589448",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "057829b321b5dcaa693b93cb51be19de6f7b1172",
+          "message": "fix: sourcemap lost when enable builtins.banner (#2858)\n\n* fix: sourcemap loose when enable builtins.banner\n\n* add changet",
+          "timestamp": "2023-04-21T05:49:32Z",
+          "tree_id": "74bbe9530fb4360fec9ddde851433818019a2123",
+          "url": "https://github.com/web-infra-dev/rspack/commit/057829b321b5dcaa693b93cb51be19de6f7b1172"
+        },
+        "date": 1682056906830,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330672955,
+            "range": "± 5643606",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4213305468,
+            "range": "± 34850686",
             "unit": "ns/iter"
           }
         ]
