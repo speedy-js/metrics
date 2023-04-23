@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682243285618,
+  "lastUpdate": 1682244030631,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16553,6 +16553,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3945125576,
             "range": "± 25698058",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e7774d7fa745d07ebbd45621fb5409297617e66",
+          "message": "perf: bailout if possible and ignore AstNode of type in `ReactRefreshUsageFinder` (#2875)\n\nperf: Bailout if possible and ignore AstNode of type in `ReactRefreshUsageFinder`",
+          "timestamp": "2023-04-23T06:27:32Z",
+          "tree_id": "aeb8b5bf003c94b3ffd946dbb83a423ee5711c0f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8e7774d7fa745d07ebbd45621fb5409297617e66"
+        },
+        "date": 1682244025078,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 316518235,
+            "range": "± 4728960",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3930314299,
+            "range": "± 20527104",
             "unit": "ns/iter"
           }
         ]
