@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682240979339,
+  "lastUpdate": 1682241767259,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16445,6 +16445,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3935133166,
             "range": "± 26943206",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "489435760@qq.com",
+            "name": "lipp",
+            "username": "lippzhang"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "698b67a38ea0144b2c6a8a00004b6fef176ec687",
+          "message": "fix: remove`.d.ts` from the default `resolve.extensions` (#2861)\n\nfix(all): remove.d.ts from the default resolve.extensions",
+          "timestamp": "2023-04-23T04:39:03Z",
+          "tree_id": "62149dfb169b5c7fc8bda79c7e0ddb4d4afef870",
+          "url": "https://github.com/web-infra-dev/rspack/commit/698b67a38ea0144b2c6a8a00004b6fef176ec687"
+        },
+        "date": 1682241762291,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 314996030,
+            "range": "± 5170191",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3941137790,
+            "range": "± 23219166",
             "unit": "ns/iter"
           }
         ]
