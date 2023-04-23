@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682126785423,
+  "lastUpdate": 1682240215652,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16373,6 +16373,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4225237367,
             "range": "± 40070381",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab1db7e57136ef0374d608b2041427a42f51ba57",
+          "message": "fix(resolve): return query and fragment when alias target had (#2869)",
+          "timestamp": "2023-04-22T12:50:47Z",
+          "tree_id": "58f4342c2408e2fa63924406ba954f944c17041f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ab1db7e57136ef0374d608b2041427a42f51ba57"
+        },
+        "date": 1682240209900,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 336461391,
+            "range": "± 5033455",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4123850618,
+            "range": "± 31837550",
             "unit": "ns/iter"
           }
         ]
