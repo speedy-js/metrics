@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682246058965,
+  "lastUpdate": 1682246787503,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16661,6 +16661,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4125901446,
             "range": "± 70020686",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e23d7232959c0a9c779d4ce5108f03bde878b8a",
+          "message": "chore: fix peerDep of rspack-plugin-html (#2876)\n\n* chore: fix peerDep of rspack-plugin-html\n\n* chore: add changeset",
+          "timestamp": "2023-04-23T09:23:15Z",
+          "tree_id": "3338db86961476f1b6d734ef8666d4be8b1ef3eb",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0e23d7232959c0a9c779d4ce5108f03bde878b8a"
+        },
+        "date": 1682246784916,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 336627130,
+            "range": "± 5013468",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4121553708,
+            "range": "± 24604159",
             "unit": "ns/iter"
           }
         ]
