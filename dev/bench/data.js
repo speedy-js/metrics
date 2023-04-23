@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682245341970,
+  "lastUpdate": 1682246058965,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16625,6 +16625,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4122008966,
             "range": "± 30304191",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5394c0eb0a5c293355c3d0a81be48dc90c921e97",
+          "message": "fix: optimize tree shaking swc/helpers  (#2871)\n\n* chore: 🤖 fix\n\n* feat: add some dbg helper\n\n* fix: 🐛 I think the bug is fixed\n\n* chore: 🤖 remove helper mark\n\n* chore: 🤖 update binding\n\n* chore: 🤖 recover binding\n\n* chore: 🤖 remove test binding\n\n* chore: 🤖 remove comment\n\n* chore: 🤖 update test\n\n* chore: 🤖 lint\n\n* chore: 🤖 comments\n\n* chore: 🤖 remove binding.d.ts\n\n* chore: 🤖 recover binding.d.ts\n\n* chore: recover main\n\n* chore: 🤖 remove test dir\n\n* chore: 🤖 remove dir\n\n* chore: 🤖 recover main binding",
+          "timestamp": "2023-04-23T07:28:38Z",
+          "tree_id": "4824767984b8aaee61e8d841a74f47c9455b7d4b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5394c0eb0a5c293355c3d0a81be48dc90c921e97"
+        },
+        "date": 1682246053295,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 335200456,
+            "range": "± 5060779",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4125901446,
+            "range": "± 70020686",
             "unit": "ns/iter"
           }
         ]
