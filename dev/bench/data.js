@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682246787503,
+  "lastUpdate": 1682251601852,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16697,6 +16697,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4121553708,
             "range": "± 24604159",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "73b44b253e38192011003f3d5d117564cc775d74",
+          "message": "chore: fix `make-threejs10x.js` script (#2887)",
+          "timestamp": "2023-04-23T11:57:08Z",
+          "tree_id": "383bbc7ad831fa1ac2949c9d727ba08e19a0a37d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/73b44b253e38192011003f3d5d117564cc775d74"
+        },
+        "date": 1682251598143,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2184777,
+            "range": "± 46869",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3356831,
+            "range": "± 28480",
             "unit": "ns/iter"
           }
         ]
