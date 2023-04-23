@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682251601852,
+  "lastUpdate": 1682261140767,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16733,6 +16733,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3356831,
             "range": "± 28480",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61d6e5d6342a0d7ef2c00997500207f5ffa5434a",
+          "message": "feat: support inline loader (#2867)\n\n* feat: init inline loader\n\n* chore: cleanup\n\n* fix: resolve context\n\n* refactor: rename resolve loader hook\n\n* test: use inline for pre post test\n\n* feat: user request should contain inline loaders as well\n\n* chore: cleanup\n\n* feat: add cgst\n\n* fix: fix wasm dependency",
+          "timestamp": "2023-04-23T13:36:27Z",
+          "tree_id": "d740bd86f96d3a72c48696b6dbe42462e3aad42f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/61d6e5d6342a0d7ef2c00997500207f5ffa5434a"
+        },
+        "date": 1682261138240,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2184134,
+            "range": "± 33179",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3342604,
+            "range": "± 24154",
             "unit": "ns/iter"
           }
         ]
