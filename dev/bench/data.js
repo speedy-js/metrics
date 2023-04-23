@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682242539313,
+  "lastUpdate": 1682243285618,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16517,6 +16517,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3943751938,
             "range": "± 25785749",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aee4fdc96c0c74a59267ace81f56cad264fa022e",
+          "message": "fix: react refresh runtime inject for nest function call (#2874)\n\n* fix: react refresh runtime inject for nest function call\n\n* fix: add changeset",
+          "timestamp": "2023-04-23T05:26:16Z",
+          "tree_id": "2339dea42e4d2e0cefdfb84214a56d25eb94c776",
+          "url": "https://github.com/web-infra-dev/rspack/commit/aee4fdc96c0c74a59267ace81f56cad264fa022e"
+        },
+        "date": 1682243279959,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 317310892,
+            "range": "± 5058164",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3945125576,
+            "range": "± 25698058",
             "unit": "ns/iter"
           }
         ]
