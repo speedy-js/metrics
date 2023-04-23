@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682240215652,
+  "lastUpdate": 1682240979339,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16409,6 +16409,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4123850618,
             "range": "± 31837550",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7342a474a3431b6a2e53a385e77fd777323c8a2e",
+          "message": "feat: support passing function to `externals` (#2866)\n\n* feat: support externals function\n\n* feat: add more args\n\n* fix: test",
+          "timestamp": "2023-04-23T04:35:02Z",
+          "tree_id": "792431e1e73401115b667a8d939efbe017a54901",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7342a474a3431b6a2e53a385e77fd777323c8a2e"
+        },
+        "date": 1682240973723,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 316767378,
+            "range": "± 5217631",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3935133166,
+            "range": "± 26943206",
             "unit": "ns/iter"
           }
         ]
