@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682261140767,
+  "lastUpdate": 1682310148067,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16769,6 +16769,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3342604,
             "range": "± 24154",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e710d912e61dffb0f78fb102012f4652f7ee513",
+          "message": "chore: prettier example code (#2889)\n\n* chore: use external to handle nestjs bundle\n\n* chore: prettier example",
+          "timestamp": "2023-04-24T03:14:31Z",
+          "tree_id": "8106176b78296b206511475b620c215b811235b2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4e710d912e61dffb0f78fb102012f4652f7ee513"
+        },
+        "date": 1682310145638,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2184776,
+            "range": "± 37629",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3339876,
+            "range": "± 56327",
             "unit": "ns/iter"
           }
         ]
