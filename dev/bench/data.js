@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682316707273,
+  "lastUpdate": 1682320855569,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16877,6 +16877,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3350146,
             "range": "± 38309",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "820c029d6e709fff901540a0e9fb6bda543c69fc",
+          "message": "perf: compose loaders on the native side (#2894)\n\n* refactor: compose loaders on the native side\n\n* perf: passthrough for a single loader\n\n* chore: add cgst",
+          "timestamp": "2023-04-24T07:11:23Z",
+          "tree_id": "ef3543d206b4d1d882722678a2147df45de8a81e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/820c029d6e709fff901540a0e9fb6bda543c69fc"
+        },
+        "date": 1682320852995,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2182106,
+            "range": "± 46051",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3340836,
+            "range": "± 31593",
             "unit": "ns/iter"
           }
         ]
