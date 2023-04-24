@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682336101329,
+  "lastUpdate": 1682338647961,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17021,6 +17021,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3341784,
             "range": "± 36479",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cc3076766d6e9364082bb814b7385a9cbc39457",
+          "message": "feat: external module render with node-commonjs & module (#2906)\n\n* feat: external module render with node-commonjs & module\n\n* fix: add changeset",
+          "timestamp": "2023-04-24T12:08:21Z",
+          "tree_id": "bfe92ec575f183fcf756c8ff63a037240a62fc8f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6cc3076766d6e9364082bb814b7385a9cbc39457"
+        },
+        "date": 1682338642556,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2180556,
+            "range": "± 34986",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3342663,
+            "range": "± 32795",
             "unit": "ns/iter"
           }
         ]
