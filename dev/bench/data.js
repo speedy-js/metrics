@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682338647961,
+  "lastUpdate": 1682348114727,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17057,6 +17057,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3342663,
             "range": "± 32795",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asuka109@foxmail.com",
+            "name": "Asuka109",
+            "username": "Asuka109"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ebae6f0ea75b59632e2e90a7ef13c0533cb0bcb",
+          "message": "feat(@rspack/core): add typings about `LoaderDefinition` (#2908)\n\nfeat: add typings about `LoaderDefinition`",
+          "timestamp": "2023-04-24T13:44:49Z",
+          "tree_id": "3081c782b2d1069d144a92e13468a79a1dc43402",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8ebae6f0ea75b59632e2e90a7ef13c0533cb0bcb"
+        },
+        "date": 1682348107998,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2174815,
+            "range": "± 34189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3347070,
+            "range": "± 35558",
             "unit": "ns/iter"
           }
         ]
