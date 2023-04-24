@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682320855569,
+  "lastUpdate": 1682325874871,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16913,6 +16913,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3340836,
             "range": "± 31593",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac3764acbf3e260c5878a4da78917aba3a35df07",
+          "message": "chore: add more examples (#2896)\n\n* chore: add perfsee & polyfill example\n\n* chore: add css-loader&style-loader example",
+          "timestamp": "2023-04-24T08:35:59Z",
+          "tree_id": "e744696dce47334962e14ba1745c34294418db6a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ac3764acbf3e260c5878a4da78917aba3a35df07"
+        },
+        "date": 1682325872439,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2180190,
+            "range": "± 32582",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3349401,
+            "range": "± 41367",
             "unit": "ns/iter"
           }
         ]
