@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682310642205,
+  "lastUpdate": 1682316707273,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -16841,6 +16841,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3344603,
             "range": "± 38739",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01f124179f17e06a8566cd1b834cba719c15b1fe",
+          "message": "chore: 🤖 bump napi retry (#2784)\n\n* chore: 🤖 bump napi retry\n\n* chore: 🤖 use main cargo.toml\n\n* chore: minimum change\n\n* fix: 🐛 syntax error\n\n* chore: 🤖 update lock\n\n* fix: 🐛 check rs\n\n* chore: 🤖 lock",
+          "timestamp": "2023-04-24T06:02:31Z",
+          "tree_id": "43c23ea2a0f84db7ec16db87c016366d24b2a9dd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/01f124179f17e06a8566cd1b834cba719c15b1fe"
+        },
+        "date": 1682316684907,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2191088,
+            "range": "± 61560",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3350146,
+            "range": "± 38309",
             "unit": "ns/iter"
           }
         ]
