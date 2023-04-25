@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682348114727,
+  "lastUpdate": 1682392378721,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17093,6 +17093,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3347070,
             "range": "± 35558",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0fdf82d58755d52ff2770530025210b7a3eec8d",
+          "message": "fix: HMR scanner should only visit dependencies related to HMR (#2911)\n\nfix: fix hmr scanner",
+          "timestamp": "2023-04-25T03:05:02Z",
+          "tree_id": "faed420e4d38b72b71fe88ed9cf9686be65292c3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b0fdf82d58755d52ff2770530025210b7a3eec8d"
+        },
+        "date": 1682392376162,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2176549,
+            "range": "± 34238",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3344847,
+            "range": "± 32753",
             "unit": "ns/iter"
           }
         ]
