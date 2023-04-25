@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682417978949,
+  "lastUpdate": 1682435262232,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17489,6 +17489,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3951762403,
             "range": "± 24411708",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e25fafa1cf76492c89bacedb3efebbc79001cf8",
+          "message": "fix: should not reset `is_founded` in `ReactRefreshUsage` (#2939)\n\n* fix: react refresh usage finder\n\n* fix: add changeset\n\n* fix: add test\n\n* fix: react refresh usage finder\n\n* fix: add test\n\n* fix: add test\n\n* fix: add test\n\n* fix: add test\n\n* fix: add test",
+          "timestamp": "2023-04-25T14:52:46Z",
+          "tree_id": "efc6301696b4248de1e15e5d348aa0e7c5b4038e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4e25fafa1cf76492c89bacedb3efebbc79001cf8"
+        },
+        "date": 1682435251450,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331971929,
+            "range": "± 6099134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3956544340,
+            "range": "± 24164935",
             "unit": "ns/iter"
           }
         ]
