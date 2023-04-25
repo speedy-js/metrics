@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682406774374,
+  "lastUpdate": 1682410633463,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17309,6 +17309,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3968782920,
             "range": "± 26107891",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d0cba4993b0512ac17c079ac0137a7eb68dc8f9",
+          "message": "chore: add eslint support (#2904)\n\n* chore: add eslint support\n\n* fix: fix rebuild panic when tap watchRun hook\n\n* chore: add changeset\n\n* chore: add eslint-loader\n\n* chore: add image-webpack-loader\n\n* chore: add enforce rule",
+          "timestamp": "2023-04-25T08:05:33Z",
+          "tree_id": "b22cb77deb502cf65bfd12e2034b84c509c70c5d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8d0cba4993b0512ac17c079ac0137a7eb68dc8f9"
+        },
+        "date": 1682410628076,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326988965,
+            "range": "± 6185751",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3957182242,
+            "range": "± 30238895",
             "unit": "ns/iter"
           }
         ]
