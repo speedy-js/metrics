@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682400583274,
+  "lastUpdate": 1682403820009,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17201,6 +17201,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3341412,
             "range": "± 37412",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4a32636e24a5372094fb37d7dcacca21acd1177",
+          "message": "chore: add hmr for loader example (#2925)",
+          "timestamp": "2023-04-25T06:14:13Z",
+          "tree_id": "38cc929579d31c106b12c9bf250a81560684d8fd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c4a32636e24a5372094fb37d7dcacca21acd1177"
+        },
+        "date": 1682403801572,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2195510,
+            "range": "± 53990",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3348106,
+            "range": "± 35428",
             "unit": "ns/iter"
           }
         ]
