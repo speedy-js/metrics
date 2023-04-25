@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682417268011,
+  "lastUpdate": 1682417978949,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17453,6 +17453,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4118844375,
             "range": "± 24113231",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3dc03b8c842fe5f5f1c68ff6391dbb8a0a1a5772",
+          "message": "fix: require.resolve(Weak) should eval to true in if stmt test expr (#2935)\n\n* fix: require.resolve(Weak) should eval to true in if stmt test expr\n\n* fmt",
+          "timestamp": "2023-04-25T10:03:46Z",
+          "tree_id": "e35462f3d5ce116dd8a47be2d9a346d00a8d6167",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3dc03b8c842fe5f5f1c68ff6391dbb8a0a1a5772"
+        },
+        "date": 1682417976504,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333048435,
+            "range": "± 6459538",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3951762403,
+            "range": "± 24411708",
             "unit": "ns/iter"
           }
         ]
