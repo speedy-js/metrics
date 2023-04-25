@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682392378721,
+  "lastUpdate": 1682394300725,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17129,6 +17129,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3344847,
             "range": "± 32753",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5288daddb6d624f308a71df0933dffd9835f01f6",
+          "message": "feat: enable compression and cache with `noEmitAssets: true` (#2907)\n\n* feat: enable compression and cache with `noEmitAssets: true`\n\n* Fix test\n\n* Tweak log",
+          "timestamp": "2023-04-25T03:36:58Z",
+          "tree_id": "09a6ecd3fcfeeec0563977e0bc07ef6898708ce7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5288daddb6d624f308a71df0933dffd9835f01f6"
+        },
+        "date": 1682394297587,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 2201025,
+            "range": "± 38122",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3349586,
+            "range": "± 50748",
             "unit": "ns/iter"
           }
         ]
