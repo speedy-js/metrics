@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682435262232,
+  "lastUpdate": 1682491255207,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17525,6 +17525,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3956544340,
             "range": "± 24164935",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c68407510918b3a79a80f5a9c014cde1218ef807",
+          "message": "feat: add compatible compilation.modules (#2932)\n\n* feat: add compatible compilation.modules\n\n* chore: 🤖 compatible identifier\n\n* chore: 🤖 update dep\n\n* chore: add examples plugin-compat",
+          "timestamp": "2023-04-26T06:28:54Z",
+          "tree_id": "77f4b55b9801f8ec5a4b350f78e3a3477649a34a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c68407510918b3a79a80f5a9c014cde1218ef807"
+        },
+        "date": 1682491252696,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 329257276,
+            "range": "± 5591052",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3953576922,
+            "range": "± 21058350",
             "unit": "ns/iter"
           }
         ]
