@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682491255207,
+  "lastUpdate": 1682492006000,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17561,6 +17561,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3953576922,
             "range": "± 21058350",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lzc295592@163.com",
+            "name": "faga",
+            "username": "faga295"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cafa227d6a39f9ba878dd43095f1e312efdd9daf",
+          "message": "fix: cannot reading `noEmitAssets` (#2942)\n\n* fix: multiCompiler on dev server\n\n* chore: changeset",
+          "timestamp": "2023-04-26T06:35:46Z",
+          "tree_id": "fbc73b78ff3f1fd61bd5e38cba3646fa9a66b38e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/cafa227d6a39f9ba878dd43095f1e312efdd9daf"
+        },
+        "date": 1682492003183,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 354089636,
+            "range": "± 5278672",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4178315106,
+            "range": "± 33989571",
             "unit": "ns/iter"
           }
         ]
