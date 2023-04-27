@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682587810763,
+  "lastUpdate": 1682588489170,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17849,6 +17849,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4182739240,
             "range": "± 24139091",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lzc295592@163.com",
+            "name": "faga",
+            "username": "faga295"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2bb2bcd67e61e3a0ad50b6a9034e282e9b186ad6",
+          "message": "feat: support minifyoptions extract comments (#2882)\n\n* chore: init\n\n* feat: support regex match\n\n* chore: clear comments in minimized file\n\n* chore: update\n\n* chore: no license no LICENSE.TXT\n\n* test: add test cases\n\n* test: add comments for expected\n\n* chore: update\n\n* chore: remove comments\n\n* chore: add expected file\n\n* chore: add comments\n\n* chore: changeset\n\n* chore: comment\n\n* chore: update snapshots\n\n* chore: update\n\n* chore: resolve config\n\n* chore: update filename\n\n* chore: update name\n\n* chore: update name",
+          "timestamp": "2023-04-27T08:40:42Z",
+          "tree_id": "43bb9be936bf38e043250d5dc13f708f5ad80b73",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2bb2bcd67e61e3a0ad50b6a9034e282e9b186ad6"
+        },
+        "date": 1682588485080,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 328695842,
+            "range": "± 6305712",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3996174529,
+            "range": "± 30596283",
             "unit": "ns/iter"
           }
         ]
