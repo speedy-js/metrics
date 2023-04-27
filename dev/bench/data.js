@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682589221769,
+  "lastUpdate": 1682604873782,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17921,6 +17921,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3992526452,
             "range": "± 23426762",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "411a2a25c9370253009022ee8eb5f204c3ff1ef2",
+          "message": "refactor: clean up dependencies around swc for improving compile time  (#2962)\n\nrefactor: clean up dependencies around swc for improving compile time",
+          "timestamp": "2023-04-27T13:02:38Z",
+          "tree_id": "691dda366e9a78fbbe8a1d0d8c0eb01e6ddeb300",
+          "url": "https://github.com/web-infra-dev/rspack/commit/411a2a25c9370253009022ee8eb5f204c3ff1ef2"
+        },
+        "date": 1682604852795,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 348373054,
+            "range": "± 6117313",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4177114103,
+            "range": "± 27301520",
             "unit": "ns/iter"
           }
         ]
