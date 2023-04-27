@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682578905514,
+  "lastUpdate": 1682587107082,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17777,6 +17777,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3980031036,
             "range": "± 35745336",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f297df4f74c7ec4000d258f3fd5e0a5da697e236",
+          "message": "feat: asset resource side effects (#2849)\n\n* chore: 🤖 ck point\n\n* chore: 🤖 init include_module_ids\n\n* chore: 🤖 update test\n\n* chore: 🤖 update test\n\n* chore: 🤖 make test pass\n\n* chore: 🤖 update used ids\n\n* feat: update include_module_ids strategy\n\n* feat: more abstraction\n\n* feat: 🎸 add asset module\n\n* chore: 🤖 inspect asset module side effects\n\n* chore: 🤖 recover main bindinng.d.ts\n\n* chore: 🤖 clean up\n\n* chore: 🤖 finish it\n\n* chore: 🤖 add test\n\n* chore: 🤖 pass test\n\n* chore: 🤖 clean up\n\n* chore: 🤖 lint\n\n* fix: 🐛 cr issue",
+          "timestamp": "2023-04-27T08:06:41Z",
+          "tree_id": "be2144f77e92e663bc8a72f025efefc688a81247",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f297df4f74c7ec4000d258f3fd5e0a5da697e236"
+        },
+        "date": 1682587103000,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 346599415,
+            "range": "± 6067191",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4165357815,
+            "range": "± 25945887",
             "unit": "ns/iter"
           }
         ]
