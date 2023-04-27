@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682515152281,
+  "lastUpdate": 1682567815979,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17669,6 +17669,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4018574019,
             "range": "± 29038693",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1114550440@qq.com",
+            "name": "Fy",
+            "username": "JSerFeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abf788a0fae86932df5832539ab30673df6dd49f",
+          "message": "fix: :bug: use unknown module type in SWC (#2406)\n\n* chore: bump-swc\n\n* feat: parse script\n\n* fix(visitor): handle script strict mode\n\n* chore: update test hash",
+          "timestamp": "2023-04-27T03:44:51Z",
+          "tree_id": "cccf8a21fd88c5fd2f1990c5b1365ba84804113d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/abf788a0fae86932df5832539ab30673df6dd49f"
+        },
+        "date": 1682567813509,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 359505480,
+            "range": "± 5378402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4280997071,
+            "range": "± 28792883",
             "unit": "ns/iter"
           }
         ]
