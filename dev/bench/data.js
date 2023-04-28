@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682656146922,
+  "lastUpdate": 1682656817672,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18029,6 +18029,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4264586112,
             "range": "± 28046717",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8cfd541ad405596f4746736e838e002a94e32756",
+          "message": "chore(rust): bump dependencies (#2968)\n\nrelates to #2855",
+          "timestamp": "2023-04-28T03:32:23Z",
+          "tree_id": "c66331181c4793180f282d752368f84e314bfff6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8cfd541ad405596f4746736e838e002a94e32756"
+        },
+        "date": 1682656814930,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330147199,
+            "range": "± 6242367",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3975067752,
+            "range": "± 23466138",
             "unit": "ns/iter"
           }
         ]
