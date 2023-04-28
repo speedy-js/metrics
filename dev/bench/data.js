@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682676972275,
+  "lastUpdate": 1682678787188,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18209,6 +18209,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3959968407,
             "range": "± 27876609",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "31716713+wood3n@users.noreply.github.com",
+            "name": "wood3n",
+            "username": "wood3n"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2fe8c47712d9dcb51569b843cbc51e1bf220d7a2",
+          "message": "feat(create-rspack): add template react-ts (#2963)",
+          "timestamp": "2023-04-28T10:34:57Z",
+          "tree_id": "30ce917e091e3b63b61b8d7bfb678a9dec01d550",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2fe8c47712d9dcb51569b843cbc51e1bf220d7a2"
+        },
+        "date": 1682678784783,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330229989,
+            "range": "± 7228345",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3944637064,
+            "range": "± 28203263",
             "unit": "ns/iter"
           }
         ]
