@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682678787188,
+  "lastUpdate": 1682681172177,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18245,6 +18245,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3944637064,
             "range": "± 28203263",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71fc41783110cedb8fae51a979c4791d6b296fe2",
+          "message": "fix(react-hmr): inject the runtime global function (#2977)\n\n* fix: react hmr\n\n* Apply fix\n\n* Apply fix",
+          "timestamp": "2023-04-28T11:14:22Z",
+          "tree_id": "879c4f992475c8ff05336cc164fa6ff740d5c808",
+          "url": "https://github.com/web-infra-dev/rspack/commit/71fc41783110cedb8fae51a979c4791d6b296fe2"
+        },
+        "date": 1682681169555,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 348774135,
+            "range": "± 6891379",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4140864820,
+            "range": "± 40771694",
             "unit": "ns/iter"
           }
         ]
