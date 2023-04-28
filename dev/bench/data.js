@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682604873782,
+  "lastUpdate": 1682651829217,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -17957,6 +17957,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4177114103,
             "range": "± 27301520",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "daniel-koller@gmx.at",
+            "name": "Daniel Koller",
+            "username": "danielkoller"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe6d564c783079bb38a3636d45ca316d00031a53",
+          "message": "fix: Fix type checking in config examples (#2965)\n\n* Fix type checking in config examples\n\n* Update rspack.config.js",
+          "timestamp": "2023-04-28T03:05:28Z",
+          "tree_id": "43ae6411e530c9071d5e01c4cc968e6d2bde0c79",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fe6d564c783079bb38a3636d45ca316d00031a53"
+        },
+        "date": 1682651825531,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357173379,
+            "range": "± 6042235",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4289302807,
+            "range": "± 33729570",
             "unit": "ns/iter"
           }
         ]
