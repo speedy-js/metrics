@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682681172177,
+  "lastUpdate": 1682727414727,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18281,6 +18281,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4140864820,
             "range": "± 40771694",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "douglassmachado@live.com",
+            "name": "Douglas Machado",
+            "username": "dgmachado"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71a6275769ed9acc8e11f7f68c1d2b201af0aaad",
+          "message": "feat(terser): expose terser options (#2983)\n\nfeat(terser): expose terser options: mangle, keep_classnames and keep_fnames",
+          "timestamp": "2023-04-29T00:05:30Z",
+          "tree_id": "f816de31691e9a90507b32bf11e7c36ee33e569c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/71a6275769ed9acc8e11f7f68c1d2b201af0aaad"
+        },
+        "date": 1682727412266,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 328671083,
+            "range": "± 6453020",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3949076689,
+            "range": "± 28795567",
             "unit": "ns/iter"
           }
         ]
