@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683109822016,
+  "lastUpdate": 1683114348913,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18353,6 +18353,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3971941197,
             "range": "± 26073623",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b6aaa966ad8e522ed1cf13cebe1f9e5eea6727d",
+          "message": "refactor(core): use directory for chunk_graph module (#2998)",
+          "timestamp": "2023-05-03T11:34:26Z",
+          "tree_id": "382e4ed869f9556819f82afc1f8a409dcebf28a0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9b6aaa966ad8e522ed1cf13cebe1f9e5eea6727d"
+        },
+        "date": 1683114346448,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330492258,
+            "range": "± 6561417",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3960170253,
+            "range": "± 28050539",
             "unit": "ns/iter"
           }
         ]
