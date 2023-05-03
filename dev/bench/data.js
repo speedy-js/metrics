@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682727414727,
+  "lastUpdate": 1683109822016,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18317,6 +18317,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3949076689,
             "range": "± 28795567",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "112170212+thedeveloperpotato@users.noreply.github.com",
+            "name": "The Developer Potato",
+            "username": "thedeveloperpotato"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2dcdbe832e905a07a50c715752ff1ea9a4e2af78",
+          "message": "docs: pnpm install command fix based on engine (#2992)",
+          "timestamp": "2023-05-03T09:19:00Z",
+          "tree_id": "c00bab817763d5a8fb776d50564a0efc40eeb985",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2dcdbe832e905a07a50c715752ff1ea9a4e2af78"
+        },
+        "date": 1683109818618,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 329791281,
+            "range": "± 6975696",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3971941197,
+            "range": "± 26073623",
             "unit": "ns/iter"
           }
         ]
