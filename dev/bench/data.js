@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683114348913,
+  "lastUpdate": 1683119608232,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18389,6 +18389,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3960170253,
             "range": "± 28050539",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa0c6942a0ae79d666857979c385fd6aad633495",
+          "message": "chore: add node shims example (#2997)",
+          "timestamp": "2023-05-03T13:01:48Z",
+          "tree_id": "42e2a10bc3d4163f1837630827801a9c32276d4f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/aa0c6942a0ae79d666857979c385fd6aad633495"
+        },
+        "date": 1683119604292,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 329752000,
+            "range": "± 6168472",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3938960582,
+            "range": "± 28709780",
             "unit": "ns/iter"
           }
         ]
