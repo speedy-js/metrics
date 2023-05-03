@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683119608232,
+  "lastUpdate": 1683124783416,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18425,6 +18425,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3938960582,
             "range": "± 28709780",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f75eb7be9778f01f4a7a6257f18a4461cd07a402",
+          "message": "test(split_chunks): add test of extract-css-to-single-chunk (#2996)\n\n* test(split_chunks): add test of extract-css-to-single-chunk\n\n* fix",
+          "timestamp": "2023-05-03T14:27:27Z",
+          "tree_id": "9673e2de698a6a6a2f3192d85b37a33636b46984",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f75eb7be9778f01f4a7a6257f18a4461cd07a402"
+        },
+        "date": 1683124777723,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 337474900,
+            "range": "± 5510202",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4039898645,
+            "range": "± 27812821",
             "unit": "ns/iter"
           }
         ]
