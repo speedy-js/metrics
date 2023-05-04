@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683198206746,
+  "lastUpdate": 1683200461637,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18677,6 +18677,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3980625727,
             "range": "± 25195803",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "11c97ad1377afb621f1a327edfe7fd19dde0caea",
+          "message": "chore: fine grained tracing (#3002)\n\n* chore: 🤖 init\n\n* chore: 🤖 tracing\n\n* chore: 🤖 finish basic tracing filter\n\n* chore: 🤖 remove comments\n\n* chore: 🤖 remove rc\n\n* chore: 🤖 lint",
+          "timestamp": "2023-05-04T11:29:55Z",
+          "tree_id": "26ac9b81a335192bdb7fc2ae4ee746f3fda64fbe",
+          "url": "https://github.com/web-infra-dev/rspack/commit/11c97ad1377afb621f1a327edfe7fd19dde0caea"
+        },
+        "date": 1683200459202,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332493246,
+            "range": "± 7498426",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3967153602,
+            "range": "± 26236353",
             "unit": "ns/iter"
           }
         ]
