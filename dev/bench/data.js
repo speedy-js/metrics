@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683171662537,
+  "lastUpdate": 1683172346036,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18497,6 +18497,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3963949838,
             "range": "± 25847163",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c56757134098c4cbc7c3c08d994eef50eae9c2e6",
+          "message": "fix: add entry startup to fix async script chunk loading (#2966)",
+          "timestamp": "2023-05-04T03:39:37Z",
+          "tree_id": "162280a37df28a42debe03ac9b9abfb35566ad7f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c56757134098c4cbc7c3c08d994eef50eae9c2e6"
+        },
+        "date": 1683172343294,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 346843770,
+            "range": "± 8374995",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4130952558,
+            "range": "± 28247852",
             "unit": "ns/iter"
           }
         ]
