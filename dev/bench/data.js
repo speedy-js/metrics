@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683200461637,
+  "lastUpdate": 1683203792253,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18713,6 +18713,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3967153602,
             "range": "± 26236353",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c0f855aa01199ab430350d19a2dd15073868938",
+          "message": "chore: make release profile the same for Cargo.toml and node_binding/Cargo.toml (#3004)",
+          "timestamp": "2023-05-04T12:24:22Z",
+          "tree_id": "a8b2b8f012edf1270fa84499cd28e3d61e2e3ada",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8c0f855aa01199ab430350d19a2dd15073868938"
+        },
+        "date": 1683203788433,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331449797,
+            "range": "± 8117526",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3968330573,
+            "range": "± 26340252",
             "unit": "ns/iter"
           }
         ]
