@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683124783416,
+  "lastUpdate": 1683171662537,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18461,6 +18461,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4039898645,
             "range": "± 27812821",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7fb3dd92344a4bb4f0fd03257a4128d31fe1d9e1",
+          "message": "chore: remove clap (#2967)\n\n* chore: 🤖 remove clap\n\n* chore: 🤖 reduce clap\n\n* chore: 🤖 clippy\n\n* chore: 🤖 resolve conflict\n\n* chore: 🤖 remove clap",
+          "timestamp": "2023-05-04T03:30:12Z",
+          "tree_id": "55bba37e8ccc34e5932fc92fdd188d0ce8195022",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7fb3dd92344a4bb4f0fd03257a4128d31fe1d9e1"
+        },
+        "date": 1683171659733,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330196058,
+            "range": "± 5633469",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3963949838,
+            "range": "± 25847163",
             "unit": "ns/iter"
           }
         ]
