@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683197511170,
+  "lastUpdate": 1683198206746,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18641,6 +18641,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4145794530,
             "range": "± 26876216",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "65990275+nagy-nabil@users.noreply.github.com",
+            "name": "nagy-nabil",
+            "username": "nagy-nabil"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bce8523967356af450f034679faf0cc11a2579a0",
+          "message": "feat(rspack): add ignoreWarnings option (#2987)\n\n* feat: ignoreWarnings\n- [x] add `ignoreWarnings` option in rspack options schema\n\n* feat: ignore warnings\n- WIP create ignore warnings plugin\n- activite the plugin when the user supply ignoreWarnings option\n\n* change `ignoreWarnings` user options\n- user can enter ignoreWarnings opt as regex or function returns bool\n\n* feat: ignoreWarnings option\n- add complilation processWarnings hook\n- utilize processWarnings hook in ignoreWarnings plugin\n\n* changeset\n\n* set changeset to patch\n\n* update defaults.unittest\n\n---------\n\nCo-authored-by: Gengkun <ahabhgk@gmail.com>",
+          "timestamp": "2023-05-04T10:45:03Z",
+          "tree_id": "bd3b07fe339596cdd1394c6a57df3a6bf8371aee",
+          "url": "https://github.com/web-infra-dev/rspack/commit/bce8523967356af450f034679faf0cc11a2579a0"
+        },
+        "date": 1683198203426,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 328899781,
+            "range": "± 6424783",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3980625727,
+            "range": "± 25195803",
             "unit": "ns/iter"
           }
         ]
