@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683261531609,
+  "lastUpdate": 1683269462223,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18821,6 +18821,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3956090699,
             "range": "± 34965963",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ada51e2fff088ee45d088fc288e06618c9c1b6fb",
+          "message": "fix: circular dependencies rebuild panic (#3001)\n\n* fix: circular dependencies rebuild panic\n\n* add changeset\n\n* test: add test case for hmr circular dependencies",
+          "timestamp": "2023-05-05T06:38:42Z",
+          "tree_id": "e8357eb1b7c2915fa8a378b9ced149fa5ac2d96b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ada51e2fff088ee45d088fc288e06618c9c1b6fb"
+        },
+        "date": 1683269458836,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332942429,
+            "range": "± 6027628",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3956456507,
+            "range": "± 24072700",
             "unit": "ns/iter"
           }
         ]
