@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683203792253,
+  "lastUpdate": 1683259476596,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18749,6 +18749,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3968330573,
             "range": "± 26340252",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c0e550b5a0f8753326f1272a0fb2759c8a143309",
+          "message": "chore: 🤖 bump napi cli (#3008)\n\n* chore: 🤖 bump napi cli\n\n* chore: 🤖 update lock\n\n* chore: 🤖 changeset\n\n* chore: 🤖 compatible with new version of napi cli",
+          "timestamp": "2023-05-05T03:52:27Z",
+          "tree_id": "94ac572e9cb7db0edd7a7bd7f6e351fc61e0ba75",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c0e550b5a0f8753326f1272a0fb2759c8a143309"
+        },
+        "date": 1683259472908,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 346921062,
+            "range": "± 5783221",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4139511058,
+            "range": "± 32951585",
             "unit": "ns/iter"
           }
         ]
