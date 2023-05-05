@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683278464825,
+  "lastUpdate": 1683279901472,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19001,6 +19001,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3958010010,
             "range": "± 27477578",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3abb2fc035cbd7c2655e75787c9dbfb9c0252cb1",
+          "message": "feat: support inline match resource (#3017)\n\n* feat: support inline match resource\n\n* test: add match resource test\n\n* chore: clippy\n\n* chore: add cgst",
+          "timestamp": "2023-05-05T09:33:29Z",
+          "tree_id": "7e0d8d6dedbb60d86eb0ea805ce0f880be009f67",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3abb2fc035cbd7c2655e75787c9dbfb9c0252cb1"
+        },
+        "date": 1683279898544,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331111994,
+            "range": "± 8086190",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3962515225,
+            "range": "± 24496788",
             "unit": "ns/iter"
           }
         ]
