@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683274037410,
+  "lastUpdate": 1683277761927,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -18929,6 +18929,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4244844259,
             "range": "± 27996548",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6ca001fe31b9047bf57db578b0db499a1be9a34",
+          "message": "chore(rust): bump sass-embedded and remove protobuf requirement (#3021)",
+          "timestamp": "2023-05-05T08:57:17Z",
+          "tree_id": "802e8e3d9edb538509dba9fddd1ae497b6107c40",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f6ca001fe31b9047bf57db578b0db499a1be9a34"
+        },
+        "date": 1683277756408,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 342988415,
+            "range": "± 7033375",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4116390959,
+            "range": "± 29550806",
             "unit": "ns/iter"
           }
         ]
