@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683285174876,
+  "lastUpdate": 1683289849013,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19073,6 +19073,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3967814898,
             "range": "± 25866623",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4c1f8d29a2823b6eee17a2dc133f72ad3bdfe07",
+          "message": "refactor: external module for http request (#3023)\n\n* refactor: external module for http request\n\n* update snap\n\n* fix",
+          "timestamp": "2023-05-05T12:18:21Z",
+          "tree_id": "6f1870b50397228bcc1865e88d59fb553f4e3e00",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f4c1f8d29a2823b6eee17a2dc133f72ad3bdfe07"
+        },
+        "date": 1683289846499,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332265861,
+            "range": "± 7860466",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3973306096,
+            "range": "± 28217575",
             "unit": "ns/iter"
           }
         ]
