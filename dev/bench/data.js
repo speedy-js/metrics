@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683370676376,
+  "lastUpdate": 1683376567355,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19577,6 +19577,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3967471134,
             "range": "± 27193317",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f36bb60bca885fe43ca2b03857649c829a37628",
+          "message": "refactor(new_split_chunks): use `RspackRegex` (#3040)\n\nrefactor(new_split_chunks): use `RspackRegex",
+          "timestamp": "2023-05-06T12:23:37Z",
+          "tree_id": "1d7e1707f6f8ebf0048a4e9b145946da41cb9e16",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9f36bb60bca885fe43ca2b03857649c829a37628"
+        },
+        "date": 1683376564702,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340308077,
+            "range": "± 6361343",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3958535564,
+            "range": "± 27988927",
             "unit": "ns/iter"
           }
         ]
