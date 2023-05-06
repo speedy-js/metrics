@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683343752269,
+  "lastUpdate": 1683344452701,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19181,6 +19181,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3980455066,
             "range": "± 33018256",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d76fecded084fc09754c00b246ed0a74882d64d",
+          "message": "refactor: remove dependency parent module identifier (#3024)",
+          "timestamp": "2023-05-06T03:19:16Z",
+          "tree_id": "3785f2dca1bf43dcce419b661c293499f7f2ae26",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1d76fecded084fc09754c00b246ed0a74882d64d"
+        },
+        "date": 1683344448232,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331653591,
+            "range": "± 6452346",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3939274980,
+            "range": "± 32035402",
             "unit": "ns/iter"
           }
         ]
