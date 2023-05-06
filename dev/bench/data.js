@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683360086220,
+  "lastUpdate": 1683360804956,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19325,6 +19325,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4135106162,
             "range": "± 25685266",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfa16df3b5b4ace913960aa27f29fdf81c082386",
+          "message": "feat(module factory): add before_resolve hook (#2940)\n\n* save code\n\n* done\n\n* fix: test\n\n* fix: merge\n\n* add git ignore\n\n* fix: bug\n\n* add type defined\n\n* fix: merge bug\n\n* update test",
+          "timestamp": "2023-05-06T07:53:51Z",
+          "tree_id": "5e79b23db172c6ea935deab391ee68f459e3cf55",
+          "url": "https://github.com/web-infra-dev/rspack/commit/bfa16df3b5b4ace913960aa27f29fdf81c082386"
+        },
+        "date": 1683360802236,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357018154,
+            "range": "± 6314556",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4158680301,
+            "range": "± 25775398",
             "unit": "ns/iter"
           }
         ]
