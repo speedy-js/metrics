@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683297289215,
+  "lastUpdate": 1683343752269,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19145,6 +19145,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3971950013,
             "range": "± 28254467",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1ba65a7b49e19e62b9a09fdce26f83d9968133ee",
+          "message": "feat: simple normal module hook (#2446)\n\n* chore: 🤖 init\n\n* chore: 🤖 compatible webpack\n\n* chore: 🤖 change to esm\n\n* chore: 🤖 ignore the window\n\n* chore: 🤖 change notation ts ignore\n\n* fix: 🐛 make it compile",
+          "timestamp": "2023-05-06T03:17:16Z",
+          "tree_id": "3633797023176f26e0b96f7ba1aa9389749b254e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1ba65a7b49e19e62b9a09fdce26f83d9968133ee"
+        },
+        "date": 1683343748715,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330773049,
+            "range": "± 6341035",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3980455066,
+            "range": "± 33018256",
             "unit": "ns/iter"
           }
         ]
