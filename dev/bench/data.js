@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683360804956,
+  "lastUpdate": 1683361497163,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19361,6 +19361,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4158680301,
             "range": "± 25775398",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ce6944f5cbe1a9343b96645a51f2f02971979ad",
+          "message": "chore: 🤖 add alias cargo test no fail fast (#3032)",
+          "timestamp": "2023-05-06T07:54:42Z",
+          "tree_id": "0e15f7e36001a2a54a73d99e946f99d2c59068c1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4ce6944f5cbe1a9343b96645a51f2f02971979ad"
+        },
+        "date": 1683361494009,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340882033,
+            "range": "± 6698454",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3967077399,
+            "range": "± 28392478",
             "unit": "ns/iter"
           }
         ]
