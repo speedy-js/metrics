@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683368197007,
+  "lastUpdate": 1683369775544,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19505,6 +19505,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3965824935,
             "range": "± 30186674",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "054cc3e909313adc477f7943d89b5beba67f88fc",
+          "message": "refactor(rust): add more restriction clippy rules (#2974)\n\nrelates to #2855",
+          "timestamp": "2023-05-06T10:31:32Z",
+          "tree_id": "a1a224e418c5ef1cf1eba7eda996e4ba52974464",
+          "url": "https://github.com/web-infra-dev/rspack/commit/054cc3e909313adc477f7943d89b5beba67f88fc"
+        },
+        "date": 1683369772820,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340530954,
+            "range": "± 7398095",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3971763516,
+            "range": "± 31963824",
             "unit": "ns/iter"
           }
         ]
