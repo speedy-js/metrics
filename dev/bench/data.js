@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683344452701,
+  "lastUpdate": 1683357837515,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19217,6 +19217,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3939274980,
             "range": "± 32035402",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "HeYunfei",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "525f2a6fe31658b23431cbb9685b7c79cae47c37",
+          "message": "refactor(chunk_graph): split methods of  `ChunkGraph` into different files (#3031)\n\nrefactor(chunk_graph): split methods of  into different files",
+          "timestamp": "2023-05-06T07:11:52Z",
+          "tree_id": "07c4532d99c12aff430a35fdfdef6f5291dabab4",
+          "url": "https://github.com/web-infra-dev/rspack/commit/525f2a6fe31658b23431cbb9685b7c79cae47c37"
+        },
+        "date": 1683357831883,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 346429996,
+            "range": "± 5443684",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4150125239,
+            "range": "± 23542723",
             "unit": "ns/iter"
           }
         ]
