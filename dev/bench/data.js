@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683384400327,
+  "lastUpdate": 1683385386260,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19649,6 +19649,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3950428668,
             "range": "± 31630040",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "749e8d8ad50c9534335657cbef9a1ed0aad5e641",
+          "message": "ci: make pr and main use the same CI workflow (#3003)",
+          "timestamp": "2023-05-06T14:32:40Z",
+          "tree_id": "3fbc05000e983cfc8667428f7c2163e35407f907",
+          "url": "https://github.com/web-infra-dev/rspack/commit/749e8d8ad50c9534335657cbef9a1ed0aad5e641"
+        },
+        "date": 1683385380200,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340153937,
+            "range": "± 6609563",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3964954475,
+            "range": "± 24202871",
             "unit": "ns/iter"
           }
         ]
