@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683385386260,
+  "lastUpdate": 1683452829450,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19685,6 +19685,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3964954475,
             "range": "± 24202871",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "9596e4bc2afe77a9f90526d3d8d07f65ec910ca3",
+          "message": "refactor(houseclean): split js plugin, parser and generator into different folders (#3048)\n\n* refactor(houseclean): split js plugin, parser and generator into different folders\n\n* Rename filename",
+          "timestamp": "2023-05-07T09:12:35Z",
+          "tree_id": "b2b99c3d80a43d4ad287eb07e1e7cf88459791a4",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9596e4bc2afe77a9f90526d3d8d07f65ec910ca3"
+        },
+        "date": 1683452826724,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 342717448,
+            "range": "± 7143714",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3968593884,
+            "range": "± 27244566",
             "unit": "ns/iter"
           }
         ]
