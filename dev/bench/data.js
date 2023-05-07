@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683452829450,
+  "lastUpdate": 1683457174490,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19721,6 +19721,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3968593884,
             "range": "± 27244566",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9121ad2e4321200a489fef51bf98f4bfda521033",
+          "message": "refactor(houseclean): split css plugin, parser and generator into different folders (#3049)",
+          "timestamp": "2023-05-07T09:19:00Z",
+          "tree_id": "acddd645c07f8476f6d7b38e2cbfe96ef273bce0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9121ad2e4321200a489fef51bf98f4bfda521033"
+        },
+        "date": 1683457170180,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 338686388,
+            "range": "± 6433100",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3988358346,
+            "range": "± 29432012",
             "unit": "ns/iter"
           }
         ]
