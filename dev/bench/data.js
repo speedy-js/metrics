@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683553294130,
+  "lastUpdate": 1683557117796,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19901,6 +19901,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3974611409,
             "range": "± 31076930",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2f6f132ba2d447b3ba1a1a44e2891572790bf91",
+          "message": "refactor: 💡 angular support (#3055)\n\n* refactor: 💡 angular support\n\n* chore: 🤖 align to webpack\n\n* chore: 🤖 fix type\n\n* test: 💍 make test run angular example\n\n* chore: 🤖 test angular in ci\n\n* chore: 🤖 typo",
+          "timestamp": "2023-05-08T14:19:12Z",
+          "tree_id": "5a99e46c1b0050812b2620a471f24841cc2175ce",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d2f6f132ba2d447b3ba1a1a44e2891572790bf91"
+        },
+        "date": 1683557077996,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340627715,
+            "range": "± 6728096",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3966024718,
+            "range": "± 26802757",
             "unit": "ns/iter"
           }
         ]
