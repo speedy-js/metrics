@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683457174490,
+  "lastUpdate": 1683522945929,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19757,6 +19757,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3988358346,
             "range": "± 29432012",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zackarychapple30@gmail.com",
+            "name": "Zack Chapple",
+            "username": "zackarychapple"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f44d6c8d4c955df13437a55a84215257304692d1",
+          "message": "feat(angular): adding initial support  (#3009)\n\n* chore: 🤖 init\n\n* chore: 🤖 compatible webpack\n\n* chore: 🤖 change to esm\n\n* chore: 🤖 ignore the window\n\n* chore: 🤖 change notation ts ignore\n\n* fix: 🐛 make it compile\n\n* feat: starting from new cut, replaying Ed's changes\n\n* feat: fixing incorrect copy over\n\n* fix: loader hook\n\n* fix: make it work\n\n* feat: add easy way to compare rspack to webpack\n\n* feat: add compilation params to compilation hook\n\n* feat: adding back more features that are available now.\n\n* feat: adding back more features that are available now.\n\n* feat: add EntryPlugin as a workaround\n\n* feat: adding get chunks\n\n* feat: making the error pass through without a name?\n\n* feat: correctly push errors from child compiler\n\n* fix: deduplicate error\n\n* fix: angular css and html builtin\n\n* feat: angular HMR\n\n* chore: add fix for angular rspack\n\n* feat: updating angular to 16 to compare against esbuild\n\n* feat: updating against main and also commenting out hmr\n\n* feat: updating to production and minimize true\n\n* fix: revert unneeded code\n\n* chore: re-add new line\n\n* fix: use title instead of name for JsStatsError\n\n* Fix type error and binding.d.ts conflicts\n\n* Fix typings\n\n* chore: 🤖 remove jasmine-core related, that are unused\n\n---------\n\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>\nCo-authored-by: Eduardo Speroni <edusperoni@gmail.com>\nCo-authored-by: Hana <andywangsy@gmail.com>\nCo-authored-by: Dmitriy Shekhovtsovvalorkin <valorkin@gmail.com>\nCo-authored-by: YunfeiHe <i.heyunfei@gmail.com>",
+          "timestamp": "2023-05-08T04:50:36Z",
+          "tree_id": "614fd9002c368a4fe03f87f0f765c7fa68ddf025",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f44d6c8d4c955df13437a55a84215257304692d1"
+        },
+        "date": 1683522943190,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 358185817,
+            "range": "± 5713255",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4160974822,
+            "range": "± 29473966",
             "unit": "ns/iter"
           }
         ]
