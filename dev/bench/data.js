@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683600293198,
+  "lastUpdate": 1683607279664,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19973,6 +19973,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4145671038,
             "range": "± 28510724",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a240646e425a4fbba99e28d1a705011ffc9968e6",
+          "message": "chore: take bump check temporarily (#3064)\n\n* chore: use changeset status to check bump status\n\n* Update scripts/check_changeset.js",
+          "timestamp": "2023-05-09T03:15:29Z",
+          "tree_id": "45ef7faf88de048ad73058c7fd145f70eedee952",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a240646e425a4fbba99e28d1a705011ffc9968e6"
+        },
+        "date": 1683607277183,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 341761964,
+            "range": "± 6348361",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3983155696,
+            "range": "± 26732390",
             "unit": "ns/iter"
           }
         ]
