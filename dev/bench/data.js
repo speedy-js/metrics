@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683557117796,
+  "lastUpdate": 1683600293198,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -19937,6 +19937,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3966024718,
             "range": "± 26802757",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "884b7ca5c58e7e6ec2bc39804b8efd26bc3d7f65",
+          "message": "feat: optional-dependency (#3050)\n\n* save code\n\n* save code\n\n* add test\n\n* fix: test try error case to warning\n\n* remove useless test case\n\n* revert snap\n\n* revert code\n\n* run ci\n\n* clear code",
+          "timestamp": "2023-05-09T02:21:45Z",
+          "tree_id": "c1b22ae94d0bb471533966c1608fd948448929a9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/884b7ca5c58e7e6ec2bc39804b8efd26bc3d7f65"
+        },
+        "date": 1683600290544,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357293466,
+            "range": "± 6201021",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4145671038,
+            "range": "± 28510724",
             "unit": "ns/iter"
           }
         ]
