@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683627046828,
+  "lastUpdate": 1683627754451,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20189,6 +20189,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3990095455,
             "range": "± 28341757",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6fd82652eabcfa441242aeece7494a365fabd106",
+          "message": "feat(core): support custom dependency type internally (#3068)",
+          "timestamp": "2023-05-09T09:29:08Z",
+          "tree_id": "9adba3fa2694296a1960720297751cb840f28893",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6fd82652eabcfa441242aeece7494a365fabd106"
+        },
+        "date": 1683627751462,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340979404,
+            "range": "± 6762907",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3991255022,
+            "range": "± 22659272",
             "unit": "ns/iter"
           }
         ]
