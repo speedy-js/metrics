@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683607986102,
+  "lastUpdate": 1683620224286,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20045,6 +20045,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3960202051,
             "range": "± 31281147",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86731ae91533d99eb18ec5dfba79252bcef3248e",
+          "message": "fix(resolve): bump nodejs-resolver to fix baseUrl bug in tsconfig (#3072)",
+          "timestamp": "2023-05-09T07:48:17Z",
+          "tree_id": "95e4561b139b69ab24c94b6915bf31d1d53c72d9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/86731ae91533d99eb18ec5dfba79252bcef3248e"
+        },
+        "date": 1683620218974,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357844253,
+            "range": "± 5779836",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4140684922,
+            "range": "± 24803965",
             "unit": "ns/iter"
           }
         ]
