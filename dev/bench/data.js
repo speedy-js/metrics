@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683626338278,
+  "lastUpdate": 1683627046828,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20153,6 +20153,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4244608037,
             "range": "± 27156187",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "01457c90a85373e219b1d72097b9ba17609c377d",
+          "message": "feat: support `optimization.removeEmptyChunks` config (#3076)",
+          "timestamp": "2023-05-09T09:27:18Z",
+          "tree_id": "190cbb6e7f47dfcb5f2039c1ce07749bb8742650",
+          "url": "https://github.com/web-infra-dev/rspack/commit/01457c90a85373e219b1d72097b9ba17609c377d"
+        },
+        "date": 1683627043776,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340696556,
+            "range": "± 6396133",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3990095455,
+            "range": "± 28341757",
             "unit": "ns/iter"
           }
         ]
