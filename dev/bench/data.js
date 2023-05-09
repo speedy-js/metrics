@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683607279664,
+  "lastUpdate": 1683607986102,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20009,6 +20009,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3983155696,
             "range": "± 26732390",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "bc5202656cfa58b948ef124b707c884422458442",
+          "message": "fix: already split module should connect chunk group at multiply entry (#3057)",
+          "timestamp": "2023-05-09T04:19:36Z",
+          "tree_id": "9e74f15396541f0fd08f98a6ce74435c58bd62e9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/bc5202656cfa58b948ef124b707c884422458442"
+        },
+        "date": 1683607983709,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340877472,
+            "range": "± 7657439",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3960202051,
+            "range": "± 31281147",
             "unit": "ns/iter"
           }
         ]
