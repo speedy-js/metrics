@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683630234455,
+  "lastUpdate": 1683640856397,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20297,6 +20297,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3996707192,
             "range": "± 27559764",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d1bee67fc7e45741e5d1e03172665296871ed06",
+          "message": "chore: single workspace (#3035)\n\nchore: migrate the node_binding crate into the main workspace",
+          "timestamp": "2023-05-09T10:41:19Z",
+          "tree_id": "b45878334c37f2edb93142db83d8ff5b781b9974",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9d1bee67fc7e45741e5d1e03172665296871ed06"
+        },
+        "date": 1683640824894,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 342979146,
+            "range": "± 6500203",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3979930882,
+            "range": "± 23495741",
             "unit": "ns/iter"
           }
         ]
