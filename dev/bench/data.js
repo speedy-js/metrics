@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683625591939,
+  "lastUpdate": 1683626338278,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20117,6 +20117,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3971191676,
             "range": "± 39575731",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ec5dcd5afc8309f890bdbd02fb078cc6d277d825",
+          "message": "refactor(hmr): change visit_node_children from macro to fn (#3075)",
+          "timestamp": "2023-05-09T09:23:50Z",
+          "tree_id": "10b8b8f195bcaed0fbdee3358dcca9fdcdb6587f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ec5dcd5afc8309f890bdbd02fb078cc6d277d825"
+        },
+        "date": 1683626333083,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 368225132,
+            "range": "± 6397262",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4244608037,
+            "range": "± 27156187",
             "unit": "ns/iter"
           }
         ]
