@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683628487595,
+  "lastUpdate": 1683630234455,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20261,6 +20261,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4165365673,
             "range": "± 26625579",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "657bfb4595c488db8f3f2d298a5d29650ce1742a",
+          "message": "chore: add svg-react-loader & node-loader example  (#3030)\n\n* chore: add svg-react-loader example\n\n* chore: add node-loader example",
+          "timestamp": "2023-05-09T10:34:47Z",
+          "tree_id": "bfe727f5608dd4df24f3adac13161efbc6855c23",
+          "url": "https://github.com/web-infra-dev/rspack/commit/657bfb4595c488db8f3f2d298a5d29650ce1742a"
+        },
+        "date": 1683630231981,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339091562,
+            "range": "± 6424752",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3996707192,
+            "range": "± 27559764",
             "unit": "ns/iter"
           }
         ]
