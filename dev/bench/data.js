@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683620224286,
+  "lastUpdate": 1683625591939,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20081,6 +20081,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4140684922,
             "range": "± 24803965",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "489435760@qq.com",
+            "name": "lipp",
+            "username": "lippzhang"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "252ba05740e78d78df0245762dc6842e0c3f961e",
+          "message": "feat(rust): support __webpack_chunk_load__ module variable (#3080)",
+          "timestamp": "2023-05-09T09:21:14Z",
+          "tree_id": "a3c2ebc2d1f534aecd1ca1b222a155f1f39c230f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/252ba05740e78d78df0245762dc6842e0c3f961e"
+        },
+        "date": 1683625586072,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 341068065,
+            "range": "± 6970258",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3971191676,
+            "range": "± 39575731",
             "unit": "ns/iter"
           }
         ]
