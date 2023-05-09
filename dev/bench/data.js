@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683627754451,
+  "lastUpdate": 1683628487595,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20225,6 +20225,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3991255022,
             "range": "± 22659272",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5a18675a6cbf6481fb4600d51e9ec958691dffb",
+          "message": "feat(chunkId): care about `Chunk#id_name_hints` and generate more stable chunk id (#3043)\n\n* feat(chunkId): care about `Chunk#id_name_hints` and generate more stable chunk id\n\n* Fix code\n\n* Fix clippy",
+          "timestamp": "2023-05-09T09:38:46Z",
+          "tree_id": "fdf689c43ec6469a72173cfddcb01004af6a810e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c5a18675a6cbf6481fb4600d51e9ec958691dffb"
+        },
+        "date": 1683628485155,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 356806234,
+            "range": "± 6373424",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4165365673,
+            "range": "± 26625579",
             "unit": "ns/iter"
           }
         ]
