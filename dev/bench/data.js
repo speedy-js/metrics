@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683716429292,
+  "lastUpdate": 1683717519746,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20693,6 +20693,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3996447808,
             "range": "± 29131189",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d22b389147f1515759ca3ee426572c9d2a52ffb0",
+          "message": "chore(rust): clean up dependencies via `cargo-machete` (#3106)\n\nchore: clean up dependencies via `cargo-machete`",
+          "timestamp": "2023-05-10T10:39:00Z",
+          "tree_id": "d79d04d34ab1358fa8c7e5b7a5ca757956761297",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d22b389147f1515759ca3ee426572c9d2a52ffb0"
+        },
+        "date": 1683717515851,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340246731,
+            "range": "± 7136174",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4001473856,
+            "range": "± 27170254",
             "unit": "ns/iter"
           }
         ]
