@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683709098187,
+  "lastUpdate": 1683715328646,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20621,6 +20621,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3994206356,
             "range": "± 24865685",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "77f69fbe0453c3899d1e8c234d39004dd7fb8afc",
+          "message": "fix: fix esbuild iife for minify plugin (#3107)",
+          "timestamp": "2023-05-10T10:15:31Z",
+          "tree_id": "75854bc06db2f904e231ce56fa68c66886185370",
+          "url": "https://github.com/web-infra-dev/rspack/commit/77f69fbe0453c3899d1e8c234d39004dd7fb8afc"
+        },
+        "date": 1683715326028,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339999518,
+            "range": "± 5878063",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4008168925,
+            "range": "± 29076921",
             "unit": "ns/iter"
           }
         ]
