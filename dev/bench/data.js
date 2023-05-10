@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683640856397,
+  "lastUpdate": 1683689527653,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20333,6 +20333,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3979930882,
             "range": "± 23495741",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1a856896f378a76eb9df2e6b6e25ddbfcbb619fd",
+          "message": "feat(minify-plugin): support minify-css for minify-plugin (#3093)\n\n* chore: support extract-license\n\n* feat(minify-plugin): support minify css in minify-plugin",
+          "timestamp": "2023-05-10T03:04:51Z",
+          "tree_id": "49532248ef24666c10f1552ac5ee289ccaf81fee",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1a856896f378a76eb9df2e6b6e25ddbfcbb619fd"
+        },
+        "date": 1683689519986,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340530577,
+            "range": "± 7327428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3987500897,
+            "range": "± 36441930",
             "unit": "ns/iter"
           }
         ]
