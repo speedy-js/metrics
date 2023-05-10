@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683707182253,
+  "lastUpdate": 1683708037039,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20549,6 +20549,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3967560697,
             "range": "± 39185630",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7b11360fc43c161a763105caf166e8c8d90af3ed",
+          "message": "fix(emotion): should use source code for computing hash (#3100)\n\n* fix(emotion): should use source code for computing hash\n\n* Fix clippy\n\n* Fix",
+          "timestamp": "2023-05-10T08:13:25Z",
+          "tree_id": "47a59d25af9a0f48245c2abecc5a94701805955f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7b11360fc43c161a763105caf166e8c8d90af3ed"
+        },
+        "date": 1683708033997,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357659832,
+            "range": "± 5859029",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4152853903,
+            "range": "± 32642012",
             "unit": "ns/iter"
           }
         ]
