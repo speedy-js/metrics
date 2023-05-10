@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683690770135,
+  "lastUpdate": 1683694189859,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20405,6 +20405,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3977375993,
             "range": "± 35312334",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c83bbde7de8cc49735bba6ac153b91ea026690f",
+          "message": "fix: add correct chunk group runtime for multiply entry single runtime (#3094)",
+          "timestamp": "2023-05-10T04:26:25Z",
+          "tree_id": "bc40495b0e3b24b7c9493b3bff1c86dd44689104",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1c83bbde7de8cc49735bba6ac153b91ea026690f"
+        },
+        "date": 1683694185185,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340193964,
+            "range": "± 6491042",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4008100246,
+            "range": "± 27048373",
             "unit": "ns/iter"
           }
         ]
