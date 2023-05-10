@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683715328646,
+  "lastUpdate": 1683716429292,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20657,6 +20657,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4008168925,
             "range": "± 29076921",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6db2ca30c7a01b53c7053dfa3bab77d5e78684e4",
+          "message": "chore: disable perfsee upload in ci environment (#3099)\n\nchore: disable perfsee upload",
+          "timestamp": "2023-05-10T10:34:51Z",
+          "tree_id": "23057284bdc4d0b6d3328de4a66ac9467970180a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6db2ca30c7a01b53c7053dfa3bab77d5e78684e4"
+        },
+        "date": 1683716425743,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340756888,
+            "range": "± 7152212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3996447808,
+            "range": "± 29131189",
             "unit": "ns/iter"
           }
         ]
