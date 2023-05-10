@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683694189859,
+  "lastUpdate": 1683700385928,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20441,6 +20441,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4008100246,
             "range": "± 27048373",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12568fdb38de1b0fe83bf5f1894cb5a6ad82395d",
+          "message": "chore: add test commands to x.mjs (#3082)",
+          "timestamp": "2023-05-10T06:06:19Z",
+          "tree_id": "b2dc97b6bd9b8e66a9c8fa004454c8a081bee875",
+          "url": "https://github.com/web-infra-dev/rspack/commit/12568fdb38de1b0fe83bf5f1894cb5a6ad82395d"
+        },
+        "date": 1683700383322,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340260978,
+            "range": "± 7020074",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4004910510,
+            "range": "± 26679546",
             "unit": "ns/iter"
           }
         ]
