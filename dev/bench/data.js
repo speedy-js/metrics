@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683717519746,
+  "lastUpdate": 1683718743185,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20729,6 +20729,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4001473856,
             "range": "± 27170254",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d1ab3a57a0cd353e33f350be465dd794b16d1a52",
+          "message": "chore: remove unused workspace dev dependencies (#3098)",
+          "timestamp": "2023-05-10T11:09:59Z",
+          "tree_id": "ff26e845cc030ae7179519b549c6e4eaaa003a92",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d1ab3a57a0cd353e33f350be465dd794b16d1a52"
+        },
+        "date": 1683718740323,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339439829,
+            "range": "± 5949421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4007950768,
+            "range": "± 34440653",
             "unit": "ns/iter"
           }
         ]
