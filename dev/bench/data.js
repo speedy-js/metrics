@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683780365255,
+  "lastUpdate": 1683781079079,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20873,6 +20873,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3952159791,
             "range": "± 29554487",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "03f6f8dcd0fe17f76d8ca28b709d658e0c227a60",
+          "message": "chore: fix toml indentation (#3114)",
+          "timestamp": "2023-05-11T03:37:58Z",
+          "tree_id": "b83c18c7e53ef08a5efec4912b47f1ed8e6d6f45",
+          "url": "https://github.com/web-infra-dev/rspack/commit/03f6f8dcd0fe17f76d8ca28b709d658e0c227a60"
+        },
+        "date": 1683781075924,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 355322646,
+            "range": "± 6882653",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4148641220,
+            "range": "± 29908069",
             "unit": "ns/iter"
           }
         ]
