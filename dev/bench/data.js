@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683800419220,
+  "lastUpdate": 1683804597927,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21125,6 +21125,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4166437844,
             "range": "± 25043789",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37a63f2b6e7b97c42de69113c3b1b2063e637e9c",
+          "message": "ci: run e2e tests in ubuntu-latest (#3122)\n\nci: run e2e tests in ubuntu",
+          "timestamp": "2023-05-11T11:02:06Z",
+          "tree_id": "eac561bbbe3965d9fef7d44c20750a82e750db2d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/37a63f2b6e7b97c42de69113c3b1b2063e637e9c"
+        },
+        "date": 1683804595167,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340754186,
+            "range": "± 6012584",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4008273476,
+            "range": "± 35430496",
             "unit": "ns/iter"
           }
         ]
