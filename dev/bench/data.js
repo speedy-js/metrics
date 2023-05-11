@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683779690150,
+  "lastUpdate": 1683780365255,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20837,6 +20837,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3977953448,
             "range": "± 35077489",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b306356632b6f841508a8010e636188844d7b562",
+          "message": "chore: add rust rebuild test function feature (#3091)\n\n* add hot update test\n\n* done\n\n* reset code\n\n* clear code",
+          "timestamp": "2023-05-11T03:29:49Z",
+          "tree_id": "34a5551ce7b569c479f7ae51120b26f13e3d8499",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b306356632b6f841508a8010e636188844d7b562"
+        },
+        "date": 1683780362747,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340879346,
+            "range": "± 6343537",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3952159791,
+            "range": "± 29554487",
             "unit": "ns/iter"
           }
         ]
