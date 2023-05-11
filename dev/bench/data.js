@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683781765961,
+  "lastUpdate": 1683782475314,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20945,6 +20945,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3998754801,
             "range": "± 31768953",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "douglas.machado@valor-software.com",
+            "name": "Douglas Machado",
+            "username": "dgmachado"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "425b7eeba92a9c9b11c44de4435b2ea3ab38d122",
+          "message": "feat: add compatible compilation.chunks (#3010)\n\n* feat: add compatible compilation.chunks\n\n* chore: 🤖 reduce complexity\n\n* chore: 🤖 resolve conflict\n\n* chore: 🤖 remove unnecessary file\n\n---------\n\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2023-05-11T03:40:45Z",
+          "tree_id": "c985283a34d054478309951de01c0db097dcaa32",
+          "url": "https://github.com/web-infra-dev/rspack/commit/425b7eeba92a9c9b11c44de4435b2ea3ab38d122"
+        },
+        "date": 1683782472660,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357757686,
+            "range": "± 6803736",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4174062283,
+            "range": "± 29083871",
             "unit": "ns/iter"
           }
         ]
