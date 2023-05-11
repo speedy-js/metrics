@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683778999117,
+  "lastUpdate": 1683779690150,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20801,6 +20801,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4160267445,
             "range": "± 29821757",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7af68f6a514e03a5eac07288163e2c6454a8dc3e",
+          "message": "fix(context module): should escape context module regex (#3037)\n\n* done\n\n* fix: bug\n\n* chore: update snapshot\n\n* fix: regex\n\n* update snapshot\n\n* save code\n\n* update snapshot\n\n* fix: code style\n\n* fix: code style\n\n* lazy code\n\n* fix: code style\n\n* chore: rerun action\n\n* chore: rerun action\n\n* rerun\n\n* rerun",
+          "timestamp": "2023-05-11T03:13:10Z",
+          "tree_id": "629833c8e290fe324782e39e8af547625192997b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7af68f6a514e03a5eac07288163e2c6454a8dc3e"
+        },
+        "date": 1683779687619,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339433955,
+            "range": "± 7958631",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3977953448,
+            "range": "± 35077489",
             "unit": "ns/iter"
           }
         ]
