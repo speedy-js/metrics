@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683781079079,
+  "lastUpdate": 1683781765961,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -20909,6 +20909,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4148641220,
             "range": "± 29908069",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sladygit98@gmail.com",
+            "name": "Sladyn",
+            "username": "sladyn98"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "137c17719d97bbbb66e7de2bd0100dbd4250902a",
+          "message": "refactor: Remove impl `Module` for `Box<dyn Module>` in codebase (#2831)\n\n* remove impl Module for Box<dyn Module> in codebase\n\n* Change implementation return types for impl module\n\n* Fix errors\n\n* Removed code\n\n* Revert unnecessary changes\n\n* Recover unnecessary delete\n\n* Fix all errors\n\n---------\n\nCo-authored-by: YunfeiHe <i.heyunfei@gmail.com>",
+          "timestamp": "2023-05-11T03:39:30Z",
+          "tree_id": "981b497f92559705ea31dd249fd97bac2ae4cc1f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/137c17719d97bbbb66e7de2bd0100dbd4250902a"
+        },
+        "date": 1683781763521,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340774534,
+            "range": "± 6445481",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3998754801,
+            "range": "± 31768953",
             "unit": "ns/iter"
           }
         ]
