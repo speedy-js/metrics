@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683799700471,
+  "lastUpdate": 1683800419220,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21089,6 +21089,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3974551250,
             "range": "± 24144057",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "62f43b72c1e1212e42a0240cf28c7ec609d69959",
+          "message": "feat: add tree shaking 'module' to eliminate module which has no export used and sideEffects free. (#3034)\n\n* feat: 🎸 eliminate-module-only\n\n* chore: 🤖 update binding.d.ts\n\n* chore: 🤖 update snapshot\n\n* chore: 🤖 basic support\n\n* feat: 🎸 it works!\n\n* chore: 🤖 update test option\n\n* chore: 🤖 recover m\n\n* fix: 🐛 compile error",
+          "timestamp": "2023-05-11T09:52:19Z",
+          "tree_id": "0371b779faf7694894bb107e41cb8f0d28e246bd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/62f43b72c1e1212e42a0240cf28c7ec609d69959"
+        },
+        "date": 1683800416782,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357421649,
+            "range": "± 5533158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4166437844,
+            "range": "± 25043789",
             "unit": "ns/iter"
           }
         ]
