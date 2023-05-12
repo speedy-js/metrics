@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683861339848,
+  "lastUpdate": 1683866571332,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21197,6 +21197,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4206236469,
             "range": "± 33366908",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b846ef435a4988f3f6ecc5d6aab98a32c267b5d8",
+          "message": "fix: 🐛 tree shaking nuxt error (#3125)\n\nfix: 🐛 nuxt error",
+          "timestamp": "2023-05-12T03:18:14Z",
+          "tree_id": "116038abfd2af5ee9a8f8c0ff64d79d4f22de2dd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b846ef435a4988f3f6ecc5d6aab98a32c267b5d8"
+        },
+        "date": 1683866568793,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 341385137,
+            "range": "± 6778692",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4013803064,
+            "range": "± 23897450",
             "unit": "ns/iter"
           }
         ]
