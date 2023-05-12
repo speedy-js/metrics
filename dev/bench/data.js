@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683867270780,
+  "lastUpdate": 1683871146305,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21269,6 +21269,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4003050228,
             "range": "± 24893314",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2da8665562ceafdd923e7f31a72c06c0e36eec5a",
+          "message": "chore: enable emitCss for svelte (#3136)",
+          "timestamp": "2023-05-12T05:34:27Z",
+          "tree_id": "d2b87250556f602a496185fe780648fdb788ef74",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2da8665562ceafdd923e7f31a72c06c0e36eec5a"
+        },
+        "date": 1683871142595,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 341589497,
+            "range": "± 7954798",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4012143495,
+            "range": "± 25770746",
             "unit": "ns/iter"
           }
         ]
