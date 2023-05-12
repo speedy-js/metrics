@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683804597927,
+  "lastUpdate": 1683861339848,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21161,6 +21161,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4008273476,
             "range": "± 35430496",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "46d6afb1c2b0c307eda7c845632d27f31b5e2943",
+          "message": "chore(examples): remove unused eslint-loader from examples/eslint (#3123)",
+          "timestamp": "2023-05-12T02:49:02Z",
+          "tree_id": "64751d7ef9586a26c872f0a05393069a49dc120a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/46d6afb1c2b0c307eda7c845632d27f31b5e2943"
+        },
+        "date": 1683861334044,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 359116010,
+            "range": "± 7823236",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4206236469,
+            "range": "± 33366908",
             "unit": "ns/iter"
           }
         ]
