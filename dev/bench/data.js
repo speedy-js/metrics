@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684138590816,
+  "lastUpdate": 1684143976178,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21449,6 +21449,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3954828273,
             "range": "± 25418034",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7587f31ad77de64c5dda11ed86e9d34c70bfce61",
+          "message": "feat(core): external supports array (#3141)\n\n* chore: support debug rust in jest\n\n* feat(core): support external value as array\n\n* chore: add external test\n\n* chore: rename as_array\n\n* chore: fix global & this\n\n* chore: fix test",
+          "timestamp": "2023-05-15T09:12:04Z",
+          "tree_id": "1296b431f57f2a0462faa66e198eb32525c4bb57",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7587f31ad77de64c5dda11ed86e9d34c70bfce61"
+        },
+        "date": 1684143970302,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340946550,
+            "range": "± 6662505",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3971319749,
+            "range": "± 31217337",
             "unit": "ns/iter"
           }
         ]
