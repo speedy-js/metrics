@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684122040067,
+  "lastUpdate": 1684138590816,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21413,6 +21413,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3963296145,
             "range": "± 31305142",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dec3be63caff352c6094a29324c58849af66c99d",
+          "message": "chore: support debug rust in jest (#3149)",
+          "timestamp": "2023-05-15T07:50:33Z",
+          "tree_id": "31c99d33d095a0c4076ff997deed4839a43cc6b8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/dec3be63caff352c6094a29324c58849af66c99d"
+        },
+        "date": 1684138585158,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340944631,
+            "range": "± 6305427",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3954828273,
+            "range": "± 25418034",
             "unit": "ns/iter"
           }
         ]
