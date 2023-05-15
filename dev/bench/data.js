@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684143976178,
+  "lastUpdate": 1684148965596,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21485,6 +21485,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3971319749,
             "range": "± 31217337",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0884c09b9257f46f5e1f847b674ad82b9b218754",
+          "message": "perf: 🤖 optimize regex (#3113)\n\n* chore: 🤖 optimize regex\n\n* chore: 🤖 ad hoc bench\n\n* chore: 🤖 ck point\n\n* chore: 🤖 finish impl\n\n* fix: 🐛 compile warning\n\n* test: 💍 add some test\n\n* test: 💍 add some tracing\n\n* chore: 🤖 clean up\n\n* chore: 🤖 clean up\n\n* chore: 🤖 lint\n\n* chore: 🤖 recover type",
+          "timestamp": "2023-05-15T10:44:49Z",
+          "tree_id": "2cc8c46b3c5c71cf89c6df6189e095864a4369f7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0884c09b9257f46f5e1f847b674ad82b9b218754"
+        },
+        "date": 1684148963025,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339888072,
+            "range": "± 5952046",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3955618765,
+            "range": "± 29993601",
             "unit": "ns/iter"
           }
         ]
