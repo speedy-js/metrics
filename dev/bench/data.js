@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683884165109,
+  "lastUpdate": 1684122040067,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21377,6 +21377,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3970565606,
             "range": "± 26400912",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e8656930405b47ef97dd97f396a8e3e4e238ade9",
+          "message": "chore: upgrade ts-jest to 29.1.0 (#3146)",
+          "timestamp": "2023-05-15T03:14:27Z",
+          "tree_id": "74a53f3f6a6de29a0ac414e2a9559ef9f58e91ab",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e8656930405b47ef97dd97f396a8e3e4e238ade9"
+        },
+        "date": 1684122037432,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340522966,
+            "range": "± 8891891",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3963296145,
+            "range": "± 31305142",
             "unit": "ns/iter"
           }
         ]
