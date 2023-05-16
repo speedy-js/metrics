@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684212325304,
+  "lastUpdate": 1684213310890,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21665,6 +21665,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3967898365,
             "range": "± 23146994",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fcaa237539ebb32ebcb5b8df743bdef8b3b92073",
+          "message": "refactor(rust): remove dead code (#3160)",
+          "timestamp": "2023-05-16T04:36:41Z",
+          "tree_id": "319efb8d76fb83e05d42e0dd543e54bce8012286",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fcaa237539ebb32ebcb5b8df743bdef8b3b92073"
+        },
+        "date": 1684213308360,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 341046663,
+            "range": "± 6843965",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3992344521,
+            "range": "± 27288088",
             "unit": "ns/iter"
           }
         ]
