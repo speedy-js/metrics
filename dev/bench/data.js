@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684148965596,
+  "lastUpdate": 1684206549476,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21521,6 +21521,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3955618765,
             "range": "± 29993601",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "be5877fded4146b75835fab32c349e43ef503bbc",
+          "message": "feat(plugin-node-polyfill): add process & buffer to node-polyfill (#3154)",
+          "timestamp": "2023-05-16T02:42:06Z",
+          "tree_id": "d81d0f8e0b57eaf5e08bb4ea0206c4dc9fd3a34e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/be5877fded4146b75835fab32c349e43ef503bbc"
+        },
+        "date": 1684206546778,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 356489744,
+            "range": "± 6944232",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4116022536,
+            "range": "± 35935059",
             "unit": "ns/iter"
           }
         ]
