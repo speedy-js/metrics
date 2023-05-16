@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684206549476,
+  "lastUpdate": 1684207286880,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21557,6 +21557,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4116022536,
             "range": "± 35935059",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "igordocenko1997@gmail.com",
+            "name": "Ihor Dotsenko",
+            "username": "GarrisonD"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "034edba8b724c9202125f0af9b6c19da71f7698c",
+          "message": "chore: Upgraded `webpack` to `5.76.0` (#3156)\n\nUpgraded `webpack` to `5.76.0`",
+          "timestamp": "2023-05-16T02:44:57Z",
+          "tree_id": "08924967087ee1d1b2c6fb2b484ac8a98d830337",
+          "url": "https://github.com/web-infra-dev/rspack/commit/034edba8b724c9202125f0af9b6c19da71f7698c"
+        },
+        "date": 1684207284283,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 338780694,
+            "range": "± 6322700",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3971821858,
+            "range": "± 22204800",
             "unit": "ns/iter"
           }
         ]
