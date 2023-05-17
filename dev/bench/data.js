@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684295913997,
+  "lastUpdate": 1684299578550,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21809,6 +21809,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3989127615,
             "range": "± 23466141",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "70899f1fac5a0402c09ef6f3595ec74cf14c26df",
+          "message": "chore: 🤖 fix cargo test crash (#3178)",
+          "timestamp": "2023-05-17T04:32:26Z",
+          "tree_id": "f4d5cca8528a5aabd3cf5e241b7e10df2dec34de",
+          "url": "https://github.com/web-infra-dev/rspack/commit/70899f1fac5a0402c09ef6f3595ec74cf14c26df"
+        },
+        "date": 1684299576110,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 359791423,
+            "range": "± 7597250",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4163999229,
+            "range": "± 32509514",
             "unit": "ns/iter"
           }
         ]
