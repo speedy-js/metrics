@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684305570389,
+  "lastUpdate": 1684306924107,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21917,6 +21917,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3984974849,
             "range": "± 27932077",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9f3b6e1fedbfa14c5ca86d9392bd606abc8b9d3",
+          "message": "fix: 🐛 don't crash when export * of external module (#3167)\n\n* fix: 🐛 don't crash when export * of external module\n\n* chore: 🤖 add some tracing\n\n* test: 💍 add some test\n\n* chore: 🤖 recover\n\n* chore: 🤖 remove unnecessary file\n\n* chore: 🤖 recover",
+          "timestamp": "2023-05-17T06:34:34Z",
+          "tree_id": "db9dd40add841c4f07d4699ae58bd73fb50ed0ee",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c9f3b6e1fedbfa14c5ca86d9392bd606abc8b9d3"
+        },
+        "date": 1684306920400,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 343124641,
+            "range": "± 6122878",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4017287491,
+            "range": "± 26136424",
             "unit": "ns/iter"
           }
         ]
