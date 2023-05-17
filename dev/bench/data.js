@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684324178405,
+  "lastUpdate": 1684328126491,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22241,6 +22241,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3956334370,
             "range": "± 30884434",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "714fb70c82577539f6a6eae90240b638c424c762",
+          "message": "chore: fix arco-pro crash again (#3195)",
+          "timestamp": "2023-05-17T12:28:40Z",
+          "tree_id": "dd984eb75791e701274e9e2d0faa9d098bcc2c81",
+          "url": "https://github.com/web-infra-dev/rspack/commit/714fb70c82577539f6a6eae90240b638c424c762"
+        },
+        "date": 1684328120869,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 341321163,
+            "range": "± 7302355",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3957328839,
+            "range": "± 31519683",
             "unit": "ns/iter"
           }
         ]
