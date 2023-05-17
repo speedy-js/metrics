@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684328126491,
+  "lastUpdate": 1684329008034,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22277,6 +22277,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3957328839,
             "range": "± 31519683",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8e6f063a98eebc5f08b3a9e26b8fcfb88a4f120d",
+          "message": "chore: fix fix-issue-3873 crash  (#3196)\n\n* chore: fix arco-pro crash again\n\n* chore: fix bus error for issue-3873",
+          "timestamp": "2023-05-17T12:29:48Z",
+          "tree_id": "9f8e834e3ce750efbda7cb50506c6f5a3477b5c3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8e6f063a98eebc5f08b3a9e26b8fcfb88a4f120d"
+        },
+        "date": 1684329004168,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339407533,
+            "range": "± 6581599",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3976986260,
+            "range": "± 32362264",
             "unit": "ns/iter"
           }
         ]
