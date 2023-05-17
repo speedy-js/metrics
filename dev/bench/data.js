@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684329008034,
+  "lastUpdate": 1684338099752,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22313,6 +22313,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3976986260,
             "range": "± 32362264",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "40f4e22731d01385be757b46870833e0947191be",
+          "message": "chore: fix node16 tests (#3200)",
+          "timestamp": "2023-05-17T15:15:56Z",
+          "tree_id": "c82b4b9a24f684ca0abddd36831108afaa9b78da",
+          "url": "https://github.com/web-infra-dev/rspack/commit/40f4e22731d01385be757b46870833e0947191be"
+        },
+        "date": 1684338097242,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357313968,
+            "range": "± 6367198",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4127000339,
+            "range": "± 28629011",
             "unit": "ns/iter"
           }
         ]
