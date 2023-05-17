@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684314420791,
+  "lastUpdate": 1684319717604,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22097,6 +22097,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4147605465,
             "range": "± 27509656",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ldh71777@gmail.com",
+            "name": "kyli",
+            "username": "KyrieLii"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d39c4c9e7c7472e20e840b45c6f749bfff49f7e",
+          "message": "fix(plugin-node-polyfill): remove console polyfill (#3191)",
+          "timestamp": "2023-05-17T10:05:19Z",
+          "tree_id": "2ab21618c6507c96ceb51d001f785fa9810411c1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9d39c4c9e7c7472e20e840b45c6f749bfff49f7e"
+        },
+        "date": 1684319715144,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340889890,
+            "range": "± 6998371",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3971384537,
+            "range": "± 27687257",
             "unit": "ns/iter"
           }
         ]
