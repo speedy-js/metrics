@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684311294224,
+  "lastUpdate": 1684313036943,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22025,6 +22025,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3986014934,
             "range": "± 28076461",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "25a0dcbf6853987ab14b37a9e1bec38895f4650b",
+          "message": "fix: add experiments.css schema (#3183)\n\n* fix: add experiments.css schema\n\n* Update packages/rspack/src/config/schema.js\n\nCo-authored-by: hardfist <yangjianzju@gmail.com>\n\n---------\n\nCo-authored-by: hardfist <yangjianzju@gmail.com>",
+          "timestamp": "2023-05-17T08:16:51Z",
+          "tree_id": "49ce6c916a22d487d304323e0b633ee338e9050b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/25a0dcbf6853987ab14b37a9e1bec38895f4650b"
+        },
+        "date": 1684313033024,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340348497,
+            "range": "± 6383883",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4006178315,
+            "range": "± 30536543",
             "unit": "ns/iter"
           }
         ]
