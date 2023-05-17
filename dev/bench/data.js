@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684319717604,
+  "lastUpdate": 1684320978703,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22133,6 +22133,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3971384537,
             "range": "± 27687257",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1d38c8b1da2aa9a3569ffb52bc61d1243faec632",
+          "message": "feat(resolve): support custom exports fields (#3186)",
+          "timestamp": "2023-05-17T10:30:52Z",
+          "tree_id": "36d048856791294904da0000f7d4cd612137cfb5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1d38c8b1da2aa9a3569ffb52bc61d1243faec632"
+        },
+        "date": 1684320975297,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 358309714,
+            "range": "± 9928451",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4128805715,
+            "range": "± 27384535",
             "unit": "ns/iter"
           }
         ]
