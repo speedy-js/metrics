@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684320978703,
+  "lastUpdate": 1684321817697,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22169,6 +22169,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4128805715,
             "range": "± 27384535",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e8a8507e768320f9ae334bceecf1a4845a5892b6",
+          "message": "chore: fix arco-pro example crashing in debug mode (#3192)",
+          "timestamp": "2023-05-17T10:43:27Z",
+          "tree_id": "efb4995ba05bc199b9811f96a9a82651ecc300cf",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e8a8507e768320f9ae334bceecf1a4845a5892b6"
+        },
+        "date": 1684321810347,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 341125695,
+            "range": "± 6373811",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3951179274,
+            "range": "± 33233813",
             "unit": "ns/iter"
           }
         ]
