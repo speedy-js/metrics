@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684303656247,
+  "lastUpdate": 1684305570389,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21881,6 +21881,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3993193599,
             "range": "± 22668046",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "douglas.machado@valor-software.com",
+            "name": "Douglas Machado",
+            "username": "dgmachado"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5782a8cab15c9b7012b567094f773648dffc422",
+          "message": "fix(license-plugin): add support for license-plugin in case of perChunkOutput as false (#3172)\n\nfix(license-plugin): add support for license-plugin in case perChunkOutput as false",
+          "timestamp": "2023-05-17T06:03:45Z",
+          "tree_id": "ef2a8ef84202efa6bce543108b1590d32c62f688",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a5782a8cab15c9b7012b567094f773648dffc422"
+        },
+        "date": 1684305566302,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340413113,
+            "range": "± 6524000",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3984974849,
+            "range": "± 27932077",
             "unit": "ns/iter"
           }
         ]
