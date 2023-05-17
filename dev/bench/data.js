@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684228907638,
+  "lastUpdate": 1684295913997,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -21773,6 +21773,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3979891487,
             "range": "± 30099236",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "07fca4481d5972316948145cffea7ae33c64d644",
+          "message": "feat(library): support system.js (#3124)\n\n* save code\n\n* save code\n\n* finished feature\n\n* fix: iife bug\n\n* add test cases\n\n* fix: bug\n\n* fix: clippy\n\n* fix: clippy\n\n* fix: clippy\n\n* chore: updatte snapshot\n\n* add test\n\n* clear code\n\n* clear: log\n\n* print log\n\n* print log\n\n* remove log\n\n* fix: bug\n\n* fix: remove iife comma\n\n* fix: test\n\n* fix: test\n\n* fix: test\n\n* update snapshot\n\n* update snapshot\n\n---------\n\nCo-authored-by: underfin <likui6666666@gmail.com>",
+          "timestamp": "2023-05-17T03:30:09Z",
+          "tree_id": "9566968db7057fea6ed4ef955e2b3f40eb7376ca",
+          "url": "https://github.com/web-infra-dev/rspack/commit/07fca4481d5972316948145cffea7ae33c64d644"
+        },
+        "date": 1684295911293,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339522253,
+            "range": "± 7065356",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3989127615,
+            "range": "± 23466141",
             "unit": "ns/iter"
           }
         ]
