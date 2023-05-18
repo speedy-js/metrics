@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684383180824,
+  "lastUpdate": 1684397255736,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22457,6 +22457,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3960965929,
             "range": "± 27124929",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d8fc9bcc3259e8e16b6e40c4c44e3023164e51b8",
+          "message": "fix: export-all-from-side-effects-free-commonjs (#3181)\n\n* chore: 🤖 init\n\n* fix: 🐛 fix the test\n\n* test: 💍 update snap\n\n* chore: 🤖 lint\n\n* chore: 🤖 tweak comments",
+          "timestamp": "2023-05-18T07:39:51Z",
+          "tree_id": "234a5a49160fef59c44a95e560658756f4d68eab",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d8fc9bcc3259e8e16b6e40c4c44e3023164e51b8"
+        },
+        "date": 1684397241020,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339912728,
+            "range": "± 7397879",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3976285776,
+            "range": "± 23724217",
             "unit": "ns/iter"
           }
         ]
