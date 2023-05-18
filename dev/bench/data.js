@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684406749088,
+  "lastUpdate": 1684407457130,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22709,6 +22709,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4129607941,
             "range": "± 27722826",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4dc38c76b7698f0f42715d7f4d2725fd79656e45",
+          "message": "ci: create issue in rspack-website when a pr is merged with \"need documentation\" label (#3211)\n\ncloses #3089",
+          "timestamp": "2023-05-18T10:25:14Z",
+          "tree_id": "b4c6977808b2f793ad475d2da66ca096e7cba8f7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4dc38c76b7698f0f42715d7f4d2725fd79656e45"
+        },
+        "date": 1684407450343,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 340328332,
+            "range": "± 7194681",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3947100059,
+            "range": "± 31627109",
             "unit": "ns/iter"
           }
         ]
