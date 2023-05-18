@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684382472385,
+  "lastUpdate": 1684383180824,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22421,6 +22421,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3968245081,
             "range": "± 26210907",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99115019f11dbc07558dcfe99f3d798fe426abc6",
+          "message": "fix: render exports for esm output at hmr (#3194)",
+          "timestamp": "2023-05-18T03:44:52Z",
+          "tree_id": "1b4bd383f414e6319815ca69c97cf5ca33daa142",
+          "url": "https://github.com/web-infra-dev/rspack/commit/99115019f11dbc07558dcfe99f3d798fe426abc6"
+        },
+        "date": 1684383177454,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 343127289,
+            "range": "± 6604532",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3960965929,
+            "range": "± 27124929",
             "unit": "ns/iter"
           }
         ]
