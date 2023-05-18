@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684398993618,
+  "lastUpdate": 1684400181617,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22529,6 +22529,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4228717916,
             "range": "± 31627343",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "72ba4558f189e19c5ddefb0f8f590f7dd0717c26",
+          "message": "chore: fix jest crash on node (#3206)",
+          "timestamp": "2023-05-18T08:09:12Z",
+          "tree_id": "1c6a88b091ebfd8d87c4f92bcac0605e97322f0b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/72ba4558f189e19c5ddefb0f8f590f7dd0717c26"
+        },
+        "date": 1684400175824,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 358203212,
+            "range": "± 6131175",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4162326680,
+            "range": "± 30035850",
             "unit": "ns/iter"
           }
         ]
