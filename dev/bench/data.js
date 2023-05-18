@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684400181617,
+  "lastUpdate": 1684400912011,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22565,6 +22565,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4162326680,
             "range": "± 30035850",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "735ea8b22d77aa114bc0d37111f43ea3e9b1c4c8",
+          "message": "fix: provided dependency generated code not stable (#3204)\n\n* fix: provide generate code not stable\n\n* add test\n\n* fix test\n\n* Update packages/rspack/tests/HashTestCases.test.ts",
+          "timestamp": "2023-05-18T08:19:51Z",
+          "tree_id": "c961f2a526156fa9da30fe94795c4dfc4667de51",
+          "url": "https://github.com/web-infra-dev/rspack/commit/735ea8b22d77aa114bc0d37111f43ea3e9b1c4c8"
+        },
+        "date": 1684400902968,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339894178,
+            "range": "± 6387891",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3949586692,
+            "range": "± 26666298",
             "unit": "ns/iter"
           }
         ]
