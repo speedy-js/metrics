@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684400912011,
+  "lastUpdate": 1684405276540,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22601,6 +22601,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3949586692,
             "range": "± 26666298",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "dadbbec24f0d482a737b961d72212acbea68555f",
+          "message": "fix: ci clippy (#3208)\n\nchore: 🤖 clippy",
+          "timestamp": "2023-05-18T08:30:06Z",
+          "tree_id": "1b33bca760162a2008881c345573085782d73cd3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/dadbbec24f0d482a737b961d72212acbea68555f"
+        },
+        "date": 1684405273711,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 354585318,
+            "range": "± 6242278",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4091191218,
+            "range": "± 24707040",
             "unit": "ns/iter"
           }
         ]
