@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684397255736,
+  "lastUpdate": 1684398993618,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22493,6 +22493,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3976285776,
             "range": "± 23724217",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5234349+zhangliu@users.noreply.github.com",
+            "name": "zhangliu",
+            "username": "zhangliu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3fca3fdefc3394dad952db3967531a96912df33e",
+          "message": "fix: fix provide can't be override by user (#3201)\n\nfix: 修复 provide 选项的顺序,让外部用户配置的能够覆盖默认值",
+          "timestamp": "2023-05-18T08:04:13Z",
+          "tree_id": "f0a1fbceb4b90339dd964d67b6d20de596079c03",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3fca3fdefc3394dad952db3967531a96912df33e"
+        },
+        "date": 1684398987687,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 364592041,
+            "range": "± 6592958",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4228717916,
+            "range": "± 31627343",
             "unit": "ns/iter"
           }
         ]
