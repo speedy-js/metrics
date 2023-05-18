@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684338099752,
+  "lastUpdate": 1684379443696,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22349,6 +22349,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4127000339,
             "range": "± 28629011",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34601247f01272e1c0df11e78999246605061c81",
+          "message": "fix: wasm loading runtime on node-18 (#3197)\n\nfix: wasm on node-18",
+          "timestamp": "2023-05-18T02:44:46Z",
+          "tree_id": "6b66e95f10165948ae1df5521a81ef0dfa6f4340",
+          "url": "https://github.com/web-infra-dev/rspack/commit/34601247f01272e1c0df11e78999246605061c81"
+        },
+        "date": 1684379441127,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339555730,
+            "range": "± 6616031",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3966472404,
+            "range": "± 41555332",
             "unit": "ns/iter"
           }
         ]
