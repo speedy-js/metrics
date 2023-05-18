@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684379443696,
+  "lastUpdate": 1684382472385,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22385,6 +22385,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3966472404,
             "range": "± 41555332",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "df7e2a834af80c82d2a2e21311257dcbef83bc74",
+          "message": "ci: add test Node.js v18 (#3168)\n\nci: enable Node.js v18 for testing\n\nRemoved all the other tests because they cost too much resources.\n\ncloses #3108",
+          "timestamp": "2023-05-18T03:35:17Z",
+          "tree_id": "09d817dbe4485314b2ce1b666587c3c3edf05157",
+          "url": "https://github.com/web-infra-dev/rspack/commit/df7e2a834af80c82d2a2e21311257dcbef83bc74"
+        },
+        "date": 1684382465962,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 339427037,
+            "range": "± 5818469",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3968245081,
+            "range": "± 26210907",
             "unit": "ns/iter"
           }
         ]
