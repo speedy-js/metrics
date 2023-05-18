@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684405276540,
+  "lastUpdate": 1684406028820,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22637,6 +22637,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4091191218,
             "range": "± 24707040",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a31024906291146208758551553eeed39146aff",
+          "message": "fix: context module elimated (#3151)\n\n* fix: 🐛 init\n\n* chore: 🤖 more test\n\n* chore: 🤖 remove dbg\n\n* chore: 🤖 lint",
+          "timestamp": "2023-05-18T09:21:07Z",
+          "tree_id": "441d4d21809c56d178d9bbb346fcd50b29180003",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0a31024906291146208758551553eeed39146aff"
+        },
+        "date": 1684406023833,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 343354452,
+            "range": "± 8896541",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3974157995,
+            "range": "± 27413903",
             "unit": "ns/iter"
           }
         ]
