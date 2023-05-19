@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684476968172,
+  "lastUpdate": 1684478520573,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22853,6 +22853,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3978913457,
             "range": "± 27450588",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0426daf32c30e9a7addc6f74d71e4916f8ea5a55",
+          "message": "chore: add repro link to the bug issue template (#3225)",
+          "timestamp": "2023-05-19T06:16:37Z",
+          "tree_id": "0fdf40e2cd13eefa3c207e471504b5dba6d26771",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0426daf32c30e9a7addc6f74d71e4916f8ea5a55"
+        },
+        "date": 1684478518159,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352867957,
+            "range": "± 6240927",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4122267871,
+            "range": "± 24372597",
             "unit": "ns/iter"
           }
         ]
