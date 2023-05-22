@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684743023938,
+  "lastUpdate": 1684745639101,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23105,6 +23105,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4021168303,
             "range": "± 27998081",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "76cbcdb9edfa6c82d33b0d9a7c9ea9c5f14fcc42",
+          "message": "feat: add support for `Rule.loader` and `Rule.options` (#3246)\n\nfeat: add support to Rule.loader and Rule.options",
+          "timestamp": "2023-05-22T08:27:27Z",
+          "tree_id": "9634470d0e77ffcf301d0c45207f7befe06fc919",
+          "url": "https://github.com/web-infra-dev/rspack/commit/76cbcdb9edfa6c82d33b0d9a7c9ea9c5f14fcc42"
+        },
+        "date": 1684745635852,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 377411595,
+            "range": "± 7540534",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4285206693,
+            "range": "± 28025460",
             "unit": "ns/iter"
           }
         ]
