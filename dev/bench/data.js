@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684758220603,
+  "lastUpdate": 1684759096455,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23249,6 +23249,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4193256822,
             "range": "± 29874934",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac70f665d33d491f50359cd5048cb7cfd08a08da",
+          "message": "feat(module_optional): support require.resolve and require.resolveWeak (#3237)\n\n* done\n\n* done\n\n* fix\n\n* snapshot\n\n* snapshot\n\n* snapshot\n\n* mv\n\n* remove\n\n* fix\n\n* update snapshot\n\n* rewrite test case",
+          "timestamp": "2023-05-22T12:07:37Z",
+          "tree_id": "e8de76d4ed1efaf698413a7996e9579cec9ad04d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ac70f665d33d491f50359cd5048cb7cfd08a08da"
+        },
+        "date": 1684759093325,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 348641398,
+            "range": "± 7064598",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3989895296,
+            "range": "± 24737036",
             "unit": "ns/iter"
           }
         ]
