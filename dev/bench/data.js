@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684753893823,
+  "lastUpdate": 1684758220603,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23213,6 +23213,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4007752543,
             "range": "± 31411913",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "dc5bde9dfb6f53560c566af8688d0b73ba253154",
+          "message": "fix(core): upgrade regress to 0.6.0 to fix regress compile regex error (#3251)",
+          "timestamp": "2023-05-22T11:45:25Z",
+          "tree_id": "c9a2133f3b2912330430d2d597c855c1aa9c66f9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/dc5bde9dfb6f53560c566af8688d0b73ba253154"
+        },
+        "date": 1684758217924,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 364865845,
+            "range": "± 8035409",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4193256822,
+            "range": "± 29874934",
             "unit": "ns/iter"
           }
         ]
