@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684488214270,
+  "lastUpdate": 1684726922279,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22961,6 +22961,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3987120927,
             "range": "± 24014104",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb1edf0f3367451c6c80d195bc47dcb64080d443",
+          "message": "feat(types): support string or object in copy.patterns array  (#3218)\n\nchore: update copy.patterns config type",
+          "timestamp": "2023-05-22T03:13:00Z",
+          "tree_id": "5b658126b691f48ae62dc7443faecff2c4f9d40d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/eb1edf0f3367451c6c80d195bc47dcb64080d443"
+        },
+        "date": 1684726909299,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 357069957,
+            "range": "± 7024496",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4189339225,
+            "range": "± 32915202",
             "unit": "ns/iter"
           }
         ]
