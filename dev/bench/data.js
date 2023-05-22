@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684733293875,
+  "lastUpdate": 1684740236545,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23033,6 +23033,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4167697279,
             "range": "± 24951736",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6a30201600dbe39e7f446326fdb0d0b0d0d87b8c",
+          "message": "feat: normal module factory after resolve hooks (#3060)\n\n* chore: 🤖 after resolve\n\n* chore: 🤖 finish native part\n\n* chore: 🤖 ck point\n\n* chore: 🤖 finish compile\n\n* chore: 🤖 before resolve\n\n* chore: 🤖 lint\n\n* chore: 🤖 lint\n\n* chore: 🤖 lint\n\n* chore: 🤖 remove unnecessary css file\n\n* chore: 🤖 fix compiler error\n\n* chore: 🤖 lint",
+          "timestamp": "2023-05-22T06:55:42Z",
+          "tree_id": "421c80c20289f2ad55b9dc0ca2076a9130ee6b3c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6a30201600dbe39e7f446326fdb0d0b0d0d87b8c"
+        },
+        "date": 1684740233475,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 367808855,
+            "range": "± 11130305",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4184401318,
+            "range": "± 26821609",
             "unit": "ns/iter"
           }
         ]
