@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684746407506,
+  "lastUpdate": 1684753893823,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23177,6 +23177,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4003911957,
             "range": "± 29022520",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d5bbf8c4d2a766c110cc4164c95b2b6dcdeefe38",
+          "message": "ci: remove unnecessary `test` option from reusable-build (#3245)",
+          "timestamp": "2023-05-22T10:40:58Z",
+          "tree_id": "64cfcfde966b5fbf7a531103aa4051a59551bfc5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d5bbf8c4d2a766c110cc4164c95b2b6dcdeefe38"
+        },
+        "date": 1684753887802,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352356030,
+            "range": "± 6713250",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4007752543,
+            "range": "± 31411913",
             "unit": "ns/iter"
           }
         ]
