@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684759096455,
+  "lastUpdate": 1684760429259,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23285,6 +23285,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3989895296,
             "range": "± 24737036",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "edusperoni@users.noreply.github.com",
+            "name": "Eduardo Speroni",
+            "username": "edusperoni"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d32c3ae7a058b616f86ee189fe02065a31554ec8",
+          "message": "feat: add afterCompile hook (#3235)",
+          "timestamp": "2023-05-22T12:32:17Z",
+          "tree_id": "72e79a65af28f6dc213d7f5952ff9ad3202ec97e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d32c3ae7a058b616f86ee189fe02065a31554ec8"
+        },
+        "date": 1684760425254,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 348412189,
+            "range": "± 7026644",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3999373690,
+            "range": "± 28057388",
             "unit": "ns/iter"
           }
         ]
