@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684726922279,
+  "lastUpdate": 1684733293875,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -22997,6 +22997,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4189339225,
             "range": "± 32915202",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7127f01ea124331b3d002ce9dd3f0bb37d539fdb",
+          "message": "feat: add scheme, mimetype, and resourceFragment rule condition (#3238)\n\nfeat: data uri part 2",
+          "timestamp": "2023-05-22T04:00:59Z",
+          "tree_id": "e81cbcf88f88bbd6d4d4ccb709e7bdf2cab27290",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7127f01ea124331b3d002ce9dd3f0bb37d539fdb"
+        },
+        "date": 1684733289868,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 356531407,
+            "range": "± 6193146",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4167697279,
+            "range": "± 24951736",
             "unit": "ns/iter"
           }
         ]
