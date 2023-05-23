@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684840119810,
+  "lastUpdate": 1684850060402,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23573,6 +23573,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4276981506,
             "range": "± 32262209",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e271998758ab180f1869e46a76c35ea3b3b17dec",
+          "message": "chore: add fork-ts-checker-webpack-plugin example (#3269)",
+          "timestamp": "2023-05-23T13:21:15Z",
+          "tree_id": "a9e134e4746b5aa3d198551882211051129a876f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e271998758ab180f1869e46a76c35ea3b3b17dec"
+        },
+        "date": 1684850057135,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 350420913,
+            "range": "± 9957115",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3995608227,
+            "range": "± 25328598",
             "unit": "ns/iter"
           }
         ]
