@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684831026566,
+  "lastUpdate": 1684835362225,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23429,6 +23429,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4203164078,
             "range": "± 31791562",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3115484e3e1d1a8742bb4bea1af0f8f5c376c582",
+          "message": "ci: remove nightly step from full release (#3265)",
+          "timestamp": "2023-05-23T08:23:35Z",
+          "tree_id": "ac6156271e7a11d853b56eeba12236903ef73331",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3115484e3e1d1a8742bb4bea1af0f8f5c376c582"
+        },
+        "date": 1684835359336,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 349609183,
+            "range": "± 6642704",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4000321687,
+            "range": "± 28040428",
             "unit": "ns/iter"
           }
         ]
