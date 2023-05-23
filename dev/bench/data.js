@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684835362225,
+  "lastUpdate": 1684836105418,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23465,6 +23465,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4000321687,
             "range": "± 28040428",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1fb78a182b82a92dca6432038ceedc6ca177d09a",
+          "message": "chore: progressively migrate webpack test case (#3256)\n\n* chore: 🤖 filter test case\n\n* chore: 🤖 update filter test\n\n* chore: 🤖 tweak\n\n* chore: 🤖 update test case\n\n* chore: 🤖 recover lock\n\n* chore: 🤖 test case\n\n* chore: 🤖 remove unnecessary json",
+          "timestamp": "2023-05-23T08:25:09Z",
+          "tree_id": "a77894263cefa4e94935d98dd225b5fa33e1a4e7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1fb78a182b82a92dca6432038ceedc6ca177d09a"
+        },
+        "date": 1684836102142,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 359030804,
+            "range": "± 5856395",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4098051266,
+            "range": "± 31919894",
             "unit": "ns/iter"
           }
         ]
