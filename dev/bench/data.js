@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684855419696,
+  "lastUpdate": 1684857515873,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23681,6 +23681,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4085033339,
             "range": "± 23238989",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1227351859c5ae7ca5a8546f192c1455303f885f",
+          "message": "chore: add version script (#3189)\n\nchore: refactor release canary using custom script",
+          "timestamp": "2023-05-23T15:29:41Z",
+          "tree_id": "bd5039f7ba263e2871d64771e76185c0c75e7295",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1227351859c5ae7ca5a8546f192c1455303f885f"
+        },
+        "date": 1684857513352,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 351269786,
+            "range": "± 8030587",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3992116959,
+            "range": "± 31940873",
             "unit": "ns/iter"
           }
         ]
