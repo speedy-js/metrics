@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684837928777,
+  "lastUpdate": 1684840119810,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23537,6 +23537,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4010599413,
             "range": "± 29009140",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4be44cc9d70d3a37a6d99134ae9942ce4d1534eb",
+          "message": "fix: namespace access on var decl rhs (#3176)\n\n* chore: 🤖 init\n\n* chore: 🤖 recover\n\n* chore: 🤖 test case",
+          "timestamp": "2023-05-23T10:34:41Z",
+          "tree_id": "77ddb93be9ec795111da140cf957664717560c0a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4be44cc9d70d3a37a6d99134ae9942ce4d1534eb"
+        },
+        "date": 1684840117399,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 378263103,
+            "range": "± 6831275",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4276981506,
+            "range": "± 32262209",
             "unit": "ns/iter"
           }
         ]
