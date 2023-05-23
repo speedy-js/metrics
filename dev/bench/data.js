@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684850060402,
+  "lastUpdate": 1684854620723,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23609,6 +23609,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3995608227,
             "range": "± 25328598",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "edusperoni@users.noreply.github.com",
+            "name": "Eduardo Speroni",
+            "username": "edusperoni"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "fbaac57bc7625450608fe12e646b65742b983c8b",
+          "message": "feat: add shutdown hook (#3234)",
+          "timestamp": "2023-05-23T13:27:36Z",
+          "tree_id": "fafff099308b8b0425c1b9becbe2f949c695120e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fbaac57bc7625450608fe12e646b65742b983c8b"
+        },
+        "date": 1684854617361,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 349817638,
+            "range": "± 7513600",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4004595446,
+            "range": "± 27078051",
             "unit": "ns/iter"
           }
         ]
