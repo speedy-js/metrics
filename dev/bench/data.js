@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684916847020,
+  "lastUpdate": 1684921333549,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23969,6 +23969,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3962625116,
             "range": "± 29334123",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e104aaa84d5aacf2d6ba376e01b20786ea7f0425",
+          "message": "fix: should not resolve to a rule if an existing rule does not have its data (#3282)\n\nfix: should not resolve to a rule if an exsiting rule does not have corresponding data",
+          "timestamp": "2023-05-24T09:15:11Z",
+          "tree_id": "1509b0155afdd0568406dde89f99f82ac1b2c455",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e104aaa84d5aacf2d6ba376e01b20786ea7f0425"
+        },
+        "date": 1684921330948,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 353913371,
+            "range": "± 6799806",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3921676619,
+            "range": "± 27304077",
             "unit": "ns/iter"
           }
         ]
