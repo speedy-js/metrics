@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684897680282,
+  "lastUpdate": 1684898693811,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23789,6 +23789,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3976053399,
             "range": "± 31174418",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ff0c77d445b87fc3026ae67efaf84af75a12807",
+          "message": "fix: external amd array case (#3268)\n\n* chore: amd externals case\n\n* fix: 🐛 external array\n\n* chore: 🤖 remove file\n\n* chore: 🤖 recover lock\n\n---------\n\nCo-authored-by: kyli <ldh71777@gmail.com>",
+          "timestamp": "2023-05-24T02:53:18Z",
+          "tree_id": "cb7ae7e909a7efaff2fb5425dede93090206759e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5ff0c77d445b87fc3026ae67efaf84af75a12807"
+        },
+        "date": 1684898690871,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 369046401,
+            "range": "± 7189230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4181679672,
+            "range": "± 30798788",
             "unit": "ns/iter"
           }
         ]
