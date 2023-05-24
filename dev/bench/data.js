@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684898693811,
+  "lastUpdate": 1684903433129,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23825,6 +23825,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4181679672,
             "range": "± 30798788",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "80ae907cf56c2411b912234b56e3a78710437f1e",
+          "message": "chore(examples): add missing private to two example packages (#3275)",
+          "timestamp": "2023-05-24T04:18:50Z",
+          "tree_id": "e8300f0e392b0036952cf5ca51de98702cb717d3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/80ae907cf56c2411b912234b56e3a78710437f1e"
+        },
+        "date": 1684903430227,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 350095237,
+            "range": "± 7347574",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3989427027,
+            "range": "± 28640730",
             "unit": "ns/iter"
           }
         ]
