@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684925276085,
+  "lastUpdate": 1684938325968,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24041,6 +24041,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4147614394,
             "range": "± 27259842",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8e0a711a0c1abe43d6c60e970e7a9970bba08901",
+          "message": "chore: add storybook example (#3281)",
+          "timestamp": "2023-05-24T13:45:44Z",
+          "tree_id": "315f15dc416d58404a798976140f274132dab6ca",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8e0a711a0c1abe43d6c60e970e7a9970bba08901"
+        },
+        "date": 1684938323387,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 377547078,
+            "range": "± 6260663",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4220389879,
+            "range": "± 33285060",
             "unit": "ns/iter"
           }
         ]
