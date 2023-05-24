@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684939674582,
+  "lastUpdate": 1684943057504,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24113,6 +24113,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3941939416,
             "range": "± 27097178",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "salamaashoush@gmail.com",
+            "name": "Salama Ashoush",
+            "username": "salamaashoush"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2475e4a30c3b23b07745bdf2c4aa6a05e660fb1a",
+          "message": "feat(cli): Use proxy config in the preview command (#3287)",
+          "timestamp": "2023-05-24T15:06:41Z",
+          "tree_id": "cb059f46ba2f56879403b3b4db7ab07e851789ac",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2475e4a30c3b23b07745bdf2c4aa6a05e660fb1a"
+        },
+        "date": 1684943054789,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 349708593,
+            "range": "± 7268481",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3946369667,
+            "range": "± 28551605",
             "unit": "ns/iter"
           }
         ]
