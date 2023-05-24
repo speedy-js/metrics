@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684938325968,
+  "lastUpdate": 1684939674582,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24077,6 +24077,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4220389879,
             "range": "± 33285060",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bohan-zhang@foxmail.com",
+            "name": "bohan",
+            "username": "bvanjoi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6e9f0287911b087050131459cc9af2f5ef78104",
+          "message": "feat: support resolve.extensionAlias (#3249)\n\n* feat: support resolve.extensionAlias\n\n* refactor(resolve): use `dedup` to merge",
+          "timestamp": "2023-05-24T13:59:53Z",
+          "tree_id": "8181ce943a0a3655e95bc9548e46d52ea89f00ce",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a6e9f0287911b087050131459cc9af2f5ef78104"
+        },
+        "date": 1684939670039,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352251036,
+            "range": "± 7646056",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3941939416,
+            "range": "± 27097178",
             "unit": "ns/iter"
           }
         ]
