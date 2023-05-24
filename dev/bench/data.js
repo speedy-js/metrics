@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684896975137,
+  "lastUpdate": 1684897680282,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23753,6 +23753,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3996611959,
             "range": "± 33666881",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f151def6367bbcba3a67d8b73ee23817adba7b9a",
+          "message": "chore: fix broken pnpm lockfile (#3274)",
+          "timestamp": "2023-05-24T02:36:23Z",
+          "tree_id": "81d2217a5941c2b683960a022d01675104dd2497",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f151def6367bbcba3a67d8b73ee23817adba7b9a"
+        },
+        "date": 1684897675211,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 349564122,
+            "range": "± 6822764",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3976053399,
+            "range": "± 31174418",
             "unit": "ns/iter"
           }
         ]
