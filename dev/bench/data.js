@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684912135562,
+  "lastUpdate": 1684914145610,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23897,6 +23897,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4164968029,
             "range": "± 24643501",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99b9a92b3e7d65153edd00346825bab9a8531ef3",
+          "message": "refactor: clean up node dev dependencies (#3229)",
+          "timestamp": "2023-05-24T07:10:47Z",
+          "tree_id": "196bb74c7e986d91cae607ac04e3fc0f1b714c03",
+          "url": "https://github.com/web-infra-dev/rspack/commit/99b9a92b3e7d65153edd00346825bab9a8531ef3"
+        },
+        "date": 1684914142693,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 366772401,
+            "range": "± 7169158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4174137949,
+            "range": "± 27852467",
             "unit": "ns/iter"
           }
         ]
