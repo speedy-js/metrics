@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684921333549,
+  "lastUpdate": 1684925276085,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24005,6 +24005,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3921676619,
             "range": "± 27304077",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f97c461bc0db50aaa1b43ef285e6f795ecce33a",
+          "message": "ci: only cache pnpm on main branch for avoiding 10GB cache limit (#3284)\n\nci: only cache pnpm on main branch for 10GB cache limit",
+          "timestamp": "2023-05-24T10:17:42Z",
+          "tree_id": "d20ecc8d9d7dda7fb45d26d7cd64f16b94a216ab",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6f97c461bc0db50aaa1b43ef285e6f795ecce33a"
+        },
+        "date": 1684925273050,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 375716294,
+            "range": "± 7207448",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4147614394,
+            "range": "± 27259842",
             "unit": "ns/iter"
           }
         ]
