@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684914145610,
+  "lastUpdate": 1684916847020,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -23933,6 +23933,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4174137949,
             "range": "± 27852467",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "523e718579b04a93a414ae9802957a674b87a429",
+          "message": "fix: bump swc to fix many bugs (#3279)",
+          "timestamp": "2023-05-24T07:52:29Z",
+          "tree_id": "f5fee6fa808a99a9d1d6f198f05f384f31408a6e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/523e718579b04a93a414ae9802957a674b87a429"
+        },
+        "date": 1684916836347,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 351915867,
+            "range": "± 13351813",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3962625116,
+            "range": "± 29334123",
             "unit": "ns/iter"
           }
         ]
