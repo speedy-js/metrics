@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685007985716,
+  "lastUpdate": 1685009044177,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24185,6 +24185,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3933238729,
             "range": "± 25322708",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2800d2b86382eb3927f9ebdedff6935f2005eb45",
+          "message": "feat: string replace dependency (#3219)\n\nfeat: add code range relpacement dendency",
+          "timestamp": "2023-05-25T07:13:53Z",
+          "tree_id": "c354a57c43d0ca6e4d0a7da322c4220945a132c6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2800d2b86382eb3927f9ebdedff6935f2005eb45"
+        },
+        "date": 1685009040237,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352292383,
+            "range": "± 6925522",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3941758213,
+            "range": "± 30944525",
             "unit": "ns/iter"
           }
         ]
