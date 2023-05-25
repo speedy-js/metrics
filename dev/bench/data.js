@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685011930420,
+  "lastUpdate": 1685013096602,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24329,6 +24329,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3954528939,
             "range": "± 26771281",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3956f7fae2f1fb93a0730dfa3499b103fa99e13f",
+          "message": "fix: add schema for `Rule.options` and `Rule.loader` (#3296)",
+          "timestamp": "2023-05-25T10:41:27Z",
+          "tree_id": "6b94976c45e278ca2869d2828afacb977eba4dd8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3956f7fae2f1fb93a0730dfa3499b103fa99e13f"
+        },
+        "date": 1685013094001,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 369173032,
+            "range": "± 6613843",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4123512612,
+            "range": "± 28794275",
             "unit": "ns/iter"
           }
         ]
