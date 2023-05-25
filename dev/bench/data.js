@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685009837197,
+  "lastUpdate": 1685010645631,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24257,6 +24257,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3937568199,
             "range": "± 30139988",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6ddeff9295d4d3da7fd5a4242adc99a876364d8d",
+          "message": "fix(source_map): windows support (#3239)\n\n* done\n\n* fix\n\n* fix: clippy\n\n* done\n\n* new impl\n\n* fix: bug\n\n* done\n\n* pretty\n\n---------\n\nCo-authored-by: ahabhgk <ahabhgk@gmail.com>",
+          "timestamp": "2023-05-25T08:31:22Z",
+          "tree_id": "73e58a2a15470fa22fbf8b961b1340e46a11a246",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6ddeff9295d4d3da7fd5a4242adc99a876364d8d"
+        },
+        "date": 1685010642828,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 353130301,
+            "range": "± 7337219",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3956302846,
+            "range": "± 31846111",
             "unit": "ns/iter"
           }
         ]
