@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685013096602,
+  "lastUpdate": 1685018405037,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24365,6 +24365,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4123512612,
             "range": "± 28794275",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5268315a38a3e15befd0572e2c59e97d787ef5f",
+          "message": "feat: hashFunction, hashDigest, hashDigestLength, and hashSalt and refactor lots of code (#3255)\n\n* wip\n\nwip2\n\nwip3\n\nwow\n\nrebase\n\nfix scheme\n\nremove crate\n\nadd test\n\nrevert example\n\nfix cargo t\n\nfix\n\nfix\n\n* fix\n\n* fix",
+          "timestamp": "2023-05-25T12:05:35Z",
+          "tree_id": "e41e685dc3922d1917adb6f4540dd4cbb6f3be8b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e5268315a38a3e15befd0572e2c59e97d787ef5f"
+        },
+        "date": 1685018402176,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 370059431,
+            "range": "± 9084690",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4111129743,
+            "range": "± 23916933",
             "unit": "ns/iter"
           }
         ]
