@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685018405037,
+  "lastUpdate": 1685026400522,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24401,6 +24401,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4111129743,
             "range": "± 23916933",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "246a2718873be8d30c15627947154f4546633885",
+          "message": "chore: remove unused check-changeset.yml (#3299)",
+          "timestamp": "2023-05-25T14:22:45Z",
+          "tree_id": "3494de45aa176c1f2c7fac2cb9195762c90420cc",
+          "url": "https://github.com/web-infra-dev/rspack/commit/246a2718873be8d30c15627947154f4546633885"
+        },
+        "date": 1685026397181,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352526562,
+            "range": "± 6768352",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3924547993,
+            "range": "± 29919544",
             "unit": "ns/iter"
           }
         ]
