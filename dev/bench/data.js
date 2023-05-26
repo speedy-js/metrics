@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685086477950,
+  "lastUpdate": 1685092171552,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24545,6 +24545,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3925176828,
             "range": "± 32061678",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f4729b71a925197601b1f7f9bd9b17217a95845d",
+          "message": "ci: no need to listen for synchronize event in \"lint pr title\" (#3314)\n\nsynchronize event is triggered by git pushes, which doesn't change the pr title",
+          "timestamp": "2023-05-26T08:35:30Z",
+          "tree_id": "2e9986a54834eca2a6222e51e3b68d2a7b504db0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f4729b71a925197601b1f7f9bd9b17217a95845d"
+        },
+        "date": 1685092161670,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 370661703,
+            "range": "± 7711914",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4111379926,
+            "range": "± 25969216",
             "unit": "ns/iter"
           }
         ]
