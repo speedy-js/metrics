@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685092171552,
+  "lastUpdate": 1685093104999,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24581,6 +24581,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4111379926,
             "range": "± 25969216",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2526cd76f205075e3cdd358cc2386e0b45af20a4",
+          "message": "chore: avoid config check in webpack-test && add external test (#3312)\n\n* chore: avoid config check in webpack-test\n\n* chore: fix node18\n\n* fix: node 18\n\n---------\n\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2023-05-26T08:57:35Z",
+          "tree_id": "77173e9d196a385251e79e7a264b3cafe625f6e9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2526cd76f205075e3cdd358cc2386e0b45af20a4"
+        },
+        "date": 1685093102195,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 374421938,
+            "range": "± 6899923",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4141653358,
+            "range": "± 30387050",
             "unit": "ns/iter"
           }
         ]
