@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685075338540,
+  "lastUpdate": 1685076086437,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24473,6 +24473,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4216479281,
             "range": "± 27175112",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7577879dfdef1ed10f961b0f58ad5c7bc0f72856",
+          "message": "feat: add hot module replacement string replace dependency (#3301)",
+          "timestamp": "2023-05-26T03:48:29Z",
+          "tree_id": "805d8c450e2bed5d03a87f4c235d60c39563d68b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7577879dfdef1ed10f961b0f58ad5c7bc0f72856"
+        },
+        "date": 1685076083817,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 370805790,
+            "range": "± 7680054",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4088484506,
+            "range": "± 36185102",
             "unit": "ns/iter"
           }
         ]
