@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685076086437,
+  "lastUpdate": 1685086477950,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24509,6 +24509,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4088484506,
             "range": "± 36185102",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bdf3aaba59208d4ab44a4c3fa3e35bfcec1e4b3a",
+          "message": "ci: unify ci workflow (#3294)",
+          "timestamp": "2023-05-26T07:22:05Z",
+          "tree_id": "4fa4db8ebf7c9482e7e4543c9f16b9e7ba81b5d3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/bdf3aaba59208d4ab44a4c3fa3e35bfcec1e4b3a"
+        },
+        "date": 1685086474872,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 354322705,
+            "range": "± 7688272",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3925176828,
+            "range": "± 32061678",
             "unit": "ns/iter"
           }
         ]
