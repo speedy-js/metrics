@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685026400522,
+  "lastUpdate": 1685075338540,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24437,6 +24437,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3924547993,
             "range": "± 29919544",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "489435760@qq.com",
+            "name": "lipp",
+            "username": "lippzhang"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "10fa980fa61dd04493aee5b87cbffe630e26af71",
+          "message": "feat(ts): resolve priority to be same with webpack (#3242)",
+          "timestamp": "2023-05-26T03:47:34Z",
+          "tree_id": "59fff7103c7d5033819249bca1ccd8234c1596f6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/10fa980fa61dd04493aee5b87cbffe630e26af71"
+        },
+        "date": 1685075335978,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 381894268,
+            "range": "± 7926074",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4216479281,
+            "range": "± 27175112",
             "unit": "ns/iter"
           }
         ]
