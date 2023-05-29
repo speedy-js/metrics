@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685346106883,
+  "lastUpdate": 1685350291929,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24797,6 +24797,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3955644218,
             "range": "± 32182875",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2cd1a26d49b24514a45fc807027f30865d06faa",
+          "message": "chore: use custom script for stable publish (#3329)\n\n* chore: publish\n\n* chore: remove changeset\n\n* chore: fix follow-tags\n\n* chore: remove options",
+          "timestamp": "2023-05-29T08:20:06Z",
+          "tree_id": "750bac4a04e5b77c3db607288daff0c910f44ed1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e2cd1a26d49b24514a45fc807027f30865d06faa"
+        },
+        "date": 1685350289514,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 351843806,
+            "range": "± 9154286",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3937470484,
+            "range": "± 24386946",
             "unit": "ns/iter"
           }
         ]
