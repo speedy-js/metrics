@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685363502506,
+  "lastUpdate": 1685364680350,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24977,6 +24977,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3961960209,
             "range": "± 32386819",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6c36a7c163ca9a440400a1653bf22e51753f1170",
+          "message": "fix(webpack-test): remove deprecated array `[\"jam\", \"main\"]` from mainFields (#3334)\n\ncloses #3328",
+          "timestamp": "2023-05-29T12:13:50Z",
+          "tree_id": "770e04106a25ab4c1bf2a487b0d260b6ff822b31",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6c36a7c163ca9a440400a1653bf22e51753f1170"
+        },
+        "date": 1685364677154,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352509113,
+            "range": "± 7886936",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3950950096,
+            "range": "± 29183329",
             "unit": "ns/iter"
           }
         ]
