@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685093104999,
+  "lastUpdate": 1685327502719,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24617,6 +24617,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4141653358,
             "range": "± 30387050",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "edd800b20f5af22c567083bf8657317196ebb61c",
+          "message": "chore(webpack-test): add missing loaders (coffee and pug) (#3316)",
+          "timestamp": "2023-05-29T02:03:50Z",
+          "tree_id": "5f7a8f7d17f60058470add84ab0736e5f811cf7f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/edd800b20f5af22c567083bf8657317196ebb61c"
+        },
+        "date": 1685327500099,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 354518460,
+            "range": "± 8452062",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3935721019,
+            "range": "± 26845583",
             "unit": "ns/iter"
           }
         ]
