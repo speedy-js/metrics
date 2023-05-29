@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685327502719,
+  "lastUpdate": 1685328571756,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24653,6 +24653,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3935721019,
             "range": "± 26845583",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "053883fc90e1f3ace485b4293fbcde9443295474",
+          "message": "fix: root asset missing when using [path] in assetModuleFilename  (#3308)\n\n* fix: issue 3307\n\n* rm dbg\n\n* fix\n\n* fix",
+          "timestamp": "2023-05-29T02:19:30Z",
+          "tree_id": "7f597faedf1d097045263474a75fe4a59fdd9b21",
+          "url": "https://github.com/web-infra-dev/rspack/commit/053883fc90e1f3ace485b4293fbcde9443295474"
+        },
+        "date": 1685328569153,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 353131471,
+            "range": "± 7364671",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3934984691,
+            "range": "± 24782563",
             "unit": "ns/iter"
           }
         ]
