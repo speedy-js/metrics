@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685350291929,
+  "lastUpdate": 1685354737167,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24833,6 +24833,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3937470484,
             "range": "± 24386946",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fee78a4f29722218e0cd9cbd258f9691d3fdad23",
+          "message": "chore(rspack): skip multi compiler pressure test (#3335)\n\n(which may be the source of crashing in CI)",
+          "timestamp": "2023-05-29T09:25:25Z",
+          "tree_id": "49fda37d1cb680c9a20f799e1683d081f8515c09",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fee78a4f29722218e0cd9cbd258f9691d3fdad23"
+        },
+        "date": 1685354734642,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352165980,
+            "range": "± 7334721",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3933296992,
+            "range": "± 22435092",
             "unit": "ns/iter"
           }
         ]
