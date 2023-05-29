@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685328571756,
+  "lastUpdate": 1685334472089,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -24689,6 +24689,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3934984691,
             "range": "± 24782563",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1b0fe51bf29a3963d1d69d7be5324af25b108b5",
+          "message": "chore: change monoreo root version (#3323)\n\n* chore: change monoreo root version\n\n* Update package.json\n\n---------\n\nCo-authored-by: Yunfei He <i.heyunfei@gmail.com>",
+          "timestamp": "2023-05-29T04:00:28Z",
+          "tree_id": "ad0f8abfd7189537e2ea2d82ffcd467c43f8107d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c1b0fe51bf29a3963d1d69d7be5324af25b108b5"
+        },
+        "date": 1685334469404,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 353288631,
+            "range": "± 6367305",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3940999491,
+            "range": "± 32653454",
             "unit": "ns/iter"
           }
         ]
