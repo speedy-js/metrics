@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685364680350,
+  "lastUpdate": 1685366308206,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25013,6 +25013,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3950950096,
             "range": "± 29183329",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e02635cfd84ed8677da2d605824187e844d00b5",
+          "message": "chore: setup gitconfig in ci (#3342)",
+          "timestamp": "2023-05-29T21:07:00+08:00",
+          "tree_id": "9462c54be00e40e4ff2c8b3cee78d4228de05048",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4e02635cfd84ed8677da2d605824187e844d00b5"
+        },
+        "date": 1685366305490,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 353800004,
+            "range": "± 7089387",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3947325646,
+            "range": "± 23947519",
             "unit": "ns/iter"
           }
         ]
