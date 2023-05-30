@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685439669768,
+  "lastUpdate": 1685448578392,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25193,6 +25193,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3941376939,
             "range": "± 27943303",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54487ef15925d139e9cd867cc954079fc78dc0a9",
+          "message": "fix: migrate more string replace dependency for test (#3341)\n\nfix: migrate more dependency for test",
+          "timestamp": "2023-05-30T11:43:17Z",
+          "tree_id": "9c0e3ed0bef0457cd0c6cc92fd20e8b2eeff7b02",
+          "url": "https://github.com/web-infra-dev/rspack/commit/54487ef15925d139e9cd867cc954079fc78dc0a9"
+        },
+        "date": 1685448575366,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 363089845,
+            "range": "± 8580486",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4088467527,
+            "range": "± 29781070",
             "unit": "ns/iter"
           }
         ]
