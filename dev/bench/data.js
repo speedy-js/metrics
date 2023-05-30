@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685450096085,
+  "lastUpdate": 1685451060054,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25265,6 +25265,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4095352800,
             "range": "± 27206734",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97a38f6e6fcda1954d5212d5bb2480ce6233125d",
+          "message": "chore(window): support window test (#3321)\n\n* ci\n\n* window copy plugin\n\n* only window\n\n* only window\n\n* only window\n\n* fix\n\n* fix\n\n* fix\n\n* fix\n\n* fix\n\n* fix\n\n* fix\n\n* fix lf\n\n* test script\n\n* fix: test\n\n* eol\n\n* ts\n\n* fix: copyPlugin\n\n* txt\n\n* fix: some bug\n\n* stats case\n\n* fix: window\n\n* Empty commit\n\n* Empty commit\n\n* snapshot\n\n* snapshot\n\n* ci\n\n* ci\n\n* clear code\n\n* clear code\n\n* clear code\n\n* clear code\n\n* done\n\n* done\n\n* reset\n\n* support window test\n\n* reset\n\n* fix: bug\n\n* fix: window webpack test",
+          "timestamp": "2023-05-30T12:22:58Z",
+          "tree_id": "6c89ad877781215204763230f607170096fa7db2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/97a38f6e6fcda1954d5212d5bb2480ce6233125d"
+        },
+        "date": 1685451057452,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 351583024,
+            "range": "± 7298953",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3954204038,
+            "range": "± 24191647",
             "unit": "ns/iter"
           }
         ]
