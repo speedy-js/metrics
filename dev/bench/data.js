@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685371750911,
+  "lastUpdate": 1685428375933,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25121,6 +25121,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4216919913,
             "range": "± 28445005",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce220cf6011573fc092c2f0aaf89689e965251df",
+          "message": "fix: builtins.provide function params transform bug (#3347)",
+          "timestamp": "2023-05-30T06:05:18Z",
+          "tree_id": "4c90c9d463b95fa1174f34101982adfe24aad5dd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ce220cf6011573fc092c2f0aaf89689e965251df"
+        },
+        "date": 1685428373074,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 356573446,
+            "range": "± 9254549",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4007952422,
+            "range": "± 32809642",
             "unit": "ns/iter"
           }
         ]
