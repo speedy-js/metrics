@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685428375933,
+  "lastUpdate": 1685439669768,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25157,6 +25157,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4007952422,
             "range": "± 32809642",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "edusperoni@users.noreply.github.com",
+            "name": "Eduardo Speroni",
+            "username": "edusperoni"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53f1404c8e422c8c5a82990a95997117ce9d2521",
+          "message": "feat: add cache idle hooks (#3236)",
+          "timestamp": "2023-05-30T09:14:04Z",
+          "tree_id": "05e56fecd962ebd5dc5cfb27890d03547319ede0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/53f1404c8e422c8c5a82990a95997117ce9d2521"
+        },
+        "date": 1685439666471,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 351656144,
+            "range": "± 7700797",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3941376939,
+            "range": "± 27943303",
             "unit": "ns/iter"
           }
         ]
