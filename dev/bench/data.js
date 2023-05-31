@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685520105208,
+  "lastUpdate": 1685521754376,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25337,6 +25337,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3928719209,
             "range": "± 27538123",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b33e8133fc9641dad16c61ebf85ac61eba0c613",
+          "message": "chore: stale bot should make a comment, also change day until stale to 60 days (#3355)",
+          "timestamp": "2023-05-31T16:17:40+08:00",
+          "tree_id": "d4a37645cd55484b673b3e0b3ff2fe06307b35a7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0b33e8133fc9641dad16c61ebf85ac61eba0c613"
+        },
+        "date": 1685521751307,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352999339,
+            "range": "± 9664524",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3939687163,
+            "range": "± 28496805",
             "unit": "ns/iter"
           }
         ]
