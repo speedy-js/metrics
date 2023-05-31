@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685451060054,
+  "lastUpdate": 1685520105208,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25301,6 +25301,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3954204038,
             "range": "± 24191647",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2bf3f1517c039b4fc5d253c95737cb2dbdce8b18",
+          "message": "fix(dev-server): make sure resolve webpack/hot/dev-server from webpac… (#3357)\n\nfix(dev-server): make sure resolve webpack/hot/dev-server from webpack-dev-server",
+          "timestamp": "2023-05-31T07:32:23Z",
+          "tree_id": "8c60173858d170ce6e39ac8a7d9f90868b612846",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2bf3f1517c039b4fc5d253c95737cb2dbdce8b18"
+        },
+        "date": 1685520102422,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 350776774,
+            "range": "± 7052602",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3928719209,
+            "range": "± 27538123",
             "unit": "ns/iter"
           }
         ]
