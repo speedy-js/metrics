@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685521754376,
+  "lastUpdate": 1685524014432,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25373,6 +25373,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3939687163,
             "range": "± 28496805",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "dec5352b568d93be3c249e77858a7014d735bc59",
+          "message": "chore: webpack test compatibility metric (#3343)\n\n* chore: 🤖 init\n\n* chore: 🤖 init\n\n* chore: 🤖 update generate\n\n* chore: 🤖 update script\n\n* chore: 🤖 update diff action\n\n* chore: 🤖 update github token\n\n* chore: 🤖 fix invalid syntax\n\n* chore: 🤖 add shell\n\n* chore: 🤖 update dep\n\n* chore: 🤖 change root dir\n\n* chore: 🤖 update test:metrix\n\n* chore: 🤖 resolve conflict\n\n* chore: 🤖 update metric algo\n\n* chore: 🤖 update metric",
+          "timestamp": "2023-05-31T08:39:09Z",
+          "tree_id": "cc68627b8959f99934cf5a574e12413f2f4edac7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/dec5352b568d93be3c249e77858a7014d735bc59"
+        },
+        "date": 1685524011943,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 351913862,
+            "range": "± 7567469",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3941389218,
+            "range": "± 31654344",
             "unit": "ns/iter"
           }
         ]
