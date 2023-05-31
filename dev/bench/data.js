@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685524014432,
+  "lastUpdate": 1685524720526,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25409,6 +25409,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3941389218,
             "range": "± 31654344",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ebf614bcaff4cd12ebdd59d1ffaca31ea27df49",
+          "message": "fix: before resolve can't modify data (#3352)\n\n* chore: 🤖 fix compile\n\n* chore: 🤖 before resolve\n\n* chore: 🤖 fix compile error\n\n* chore: 🤖 recover\n\n* chore: 🤖 fix it\n\n* chore: 🤖 lint\n\n* chore: 🤖 add test case",
+          "timestamp": "2023-05-31T08:40:40Z",
+          "tree_id": "9f4153ea15ad99e856f6d89868165731c5836190",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8ebf614bcaff4cd12ebdd59d1ffaca31ea27df49"
+        },
+        "date": 1685524717599,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 350705564,
+            "range": "± 9464754",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3923080989,
+            "range": "± 23043774",
             "unit": "ns/iter"
           }
         ]
