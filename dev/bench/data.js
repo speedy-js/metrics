@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685528996662,
+  "lastUpdate": 1685532072932,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25517,6 +25517,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4115720670,
             "range": "± 25053731",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "cb62025638bcbb3d01b7e19f083cc97277cdcb80",
+          "message": "fix: align rspack-dev-middleware and rspack-plugin-html export with webpack (#3358)",
+          "timestamp": "2023-05-31T10:53:48Z",
+          "tree_id": "4ccc3fa1d117a2cdf63370517a7aa99789792a87",
+          "url": "https://github.com/web-infra-dev/rspack/commit/cb62025638bcbb3d01b7e19f083cc97277cdcb80"
+        },
+        "date": 1685532070278,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 355033969,
+            "range": "± 6742152",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4006844148,
+            "range": "± 27618302",
             "unit": "ns/iter"
           }
         ]
