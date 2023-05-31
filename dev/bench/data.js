@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685532072932,
+  "lastUpdate": 1685541382248,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25553,6 +25553,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4006844148,
             "range": "± 27618302",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "06f5d61e12e14d2c3caad5a2e2f8da9bc0bbea38",
+          "message": "ci: reduce CI time by installing the least number of Rust components (#3364)\n\nci: reducing CI time by installing the least number of Rust component\n\nIt takes about two minutes to instal rust-doc on Windows.",
+          "timestamp": "2023-05-31T13:24:51Z",
+          "tree_id": "bfecb6508c4c3c8d4b6ac37340b469429b4039fe",
+          "url": "https://github.com/web-infra-dev/rspack/commit/06f5d61e12e14d2c3caad5a2e2f8da9bc0bbea38"
+        },
+        "date": 1685541379786,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 375831965,
+            "range": "± 7655564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4150025198,
+            "range": "± 31212203",
             "unit": "ns/iter"
           }
         ]
