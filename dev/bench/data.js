@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685554613859,
+  "lastUpdate": 1685589764537,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25661,6 +25661,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3936263078,
             "range": "± 25189740",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "691a822c2f7f91e4287b700c29275d26375932dc",
+          "message": "fix: fix wrong context in external function (#3372)\n\nchore: fix rust check",
+          "timestamp": "2023-06-01T02:54:56Z",
+          "tree_id": "2a6d658ed259bd83ce5203c8331178defde4cedd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/691a822c2f7f91e4287b700c29275d26375932dc"
+        },
+        "date": 1685589761742,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352332904,
+            "range": "± 6978772",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3954594491,
+            "range": "± 30445825",
             "unit": "ns/iter"
           }
         ]
