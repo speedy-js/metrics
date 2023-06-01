@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685614245773,
+  "lastUpdate": 1685616387564,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25769,6 +25769,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4199948286,
             "range": "± 28746537",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a17d47037d86ba5fe0741e2ae36e58d046a39e70",
+          "message": "fix: update lock for ecosystem-ci (#3385)\n\nfix: lock",
+          "timestamp": "2023-06-01T09:53:21Z",
+          "tree_id": "1d6414641661488ccd90dbb27466d3e7f012ed22",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a17d47037d86ba5fe0741e2ae36e58d046a39e70"
+        },
+        "date": 1685616384970,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 369078496,
+            "range": "± 7464198",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4108504455,
+            "range": "± 23879902",
             "unit": "ns/iter"
           }
         ]
