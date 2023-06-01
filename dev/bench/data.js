@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685627183060,
+  "lastUpdate": 1685632799632,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25841,6 +25841,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3944318814,
             "range": "± 26611939",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "2ebf8f1efe156caf3296e770465fe266d67fabc3",
+          "message": "fix: metric recover (#3388)\n\n* chore: 🤖 init\n\n* chore: 🤖 print log\n\n* chore: 🤖 remove out.md when no diff\n\n* chore: 🤖 test diff\n\n* chore: 🤖 recover",
+          "timestamp": "2023-06-01T14:50:27Z",
+          "tree_id": "511321eae6bbaa8193e86e12d8f5e4c969b9b185",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2ebf8f1efe156caf3296e770465fe266d67fabc3"
+        },
+        "date": 1685632797002,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352979247,
+            "range": "± 7349727",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3948108095,
+            "range": "± 27313428",
             "unit": "ns/iter"
           }
         ]
