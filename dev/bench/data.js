@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685683452865,
+  "lastUpdate": 1685684694364,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25949,6 +25949,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3936778730,
             "range": "± 29618922",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2476581f88a3fe05223dc0c0165f54362bde5c3",
+          "message": "chore: update vue example (#3386)\n\n* chore: add vue example for inline matchResource\n\n* chore: update for HMR\n\n* chore: update wording\n\n* chore: update deps\n\n* chore: temporarily disable\n\n* chore: remove",
+          "timestamp": "2023-06-02T05:08:35Z",
+          "tree_id": "ef82844b63dec3fb8709892e4f772b2f5beb08eb",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f2476581f88a3fe05223dc0c0165f54362bde5c3"
+        },
+        "date": 1685684691874,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352884223,
+            "range": "± 7139714",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3939331501,
+            "range": "± 24571944",
             "unit": "ns/iter"
           }
         ]
