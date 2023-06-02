@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685713470948,
+  "lastUpdate": 1685723893639,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26381,6 +26381,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4282485792,
             "range": "± 49320619",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lzc295592@163.com",
+            "name": "faga",
+            "username": "faga295"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ddfdcfbe587273db8e4b41bffb7827b770b0de04",
+          "message": "feat: create-rspack add template-vue (#2153)\n\n* feat: create-rspack add template-vue\n\n* chore: changeset\n\n* chore: update template\n\n* chore: update changeset\n\n* chore: update vue template",
+          "timestamp": "2023-06-02T16:08:50Z",
+          "tree_id": "d813fe93282c14cff548224bb4a8e48247fca46b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ddfdcfbe587273db8e4b41bffb7827b770b0de04"
+        },
+        "date": 1685723890470,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 436662473,
+            "range": "± 4789969",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4384924679,
+            "range": "± 46916504",
             "unit": "ns/iter"
           }
         ]
