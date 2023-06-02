@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685684694364,
+  "lastUpdate": 1685688383454,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -25985,6 +25985,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3939331501,
             "range": "± 24571944",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdb4b6f22cd78fe1e276d3857c21108a1eb4e5fa",
+          "message": "chore: delete npm folder (#3394)",
+          "timestamp": "2023-06-02T14:34:04+08:00",
+          "tree_id": "f2dc6d783b4efb4b86b075782a37732e4d7a22f2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fdb4b6f22cd78fe1e276d3857c21108a1eb4e5fa"
+        },
+        "date": 1685688380908,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 352007042,
+            "range": "± 6570625",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 3938763725,
+            "range": "± 25603980",
             "unit": "ns/iter"
           }
         ]
