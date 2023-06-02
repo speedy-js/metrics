@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685695969954,
+  "lastUpdate": 1685696719090,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26201,6 +26201,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4281089169,
             "range": "± 39434549",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "91ce72e862374eb6a553cee539360f26c2f8cdae",
+          "message": "feat: resource within scheme (#3367)\n\nfeat: resolve in scheme\n\nfix test\n\nlint\n\nfix example\n\nfix context module identifier\n\ntest\n\nfix test\n\nrename\n\nfix test\n\nadd test\n\nrm log\n\ntypo\n\nrebase",
+          "timestamp": "2023-06-02T08:28:30Z",
+          "tree_id": "beb228216f3b32a6dfc9cd49b531dd9e0df92d82",
+          "url": "https://github.com/web-infra-dev/rspack/commit/91ce72e862374eb6a553cee539360f26c2f8cdae"
+        },
+        "date": 1685696716415,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 445805407,
+            "range": "± 5320022",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4505967085,
+            "range": "± 36794181",
             "unit": "ns/iter"
           }
         ]
