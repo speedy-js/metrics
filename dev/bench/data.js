@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685689656803,
+  "lastUpdate": 1685690559865,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26057,6 +26057,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4296960505,
             "range": "± 45939312",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f20a34d3c9892ef1e2070f208c932dfd7c3bdfe2",
+          "message": "chore: add back vue build (#3393)\n\nchore: add back vue compilation",
+          "timestamp": "2023-06-02T06:47:16Z",
+          "tree_id": "10970f972506413280711fb2981c8784fa4ab276",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f20a34d3c9892ef1e2070f208c932dfd7c3bdfe2"
+        },
+        "date": 1685690557218,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 425065819,
+            "range": "± 5486831",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4302785615,
+            "range": "± 48666158",
             "unit": "ns/iter"
           }
         ]
