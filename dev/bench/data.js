@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685691305546,
+  "lastUpdate": 1685693785143,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26129,6 +26129,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4469672374,
             "range": "± 51727734",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e75684efe5fe52bc6feca9260b151d9fd0a485b1",
+          "message": "chore: add back npm packages for local publishing (#3396)",
+          "timestamp": "2023-06-02T07:46:14Z",
+          "tree_id": "ad93ec8107b8db0368432cacbbea10840e71fefd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e75684efe5fe52bc6feca9260b151d9fd0a485b1"
+        },
+        "date": 1685693779200,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 424899775,
+            "range": "± 4978642",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4304806104,
+            "range": "± 45471586",
             "unit": "ns/iter"
           }
         ]
