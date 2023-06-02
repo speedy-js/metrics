@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685711922567,
+  "lastUpdate": 1685713470948,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26345,6 +26345,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4305876535,
             "range": "± 48445765",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33101123+dmitry-stepanenko@users.noreply.github.com",
+            "name": "Dmitriy Stepanenko",
+            "username": "dmitry-stepanenko"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "231404e1bfc04cd5585a2dce3314051576171ec5",
+          "message": "feat: add finishMake hook (#3390)",
+          "timestamp": "2023-06-02T12:55:24Z",
+          "tree_id": "544d65aaf27913c9dff03f1af7bc170a1b001422",
+          "url": "https://github.com/web-infra-dev/rspack/commit/231404e1bfc04cd5585a2dce3314051576171ec5"
+        },
+        "date": 1685713468361,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 427272237,
+            "range": "± 4035843",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4282485792,
+            "range": "± 49320619",
             "unit": "ns/iter"
           }
         ]
