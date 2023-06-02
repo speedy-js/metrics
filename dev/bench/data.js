@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685693785143,
+  "lastUpdate": 1685695969954,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26165,6 +26165,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4304806104,
             "range": "± 45471586",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8203cbf321668c729ddb4a259817299917dfe428",
+          "message": "feat: make options having a single source of truth (#3378)\n\n* feat: use zod for better options validating\n\n* Fix all tests\n\n* Comment\n\n* Fix test",
+          "timestamp": "2023-06-02T08:24:16Z",
+          "tree_id": "f4f0fd60ba39b21f466f462189b797d48d137cbf",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8203cbf321668c729ddb4a259817299917dfe428"
+        },
+        "date": 1685695967418,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 425282603,
+            "range": "± 4456023",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4281089169,
+            "range": "± 39434549",
             "unit": "ns/iter"
           }
         ]
