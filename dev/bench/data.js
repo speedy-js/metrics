@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685698897728,
+  "lastUpdate": 1685700179105,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26273,6 +26273,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4463557435,
             "range": "± 49438616",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad3ff3868d52dacb8eb4fd794554001dcf4815d5",
+          "message": "chore: add vue2-ts example (#3398)",
+          "timestamp": "2023-06-02T09:15:00Z",
+          "tree_id": "ba2921774322e20c982041f28021023063a20c91",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ad3ff3868d52dacb8eb4fd794554001dcf4815d5"
+        },
+        "date": 1685700176330,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 428034188,
+            "range": "± 4687474",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4309631345,
+            "range": "± 45153706",
             "unit": "ns/iter"
           }
         ]
