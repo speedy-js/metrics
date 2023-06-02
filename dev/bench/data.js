@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685688383454,
+  "lastUpdate": 1685689656803,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26021,6 +26021,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 3938763725,
             "range": "± 25603980",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5212488cc51cefe47efa6c290a64f79727d63c41",
+          "message": "fix(rust): use jemallocator for linux gnu, mimalloc for everything else (#3350)\n\nfix(rust): use jemallocator for linux gnu, mimalloc for everything\n\nThis is aligned with swc, see https://github.com/swc-project/swc/blob/ad8e6a006c35977d70b719e67b5a45244c017ca1/crates/swc_node_base/Cargo.toml#LL16C1-L20C81",
+          "timestamp": "2023-06-02T06:34:27Z",
+          "tree_id": "0500c038d226651c5fca5455a214f0e221bcad08",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5212488cc51cefe47efa6c290a64f79727d63c41"
+        },
+        "date": 1685689650886,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 426857169,
+            "range": "± 13327583",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4296960505,
+            "range": "± 45939312",
             "unit": "ns/iter"
           }
         ]
