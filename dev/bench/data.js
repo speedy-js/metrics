@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685763517714,
+  "lastUpdate": 1685767362599,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26453,6 +26453,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4308132338,
             "range": "± 46936312",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43042815+annanShao@users.noreply.github.com",
+            "name": "San_Thro",
+            "username": "annanShao"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40fef768bfe8d9c495f6a6ea5c7a13c073517ecd",
+          "message": "feat: Add 'succeedModule' and 'stillValidModule' hooks (#3318)\n\nfeat: add 'succeedModule' and 'stillValidModule' hooks",
+          "timestamp": "2023-06-03T04:14:26Z",
+          "tree_id": "83395e3afdab26e7e6c9820eb44175004ca3ed59",
+          "url": "https://github.com/web-infra-dev/rspack/commit/40fef768bfe8d9c495f6a6ea5c7a13c073517ecd"
+        },
+        "date": 1685767359813,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 426372313,
+            "range": "± 4626303",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4282017419,
+            "range": "± 50006252",
             "unit": "ns/iter"
           }
         ]
