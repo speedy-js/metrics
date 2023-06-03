@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685723893639,
+  "lastUpdate": 1685763517714,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26417,6 +26417,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4384924679,
             "range": "± 46916504",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0066c9a1cf7aa25fea1a3de5b07400853cebdb5",
+          "message": "fix: fix aarch64-unknown-linux-gnu not building jemallocator (#3405)",
+          "timestamp": "2023-06-03T11:26:22+08:00",
+          "tree_id": "4b5cbc8d4b7cd95e4a88e89a451cf23cf168571d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a0066c9a1cf7aa25fea1a3de5b07400853cebdb5"
+        },
+        "date": 1685763515020,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 425511016,
+            "range": "± 4414659",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4308132338,
+            "range": "± 46936312",
             "unit": "ns/iter"
           }
         ]
