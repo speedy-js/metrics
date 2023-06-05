@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685946973694,
+  "lastUpdate": 1685952745947,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26633,6 +26633,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4307037174,
             "range": "± 39555830",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5a0115ccaacf38b3f3c4a74b9ecb4f04c1fec3ae",
+          "message": "fix: support config version when emitAsset (#3415)",
+          "timestamp": "2023-06-05T07:44:04Z",
+          "tree_id": "1af8b289a292de55e2664203cba0e30c37173c60",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5a0115ccaacf38b3f3c4a74b9ecb4f04c1fec3ae"
+        },
+        "date": 1685952742606,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 427602436,
+            "range": "± 4531685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4314186405,
+            "range": "± 52619544",
             "unit": "ns/iter"
           }
         ]
