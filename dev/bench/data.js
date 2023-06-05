@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685939136379,
+  "lastUpdate": 1685941502916,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26561,6 +26561,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4325380344,
             "range": "± 49273520",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8af1940ebb3e05f3f71025bfdb5e550bc67247f",
+          "message": "fix: shouldn't diff hot update chunk at hmr (#3411)\n\nfix: shouldn't dif  hot update chunk at hmr",
+          "timestamp": "2023-06-05T04:36:08Z",
+          "tree_id": "8d2bcee4308316eaf884a0ad342fe3658d2aa5ba",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b8af1940ebb3e05f3f71025bfdb5e550bc67247f"
+        },
+        "date": 1685941500259,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 446277127,
+            "range": "± 4519528",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4508521406,
+            "range": "± 40800290",
             "unit": "ns/iter"
           }
         ]
