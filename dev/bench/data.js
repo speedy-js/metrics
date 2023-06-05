@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685941502916,
+  "lastUpdate": 1685946973694,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26597,6 +26597,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4508521406,
             "range": "± 40800290",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2941eb608b6adad1b96b9f7e631ec3fd269b9eee",
+          "message": "feat(config): friendly config error message (#3413)\n\n* feat(config): friendly config error message\n\n* Remove unused code",
+          "timestamp": "2023-06-05T06:07:47Z",
+          "tree_id": "cbf83f874bb1ff06e19585e78d39db068b83615e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2941eb608b6adad1b96b9f7e631ec3fd269b9eee"
+        },
+        "date": 1685946960764,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 426004748,
+            "range": "± 5687974",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4307037174,
+            "range": "± 39555830",
             "unit": "ns/iter"
           }
         ]
