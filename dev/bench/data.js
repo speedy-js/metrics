@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685937274025,
+  "lastUpdate": 1685939136379,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26525,6 +26525,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4317752881,
             "range": "± 52836356",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b361e644dc94a7ceab84358e481c4694a07542b",
+          "message": "chore(packages): upload less files to npm (#3362)\n\n* chore(packages): upload less files to npm\n\n* Update packages/rspack-dev-middleware/package.json\n\nCo-authored-by: hardfist <yangjianzju@gmail.com>\n\n---------\n\nCo-authored-by: hardfist <yangjianzju@gmail.com>",
+          "timestamp": "2023-06-05T03:54:57Z",
+          "tree_id": "935ab7ddaf347a96dcf549286f4361015a8d4b74",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3b361e644dc94a7ceab84358e481c4694a07542b"
+        },
+        "date": 1685939133713,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 428014969,
+            "range": "± 4369842",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4325380344,
+            "range": "± 49273520",
             "unit": "ns/iter"
           }
         ]
