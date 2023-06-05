@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685767362599,
+  "lastUpdate": 1685937274025,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26489,6 +26489,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4282017419,
             "range": "± 50006252",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c7d1e727e26bffbc7c465c846134dc6b652b09db",
+          "message": "fix: remove css updatedModulesList at hmr (#3399)",
+          "timestamp": "2023-06-05T03:25:24Z",
+          "tree_id": "ea5880888eac4ac8879b1442073ccdd6e09d735b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c7d1e727e26bffbc7c465c846134dc6b652b09db"
+        },
+        "date": 1685937271239,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 426613127,
+            "range": "± 16778324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4317752881,
+            "range": "± 52836356",
             "unit": "ns/iter"
           }
         ]
