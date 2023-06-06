@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686035309817,
+  "lastUpdate": 1686042040501,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26921,6 +26921,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4312141978,
             "range": "± 47414408",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74138cb010203993c45a36d148596a5ad8c98a69",
+          "message": "fix(types): type error for `runtimeChunk` (#3442)",
+          "timestamp": "2023-06-06T16:48:06+08:00",
+          "tree_id": "c3a98eb984846d009eb259d60fe50fb3d6402e49",
+          "url": "https://github.com/web-infra-dev/rspack/commit/74138cb010203993c45a36d148596a5ad8c98a69"
+        },
+        "date": 1686042036562,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 437065010,
+            "range": "± 5152118",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4416200825,
+            "range": "± 44623367",
             "unit": "ns/iter"
           }
         ]
