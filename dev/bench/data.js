@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686042799747,
+  "lastUpdate": 1686054288015,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26993,6 +26993,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4474813076,
             "range": "± 42850293",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "13013b14064c4831ed7c10556c25e77bbeeabe0c",
+          "message": "test: webpack cache deps test to file deps test (#3445)",
+          "timestamp": "2023-06-06T11:54:50Z",
+          "tree_id": "6232bb2331828e2e792ec48d3cf33b81c54137d9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/13013b14064c4831ed7c10556c25e77bbeeabe0c"
+        },
+        "date": 1686054285331,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 428353354,
+            "range": "± 4404775",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4335383731,
+            "range": "± 47415858",
             "unit": "ns/iter"
           }
         ]
