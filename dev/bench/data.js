@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686024107142,
+  "lastUpdate": 1686035309817,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -26885,6 +26885,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4456399288,
             "range": "± 55954120",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ea1fe0f80e83c8cd5490b7d5c3504ed06aeb990",
+          "message": "chore(webpack-test): --forceExit for open handles (#3432)\n\nThe test currently has 3 known open handles, force exit for now.",
+          "timestamp": "2023-06-06T06:40:36Z",
+          "tree_id": "e14e494a727e1702b6b10d2265c8b7fef31ba50e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3ea1fe0f80e83c8cd5490b7d5c3504ed06aeb990"
+        },
+        "date": 1686035307323,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 428878254,
+            "range": "± 4841118",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4312141978,
+            "range": "± 47414408",
             "unit": "ns/iter"
           }
         ]
