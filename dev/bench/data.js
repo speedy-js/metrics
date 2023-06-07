@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686136304903,
+  "lastUpdate": 1686139325439,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27209,6 +27209,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4309932027,
             "range": "± 42583967",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3d9b6ff773034227c9b0b6ffde0bbd4688931105",
+          "message": "feat: make plugin driver immutable (#3464)\n\n* feat: make plugin driver immutable\n\n* chore: clippy",
+          "timestamp": "2023-06-07T11:34:06Z",
+          "tree_id": "1871d45d511a9faba1e70d5bc767ae0d1fd85065",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3d9b6ff773034227c9b0b6ffde0bbd4688931105"
+        },
+        "date": 1686139322663,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 378213169,
+            "range": "± 4546172",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4256095965,
+            "range": "± 46548878",
             "unit": "ns/iter"
           }
         ]
