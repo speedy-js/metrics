@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686130280005,
+  "lastUpdate": 1686136304903,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27173,6 +27173,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4308408788,
             "range": "± 46814679",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fd46171460e4ae186d1fc80e63e6441a49ab83b",
+          "message": "feat: zod schema for `buliltins.postcss` and deprecate `buliltins.postcss` (#3458)\n\nchore: partial zod schema for builtins and deprecate `buliltins.postcss`",
+          "timestamp": "2023-06-07T10:43:56Z",
+          "tree_id": "889df00092e80e367002de009edb88b082a1900f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8fd46171460e4ae186d1fc80e63e6441a49ab83b"
+        },
+        "date": 1686136299219,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 425879947,
+            "range": "± 4625540",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4309932027,
+            "range": "± 42583967",
             "unit": "ns/iter"
           }
         ]
