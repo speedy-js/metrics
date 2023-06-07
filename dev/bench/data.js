@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686123178073,
+  "lastUpdate": 1686130280005,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27137,6 +27137,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4473429433,
             "range": "± 41128023",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "28cb7689aebb4035c5a38c80ca99e5964a25a040",
+          "message": "feat: use immutable reference for process asset hook (#3455)",
+          "timestamp": "2023-06-07T08:50:29Z",
+          "tree_id": "5368d613a2cfe6da362c05df42af840d9cd37102",
+          "url": "https://github.com/web-infra-dev/rspack/commit/28cb7689aebb4035c5a38c80ca99e5964a25a040"
+        },
+        "date": 1686130277482,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 426559621,
+            "range": "± 4816072",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4308408788,
+            "range": "± 46814679",
             "unit": "ns/iter"
           }
         ]
