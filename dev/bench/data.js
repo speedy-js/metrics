@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686055479939,
+  "lastUpdate": 1686118410262,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27065,6 +27065,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4321934181,
             "range": "± 42239933",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "5dc3bec32d928abb03c1a81dd3ddd82b2ad8b0f5",
+          "message": "Reelase Packages:0.2.1",
+          "timestamp": "2023-06-07T14:01:05+08:00",
+          "tree_id": "5434eba1eb9b75abfe3bd2816ffc1023ff8d4fde",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5dc3bec32d928abb03c1a81dd3ddd82b2ad8b0f5"
+        },
+        "date": 1686118407496,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 430807039,
+            "range": "± 4606075",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4337201901,
+            "range": "± 46273933",
             "unit": "ns/iter"
           }
         ]
