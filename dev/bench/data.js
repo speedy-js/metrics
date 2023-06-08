@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686219445728,
+  "lastUpdate": 1686222400094,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27461,6 +27461,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4422941567,
             "range": "± 58573814",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88fe7a5f987c0984d479f2c3356e4f8fdf8582fc",
+          "message": "fix(splitChunk): custom cacheGroup default priority consistent with webpack (#3482)\n\nfix: cacheGroup default priority should be 0",
+          "timestamp": "2023-06-08T10:37:22Z",
+          "tree_id": "0a8ab771c3e16dab163b2c724e5f7ad9808f6a59",
+          "url": "https://github.com/web-infra-dev/rspack/commit/88fe7a5f987c0984d479f2c3356e4f8fdf8582fc"
+        },
+        "date": 1686222397395,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 380656931,
+            "range": "± 4456131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4249984950,
+            "range": "± 49302890",
             "unit": "ns/iter"
           }
         ]
