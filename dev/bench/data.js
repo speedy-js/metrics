@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686231173678,
+  "lastUpdate": 1686237381975,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27605,6 +27605,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4274575969,
             "range": "± 45781196",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109421039+cheerioInf@users.noreply.github.com",
+            "name": "CheerioInf",
+            "username": "cheerioInf"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "08dce9e11df6004349289c6571ca39f249207913",
+          "message": "feat(config): zod schema for resolve (#3487)\n\n* feat(config): zod schema for resolve\n\n* fix: remove return type and strict() call\n\n* Deal with recursive type\n\n---------\n\nCo-authored-by: YunfeiHe <i.heyunfei@gmail.com>",
+          "timestamp": "2023-06-08T14:48:23Z",
+          "tree_id": "0bfb9e471e609e3c743bf4eaf1aef1118fe8f10e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/08dce9e11df6004349289c6571ca39f249207913"
+        },
+        "date": 1686237379461,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382659483,
+            "range": "± 5420417",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4287687649,
+            "range": "± 42825786",
             "unit": "ns/iter"
           }
         ]
