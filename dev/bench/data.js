@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686222400094,
+  "lastUpdate": 1686224343419,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27497,6 +27497,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4249984950,
             "range": "± 49302890",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "46c6d7074819e3161db738f2ae7f118d4592c8d6",
+          "message": "fix: dynamic import may generate invalid module ids (#3475)\n\n* fix: dynamic import may generate invalid module ids\n\n* chore: update test case\n\n* chore: fix snapshot\n\n* fix: should wrap by serde_json::to_string(module_id)\n\n* chore: fix quote",
+          "timestamp": "2023-06-08T11:04:37Z",
+          "tree_id": "0bce62b5d6c79ed89ab120e03142d9ce9099917b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/46c6d7074819e3161db738f2ae7f118d4592c8d6"
+        },
+        "date": 1686224340525,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382313932,
+            "range": "± 4971761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4273625862,
+            "range": "± 47094223",
             "unit": "ns/iter"
           }
         ]
