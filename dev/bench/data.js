@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686216794316,
+  "lastUpdate": 1686218268876,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27389,6 +27389,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4417581880,
             "range": "± 50752829",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1d2d57f553c50f7d7d0d138d1b8243f13e622718",
+          "message": "feat: support for partially enabled incremental rebuilds (#3472)\n\n* feat: support for partially enabled incremental rebuilds\n\n* fix config\n\n* fix: ci\n\n---------\n\nCo-authored-by: ahabhgk <ahabhgk@gmail.com>",
+          "timestamp": "2023-06-08T09:26:18Z",
+          "tree_id": "794f8b618a4c7a7ece3ed182cbf870a12ef8f545",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1d2d57f553c50f7d7d0d138d1b8243f13e622718"
+        },
+        "date": 1686218266176,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 378747163,
+            "range": "± 4808655",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4280405943,
+            "range": "± 39789884",
             "unit": "ns/iter"
           }
         ]
