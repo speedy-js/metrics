@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686139325439,
+  "lastUpdate": 1686196554244,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27245,6 +27245,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4256095965,
             "range": "± 46548878",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "42dd56d942986e9951e69e67db87c3f3c71add45",
+          "message": "feat: support asset generator data url and publicPath (#3422)\n\n* wip\n\n* rm log\n\n* wip\n\n* make type correct\n\n* typo\n\n* feat: support it\n\n* typo\n\n* t\n\n* upadte snap",
+          "timestamp": "2023-06-08T03:25:08Z",
+          "tree_id": "7df45cea47698fb10879ff990b4f2386208fbfdd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/42dd56d942986e9951e69e67db87c3f3c71add45"
+        },
+        "date": 1686196551517,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 381087976,
+            "range": "± 5272822",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4278412198,
+            "range": "± 55307624",
             "unit": "ns/iter"
           }
         ]
