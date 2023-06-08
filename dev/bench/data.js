@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686200232986,
+  "lastUpdate": 1686215577405,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27317,6 +27317,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4300923025,
             "range": "± 55618126",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "48805df35c23ef7ffa3a37a23aafb1f673abd3b1",
+          "message": "feat(devServer): support override writeToDisk configuration (#3476)\n\n* feat: support override writeToDisk configuration\n\n* fix: use wdm default",
+          "timestamp": "2023-06-08T08:42:31Z",
+          "tree_id": "2f0f39c4b4ca094c4bdb95a41a6d2a3aa22a4f5a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/48805df35c23ef7ffa3a37a23aafb1f673abd3b1"
+        },
+        "date": 1686215574857,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 409791693,
+            "range": "± 4438242",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4499657345,
+            "range": "± 53040718",
             "unit": "ns/iter"
           }
         ]
