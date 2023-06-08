@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686196554244,
+  "lastUpdate": 1686200232986,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27281,6 +27281,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4278412198,
             "range": "± 55307624",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "099a19f429c818d12c27bc41690ddbdbafc5eb05",
+          "message": "fix: partially fix polyfill (#3469)\n\n* fix: partially fix polyfill\n\n* chore: update snapshot",
+          "timestamp": "2023-06-08T04:30:24Z",
+          "tree_id": "d15064f12d6698b49d3ee586d32b350648ed9ee2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/099a19f429c818d12c27bc41690ddbdbafc5eb05"
+        },
+        "date": 1686200230330,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 383119304,
+            "range": "± 5016942",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4300923025,
+            "range": "± 55618126",
             "unit": "ns/iter"
           }
         ]
