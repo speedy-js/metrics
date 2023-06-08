@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686224343419,
+  "lastUpdate": 1686229111461,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27533,6 +27533,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4273625862,
             "range": "± 47094223",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e6ad635e2d179a5882cf57b87239a95e1165b1a7",
+          "message": "chore: trigger nightly ecosystem-ci after nightly release (#3480)\n\n* wip\n\n* ok\n\n* fix",
+          "timestamp": "2023-06-08T12:31:24Z",
+          "tree_id": "f6955b3aee00b23e019171fe30d65a53b91d5130",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e6ad635e2d179a5882cf57b87239a95e1165b1a7"
+        },
+        "date": 1686229108819,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 398118921,
+            "range": "± 4693624",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4425131432,
+            "range": "± 52648769",
             "unit": "ns/iter"
           }
         ]
