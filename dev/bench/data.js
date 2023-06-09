@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686303659635,
+  "lastUpdate": 1686304373587,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27749,6 +27749,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4394589102,
             "range": "± 50061651",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2946806e0ce7484a711920c4dee93eeb18a5583",
+          "message": "fix: Base64Error caused by unclean base64 (#3494)\n\n* add test\n\n* fmt",
+          "timestamp": "2023-06-09T09:23:34Z",
+          "tree_id": "1aef958d34f74b7a4ff910c8263901c18f203e6f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d2946806e0ce7484a711920c4dee93eeb18a5583"
+        },
+        "date": 1686304370938,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382015095,
+            "range": "± 5323253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4261960690,
+            "range": "± 52999010",
             "unit": "ns/iter"
           }
         ]
