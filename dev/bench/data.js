@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686301713829,
+  "lastUpdate": 1686303659635,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27713,6 +27713,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4377453667,
             "range": "± 54809538",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f0710b948febcda1661e431af8cfc877d8ec25a8",
+          "message": "ci: adjust timeout-minutes for CI because mac is too slow (#3491)",
+          "timestamp": "2023-06-09T09:14:18Z",
+          "tree_id": "9fcdbfad98aa1e8da077b9a843b62d5549dc8dd8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f0710b948febcda1661e431af8cfc877d8ec25a8"
+        },
+        "date": 1686303657078,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 402335946,
+            "range": "± 4765396",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4394589102,
+            "range": "± 50061651",
             "unit": "ns/iter"
           }
         ]
