@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686304373587,
+  "lastUpdate": 1686491040461,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27785,6 +27785,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4261960690,
             "range": "± 52999010",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nieyuyao0826@hotmail.com",
+            "name": "Yuyao Nie",
+            "username": "nieyuyao"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8cf00451efb4f03beb8f365b06697ffcb29c3499",
+          "message": "feat(config): zod scheme for plugins (#3498)\n\n* feat(config): zod scheme for plugins\n\n* fix: add name property",
+          "timestamp": "2023-06-11T13:16:40Z",
+          "tree_id": "2aec1bae52babefb3b0deb33d07ed96d6ebc476f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8cf00451efb4f03beb8f365b06697ffcb29c3499"
+        },
+        "date": 1686491037819,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 379459613,
+            "range": "± 4895014",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4261685143,
+            "range": "± 45014702",
             "unit": "ns/iter"
           }
         ]
