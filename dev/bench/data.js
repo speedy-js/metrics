@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686552130212,
+  "lastUpdate": 1686553531427,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27893,6 +27893,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4220182480,
             "range": "± 51109955",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "eb22c3ea28e35d43a6138367fb257fec4d916baf",
+          "message": "fix(deps): use `zod-validation-error@1.2.0` to support `node@^14.17` (#3510)\n\nfeat: use `zod@1.2.0` to support `node@^14.17`",
+          "timestamp": "2023-06-12T06:32:49Z",
+          "tree_id": "f7948171bbaeed226ebe0399bcf6884fdaf73750",
+          "url": "https://github.com/web-infra-dev/rspack/commit/eb22c3ea28e35d43a6138367fb257fec4d916baf"
+        },
+        "date": 1686553528728,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 383072968,
+            "range": "± 4201335",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4193549509,
+            "range": "± 51750507",
             "unit": "ns/iter"
           }
         ]
