@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686553531427,
+  "lastUpdate": 1686565720176,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27929,6 +27929,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4193549509,
             "range": "± 51750507",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "987d4563f93655b7f5b51f7ce62ab304217491b1",
+          "message": "chore: use snapshot to test hash and css modules classname (#3512)",
+          "timestamp": "2023-06-12T09:57:54Z",
+          "tree_id": "385117e7b5b98d9d57f2f701cf1296208d8f8e08",
+          "url": "https://github.com/web-infra-dev/rspack/commit/987d4563f93655b7f5b51f7ce62ab304217491b1"
+        },
+        "date": 1686565717695,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 403250120,
+            "range": "± 4885598",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4385424995,
+            "range": "± 49316517",
             "unit": "ns/iter"
           }
         ]
