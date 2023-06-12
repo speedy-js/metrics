@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686491040461,
+  "lastUpdate": 1686541413898,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -27821,6 +27821,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4261685143,
             "range": "± 45014702",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b2a61d26a8063c4289e84a66d8a87e721474692",
+          "message": "feat: support compilation.rebuildModule (#3496)\n\n* feat: support compilation.rebuildModule\n\n* perf: merge rebuildModule call",
+          "timestamp": "2023-06-12T03:15:37Z",
+          "tree_id": "5dd72f82a974ff6499e13c3fcfa71baa248b89cc",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4b2a61d26a8063c4289e84a66d8a87e721474692"
+        },
+        "date": 1686541411135,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 384931457,
+            "range": "± 5533204",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4243740852,
+            "range": "± 52054033",
             "unit": "ns/iter"
           }
         ]
