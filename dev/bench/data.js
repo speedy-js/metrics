@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686659184055,
+  "lastUpdate": 1686661165017,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28217,6 +28217,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4321442371,
             "range": "± 43616835",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fcb17b5394f724ec4116e143ad948e2ba6b0f221",
+          "message": "chore: toolchain channel vision (#3538)\n\nchore: toolchain channel",
+          "timestamp": "2023-06-13T12:22:40Z",
+          "tree_id": "5e3b7738090be4e1ba014eedc11b573b736c88f1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fcb17b5394f724ec4116e143ad948e2ba6b0f221"
+        },
+        "date": 1686661162294,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 379082886,
+            "range": "± 5006658",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4216757203,
+            "range": "± 42576270",
             "unit": "ns/iter"
           }
         ]
