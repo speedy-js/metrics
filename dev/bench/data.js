@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686655947451,
+  "lastUpdate": 1686659184055,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28181,6 +28181,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4417847014,
             "range": "± 36361567",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33101123+dmitry-stepanenko@users.noreply.github.com",
+            "name": "Dmitriy Stepanenko",
+            "username": "dmitry-stepanenko"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b940b48e8a6f0ccec0e43a7db41890c078a3995c",
+          "message": "feat: add buildModule hook (#3466)\n\n* feat: add buildModule hook\n\n* feat: use object assign\n\n---------\n\nCo-authored-by: Hana <andywangsy@gmail.com>",
+          "timestamp": "2023-06-13T11:57:01Z",
+          "tree_id": "bae13b7ac19f3854c366179ecd119c46526bdd27",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b940b48e8a6f0ccec0e43a7db41890c078a3995c"
+        },
+        "date": 1686659181386,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 390953226,
+            "range": "± 4932737",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4321442371,
+            "range": "± 43616835",
             "unit": "ns/iter"
           }
         ]
