@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686653066889,
+  "lastUpdate": 1686655210352,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28109,6 +28109,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4354305871,
             "range": "± 57558675",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "20d4f57d8b8e8c8312ed6e67785914ac597740a3",
+          "message": "feat: support builtin swc-loader (#3382)\n\n* save code\n\n* base support\n\n* basic support\n\n* basic support\n\n* add test cases\n\n* add test cases\n\n* push\n\n* done\n\n* support swc plugin\n\n* delete swc plugin cache\n\n* swc plugin exapmle\n\n* add lock\n\n* rm swc cache\n\n* fix: bug\n\n* depend warning\n\n* done\n\n* reset code\n\n* fix: warning bug\n\n* fix: code\n\n* chore: fix clippy\n\n* test\n\n* fix: save code\n\n* fix: clippy\n\n* done\n\n* rm\n\n* update snapshot\n\n* rm cache\n\n* regenerate snapshot\n\n* test case bug\n\n* done\n\n* fix: code\n\n* add warn and fix typo\n\n* feat: optimize warning\n\n* chore: update examples\n\n---------\n\nCo-authored-by: Hana <andywangsy@gmail.com>",
+          "timestamp": "2023-06-13T10:49:32Z",
+          "tree_id": "b31230777b835c562cb13c618d69d2956e6d00a8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/20d4f57d8b8e8c8312ed6e67785914ac597740a3"
+        },
+        "date": 1686655204242,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 396145402,
+            "range": "± 4704663",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4374985242,
+            "range": "± 50082361",
             "unit": "ns/iter"
           }
         ]
