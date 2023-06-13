@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686630352760,
+  "lastUpdate": 1686636810832,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28001,6 +28001,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4396820276,
             "range": "± 47313690",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ce953725ac3c7b9f424787936b92b622f76d095c",
+          "message": "refactor(css): Remove unnecessary and structure code, add comments (#3529)\n\n* refactor(css): Remove unnessary and structure code, add comments\n\n* Fix rust snapshot\n\n* Fix rust snapshot\n\n* Fix rust snapshot",
+          "timestamp": "2023-06-13T05:44:45Z",
+          "tree_id": "4bdc98f3b70b5de74ba37fd9b48530dbf086d485",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ce953725ac3c7b9f424787936b92b622f76d095c"
+        },
+        "date": 1686636808179,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 400270601,
+            "range": "± 4031599",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4365373511,
+            "range": "± 47409508",
             "unit": "ns/iter"
           }
         ]
