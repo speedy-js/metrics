@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686746773443,
+  "lastUpdate": 1686749908843,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28433,6 +28433,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4219349095,
             "range": "± 43862787",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cfa4c2062cf88fb230ec22f9cdee61f78dd5a854",
+          "message": "feat:  custom runtime tree shaking (#3419)\n\n* chore: 🤖 custom runtime\n\n* chore: 🤖 remove unnecessary dir\n\n* chore: 🤖 update\n\n* chore: 🤖 update\n\n* chore: 🤖 ck point\n\n* fix: add string replace build ast\n\n* fix: test\n\n* fix: prop ref\n\n* fix: import dependency type\n\n* fix: remove unused import\n\n* fix: import order\n\n* fix: import side effect\n\n* fix: import side effect\n\n* fix: export all\n\n* chore: 🤖 update snap\n\n* fix: export named & lost export\n\n* fix: rebase\n\n* fix: add more test\n\n* refactor: use jswor\n\n* fix: rebase\n\n* fix: export import order\n\n* fix: export all import order\n\n* fix: export symbol temp\n\n* fix: export all runtime\n\n* fix: upgrade rspack-sources 0.2.6\n\n* fix: fragment order\n\n* chore: 🤖 add some diff script\n\n* chore: 🤖 generate diff\n\n* chore: 🤖 soirt\n\n* fix: get_import_var\n\n* chore: 🤖 fix last one\n\n* fix: clippy & test\n\n* fix: word\n\n* fix: remove diff json\n\n* chore: add comment\n\n---------\n\nCo-authored-by: underfin <likui6666666@gmail.com>",
+          "timestamp": "2023-06-14T13:12:35Z",
+          "tree_id": "b0d893ba5a1c3438475bdc5105d832f5a9c4c3b5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/cfa4c2062cf88fb230ec22f9cdee61f78dd5a854"
+        },
+        "date": 1686749906298,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 380905340,
+            "range": "± 4290487",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4204605325,
+            "range": "± 42825895",
             "unit": "ns/iter"
           }
         ]
