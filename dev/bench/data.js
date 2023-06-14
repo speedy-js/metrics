@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686710960355,
+  "lastUpdate": 1686714340134,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28289,6 +28289,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4209095043,
             "range": "± 45933024",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7219a91fdceb28a46bea4c472662f3090fc47033",
+          "message": "fix: example angular bundle size is a lot bigger than webpack (#3514)\n\n* chore: 🤖 ck point\r\n\r\n* chore: 🤖 finish pure annotation\r\n\r\n* chore: 🤖 ck point\r\n\r\n* chore: 🤖 remove tem md\r\n\r\n* chore: 🤖 make it compile\r\n\r\n* chore: 🤖 update\r\n\r\n* chore: 🤖 refactor\r\n\r\n* chore: 🤖 ck point\r\n\r\n* chore: 🤖 ck point\r\n\r\n* chore: 🤖 change\r\n\r\n* chore: 🤖 update result\r\n\r\n* chore: 🤖 finish it\r\n\r\n* chore: 🤖 finish\r\n\r\n* chore: 🤖 update\r\n\r\n* chore: 🤖 update\r\n\r\n* chore: 🤖 recover\r\n\r\n* chore: 🤖 update\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 update\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 update\r\n\r\n* chore: 🤖 clean up\r\n\r\n* chore: 🤖 add some comments\r\n\r\n* chore: 🤖 ck point\r\n\r\n* chore: 🤖 change config\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 update\r\n\r\n* chore: 🤖 update test\r\n\r\n* chore: 🤖 recover",
+          "timestamp": "2023-06-14T11:33:44+08:00",
+          "tree_id": "e7d105b75044dbadb9aa5d4132bbbe80422d0aea",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7219a91fdceb28a46bea4c472662f3090fc47033"
+        },
+        "date": 1686714337360,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 385056777,
+            "range": "± 4436935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4225300774,
+            "range": "± 61076163",
             "unit": "ns/iter"
           }
         ]
