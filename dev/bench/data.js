@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686661165017,
+  "lastUpdate": 1686710960355,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28253,6 +28253,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4216757203,
             "range": "± 42576270",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff7d5032a75caf08746500387ecd8bfb6c4c6594",
+          "message": "chore: add project governance (#3537)",
+          "timestamp": "2023-06-14T10:37:49+08:00",
+          "tree_id": "4622677d943de80fff7cd77bcb59f12af9dce54d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ff7d5032a75caf08746500387ecd8bfb6c4c6594"
+        },
+        "date": 1686710957615,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382006810,
+            "range": "± 4739648",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4209095043,
+            "range": "± 45933024",
             "unit": "ns/iter"
           }
         ]
