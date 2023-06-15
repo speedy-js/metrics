@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686829921117,
+  "lastUpdate": 1686832652298,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28577,6 +28577,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4206820527,
             "range": "± 44070234",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2e525671a13f9185720ad59bf49bd11ab39cd6d",
+          "message": "perf: 🤖 optimize tree shaking (#3547)\n\nchore: 🤖 optimize tree shaking",
+          "timestamp": "2023-06-15T12:04:35Z",
+          "tree_id": "84f2018390c72f8dc156db62596963e5a9e86375",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b2e525671a13f9185720ad59bf49bd11ab39cd6d"
+        },
+        "date": 1686832649265,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 383607114,
+            "range": "± 4628977",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4223641607,
+            "range": "± 48249275",
             "unit": "ns/iter"
           }
         ]
