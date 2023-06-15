@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686818472230,
+  "lastUpdate": 1686829921117,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28541,6 +28541,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4382025662,
             "range": "± 45984760",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "203902c490ae41be14ce1ebc4b9d51b1cf6a5db6",
+          "message": "fix: migrate more webpack library test (#3376)\n\n* fix: migrate more webpack library test\n\n* fix: test\n\n* chore: rebase",
+          "timestamp": "2023-06-15T11:17:35Z",
+          "tree_id": "f3261c96842f01be15978527de3356f22c48c9eb",
+          "url": "https://github.com/web-infra-dev/rspack/commit/203902c490ae41be14ce1ebc4b9d51b1cf6a5db6"
+        },
+        "date": 1686829918421,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 383404073,
+            "range": "± 4290565",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4206820527,
+            "range": "± 44070234",
             "unit": "ns/iter"
           }
         ]
