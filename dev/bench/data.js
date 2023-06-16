@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686907292779,
+  "lastUpdate": 1686908838357,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28757,6 +28757,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4242580282,
             "range": "± 52403056",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ed6411c6d693ab2e313404f01647fb378bbce0e5",
+          "message": "fix: do not expose non-webpack node interfaces (#3542)",
+          "timestamp": "2023-06-16T09:05:36Z",
+          "tree_id": "1e86a926db4836dc70077da757bfe3d4ad7d052b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ed6411c6d693ab2e313404f01647fb378bbce0e5"
+        },
+        "date": 1686908835698,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 410143877,
+            "range": "± 4645447",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4435792480,
+            "range": "± 46315395",
             "unit": "ns/iter"
           }
         ]
