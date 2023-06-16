@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686899749794,
+  "lastUpdate": 1686902333856,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28649,6 +28649,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4450298181,
             "range": "± 49127536",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "40059557+Hamzakh777@users.noreply.github.com",
+            "name": "Hamza Khchichine",
+            "username": "Hamzakh777"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d21edb9df0078a01f90f2a03cb039f350988b45d",
+          "message": "refactor(crates/rspack_plugin_javascript): `builtins.define` should not rely on `GlobalPassOptions` (#3516)\n\n* feat: add local ModuleConfig instead of using swr::base\n\n* fix: add ahash dependency\n\n* refactor: move ModuleConfig from swc to rspack\n\n* fix: missing features from dependencies\n\n* fix: add swc base since some tests use it\n\n* refactor impl\n\n* Tweak\n\n* Sill use inline_globals2\n\n---------\n\nCo-authored-by: YunfeiHe <i.heyunfei@gmail.com>",
+          "timestamp": "2023-06-16T07:27:11Z",
+          "tree_id": "32ce1b4834022a06c2a9d4bbdad881383fb7768a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d21edb9df0078a01f90f2a03cb039f350988b45d"
+        },
+        "date": 1686902331281,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 381222036,
+            "range": "± 4705343",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4222208953,
+            "range": "± 43050265",
             "unit": "ns/iter"
           }
         ]
