@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686911467859,
+  "lastUpdate": 1686913634590,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28865,6 +28865,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4255569032,
             "range": "± 49912929",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "7a60dd8b039dbd5306414217ecb3aea8ef5f132c",
+          "message": "chore Update PULL_REQUEST_TEMPLATE.md\n\n* GitHub Copilot looks good on the surface but it is actually pretty useless, we don't read them and it just adds noise\r\n* Added a test plan section for emphasis",
+          "timestamp": "2023-06-16T18:55:43+08:00",
+          "tree_id": "e27f62335b916cdf9e622a3c13a9cf898ae60af3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7a60dd8b039dbd5306414217ecb3aea8ef5f132c"
+        },
+        "date": 1686913632022,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 384323268,
+            "range": "± 4792939",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4224301557,
+            "range": "± 47585123",
             "unit": "ns/iter"
           }
         ]
