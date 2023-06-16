@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686902333856,
+  "lastUpdate": 1686903183344,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28685,6 +28685,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4222208953,
             "range": "± 43050265",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0edd39d48c95682693df395a4fa73f132d9fe75",
+          "message": "refactor: EntryOptions and EntryPlugin (#3545)\n\n* refactor entry\n\n* fix e2e\n\n* fix test",
+          "timestamp": "2023-06-16T07:41:29Z",
+          "tree_id": "1019d69972b757ffacccd7759f7116a7de57b876",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b0edd39d48c95682693df395a4fa73f132d9fe75"
+        },
+        "date": 1686903180613,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382745115,
+            "range": "± 4911290",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4208638943,
+            "range": "± 43937258",
             "unit": "ns/iter"
           }
         ]
