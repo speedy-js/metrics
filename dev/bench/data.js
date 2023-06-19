@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687146371938,
+  "lastUpdate": 1687159551600,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28973,6 +28973,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4223904884,
             "range": "± 54007454",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "22ca7689e2a279f189d48fb2cbed6ebd01f1a32c",
+          "message": "fix: code generation cache not working (#3577)\n\nfix: code generate cache not working",
+          "timestamp": "2023-06-19T06:53:17Z",
+          "tree_id": "d369a333d8f89ed0b2d3a14732a23ccdd9fd58e7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/22ca7689e2a279f189d48fb2cbed6ebd01f1a32c"
+        },
+        "date": 1687159548934,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 380737395,
+            "range": "± 4720837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4197430543,
+            "range": "± 57453101",
             "unit": "ns/iter"
           }
         ]
