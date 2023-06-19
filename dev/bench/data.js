@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686913634590,
+  "lastUpdate": 1687145671705,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28901,6 +28901,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4224301557,
             "range": "± 47585123",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "713b0688717c02174bec61338041a73881606c62",
+          "message": "refactor(rspack_regex): readability and functionality (#3573)\n\n* chore(regex): remove useless code\n\n* Make clippy happy\n\n* Use enum instead of closure\n\n* Add more tests",
+          "timestamp": "2023-06-19T03:02:21Z",
+          "tree_id": "7f62107b1f800d0370f56624b6766981a14a36f7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/713b0688717c02174bec61338041a73881606c62"
+        },
+        "date": 1687145665290,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382542954,
+            "range": "± 5043712",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4204349783,
+            "range": "± 47217211",
             "unit": "ns/iter"
           }
         ]
