@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687145671705,
+  "lastUpdate": 1687146371938,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -28937,6 +28937,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4204349783,
             "range": "± 47217211",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7893ca760409c88ba5c729b15639be5eeb1b5453",
+          "message": "feat: easier way for converting `JsRegExp` to `RspackRegex` (#3574)\n\nfeat: allow to convert `JsRegExp` to `RspackRegex`",
+          "timestamp": "2023-06-19T03:03:20Z",
+          "tree_id": "dc1a7480737fac0d7691e73a4cd7f30800826ce9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7893ca760409c88ba5c729b15639be5eeb1b5453"
+        },
+        "date": 1687146369202,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382096018,
+            "range": "± 4748039",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4223904884,
+            "range": "± 54007454",
             "unit": "ns/iter"
           }
         ]
