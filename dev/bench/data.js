@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687174442020,
+  "lastUpdate": 1687178123216,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29081,6 +29081,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4204395195,
             "range": "± 49424960",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c7a81820ef06ee11c95d69161d28bed9c321d6df",
+          "message": "fix: Wasm sideEffect analysis failed  (#3563)\n\n* chore: 🤖 init\n\n* chore: 🤖 finish\n\n* chore: 🤖 update\n\n* chore: 🤖 update\n\n* chore: 🤖 fix it\n\n* test: 💍 add test case\n\n* chore: 🤖 lint\n\n* chore: 🤖 lint\n\n* chore: 🤖 update\n\n* chore: 🤖 update test\n\n* chore: 🤖 update comment\n\n* chore: 🤖 update\n\n* chore: 🤖 recover",
+          "timestamp": "2023-06-19T12:03:04Z",
+          "tree_id": "19e6c22d311cd8720c1b647010702e6f71911be7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c7a81820ef06ee11c95d69161d28bed9c321d6df"
+        },
+        "date": 1687178120395,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 381978427,
+            "range": "± 4720099",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4216995921,
+            "range": "± 59737530",
             "unit": "ns/iter"
           }
         ]
