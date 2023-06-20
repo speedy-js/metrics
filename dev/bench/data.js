@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687178123216,
+  "lastUpdate": 1687229441634,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29117,6 +29117,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4216995921,
             "range": "± 59737530",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "caohuilin@bytedance.com",
+            "name": "Belinda Cao",
+            "username": "caohuilin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "33710e42c1b7ba42aa1c9076cd2f743dce789efc",
+          "message": "fix: create rspack project template (#3585)",
+          "timestamp": "2023-06-20T02:17:10Z",
+          "tree_id": "3ca16f60af8e73b8c28c24b0062197d818cc0ec7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/33710e42c1b7ba42aa1c9076cd2f743dce789efc"
+        },
+        "date": 1687229438830,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382067415,
+            "range": "± 5198105",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4223375772,
+            "range": "± 41598468",
             "unit": "ns/iter"
           }
         ]
