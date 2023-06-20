@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687231709511,
+  "lastUpdate": 1687233807563,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29189,6 +29189,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4218662170,
             "range": "± 51739192",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8a5c47f53ae6fc7b2fb949b9b0a931153ba534e4",
+          "message": "test: 🤖 banner plugin (#3579)\n\nchore: 🤖 banner plugin",
+          "timestamp": "2023-06-20T03:26:07Z",
+          "tree_id": "669eda641d1d17cccc3f3770c755e2c833f1b9c0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8a5c47f53ae6fc7b2fb949b9b0a931153ba534e4"
+        },
+        "date": 1687233805075,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382473474,
+            "range": "± 4675373",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4207635532,
+            "range": "± 47608018",
             "unit": "ns/iter"
           }
         ]
