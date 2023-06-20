@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687229441634,
+  "lastUpdate": 1687231709511,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29153,6 +29153,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4223375772,
             "range": "± 41598468",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "33e0faa9adf3238abacafe87575983595fcabe61",
+          "message": "fix: rspack serve will automatically rebuild once (#3586)",
+          "timestamp": "2023-06-20T02:51:08Z",
+          "tree_id": "1e595df4e7e73872af0250df7ed9f6f153524763",
+          "url": "https://github.com/web-infra-dev/rspack/commit/33e0faa9adf3238abacafe87575983595fcabe61"
+        },
+        "date": 1687231706561,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 384805614,
+            "range": "± 4426551",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4218662170,
+            "range": "± 51739192",
             "unit": "ns/iter"
           }
         ]
