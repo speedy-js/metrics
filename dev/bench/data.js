@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687239171157,
+  "lastUpdate": 1687260380171,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29261,6 +29261,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4352121599,
             "range": "± 52721377",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "0cfe3d54ae722e934141fa967e376bcb5d6a6899",
+          "message": "fix: react flow side effect analyze (#3592)\n\n* chore: 🤖 init\n\n* chore: 🤖 make it compile\n\n* chore: 🤖 fix\n\n* chore: 🤖 clean up\n\n* chore: 🤖 clean up",
+          "timestamp": "2023-06-20T10:53:49Z",
+          "tree_id": "3bde95c7e70db24f0b57fe7f0d16373f774b4793",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0cfe3d54ae722e934141fa967e376bcb5d6a6899"
+        },
+        "date": 1687260377430,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 383906328,
+            "range": "± 4761229",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4224897634,
+            "range": "± 53558896",
             "unit": "ns/iter"
           }
         ]
