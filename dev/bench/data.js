@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687319091120,
+  "lastUpdate": 1687321962639,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29333,6 +29333,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4214659641,
             "range": "± 44959167",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "48507806+linbudu599@users.noreply.github.com",
+            "name": "Linbudu",
+            "username": "linbudu599"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3c8b1e8bb10c046eb80c3cc9ffa33a88f597cc33",
+          "message": "fix: WebpackDevServer typing import (#3559)\n\nfixup WebpackDevServer typing import",
+          "timestamp": "2023-06-21T04:00:30Z",
+          "tree_id": "359231ef56fea3c172a3449e43e2dd580c87d40f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3c8b1e8bb10c046eb80c3cc9ffa33a88f597cc33"
+        },
+        "date": 1687321959934,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382979326,
+            "range": "± 5152574",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4219502525,
+            "range": "± 56012825",
             "unit": "ns/iter"
           }
         ]
