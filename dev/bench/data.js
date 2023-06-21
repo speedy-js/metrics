@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687323929931,
+  "lastUpdate": 1687332567367,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29441,6 +29441,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4224372872,
             "range": "± 59452842",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ac01bf77402628059e19c435c3a31856e6aad35c",
+          "message": "fix: import export check invalidation on make stage (#3604)",
+          "timestamp": "2023-06-21T06:57:30Z",
+          "tree_id": "22966ceaa028ec9cb188fe7f5b3bee109de456af",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ac01bf77402628059e19c435c3a31856e6aad35c"
+        },
+        "date": 1687332564763,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382969151,
+            "range": "± 4537381",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4215550820,
+            "range": "± 50189134",
             "unit": "ns/iter"
           }
         ]
