@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687260380171,
+  "lastUpdate": 1687319091120,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29297,6 +29297,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4224897634,
             "range": "± 53558896",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "08b073ba226f0e9e7f177278bbef31c17d43a166",
+          "message": "feat: false for chunkLoading and asyncChunks (#3590)\n\n* feat: false for chunkLoading and asyncChunks\n\n* wip\n\n* fix: load chunk with module\n\n* fix test\n\n* fix test\n\n* clean up\n\n* fmt\n\n* update snap\n\n---------\n\nCo-authored-by: underfin <likui6666666@gmail.com>",
+          "timestamp": "2023-06-21T03:12:56Z",
+          "tree_id": "ffa295f481e013b7a8c0be8969dc3efd0b3ea5e8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/08b073ba226f0e9e7f177278bbef31c17d43a166"
+        },
+        "date": 1687319088384,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382899644,
+            "range": "± 4813212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4214659641,
+            "range": "± 44959167",
             "unit": "ns/iter"
           }
         ]
