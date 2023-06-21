@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687321962639,
+  "lastUpdate": 1687322664850,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29369,6 +29369,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4219502525,
             "range": "± 56012825",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b6eb02bc7343fd10f7daaa3e624147a52f10f993",
+          "message": "fix: adjust rspack/core dependencies (#3601)",
+          "timestamp": "2023-06-21T04:03:04Z",
+          "tree_id": "beefc63055d8438a54e04f076f5fb0ea4402f475",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b6eb02bc7343fd10f7daaa3e624147a52f10f993"
+        },
+        "date": 1687322662058,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 381206467,
+            "range": "± 5182814",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4241778661,
+            "range": "± 48853624",
             "unit": "ns/iter"
           }
         ]
