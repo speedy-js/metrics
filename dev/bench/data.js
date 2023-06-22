@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687332567367,
+  "lastUpdate": 1687442951029,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29477,6 +29477,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4215550820,
             "range": "± 50189134",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "79fd6dd42eacc77664dd7f09db1c9db2b0a2243a",
+          "message": "fix: split chunk type filter & pass test for css url (#3600)\n\n* done\n\n* add test cases\n\n* fix clppy and add \\n url test\n\n* Update crates/rspack_plugin_schemes/src/data_uri.rs\n\nCo-authored-by: Gengkun <ahabhgk@gmail.com>\n\n* done\n\n* fix clippy a\n\n* remove unused code\n\n* fix: bug\n\n---------\n\nCo-authored-by: Gengkun <ahabhgk@gmail.com>",
+          "timestamp": "2023-06-22T13:35:26Z",
+          "tree_id": "0ac66dbe7bd5b4224114e0a7b96dd1d9865dd41c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/79fd6dd42eacc77664dd7f09db1c9db2b0a2243a"
+        },
+        "date": 1687442947983,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382887564,
+            "range": "± 4335603",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4205514205,
+            "range": "± 42978341",
             "unit": "ns/iter"
           }
         ]
