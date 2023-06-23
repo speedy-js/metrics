@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687442951029,
+  "lastUpdate": 1687498426075,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29513,6 +29513,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4205514205,
             "range": "± 42978341",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "molvqingtai@gmail.com",
+            "name": "John Wu",
+            "username": "molvqingtai"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "955d01c57303bf159e9e8c241804faf0005e8a3c",
+          "message": "refactor(cli): support for `.cts`、`.mts` and follows `type: module` (#3222)\n\n* feat: [cli] The configuration file follows the type property of package.json.\n\n* chore: [cli] Remove unnecessary tmp dependencies\n\n* fix: [cli] When building configuration files, do not bundle dependencies.\n\n* chore: [deps] Commit missing information.\n\n* refactor: [cli] Load the configuration file using `jiti`\n\n* pref(cli): jiti use sucrase.transform & remove __dirname in the esm file.\n\n* refactor(cli): support for `.cts`、`.mts` and follows `type: module`\n\n* chore(cli): correct method name\n\n* perf(cli): prevent some edge conditions from going wrong\n\n* chore: fix lock\n\n* chore: remove type-fest\n\n* chore: commit node_modules in monorepo\n\n* chore: support export default in ts config\n\n---------\n\nCo-authored-by: yangjian.fe <yangjian.fe@bytedance.com>",
+          "timestamp": "2023-06-23T04:53:20Z",
+          "tree_id": "31b66af8643605fe17c046fd3788ccdf70b59774",
+          "url": "https://github.com/web-infra-dev/rspack/commit/955d01c57303bf159e9e8c241804faf0005e8a3c"
+        },
+        "date": 1687498423306,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 411191892,
+            "range": "± 4652847",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4457700538,
+            "range": "± 51096777",
             "unit": "ns/iter"
           }
         ]
