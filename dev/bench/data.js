@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687681102460,
+  "lastUpdate": 1687700809524,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29585,6 +29585,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4217266694,
             "range": "± 51979158",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b10647908b70eae04e9a4d3175a65df57437edfb",
+          "message": "chore: add basic-ts example (#3618)\n\n* chore: add basic-ts example\n\n* update labeling action\n\n* Update tsconfig.json",
+          "timestamp": "2023-06-25T13:07:37Z",
+          "tree_id": "5ddd9a259a871663a4c2dbe4b0cc862fb621cf6a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b10647908b70eae04e9a4d3175a65df57437edfb"
+        },
+        "date": 1687700807066,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 381746047,
+            "range": "± 4490580",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4231831580,
+            "range": "± 41713244",
             "unit": "ns/iter"
           }
         ]
