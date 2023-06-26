@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687700809524,
+  "lastUpdate": 1687754254578,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29621,6 +29621,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4231831580,
             "range": "± 41713244",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43042815+annanShao@users.noreply.github.com",
+            "name": "San_Thro",
+            "username": "annanShao"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "860d61e05846fae82d951de453ae513e0ec86c66",
+          "message": "feat: add entryOption hook (#3499)\n\n* feat: add entryOption hook\n\n* feat: resolve conflict\n\n* feat: delete unused code\n\n* feat: modified test cases",
+          "timestamp": "2023-06-26T04:01:04Z",
+          "tree_id": "da2ac463f6c0ab9ab9da4153f647e83a827772cc",
+          "url": "https://github.com/web-infra-dev/rspack/commit/860d61e05846fae82d951de453ae513e0ec86c66"
+        },
+        "date": 1687754252051,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 383030446,
+            "range": "± 4538198",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4217036063,
+            "range": "± 45433521",
             "unit": "ns/iter"
           }
         ]
