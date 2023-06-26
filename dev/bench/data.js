@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687754254578,
+  "lastUpdate": 1687760961959,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29657,6 +29657,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4217036063,
             "range": "± 45433521",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e264e50d243c6eb7d8e41f69750c0dfa2c59919b",
+          "message": "chore:  env plugin (#3596)\n\n* chore: 🤖 env plugin\n\n* chore: 🤖 compile env plugin\n\n* chore: 🤖 update\n\n* chore: 🤖 make the test pass\n\n* chore: 🤖 make it still pass\n\n* chore: 🤖 recover\n\n* chore: 🤖 update\n\n* chore: 🤖 recover",
+          "timestamp": "2023-06-26T05:53:36Z",
+          "tree_id": "5be1e99efdc061f05fa52ad1a3bd52bfdeac6e7c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e264e50d243c6eb7d8e41f69750c0dfa2c59919b"
+        },
+        "date": 1687760959538,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 380447788,
+            "range": "± 4744703",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4205224866,
+            "range": "± 55470315",
             "unit": "ns/iter"
           }
         ]
