@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687760961959,
+  "lastUpdate": 1687772104085,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29693,6 +29693,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4205224866,
             "range": "± 55470315",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a1a164c707823c69aad1979aeb499eeec0a9f1c7",
+          "message": "fix: side effects rule match (#3627)\n\n* chore: 🤖 inti\n\n* chore: 🤖 update test\n\n* chore: 🤖 clean",
+          "timestamp": "2023-06-26T09:01:56Z",
+          "tree_id": "1711ce71338cd21414d00dff8a1b445598135c3a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a1a164c707823c69aad1979aeb499eeec0a9f1c7"
+        },
+        "date": 1687772100957,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 380865985,
+            "range": "± 5196674",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4233231783,
+            "range": "± 48103423",
             "unit": "ns/iter"
           }
         ]
