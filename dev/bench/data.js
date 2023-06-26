@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687780095086,
+  "lastUpdate": 1687780793472,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29765,6 +29765,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4226134133,
             "range": "± 39196354",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "aab789bf2b11b13b2f2116e10de00f5bd403314d",
+          "message": "chore(ci): should not add stale tag for awaiting more feedback issues (#3624)",
+          "timestamp": "2023-06-26T11:15:36Z",
+          "tree_id": "e9919ad324a040e90c1a02bedd930fb81e50c291",
+          "url": "https://github.com/web-infra-dev/rspack/commit/aab789bf2b11b13b2f2116e10de00f5bd403314d"
+        },
+        "date": 1687780790891,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 384124171,
+            "range": "± 4642827",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4234052622,
+            "range": "± 47322005",
             "unit": "ns/iter"
           }
         ]
