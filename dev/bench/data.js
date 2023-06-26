@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687781505007,
+  "lastUpdate": 1687799761734,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29837,6 +29837,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4376309189,
             "range": "± 45982060",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4d4f99b6bf41eb12308a274f165daf277931292",
+          "message": "chore: add tsx in .vue in vue3-tsx example (#3622)\n\n* chore: add tsx in .vue in vue3-tsx example\n\n* Update examples/vue3-tsx/src/Button.vue\n\nCo-authored-by: Hana <andywangsy@gmail.com>\n\n* fix: fix build\n\n---------\n\nCo-authored-by: Hana <andywangsy@gmail.com>",
+          "timestamp": "2023-06-26T16:41:18Z",
+          "tree_id": "8e4550a400083905ab9dc876931f73868f2d6992",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f4d4f99b6bf41eb12308a274f165daf277931292"
+        },
+        "date": 1687799759191,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 400720503,
+            "range": "± 4744946",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4404766925,
+            "range": "± 55171981",
             "unit": "ns/iter"
           }
         ]
