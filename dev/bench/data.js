@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687837619703,
+  "lastUpdate": 1687843538606,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29909,6 +29909,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4235041989,
             "range": "± 49056259",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4e7a65f50ef3cc348dc7f65126d85fe3ab690a40",
+          "message": "fix(commonjs_scanner): ignore unresolve require span (#3591)\n\n* done\n\n* fix: bug\n\n* chore: clippy\n\n* chore: clippy\n\n* chore: rename function\n\n---------\n\nCo-authored-by: Hana <andywangsy@gmail.com>",
+          "timestamp": "2023-06-27T04:48:08Z",
+          "tree_id": "c8edf1b7778330c6b200e27e0cb8aff28d0241c9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4e7a65f50ef3cc348dc7f65126d85fe3ab690a40"
+        },
+        "date": 1687843536078,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 398501768,
+            "range": "± 4680858",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4397097789,
+            "range": "± 48803216",
             "unit": "ns/iter"
           }
         ]
