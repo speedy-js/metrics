@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687843538606,
+  "lastUpdate": 1687844236995,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -29945,6 +29945,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4397097789,
             "range": "± 48803216",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5027d24204c14a0f1269d197f2ca697bfb1f202",
+          "message": "ci: write a comment to issue when canary release is finished. (#3630)\n\n* chore: 🤖 canary\n\n* chore: 🤖 format\n\n* fix: 🐛 update __dirname\n\n* chore: 🤖 remove test file",
+          "timestamp": "2023-06-27T04:53:34Z",
+          "tree_id": "e08fed13f3cb2d3a194839959f6b81308eaa4400",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e5027d24204c14a0f1269d197f2ca697bfb1f202"
+        },
+        "date": 1687844234398,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 381358592,
+            "range": "± 4836508",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4215218615,
+            "range": "± 42158645",
             "unit": "ns/iter"
           }
         ]
