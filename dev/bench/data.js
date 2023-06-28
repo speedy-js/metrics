@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687923237960,
+  "lastUpdate": 1687926273628,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30089,6 +30089,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4363417239,
             "range": "± 46027541",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ce26914f8901274208ebef6660b46e3feb7cc4ee",
+          "message": "chore:  loader options plugin (#3605)\n\n* chore: 🤖 loader options plugin\n\n* chore: 🤖 fix compile error\n\n* chore: 🤖 update test\n\n* chore: 🤖 make it compile",
+          "timestamp": "2023-06-28T03:49:33Z",
+          "tree_id": "031b90e6a974dd91ed6139720cfbcbe28fbca7f8",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ce26914f8901274208ebef6660b46e3feb7cc4ee"
+        },
+        "date": 1687926271188,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 398490909,
+            "range": "± 4257075",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4376501157,
+            "range": "± 46817150",
             "unit": "ns/iter"
           }
         ]
