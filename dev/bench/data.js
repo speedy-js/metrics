@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687951597538,
+  "lastUpdate": 1687956432324,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30161,6 +30161,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4251709995,
             "range": "± 45002336",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sumyggsun@gmail.com",
+            "name": "sumy",
+            "username": "sumy7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e7714a064f7def414c5efd206844d09e5e763193",
+          "message": "fix(examples/vue): refine module resource matching rule. (#3643)",
+          "timestamp": "2023-06-28T12:10:02Z",
+          "tree_id": "f530af160990591137400a20e3884cf42c6d78c3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e7714a064f7def414c5efd206844d09e5e763193"
+        },
+        "date": 1687956428744,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 383498820,
+            "range": "± 5078944",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4231704264,
+            "range": "± 46856562",
             "unit": "ns/iter"
           }
         ]
