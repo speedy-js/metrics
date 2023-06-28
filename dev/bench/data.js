@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687864723122,
+  "lastUpdate": 1687923237960,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30053,6 +30053,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4258756350,
             "range": "± 49163070",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "263d6353a3a43df99da36c46adb064ede9c2e6aa",
+          "message": "test: e2e use playwright (#3634)",
+          "timestamp": "2023-06-28T02:54:37Z",
+          "tree_id": "c9e94cdeef5b25f3372073d22dc5a6056ed2777f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/263d6353a3a43df99da36c46adb064ede9c2e6aa"
+        },
+        "date": 1687923235194,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 401356243,
+            "range": "± 4657101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4363417239,
+            "range": "± 46027541",
             "unit": "ns/iter"
           }
         ]
