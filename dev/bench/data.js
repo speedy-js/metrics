@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687926273628,
+  "lastUpdate": 1687951597538,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30125,6 +30125,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4376501157,
             "range": "± 46817150",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hexin_33@126.com",
+            "name": "Xinxin He",
+            "username": "xinxinhe1810"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f767fd3fc9c0d605937e50c90eaed0a3b07f10c0",
+          "message": "feat(config): zod schema for output (#3595)\n\n* feat(config): zod schema for output\n\n* feat: add strictModuleErrorHandling changed\n\n* fix: library ci error",
+          "timestamp": "2023-06-28T10:49:47Z",
+          "tree_id": "7cd919db6f5871cf06cf9741a2f5489b979d2056",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f767fd3fc9c0d605937e50c90eaed0a3b07f10c0"
+        },
+        "date": 1687951594642,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 382741477,
+            "range": "± 4274950",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4251709995,
+            "range": "± 45002336",
             "unit": "ns/iter"
           }
         ]
