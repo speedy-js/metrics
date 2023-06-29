@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688039572378,
+  "lastUpdate": 1688040268380,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30305,6 +30305,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4686668124,
             "range": "± 49663847",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c57b551987ab2925c97bd65083fb3009c8ad68c",
+          "message": "fix: minimize don't support output target equal \"module\" (#3659)\n\ndone",
+          "timestamp": "2023-06-29T11:20:53Z",
+          "tree_id": "01bec9727e11613ab729cd5f1a07472b5b38e92e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5c57b551987ab2925c97bd65083fb3009c8ad68c"
+        },
+        "date": 1688040263264,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 447974853,
+            "range": "± 5917110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4699550989,
+            "range": "± 52195749",
             "unit": "ns/iter"
           }
         ]
