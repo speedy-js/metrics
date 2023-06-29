@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687956432324,
+  "lastUpdate": 1688009133806,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30197,6 +30197,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4231704264,
             "range": "± 46856562",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d840bc804f5870f1f5aa6e0270e264e5395edf54",
+          "message": "fix: enable string replace dependency (#3567)\n\n* chore: add webpack interop test\n\n* fix: migrate custom test\n\n* fix: add more test\n\n* fix: scan xxx.default\n\n* chore: add more\n\n* feat: add fake namespace\n\n* fix: enable string replace\n\n* fix: fix test\n\n* fix: fix test\n\n* fix: fix test\n\n* fix: test\n\n* fix: test\n\n* fix: debugger ci\n\n* perf: avoid ast clone\n\n* fix: test\n\n* fix: test\n\n* fix: rebase\n\n* chore: try fix ci in windows\n\n* chore: fix clippy\n\n* chore: normalize before copare\n\n* fix: dce unused symbol\n\n* fix: import star as and export tree shaking\n\n* fix: esm export default specifiers tree shaking\n\n* fix: import var\n\n* fix: update as_code_generatable_dependency type\n\n* fix: clippy\n\n* fix: import as default tree-shaking\n\n* fix: remove uncessary change\n\n* fix: remove uncessary change\n\n* fix: test\n\n---------\n\nCo-authored-by: yangjian.fe <yangjian.fe@bytedance.com>",
+          "timestamp": "2023-06-29T02:51:19Z",
+          "tree_id": "1a483a4e014e94ace38b34aa24f56ab95a702c3e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d840bc804f5870f1f5aa6e0270e264e5395edf54"
+        },
+        "date": 1688009131127,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 451068630,
+            "range": "± 5870115",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4703310319,
+            "range": "± 55082687",
             "unit": "ns/iter"
           }
         ]
