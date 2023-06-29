@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688009133806,
+  "lastUpdate": 1688019957768,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30233,6 +30233,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4703310319,
             "range": "± 55082687",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17398d9fcea6d6b97b4ab65df46f066df231adea",
+          "message": "chore: update CODEOWNERS.md (#3654)",
+          "timestamp": "2023-06-29T14:14:18+08:00",
+          "tree_id": "61cdbf4ef57cc943cd4ae966db473c6ddeb78fe0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/17398d9fcea6d6b97b4ab65df46f066df231adea"
+        },
+        "date": 1688019955002,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 456777220,
+            "range": "± 6090542",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4810952155,
+            "range": "± 52442030",
             "unit": "ns/iter"
           }
         ]
