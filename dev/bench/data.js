@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688044284496,
+  "lastUpdate": 1688095575967,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30377,6 +30377,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4752885815,
             "range": "± 45547001",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3ad8bf2fc9e5f3d37723f6b03f5b2c2153c2d37",
+          "message": "feat: worker support (#3617)\n\n* start\n\nbasic support\n\nworks\n\nfeat: worker options\n\nupdate example\n\nupdate\n\nfeat: more worker options\n\nwip: more worker syntex\n\nsytax scanner\n\n* fix\n\n* fix\n\n* update snap\n\n* cr\n\n* rebase",
+          "timestamp": "2023-06-30T02:52:50Z",
+          "tree_id": "dcc410edf35934ba35c28e5e3f0ff2bd53c9599e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f3ad8bf2fc9e5f3d37723f6b03f5b2c2153c2d37"
+        },
+        "date": 1688095573335,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 449409753,
+            "range": "± 6168082",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4744564474,
+            "range": "± 49804895",
             "unit": "ns/iter"
           }
         ]
