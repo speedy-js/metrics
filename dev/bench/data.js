@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688095575967,
+  "lastUpdate": 1688112689727,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30413,6 +30413,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4744564474,
             "range": "± 49804895",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "9abbafeb279f9d9f4c065eefbea7e429af847922",
+          "message": "feat: support module decorator to give warning for mix harmony-commonjs (#3667)",
+          "timestamp": "2023-06-30T07:36:55Z",
+          "tree_id": "2ac0fee12de025c0d77189940271bf6d11967c9b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9abbafeb279f9d9f4c065eefbea7e429af847922"
+        },
+        "date": 1688112687116,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 477521321,
+            "range": "± 5472383",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4924578575,
+            "range": "± 53131675",
             "unit": "ns/iter"
           }
         ]
