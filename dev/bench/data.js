@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688112689727,
+  "lastUpdate": 1688118665707,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30449,6 +30449,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4924578575,
             "range": "± 53131675",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d98dfc0539a00ff92393972597c64df0a38aff59",
+          "message": "fix: runtime chunk hash should has full hash (#3670)",
+          "timestamp": "2023-06-30T09:15:49Z",
+          "tree_id": "ebf6412c0aed47035d47324cbc5f88e6cab15fdd",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d98dfc0539a00ff92393972597c64df0a38aff59"
+        },
+        "date": 1688118662680,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 453702543,
+            "range": "± 5955790",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4723326723,
+            "range": "± 49531190",
             "unit": "ns/iter"
           }
         ]
