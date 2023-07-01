@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688118665707,
+  "lastUpdate": 1688200117246,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30485,6 +30485,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4723326723,
             "range": "± 49531190",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d6d6127f9a68ba36b6b7d42867302073ce6ff509",
+          "message": "ci: refactor release-canary (#3669)\n\n* ci: refactor release-canary\n\n* update\n\n* update\n\n* update\n\n* update\n\n* update\n\n* fix test",
+          "timestamp": "2023-07-01T07:56:08Z",
+          "tree_id": "9b087e3cc39bc975f28d95be95be056241d5abf9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d6d6127f9a68ba36b6b7d42867302073ce6ff509"
+        },
+        "date": 1688200114587,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 454825864,
+            "range": "± 5244891",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4704640957,
+            "range": "± 50162920",
             "unit": "ns/iter"
           }
         ]
