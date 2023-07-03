@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688200117246,
+  "lastUpdate": 1688355299543,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30521,6 +30521,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4704640957,
             "range": "± 50162920",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c2e3c216818c9eebd39d387590a496ffa0ef73a4",
+          "message": "fix: hoist async or generate anonymous function decl at export decl (#3672)\n\n* fix: hoist async or generate anonymous function decl at export default decl\n\n* refactor: use struct instead of tuple",
+          "timestamp": "2023-07-03T03:00:43Z",
+          "tree_id": "9f46176a8d4619fba539a9a51cad49f57456a32b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c2e3c216818c9eebd39d387590a496ffa0ef73a4"
+        },
+        "date": 1688355296833,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 475080007,
+            "range": "± 4971553",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4872435384,
+            "range": "± 49911668",
             "unit": "ns/iter"
           }
         ]
