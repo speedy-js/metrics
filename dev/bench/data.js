@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688372274525,
+  "lastUpdate": 1688372986421,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30665,6 +30665,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4697471455,
             "range": "± 52043529",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5b2628fc16be7a614a3c7d0cafda5cf3470c47d0",
+          "message": "chore: add monaco-editor examples (#3681)\n\n* chore: add monaco examples\n\n* fix\n\n* fix",
+          "timestamp": "2023-07-03T07:42:31Z",
+          "tree_id": "f0510f83dc6cf16209d73ef7605eadc13c4020c5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5b2628fc16be7a614a3c7d0cafda5cf3470c47d0"
+        },
+        "date": 1688372983763,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 469652739,
+            "range": "± 5960491",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4848906407,
+            "range": "± 49804747",
             "unit": "ns/iter"
           }
         ]
