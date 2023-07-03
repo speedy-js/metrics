@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688358477040,
+  "lastUpdate": 1688366672900,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30593,6 +30593,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4722230356,
             "range": "± 48780525",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "defb7e025cdd01cc47c9cef9461e3d1e3ce1f3eb",
+          "message": "fix: panic when using worker with treeShaking enabled (#3668)\n\n* ok\n\n* fix\n\n* rebase\n\n* add comment",
+          "timestamp": "2023-07-03T06:09:40Z",
+          "tree_id": "c1e54eada01974ec066bc3af65df6421bdf05b2f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/defb7e025cdd01cc47c9cef9461e3d1e3ce1f3eb"
+        },
+        "date": 1688366669540,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 472814209,
+            "range": "± 5695688",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4908470191,
+            "range": "± 48553111",
             "unit": "ns/iter"
           }
         ]
