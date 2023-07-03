@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688355299543,
+  "lastUpdate": 1688358477040,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30557,6 +30557,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4872435384,
             "range": "± 49911668",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1299458195@qq.com",
+            "name": "asarua",
+            "username": "Asarua"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0406caad825cc0a6bf03826ee7aede60627b206",
+          "message": "chore: fix macro name (#3676)",
+          "timestamp": "2023-07-03T03:55:14Z",
+          "tree_id": "a534d8ef5cc94bccdf87d1c5a1df11b508a97b70",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b0406caad825cc0a6bf03826ee7aede60627b206"
+        },
+        "date": 1688358474401,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 452029912,
+            "range": "± 5422412",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4722230356,
+            "range": "± 48780525",
             "unit": "ns/iter"
           }
         ]
