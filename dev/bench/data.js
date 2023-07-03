@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688387286654,
+  "lastUpdate": 1688397092776,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30809,6 +30809,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4756047478,
             "range": "± 56490454",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "onlylingstudio@gmail.com",
+            "name": "LING_ZI_QING",
+            "username": "onlyling"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f0c0e6240213ff8e01951de91d23ff1f21dad9e",
+          "message": "fix: npm package contains default_index.ejs file (#3657)",
+          "timestamp": "2023-07-03T14:30:26Z",
+          "tree_id": "eb7b5f71a27b02d814c764b747ba52d818ef53f9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9f0c0e6240213ff8e01951de91d23ff1f21dad9e"
+        },
+        "date": 1688397089718,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 455429719,
+            "range": "± 5576424",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4733669392,
+            "range": "± 51511795",
             "unit": "ns/iter"
           }
         ]
