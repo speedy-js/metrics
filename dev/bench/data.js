@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688384974889,
+  "lastUpdate": 1688387286654,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30773,6 +30773,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4753612459,
             "range": "± 47250833",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a5f739f6cb301daa526272f129dc5bfe39432eb8",
+          "message": "fix: output.clean can not remove *.hot-update.js (#3689)\n\nfix: output.clean can not remove hot-update.js",
+          "timestamp": "2023-07-03T11:46:01Z",
+          "tree_id": "9ef049628d5efdfa6c34c3be33017d90eebf7223",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a5f739f6cb301daa526272f129dc5bfe39432eb8"
+        },
+        "date": 1688387283842,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 457399961,
+            "range": "± 6197759",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4756047478,
+            "range": "± 56490454",
             "unit": "ns/iter"
           }
         ]
