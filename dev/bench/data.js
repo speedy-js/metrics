@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688378473052,
+  "lastUpdate": 1688384974889,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30737,6 +30737,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4749640044,
             "range": "± 48412427",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "14795c3d554f57dac457e25bfe95edcae7a9abe0",
+          "message": "fix: use __webpack_exports__ and __webpack_module__ at esm module render  (#3687)\n\n* fix: use __webpack_exports__ and __webpack_module__ at module render\n\n* fix: update test\n\n* fix: update test\n\n* fix: update test\n\n* fix: update test",
+          "timestamp": "2023-07-03T11:09:23Z",
+          "tree_id": "c98d411fe69827d0e2a6ce5ac517a476e3e48e91",
+          "url": "https://github.com/web-infra-dev/rspack/commit/14795c3d554f57dac457e25bfe95edcae7a9abe0"
+        },
+        "date": 1688384971752,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 453465792,
+            "range": "± 5902212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4753612459,
+            "range": "± 47250833",
             "unit": "ns/iter"
           }
         ]
