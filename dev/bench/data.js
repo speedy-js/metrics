@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688372986421,
+  "lastUpdate": 1688378473052,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30701,6 +30701,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4848906407,
             "range": "± 49804747",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jinrui",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0efa69a5bd9bedb2a96236c0a9a0dd5da46d8e0",
+          "message": "test: add more E2E test case (#3664)\n\n* test(e2e): crossoriginloading case test __public_path__\n\n* test(e2e): rspack fixture set default context\n\n* test(e2e): rspack fixture set builtins.define default value\n\n* test(e2e): tailwindcss test case\n\n* test(e2e): asset-emitted hook test\n\n* fix: ci",
+          "timestamp": "2023-07-03T09:17:53Z",
+          "tree_id": "dff208ff284b2e1babefb04c9049d0da7bab3cdf",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b0efa69a5bd9bedb2a96236c0a9a0dd5da46d8e0"
+        },
+        "date": 1688378470339,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 452997292,
+            "range": "± 6003546",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4749640044,
+            "range": "± 48412427",
             "unit": "ns/iter"
           }
         ]
