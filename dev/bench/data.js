@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688442778260,
+  "lastUpdate": 1688448966164,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30881,6 +30881,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4701202990,
             "range": "± 58022940",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jerrykingxyz@gmail.com",
+            "name": "jerrykingxyz",
+            "username": "jerrykingxyz"
+          },
+          "committer": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "distinct": true,
+          "id": "f6027b411278da72fda6d4f70df3b5994bad7d15",
+          "message": "chore: increase ci test timeout",
+          "timestamp": "2023-07-04T13:24:32+08:00",
+          "tree_id": "9ea305836e47dc9c7f4c1abe87ef883b9fad09a3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f6027b411278da72fda6d4f70df3b5994bad7d15"
+        },
+        "date": 1688448963573,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 452057342,
+            "range": "± 5007703",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4720643235,
+            "range": "± 53763384",
             "unit": "ns/iter"
           }
         ]
