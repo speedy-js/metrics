@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688460847533,
+  "lastUpdate": 1688467022183,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30953,6 +30953,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4870746252,
             "range": "± 53055641",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5f114b0f68832aaa442e22eab4f65b68884482c2",
+          "message": "ci: compile dependencies with optimization for faster tests (#3699)",
+          "timestamp": "2023-07-04T09:49:09Z",
+          "tree_id": "7a3bacd95f82ebe728ebe74ac5d782ab6c41a58e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5f114b0f68832aaa442e22eab4f65b68884482c2"
+        },
+        "date": 1688467019758,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 451756818,
+            "range": "± 5450963",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4725516886,
+            "range": "± 46531895",
             "unit": "ns/iter"
           }
         ]
