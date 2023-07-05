@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688544090684,
+  "lastUpdate": 1688550882817,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31241,6 +31241,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4919257908,
             "range": "± 45809825",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "0b135b9d8f7debd0ab1a71e3ae18b96f7b340cf2",
+          "message": "fix(minifier): fix minifier options difference between minifications (#3697)\n\n* fix(minifier): fix minifier options difference between minifications\n\n* fix: windows test",
+          "timestamp": "2023-07-05T08:55:44Z",
+          "tree_id": "ea6863469ec78da99165b75ec650248178cd7dc6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0b135b9d8f7debd0ab1a71e3ae18b96f7b340cf2"
+        },
+        "date": 1688550877146,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 456984955,
+            "range": "± 5272095",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4721036353,
+            "range": "± 50365335",
             "unit": "ns/iter"
           }
         ]
