@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688550882817,
+  "lastUpdate": 1688552847069,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31277,6 +31277,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4721036353,
             "range": "± 50365335",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "0b943308f2905900c2335abbf227be1a96d016a1",
+          "message": "fix: `chunkhash` should be available in chunk context (#3710)\n\n* fix: fix chunkhash in chunk context\n\n* test: add test",
+          "timestamp": "2023-07-05T09:24:57Z",
+          "tree_id": "a21d1d9d02a58676926350b91d933705b402b9d1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0b943308f2905900c2335abbf227be1a96d016a1"
+        },
+        "date": 1688552844145,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 455285641,
+            "range": "± 4983253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4711048902,
+            "range": "± 42578451",
             "unit": "ns/iter"
           }
         ]
