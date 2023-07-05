@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688536749152,
+  "lastUpdate": 1688538574108,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31061,6 +31061,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4752887668,
             "range": "± 49855920",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "04d4f07e0b0ad7d9056336e5add95de01d67f97a",
+          "message": "test: banner hash plugin (#3652)\n\n* chore: 🤖 init\n\n* chore: 🤖 recover\n\n* chore: 🤖 recover\n\n* chore: 🤖 hash\n\n* chore: 🤖 update\n\n* chore: 🤖 use md4 by default\n\n* chore: 🤖 default hash config\n\n* chore: 🤖 remove dbg\n\n* chore: 🤖 clean up\n\n* chore: 🤖 fix name\n\n* chore: 🤖 refactor\n\n* chore: 🤖 lint\n\n* chore: 🤖 recover\n\n* chore: 🤖 recover\n\n* chore: 🤖 clean\n\n* chore: 🤖 snapshot\n\n* chore: 🤖 cr issue\n\n* chore: 🤖 revert\n\n* chore: 🤖 update\n\n* chore: 🤖 pass the test\n\n* chore: 🤖 clean up\n\n* chore: 🤖 cr issues",
+          "timestamp": "2023-07-05T05:37:58Z",
+          "tree_id": "2099d8a8c5e4acfa323f3bf78c024e987bdde297",
+          "url": "https://github.com/web-infra-dev/rspack/commit/04d4f07e0b0ad7d9056336e5add95de01d67f97a"
+        },
+        "date": 1688538571514,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 468727071,
+            "range": "± 5725303",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4885902551,
+            "range": "± 48799250",
             "unit": "ns/iter"
           }
         ]
