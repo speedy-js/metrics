@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688541441818,
+  "lastUpdate": 1688544090684,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31205,6 +31205,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4737582996,
             "range": "± 50776368",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "438629779fa8b5e5732680b1575999336166f77d",
+          "message": "fix: worker chunk looses runtime modules in incremental rebuild (#3703)\n\nfix: worker chunk looses runtime modules in incramental rebuild",
+          "timestamp": "2023-07-05T07:15:54Z",
+          "tree_id": "4a249242c550c6c8887a55587f04a1de8870b45a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/438629779fa8b5e5732680b1575999336166f77d"
+        },
+        "date": 1688544087980,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 473231243,
+            "range": "± 5830547",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4919257908,
+            "range": "± 45809825",
             "unit": "ns/iter"
           }
         ]
