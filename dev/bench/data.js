@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688539288495,
+  "lastUpdate": 1688540732129,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31133,6 +31133,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4901007049,
             "range": "± 42227198",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "chenjiahan.jait@bytedance.com",
+            "name": "neverland",
+            "username": "chenjiahan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "12834930486293c9612b024e7e45b32f84192f86",
+          "message": "chore(examples): remove some duplicated files in vue folders (#3698)",
+          "timestamp": "2023-07-05T05:57:53Z",
+          "tree_id": "3d9b1299d87022b06b68da14479633e05c0b433b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/12834930486293c9612b024e7e45b32f84192f86"
+        },
+        "date": 1688540729136,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 474139121,
+            "range": "± 5894442",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4906311611,
+            "range": "± 38382612",
             "unit": "ns/iter"
           }
         ]
