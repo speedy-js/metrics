@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688467022183,
+  "lastUpdate": 1688529770899,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -30989,6 +30989,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4725516886,
             "range": "± 46531895",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rcanfield86@gmail.com",
+            "name": "RussellCanfield",
+            "username": "RussellCanfield"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c4d9a4d9a9adc332b3b9c75e8be258a897fb6a2f",
+          "message": "feat: Disable source maps for rspack core (#3631)\n\nDisable source maps for rspack core",
+          "timestamp": "2023-07-05T03:16:06Z",
+          "tree_id": "a82a80e9600392ed628c7d05a2f71907c4bf08fa",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c4d9a4d9a9adc332b3b9c75e8be258a897fb6a2f"
+        },
+        "date": 1688529768062,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 453129029,
+            "range": "± 6515413",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4712158665,
+            "range": "± 46584965",
             "unit": "ns/iter"
           }
         ]
