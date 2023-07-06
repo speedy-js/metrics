@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688612220399,
+  "lastUpdate": 1688622856060,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31421,6 +31421,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4742926225,
             "range": "± 42486414",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f8868fc43543786656d35d14b9bed9a56e8ea471",
+          "message": "ci: remove setup-zip because it is no longer needed (#3712)",
+          "timestamp": "2023-07-06T05:10:53Z",
+          "tree_id": "0be4d98f2ba4fc51fbdc446dbb06f3f5fa957708",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f8868fc43543786656d35d14b9bed9a56e8ea471"
+        },
+        "date": 1688622853401,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 461463558,
+            "range": "± 5405257",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4743605606,
+            "range": "± 46294960",
             "unit": "ns/iter"
           }
         ]
