@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688640493468,
+  "lastUpdate": 1688645572732,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31637,6 +31637,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4938905167,
             "range": "± 49861858",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4aff4365973985713084e89c04a293d6ef421ba7",
+          "message": "refactor: use bit flags insert for RuntimeGlobals (#3719)\n\n* refactor: use bit flags insert for RuntimeGlobals\n\n* chore: remove unused test",
+          "timestamp": "2023-07-06T11:24:00Z",
+          "tree_id": "a20e56cfa6ad7d3b397967f306624ab8a6c15935",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4aff4365973985713084e89c04a293d6ef421ba7"
+        },
+        "date": 1688645569809,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 473788012,
+            "range": "± 6234315",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4913297730,
+            "range": "± 48631754",
             "unit": "ns/iter"
           }
         ]
