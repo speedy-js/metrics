@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688630757258,
+  "lastUpdate": 1688636545751,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31529,6 +31529,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4848695596,
             "range": "± 58774114",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lingyucoder@gmail.com",
+            "name": "天镶",
+            "username": "LingyuCoder"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3ae87d3b3bcfdef2e7a8f3baf1c2c488ac4fab53",
+          "message": "fix(rspack_plugin_html): favicon behavior when using absolute file path (#3700)\n\n* fix(rspack_plugin_html): favicon behavior when using absolute file path\n\n* fix(rspack_plugin_html): favicon behavior when using absolute file path\n\n* fix(rspack_plugin_html): favicon behavior when using absolute file path\n\n* fix(rspack_plugin_html): favicon behavior when using absolute file path\n\n* fix(rspack_plugin_html): favicon behavior when using absolute file path",
+          "timestamp": "2023-07-06T08:52:34Z",
+          "tree_id": "3a62020ed3f4b63aa03fba1f7c5e6f0ff9c79197",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3ae87d3b3bcfdef2e7a8f3baf1c2c488ac4fab53"
+        },
+        "date": 1688636542756,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 453353425,
+            "range": "± 5587441",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4715959061,
+            "range": "± 45652518",
             "unit": "ns/iter"
           }
         ]
