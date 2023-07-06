@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688627235256,
+  "lastUpdate": 1688630757258,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31493,6 +31493,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4757858077,
             "range": "± 46528750",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cecf9307db4ccaf280c123d37f82f7a4921e93b5",
+          "message": "fix: worker HMR (#3711)\n\n* fix: worker HMR\n\n* ok\n\n* revert",
+          "timestamp": "2023-07-06T07:23:13Z",
+          "tree_id": "ee5093891a0458ae9829a02c26202b09e71b73d9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/cecf9307db4ccaf280c123d37f82f7a4921e93b5"
+        },
+        "date": 1688630754626,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 469202031,
+            "range": "± 5407402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4848695596,
+            "range": "± 58774114",
             "unit": "ns/iter"
           }
         ]
