@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688636545751,
+  "lastUpdate": 1688638441061,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31565,6 +31565,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4715959061,
             "range": "± 45652518",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3f15be6e3df3ea377e8baa7ebc16a260b8b29171",
+          "message": "chore: 🤖 revert file name generate logic (#3716)\n\n* chore: 🤖 revert file name generator logic\n\n* chore: 🤖 update snap",
+          "timestamp": "2023-07-06T09:30:05Z",
+          "tree_id": "820da2a8a1869647bbd8b384e83e3d97561f6e7e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/3f15be6e3df3ea377e8baa7ebc16a260b8b29171"
+        },
+        "date": 1688638438521,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 453795449,
+            "range": "± 6791883",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4720543632,
+            "range": "± 53114450",
             "unit": "ns/iter"
           }
         ]
