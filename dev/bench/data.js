@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688645572732,
+  "lastUpdate": 1688649331879,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31673,6 +31673,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4913297730,
             "range": "± 48631754",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "db1be92d3a06525ad249ade8815032a1f2573750",
+          "message": "feat: update all swc crates (#3721)\n\n* chore: move swc_plugin_import to this repo\n\n* feat: update swc",
+          "timestamp": "2023-07-06T12:17:14Z",
+          "tree_id": "f155a6929351aa9044ca9ec35c3a1801799262f1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/db1be92d3a06525ad249ade8815032a1f2573750"
+        },
+        "date": 1688649329214,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 482296283,
+            "range": "± 6180926",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5123670751,
+            "range": "± 58914481",
             "unit": "ns/iter"
           }
         ]
