@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688568122007,
+  "lastUpdate": 1688612220399,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31385,6 +31385,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4920604488,
             "range": "± 48876889",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd1e5c1c6ec09962fe415a6c9b6f355c3b311050",
+          "message": "chore: fix jest hastle warning (#3696)",
+          "timestamp": "2023-07-06T02:13:17Z",
+          "tree_id": "036fab8444ff38c6ad674d91cc7a5753c48886b0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/cd1e5c1c6ec09962fe415a6c9b6f355c3b311050"
+        },
+        "date": 1688612217742,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 460135287,
+            "range": "± 5903994",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4742926225,
+            "range": "± 42486414",
             "unit": "ns/iter"
           }
         ]
