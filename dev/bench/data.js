@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688649331879,
+  "lastUpdate": 1688711081993,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31709,6 +31709,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5123670751,
             "range": "± 58914481",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lzc295592@163.com",
+            "name": "faga",
+            "username": "faga295"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "617a416c6bebe9659dc65d1c438dfbf4fa23a0ff",
+          "message": "feat: support function `Rule.use` (#3621)\n\n* feat: support function use\n\n* chore: update\n\n* chore: config normalize\n\n* chore: ts compatible\n\n* chore: add test cases\n\n* chore: update\n\n* chore: update\n\n* chore: update use type\n\n* chore: update\n\n* chore: resource real_resource exchange\n\n* fix\n\n---------\n\nCo-authored-by: Gengkun <ahabhgk@gmail.com>",
+          "timestamp": "2023-07-07T05:38:42Z",
+          "tree_id": "0f79ae665fb5c7bdb3af84b33370834d5c043e8f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/617a416c6bebe9659dc65d1c438dfbf4fa23a0ff"
+        },
+        "date": 1688711079251,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 459433954,
+            "range": "± 6036473",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4935346341,
+            "range": "± 49466105",
             "unit": "ns/iter"
           }
         ]
