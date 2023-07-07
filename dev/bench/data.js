@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688720416060,
+  "lastUpdate": 1688721177842,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31781,6 +31781,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5065106691,
             "range": "± 56869397",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0acf4bbd2c5f38f427bb5ab86c425b82a13872a7",
+          "message": "feat: implement statsPrinter hook and DefaultStatsPrinterPlugin (#3722)\n\n* feat: implement statsPrinter hook\n\n* fix: use formatted error\n\n* fix: update lock\n\n* fix: version & rspackVersion",
+          "timestamp": "2023-07-07T08:17:16Z",
+          "tree_id": "b914ea5fec4b58ba7acdd5a7a892a5df448418c7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0acf4bbd2c5f38f427bb5ab86c425b82a13872a7"
+        },
+        "date": 1688721175219,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 483379050,
+            "range": "± 5967170",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5098896250,
+            "range": "± 47486990",
             "unit": "ns/iter"
           }
         ]
