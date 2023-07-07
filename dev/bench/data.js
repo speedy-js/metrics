@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688721177842,
+  "lastUpdate": 1688724821550,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31817,6 +31817,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5098896250,
             "range": "± 47486990",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wanglingyu.fe@bytedance.com",
+            "name": "天镶",
+            "username": "LingyuCoder"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7e5139a4b4fc165499392068b143b1fcce299547",
+          "message": "feat(rspack_plugin_css): add css/auto same as webpack (#3727)\n\n* fix(rspack_plugin_css): add css/auto same as webpack\n\n* fix(rspack_plugin_css): add css/auto same as webpack",
+          "timestamp": "2023-07-07T09:28:50Z",
+          "tree_id": "4e26d92c5e2e17ef9aba6f06002c1c59dec029ac",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7e5139a4b4fc165499392068b143b1fcce299547"
+        },
+        "date": 1688724818839,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 462189479,
+            "range": "± 5028814",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4893270535,
+            "range": "± 57183074",
             "unit": "ns/iter"
           }
         ]
