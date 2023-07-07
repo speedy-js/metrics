@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688711081993,
+  "lastUpdate": 1688720416060,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31745,6 +31745,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4935346341,
             "range": "± 49466105",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b4ceddb5cb5069d577f3d4d792a9ea04bda97605",
+          "message": "fix: non amd external break amd library (#3725)\n\n* fix: non amd external break amd library\n\n* fix",
+          "timestamp": "2023-07-07T08:12:22Z",
+          "tree_id": "c261fca34530579e82a4a687cbe4ac4d710a1862",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b4ceddb5cb5069d577f3d4d792a9ea04bda97605"
+        },
+        "date": 1688720413073,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 477609581,
+            "range": "± 5459503",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5065106691,
+            "range": "± 56869397",
             "unit": "ns/iter"
           }
         ]
