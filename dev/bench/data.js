@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688991439300,
+  "lastUpdate": 1688992183476,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32069,6 +32069,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5057929387,
             "range": "± 47817413",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "73c5e58794667baf122a84b7f655c88da9c89946",
+          "message": "chore: release canary with x86_64-unknown-linux-gnu for Cloud IDE (#3730)",
+          "timestamp": "2023-07-10T20:13:22+08:00",
+          "tree_id": "c344a7deeb1343bd7cb0d0b4471d52430c2f0090",
+          "url": "https://github.com/web-infra-dev/rspack/commit/73c5e58794667baf122a84b7f655c88da9c89946"
+        },
+        "date": 1688992180804,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 464329928,
+            "range": "± 5417825",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5050539802,
+            "range": "± 52576920",
             "unit": "ns/iter"
           }
         ]
