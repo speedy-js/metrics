@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688974645485,
+  "lastUpdate": 1688978895926,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31889,6 +31889,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5024607446,
             "range": "± 50439265",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "0252f1357a1b12f3994bc0ecb00dfd2a7c782ec8",
+          "message": "fix: react refresh in async entrypoint (#3731)\n\n* wip\n\n* fix: worker with react refresh\n\n* add test\n\n* update snap\n\n* fix rr\n\n* update\n\n* rm",
+          "timestamp": "2023-07-10T07:54:41Z",
+          "tree_id": "0f5ead6de5077693b6589bf946b28ed2c8299e27",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0252f1357a1b12f3994bc0ecb00dfd2a7c782ec8"
+        },
+        "date": 1688978893230,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 480509073,
+            "range": "± 6079609",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5212205278,
+            "range": "± 60571139",
             "unit": "ns/iter"
           }
         ]
