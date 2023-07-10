@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688979992971,
+  "lastUpdate": 1688985727834,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -31961,6 +31961,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5040793052,
             "range": "± 55689970",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2809f22933b89db22047c3625aeaf3594e011c75",
+          "message": "fix: infer async module for EsmExport dependency (#3739)\n\n* fix: reexport wasm\n\n* enable test\n\n* update lock\n\n* comment",
+          "timestamp": "2023-07-10T09:55:59Z",
+          "tree_id": "3bd62de65d862e779ae5c2f4634f1bc935904516",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2809f22933b89db22047c3625aeaf3594e011c75"
+        },
+        "date": 1688985724231,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 462307449,
+            "range": "± 5532789",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5032761634,
+            "range": "± 48747215",
             "unit": "ns/iter"
           }
         ]
