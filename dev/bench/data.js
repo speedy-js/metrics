@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689071047380,
+  "lastUpdate": 1689072250302,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32285,6 +32285,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4999183613,
             "range": "± 47157608",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41898282+github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "795b4a7055bd179ea3ef14da5d37d3c8475f1c95",
+          "message": "Release Packages:0.2.6 (#3750)\n\nReelase Packages:0.2.6\r\n\r\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2023-07-11T18:31:54+08:00",
+          "tree_id": "43205880d6776b24336bc845d7dfc029a3f7d430",
+          "url": "https://github.com/web-infra-dev/rspack/commit/795b4a7055bd179ea3ef14da5d37d3c8475f1c95"
+        },
+        "date": 1689072244169,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 414057378,
+            "range": "± 4358920",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5032737026,
+            "range": "± 53060437",
             "unit": "ns/iter"
           }
         ]
