@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689068976065,
+  "lastUpdate": 1689070314671,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32213,6 +32213,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5081609629,
             "range": "± 47045027",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8c64ecbeec09eb4e7261b906f647003bb1125fab",
+          "message": "perf: convert to RawSource in devtool to reduce one time source map calculation when convert to JsCompatSource (#3748)\n\n* ok\n\n* Update crates/rspack_plugin_devtool/src/lib.rs",
+          "timestamp": "2023-07-11T09:23:21Z",
+          "tree_id": "70c3d0ae4cff33359d41fd725a2038dbcd6ea09a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8c64ecbeec09eb4e7261b906f647003bb1125fab"
+        },
+        "date": 1689070311671,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 418468606,
+            "range": "± 5171395",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5019326700,
+            "range": "± 52627491",
             "unit": "ns/iter"
           }
         ]
