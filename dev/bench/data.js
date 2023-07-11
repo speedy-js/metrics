@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689060769527,
+  "lastUpdate": 1689068976065,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32177,6 +32177,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5305449767,
             "range": "± 54271726",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wanglingyu.fe@bytedance.com",
+            "name": "天镶",
+            "username": "LingyuCoder"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d78d1f90c45a5c713f55311241ca8a5afb58e88a",
+          "message": "fix(rspack_core): context delete file (#3749)\n\n* fix: remove module in context throw not resolve error\n\n* fix: remove module in context throw not resolve error",
+          "timestamp": "2023-07-11T09:00:24Z",
+          "tree_id": "2e11ba7f6e7e4e0a05407fa2f19194e90e0aef2d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d78d1f90c45a5c713f55311241ca8a5afb58e88a"
+        },
+        "date": 1689068973228,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 466058647,
+            "range": "± 5578769",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5081609629,
+            "range": "± 47045027",
             "unit": "ns/iter"
           }
         ]
