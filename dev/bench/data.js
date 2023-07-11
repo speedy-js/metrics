@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689070314671,
+  "lastUpdate": 1689071047380,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32249,6 +32249,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5019326700,
             "range": "± 52627491",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83386c9f1461f11ee6a783f876252708e3a24dd5",
+          "message": "refactor: rename `CodeGeneratableDependency` to `DependencyTemplate` for more consistency (#3751)",
+          "timestamp": "2023-07-11T09:27:32Z",
+          "tree_id": "7aee38973ad61e3c966c1863955dd5d1d4132d34",
+          "url": "https://github.com/web-infra-dev/rspack/commit/83386c9f1461f11ee6a783f876252708e3a24dd5"
+        },
+        "date": 1689071044611,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 423645331,
+            "range": "± 4550131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4999183613,
+            "range": "± 47157608",
             "unit": "ns/iter"
           }
         ]
