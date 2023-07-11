@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689072250302,
+  "lastUpdate": 1689082761688,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32321,6 +32321,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5032737026,
             "range": "± 53060437",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f8a8df845dafa200564b32eb0f768f5b75c723f5",
+          "message": "chore: serialize the graph for better debugging. (#3752)\n\n* chore: 🤖 debug\n\n* chore: 🤖 debug info\n\n* chore: 🤖 update\n\n* chore: 🤖 clean\n\n* chore: 🤖 clean up\n\n* chore: 🤖 chore\n\n* chore: 🤖 clean",
+          "timestamp": "2023-07-11T12:55:14Z",
+          "tree_id": "e03eaf027a7b96c709cb7137156acd974d45fd63",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f8a8df845dafa200564b32eb0f768f5b75c723f5"
+        },
+        "date": 1689082759022,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 423376360,
+            "range": "± 5399140",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5011786727,
+            "range": "± 50458242",
             "unit": "ns/iter"
           }
         ]
