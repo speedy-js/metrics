@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689145706437,
+  "lastUpdate": 1689146498979,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32465,6 +32465,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5022424321,
             "range": "± 49512019",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02f313b19605503663d3bafb4d52484e4e5bbe96",
+          "message": "chore: add @ScriptedAlchemy to Rspack core (#3758)",
+          "timestamp": "2023-07-12T15:09:16+08:00",
+          "tree_id": "1b4d5087b54a46216a10d7fef5f2372eecdf0852",
+          "url": "https://github.com/web-infra-dev/rspack/commit/02f313b19605503663d3bafb4d52484e4e5bbe96"
+        },
+        "date": 1689146495576,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 429275238,
+            "range": "± 6737697",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5049060447,
+            "range": "± 46254480",
             "unit": "ns/iter"
           }
         ]
