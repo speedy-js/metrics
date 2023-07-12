@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689144963821,
+  "lastUpdate": 1689145706437,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32429,6 +32429,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5027623165,
             "range": "± 46874820",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "2a3ffb72c5d75378203ad40c9a61db306ec32080",
+          "message": "fix: should escape css url content (#3757)",
+          "timestamp": "2023-07-12T06:18:17Z",
+          "tree_id": "20474dfb8b72cb31f7942f0400eba3efed723055",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2a3ffb72c5d75378203ad40c9a61db306ec32080"
+        },
+        "date": 1689145703119,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 417597901,
+            "range": "± 4980082",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5022424321,
+            "range": "± 49512019",
             "unit": "ns/iter"
           }
         ]
