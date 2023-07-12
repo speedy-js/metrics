@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689134610416,
+  "lastUpdate": 1689144963821,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32393,6 +32393,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5025106240,
             "range": "± 46536112",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "064ead4fc3b2a28333352a15af70e7c4d1d1b210",
+          "message": "feat(ast_viewer): support contexting in ast viewer (#3756)\n\n* feat: support contexting in ast viewer\n\n* feat: use esnext",
+          "timestamp": "2023-07-12T06:12:07Z",
+          "tree_id": "3bdef0b0371c1fc92eef56970ed7261a3f21d6af",
+          "url": "https://github.com/web-infra-dev/rspack/commit/064ead4fc3b2a28333352a15af70e7c4d1d1b210"
+        },
+        "date": 1689144961111,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 427966556,
+            "range": "± 6383087",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5027623165,
+            "range": "± 46874820",
             "unit": "ns/iter"
           }
         ]
