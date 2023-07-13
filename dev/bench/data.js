@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689232512486,
+  "lastUpdate": 1689246963928,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32573,6 +32573,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5180326394,
             "range": "± 49250913",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "9cebc956f36948eae8f51104c2de8e7d8d68ab1a",
+          "message": "chore: disable missing export warning (#3769)\n\n* chore: 🤖 init\n\n* chore: 🤖 lint\n\n* chore: 🤖 update snap",
+          "timestamp": "2023-07-13T10:26:35Z",
+          "tree_id": "de1dee6e5e3a2b76547d8c49b4f1405249abeff6",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9cebc956f36948eae8f51104c2de8e7d8d68ab1a"
+        },
+        "date": 1689246960973,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 449638110,
+            "range": "± 5962102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5283935179,
+            "range": "± 52514187",
             "unit": "ns/iter"
           }
         ]
