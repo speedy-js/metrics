@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689146498979,
+  "lastUpdate": 1689225908229,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32501,6 +32501,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5049060447,
             "range": "± 46254480",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f5c91462f1b1d6e885378f71a283101649342b4",
+          "message": "fix: react refresh module id (#3763)\n\n* fix: react refresh module id\n\n* test?\n\n* use quote and add test\n\n* rm\n\n* ..\n\n* ,,\n\n* more test",
+          "timestamp": "2023-07-13T04:37:45Z",
+          "tree_id": "11ad4841149f427b5753f825d390ae8f314c35c1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/6f5c91462f1b1d6e885378f71a283101649342b4"
+        },
+        "date": 1689225905599,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 449014857,
+            "range": "± 7012591",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5251028800,
+            "range": "± 53004357",
             "unit": "ns/iter"
           }
         ]
