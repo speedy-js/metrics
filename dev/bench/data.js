@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689246963928,
+  "lastUpdate": 1689321192649,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32609,6 +32609,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5283935179,
             "range": "± 52514187",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yishidixiashang@gmail.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4f444f4f4be20543e741a438c99d6ea5feba436f",
+          "message": "feat: support ensure_chunk_conditions_plugin (#3502)\n\n* code layout\n\n* done\n\n* fix: condition\n\n* fix: clippy\n\n* fix: bug\n\n* Update lib.rs\n\n* fix: add test\n\n---------\n\nCo-authored-by: underfin <likui6666666@gmail.com>",
+          "timestamp": "2023-07-14T07:11:52Z",
+          "tree_id": "4850c9136247703e93eb1a8e7a02bc12ba9a9146",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4f444f4f4be20543e741a438c99d6ea5feba436f"
+        },
+        "date": 1689321189989,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 417067530,
+            "range": "± 6113154",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4988733921,
+            "range": "± 49908099",
             "unit": "ns/iter"
           }
         ]
