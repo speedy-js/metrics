@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689330905386,
+  "lastUpdate": 1689362213492,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32681,6 +32681,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5005099834,
             "range": "± 46659719",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aee8aa4335f676a9fdceda21f6eb8668f450e77a",
+          "message": "chore: fix remove sourcemap not working in release package (#3778)",
+          "timestamp": "2023-07-14T18:31:30Z",
+          "tree_id": "da121c6962425c4d37f48b227f791d84133422a5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/aee8aa4335f676a9fdceda21f6eb8668f450e77a"
+        },
+        "date": 1689362210677,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 421116303,
+            "range": "± 6192715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4987491024,
+            "range": "± 52767737",
             "unit": "ns/iter"
           }
         ]
