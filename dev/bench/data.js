@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689362213492,
+  "lastUpdate": 1689581698098,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32717,6 +32717,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4987491024,
             "range": "± 52767737",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51717e5fd432e90eccb8b649ab84af94d4e0f0d3",
+          "message": "fix: export named as code generation with tree shaking. (#3781)\n\n* chore: 🤖 init\n\n* chore: 🤖 main\n\n* chore: 🤖 export named\n\n* chore: 🤖 recover\n\n* chore: 🤖 update\n\n* chore: 🤖 update\n\n* chore: 🤖 recover\n\n* chore: 🤖 lint",
+          "timestamp": "2023-07-17T07:27:56Z",
+          "tree_id": "03c40fe7145455950bf25418faa8d04ed296363a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/51717e5fd432e90eccb8b649ab84af94d4e0f0d3"
+        },
+        "date": 1689581695241,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 412861425,
+            "range": "± 6641432",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5009859510,
+            "range": "± 50523654",
             "unit": "ns/iter"
           }
         ]
