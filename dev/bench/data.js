@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689581698098,
+  "lastUpdate": 1689588199054,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32753,6 +32753,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5009859510,
             "range": "± 50523654",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ddcfe74aee41e892a8a22ad34776e470e5d024f8",
+          "message": "fix: hmr should work for inject css link to body (#3782)\n\n* fix: hmr should work for inject css link to body\n\n* fix: add e2e\n\n* fix: add e2e",
+          "timestamp": "2023-07-17T09:15:20Z",
+          "tree_id": "857aec070d900a693857d82505eb018c2c4f021b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ddcfe74aee41e892a8a22ad34776e470e5d024f8"
+        },
+        "date": 1689588196235,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 415271449,
+            "range": "± 6793811",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4988557554,
+            "range": "± 49927418",
             "unit": "ns/iter"
           }
         ]
