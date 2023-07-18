@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689651836466,
+  "lastUpdate": 1689654072991,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32825,6 +32825,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5186815963,
             "range": "± 49976018",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i@matthiasgiger.com",
+            "name": "Matthias Giger",
+            "username": "tobua"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ac18c2e8d42b6ce7181f18976f883bcf212668e7",
+          "message": "fix(core): Typo in html builtins types (#3786)",
+          "timestamp": "2023-07-18T03:33:57Z",
+          "tree_id": "9936617a8fc05567c5e6a69cd615d6af3e2781ab",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ac18c2e8d42b6ce7181f18976f883bcf212668e7"
+        },
+        "date": 1689654070058,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 415555722,
+            "range": "± 5435158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4992685371,
+            "range": "± 47700371",
             "unit": "ns/iter"
           }
         ]
