@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689673129965,
+  "lastUpdate": 1689679410034,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33113,6 +33113,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5068393455,
             "range": "± 30135017",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4a6f3508825562791c3047080908e1c1caa3d1e6",
+          "message": "fix: compilation hash should hash hot index to avoid hmr loop (#3794)\n\n* fix: compilation hash should hash hot index to avoid hmr loop\n\n* fix: add test",
+          "timestamp": "2023-07-18T10:34:35Z",
+          "tree_id": "fdb1291236c900e728ee2f4dc5ce26ab94bf7b90",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4a6f3508825562791c3047080908e1c1caa3d1e6"
+        },
+        "date": 1689679406954,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 420115333,
+            "range": "± 4931372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5032076508,
+            "range": "± 35929504",
             "unit": "ns/iter"
           }
         ]
