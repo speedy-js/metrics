@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689664711874,
+  "lastUpdate": 1689667723828,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32969,6 +32969,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5265465871,
             "range": "± 52997274",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wanglingyu.fe@bytedance.com",
+            "name": "天镶",
+            "username": "LingyuCoder"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "474e7dc26bc882286af4fb9de25bcdf343b0c0b4",
+          "message": "feat(core): add test/include/exclude options to builtins.minifyOptions (#3775)\n\n* feat(core): add test/include/exclude options to builtins.minifyOptions\n\n* feat(core): add test/include/exclude options to builtins.minifyOptions\n\n* feat(core): add test/include/exclude options to builtins.minifyOptions\n\n* feat(core): add test/include/exclude options to builtins.minifyOptions",
+          "timestamp": "2023-07-18T06:45:17Z",
+          "tree_id": "ae31ba9a1032657d273969d6a1f0129c996fb627",
+          "url": "https://github.com/web-infra-dev/rspack/commit/474e7dc26bc882286af4fb9de25bcdf343b0c0b4"
+        },
+        "date": 1689667720799,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 442464625,
+            "range": "± 7058937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5248950838,
+            "range": "± 38879222",
             "unit": "ns/iter"
           }
         ]
