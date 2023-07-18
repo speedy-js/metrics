@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689668462341,
+  "lastUpdate": 1689669204285,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33041,6 +33041,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5032729555,
             "range": "± 35604918",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f414bbc6d0c2a3f6531cf0f4fdd88ee0adc19499",
+          "message": "chore: support passing ref to reusable build (#3793)",
+          "timestamp": "2023-07-18T16:15:31+08:00",
+          "tree_id": "9602f5cc36ea0feef648b452d6a47759eccecabb",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f414bbc6d0c2a3f6531cf0f4fdd88ee0adc19499"
+        },
+        "date": 1689669201187,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 430310518,
+            "range": "± 6365041",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5107546081,
+            "range": "± 30668674",
             "unit": "ns/iter"
           }
         ]
