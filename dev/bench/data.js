@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689681706818,
+  "lastUpdate": 1689689182872,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33185,6 +33185,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5034149795,
             "range": "± 37995263",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "1107178482@qq.com",
+            "name": "suxin2017",
+            "username": "suxin2017"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db01c3ef09b32c542a9c7bf9b98dacfb5ede6069",
+          "message": "feat: support stats option \"source\" (#3682)\n\n* support stats source\n\n* add test cases\n\n* add test cases\n\n* save code\n\n* chore: fix clippy complains\n\n* feat: properly propagate errors\n\n* chore: update snapshots\n\n---------\n\nCo-authored-by: Hana <andywangsy@gmail.com>",
+          "timestamp": "2023-07-18T13:23:01Z",
+          "tree_id": "ebb942031af5e3ba7356e2fe3abcfb08f3d70634",
+          "url": "https://github.com/web-infra-dev/rspack/commit/db01c3ef09b32c542a9c7bf9b98dacfb5ede6069"
+        },
+        "date": 1689689179857,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 435351942,
+            "range": "± 6568907",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5167761398,
+            "range": "± 31756134",
             "unit": "ns/iter"
           }
         ]
