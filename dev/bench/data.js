@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689663544332,
+  "lastUpdate": 1689664711874,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32933,6 +32933,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4992051011,
             "range": "± 45517289",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b87f4d04ac556ec808f465122455668069118613",
+          "message": "chore: fix canary release (#3792)",
+          "timestamp": "2023-07-18T15:05:38+08:00",
+          "tree_id": "fdb66821356f149104992eeb9efc44e85227c255",
+          "url": "https://github.com/web-infra-dev/rspack/commit/b87f4d04ac556ec808f465122455668069118613"
+        },
+        "date": 1689664708851,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 456865976,
+            "range": "± 6851560",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5265465871,
+            "range": "± 52997274",
             "unit": "ns/iter"
           }
         ]
