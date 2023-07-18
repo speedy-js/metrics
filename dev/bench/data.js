@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689679410034,
+  "lastUpdate": 1689681706818,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33149,6 +33149,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5032076508,
             "range": "± 35929504",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "45511e31532027057d011e638ab6a642d3c1d513",
+          "message": "fix: tree shaking with a cyclic reference  (#3789)\n\n* chore: 🤖 circle reference\n\n* chore: 🤖 fix\n\n* chore: 🤖 update\n\n* chore: 🤖 update\n\n* chore: 🤖 update test case\n\n* chore: 🤖 update\n\n* chore: 🤖 recover examples/basic\n\n* chore: 🤖 remove extar examples/basic",
+          "timestamp": "2023-07-18T11:10:33Z",
+          "tree_id": "45693469f8c3baf36358c0b14e3ceaec225e1aa0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/45511e31532027057d011e638ab6a642d3c1d513"
+        },
+        "date": 1689681703746,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 420842567,
+            "range": "± 6510490",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5034149795,
+            "range": "± 37995263",
             "unit": "ns/iter"
           }
         ]
