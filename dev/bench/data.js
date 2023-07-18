@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689588199054,
+  "lastUpdate": 1689651836466,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -32789,6 +32789,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4988557554,
             "range": "± 49927418",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a464c8fc70282b2f614b2f867ab14fbef46c8971",
+          "message": "ci: release canary without debug mode because binary size is too big to upload (>1G) (#3788)",
+          "timestamp": "2023-07-18T11:31:20+08:00",
+          "tree_id": "507a88277a832e2783a352548829e5218d19ef26",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a464c8fc70282b2f614b2f867ab14fbef46c8971"
+        },
+        "date": 1689651833745,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 435978554,
+            "range": "± 6614642",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5186815963,
+            "range": "± 49976018",
             "unit": "ns/iter"
           }
         ]
