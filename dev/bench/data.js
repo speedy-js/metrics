@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689667723828,
+  "lastUpdate": 1689668462341,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33005,6 +33005,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5248950838,
             "range": "± 38879222",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c17279beffb9f187ca1f786ff15a2d4078d7daf4",
+          "message": "fix: check symbol used (#3790)",
+          "timestamp": "2023-07-18T06:46:12Z",
+          "tree_id": "5095d4f8c98814015cc89d43e6ce17c3fa65dd9e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/c17279beffb9f187ca1f786ff15a2d4078d7daf4"
+        },
+        "date": 1689668459317,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 415311808,
+            "range": "± 5905945",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5032729555,
+            "range": "± 35604918",
             "unit": "ns/iter"
           }
         ]
