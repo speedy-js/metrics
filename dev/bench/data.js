@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689689182872,
+  "lastUpdate": 1689738318775,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33221,6 +33221,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5167761398,
             "range": "± 31756134",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b21615a0067a5f5e81177571ad564bab05b05f9",
+          "message": "chore: enable some runtime & context module webpack test (#3796)",
+          "timestamp": "2023-07-19T02:59:40Z",
+          "tree_id": "4ed3b68d154e5fd47ae836ee331708194267755b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4b21615a0067a5f5e81177571ad564bab05b05f9"
+        },
+        "date": 1689738315684,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 427690758,
+            "range": "± 6222306",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5064563436,
+            "range": "± 30242723",
             "unit": "ns/iter"
           }
         ]
