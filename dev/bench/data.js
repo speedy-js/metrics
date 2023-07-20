@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689836715009,
+  "lastUpdate": 1689839139128,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33329,6 +33329,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5044301114,
             "range": "± 34909103",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e7b892e5aeb516973e51dc068528066f396b2980",
+          "message": "feat: nested import tree shaking (#3800)\n\n* chore: 🤖 init\n\n* chore: 🤖 remove comment\n\n* chore: 🤖 add usage\n\n* chore: 🤖 temp alright\n\n* chore: 🤖 ckpoint\n\n* chore: 🤖 finish anlayze\n\n* chore: 🤖 extends\n\n* chore: 🤖 make it compile\n\n* chore: 🤖 update result\n\n* chore: 🤖 refactor\n\n* chore: 🤖 updated\n\n* chore: 🤖 remove comment\n\n* chore: 🤖 add flag to control\n\n* chore: 🤖 update\n\n* chore: 🤖 ck point\n\n* chore: 🤖 remove comment\n\n* chore: 🤖 rebase\n\n* chore: 🤖 update name\n\n* chore: 🤖 revert\n\n* chore: 🤖 ck point\n\n* chore: 🤖 do some refactor\n\n* chore: 🤖 refactor\n\n* chore: 🤖 refactor\n\n* chore: 🤖 update\n\n* chore: 🤖 update snapshot\n\n* chore: 🤖 clippy\n\n* chore: 🤖 recover\n\n* chore: 🤖 update\n\n* chore: 🤖 handle connection statusd occupied",
+          "timestamp": "2023-07-20T07:01:24Z",
+          "tree_id": "f6a20876c2f6be0278f604d07947e22db79a1c70",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e7b892e5aeb516973e51dc068528066f396b2980"
+        },
+        "date": 1689839135956,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 416035197,
+            "range": "± 6311157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5097413208,
+            "range": "± 35660819",
             "unit": "ns/iter"
           }
         ]
