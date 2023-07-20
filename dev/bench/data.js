@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689741299645,
+  "lastUpdate": 1689836715009,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33293,6 +33293,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5082783646,
             "range": "± 34211673",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "489435760@qq.com",
+            "name": "lipp",
+            "username": "lippzhang"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "777859408e6d84d67a86464c877148101d1c6e34",
+          "message": "feat(packages/rspack): add version check for binding (#3717)\n\n* chore(packages/rspack): add version check for binding\n\n* feat: optimize version check\n\n* chore: cleanup\n\n* feat: optimize impl\n\n* fix: remote version check\n\n---------\n\nCo-authored-by: Hana <andywangsy@gmail.com>",
+          "timestamp": "2023-07-20T06:09:13Z",
+          "tree_id": "04d96621943734a8c73fe1875f02d316e374de49",
+          "url": "https://github.com/web-infra-dev/rspack/commit/777859408e6d84d67a86464c877148101d1c6e34"
+        },
+        "date": 1689836711768,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 423517454,
+            "range": "± 6492062",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5044301114,
+            "range": "± 34909103",
             "unit": "ns/iter"
           }
         ]
