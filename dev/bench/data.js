@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689851168999,
+  "lastUpdate": 1689856878988,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33437,6 +33437,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5339868881,
             "range": "± 28414208",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d28a3aa9f70cbdf6cb351a82561fcd8ffc35637",
+          "message": "chore: remove rspack_build (#3806)\n\nThis is no longer used.\nRemoving this should also reduce compilation speed because this crate\ncompiles to a binary (it has a main.rs).",
+          "timestamp": "2023-07-20T11:51:02Z",
+          "tree_id": "3b677a1c19490fa7290cb566938222760daf536a",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7d28a3aa9f70cbdf6cb351a82561fcd8ffc35637"
+        },
+        "date": 1689856875849,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 423818729,
+            "range": "± 5243677",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5060354395,
+            "range": "± 33873224",
             "unit": "ns/iter"
           }
         ]
