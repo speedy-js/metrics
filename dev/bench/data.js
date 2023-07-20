@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689846669649,
+  "lastUpdate": 1689851168999,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33401,6 +33401,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5080587134,
             "range": "± 34577912",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49a3b70b83c1d65d79c48197757766f0b4adbacb",
+          "message": "fix: react class component hmr (#3801)\n\n* fix: react class component hmr\n\n* fix: e2e",
+          "timestamp": "2023-07-20T09:55:25Z",
+          "tree_id": "3bb97e42f7e1664e5781e990e109900f18a2c18f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/49a3b70b83c1d65d79c48197757766f0b4adbacb"
+        },
+        "date": 1689851165926,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 456232749,
+            "range": "± 6261695",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5339868881,
+            "range": "± 28414208",
             "unit": "ns/iter"
           }
         ]
