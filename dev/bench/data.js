@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689839139128,
+  "lastUpdate": 1689846669649,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33365,6 +33365,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5097413208,
             "range": "± 35660819",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "524bb4c875e44e0a4d6c319e9308ee7bc14ad2c9",
+          "message": "ci: split `cargo check` and `cargo test` into two jobs (#3807)",
+          "timestamp": "2023-07-20T17:38:37+08:00",
+          "tree_id": "1f3b551d62e6fbb919716abd330ea02398cc467b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/524bb4c875e44e0a4d6c319e9308ee7bc14ad2c9"
+        },
+        "date": 1689846666647,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 416126203,
+            "range": "± 5088312",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5080587134,
+            "range": "± 34577912",
             "unit": "ns/iter"
           }
         ]
