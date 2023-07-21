@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689932460257,
+  "lastUpdate": 1689944315137,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33581,6 +33581,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5218760011,
             "range": "± 35208680",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8233b7c740adcd715cc98501fc4e224f0b5297b0",
+          "message": "refactor: assign dep id for each symbol. (#3808)\n\n* chore: 🤖 assign dep id\n\n* chore: 🤖 assign dep id for each symbol\n\n* chore: 🤖 lint\n\n* chore: 🤖 make test pass\n\n* chore: 🤖 fix typos",
+          "timestamp": "2023-07-21T12:14:17Z",
+          "tree_id": "bf023cfc9afd41b7023c64f734154f014dfd9be5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8233b7c740adcd715cc98501fc4e224f0b5297b0"
+        },
+        "date": 1689944312069,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 418404655,
+            "range": "± 6106151",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5086036927,
+            "range": "± 33681628",
             "unit": "ns/iter"
           }
         ]
