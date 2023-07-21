@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689912447933,
+  "lastUpdate": 1689921380398,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33509,6 +33509,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5085531972,
             "range": "± 36203575",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "243eaad3425af793dd0d0db791e8dd7ee5234c83",
+          "message": "fix: react refresh false shouldn't inject react refresh runtime (#3817)",
+          "timestamp": "2023-07-21T05:52:52Z",
+          "tree_id": "730f71434d53ea330db287cb7d67cc9f0e04dc9c",
+          "url": "https://github.com/web-infra-dev/rspack/commit/243eaad3425af793dd0d0db791e8dd7ee5234c83"
+        },
+        "date": 1689921377441,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 411190830,
+            "range": "± 6064082",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5087988082,
+            "range": "± 41879160",
             "unit": "ns/iter"
           }
         ]
