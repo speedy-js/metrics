@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689856878988,
+  "lastUpdate": 1689912447933,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33473,6 +33473,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5060354395,
             "range": "± 33873224",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "fb35af1d6981cf611855567f6b773317671714af",
+          "message": "feat: implement statsFactory and simplified DefaultStatsFactoryPlugin  (#3805)\n\n* feat: add DefaultStatsFactoryPlugin\n\n* feat: support extract asset & chunk\n\n* fix: add test case",
+          "timestamp": "2023-07-21T03:17:36Z",
+          "tree_id": "d791efef523c44b17cee352720416ee7f480a5c2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/fb35af1d6981cf611855567f6b773317671714af"
+        },
+        "date": 1689912444752,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 417567001,
+            "range": "± 5764284",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5085531972,
+            "range": "± 36203575",
             "unit": "ns/iter"
           }
         ]
