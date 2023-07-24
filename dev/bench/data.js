@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690035648879,
+  "lastUpdate": 1690173655127,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33653,6 +33653,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5350867068,
             "range": "± 30431219",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "25aa704f47a33f1ae7a601c31f25f56c1d02325c",
+          "message": "fix: css asset tree shaking (#3818)\n\n* fix: css asset tree shaking\n\n* fix: remove unsed files\n\n* chore: 🤖 basic finish\n\n* chore: 🤖 update test case\n\n* chore: 🤖 typo\n\n* chore: 🤖 fix typos\n\n* chore: 🤖 lint\n\n---------\n\nCo-authored-by: IWANABETHATGUY <iwanabethatguy@qq.com>",
+          "timestamp": "2023-07-24T03:52:33Z",
+          "tree_id": "7ad048aa50a1493e1d62bf3bdfce6e19f7d79f53",
+          "url": "https://github.com/web-infra-dev/rspack/commit/25aa704f47a33f1ae7a601c31f25f56c1d02325c"
+        },
+        "date": 1690173651907,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 442090604,
+            "range": "± 6729678",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5475451374,
+            "range": "± 45745029",
             "unit": "ns/iter"
           }
         ]
