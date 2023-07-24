@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690173655127,
+  "lastUpdate": 1690175272209,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33689,6 +33689,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5475451374,
             "range": "± 45745029",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37ad034eec06d711eb59b181a0b6232589387e13",
+          "message": "fix: error in plugin apply is not be reported when using cli (#3780)\n\n* fix: error in plugin apply is not reported when using cli\n\n* add test\n\n* fix ci",
+          "timestamp": "2023-07-24T04:24:13Z",
+          "tree_id": "afdfda04b0e532fd357e782b817226d71023c98e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/37ad034eec06d711eb59b181a0b6232589387e13"
+        },
+        "date": 1690175269083,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 440649655,
+            "range": "± 6848324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5467276996,
+            "range": "± 44600407",
             "unit": "ns/iter"
           }
         ]
