@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690175272209,
+  "lastUpdate": 1690263969386,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33725,6 +33725,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5467276996,
             "range": "± 44600407",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a8c5e7968496a1e45cb3a9334546fc3e24ccc6e1",
+          "message": "test: basic webpack side effects and treeshaking tests   (#3833)\n\n* chore: 🤖 add node_modules\n\n* chore: 🤖 basic node_modules\n\n* chore: 🤖 update unused\n\n* chore: 🤖 update templates\n\n* chore: 🤖 update test\n\n* chore: 🤖 fix test",
+          "timestamp": "2023-07-25T03:25:10Z",
+          "tree_id": "9b9b99f2f2b8d33b7b446637e638e3f4af13d66f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a8c5e7968496a1e45cb3a9334546fc3e24ccc6e1"
+        },
+        "date": 1690263966351,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 444860518,
+            "range": "± 7231999",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5329790839,
+            "range": "± 44127675",
             "unit": "ns/iter"
           }
         ]
