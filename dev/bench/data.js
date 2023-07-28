@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690369752980,
+  "lastUpdate": 1690518933673,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33869,6 +33869,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5135412758,
             "range": "± 32492333",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ad27fcf37d8edbb1cd74b61d5773875b9db23f9b",
+          "message": "fix: export imported a import declaration with all as. (#3847)\n\n* chore: 🤖 init\n\n* chore: 🤖 namespace\n\n* chore: 🤖 update\n\n* chore: 🤖 add test\n\n* chore: 🤖 recover",
+          "timestamp": "2023-07-28T03:42:13Z",
+          "tree_id": "2c358085e51b73de2049d48eccc8c79663be3e4e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ad27fcf37d8edbb1cd74b61d5773875b9db23f9b"
+        },
+        "date": 1690518930598,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 453558848,
+            "range": "± 6397142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5351567063,
+            "range": "± 35776248",
             "unit": "ns/iter"
           }
         ]
