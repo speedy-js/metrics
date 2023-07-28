@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690519691782,
+  "lastUpdate": 1690540972643,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33941,6 +33941,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5124078321,
             "range": "± 36113456",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dd0cdc1a17ba153d679a416dfe172166baa9522a",
+          "message": "fix: banner shouldn't be injected to asset (#3809)\n\n* chore: banner shouldn't be injected to asset\n\n* fix:  distinguish auxiliaryFiles and files\n\n* fix: add auxiliaryFiles to stats\n\n---------\n\nCo-authored-by: gaoyuan.1226 <gaoyuan.1226@bytedance.com>",
+          "timestamp": "2023-07-28T09:57:04Z",
+          "tree_id": "30a29adeae0f8bcf2ff23aea7fbb76dda93efd7b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/dd0cdc1a17ba153d679a416dfe172166baa9522a"
+        },
+        "date": 1690540969536,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 427989245,
+            "range": "± 6876784",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5122662358,
+            "range": "± 35464868",
             "unit": "ns/iter"
           }
         ]
