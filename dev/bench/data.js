@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690779699271,
+  "lastUpdate": 1690789138649,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34049,6 +34049,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5284868232,
             "range": "± 40093141",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4df274d77168179b166ac5a92ebc23e7b44612fd",
+          "message": "chore: use dep_id instead of module id (#3839)\n\n* chore: 🤖 init\n\n* chore: 🤖 fix test\n\n* chore: 🤖 dep id\n\n* chore: 🤖 lint\n\n* chore: 🤖 remove todo\n\n* chore: 🤖 refactgor\n\n* chore: 🤖 basic finish\n\n* chore: 🤖 lint\n\n* chore: 🤖 update",
+          "timestamp": "2023-07-31T06:50:23Z",
+          "tree_id": "a4e99ee68dc9d511e80af6a5b915d893028b945b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4df274d77168179b166ac5a92ebc23e7b44612fd"
+        },
+        "date": 1690789135133,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 427785857,
+            "range": "± 6690264",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5182091162,
+            "range": "± 36536585",
             "unit": "ns/iter"
           }
         ]
