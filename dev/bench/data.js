@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690789138649,
+  "lastUpdate": 1690805023189,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34085,6 +34085,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5182091162,
             "range": "± 36536585",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05993d8316eba07acda2fd6ee4177bdfab771206",
+          "message": "refactor: remove ctxt of variable in import map (#3869)\n\nchore: 🤖 init",
+          "timestamp": "2023-07-31T11:13:25Z",
+          "tree_id": "230828d8fdebf79e7077f3ccc9eebaa666960490",
+          "url": "https://github.com/web-infra-dev/rspack/commit/05993d8316eba07acda2fd6ee4177bdfab771206"
+        },
+        "date": 1690805019489,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 433494175,
+            "range": "± 7387878",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5238219060,
+            "range": "± 35831412",
             "unit": "ns/iter"
           }
         ]
