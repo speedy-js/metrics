@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690540972643,
+  "lastUpdate": 1690778395954,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -33977,6 +33977,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5122662358,
             "range": "± 35464868",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "37eafb252fd3af6b760af91f8bcbba27e459b28c",
+          "message": "fix: should replace _webpack_require to __nested_webpack_require_ at … (#3857)\n\n* fix: should replace _webpack_require to __nested_webpack_require_ at _webpack_require usaged before declation\n\n* fix: test\n\n* fix: test\n\n* fix: test",
+          "timestamp": "2023-07-31T03:49:54Z",
+          "tree_id": "93a2a622d9c353208aa38951922e63c302ec6a26",
+          "url": "https://github.com/web-infra-dev/rspack/commit/37eafb252fd3af6b760af91f8bcbba27e459b28c"
+        },
+        "date": 1690778392894,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 425330261,
+            "range": "± 6439779",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5128915367,
+            "range": "± 36963484",
             "unit": "ns/iter"
           }
         ]
