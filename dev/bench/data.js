@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690778395954,
+  "lastUpdate": 1690779699271,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34013,6 +34013,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5128915367,
             "range": "± 36963484",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba398d11505af60469a4e620961f9f1822b19a35",
+          "message": "perf: reduce dependency clone at make (#3859)",
+          "timestamp": "2023-07-31T04:09:25Z",
+          "tree_id": "671992c5a55e0dca038edb82c59a01175ee8ac38",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ba398d11505af60469a4e620961f9f1822b19a35"
+        },
+        "date": 1690779693560,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 435671731,
+            "range": "± 6839387",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5284868232,
+            "range": "± 40093141",
             "unit": "ns/iter"
           }
         ]
