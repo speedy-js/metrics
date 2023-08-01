@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690881739793,
+  "lastUpdate": 1690882514967,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34265,6 +34265,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5326511350,
             "range": "± 32047494",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d357b8d769e091ad8cb323bd4c2195ace50b918e",
+          "message": "fix: render library runtime for include entry chunks (#3876)",
+          "timestamp": "2023-08-01T08:37:31Z",
+          "tree_id": "d5dc07321d9ab0b81d2b35b67c9751a4be6029a4",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d357b8d769e091ad8cb323bd4c2195ace50b918e"
+        },
+        "date": 1690882511067,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 450671375,
+            "range": "± 6530060",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5429122110,
+            "range": "± 43310411",
             "unit": "ns/iter"
           }
         ]
