@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690864628761,
+  "lastUpdate": 1690867172974,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34193,6 +34193,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5157206485,
             "range": "± 31982052",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7fd0788a68942923c0c258f4efb43c27f4b96b17",
+          "message": "refactor: css-import span should be calculated with at-rule (#3852)",
+          "timestamp": "2023-08-01T04:30:20Z",
+          "tree_id": "3c9f335b4a4593013c1a505c12798ad16bb042d0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/7fd0788a68942923c0c258f4efb43c27f4b96b17"
+        },
+        "date": 1690867169803,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 453347606,
+            "range": "± 6885034",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5433688879,
+            "range": "± 32500962",
             "unit": "ns/iter"
           }
         ]
