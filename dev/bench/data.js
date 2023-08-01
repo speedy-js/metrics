@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690867172974,
+  "lastUpdate": 1690881739793,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34229,6 +34229,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5433688879,
             "range": "± 32500962",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "9bf4bef5e3de0e6eac91632f7e1252f1cd013df7",
+          "message": "feat: create fake namespace object for import context module (#3871)\n\n* feat: create fake namespace object for import context module\n\n* chore: remove debugger\n\n* fix: clippy\n\n* fix: test\n\n* fix: update bitflag",
+          "timestamp": "2023-08-01T08:36:42Z",
+          "tree_id": "dabda6f452dba3bf678cb919e00a7c5d371fcdf1",
+          "url": "https://github.com/web-infra-dev/rspack/commit/9bf4bef5e3de0e6eac91632f7e1252f1cd013df7"
+        },
+        "date": 1690881735216,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 447129095,
+            "range": "± 7237930",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5326511350,
+            "range": "± 32047494",
             "unit": "ns/iter"
           }
         ]
