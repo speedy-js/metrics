@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691054175808,
+  "lastUpdate": 1691064077538,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34445,6 +34445,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5026426041,
             "range": "± 40651253",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "suica@users.noreply.github.com",
+            "name": "Sg",
+            "username": "suica"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70bff71a9a95a476b0eb87efd3142ae5a072a158",
+          "message": "fix: modify Configuration type to support MultiRspackOptions (#3831)\n\n* export Configuration type to support MultiRspackOptions\n\n* add test cases\n\n* add type checking for tests\n\n* add detail cases\n\n* fix ci\n\n* fix",
+          "timestamp": "2023-08-03T11:08:48Z",
+          "tree_id": "18e21b44b0ab6bb6b9525037d785058ca27ef9e7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/70bff71a9a95a476b0eb87efd3142ae5a072a158"
+        },
+        "date": 1691064073772,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 293139323,
+            "range": "± 5499833",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5020792856,
+            "range": "± 28137044",
             "unit": "ns/iter"
           }
         ]
