@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691043593828,
+  "lastUpdate": 1691054175808,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34409,6 +34409,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5038946193,
             "range": "± 36130223",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d05270f8388511d03eb061bc5fde718d478acb92",
+          "message": "feat: add more context for error frame (#3892)\n\n* chore: 🤖 update snapshot\n\n* chore: 🤖 update snapshot",
+          "timestamp": "2023-08-03T08:31:20Z",
+          "tree_id": "19faf3ba5ed1d86523c5e0cb4d5327520ccba567",
+          "url": "https://github.com/web-infra-dev/rspack/commit/d05270f8388511d03eb061bc5fde718d478acb92"
+        },
+        "date": 1691054171461,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 298963579,
+            "range": "± 5139898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5026426041,
+            "range": "± 40651253",
             "unit": "ns/iter"
           }
         ]
