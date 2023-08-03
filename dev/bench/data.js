@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691064077538,
+  "lastUpdate": 1691076710949,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34481,6 +34481,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5020792856,
             "range": "± 28137044",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae352046d1bf7d5a01fe8f7fa5f7f08a41da18f3",
+          "message": "refactor: dependency codegen use exports_info api (#3894)\n\n* refactor: dependency codegen use exports_info api\n\n* fix: clippy\n\n* refactor create_resource_identifier_for_esm_dependency",
+          "timestamp": "2023-08-03T14:44:48Z",
+          "tree_id": "346f3c81de754373b6ac88c02fc1eece509c77e9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ae352046d1bf7d5a01fe8f7fa5f7f08a41da18f3"
+        },
+        "date": 1691076707781,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334468044,
+            "range": "± 6430301",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5147549698,
+            "range": "± 33625685",
             "unit": "ns/iter"
           }
         ]
