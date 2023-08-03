@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691037001883,
+  "lastUpdate": 1691043593828,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34373,6 +34373,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5182063833,
             "range": "± 38078319",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e451b6a1a4d0b1569f2c4d92c4f776baf33a0305",
+          "message": "feat: ExportInfoApiDependency (#3882)\n\n* chore: 🤖 const dep\n\n* chore: 🤖 add dependency\n\n* chore: 🤖 ck point\n\n* chore: 🤖 make the test compile\n\n* chore: 🤖 update test\n\n* chore: 🤖 remove test file\n\n* chore: 🤖 recover\n\n* chore: 🤖 lint\n\n* chore: 🤖 recover",
+          "timestamp": "2023-08-03T05:31:50Z",
+          "tree_id": "2ebd7628a7c64dca4cdfb1e8c778929dbca3965e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e451b6a1a4d0b1569f2c4d92c4f776baf33a0305"
+        },
+        "date": 1691043588037,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 298264405,
+            "range": "± 5981077",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5038946193,
+            "range": "± 36130223",
             "unit": "ns/iter"
           }
         ]
