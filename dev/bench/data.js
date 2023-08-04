@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691145562543,
+  "lastUpdate": 1691148689013,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34589,6 +34589,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4902124750,
             "range": "± 34784187",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "01fa05b8e1f117083fb6ae7212e4091d30c9c683",
+          "message": "revert: \"fix: modify Configuration type to support MultiRspackOptions\" (#3902)\n\nRevert \"fix: modify Configuration type to support MultiRspackOptions (#3831)\"\n\nThis reverts commit 70bff71a9a95a476b0eb87efd3142ae5a072a158.",
+          "timestamp": "2023-08-04T10:42:37Z",
+          "tree_id": "5d0d0ec27480d21bbecc65cdd9ec1f56812f7a42",
+          "url": "https://github.com/web-infra-dev/rspack/commit/01fa05b8e1f117083fb6ae7212e4091d30c9c683"
+        },
+        "date": 1691148685873,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 323012892,
+            "range": "± 6046293",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4916306765,
+            "range": "± 28739993",
             "unit": "ns/iter"
           }
         ]
