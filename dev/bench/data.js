@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691148689013,
+  "lastUpdate": 1691149880694,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34625,6 +34625,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4916306765,
             "range": "± 28739993",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1c18524800f3d7a3e97a83d9c29fe0ce63c28c91",
+          "message": "feat: stats logging, part 2 (#3905)\n\n* part 2\n\n* feat: js side logger\n\n* t\n\n* r\n\n* fix",
+          "timestamp": "2023-08-04T11:05:42Z",
+          "tree_id": "752aa47e02775b0fce8856cf9ef5dd675843f794",
+          "url": "https://github.com/web-infra-dev/rspack/commit/1c18524800f3d7a3e97a83d9c29fe0ce63c28c91"
+        },
+        "date": 1691149877605,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 323333585,
+            "range": "± 6461539",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4919022283,
+            "range": "± 33823594",
             "unit": "ns/iter"
           }
         ]
