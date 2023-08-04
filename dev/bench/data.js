@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691126584553,
+  "lastUpdate": 1691145562543,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34553,6 +34553,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5114079828,
             "range": "± 33948351",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4cd37692cb284c342ce260111c62b08698df7358",
+          "message": "fix(core): add resove failing reason for import in esm file (#3884)\n\n* fix(core): add resove failing reason for import in esm file\n\n* chore: fix snapshot\n\n* chore: debugger ci\n\n* chore: debugger ci\n\n* fix: test\n\n* fix: test\n\n---------\n\nCo-authored-by: underfin <likui6666666@gmail.com>",
+          "timestamp": "2023-08-04T09:52:29Z",
+          "tree_id": "8ee67bd7dd24d47a3f188dcb37f469ce592a11e7",
+          "url": "https://github.com/web-infra-dev/rspack/commit/4cd37692cb284c342ce260111c62b08698df7358"
+        },
+        "date": 1691145558957,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 316326578,
+            "range": "± 6985589",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4902124750,
+            "range": "± 34784187",
             "unit": "ns/iter"
           }
         ]
