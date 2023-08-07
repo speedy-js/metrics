@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691403560342,
+  "lastUpdate": 1691405587163,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34733,6 +34733,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4898664445,
             "range": "± 29276190",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "848a4fea86f280ad97ce4844e05a24597b4771ea",
+          "message": "fix: fix a panic issue of `get_hash` if assertion is failed (#3907)",
+          "timestamp": "2023-08-07T09:01:22Z",
+          "tree_id": "3ffa5f38f07a942bc9251e9bd2878121439f5d63",
+          "url": "https://github.com/web-infra-dev/rspack/commit/848a4fea86f280ad97ce4844e05a24597b4771ea"
+        },
+        "date": 1691405584657,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333605449,
+            "range": "± 6548641",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4907894599,
+            "range": "± 32629083",
             "unit": "ns/iter"
           }
         ]
