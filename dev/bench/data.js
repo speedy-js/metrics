@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691409321187,
+  "lastUpdate": 1691410051167,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34841,6 +34841,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5088789534,
             "range": "± 36366448",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abfd5a07aea282d853c9405e307790744f62edc5",
+          "message": "feat: more generic nested import (#3895)\n\n* chore: 🤖 remove unnecessary better id\r\n\r\n* chore: 🤖 store more generic member expr\r\n\r\n* chore: 🤖 use ctxt instead of context\r\n\r\n* chore: 🤖 store multi level nested import\r\n\r\n* chore: 🤖 add new test case\r\n\r\n* chore: 🤖 finished\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 update snapshot",
+          "timestamp": "2023-08-07T19:43:25+08:00",
+          "tree_id": "b45d16c18bb2f339cd0965a89b0904e300346f67",
+          "url": "https://github.com/web-infra-dev/rspack/commit/abfd5a07aea282d853c9405e307790744f62edc5"
+        },
+        "date": 1691410048617,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 332305876,
+            "range": "± 6578368",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4913705957,
+            "range": "± 32565584",
             "unit": "ns/iter"
           }
         ]
