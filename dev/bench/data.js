@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691149880694,
+  "lastUpdate": 1691392076331,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34661,6 +34661,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4919022283,
             "range": "± 33823594",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "89f4eee897f63d96c397df6b7374080cfe9476f4",
+          "message": "fix: HarmonyImportSpecifierDependency interop should scan `xxx.xxx` (#3910)\n\n* fix: HarmonyImportSpecifierDependency interop should scan `xxx.xxx`\n\n* fix: test",
+          "timestamp": "2023-08-07T04:15:29Z",
+          "tree_id": "b8c99bf36a3bcf6d38383d957e145e4823c3fd71",
+          "url": "https://github.com/web-infra-dev/rspack/commit/89f4eee897f63d96c397df6b7374080cfe9476f4"
+        },
+        "date": 1691392073781,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 354342457,
+            "range": "± 6775435",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5172171632,
+            "range": "± 50051128",
             "unit": "ns/iter"
           }
         ]
