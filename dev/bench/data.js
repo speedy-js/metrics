@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691406810897,
+  "lastUpdate": 1691409321187,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34805,6 +34805,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5096917950,
             "range": "± 33131922",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "840266586a5ef0c13c786add5df98181004b99b6",
+          "message": "test: migrate inner-graph test (#3906)\n\n* chore: 🤖 init\r\n\r\n* chore: 🤖 enable more test",
+          "timestamp": "2023-08-07T19:43:00+08:00",
+          "tree_id": "126dd5604aa9ff51b615c8d06a603a6dd65921f5",
+          "url": "https://github.com/web-infra-dev/rspack/commit/840266586a5ef0c13c786add5df98181004b99b6"
+        },
+        "date": 1691409317838,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 348708405,
+            "range": "± 6371791",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5088789534,
+            "range": "± 36366448",
             "unit": "ns/iter"
           }
         ]
