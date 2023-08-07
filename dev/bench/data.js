@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691405587163,
+  "lastUpdate": 1691406810897,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34769,6 +34769,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4907894599,
             "range": "± 32629083",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui6666666@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc713b53534ae5ece54385c81f0b08134db79e3a",
+          "message": "fix: should generate diffrent name for chunk asset at hmr (#3912)\n\n* fix: should generate diffrent name for chunk asset at hmr\n\n* fix: test",
+          "timestamp": "2023-08-07T10:29:17Z",
+          "tree_id": "13ba5337569f0d38764ff4b69ee19f0dcc1ec67e",
+          "url": "https://github.com/web-infra-dev/rspack/commit/bc713b53534ae5ece54385c81f0b08134db79e3a"
+        },
+        "date": 1691406808387,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 348827257,
+            "range": "± 6425902",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5096917950,
+            "range": "± 33131922",
             "unit": "ns/iter"
           }
         ]
