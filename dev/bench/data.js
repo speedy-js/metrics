@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691392076331,
+  "lastUpdate": 1691403560342,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34697,6 +34697,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5172171632,
             "range": "± 50051128",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2e0e5ffeccbf1d54eebb945585acb4c7715d8e8c",
+          "message": "chore: add deprecate message in rspack-dev-middleware readme (#3911)",
+          "timestamp": "2023-08-07T18:07:17+08:00",
+          "tree_id": "73e764b26f177a2ee00c208e692dc01f65dc5114",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2e0e5ffeccbf1d54eebb945585acb4c7715d8e8c"
+        },
+        "date": 1691403554250,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 335229986,
+            "range": "± 5515622",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4898664445,
+            "range": "± 29276190",
             "unit": "ns/iter"
           }
         ]
