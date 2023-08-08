@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691482679315,
+  "lastUpdate": 1691484751389,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34913,6 +34913,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5058320873,
             "range": "± 38030552",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e2f9aa1dfcc61382d9e3f33f6ba5cf2bcbac3dad",
+          "message": "feat: support minifyOptions.asciiOnly (#3915)\n\n* feat: support asciiOnly\n\n* fix: support asciiOnly\n\n* fix: remove useless code\n\n* chore: apply asciiOnly default value in js side\n\n* fix: update snapshot",
+          "timestamp": "2023-08-08T08:04:54Z",
+          "tree_id": "2a8c4ecebeb53458ba609607106cb8e45663cc72",
+          "url": "https://github.com/web-infra-dev/rspack/commit/e2f9aa1dfcc61382d9e3f33f6ba5cf2bcbac3dad"
+        },
+        "date": 1691484748257,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 344849078,
+            "range": "± 6293047",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5073311159,
+            "range": "± 39784842",
             "unit": "ns/iter"
           }
         ]
