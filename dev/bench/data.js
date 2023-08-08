@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691484751389,
+  "lastUpdate": 1691486252928,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34949,6 +34949,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5073311159,
             "range": "± 39784842",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ecc70e39be642b8ddb6cd8e8712dde529d2014c0",
+          "message": "feat: add more logger.time in plugins (#3916)\n\n* feat: add more logger.time in plugins\n\n* update snapshot",
+          "timestamp": "2023-08-08T08:23:04Z",
+          "tree_id": "8af06da5e67cc2e450315b53c2138fae834048e9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/ecc70e39be642b8ddb6cd8e8712dde529d2014c0"
+        },
+        "date": 1691486249862,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 351045371,
+            "range": "± 6324318",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5148690021,
+            "range": "± 37942338",
             "unit": "ns/iter"
           }
         ]
