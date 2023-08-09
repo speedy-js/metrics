@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691486252928,
+  "lastUpdate": 1691574165018,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -34985,6 +34985,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5148690021,
             "range": "± 37942338",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "0961d3f40c2f887988a333c9ae2d91c52f2462cd",
+          "message": "fix: css compilation should fail if `experiments.css` sets to off (#3430)\n\nfix: compilation should be fail if experiments css is off",
+          "timestamp": "2023-08-09T08:33:37Z",
+          "tree_id": "f73c52a04bf2904010b260e4c7bbf60ac87b32b3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0961d3f40c2f887988a333c9ae2d91c52f2462cd"
+        },
+        "date": 1691574162185,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333616739,
+            "range": "± 6219921",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4902961232,
+            "range": "± 40630654",
             "unit": "ns/iter"
           }
         ]
