@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691656691616,
+  "lastUpdate": 1691659782069,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35273,6 +35273,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4911826972,
             "range": "± 37466587",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ff053b9d378dfed23e7a76ce71b4227aa11f7f6",
+          "message": "perf: reduce `compilation.getAssets` overhead (#3934)",
+          "timestamp": "2023-08-10T08:41:29Z",
+          "tree_id": "9d9839b09b71958b9287e1632d7e45709019da63",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0ff053b9d378dfed23e7a76ce71b4227aa11f7f6"
+        },
+        "date": 1691659779070,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 336210550,
+            "range": "± 6098007",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4937281631,
+            "range": "± 31022756",
             "unit": "ns/iter"
           }
         ]
