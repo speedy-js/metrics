@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691646700057,
+  "lastUpdate": 1691655965965,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35201,6 +35201,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5142049630,
             "range": "± 40188982",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "9aoyuao@gmail.com",
+            "name": "gaoyuan",
+            "username": "9aoy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "873a204d0420c79eef18d6fef3396d4c4f6b4635",
+          "message": "feat: support minifyOptions.comments (#3927)\n\n* feat: support minifyOptions.comments\n\n* fix: add test case\n\n* fix: test case",
+          "timestamp": "2023-08-10T07:27:50Z",
+          "tree_id": "0c7a2481f1bb2649c91065a8579bca375b05eab2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/873a204d0420c79eef18d6fef3396d4c4f6b4635"
+        },
+        "date": 1691655963121,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 343927607,
+            "range": "± 7047792",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4989186646,
+            "range": "± 34304904",
             "unit": "ns/iter"
           }
         ]
