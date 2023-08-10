@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691664581401,
+  "lastUpdate": 1691678111501,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35345,6 +35345,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4929519939,
             "range": "± 31640080",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f98237c1b0974c917e265523a6b083ba58b3ef8",
+          "message": "fix(core): remove webpack-dev-server from @rspack/core (#3938)",
+          "timestamp": "2023-08-10T13:48:42Z",
+          "tree_id": "545596cd85d0c352371c4416b22c08a414d13261",
+          "url": "https://github.com/web-infra-dev/rspack/commit/2f98237c1b0974c917e265523a6b083ba58b3ef8"
+        },
+        "date": 1691678108065,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 344145095,
+            "range": "± 6478708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5093488781,
+            "range": "± 35643922",
             "unit": "ns/iter"
           }
         ]
