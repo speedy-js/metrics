@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691600721683,
+  "lastUpdate": 1691643166640,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35093,6 +35093,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4887783032,
             "range": "± 31257327",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70a0b4d857a42fee950cd67d3d7305717391ccc9",
+          "message": "fix: tree shaking visit dynamic prop (#3929)\n\n* fix: 🐛 regression, missing visit computed prop\n\n* chore: 🤖 update test case\n\n* chore: 🤖 recover test",
+          "timestamp": "2023-08-10T03:34:44Z",
+          "tree_id": "cc5789704e9dcf09567c95cbe7103811a4aa115f",
+          "url": "https://github.com/web-infra-dev/rspack/commit/70a0b4d857a42fee950cd67d3d7305717391ccc9"
+        },
+        "date": 1691643164112,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331119228,
+            "range": "± 6125642",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4916945324,
+            "range": "± 38894189",
             "unit": "ns/iter"
           }
         ]
