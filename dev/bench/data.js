@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691659782069,
+  "lastUpdate": 1691664581401,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35309,6 +35309,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4937281631,
             "range": "± 31022756",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "467e61198cd85f3ff9e52a9cab7417bf99dc7277",
+          "message": "chore: add close-issues bot (#3935)\n\n* chore: add close-issues bot\n\n* Update .github/issue-close-require.yml\n\nCo-authored-by: neverland <chenjiahan.jait@bytedance.com>\n\n---------\n\nCo-authored-by: neverland <chenjiahan.jait@bytedance.com>",
+          "timestamp": "2023-08-10T09:58:44Z",
+          "tree_id": "f2eb636951b7d6623f68f41e7d4a143d699c39f0",
+          "url": "https://github.com/web-infra-dev/rspack/commit/467e61198cd85f3ff9e52a9cab7417bf99dc7277"
+        },
+        "date": 1691664578836,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334353483,
+            "range": "± 6890578",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4929519939,
+            "range": "± 31640080",
             "unit": "ns/iter"
           }
         ]
