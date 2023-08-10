@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691643908385,
+  "lastUpdate": 1691646700057,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35165,6 +35165,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5074405989,
             "range": "± 38312897",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5990d5e5147b065517844b9a42b0b66297b36c57",
+          "message": "chore: nest example support hmr (#3930)",
+          "timestamp": "2023-08-10T05:07:22Z",
+          "tree_id": "3dfa3629680422b634379f2cfd3e01696cc42d38",
+          "url": "https://github.com/web-infra-dev/rspack/commit/5990d5e5147b065517844b9a42b0b66297b36c57"
+        },
+        "date": 1691646695157,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 355184783,
+            "range": "± 7639300",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5142049630,
+            "range": "± 40188982",
             "unit": "ns/iter"
           }
         ]
