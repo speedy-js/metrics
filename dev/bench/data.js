@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691655965965,
+  "lastUpdate": 1691656691616,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35237,6 +35237,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4989186646,
             "range": "± 34304904",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ldh71777@gmail.com",
+            "name": "kyli",
+            "username": "KyrieLii"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "42aabad498dc2a80ce1878778f24d79d1440bbc7",
+          "message": "fix: umd externals assets error (#3933)\n\nfix: umd externals asset error",
+          "timestamp": "2023-08-10T07:34:30Z",
+          "tree_id": "b6624731480c760edc161b4d6cf633a1326c21a9",
+          "url": "https://github.com/web-infra-dev/rspack/commit/42aabad498dc2a80ce1878778f24d79d1440bbc7"
+        },
+        "date": 1691656688539,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 335524297,
+            "range": "± 6105035",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4911826972,
+            "range": "± 37466587",
             "unit": "ns/iter"
           }
         ]
