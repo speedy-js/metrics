@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691643166640,
+  "lastUpdate": 1691643908385,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35129,6 +35129,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4916945324,
             "range": "± 38894189",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56f1d6242e501bbdba57d5a59349770a61db80c7",
+          "message": "fix: import export all as is empty module (#3904)\n\n* chore: 🤖 init test\r\n\r\n* chore: 🤖 update snapshot\r\n\r\n* chore: 🤖 update snap\r\n\r\n* chore: 🤖 lint\r\n\r\n* chore: 🤖 update snapshot",
+          "timestamp": "2023-08-10T12:48:10+08:00",
+          "tree_id": "500ee835dc526a63923f5d44846b66b8f9726a54",
+          "url": "https://github.com/web-infra-dev/rspack/commit/56f1d6242e501bbdba57d5a59349770a61db80c7"
+        },
+        "date": 1691643905853,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 348181102,
+            "range": "± 6059199",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5074405989,
+            "range": "± 38312897",
             "unit": "ns/iter"
           }
         ]
