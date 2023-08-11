@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691678111501,
+  "lastUpdate": 1691744607847,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35381,6 +35381,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5093488781,
             "range": "± 35643922",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc0b94ed97d6ab530c862ad88879fb5a5e37f4a3",
+          "message": "feat: support more predefined processAssets stage on js side (#3942)\n\n* feat: add more process assets stage hooks\n\n* add test",
+          "timestamp": "2023-08-11T08:19:47Z",
+          "tree_id": "51fdcb64fa346aca32e24c080492a6cd212348d3",
+          "url": "https://github.com/web-infra-dev/rspack/commit/bc0b94ed97d6ab530c862ad88879fb5a5e37f4a3"
+        },
+        "date": 1691744605304,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 337717016,
+            "range": "± 5776578",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4946525941,
+            "range": "± 32251301",
             "unit": "ns/iter"
           }
         ]
