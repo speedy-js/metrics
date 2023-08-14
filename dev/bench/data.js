@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691984947521,
+  "lastUpdate": 1691998837528,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35453,6 +35453,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5098596121,
             "range": "± 36753089",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "20857452b744bf728bdb187415375ddeba9506c7",
+          "message": "fix: nested import follow a export all symbol (#3947)\n\nchore: 🤖 init",
+          "timestamp": "2023-08-14T06:49:24Z",
+          "tree_id": "12b527af83cb301113aae08f0fb1b18c3b5239d4",
+          "url": "https://github.com/web-infra-dev/rspack/commit/20857452b744bf728bdb187415375ddeba9506c7"
+        },
+        "date": 1691998834594,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 350173998,
+            "range": "± 6365064",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5119517158,
+            "range": "± 31723036",
             "unit": "ns/iter"
           }
         ]
