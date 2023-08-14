@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691744607847,
+  "lastUpdate": 1691984947521,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35417,6 +35417,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4946525941,
             "range": "± 32251301",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yangjianzju@gmail.com",
+            "name": "hardfist",
+            "username": "hardfist"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0c207b378054e6d469eb82d88ecfc3dad4976eb6",
+          "message": "fix(core): fix missing source_info in esm module error (#3899)\n\n* fix(core): fix missing source_info in esm module error\n\n* chore: update snapshot",
+          "timestamp": "2023-08-14T03:00:27Z",
+          "tree_id": "79cd19e51e516b7d535f8fead622db8ff9beb675",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0c207b378054e6d469eb82d88ecfc3dad4976eb6"
+        },
+        "date": 1691984944779,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 346696231,
+            "range": "± 6517323",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5098596121,
+            "range": "± 36753089",
             "unit": "ns/iter"
           }
         ]
