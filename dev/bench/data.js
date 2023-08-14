@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692007285187,
+  "lastUpdate": 1692020776692,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35561,6 +35561,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4964970914,
             "range": "± 33888078",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16fb72d7e9c6241904f1f96723af3e2ff2cc2a6f",
+          "message": "fix: nested import with export imported dependency (#3951)\n\n* chore: 🤖 fix nested import\n\n* chore: 🤖 recover\n\n* chore: 🤖 rm comments\n\n* chore: 🤖 lint",
+          "timestamp": "2023-08-14T12:54:49Z",
+          "tree_id": "17effe025d5c6505078f689809ae327045f89d86",
+          "url": "https://github.com/web-infra-dev/rspack/commit/16fb72d7e9c6241904f1f96723af3e2ff2cc2a6f"
+        },
+        "date": 1692020774118,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 333585562,
+            "range": "± 7176049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4932981818,
+            "range": "± 36469529",
             "unit": "ns/iter"
           }
         ]
