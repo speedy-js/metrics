@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692086553826,
+  "lastUpdate": 1692089821011,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35705,6 +35705,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4934725196,
             "range": "± 35602831",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10ced7f45b7a3f9df4072451d5162d8ce45d9a68",
+          "message": "chore: move binding utils (#3964)",
+          "timestamp": "2023-08-15T08:04:03Z",
+          "tree_id": "51863ebb47e268011b9754b8b900238b39e68a63",
+          "url": "https://github.com/web-infra-dev/rspack/commit/10ced7f45b7a3f9df4072451d5162d8ce45d9a68"
+        },
+        "date": 1692089818265,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 334559858,
+            "range": "± 5406398",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5078668701,
+            "range": "± 31591616",
             "unit": "ns/iter"
           }
         ]
