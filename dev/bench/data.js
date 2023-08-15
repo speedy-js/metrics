@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692083985596,
+  "lastUpdate": 1692086553826,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35669,6 +35669,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5112372796,
             "range": "± 33760346",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ahabhgk@gmail.com",
+            "name": "Gengkun",
+            "username": "ahabhgk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0987a0d1f2f13b2531206625af0e4d05546e718c",
+          "message": "feat: add profile switch in cli (#3937)\n\n* feat: add profile switch in cli\n\n* ci\n\n* refactor query\n\n* test\n\n* back lock\n\n* fix\n\n* fix\n\n* try\n\n* fix\n\n* fix test\n\n* fix lock",
+          "timestamp": "2023-08-15T07:09:34Z",
+          "tree_id": "13f4bd2de02ffc47d576d2266d7bd2c183df7f3d",
+          "url": "https://github.com/web-infra-dev/rspack/commit/0987a0d1f2f13b2531206625af0e4d05546e718c"
+        },
+        "date": 1692086550758,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 326983473,
+            "range": "± 6250195",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4934725196,
+            "range": "± 35602831",
             "unit": "ns/iter"
           }
         ]
