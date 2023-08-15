@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692020776692,
+  "lastUpdate": 1692075974868,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35597,6 +35597,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4932981818,
             "range": "± 36469529",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a7aa5448a5457f9f0dcbdaf893b402a0616dfea4",
+          "message": "revert: \"chore: normalize filename\" (#3957)\n\nRevert \"chore: normalize filename (#3946)\"\n\nThis reverts commit 53f5bfa30b884071427f18f2bf98ef1a4913310c.",
+          "timestamp": "2023-08-15T04:19:54Z",
+          "tree_id": "d1ac2444835f13640e8d636a326f63af79c689c2",
+          "url": "https://github.com/web-infra-dev/rspack/commit/a7aa5448a5457f9f0dcbdaf893b402a0616dfea4"
+        },
+        "date": 1692075971747,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 337675119,
+            "range": "± 6339834",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4942294388,
+            "range": "± 34229692",
             "unit": "ns/iter"
           }
         ]
