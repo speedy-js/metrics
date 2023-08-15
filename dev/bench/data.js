@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692089821011,
+  "lastUpdate": 1692101504443,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -35741,6 +35741,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5078668701,
             "range": "± 31591616",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "francesco.benedetto263@gmail.com",
+            "name": "Francesco Benedetto",
+            "username": "nebarf"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8aa969c926fbeab1d4c3fec592af7967ea2fc874",
+          "message": "feat(chunkIds): support `optimization.chunkIds: 'deterministic'` (#3053)\n\nCo-authored-by: YunfeiHe <i.heyunfei@gmail.com>",
+          "timestamp": "2023-08-15T11:18:42Z",
+          "tree_id": "3e4a23b20d8bb2e0916e652386ecf132b6d95f95",
+          "url": "https://github.com/web-infra-dev/rspack/commit/8aa969c926fbeab1d4c3fec592af7967ea2fc874"
+        },
+        "date": 1692101499783,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 330569622,
+            "range": "± 6808308",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4949902739,
+            "range": "± 31272016",
             "unit": "ns/iter"
           }
         ]
