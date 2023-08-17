@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692254063295,
+  "lastUpdate": 1692258315428,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -36029,6 +36029,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 4975495185,
             "range": "± 46112566",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "489435760@qq.com",
+            "name": "lipp",
+            "username": "lippzhang"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "17010580850d3c6d1ac84747e222db030a181c2d",
+          "message": "feat(core): expose `RuntimeGlobals` (#3973)\n\n* feat(core): expose runTimeGlobals\n\n* Delete runtimeGlobals.ts\n\n---------\n\nCo-authored-by: Hana <andywangsy@gmail.com>",
+          "timestamp": "2023-08-17T06:49:02Z",
+          "tree_id": "8b2abc57b726b645b3a1f87829b52b3ad418193b",
+          "url": "https://github.com/web-infra-dev/rspack/commit/17010580850d3c6d1ac84747e222db030a181c2d"
+        },
+        "date": 1692258312871,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 353408785,
+            "range": "± 6048576",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 5181375072,
+            "range": "± 38680043",
             "unit": "ns/iter"
           }
         ]
