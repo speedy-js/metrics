@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692258315428,
+  "lastUpdate": 1692269392579,
   "repoUrl": "https://github.com/web-infra-dev/rspack",
   "entries": {
     "Rust Benchmark": [
@@ -36065,6 +36065,42 @@ window.BENCHMARK_DATA = {
             "name": "high_cost_benchmark/ten_copy_of_threejs_production",
             "value": 5181375072,
             "range": "± 38680043",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andywangsy@gmail.com",
+            "name": "Hana",
+            "username": "h-a-n-a"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f32fb9638385fcdb90eaae497f25e97ac3566cc9",
+          "message": "feat: support dispatching builtin loaders on Node (#3980)\n\n* feat: init\n\n* feat: dispatch loader on Node if JS loader exists\n\n* chore: restore loader example\n\n* chore: add comment\n\n* chore: restore method name\n\n* chore: lint\n\n* chore: l\n\n* fix: test cases\n\n* perf: avoid clone",
+          "timestamp": "2023-08-17T10:06:32Z",
+          "tree_id": "38da354f8ecf1720a58dbbee3b684f74f2938c52",
+          "url": "https://github.com/web-infra-dev/rspack/commit/f32fb9638385fcdb90eaae497f25e97ac3566cc9"
+        },
+        "date": 1692269389946,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "criterion_benchmark/ten_copy_of_threejs",
+            "value": 331848234,
+            "range": "± 5371542",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "high_cost_benchmark/ten_copy_of_threejs_production",
+            "value": 4933812519,
+            "range": "± 40766415",
             "unit": "ns/iter"
           }
         ]
